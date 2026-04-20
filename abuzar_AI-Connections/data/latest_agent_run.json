@@ -1,0 +1,515 @@
+{
+  "accepted": [
+    {
+      "id": "a91f61aae64c",
+      "category": "Words that are also tennis terms",
+      "difficulty": "medium",
+      "words": [
+        "LOVE",
+        "FAULT",
+        "BREAK",
+        "SMASH"
+      ],
+      "explanation": "Each common word is also a term used in tennis.",
+      "mechanism_family": "double_identity",
+      "concept_key": "double_identity_tennis_terms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    }
+  ],
+  "rejected": [
+    {
+      "group": {
+        "id": "605414ecb1f0",
+        "category": "Sesame Street characters",
+        "difficulty": "easy",
+        "words": [
+          "ELMO",
+          "BERT",
+          "ERNIE",
+          "GROVER"
+        ],
+        "explanation": "All four are Muppet characters from Sesame Street.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "sesame_street_characters",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its category: Sesame Street characters."
+      ],
+      "stage": "local_group_validator"
+    },
+    {
+      "group": {
+        "id": "3c0629b11b24",
+        "category": "Greek goddesses",
+        "difficulty": "easy",
+        "words": [
+          "HERA",
+          "ATHENA",
+          "ARTEMIS",
+          "DEMETER"
+        ],
+        "explanation": "Each is a goddess in Greek mythology.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "greek_goddesses",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its category: Greek goddesses."
+      ],
+      "stage": "local_group_validator"
+    },
+    {
+      "group": {
+        "id": "b936b7a82086",
+        "category": "Necklines",
+        "difficulty": "medium",
+        "words": [
+          "CREW",
+          "SCOOP",
+          "HALTER",
+          "BOAT"
+        ],
+        "explanation": "Each is a style of clothing neckline.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "necklines_clothing",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its concept_key: necklines_clothing."
+      ],
+      "stage": "local_group_validator"
+    },
+    {
+      "group": {
+        "id": "27046dbbffc4",
+        "category": "Subatomic particles",
+        "difficulty": "medium",
+        "words": [
+          "QUARK",
+          "MUON",
+          "BOSON",
+          "LEPTON"
+        ],
+        "explanation": "Each is a type of subatomic particle.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "subatomic_particles",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its category: Subatomic particles."
+      ],
+      "stage": "local_group_validator"
+    },
+    {
+      "group": {
+        "id": "c859a6b99b19",
+        "category": "Asian capitals",
+        "difficulty": "medium",
+        "words": [
+          "HANOI",
+          "SEOUL",
+          "MANILA",
+          "TOKYO"
+        ],
+        "explanation": "Each is the capital city of an Asian country.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "asian_capital_cities",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its concept_key: asian_capital_cities."
+      ],
+      "stage": "local_group_validator"
+    },
+    {
+      "group": {
+        "id": "26a0314c4109",
+        "category": "Compound words starting with SUN",
+        "difficulty": "medium",
+        "words": [
+          "FLOWER",
+          "BURN",
+          "SET",
+          "SHINE"
+        ],
+        "explanation": "Each follows SUN to form a common compound: SUNFLOWER, SUNBURN, SUNSET, SUNSHINE.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_after_sun",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its category: Compound words starting with SUN."
+      ],
+      "stage": "local_group_validator"
+    },
+    {
+      "group": {
+        "id": "5f084082f30e",
+        "category": "Bands with a number in the name",
+        "difficulty": "medium",
+        "words": [
+          "BLINK",
+          "MAROON",
+          "MATCHBOX",
+          "UB"
+        ],
+        "explanation": "Each is a band whose name includes a number: Blink-182, Maroon 5, Matchbox Twenty, UB40.",
+        "mechanism_family": "shared_property",
+        "concept_key": "bands_containing_numbers",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its category: Bands with a number in the name."
+      ],
+      "stage": "local_group_validator"
+    },
+    {
+      "group": {
+        "id": "566ab4339c80",
+        "category": "Words hiding a metal",
+        "difficulty": "tricky",
+        "words": [
+          "STIRON",
+          "SCOPPER",
+          "BLEAD",
+          "PLATINUM"
+        ],
+        "explanation": "Each word contains the letters of a metal: IRON, COPPER, LEAD, TIN (within PLATINUM).",
+        "mechanism_family": "spelling",
+        "concept_key": "spelling_hidden_metals",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "STIRON contains IRON \u2014 plausible but 'STIRON' is not a real English word, making it an invented/fake word.",
+        "SCOPPER contains COPPER \u2014 'SCOPPER' is not a standard common English word.",
+        "BLEAD contains LEAD \u2014 'BLEAD' is not a real English word.",
+        "PLATINUM contains TIN \u2014 this works, but the other three words are fabricated, making the group unusable.",
+        "The mechanism requires real, common English words hiding the metal; inventing words to fit is a disqualifying flaw."
+      ],
+      "stage": "group_auditor"
+    },
+    {
+      "group": {
+        "id": "99688e8f4424",
+        "category": "Remove the last letter to get a color",
+        "difficulty": "hard",
+        "words": [
+          "REDO",
+          "BLUES",
+          "PINKY",
+          "TANS"
+        ],
+        "explanation": "Drop the final letter to get RED, BLUE, PINK, TAN.",
+        "mechanism_family": "transformation",
+        "concept_key": "drop_last_letter_color",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "REDO \u2192 RED works cleanly.",
+        "BLUES \u2192 BLUE works cleanly.",
+        "PINKY \u2192 PINK works cleanly.",
+        "TANS \u2192 TAN works cleanly.",
+        "However, REDO dropping the last letter gives RED, but REDO is a common word meaning 'do again' \u2014 the transformation is valid mechanically.",
+        "The real issue: 'Remove the last letter to get a body part' already exists as a verified group (drop_last_letter_body_part). This group is a direct renamed repeat of that mechanism with a different category (color instead of body part). Per rules, renamed repeats of the same mechanism family are borderline, but the concept_key is distinct (drop_last_letter_color vs drop_last_letter_body_part).",
+        "Actually on closer review, the mechanism is identical to the existing verified group 'Remove the last letter to get a body part' \u2014 just swapping the target category. This is a renamed repeat and should be rejected to avoid puzzle overlap and staleness.",
+        "Additionally REDO\u2192RED: REDO ends in O, removing gives RED \u2713. BLUES\u2192BLUE \u2713. PINKY\u2192PINK \u2713. TANS\u2192TAN \u2713. Mechanically all four work, but the concept is a direct clone of an existing verified group."
+      ],
+      "stage": "group_auditor"
+    },
+    {
+      "group": {
+        "id": "639a6b416a31",
+        "category": "Homophones of body parts",
+        "difficulty": "tricky",
+        "words": [
+          "MUSSEL",
+          "HAIR",
+          "WAIST",
+          "NAVAL"
+        ],
+        "explanation": "Each sounds like a body part: muscle, hare->hair (hair itself), waist->waist, navel.",
+        "mechanism_family": "sound",
+        "concept_key": "sound_homophones_body_parts",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "MUSSEL \u2192 MUSCLE: valid homophone of a body part \u2713.",
+        "HAIR: HAIR itself IS a body part \u2014 it is not a homophone OF a body part, it IS the body part. This breaks the rule; the word must sound like a body part but not be the body part itself.",
+        "WAIST \u2192 WASTE: WAIST is the body part, not a homophone of one. Same problem as HAIR \u2014 WAIST is the actual body part spelling.",
+        "NAVAL \u2192 NAVEL: valid homophone \u2713.",
+        "Two of the four words (HAIR, WAIST) are the actual body-part words, not homophones of them. The category claims they are homophones, which is false for these two."
+      ],
+      "stage": "group_auditor"
+    }
+  ],
+  "trace": [
+    {
+      "agent": "Group Generator",
+      "status": "complete",
+      "summary": "Eleven varied candidate groups across mechanisms and difficulties.",
+      "duration_seconds": 18.46,
+      "details": {
+        "raw_excerpt": "{\n  \"summary\": \"Eleven varied candidate groups across mechanisms and difficulties.\",\n  \"groups\": [\n    {\n      \"category\": \"Sesame Street characters\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"sesame_street_characters\",\n      \"words\": [\"ELMO\", \"BERT\", \"ERNIE\", \"GROVER\"],\n      \"explanation\": \"All four are Muppet characters from Sesame Street.\"\n    },\n    {\n      \"category\": \"Greek goddesses\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"greek_goddesses\",\n      \"words\": [\"HERA\", \"ATHENA\", \"ARTEMIS\", \"DEMETER\"],\n      \"explanation\": \"Each is a goddess in Greek mythology.\"\n    },\n    {\n      \"category\": \"Necklines\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"necklines_clothing\",\n      \"words\": [\"CREW\", \"SCOOP\", \"HALTER\", \"BOAT\"],\n      \"explanat",
+        "json_retry_count": 0,
+        "model": "claude-opus-4-7"
+      }
+    },
+    {
+      "agent": "Local Group Validator",
+      "status": "complete",
+      "summary": "Kept 4 candidate group(s), rejected 7 before audit.",
+      "duration_seconds": 0,
+      "details": {
+        "rejected": [
+          {
+            "group": {
+              "id": "605414ecb1f0",
+              "category": "Sesame Street characters",
+              "difficulty": "easy",
+              "words": [
+                "ELMO",
+                "BERT",
+                "ERNIE",
+                "GROVER"
+              ],
+              "explanation": "All four are Muppet characters from Sesame Street.",
+              "mechanism_family": "semantic_set",
+              "concept_key": "sesame_street_characters",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its category: Sesame Street characters."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "3c0629b11b24",
+              "category": "Greek goddesses",
+              "difficulty": "easy",
+              "words": [
+                "HERA",
+                "ATHENA",
+                "ARTEMIS",
+                "DEMETER"
+              ],
+              "explanation": "Each is a goddess in Greek mythology.",
+              "mechanism_family": "semantic_set",
+              "concept_key": "greek_goddesses",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its category: Greek goddesses."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "b936b7a82086",
+              "category": "Necklines",
+              "difficulty": "medium",
+              "words": [
+                "CREW",
+                "SCOOP",
+                "HALTER",
+                "BOAT"
+              ],
+              "explanation": "Each is a style of clothing neckline.",
+              "mechanism_family": "semantic_set",
+              "concept_key": "necklines_clothing",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its concept_key: necklines_clothing."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "27046dbbffc4",
+              "category": "Subatomic particles",
+              "difficulty": "medium",
+              "words": [
+                "QUARK",
+                "MUON",
+                "BOSON",
+                "LEPTON"
+              ],
+              "explanation": "Each is a type of subatomic particle.",
+              "mechanism_family": "semantic_set",
+              "concept_key": "subatomic_particles",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its category: Subatomic particles."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "c859a6b99b19",
+              "category": "Asian capitals",
+              "difficulty": "medium",
+              "words": [
+                "HANOI",
+                "SEOUL",
+                "MANILA",
+                "TOKYO"
+              ],
+              "explanation": "Each is the capital city of an Asian country.",
+              "mechanism_family": "semantic_set",
+              "concept_key": "asian_capital_cities",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its concept_key: asian_capital_cities."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "26a0314c4109",
+              "category": "Compound words starting with SUN",
+              "difficulty": "medium",
+              "words": [
+                "FLOWER",
+                "BURN",
+                "SET",
+                "SHINE"
+              ],
+              "explanation": "Each follows SUN to form a common compound: SUNFLOWER, SUNBURN, SUNSET, SUNSHINE.",
+              "mechanism_family": "phrase_completion",
+              "concept_key": "phrase_after_sun",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its category: Compound words starting with SUN."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "5f084082f30e",
+              "category": "Bands with a number in the name",
+              "difficulty": "medium",
+              "words": [
+                "BLINK",
+                "MAROON",
+                "MATCHBOX",
+                "UB"
+              ],
+              "explanation": "Each is a band whose name includes a number: Blink-182, Maroon 5, Matchbox Twenty, UB40.",
+              "mechanism_family": "shared_property",
+              "concept_key": "bands_containing_numbers",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its category: Bands with a number in the name."
+            ],
+            "stage": "local_group_validator"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Group Auditor",
+      "status": "complete",
+      "summary": "Two groups have clear mechanical flaws; two are solid and approvable.",
+      "duration_seconds": 19.25,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Two groups have clear mechanical flaws; two are solid and approvable.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": false,\n      \"score\": 2,\n      \"issues\": [\n        \"STIRON contains IRON \u2014 plausible but 'STIRON' is not a real English word, making it an invented/fake word.\",\n        \"SCOPPER contains COPPER \u2014 'SCOPPER' is not a standard common English word.\",\n        \"BLEAD contains LEAD \u2014 'BLEAD' is not a real English word.\",\n        \"PLATINUM contains TIN \u2014 this works, but the other three words are fabricated, making the group unusable.\",\n        \"The mechanism requires real, common English words hiding the metal; inventing words to fit is a disqualifying flaw.\"\n      ],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 3,\n      \"issues\": [\n        \"REDO \u2192 RED works cleanly.\",\n        \"BLUES \u2192 BLUE ",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Group Orchestrator",
+      "status": "complete",
+      "summary": "Accepted 1 verified group(s), rejected 10.",
+      "duration_seconds": 0,
+      "details": {
+        "target_count": 3,
+        "candidate_count": 11,
+        "locally_screened": 4,
+        "saved": false,
+        "bank_total": 63
+      }
+    }
+  ],
+  "saved": true,
+  "bank_total": 25,
+  "group_bank_total": 64
+}

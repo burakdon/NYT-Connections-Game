@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160" role="img" aria-labelledby="title desc">
+  <title id="title">Agent network</title>
+  <desc id="desc">Five connected agent nodes sending a puzzle into a grid.</desc>
+  <rect width="280" height="160" rx="8" fill="#f5f7f8"/>
+  <path d="M52 48 L112 36 L160 70 L116 112 L62 100" fill="none" stroke="#202124" stroke-width="4"/>
+  <path d="M160 70 L222 44 M160 70 L222 116" fill="none" stroke="#202124" stroke-width="4"/>
+  <circle cx="52" cy="48" r="18" fill="#f2c94c" stroke="#202124" stroke-width="4"/>
+  <circle cx="112" cy="36" r="18" fill="#6fcf97" stroke="#202124" stroke-width="4"/>
+  <circle cx="160" cy="70" r="18" fill="#56ccf2" stroke="#202124" stroke-width="4"/>
+  <circle cx="116" cy="112" r="18" fill="#eb5757" stroke="#202124" stroke-width="4"/>
+  <circle cx="62" cy="100" r="18" fill="#bb6bd9" stroke="#202124" stroke-width="4"/>
+  <rect x="208" y="30" width="48" height="48" rx="6" fill="#ffffff" stroke="#202124" stroke-width="4"/>
+  <rect x="208" y="88" width="48" height="48" rx="6" fill="#ffffff" stroke="#202124" stroke-width="4"/>
+  <path d="M220 46 H244 M220 62 H244 M220 104 H244 M220 120 H244" stroke="#202124" stroke-width="4" stroke-linecap="round"/>
+</svg>
+

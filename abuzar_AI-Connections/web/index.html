@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connection Forge</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <img src="/assets/agent-network.svg" alt="" class="brand-art">
+        <div>
+          <h1>Connection Forge</h1>
+          <p id="bankStatus">Loading puzzle bank...</p>
+        </div>
+      </div>
+      <nav class="tabs" aria-label="Main sections">
+        <button class="tab is-active" data-tab="play">Play</button>
+        <button class="tab" data-tab="generate">Generate</button>
+        <button class="tab" data-tab="lab">Agent Lab</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="play" class="panel is-active" aria-labelledby="playTitle">
+        <div class="game-head">
+          <div>
+            <h2 id="playTitle">Find four groups of four.</h2>
+            <p id="gameMessage">Choose four words, then submit.</p>
+          </div>
+          <div class="mistakes" aria-live="polite">
+            <span>Mistakes</span>
+            <strong id="mistakeCount">0 / 4</strong>
+          </div>
+        </div>
+
+        <div id="solvedGroups" class="solved-groups" aria-live="polite"></div>
+        <div id="board" class="board" aria-label="Puzzle words"></div>
+
+        <div class="actions">
+          <button id="submitGuess" class="primary">Submit</button>
+          <button id="shuffleWords">Shuffle</button>
+          <button id="clearSelection">Clear</button>
+          <button id="newPuzzle">New Puzzle</button>
+        </div>
+      </section>
+
+      <section id="generate" class="panel" aria-labelledby="generateTitle">
+        <div class="section-head">
+          <h2 id="generateTitle">Generate groups.</h2>
+          <p>Create reusable category groups, then build playable puzzles from approved groups.</p>
+        </div>
+
+        <div class="group-rules">
+          <strong>Group rules</strong>
+          <span>Exactly four words, one clean category, inspiration only, no copied concepts, no scratch explanations, and no fake wordplay.</span>
+        </div>
+
+        <form id="groupGenerateForm" class="generator-form">
+          <label>
+            Count
+            <input id="groupGenerateCount" type="number" min="1" max="24" value="3">
+          </label>
+          <label>
+            Difficulty
+            <select id="groupGenerateDifficulty">
+              <option value="mixed">Mixed</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+              <option value="tricky">Tricky</option>
+            </select>
+          </label>
+          <label>
+            Theme
+            <input id="groupGenerateTheme" type="text" placeholder="optional, like campus life">
+          </label>
+          <label class="checkbox-row">
+            <input id="saveGeneratedGroups" type="checkbox" checked>
+            Save approved groups
+          </label>
+          <button class="primary" type="submit">Generate Groups</button>
+        </form>
+
+        <div id="groupGenerateResult" class="result-box" role="status">
+          Add `ANTHROPIC_API_KEY` to `.env.local`, then generate groups.
+        </div>
+
+        <div class="section-head build-head">
+          <h2>Build puzzles.</h2>
+          <p>Assemble playable boards from the verified group bank.</p>
+        </div>
+
+        <form id="generateForm" class="generator-form build-form">
+          <label>
+            Count
+            <input id="generateCount" type="number" min="1" max="12" value="2">
+          </label>
+          <label>
+            Difficulty
+            <select id="generateDifficulty">
+              <option value="easy">Easy</option>
+              <option value="hard">Hard</option>
+            </select>
+          </label>
+          <label class="checkbox-row">
+            <input id="saveGenerated" type="checkbox" checked>
+            Save approved puzzles
+          </label>
+          <button class="primary" type="submit">Build Puzzles</button>
+        </form>
+
+        <div id="generateResult" class="result-box" role="status">
+          Build puzzles after approved groups are saved.
+        </div>
+
+        <div id="guardStatus" class="result-box" role="status">
+          Checking NYT archive guard...
+        </div>
+      </section>
+
+      <section id="lab" class="panel" aria-labelledby="labTitle">
+        <div class="section-head">
+          <h2 id="labTitle">Agent Lab</h2>
+          <p>Latest scout, builder, solver, critic, editor, and validator trace.</p>
+        </div>
+        <div id="agentTrace" class="agent-trace"></div>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

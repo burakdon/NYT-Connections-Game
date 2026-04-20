@@ -1,0 +1,6 @@
+levenshtein
+nltk
+gensim
+prettytable
+tqdm
+certifi

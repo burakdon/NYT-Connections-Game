@@ -1,0 +1,1331 @@
+[
+  {
+    "groups": [
+      {
+        "category": "Playing card suits",
+        "difficulty": "easy",
+        "words": [
+          "HEART",
+          "DIAMOND",
+          "CLUB",
+          "SPADE"
+        ],
+        "explanation": "The four suits in a standard deck of cards."
+      },
+      {
+        "category": "Units of time",
+        "difficulty": "easy",
+        "words": [
+          "SECOND",
+          "MINUTE",
+          "HOUR",
+          "DAY"
+        ],
+        "explanation": "Common ways to measure time."
+      },
+      {
+        "category": "Things with keys",
+        "difficulty": "medium",
+        "words": [
+          "PIANO",
+          "LOCK",
+          "MAP",
+          "KEYBOARD"
+        ],
+        "explanation": "Each can have or use keys."
+      },
+      {
+        "category": "Words before light",
+        "difficulty": "tricky",
+        "words": [
+          "FLASH",
+          "MOON",
+          "SPOT",
+          "TRAFFIC"
+        ],
+        "explanation": "Each can precede the word light."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-001"
+  },
+  {
+    "groups": [
+      {
+        "category": "Board games",
+        "difficulty": "easy",
+        "words": [
+          "CHESS",
+          "CHECKERS",
+          "CLUE",
+          "RISK"
+        ],
+        "explanation": "Classic tabletop board games."
+      },
+      {
+        "category": "Pasta shapes",
+        "difficulty": "medium",
+        "words": [
+          "PENNE",
+          "RIGATONI",
+          "FUSILLI",
+          "FARFALLE"
+        ],
+        "explanation": "Common pasta varieties."
+      },
+      {
+        "category": "Computer keys",
+        "difficulty": "medium",
+        "words": [
+          "SHIFT",
+          "ENTER",
+          "SPACE",
+          "RETURN"
+        ],
+        "explanation": "Keys found on many keyboards."
+      },
+      {
+        "category": "Words after sea",
+        "difficulty": "tricky",
+        "words": [
+          "HORSE",
+          "LION",
+          "TURTLE",
+          "URCHIN"
+        ],
+        "explanation": "Each forms a phrase after sea."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-002"
+  },
+  {
+    "groups": [
+      {
+        "category": "Zodiac signs",
+        "difficulty": "medium",
+        "words": [
+          "ARIES",
+          "LEO",
+          "LIBRA",
+          "PISCES"
+        ],
+        "explanation": "Four signs of the zodiac."
+      },
+      {
+        "category": "Kitchen utensils",
+        "difficulty": "easy",
+        "words": [
+          "WHISK",
+          "LADLE",
+          "SPATULA",
+          "TONGS"
+        ],
+        "explanation": "Tools used while cooking."
+      },
+      {
+        "category": "Have shells",
+        "difficulty": "medium",
+        "words": [
+          "TURTLE",
+          "CLAM",
+          "EGG",
+          "TACO"
+        ],
+        "explanation": "Each can have a shell."
+      },
+      {
+        "category": "Words before cake",
+        "difficulty": "tricky",
+        "words": [
+          "PAN",
+          "CUP",
+          "CHEESE",
+          "SHORT"
+        ],
+        "explanation": "Each can precede the word cake."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-003"
+  },
+  {
+    "groups": [
+      {
+        "category": "Types of hats",
+        "difficulty": "easy",
+        "words": [
+          "BERET",
+          "FEDORA",
+          "BEANIE",
+          "BOWLER"
+        ],
+        "explanation": "Wearable head coverings."
+      },
+      {
+        "category": "Greek letters",
+        "difficulty": "medium",
+        "words": [
+          "ALPHA",
+          "BETA",
+          "GAMMA",
+          "DELTA"
+        ],
+        "explanation": "Letters from the Greek alphabet."
+      },
+      {
+        "category": "Things with needles",
+        "difficulty": "medium",
+        "words": [
+          "PINE",
+          "CLOCK",
+          "SYRINGE",
+          "COMPASS"
+        ],
+        "explanation": "Each can have a needle."
+      },
+      {
+        "category": "Words before stone",
+        "difficulty": "tricky",
+        "words": [
+          "MILE",
+          "LIME",
+          "GRAVE",
+          "TOUCH"
+        ],
+        "explanation": "Each can precede the word stone."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-004"
+  },
+  {
+    "groups": [
+      {
+        "category": "Musical instruments",
+        "difficulty": "easy",
+        "words": [
+          "VIOLIN",
+          "TRUMPET",
+          "FLUTE",
+          "DRUM"
+        ],
+        "explanation": "Instruments used to make music."
+      },
+      {
+        "category": "Bowling terms",
+        "difficulty": "medium",
+        "words": [
+          "STRIKE",
+          "SPARE",
+          "FRAME",
+          "LANE"
+        ],
+        "explanation": "Words used in bowling."
+      },
+      {
+        "category": "Things that can be cracked",
+        "difficulty": "medium",
+        "words": [
+          "CODE",
+          "EGG",
+          "JOKE",
+          "KNUCKLE"
+        ],
+        "explanation": "Each can be cracked."
+      },
+      {
+        "category": "Words before pot",
+        "difficulty": "tricky",
+        "words": [
+          "TEA",
+          "FLOWER",
+          "STOCK",
+          "JACK"
+        ],
+        "explanation": "Each can precede the word pot."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-005"
+  },
+  {
+    "groups": [
+      {
+        "category": "Types of clouds",
+        "difficulty": "medium",
+        "words": [
+          "CIRRUS",
+          "CUMULUS",
+          "STRATUS",
+          "NIMBUS"
+        ],
+        "explanation": "Common cloud forms."
+      },
+      {
+        "category": "Shoe parts",
+        "difficulty": "easy",
+        "words": [
+          "LACE",
+          "SOLE",
+          "TONGUE",
+          "HEEL"
+        ],
+        "explanation": "Parts of a shoe."
+      },
+      {
+        "category": "Things in a deck",
+        "difficulty": "easy",
+        "words": [
+          "ACE",
+          "KING",
+          "QUEEN",
+          "JACK"
+        ],
+        "explanation": "Ranks found in a card deck."
+      },
+      {
+        "category": "Words before mail",
+        "difficulty": "tricky",
+        "words": [
+          "AIR",
+          "SNAIL",
+          "CHAIN",
+          "VOICE"
+        ],
+        "explanation": "Each can precede the word mail."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-006"
+  },
+  {
+    "groups": [
+      {
+        "category": "Classroom items",
+        "difficulty": "easy",
+        "words": [
+          "DESK",
+          "CHALK",
+          "ERASER",
+          "RULER"
+        ],
+        "explanation": "Objects commonly found in classrooms."
+      },
+      {
+        "category": "Types of storms",
+        "difficulty": "medium",
+        "words": [
+          "BLIZZARD",
+          "CYCLONE",
+          "HURRICANE",
+          "TORNADO"
+        ],
+        "explanation": "Severe weather events."
+      },
+      {
+        "category": "Words before fly",
+        "difficulty": "hard",
+        "words": [
+          "BUTTER",
+          "DRAGON",
+          "HOUSE",
+          "HORSE"
+        ],
+        "explanation": "Each can precede the word fly."
+      },
+      {
+        "category": "Words with silent first letters",
+        "difficulty": "tricky",
+        "words": [
+          "KNIFE",
+          "GNOME",
+          "WRIST",
+          "PSALM"
+        ],
+        "explanation": "The first written letter is not pronounced."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-007"
+  },
+  {
+    "groups": [
+      {
+        "category": "Chess pieces",
+        "difficulty": "easy",
+        "words": [
+          "PAWN",
+          "ROOK",
+          "BISHOP",
+          "KNIGHT"
+        ],
+        "explanation": "Pieces used in chess."
+      },
+      {
+        "category": "Parts of a book",
+        "difficulty": "easy",
+        "words": [
+          "COVER",
+          "SPINE",
+          "PAGE",
+          "CHAPTER"
+        ],
+        "explanation": "Physical or structural book parts."
+      },
+      {
+        "category": "Coffee shop sizes",
+        "difficulty": "medium",
+        "words": [
+          "TALL",
+          "GRANDE",
+          "VENTI",
+          "TRENTA"
+        ],
+        "explanation": "Drink sizes used by a major coffee chain."
+      },
+      {
+        "category": "Words after ice",
+        "difficulty": "tricky",
+        "words": [
+          "CREAM",
+          "CUBE",
+          "WATER",
+          "SKATE"
+        ],
+        "explanation": "Each forms a phrase after ice."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-008"
+  },
+  {
+    "groups": [
+      {
+        "category": "Types of trees",
+        "difficulty": "easy",
+        "words": [
+          "OAK",
+          "MAPLE",
+          "PINE",
+          "BIRCH"
+        ],
+        "explanation": "Common trees."
+      },
+      {
+        "category": "Dog breeds",
+        "difficulty": "medium",
+        "words": [
+          "BEAGLE",
+          "POODLE",
+          "BOXER",
+          "COLLIE"
+        ],
+        "explanation": "Recognized dog breeds."
+      },
+      {
+        "category": "Units of length",
+        "difficulty": "easy",
+        "words": [
+          "INCH",
+          "FOOT",
+          "YARD",
+          "MILE"
+        ],
+        "explanation": "Common length measurements."
+      },
+      {
+        "category": "Words before ball",
+        "difficulty": "tricky",
+        "words": [
+          "BASE",
+          "BASKET",
+          "SNOW",
+          "MEAT"
+        ],
+        "explanation": "Each can precede the word ball."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-009"
+  },
+  {
+    "groups": [
+      {
+        "category": "Gemstones",
+        "difficulty": "easy",
+        "words": [
+          "RUBY",
+          "EMERALD",
+          "SAPPHIRE",
+          "OPAL"
+        ],
+        "explanation": "Precious or semi-precious stones."
+      },
+      {
+        "category": "Camera parts",
+        "difficulty": "medium",
+        "words": [
+          "LENS",
+          "SHUTTER",
+          "FLASH",
+          "SENSOR"
+        ],
+        "explanation": "Parts or features of a camera."
+      },
+      {
+        "category": "Things that run",
+        "difficulty": "hard",
+        "words": [
+          "NOSE",
+          "ENGINE",
+          "PROGRAM",
+          "CANDIDATE"
+        ],
+        "explanation": "Each can be said to run."
+      },
+      {
+        "category": "Words before fish",
+        "difficulty": "tricky",
+        "words": [
+          "STAR",
+          "GOLD",
+          "JELLY",
+          "SWORD"
+        ],
+        "explanation": "Each can precede the word fish."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-010"
+  },
+  {
+    "groups": [
+      {
+        "category": "Planets",
+        "difficulty": "easy",
+        "words": [
+          "MARS",
+          "VENUS",
+          "JUPITER",
+          "SATURN"
+        ],
+        "explanation": "Planets in our solar system."
+      },
+      {
+        "category": "Font names",
+        "difficulty": "medium",
+        "words": [
+          "ARIAL",
+          "GEORGIA",
+          "VERDANA",
+          "COURIER"
+        ],
+        "explanation": "Common digital typefaces."
+      },
+      {
+        "category": "Things with scales",
+        "difficulty": "hard",
+        "words": [
+          "FISH",
+          "SNAKE",
+          "MAP",
+          "PIANO"
+        ],
+        "explanation": "Each has a kind of scale: animal, map, or musical."
+      },
+      {
+        "category": "Words before board",
+        "difficulty": "tricky",
+        "words": [
+          "DASH",
+          "SURF",
+          "SCORE",
+          "KEY"
+        ],
+        "explanation": "Each can precede the word board."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-011"
+  },
+  {
+    "groups": [
+      {
+        "category": "Flowers",
+        "difficulty": "easy",
+        "words": [
+          "ROSE",
+          "TULIP",
+          "DAISY",
+          "LILY"
+        ],
+        "explanation": "Common flowers."
+      },
+      {
+        "category": "Rock genres",
+        "difficulty": "medium",
+        "words": [
+          "PUNK",
+          "METAL",
+          "GRUNGE",
+          "INDIE"
+        ],
+        "explanation": "Styles associated with rock music."
+      },
+      {
+        "category": "Palindromes",
+        "difficulty": "hard",
+        "words": [
+          "LEVEL",
+          "CIVIC",
+          "KAYAK",
+          "ROTOR"
+        ],
+        "explanation": "Each word reads the same backward."
+      },
+      {
+        "category": "Words before paper",
+        "difficulty": "tricky",
+        "words": [
+          "NEWS",
+          "WALL",
+          "TOILET",
+          "WRAP"
+        ],
+        "explanation": "Each can precede the word paper."
+      }
+    ],
+    "source": "seed",
+    "id": "seed-012"
+  },
+  {
+    "groups": [
+      {
+        "category": "Ocean features",
+        "difficulty": "easy",
+        "words": [
+          "REEF",
+          "TIDE",
+          "SHELF",
+          "SHORE"
+        ],
+        "explanation": "Reef, tide, shelf, and shore are all distinct features or zones found in and around the ocean."
+      },
+      {
+        "category": "Words before 'house'",
+        "difficulty": "medium",
+        "words": [
+          "WARE",
+          "POWER",
+          "FULL",
+          "OPEN"
+        ],
+        "explanation": "Each word precedes 'house' to form a compound word: warehouse, powerhouse, full house, open house."
+      },
+      {
+        "category": "Shades of blue",
+        "difficulty": "hard",
+        "words": [
+          "NAVY",
+          "TEAL",
+          "COBALT",
+          "AZURE"
+        ],
+        "explanation": "Navy, teal, cobalt, and azure are all recognized shades of blue."
+      },
+      {
+        "category": "Homophones of letters",
+        "difficulty": "tricky",
+        "words": [
+          "ARE",
+          "JAY",
+          "WHY",
+          "KAY"
+        ],
+        "explanation": "Each word sounds exactly like a letter of the alphabet: ARE=R, JAY=J, WHY=Y, KAY=K."
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "hard",
+    "decoy": {
+      "label": "Things associated with the sea",
+      "words": [
+        "REEF",
+        "TIDE",
+        "NAVY",
+        "TEAL"
+      ],
+      "why_false": "REEF and TIDE are ocean features, while NAVY and TEAL are shades of blue \u2014 all four evoke the sea, but they belong to two different real categories."
+    },
+    "id": "0303245ce9b7"
+  },
+  {
+    "groups": [
+      {
+        "category": "Baby animals",
+        "difficulty": "easy",
+        "words": [
+          "FOAL",
+          "CALF",
+          "LAMB",
+          "KID"
+        ],
+        "explanation": "Each word is a common name for a young animal: a baby horse, cow, sheep, or goat."
+      },
+      {
+        "category": "Things you can catch",
+        "difficulty": "medium",
+        "words": [
+          "COLD",
+          "BUS",
+          "WAVE",
+          "BREAK"
+        ],
+        "explanation": "You can catch a cold, catch a bus, catch a wave, or catch a break."
+      },
+      {
+        "category": "Card game actions",
+        "difficulty": "hard",
+        "words": [
+          "TRUMP",
+          "BLUFF",
+          "FOLD",
+          "DEAL"
+        ],
+        "explanation": "Each word is an action a player takes during a card game: playing a trump, bluffing, folding, or dealing."
+      },
+      {
+        "category": "Words hiding a number inside",
+        "difficulty": "tricky",
+        "words": [
+          "FREIGHT",
+          "CANTEEN",
+          "OFTEN",
+          "STONE"
+        ],
+        "explanation": "Each word contains a hidden spelled-out number: frEIGHT (eight), canTEEN (teen), ofTEN (ten), sTONE (one)."
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "bca77f82c52b"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things you can fold",
+        "difficulty": "easy",
+        "words": [
+          "SHEET",
+          "SHIRT",
+          "PAPER",
+          "BLANKET"
+        ],
+        "explanation": "All are common items typically folded after washing or use."
+      },
+      {
+        "category": "Parts of a bicycle",
+        "difficulty": "medium",
+        "words": [
+          "WHEEL",
+          "BRAKE",
+          "GEAR",
+          "BELL"
+        ],
+        "explanation": "Each is a recognisable part or feature of a bicycle."
+      },
+      {
+        "category": "Things that can be scrambled",
+        "difficulty": "hard",
+        "words": [
+          "EGG",
+          "SIGNAL",
+          "JETS",
+          "MESSAGE"
+        ],
+        "explanation": "All can be scrambled: scrambled egg, scrambled signal, scrambled jets (launched fighters), scrambled message."
+      },
+      {
+        "category": "Common words that are also programming languages",
+        "difficulty": "tricky",
+        "words": [
+          "RUBY",
+          "SWIFT",
+          "RUST",
+          "GO"
+        ],
+        "explanation": "Each is a familiar English word that is also the name of a real programming language: Ruby, Swift, Rust, Go."
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "ed8cc9df6b82"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things you can squeeze",
+        "difficulty": "easy",
+        "words": [
+          "LEMON",
+          "SPONGE",
+          "TOOTHPASTE",
+          "KETCHUP"
+        ],
+        "explanation": "All four are commonly squeezed to extract something from them."
+      },
+      {
+        "category": "Things that float",
+        "difficulty": "medium",
+        "words": [
+          "BALLOON",
+          "CORK",
+          "ICEBERG",
+          "RAFT"
+        ],
+        "explanation": "Each is well known for floating, whether on water or in the air."
+      },
+      {
+        "category": "Spans of time",
+        "difficulty": "hard",
+        "words": [
+          "DECADE",
+          "FORTNIGHT",
+          "CENTURY",
+          "MILLISECOND"
+        ],
+        "explanation": "All four are recognized measurements of time duration."
+      },
+      {
+        "category": "Words hiding a body of water",
+        "difficulty": "tricky",
+        "words": [
+          "FLAKE",
+          "SEASON",
+          "CARPOOL",
+          "SWAMPED"
+        ],
+        "explanation": "Each conceals a body of water: LAKE in fLAKE, SEA in SEAson, POOL in carPOOL, SWAMP in SWAMPed."
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "8c93e28d426d"
+  },
+  {
+    "groups": [
+      {
+        "category": "Basic tastes",
+        "difficulty": "easy",
+        "words": [
+          "SWEET",
+          "SOUR",
+          "SALTY",
+          "BITTER"
+        ],
+        "explanation": "Sweet, sour, salty, and bitter are four of the recognized basic taste sensations."
+      },
+      {
+        "category": "Things you can whistle",
+        "difficulty": "medium",
+        "words": [
+          "TUNE",
+          "SONG",
+          "MELODY",
+          "JINGLE"
+        ],
+        "explanation": "You can whistle a tune, song, melody, or jingle \u2014 all musical things producible by whistling."
+      },
+      {
+        "category": "Types of academic study",
+        "difficulty": "hard",
+        "words": [
+          "MAJOR",
+          "MINOR",
+          "THESIS",
+          "SEMINAR"
+        ],
+        "explanation": "Major, minor, thesis, and seminar are all standard elements of university academic life."
+      },
+      {
+        "category": "Spelled with only musical note letters (A\u2013G)",
+        "difficulty": "tricky",
+        "words": [
+          "BEAD",
+          "CAGE",
+          "FACE",
+          "DECADE"
+        ],
+        "explanation": "Every letter in each word is a musical note (A B C D E F G): BEAD, CAGE, FACE, DECADE."
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "3aacda397393"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things you can toast",
+        "difficulty": "easy",
+        "words": [
+          "BREAD",
+          "BAGEL",
+          "WAFFLE",
+          "MARSHMALLOW"
+        ],
+        "explanation": "All four are foods commonly toasted over heat or in a toaster."
+      },
+      {
+        "category": "Ways to travel on water",
+        "difficulty": "medium",
+        "words": [
+          "FERRY",
+          "CANOE",
+          "KAYAK",
+          "BARGE"
+        ],
+        "explanation": "Each is a vessel used to travel across water."
+      },
+      {
+        "category": "Things with rings",
+        "difficulty": "hard",
+        "words": [
+          "SATURN",
+          "TRUNK",
+          "BATHTUB",
+          "BOXING"
+        ],
+        "explanation": "Saturn has planetary rings, a tree trunk has growth rings, a bathtub leaves a ring, and boxing takes place in a ring."
+      },
+      {
+        "category": "Words hiding a day of the week",
+        "difficulty": "tricky",
+        "words": [
+          "SUNDAE",
+          "SATIRE",
+          "WEDNESDAY",
+          "MONUMENT"
+        ],
+        "explanation": "SUN in SUNDAE, SAT in SATIRE, WED in WEDNESDAY, and MON in MONUMENT."
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "e0e7d41f6d01"
+  },
+  {
+    "groups": [
+      {
+        "category": "Months with exactly 30 days",
+        "difficulty": "easy",
+        "words": [
+          "APRIL",
+          "JUNE",
+          "SEPTEMBER",
+          "NOVEMBER"
+        ],
+        "explanation": "These four months each have exactly 30 days.",
+        "mechanism_family": "specific_set",
+        "concept_key": "thirty_day_months"
+      },
+      {
+        "category": "Castle fortifications",
+        "difficulty": "medium",
+        "words": [
+          "MOAT",
+          "DRAWBRIDGE",
+          "TURRET",
+          "RAMPART"
+        ],
+        "explanation": "These are defensive structures or barriers associated with castles.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "castle_fortifications"
+      },
+      {
+        "category": "Things you can draw",
+        "difficulty": "hard",
+        "words": [
+          "CURTAIN",
+          "SWORD",
+          "BATH",
+          "CONCLUSION"
+        ],
+        "explanation": "You can draw a curtain (close it), draw a sword (unsheathe it), draw a bath (fill it), and draw a conclusion (reach one).",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_you_can_draw"
+      },
+      {
+        "category": "New word when S is added to the front",
+        "difficulty": "tricky",
+        "words": [
+          "TRAIN",
+          "CREAM",
+          "PRAY",
+          "LAUGHTER"
+        ],
+        "explanation": "Adding S to the front gives: STRAIN, SCREAM, SPRAY, SLAUGHTER.",
+        "mechanism_family": "transformation",
+        "concept_key": "add_s_prefix"
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "607a56eb71e6"
+  },
+  {
+    "groups": [
+      {
+        "category": "Sources of light",
+        "difficulty": "easy",
+        "words": [
+          "CANDLE",
+          "LANTERN",
+          "TORCH",
+          "LAMP"
+        ],
+        "explanation": "Candle, lantern, torch, and lamp all produce light.",
+        "mechanism_family": "semantic",
+        "concept_key": "sources_of_light"
+      },
+      {
+        "category": "Things that rock",
+        "difficulty": "medium",
+        "words": [
+          "CRADLE",
+          "BOAT",
+          "CHAIR",
+          "HORSE"
+        ],
+        "explanation": "Rocking cradle, rocking boat, rocking chair, and rocking horse all rock back and forth.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_that_rock_back_and_forth"
+      },
+      {
+        "category": "Words that rhyme with a number",
+        "difficulty": "hard",
+        "words": [
+          "SUN",
+          "BLUE",
+          "HEAVEN",
+          "DINE"
+        ],
+        "explanation": "SUN rhymes with ONE, BLUE rhymes with TWO, HEAVEN rhymes with SEVEN, and DINE rhymes with NINE.",
+        "mechanism_family": "sound",
+        "concept_key": "rhymes_with_number"
+      },
+      {
+        "category": "Words containing celestial bodies",
+        "difficulty": "tricky",
+        "words": [
+          "MARSH",
+          "HEARTH",
+          "SUNBURN",
+          "MOONLIGHT"
+        ],
+        "explanation": "MARSH contains MARS, HEARTH contains EARTH, SUNBURN contains SUN, and MOONLIGHT contains MOON.",
+        "mechanism_family": "spelling",
+        "concept_key": "words_containing_celestial_bodies"
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "e2f379eed0aa"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things you can knit",
+        "difficulty": "easy",
+        "words": [
+          "SCARF",
+          "SWEATER",
+          "MITTENS",
+          "BLANKET"
+        ],
+        "explanation": "Scarves, sweaters, mittens, and blankets are all classic items people make by knitting.",
+        "mechanism_family": "semantic",
+        "concept_key": "knittable_items"
+      },
+      {
+        "category": "Words with a silent B",
+        "difficulty": "medium",
+        "words": [
+          "LAMB",
+          "COMB",
+          "THUMB",
+          "DOUBT"
+        ],
+        "explanation": "Each word contains a B that is never pronounced: lam, cohm, thum, dowt.",
+        "mechanism_family": "spelling",
+        "concept_key": "silent_letter_b"
+      },
+      {
+        "category": "Things that have a face",
+        "difficulty": "hard",
+        "words": [
+          "CLOCK",
+          "COIN",
+          "CLIFF",
+          "CARD"
+        ],
+        "explanation": "A clock face, coin face, cliff face, and playing-card face are all recognized named parts of these objects.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_with_a_face"
+      },
+      {
+        "category": "Homophones of animals",
+        "difficulty": "tricky",
+        "words": [
+          "BARE",
+          "HAIR",
+          "LINKS",
+          "GNU"
+        ],
+        "explanation": "Each word sounds identical to an animal name: BARE = bear, HAIR = hare, LINKS = lynx, GNU = new (wildebeest).",
+        "mechanism_family": "sound",
+        "concept_key": "homophones_of_animals"
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "6f2f427cf36a"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things you can hatch",
+        "difficulty": "easy",
+        "words": [
+          "EGG",
+          "PLAN",
+          "PLOT",
+          "SCHEME"
+        ],
+        "explanation": "You can hatch an egg, a plan, a plot, or a scheme \u2014 all natural uses of the verb hatch.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_you_can_hatch"
+      },
+      {
+        "category": "Things that can be cast",
+        "difficulty": "medium",
+        "words": [
+          "SHADOW",
+          "NET",
+          "SPELL",
+          "VOTE"
+        ],
+        "explanation": "You cast a shadow, cast a net, cast a spell, and cast a vote.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_that_can_be_cast"
+      },
+      {
+        "category": "Add G to the front to make a new word",
+        "difficulty": "hard",
+        "words": [
+          "ROUND",
+          "RAIN",
+          "RIND",
+          "RIP"
+        ],
+        "explanation": "ROUND\u2192GROUND, RAIN\u2192GRAIN, RIND\u2192GRIND, RIP\u2192GRIP \u2014 adding G to the front of each creates a new common word.",
+        "mechanism_family": "transformation",
+        "concept_key": "add_g_to_front"
+      },
+      {
+        "category": "Verbs meaning to look carefully",
+        "difficulty": "tricky",
+        "words": [
+          "WATCH",
+          "PEER",
+          "SCAN",
+          "SURVEY"
+        ],
+        "explanation": "Watch, peer, scan, and survey all function as verbs meaning to look at or examine something carefully.",
+        "mechanism_family": "double_identity",
+        "concept_key": "verbs_meaning_to_look"
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "a9aa974daa8a"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things you can strike",
+        "difficulty": "easy",
+        "words": [
+          "MATCH",
+          "BELL",
+          "CHORD",
+          "DEAL"
+        ],
+        "explanation": "You strike a match, strike a bell, strike a chord, and strike a deal \u2014 all pair naturally with the verb 'strike'.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_struck"
+      },
+      {
+        "category": "Words that follow 'OVER'",
+        "difficulty": "medium",
+        "words": [
+          "FLOW",
+          "NIGHT",
+          "BOARD",
+          "COAT"
+        ],
+        "explanation": "OVERFLOW, OVERNIGHT, OVERBOARD, OVERCOAT \u2014 all common compound words beginning with OVER.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_after_over"
+      },
+      {
+        "category": "Words that become a new word when reversed",
+        "difficulty": "hard",
+        "words": [
+          "STEP",
+          "POOL",
+          "STAR",
+          "MOOD"
+        ],
+        "explanation": "STEP\u2192PETS, POOL\u2192LOOP, STAR\u2192RATS, MOOD\u2192DOOM \u2014 each reverses to a different common English word.",
+        "mechanism_family": "spelling",
+        "concept_key": "reversible_words"
+      },
+      {
+        "category": "Homophones of numbers",
+        "difficulty": "tricky",
+        "words": [
+          "WON",
+          "TOO",
+          "FOR",
+          "ATE"
+        ],
+        "explanation": "WON sounds like one, TOO sounds like two, FOR sounds like four, ATE sounds like eight.",
+        "mechanism_family": "sound",
+        "concept_key": "homophones_of_numbers"
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "0a46cf8d5c24"
+  },
+  {
+    "groups": [
+      {
+        "category": "Gemstones",
+        "difficulty": "easy",
+        "words": [
+          "RUBY",
+          "EMERALD",
+          "SAPPHIRE",
+          "OPAL"
+        ],
+        "explanation": "Precious or semi-precious stones.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "semantic_set_gemstones"
+      },
+      {
+        "category": "Font names",
+        "difficulty": "medium",
+        "words": [
+          "ARIAL",
+          "GEORGIA",
+          "VERDANA",
+          "COURIER"
+        ],
+        "explanation": "Common digital typefaces.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "semantic_set_font_names"
+      },
+      {
+        "category": "Computer keys",
+        "difficulty": "hard",
+        "words": [
+          "SHIFT",
+          "ENTER",
+          "SPACE",
+          "RETURN"
+        ],
+        "explanation": "Keys found on many keyboards.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "semantic_set_computer_keys"
+      },
+      {
+        "category": "Words before light",
+        "difficulty": "tricky",
+        "words": [
+          "FLASH",
+          "MOON",
+          "SPOT",
+          "TRAFFIC"
+        ],
+        "explanation": "Each can precede the word light.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_before_target_light"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-caa3d2078914"
+  },
+  {
+    "groups": [
+      {
+        "category": "Units of time",
+        "difficulty": "easy",
+        "words": [
+          "SECOND",
+          "MINUTE",
+          "HOUR",
+          "DAY"
+        ],
+        "explanation": "Common ways to measure time.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "semantic_set_units_of_time"
+      },
+      {
+        "category": "Zodiac signs",
+        "difficulty": "medium",
+        "words": [
+          "ARIES",
+          "LEO",
+          "LIBRA",
+          "PISCES"
+        ],
+        "explanation": "Four signs of the zodiac.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "semantic_set_zodiac_signs"
+      },
+      {
+        "category": "Things that can be cracked",
+        "difficulty": "hard",
+        "words": [
+          "CODE",
+          "EGG",
+          "JOKE",
+          "KNUCKLE"
+        ],
+        "explanation": "Each can be cracked.",
+        "mechanism_family": "shared_property",
+        "concept_key": "shared_property_things_that_can_be_cracked"
+      },
+      {
+        "category": "Add an H to make a new word",
+        "difficulty": "tricky",
+        "words": [
+          "AIR",
+          "EAR",
+          "OUR",
+          "ARM"
+        ],
+        "explanation": "Adding H at the front yields HAIR, HEAR, HOUR, HARM.",
+        "mechanism_family": "transformation",
+        "concept_key": "add_h_front_new_word"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-fdb8943ed3ba"
+  }
+]

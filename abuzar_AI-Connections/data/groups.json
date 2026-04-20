@@ -1,0 +1,1216 @@
+{
+  "groups": [
+    {
+      "id": "0ea93474f076",
+      "category": "Board games",
+      "difficulty": "easy",
+      "words": [
+        "CHESS",
+        "CHECKERS",
+        "CLUE",
+        "RISK"
+      ],
+      "explanation": "Classic tabletop board games.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_board_games",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-002"
+      },
+      "verified": true
+    },
+    {
+      "id": "58d91c02f523",
+      "category": "Chess pieces",
+      "difficulty": "easy",
+      "words": [
+        "PAWN",
+        "ROOK",
+        "BISHOP",
+        "KNIGHT"
+      ],
+      "explanation": "Pieces used in chess.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_chess_pieces",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-008"
+      },
+      "verified": true
+    },
+    {
+      "id": "871648c194f9",
+      "category": "Classroom items",
+      "difficulty": "easy",
+      "words": [
+        "DESK",
+        "CHALK",
+        "ERASER",
+        "RULER"
+      ],
+      "explanation": "Objects commonly found in classrooms.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_classroom_items",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-007"
+      },
+      "verified": true
+    },
+    {
+      "id": "3caec9e03844",
+      "category": "Continents",
+      "difficulty": "easy",
+      "words": [
+        "ASIA",
+        "AFRICA",
+        "EUROPE",
+        "AUSTRALIA"
+      ],
+      "explanation": "All are continents.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "continents",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "2dcd0c660a26",
+      "category": "Flowers",
+      "difficulty": "easy",
+      "words": [
+        "ROSE",
+        "TULIP",
+        "DAISY",
+        "LILY"
+      ],
+      "explanation": "Common flowers.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_flowers",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-012"
+      },
+      "verified": true
+    },
+    {
+      "id": "a1c632544963",
+      "category": "Gemstones",
+      "difficulty": "easy",
+      "words": [
+        "RUBY",
+        "EMERALD",
+        "SAPPHIRE",
+        "OPAL"
+      ],
+      "explanation": "Precious or semi-precious stones.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_gemstones",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-010"
+      },
+      "verified": true
+    },
+    {
+      "id": "cdb15767d57b",
+      "category": "Kitchen utensils",
+      "difficulty": "easy",
+      "words": [
+        "WHISK",
+        "LADLE",
+        "SPATULA",
+        "TONGS"
+      ],
+      "explanation": "Tools used while cooking.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_kitchen_utensils",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-003"
+      },
+      "verified": true
+    },
+    {
+      "id": "d2d84e018703",
+      "category": "Martial arts",
+      "difficulty": "easy",
+      "words": [
+        "KARATE",
+        "JUDO",
+        "AIKIDO",
+        "KENDO"
+      ],
+      "explanation": "All are Japanese martial arts.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "martial_arts",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "9a4f825d87d1",
+      "category": "Musical instruments",
+      "difficulty": "easy",
+      "words": [
+        "VIOLIN",
+        "TRUMPET",
+        "FLUTE",
+        "DRUM"
+      ],
+      "explanation": "Instruments used to make music.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_musical_instruments",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-005"
+      },
+      "verified": true
+    },
+    {
+      "id": "aa03be05dad8",
+      "category": "Parts of a book",
+      "difficulty": "easy",
+      "words": [
+        "COVER",
+        "SPINE",
+        "PAGE",
+        "CHAPTER"
+      ],
+      "explanation": "Physical or structural book parts.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_parts_of_a_book",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-008"
+      },
+      "verified": true
+    },
+    {
+      "id": "d5fadebf37f0",
+      "category": "Planets",
+      "difficulty": "easy",
+      "words": [
+        "MARS",
+        "VENUS",
+        "JUPITER",
+        "SATURN"
+      ],
+      "explanation": "Planets in our solar system.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_planets",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-011"
+      },
+      "verified": true
+    },
+    {
+      "id": "029c466eefc7",
+      "category": "Playing card suits",
+      "difficulty": "easy",
+      "words": [
+        "HEART",
+        "DIAMOND",
+        "CLUB",
+        "SPADE"
+      ],
+      "explanation": "The four suits in a standard deck of cards.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_playing_card_suits",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-001"
+      },
+      "verified": true
+    },
+    {
+      "id": "5551910ddd16",
+      "category": "Sailor's vocabulary",
+      "difficulty": "easy",
+      "words": [
+        "BOW",
+        "STERN",
+        "PORT",
+        "STARBOARD"
+      ],
+      "explanation": "Standard parts/sides of a ship.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "nautical_terms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "1ba5a9028de0",
+      "category": "Shoe parts",
+      "difficulty": "easy",
+      "words": [
+        "LACE",
+        "SOLE",
+        "TONGUE",
+        "HEEL"
+      ],
+      "explanation": "Parts of a shoe.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_shoe_parts",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-006"
+      },
+      "verified": true
+    },
+    {
+      "id": "1b13593fcc17",
+      "category": "Things in a deck",
+      "difficulty": "easy",
+      "words": [
+        "ACE",
+        "KING",
+        "QUEEN",
+        "JACK"
+      ],
+      "explanation": "Ranks found in a card deck.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_in_a_deck",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-006"
+      },
+      "verified": true
+    },
+    {
+      "id": "46167dc4a4ec",
+      "category": "Types of bread",
+      "difficulty": "easy",
+      "words": [
+        "BAGUETTE",
+        "RYE",
+        "PITA",
+        "NAAN"
+      ],
+      "explanation": "All are common varieties of bread.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "types_of_bread",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "01c9349058aa",
+      "category": "Types of hats",
+      "difficulty": "easy",
+      "words": [
+        "BERET",
+        "FEDORA",
+        "BEANIE",
+        "BOWLER"
+      ],
+      "explanation": "Wearable head coverings.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_types_of_hats",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-004"
+      },
+      "verified": true
+    },
+    {
+      "id": "da86d7c9935e",
+      "category": "Types of trees",
+      "difficulty": "easy",
+      "words": [
+        "OAK",
+        "MAPLE",
+        "PINE",
+        "BIRCH"
+      ],
+      "explanation": "Common trees.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_types_of_trees",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-009"
+      },
+      "verified": true
+    },
+    {
+      "id": "8b843dcabfe3",
+      "category": "Units of length",
+      "difficulty": "easy",
+      "words": [
+        "INCH",
+        "FOOT",
+        "YARD",
+        "MILE"
+      ],
+      "explanation": "Common length measurements.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_units_of_length",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-009"
+      },
+      "verified": true
+    },
+    {
+      "id": "d76261923c7c",
+      "category": "Units of time",
+      "difficulty": "easy",
+      "words": [
+        "SECOND",
+        "MINUTE",
+        "HOUR",
+        "DAY"
+      ],
+      "explanation": "Common ways to measure time.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_units_of_time",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-001"
+      },
+      "verified": true
+    },
+    {
+      "id": "f848d340532f",
+      "category": "Add an H to make a new word",
+      "difficulty": "hard",
+      "words": [
+        "AIR",
+        "EAR",
+        "OUR",
+        "ARM"
+      ],
+      "explanation": "Adding H at the front yields HAIR, HEAR, HOUR, HARM.",
+      "mechanism_family": "transformation",
+      "concept_key": "add_h_front_new_word",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "bae1c60e5e38",
+      "category": "Palindromes",
+      "difficulty": "hard",
+      "words": [
+        "LEVEL",
+        "CIVIC",
+        "KAYAK",
+        "ROTOR"
+      ],
+      "explanation": "Each word reads the same backward.",
+      "mechanism_family": "spelling",
+      "concept_key": "spelling_palindromes",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-012"
+      },
+      "verified": true
+    },
+    {
+      "id": "3277cd5a41b0",
+      "category": "Remove the last letter to get a body part",
+      "difficulty": "hard",
+      "words": [
+        "EARN",
+        "HIPS",
+        "LIPS",
+        "ARMY"
+      ],
+      "explanation": "Drop the final letter to reveal ear, hip, lip, arm.",
+      "mechanism_family": "transformation",
+      "concept_key": "drop_last_letter_body_part",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "fa20ee1dd873",
+      "category": "Things that run",
+      "difficulty": "hard",
+      "words": [
+        "NOSE",
+        "ENGINE",
+        "PROGRAM",
+        "CANDIDATE"
+      ],
+      "explanation": "Each can be said to run.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_that_run",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-010"
+      },
+      "verified": true
+    },
+    {
+      "id": "878b36df3960",
+      "category": "Things with scales",
+      "difficulty": "hard",
+      "words": [
+        "FISH",
+        "SNAKE",
+        "MAP",
+        "PIANO"
+      ],
+      "explanation": "Each has a kind of scale: animal, map, or musical.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_with_scales",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-011"
+      },
+      "verified": true
+    },
+    {
+      "id": "1ce1a75247ad",
+      "category": "Words before fly",
+      "difficulty": "hard",
+      "words": [
+        "BUTTER",
+        "DRAGON",
+        "HOUSE",
+        "HORSE"
+      ],
+      "explanation": "Each can precede the word fly.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_fly",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-007"
+      },
+      "verified": true
+    },
+    {
+      "id": "7f7c3e6d3f91",
+      "category": "Bowling terms",
+      "difficulty": "medium",
+      "words": [
+        "STRIKE",
+        "SPARE",
+        "FRAME",
+        "LANE"
+      ],
+      "explanation": "Words used in bowling.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_bowling_terms",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-005"
+      },
+      "verified": true
+    },
+    {
+      "id": "4f63491d36cd",
+      "category": "Camera parts",
+      "difficulty": "medium",
+      "words": [
+        "LENS",
+        "SHUTTER",
+        "FLASH",
+        "SENSOR"
+      ],
+      "explanation": "Parts or features of a camera.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_camera_parts",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-010"
+      },
+      "verified": true
+    },
+    {
+      "id": "1e13e7193125",
+      "category": "Coffee shop sizes",
+      "difficulty": "medium",
+      "words": [
+        "TALL",
+        "GRANDE",
+        "VENTI",
+        "TRENTA"
+      ],
+      "explanation": "Drink sizes used by a major coffee chain.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_coffee_shop_sizes",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-008"
+      },
+      "verified": true
+    },
+    {
+      "id": "74489ee18bfd",
+      "category": "Computer keys",
+      "difficulty": "medium",
+      "words": [
+        "SHIFT",
+        "ENTER",
+        "SPACE",
+        "RETURN"
+      ],
+      "explanation": "Keys found on many keyboards.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_computer_keys",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-002"
+      },
+      "verified": true
+    },
+    {
+      "id": "c4c734bd41ff",
+      "category": "Currencies that are also common words",
+      "difficulty": "medium",
+      "words": [
+        "POUND",
+        "CROWN",
+        "BUCK",
+        "BILL"
+      ],
+      "explanation": "Each is a unit or nickname for currency and also an everyday English word.",
+      "mechanism_family": "double_identity",
+      "concept_key": "currencies_as_common_words",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "d2b6a35439a2",
+      "category": "Dog breeds",
+      "difficulty": "medium",
+      "words": [
+        "BEAGLE",
+        "POODLE",
+        "BOXER",
+        "COLLIE"
+      ],
+      "explanation": "Recognized dog breeds.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_dog_breeds",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-009"
+      },
+      "verified": true
+    },
+    {
+      "id": "e5cac1b75a93",
+      "category": "Font names",
+      "difficulty": "medium",
+      "words": [
+        "ARIAL",
+        "GEORGIA",
+        "VERDANA",
+        "COURIER"
+      ],
+      "explanation": "Common digital typefaces.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_font_names",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-011"
+      },
+      "verified": true
+    },
+    {
+      "id": "253b0f96a946",
+      "category": "Greek letters",
+      "difficulty": "medium",
+      "words": [
+        "ALPHA",
+        "BETA",
+        "GAMMA",
+        "DELTA"
+      ],
+      "explanation": "Letters from the Greek alphabet.",
+      "mechanism_family": "spelling",
+      "concept_key": "spelling_greek_letters",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-004"
+      },
+      "verified": true
+    },
+    {
+      "id": "699a3ef6f3ba",
+      "category": "Have shells",
+      "difficulty": "medium",
+      "words": [
+        "TURTLE",
+        "CLAM",
+        "EGG",
+        "TACO"
+      ],
+      "explanation": "Each can have a shell.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_have_shells",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-003"
+      },
+      "verified": true
+    },
+    {
+      "id": "0da88ffe8f90",
+      "category": "Olympic throwing events",
+      "difficulty": "medium",
+      "words": [
+        "JAVELIN",
+        "DISCUS",
+        "HAMMER",
+        "SHOT"
+      ],
+      "explanation": "All are throwing events in track and field.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "olympic_throwing_events",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "54c2a599f2fd",
+      "category": "Pasta shapes",
+      "difficulty": "medium",
+      "words": [
+        "PENNE",
+        "RIGATONI",
+        "FUSILLI",
+        "FARFALLE"
+      ],
+      "explanation": "Common pasta varieties.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_pasta_shapes",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-002"
+      },
+      "verified": true
+    },
+    {
+      "id": "c64f8605ab51",
+      "category": "Rock genres",
+      "difficulty": "medium",
+      "words": [
+        "PUNK",
+        "METAL",
+        "GRUNGE",
+        "INDIE"
+      ],
+      "explanation": "Styles associated with rock music.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_rock_genres",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-012"
+      },
+      "verified": true
+    },
+    {
+      "id": "ff7ab98341d0",
+      "category": "Sushi ingredients",
+      "difficulty": "medium",
+      "words": [
+        "RICE",
+        "NORI",
+        "WASABI",
+        "GINGER"
+      ],
+      "explanation": "All are common sushi components.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "sushi_ingredients",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "f5e51ce5be85",
+      "category": "Things that can be cracked",
+      "difficulty": "medium",
+      "words": [
+        "CODE",
+        "EGG",
+        "JOKE",
+        "KNUCKLE"
+      ],
+      "explanation": "Each can be cracked.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_that_can_be_cracked",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-005"
+      },
+      "verified": true
+    },
+    {
+      "id": "ac21d728d62b",
+      "category": "Things that can be wound",
+      "difficulty": "medium",
+      "words": [
+        "WATCH",
+        "CLOCK",
+        "YARN",
+        "SPRING"
+      ],
+      "explanation": "Each can be wound up or wound around.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_that_can_be_wound",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "11cd4bad2a17",
+      "category": "Things that come in pairs",
+      "difficulty": "medium",
+      "words": [
+        "SOCKS",
+        "DICE",
+        "SCISSORS",
+        "CHOPSTICKS"
+      ],
+      "explanation": "Each item is typically used or sold as a pair.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_that_come_in_pairs",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "5227ae83c0b5",
+      "category": "Things that have arms",
+      "difficulty": "medium",
+      "words": [
+        "CHAIR",
+        "RIVER",
+        "ROBOT",
+        "RECORD"
+      ],
+      "explanation": "Each of these has an arm as a feature.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_with_arms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "752c61b37dce",
+      "category": "Things with a trunk",
+      "difficulty": "medium",
+      "words": [
+        "ELEPHANT",
+        "CAR",
+        "TREE",
+        "SWIMSUIT"
+      ],
+      "explanation": "Each has or is associated with a trunk: elephant trunk, car trunk, tree trunk, swimming trunks.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_with_a_trunk",
+      "verified": true
+    },
+    {
+      "id": "1ba920bce4d6",
+      "category": "Things with keys",
+      "difficulty": "medium",
+      "words": [
+        "PIANO",
+        "LOCK",
+        "MAP",
+        "KEYBOARD"
+      ],
+      "explanation": "Each can have or use keys.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_with_keys",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-001"
+      },
+      "verified": true
+    },
+    {
+      "id": "240da00accdf",
+      "category": "Things with needles",
+      "difficulty": "medium",
+      "words": [
+        "PINE",
+        "CLOCK",
+        "SYRINGE",
+        "COMPASS"
+      ],
+      "explanation": "Each can have a needle.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_with_needles",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-004"
+      },
+      "verified": true
+    },
+    {
+      "id": "6750da9b35f2",
+      "category": "Types of clouds",
+      "difficulty": "medium",
+      "words": [
+        "CIRRUS",
+        "CUMULUS",
+        "STRATUS",
+        "NIMBUS"
+      ],
+      "explanation": "Common cloud forms.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_types_of_clouds",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-006"
+      },
+      "verified": true
+    },
+    {
+      "id": "93a634a278b1",
+      "category": "Types of storms",
+      "difficulty": "medium",
+      "words": [
+        "BLIZZARD",
+        "CYCLONE",
+        "HURRICANE",
+        "TORNADO"
+      ],
+      "explanation": "Severe weather events.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_types_of_storms",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-007"
+      },
+      "verified": true
+    },
+    {
+      "id": "6ac6abf12bb8",
+      "category": "Words that are also military ranks",
+      "difficulty": "medium",
+      "words": [
+        "MAJOR",
+        "GENERAL",
+        "PRIVATE",
+        "CAPTAIN"
+      ],
+      "explanation": "Each is a common English word that is also a military rank.",
+      "mechanism_family": "double_identity",
+      "concept_key": "double_identity_military_ranks",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "a91f61aae64c",
+      "category": "Words that are also tennis terms",
+      "difficulty": "medium",
+      "words": [
+        "LOVE",
+        "FAULT",
+        "BREAK",
+        "SMASH"
+      ],
+      "explanation": "Each common word is also a term used in tennis.",
+      "mechanism_family": "double_identity",
+      "concept_key": "double_identity_tennis_terms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "9ee31ca90049",
+      "category": "Zodiac signs",
+      "difficulty": "medium",
+      "words": [
+        "ARIES",
+        "LEO",
+        "LIBRA",
+        "PISCES"
+      ],
+      "explanation": "Four signs of the zodiac.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_zodiac_signs",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-003"
+      },
+      "verified": true
+    },
+    {
+      "id": "170cae2504d6",
+      "category": "Words after ice",
+      "difficulty": "tricky",
+      "words": [
+        "CREAM",
+        "CUBE",
+        "WATER",
+        "SKATE"
+      ],
+      "explanation": "Each forms a phrase after ice.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_ice",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-008"
+      },
+      "verified": true
+    },
+    {
+      "id": "a0aaaf4a79f7",
+      "category": "Words after sea",
+      "difficulty": "tricky",
+      "words": [
+        "HORSE",
+        "LION",
+        "TURTLE",
+        "URCHIN"
+      ],
+      "explanation": "Each forms a phrase after sea.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_sea",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-002"
+      },
+      "verified": true
+    },
+    {
+      "id": "1eb50e62b425",
+      "category": "Words before ball",
+      "difficulty": "tricky",
+      "words": [
+        "BASE",
+        "BASKET",
+        "SNOW",
+        "MEAT"
+      ],
+      "explanation": "Each can precede the word ball.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_ball",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-009"
+      },
+      "verified": true
+    },
+    {
+      "id": "eb6982642d9c",
+      "category": "Words before board",
+      "difficulty": "tricky",
+      "words": [
+        "DASH",
+        "SURF",
+        "SCORE",
+        "KEY"
+      ],
+      "explanation": "Each can precede the word board.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_board",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-011"
+      },
+      "verified": true
+    },
+    {
+      "id": "f01759fb980c",
+      "category": "Words before cake",
+      "difficulty": "tricky",
+      "words": [
+        "PAN",
+        "CUP",
+        "CHEESE",
+        "SHORT"
+      ],
+      "explanation": "Each can precede the word cake.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_cake",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-003"
+      },
+      "verified": true
+    },
+    {
+      "id": "4f073abd8d00",
+      "category": "Words before fish",
+      "difficulty": "tricky",
+      "words": [
+        "STAR",
+        "GOLD",
+        "JELLY",
+        "SWORD"
+      ],
+      "explanation": "Each can precede the word fish.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_fish",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-010"
+      },
+      "verified": true
+    },
+    {
+      "id": "9632dccf157f",
+      "category": "Words before light",
+      "difficulty": "tricky",
+      "words": [
+        "FLASH",
+        "MOON",
+        "SPOT",
+        "TRAFFIC"
+      ],
+      "explanation": "Each can precede the word light.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_light",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-001"
+      },
+      "verified": true
+    },
+    {
+      "id": "a8809c1cec8d",
+      "category": "Words before mail",
+      "difficulty": "tricky",
+      "words": [
+        "AIR",
+        "SNAIL",
+        "CHAIN",
+        "VOICE"
+      ],
+      "explanation": "Each can precede the word mail.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_mail",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-006"
+      },
+      "verified": true
+    },
+    {
+      "id": "8c5f91c346f1",
+      "category": "Words before paper",
+      "difficulty": "tricky",
+      "words": [
+        "NEWS",
+        "WALL",
+        "TOILET",
+        "WRAP"
+      ],
+      "explanation": "Each can precede the word paper.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_paper",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-012"
+      },
+      "verified": true
+    },
+    {
+      "id": "63751194a457",
+      "category": "Words before pot",
+      "difficulty": "tricky",
+      "words": [
+        "TEA",
+        "FLOWER",
+        "STOCK",
+        "JACK"
+      ],
+      "explanation": "Each can precede the word pot.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_pot",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-005"
+      },
+      "verified": true
+    },
+    {
+      "id": "c1c663facf5e",
+      "category": "Words before stone",
+      "difficulty": "tricky",
+      "words": [
+        "MILE",
+        "LIME",
+        "GRAVE",
+        "TOUCH"
+      ],
+      "explanation": "Each can precede the word stone.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_stone",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-004"
+      },
+      "verified": true
+    },
+    {
+      "id": "2fc223078b33",
+      "category": "Words containing a hidden tree",
+      "difficulty": "tricky",
+      "words": [
+        "SPINELESS",
+        "ELMER",
+        "CASHEW",
+        "BIRCHES"
+      ],
+      "explanation": "Each word hides a tree: PINE, ELM, ASH, BIRCH.",
+      "mechanism_family": "spelling",
+      "concept_key": "spelling_hidden_trees",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "c13a014b87af",
+      "category": "Words with silent first letters",
+      "difficulty": "tricky",
+      "words": [
+        "KNIFE",
+        "GNOME",
+        "WRIST",
+        "PSALM"
+      ],
+      "explanation": "The first written letter is not pronounced.",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_with_silent_first_letters",
+      "origin": {
+        "source": "seed",
+        "puzzle_id": "seed-007"
+      },
+      "verified": true
+    }
+  ]
+}

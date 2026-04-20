@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "instructions": [
+    "This is a non-exhaustive mechanism library, not a fixed category list.",
+    "Use the examples as patterns to adapt, not as categories to copy.",
+    "Invent fresh categories that follow these mechanisms or similarly fair mechanisms."
+  ],
+  "families": [
+    {
+      "id": "semantic_set",
+      "name": "Plain semantic sets",
+      "best_for": ["yellow", "green"],
+      "description": "A clean class of things most players can recognize.",
+      "examples": [
+        "pasta shapes such as PENNE, FUSILLI, ORZO, RAVIOLI",
+        "musical instruments such as VIOLIN, FLUTE, DRUM, TRUMPET"
+      ],
+      "avoid": [
+        "using very common sets as blue or purple",
+        "repeating familiar starter sets like planets, flowers, zoo animals, or desk items"
+      ]
+    },
+    {
+      "id": "shared_property",
+      "name": "Shared hidden properties",
+      "best_for": ["green", "blue", "purple"],
+      "description": "Words share a property that is fair but not the first meaning players notice.",
+      "examples": [
+        "things with keys such as PIANO, LOCK, MAP, KEYBOARD",
+        "things that can be rolled such as DICE, DOUGH, EYES, SLEEVES"
+      ],
+      "avoid": [
+        "properties so broad that almost anything could fit",
+        "properties that need expert trivia",
+        "one-off technical fits where the four words do not share the same natural phrase frame",
+        "using more than one Things you can X or Things that can be X group in the same board"
+      ]
+    },
+    {
+      "id": "phrase_completion",
+      "name": "Phrase completion",
+      "best_for": ["blue", "purple"],
+      "description": "Each answer combines with the same word before or after it.",
+      "examples": [
+        "words before BOARD, such as DASH, SURF, SCORE, KEY",
+        "words after ICE, such as CREAM, CUBE, WATER, SKATE"
+      ],
+      "avoid": [
+        "more than one phrase-completion group in one puzzle",
+        "using phrase completion as the default purple mechanism"
+      ]
+    },
+    {
+      "id": "sound",
+      "name": "Sound patterns",
+      "best_for": ["blue", "purple"],
+      "description": "Words are connected by pronunciation rather than meaning.",
+      "examples": [
+        "homophones of letters such as ARE, BEE, SEA, WHY",
+        "words that rhyme with numbers such as SUN, FEW, HEAVEN, DINE"
+      ],
+      "avoid": [
+        "near-rhymes that players would argue about",
+        "pronunciations that only work in one uncommon accent"
+      ]
+    },
+    {
+      "id": "spelling",
+      "name": "Spelling and letter patterns",
+      "best_for": ["blue", "purple"],
+      "description": "The written form hides the connection.",
+      "examples": [
+        "silent first letters such as KNIFE, GNOME, WRIST, PSALM",
+        "palindromes such as LEVEL, CIVIC, KAYAK, ROTOR"
+      ],
+      "avoid": [
+        "fake words",
+        "anagrams unless every displayed word is common and the mapping is exact"
+      ]
+    },
+    {
+      "id": "double_identity",
+      "name": "Second identities",
+      "best_for": ["green", "blue", "purple"],
+      "description": "Common words also belong to another recognizable system.",
+      "examples": [
+        "common words that are also programming languages, such as PYTHON, RUBY, SWIFT, RUST",
+        "keyboard keys that are also normal words, such as SHIFT, SPACE, RETURN, ESCAPE"
+      ],
+      "avoid": [
+        "systems that most players would not know",
+        "brand lists that feel like trivia",
+        "plain synonym groups as purple unless there is a second identity or another real trick"
+      ]
+    },
+    {
+      "id": "transformation",
+      "name": "Word transformations",
+      "best_for": ["purple"],
+      "description": "A small fair operation reveals the connection.",
+      "examples": [
+        "remove one letter to make a new common word",
+        "add the same letter to each answer to make a new word"
+      ],
+      "avoid": [
+        "multi-step transformations",
+        "operations that require explaining too much after the reveal"
+      ]
+    },
+    {
+      "id": "light_trivia",
+      "name": "Light trivia and culture",
+      "best_for": ["green", "blue"],
+      "description": "A familiar cultural set that does not require specialist knowledge.",
+      "examples": [
+        "chess pieces such as PAWN, ROOK, BISHOP, KNIGHT",
+        "zodiac signs such as ARIES, LEO, LIBRA, PISCES"
+      ],
+      "avoid": [
+        "expert-only knowledge",
+        "narrow fandom references"
+      ]
+    }
+  ]
+}
