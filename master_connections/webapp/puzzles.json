@@ -1,300 +1,99 @@
 [
   {
-    "id": "e67416f7-1895-43c4-9078-c3063de10377",
+    "id": "f84d4fcc-d5e3-4cbf-ae28-382dbfc8566b",
     "words": [
-      "STUFF",
-      "BASKET",
-      "PLATE",
-      "STEP",
-      "THING",
-      "REASON",
-      "BELL",
-      "SATISFY",
-      "JUSTIFY",
-      "QUALIFY",
-      "HOW",
-      "ASPECT",
-      "WAY",
-      "JUDGE",
-      "KNOB",
-      "HEAT"
-    ],
-    "groups": [
-      {
-        "category": "Words that can follow \"ANOTHER",
-        "words": [
-          "THING",
-          "STUFF",
-          "ASPECT",
-          "REASON"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Words that rhyme",
-        "words": [
-          "HOW",
-          "SATISFY",
-          "QUALIFY",
-          "JUSTIFY"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Things that can be \"hot",
-        "words": [
-          "BASKET",
-          "HEAT",
-          "PLATE",
-          "JUDGE"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "\"DOOR\" + ___",
-        "words": [
-          "STEP",
-          "BELL",
-          "KNOB",
-          "WAY"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:14:11.008017"
-    }
-  },
-  {
-    "id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518",
-    "words": [
-      "SHADE",
-      "CORNER",
+      "APPLICATION",
+      "HIP",
+      "KNEE",
       "DOWN",
-      "TOMORROW",
-      "RAINBOW",
-      "STEREO",
-      "AROUND",
-      "SET",
-      "OFF",
-      "ROUND",
-      "INTO",
-      "ONTO",
-      "LIGHT",
-      "GLOVE",
-      "RING",
-      "OUT"
+      "RELATIONSHIP",
+      "COLLABORATION",
+      "SASH",
+      "WATER",
+      "PRECIPITATION",
+      "TIARA",
+      "WIND",
+      "SHOULDER",
+      "BOUTONNIERE",
+      "SNOW",
+      "WRIST",
+      "CORSAGE"
     ],
     "groups": [
       {
-        "category": "Words that can follow \"GET",
+        "category": "Parts of the human body",
         "words": [
-          "OFF",
-          "ONTO",
-          "INTO",
-          "AROUND"
+          "HIP",
+          "KNEE",
+          "SHOULDER",
+          "WRIST"
         ],
         "color": "yellow"
       },
       {
-        "category": "Words that rhyme",
+        "category": "All contain \"TION\"",
         "words": [
-          "OUT",
-          "STEREO",
-          "RAINBOW",
-          "TOMORROW"
+          "PRECIPITATION",
+          "RELATIONSHIP",
+          "APPLICATION",
+          "COLLABORATION"
         ],
         "color": "green"
       },
       {
-        "category": "Boxing match elements",
+        "category": "Things at prom",
         "words": [
-          "RING",
-          "GLOVE",
-          "ROUND",
-          "CORNER"
+          "CORSAGE",
+          "SASH",
+          "TIARA",
+          "BOUTONNIERE"
         ],
         "color": "blue"
       },
       {
-        "category": "\"SUN\" + ___",
+        "category": "___ + \"FALL\"",
         "words": [
-          "LIGHT",
           "DOWN",
-          "SET",
-          "SHADE"
+          "WATER",
+          "SNOW",
+          "WIND"
         ],
         "color": "purple"
       }
     ],
     "metadata": {
       "source": "burak",
-      "generated_at": "2026-04-20T00:14:17.225253"
+      "generated_at": "2026-04-20T03:47:38.616530"
     }
   },
   {
-    "id": "7cff7d56-6795-49e3-9fc2-fbb5cccb7fb6",
+    "id": "8ed559ba-fddb-4e26-96ee-f77d20ecfb75",
     "words": [
-      "WALKED",
-      "SCORE",
-      "COUCH",
-      "CARD",
-      "GUEST",
-      "AUDIENCE",
-      "LES",
-      "FLOOR",
-      "ARRAY",
-      "CAME",
-      "BAND",
-      "EVERYDAY",
-      "PLAY",
-      "BUCK",
-      "TURNED",
-      "WENT"
-    ],
-    "groups": [
-      {
-        "category": "Past tense movement verbs",
-        "words": [
-          "WALKED",
-          "WENT",
-          "CAME",
-          "TURNED"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Words that rhyme",
-        "words": [
-          "PLAY",
-          "ARRAY",
-          "LES",
-          "EVERYDAY"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Things with a \"potato",
-        "words": [
-          "COUCH",
-          "BAND",
-          "GUEST",
-          "AUDIENCE"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "___ + \"BOARD\"",
-        "words": [
-          "BUCK",
-          "FLOOR",
-          "CARD",
-          "SCORE"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:52:52.181867"
-    }
-  },
-  {
-    "id": "eaac41f1-39b7-4070-b2aa-7d978b29093e",
-    "words": [
-      "MOISTURE",
-      "GLOSSARY",
-      "RAPPORT",
-      "JARGON",
-      "INTERPERSONAL",
-      "VOCABULARY",
-      "DRENCHED",
-      "PERVAPORATION",
-      "TERMINOLOGY",
-      "MUSICIANSHIP",
-      "AFFECTIONATE",
-      "MUSIC",
-      "GREGARIOUS",
-      "MUSICALLY",
-      "MUSICIAN",
-      "WETNESS"
-    ],
-    "groups": [
-      {
-        "category": "MUSICAL GENRES",
-        "words": [
-          "MUSIC",
-          "MUSICALLY",
-          "MUSICIANSHIP",
-          "MUSICIAN"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "TERMS RELATED TO CHANGE",
-        "words": [
-          "TERMINOLOGY",
-          "JARGON",
-          "VOCABULARY",
-          "GLOSSARY"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "WORDS ASSOCIATED WITH WATER",
-        "words": [
-          "WETNESS",
-          "MOISTURE",
-          "DRENCHED",
-          "PERVAPORATION"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
-        "words": [
-          "GREGARIOUS",
-          "INTERPERSONAL",
-          "RAPPORT",
-          "AFFECTIONATE"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "kevin_fresh",
-      "generated_at": "2026-04-20T00:53:57.833562"
-    }
-  },
-  {
-    "id": "8cda65ea-d562-4ec3-b57f-7f7aa2b2b488",
-    "words": [
-      "COLUMN",
-      "SECTION",
-      "HOME",
-      "FIN",
-      "LOW",
-      "BEACH",
+      "EYE",
+      "BELL",
+      "ROPE",
+      "CAPTAIN",
       "ALTHOUGH",
-      "FOLD",
-      "LAKE",
+      "SNOW",
       "HIGH",
-      "ICE",
-      "COVE",
-      "HELLO",
+      "SQUAD",
+      "LOW",
       "THROW",
-      "CREEK",
-      "SPREAD"
+      "BASKET",
+      "TEAM",
+      "CORNER",
+      "MAT",
+      "COACH",
+      "PRO"
     ],
     "groups": [
       {
-        "category": "Bodies of water",
+        "category": "Sports leadership and membership roles",
         "words": [
-          "COVE",
-          "BEACH",
-          "LAKE",
-          "CREEK"
+          "SQUAD",
+          "TEAM",
+          "COACH",
+          "CAPTAIN"
         ],
         "color": "yellow"
       },
@@ -304,227 +103,26 @@
           "LOW",
           "ALTHOUGH",
           "THROW",
-          "HELLO"
+          "PRO"
         ],
         "color": "green"
       },
       {
-        "category": "Parts of a Newspaper",
+        "category": "Things in a boxing ring",
         "words": [
-          "COLUMN",
-          "SECTION",
-          "FOLD",
-          "SPREAD"
+          "ROPE",
+          "BELL",
+          "CORNER",
+          "MAT"
         ],
         "color": "blue"
       },
       {
-        "category": "___ + \"LAND\"",
+        "category": "___ + \"BALL\"",
         "words": [
-          "HIGH",
-          "FIN",
-          "HOME",
-          "ICE"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:54:04.249643"
-    }
-  },
-  {
-    "id": "d79f0f1a-46e8-4bd5-a056-fee3d36a0ab3",
-    "words": [
-      "DRINK",
-      "FEED",
-      "SILVER",
-      "EAT",
-      "COPPER",
-      "SHEET",
-      "LINE",
-      "PLATINUM",
-      "GOLD",
-      "COME",
-      "RECEIPT",
-      "SUITE",
-      "SIGNAL",
-      "TAPE",
-      "CEMENT",
-      "DRAW"
-    ],
-    "groups": [
-      {
-        "category": "Precious metals and elements",
-        "words": [
-          "GOLD",
-          "SILVER",
-          "COPPER",
-          "PLATINUM"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Words that rhyme",
-        "words": [
-          "EAT",
-          "RECEIPT",
-          "SHEET",
-          "SUITE"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Things You Can Give",
-        "words": [
-          "DRINK",
-          "CEMENT",
-          "TAPE",
-          "SIGNAL"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "___ + \"BACK\"",
-        "words": [
-          "DRAW",
-          "FEED",
-          "COME",
-          "LINE"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:54:36.148567"
-    }
-  },
-  {
-    "id": "69f1eff5-af23-4c19-b0e2-d28b7bcdd735",
-    "words": [
-      "COMING",
-      "DRAGON",
-      "LOCKING",
-      "THRONE",
-      "BROKE",
-      "SETTING",
-      "SET",
-      "DATE",
-      "WINTER",
-      "QUANTUM",
-      "GRADE",
-      "WALL",
-      "AQUARIUM",
-      "INQUIRE",
-      "BREAKING",
-      "REACHING"
-    ],
-    "groups": [
-      {
-        "category": "Things that can be ___ eyes",
-        "words": [
-          "BREAKING",
-          "SETTING",
-          "REACHING",
-          "LOCKING"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "All contain \"QU\"",
-        "words": [
-          "BROKE",
-          "INQUIRE",
-          "QUANTUM",
-          "AQUARIUM"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Things in Game of Thrones",
-        "words": [
-          "WALL",
-          "THRONE",
-          "DRAGON",
-          "WINTER"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "\"UP\" + ___",
-        "words": [
-          "DATE",
-          "SET",
-          "COMING",
-          "GRADE"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:54:57.735722"
-    }
-  },
-  {
-    "id": "8a4d28b6-9e1c-499f-9238-1df976fdbff8",
-    "words": [
-      "RINGER",
-      "HIGH",
-      "HEAT",
-      "WORK",
-      "FUNCTION",
-      "DOOR",
-      "WEIGHT",
-      "GATE",
-      "CORPS",
-      "TASKS",
-      "BROAD",
-      "BEFORE",
-      "STOCK",
-      "RAIL",
-      "ASSIGNMENT",
-      "SHORE"
-    ],
-    "groups": [
-      {
-        "category": "Things on a job description",
-        "words": [
-          "TASKS",
-          "FUNCTION",
-          "ASSIGNMENT",
-          "WORK"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Words that rhyme",
-        "words": [
-          "DOOR",
-          "CORPS",
-          "BEFORE",
-          "SHORE"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Dead _____ (things that can follow \"dead\")",
-        "words": [
-          "HEAT",
-          "WEIGHT",
-          "RINGER",
-          "STOCK"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "___ + \"WAY\"",
-        "words": [
-          "GATE",
-          "RAIL",
-          "BROAD",
+          "BASKET",
+          "SNOW",
+          "EYE",
           "HIGH"
         ],
         "color": "purple"
@@ -532,133 +130,1339 @@
     ],
     "metadata": {
       "source": "burak",
-      "generated_at": "2026-04-20T00:55:14.873651"
+      "generated_at": "2026-04-20T03:48:59.481909"
     }
   },
   {
-    "id": "84dcae44-b634-497b-8b6a-74057513effc",
+    "id": "a15d3c04-4da5-47a3-b84f-c56ac8e13f08",
     "words": [
-      "NIGHT",
-      "FOUGHT",
-      "PAGE",
-      "TEXT",
-      "SKETCH",
-      "BOARD",
-      "POCKET",
-      "INSTEAD",
-      "CURED",
-      "CHEESE",
-      "NOTE",
-      "SPREAD",
-      "SIMPLY",
-      "MERELY",
-      "STRAIGHT",
-      "RATHER"
+      "JOKE",
+      "DECADE",
+      "MOUNTAIN",
+      "RIDGE",
+      "AID",
+      "GRADE",
+      "HILL",
+      "STAYED",
+      "CLASS",
+      "CASE",
+      "PLAY",
+      "SMILE",
+      "STALE",
+      "SLOPE",
+      "TEAM",
+      "SAFE"
     ],
     "groups": [
       {
-        "category": "Adverbs that soften statements",
+        "category": "Elevated landforms",
         "words": [
-          "MERELY",
-          "SIMPLY",
-          "RATHER",
-          "INSTEAD"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "All contain \"GHT\"",
-        "words": [
-          "FOUGHT",
-          "NIGHT",
-          "STRAIGHT",
-          "PAGE"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Things you can charcuterie",
-        "words": [
-          "BOARD",
-          "CHEESE",
-          "CURED",
-          "SPREAD"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "___ + \"BOOK\"",
-        "words": [
-          "SKETCH",
-          "POCKET",
-          "NOTE",
-          "TEXT"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:55:46.298812"
-    }
-  },
-  {
-    "id": "50b053bd-60e4-45ad-a575-af5c7c787d78",
-    "words": [
-      "TOKEN",
-      "ACRE",
-      "WEATHER",
-      "BOW",
-      "STORM",
-      "COAT",
-      "LAND",
-      "LAFAYETTE",
-      "ROULETTE",
-      "PIECE",
-      "PARCEL",
-      "TRACT",
-      "CARD",
-      "DICE",
-      "FORGET",
-      "FALL"
-    ],
-    "groups": [
-      {
-        "category": "Words for area of ground",
-        "words": [
-          "TRACT",
-          "ACRE",
-          "PARCEL",
-          "LAND"
+          "HILL",
+          "MOUNTAIN",
+          "SLOPE",
+          "RIDGE"
         ],
         "color": "yellow"
       },
       {
         "category": "Words that rhyme",
         "words": [
-          "WEATHER",
-          "ROULETTE",
-          "FORGET",
-          "LAFAYETTE"
+          "GRADE",
+          "DECADE",
+          "AID",
+          "STAYED"
         ],
         "color": "green"
       },
       {
-        "category": "Things You Move in Games",
+        "category": "Things that can be cracked",
         "words": [
-          "DICE",
-          "CARD",
-          "TOKEN",
-          "PIECE"
+          "SMILE",
+          "CASE",
+          "SAFE",
+          "JOKE"
         ],
         "color": "blue"
       },
       {
-        "category": "\"RAIN\" + ___",
+        "category": "___ + \"MATE\"",
         "words": [
+          "STALE",
+          "CLASS",
+          "TEAM",
+          "PLAY"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T03:50:01.703415"
+    }
+  },
+  {
+    "id": "bb9fedba-d174-4111-a4e5-3b6046525bad",
+    "words": [
+      "MADE",
+      "HIGH",
+      "PROVED",
+      "HOME",
+      "ROPE",
+      "DOVE",
+      "NECKLACE",
+      "CARD",
+      "BACK",
+      "CRICKET",
+      "ICE",
+      "FIN",
+      "SILK",
+      "GAVE",
+      "POCKET",
+      "CAME"
+    ],
+    "groups": [
+      {
+        "category": "Past tense of verbs ending in -e",
+        "words": [
+          "MADE",
+          "CAME",
+          "PROVED",
+          "GAVE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "All contain \"CK\"",
+        "words": [
+          "BACK",
+          "NECKLACE",
+          "POCKET",
+          "CRICKET"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things in a magic show",
+        "words": [
+          "CARD",
+          "DOVE",
+          "ROPE",
+          "SILK"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ + \"LAND\"",
+        "words": [
+          "HIGH",
+          "HOME",
+          "FIN",
+          "ICE"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T03:51:17.439164"
+    }
+  },
+  {
+    "id": "d8a56cef-2d2a-4d93-b021-7237d259a25b",
+    "words": [
+      "HAMMER",
+      "CAST",
+      "TURN",
+      "FARMHOUSE",
+      "BUFFER",
+      "BREAKFAST",
+      "RIGHT",
+      "COTTAGE",
+      "SAW",
+      "MONASTERY",
+      "BURR",
+      "SUPPER",
+      "FALL",
+      "BANQUET",
+      "CASTLE",
+      "REFRESHMENT"
+    ],
+    "groups": [
+      {
+        "category": "Dwellings",
+        "words": [
+          "CASTLE",
+          "COTTAGE",
+          "FARMHOUSE",
+          "MONASTERY"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Meals",
+        "words": [
+          "BANQUET",
+          "BREAKFAST",
+          "REFRESHMENT",
+          "SUPPER"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Power Tool Terms",
+        "words": [
+          "BUFFER",
+          "BURR",
+          "HAMMER",
+          "SAW"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "DOWN ___",
+        "words": [
+          "CAST",
+          "FALL",
+          "RIGHT",
+          "TURN"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:51:17.549157"
+    }
+  },
+  {
+    "id": "f5f40040-37cb-4e80-afa6-695fd2b59b62",
+    "words": [
+      "SLINKY",
+      "MUSICALLY",
+      "YAHOO",
+      "TELEGRAM",
+      "ESTUARY",
+      "DRAINAGE",
+      "CANAL",
+      "LOBLOLLY",
+      "TINDER",
+      "INSTRUMENTALIST",
+      "SLIVERY",
+      "TOPOGRAPHICAL",
+      "SLACK",
+      "MUSICIAN",
+      "SHAPELY",
+      "ORCHESTRAL"
+    ],
+    "groups": [
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "WORDS THAT END WITH 'LY'",
+        "words": [
+          "LOBLOLLY",
+          "SLIVERY",
+          "SLINKY",
+          "SHAPELY"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "SOCIAL MEDIA PLATFORMS",
+        "words": [
+          "SLACK",
+          "YAHOO",
+          "TELEGRAM",
+          "TINDER"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "CANAL-RELATED TERMS",
+        "words": [
+          "CANAL",
+          "TOPOGRAPHICAL",
+          "ESTUARY",
+          "DRAINAGE"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "kevin_fresh",
+      "generated_at": "2026-04-20T03:51:39.213147"
+    }
+  },
+  {
+    "id": "394bae20-4e64-4e80-9ad2-611aca7ab4a5",
+    "words": [
+      "STANDARD",
+      "TEAM",
+      "SCHOOL",
+      "CHANCE",
+      "TREND",
+      "RAID",
+      "DISPLAYED",
+      "SHIP",
+      "STATION",
+      "UTILITY",
+      "CLASS",
+      "CORNER",
+      "NORM",
+      "GRADE",
+      "DECADE",
+      "PATTERN"
+    ],
+    "groups": [
+      {
+        "category": "Things that set the baseline",
+        "words": [
+          "NORM",
+          "STANDARD",
+          "TREND",
+          "PATTERN"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "GRADE",
+          "DISPLAYED",
+          "RAID",
+          "DECADE"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things on a Monopoly board",
+        "words": [
+          "STATION",
+          "UTILITY",
+          "CORNER",
+          "CHANCE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ + \"MATE\"",
+        "words": [
+          "SCHOOL",
+          "SHIP",
+          "TEAM",
+          "CLASS"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T03:51:53.540297"
+    }
+  },
+  {
+    "id": "a1621595-e6e5-419a-b454-ddb56296e7ca",
+    "words": [
+      "STEAM",
+      "CAST",
+      "GANG",
+      "JIGGING",
+      "POD",
+      "SOLDERING",
+      "CASTING",
+      "SCHOOL",
+      "FLY FISHING",
+      "PACK",
+      "FLAT",
+      "CURLING",
+      "PARLIAMENT",
+      "TROLLING",
+      "MURDER",
+      "FLOCK"
+    ],
+    "groups": [
+      {
+        "category": "types of fishing techniques",
+        "words": [
+          "TROLLING",
+          "CASTING",
+          "FLY FISHING",
+          "JIGGING"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "collective nouns associated with animals",
+        "words": [
+          "SCHOOL",
+          "PACK",
+          "POD",
+          "FLOCK"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "words that precede 'iron'",
+        "words": [
+          "FLAT",
+          "STEAM",
+          "SOLDERING",
+          "CURLING"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "collective nouns for unusual professions",
+        "words": [
+          "MURDER",
+          "PARLIAMENT",
+          "GANG",
+          "CAST"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "adreama",
+      "generated_at": "2026-04-20T03:52:05.994268"
+    }
+  },
+  {
+    "id": "ce270159-4f80-4872-9120-64eb90a7d232",
+    "words": [
+      "CHIASMUS",
+      "CANT",
+      "SCORE",
+      "SNOWBALL",
+      "MEATBALL",
+      "MUTE",
+      "WONT",
+      "ODDBALL",
+      "STAND",
+      "ELISION",
+      "THEYRE",
+      "ITS",
+      "BOW",
+      "FIREBALL",
+      "ZEUGMA",
+      "ANAPHORA"
+    ],
+    "groups": [
+      {
+        "category": "common English contractions",
+        "words": [
+          "ITS",
+          "CANT",
+          "WONT",
+          "THEYRE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "items found in an orchestra pit",
+        "words": [
+          "STAND",
+          "SCORE",
           "BOW",
-          "STORM",
-          "COAT",
+          "MUTE"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "compound words ending in ball",
+        "words": [
+          "SNOWBALL",
+          "FIREBALL",
+          "MEATBALL",
+          "ODDBALL"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "literary terms in rhetoric",
+        "words": [
+          "ZEUGMA",
+          "ANAPHORA",
+          "CHIASMUS",
+          "ELISION"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "adreama",
+      "generated_at": "2026-04-20T03:52:13.261617"
+    }
+  },
+  {
+    "id": "89a3048c-a0a2-4cdf-be83-dd20c613c41e",
+    "words": [
+      "STAIR",
+      "KELP",
+      "OIL",
+      "PARK",
+      "HALL",
+      "RUN",
+      "BYPASS",
+      "PROTOZOA",
+      "PIKE",
+      "HIGHROAD",
+      "ALGAE",
+      "BACTERIA",
+      "ACRYLIC",
+      "EXPRESSWAY",
+      "PAINT",
+      "LACQUER"
+    ],
+    "groups": [
+      {
+        "category": "Microorganisms",
+        "words": [
+          "ALGAE",
+          "BACTERIA",
+          "KELP",
+          "PROTOZOA"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Coatings",
+        "words": [
+          "ACRYLIC",
+          "LACQUER",
+          "OIL",
+          "PAINT"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Highway Terms",
+        "words": [
+          "BYPASS",
+          "EXPRESSWAY",
+          "HIGHROAD",
+          "PIKE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ WAY",
+        "words": [
+          "HALL",
+          "PARK",
+          "RUN",
+          "STAIR"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:52:29.453974"
+    }
+  },
+  {
+    "id": "8e29f133-13f3-4f5a-ab31-e91f5db6e8f3",
+    "words": [
+      "FLOOR",
+      "LEADEN",
+      "RIBBON",
+      "GATE",
+      "IRONY",
+      "RING",
+      "EDGE",
+      "HEAVEN",
+      "ITCH",
+      "THREAD",
+      "ROPE",
+      "SALTINE",
+      "HEEL",
+      "GOLDEN",
+      "TIE",
+      "LINE"
+    ],
+    "groups": [
+      {
+        "category": "Things You Can Knot",
+        "words": [
+          "ROPE",
+          "TIE",
+          "RIBBON",
+          "THREAD"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Each contains a hidden metal",
+        "words": [
+          "SALTINE",
+          "LEADEN",
+          "GOLDEN",
+          "IRONY"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Add a letter to the front to make a new word: add W",
+        "words": [
+          "ITCH",
+          "HEEL",
+          "RING",
+          "EDGE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "Rhyme with a number",
+        "words": [
+          "GATE",
+          "LINE",
+          "HEAVEN",
+          "FLOOR"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_ai",
+      "generated_at": "2026-04-20T03:55:08.341103"
+    }
+  },
+  {
+    "id": "fd4aa2ce-670d-4d79-8624-45041528d010",
+    "words": [
+      "WAY",
+      "JEEP",
+      "CONVENT",
+      "PICKUP",
+      "BORNE",
+      "MATE",
+      "COUNTERPART",
+      "SIMILITUDE",
+      "AUTOMOBILE",
+      "AMBULANCE",
+      "LINE",
+      "FIELD",
+      "HALL",
+      "FARMHOUSE",
+      "MATCH",
+      "RESIDENCE"
+    ],
+    "groups": [
+      {
+        "category": "Houses",
+        "words": [
+          "CONVENT",
+          "FARMHOUSE",
+          "HALL",
+          "RESIDENCE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Wheeled Vehicles",
+        "words": [
+          "AMBULANCE",
+          "AUTOMOBILE",
+          "JEEP",
+          "PICKUP"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Duplicate Terms",
+        "words": [
+          "COUNTERPART",
+          "MATCH",
+          "MATE",
+          "SIMILITUDE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "AIR ___",
+        "words": [
+          "BORNE",
+          "FIELD",
+          "LINE",
+          "WAY"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:55:17.854353"
+    }
+  },
+  {
+    "id": "f6bb3c53-248d-4162-9893-976e00738129",
+    "words": [
+      "DOORMAN",
+      "PORTER",
+      "MID",
+      "CAGE",
+      "PITUITARY",
+      "HILL",
+      "EPIPHYSIS",
+      "PROSTATE",
+      "LUMBER",
+      "ADRENAL",
+      "BAG",
+      "DRIVE",
+      "HALF",
+      "RUN",
+      "SENTRY",
+      "SENTINEL"
+    ],
+    "groups": [
+      {
+        "category": "Glands",
+        "words": [
+          "ADRENAL",
+          "EPIPHYSIS",
+          "PITUITARY",
+          "PROSTATE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Guards",
+        "words": [
+          "DOORMAN",
+          "PORTER",
+          "SENTINEL",
+          "SENTRY"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Baseball Equipment Terms",
+        "words": [
+          "BAG",
+          "CAGE",
+          "HILL",
+          "LUMBER"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ WAY",
+        "words": [
+          "DRIVE",
+          "HALF",
+          "MID",
+          "RUN"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:55:22.303198"
+    }
+  },
+  {
+    "id": "a8e60e48-70ee-42b4-9a06-f78a6cccb5c5",
+    "words": [
+      "FLOOD",
+      "ENSEMBLE",
+      "MURDER",
+      "TORRENT",
+      "RAFT",
+      "CHIC",
+      "COUTURE",
+      "DOG",
+      "GUSH",
+      "TREE",
+      "DRIZZLE",
+      "HAUTE",
+      "GUEST",
+      "GREEN",
+      "OSTENTATION",
+      "PARLIAMENT"
+    ],
+    "groups": [
+      {
+        "category": "words associated with water",
+        "words": [
+          "GUSH",
+          "FLOOD",
+          "DRIZZLE",
+          "TORRENT"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "words related to fashion",
+        "words": [
+          "COUTURE",
+          "CHIC",
+          "ENSEMBLE",
+          "HAUTE"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "words that can precede 'house'",
+        "words": [
+          "GREEN",
+          "GUEST",
+          "DOG",
+          "TREE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "collective nouns for specific animals",
+        "words": [
+          "MURDER",
+          "RAFT",
+          "PARLIAMENT",
+          "OSTENTATION"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "adreama",
+      "generated_at": "2026-04-20T03:55:27.221881"
+    }
+  },
+  {
+    "id": "21c8453f-31eb-43f9-be3a-8e069f0fef8e",
+    "words": [
+      "SLIP",
+      "CUTTING",
+      "CALF",
+      "TRUNK",
+      "BULLY",
+      "GANGSTER",
+      "SCHOOL",
+      "FOAL",
+      "AXIS",
+      "BUTCHER",
+      "FILLY",
+      "TEAM",
+      "PLAY",
+      "RACKETEER",
+      "KITTEN",
+      "CLASS"
+    ],
+    "groups": [
+      {
+        "category": "Young Mammals",
+        "words": [
+          "CALF",
+          "FILLY",
+          "FOAL",
+          "KITTEN"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Criminals",
+        "words": [
+          "BULLY",
+          "BUTCHER",
+          "GANGSTER",
+          "RACKETEER"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Stalk Terms",
+        "words": [
+          "AXIS",
+          "CUTTING",
+          "SLIP",
+          "TRUNK"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ MATE",
+        "words": [
+          "CLASS",
+          "PLAY",
+          "SCHOOL",
+          "TEAM"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:55:27.301843"
+    }
+  },
+  {
+    "id": "d5cf326b-c967-4e2a-9535-ff8974427348",
+    "words": [
+      "BREAK",
+      "TRACKED",
+      "PREVIEW",
+      "SYNOPSIS",
+      "CRACK",
+      "SUN",
+      "HYMN",
+      "SUMMARY",
+      "EXCERPT",
+      "WICKED",
+      "TOUCH",
+      "BELL",
+      "SHOW",
+      "ALTAR",
+      "PEWS",
+      "BLOCKED"
+    ],
+    "groups": [
+      {
+        "category": "Shortened versions of longer content",
+        "words": [
+          "SYNOPSIS",
+          "SUMMARY",
+          "PREVIEW",
+          "EXCERPT"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "All contain \"CK\"",
+        "words": [
+          "CRACK",
+          "TRACKED",
+          "WICKED",
+          "BLOCKED"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things at a church service",
+        "words": [
+          "HYMN",
+          "BELL",
+          "PEWS",
+          "ALTAR"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ + \"DOWN\"",
+        "words": [
+          "SHOW",
+          "TOUCH",
+          "BREAK",
+          "SUN"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T03:56:07.218107"
+    }
+  },
+  {
+    "id": "68a0b0a3-e965-497e-81b1-849d5dd74279",
+    "words": [
+      "POND",
+      "LAGOON",
+      "ESTUARY",
+      "EXPONENT",
+      "SOCIALITY",
+      "SOCIALLY",
+      "SQUARED",
+      "ACOUSTICAL",
+      "THIRTIETH",
+      "SOCIABILITY",
+      "AMBIENT",
+      "TONAL",
+      "SWAMP",
+      "SONORITY",
+      "SOCIALIZED",
+      "RATIONALIZE"
+    ],
+    "groups": [
+      {
+        "category": "TYPES OF SOCIAL GATHERINGS",
+        "words": [
+          "SOCIALITY",
+          "SOCIALLY",
+          "SOCIABILITY",
+          "SOCIALIZED"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "THINGS FOUND IN A CANAL",
+        "words": [
+          "ESTUARY",
+          "SWAMP",
+          "LAGOON",
+          "POND"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "WORDS RELATED TO AMBIENCE",
+        "words": [
+          "AMBIENT",
+          "TONAL",
+          "ACOUSTICAL",
+          "SONORITY"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "WAYS TO SAY RADICAL",
+        "words": [
+          "THIRTIETH",
+          "EXPONENT",
+          "RATIONALIZE",
+          "SQUARED"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "kevin_fresh",
+      "generated_at": "2026-04-20T03:56:19.580017"
+    }
+  },
+  {
+    "id": "60a66102-e19d-4da6-ba93-a697b4424884",
+    "words": [
+      "CANNON",
+      "JAW",
+      "MOCCASIN",
+      "HILL",
+      "WIND",
+      "STREAM",
+      "FIN",
+      "PLATFORM",
+      "CHEEKBONE",
+      "GRINDER",
+      "TENDON",
+      "ARROW",
+      "TOWN",
+      "BULLET",
+      "PUMP",
+      "SCATTERGUN"
+    ],
+    "groups": [
+      {
+        "category": "Connective Tissues",
+        "words": [
+          "CHEEKBONE",
+          "GRINDER",
+          "JAW",
+          "TENDON"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Weapons",
+        "words": [
+          "ARROW",
+          "BULLET",
+          "CANNON",
+          "SCATTERGUN"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Shoe Terms",
+        "words": [
+          "FIN",
+          "MOCCASIN",
+          "PLATFORM",
+          "PUMP"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "DOWN ___",
+        "words": [
+          "HILL",
+          "STREAM",
+          "TOWN",
+          "WIND"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:56:26.529775"
+    }
+  },
+  {
+    "id": "f824df71-ca87-416d-8f28-3e56716f9394",
+    "words": [
+      "WILLIAM THE CONQUEROR",
+      "LITTLE RED HEN",
+      "CHOP CUP",
+      "PECKING ORDER",
+      "PENDRAGONS LEVITATION",
+      "IVAN THE TERRIBLE",
+      "CUPS AND BALLS",
+      "CROSS THE ROAD",
+      "AMBITIOUS CARD",
+      "CHALICE",
+      "SIPPY",
+      "ON A WIRE",
+      "ALEXANDER THE GREAT",
+      "TUMBLER",
+      "MARTINI",
+      "GENGHIS KHAN"
+    ],
+    "groups": [
+      {
+        "category": "types of cups",
+        "words": [
+          "SIPPY",
+          "MARTINI",
+          "TUMBLER",
+          "CHALICE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "famous historical figures with nicknames",
+        "words": [
+          "GENGHIS KHAN",
+          "WILLIAM THE CONQUEROR",
+          "ALEXANDER THE GREAT",
+          "IVAN THE TERRIBLE"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "phrase completion with 'chicken'",
+        "words": [
+          "CROSS THE ROAD",
+          "PECKING ORDER",
+          "ON A WIRE",
+          "LITTLE RED HEN"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "names of specific magic tricks",
+        "words": [
+          "AMBITIOUS CARD",
+          "CUPS AND BALLS",
+          "CHOP CUP",
+          "PENDRAGONS LEVITATION"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "adreama",
+      "generated_at": "2026-04-20T03:56:39.870572"
+    }
+  },
+  {
+    "id": "e4a914b5-3636-4e2e-9c77-c3c424924959",
+    "words": [
+      "WAY",
+      "STRIP",
+      "THERMOCOUPLE",
+      "GRATE",
+      "ARM",
+      "SONAR",
+      "PORT",
+      "SYNCHRONIZER",
+      "FANG",
+      "BARRICADE",
+      "ROADBLOCK",
+      "RAIL",
+      "LEG",
+      "LINE",
+      "MICROMETER",
+      "FOREARM"
+    ],
+    "groups": [
+      {
+        "category": "Extremities",
+        "words": [
+          "ARM",
+          "FANG",
+          "FOREARM",
+          "LEG"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Measuring Instruments",
+        "words": [
+          "MICROMETER",
+          "SONAR",
+          "SYNCHRONIZER",
+          "THERMOCOUPLE"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Barrier Terms",
+        "words": [
+          "BARRICADE",
+          "GRATE",
+          "RAIL",
+          "ROADBLOCK"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "AIR ___",
+        "words": [
+          "LINE",
+          "PORT",
+          "STRIP",
+          "WAY"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:56:39.935687"
+    }
+  },
+  {
+    "id": "97b3eea7-e422-40b0-b9be-959abbf52d45",
+    "words": [
+      "BARGE",
+      "TRANCE",
+      "BUSINESSLIKE",
+      "CORDIAL",
+      "AMBIENT",
+      "ESTUARY",
+      "WATERFRONT",
+      "MOOD",
+      "HOSPITABLE",
+      "RIVER",
+      "DEMEANOR",
+      "CHEERFULNESS",
+      "DISTURBED",
+      "POLITE",
+      "EMOTIONALITY",
+      "GENRE"
+    ],
+    "groups": [
+      {
+        "category": "ADJECTIVES DESCRIBING MOODS",
+        "words": [
+          "MOOD",
+          "CHEERFULNESS",
+          "EMOTIONALITY",
+          "DEMEANOR"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "WORDS RELATED TO WATERWAYS",
+        "words": [
+          "RIVER",
+          "ESTUARY",
+          "BARGE",
+          "WATERFRONT"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "WAYS TO SAY FRIENDLY",
+        "words": [
+          "CORDIAL",
+          "POLITE",
+          "HOSPITABLE",
+          "BUSINESSLIKE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "MUSIC GENRES WITH 'AMBIENT' IN THEIR NAME",
+        "words": [
+          "AMBIENT",
+          "GENRE",
+          "TRANCE",
+          "DISTURBED"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "kevin_fresh",
+      "generated_at": "2026-04-20T03:57:06.891971"
+    }
+  },
+  {
+    "id": "ff8a048e-fa8c-4025-9d33-004771f953db",
+    "words": [
+      "SPARKLER",
+      "TIME",
+      "GAME",
+      "SCHEME",
+      "CORN",
+      "CLUB",
+      "WATERMELON",
+      "FALL",
+      "TEAM",
+      "MARE",
+      "SUPREME",
+      "POTATO",
+      "PLAYER",
+      "LEAGUE",
+      "REDEEM",
+      "SEASON"
+    ],
+    "groups": [
+      {
+        "category": "Things in sports",
+        "words": [
+          "LEAGUE",
+          "GAME",
+          "PLAYER",
+          "SEASON"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "TEAM",
+          "REDEEM",
+          "SUPREME",
+          "SCHEME"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things at a Fourth of July party",
+        "words": [
+          "SPARKLER",
+          "POTATO",
+          "CORN",
+          "WATERMELON"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "\"NIGHT\" + ___",
+        "words": [
+          "TIME",
+          "MARE",
+          "CLUB",
           "FALL"
         ],
         "color": "purple"
@@ -666,459 +1470,1263 @@
     ],
     "metadata": {
       "source": "burak",
-      "generated_at": "2026-04-20T00:55:53.510719"
+      "generated_at": "2026-04-20T03:57:15.564861"
     }
   },
   {
-    "id": "a0ab0d4c-f7d5-4ea5-a940-783041955f4e",
+    "id": "4275ef79-7fa8-4441-9157-b976b779b46e",
     "words": [
-      "ENDS",
-      "PUBERTY",
-      "INFANCY",
-      "SECOND",
-      "A GALAXY",
-      "BLACK HOLE",
-      "COMET",
-      "RENAISSANCE",
-      "DECISION",
-      "SUPERNOVA",
-      "A MISCHIEF",
-      "PERSONALITY",
-      "A MURMURATION",
-      "CRISIS",
-      "NEBULA",
-      "A TROOP"
+      "ARTHRITIS",
+      "COVER",
+      "DROP",
+      "SIGN",
+      "RETRIEVER",
+      "NINE",
+      "TRAUMA",
+      "DECLINE",
+      "GOOSE",
+      "PAIN",
+      "STAR",
+      "DIVINE",
+      "BOOK",
+      "RATIO",
+      "HANDSHAKE",
+      "ANXIETY"
     ],
     "groups": [
       {
-        "category": "astronomical terms",
+        "category": "Conditions treated with CBD",
         "words": [
-          "NEBULA",
-          "SUPERNOVA",
-          "BLACK HOLE",
-          "COMET"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "types of stages or phases",
-        "words": [
-          "PUBERTY",
-          "CRISIS",
-          "RENAISSANCE",
-          "INFANCY"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "words that can follow 'split'",
-        "words": [
-          "DECISION",
-          "SECOND",
-          "ENDS",
-          "PERSONALITY"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "collective nouns for unusual professions",
-        "words": [
-          "A MISCHIEF",
-          "A MURMURATION",
-          "A TROOP",
-          "A GALAXY"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "adreama",
-      "generated_at": "2026-04-20T00:55:59.633240"
-    }
-  },
-  {
-    "id": "405f097a-66af-450d-a60e-e5ced2730106",
-    "words": [
-      "HARE",
-      "CHESHIRE CAT",
-      "KITCHEN",
-      "POOL",
-      "OVIDIUS NASO",
-      "DINING",
-      "CATERPILLAR",
-      "DORMOUSE",
-      "BEDROOM",
-      "BATHROOM",
-      "MARK TWAIN",
-      "PERIODIC",
-      "LEWIS CARROLL",
-      "COFFEE",
-      "LIVING ROOM",
-      "GEORGE ORWELL"
-    ],
-    "groups": [
-      {
-        "category": "room types in a house",
-        "words": [
-          "KITCHEN",
-          "BATHROOM",
-          "BEDROOM",
-          "LIVING ROOM"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "famous authors' pen names",
-        "words": [
-          "GEORGE ORWELL",
-          "MARK TWAIN",
-          "LEWIS CARROLL",
-          "OVIDIUS NASO"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "words that precede 'table'",
-        "words": [
-          "COFFEE",
-          "DINING",
-          "POOL",
-          "PERIODIC"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "characters in Alice in Wonderland",
-        "words": [
-          "CATERPILLAR",
-          "CHESHIRE CAT",
-          "DORMOUSE",
-          "HARE"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "adreama",
-      "generated_at": "2026-04-20T00:56:04.052428"
-    }
-  },
-  {
-    "id": "2821aae6-f883-4b14-a206-4894ec5d3451",
-    "words": [
-      "DO",
-      "GOBLET",
-      "NEST",
-      "FLOAT",
-      "CONGREGATION",
-      "DANUBE",
-      "TURN",
-      "LEFT",
-      "VOICE",
-      "TUMBLER",
-      "GLASS",
-      "AMAZON",
-      "MUG",
-      "BASK",
-      "YANGTZE",
-      "NILE"
-    ],
-    "groups": [
-      {
-        "category": "types of drinkware",
-        "words": [
-          "MUG",
-          "GOBLET",
-          "TUMBLER",
-          "GLASS"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "famous rivers",
-        "words": [
-          "NILE",
-          "AMAZON",
-          "YANGTZE",
-          "DANUBE"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "phrases ending with 'over'",
-        "words": [
-          "VOICE",
-          "LEFT",
-          "TURN",
-          "DO"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "collective nouns for crocodiles",
-        "words": [
-          "BASK",
-          "CONGREGATION",
-          "FLOAT",
-          "NEST"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "adreama",
-      "generated_at": "2026-04-20T00:56:07.338806"
-    }
-  },
-  {
-    "id": "34ab2a3f-6522-4b40-b53f-9afa8e8ce4ff",
-    "words": [
-      "LOOP",
-      "KNOW",
-      "NECK",
-      "TOE",
-      "CAPER",
-      "ARM",
-      "FOX",
-      "INSIDE",
-      "JOB",
-      "THOUGH",
-      "KEY",
-      "LEG",
-      "SHOULDER",
-      "WRIST",
-      "KNEE",
-      "HEIST"
-    ],
-    "groups": [
-      {
-        "category": "Parts of the body",
-        "words": [
-          "LEG",
-          "KNEE",
-          "NECK",
-          "WRIST"
+          "PAIN",
+          "ANXIETY",
+          "ARTHRITIS",
+          "TRAUMA"
         ],
         "color": "yellow"
       },
       {
         "category": "Words that rhyme",
         "words": [
-          "SHOULDER",
-          "THOUGH",
-          "TOE",
-          "KNOW"
+          "DECLINE",
+          "NINE",
+          "DIVINE",
+          "SIGN"
         ],
         "color": "green"
       },
       {
-        "category": "Words That Can Follow \"Inside",
+        "category": "Words that follow golden",
         "words": [
-          "HEIST",
-          "CAPER",
-          "INSIDE",
-          "JOB"
+          "RETRIEVER",
+          "HANDSHAKE",
+          "GOOSE",
+          "RATIO"
         ],
         "color": "blue"
       },
       {
-        "category": "___ + \"HOLE\"",
+        "category": "___ + \"LET\"",
         "words": [
-          "KEY",
-          "LOOP",
-          "ARM",
-          "FOX"
+          "DROP",
+          "BOOK",
+          "STAR",
+          "COVER"
         ],
         "color": "purple"
       }
     ],
     "metadata": {
       "source": "burak",
-      "generated_at": "2026-04-20T00:56:12.359981"
+      "generated_at": "2026-04-20T03:57:29.314544"
     }
   },
   {
-    "id": "b62f2cba-b2b2-4650-9678-2e7b6bc79a94",
+    "id": "c6329f31-3780-4106-a9bb-6e0b0624fcec",
     "words": [
-      "A WAKE",
-      "DEMOCRACY",
-      "FEATHER",
-      "RIVER",
-      "HOGWARTS",
-      "SUN",
-      "FLOWER",
-      "THIRD STREET",
-      "XAVIERS",
-      "A PARLIAMENT",
-      "OLIGARCHY",
-      "BAYSIDE",
-      "AN UNKINDNESS",
-      "THEOCRACY",
-      "MONARCHY",
-      "A CONVOCATION"
+      "TAMIL",
+      "ILL",
+      "OWNER",
+      "DISEASE",
+      "UNTIL",
+      "LAND",
+      "BOARD",
+      "ILLNESS",
+      "SICK",
+      "INFECTION",
+      "INJURY",
+      "BUZZER",
+      "CARD",
+      "WHEEL",
+      "BRAZIL",
+      "MADE"
     ],
     "groups": [
       {
-        "category": "forms of government",
+        "category": "Things a doctor treats",
         "words": [
-          "DEMOCRACY",
-          "MONARCHY",
-          "OLIGARCHY",
-          "THEOCRACY"
+          "ILLNESS",
+          "DISEASE",
+          "INFECTION",
+          "INJURY"
         ],
         "color": "yellow"
       },
       {
-        "category": "famous fictional schools",
+        "category": "Words that rhyme",
         "words": [
-          "HOGWARTS",
-          "XAVIERS",
-          "BAYSIDE",
-          "THIRD STREET"
+          "ILL",
+          "BRAZIL",
+          "UNTIL",
+          "TAMIL"
         ],
         "color": "green"
       },
       {
-        "category": "words that precede 'bed'",
+        "category": "Things in a game show",
         "words": [
-          "FEATHER",
-          "FLOWER",
-          "RIVER",
-          "SUN"
+          "WHEEL",
+          "BOARD",
+          "CARD",
+          "BUZZER"
         ],
         "color": "blue"
       },
       {
-        "category": "collective nouns for specific birds",
+        "category": "\"HOME\" + ___",
         "words": [
-          "AN UNKINDNESS",
-          "A PARLIAMENT",
-          "A WAKE",
-          "A CONVOCATION"
+          "SICK",
+          "OWNER",
+          "MADE",
+          "LAND"
         ],
         "color": "purple"
       }
     ],
     "metadata": {
-      "source": "adreama",
-      "generated_at": "2026-04-20T00:56:18.021376"
+      "source": "burak",
+      "generated_at": "2026-04-20T03:57:37.122212"
     }
   },
   {
-    "id": "523e1ad2-dafe-487e-8f41-4ccf035370d6",
+    "id": "ea2d18fc-82d0-488c-976d-d7ae0e74f33f",
     "words": [
-      "LIGHTWEIGHT",
-      "MIDNIGHT",
-      "POND",
-      "LAKE",
+      "NITROGEN",
       "ROPE",
-      "FORE",
-      "CREEK",
-      "COVE",
-      "FIGHTING",
-      "BEACH",
+      "SOIL",
       "CANVAS",
-      "SAND",
-      "RAIL",
+      "CASE",
+      "WOOD",
+      "DIRT",
+      "FIRE",
+      "ALERT",
       "CORNER",
+      "INSERT",
+      "VEGETATION",
       "BELL",
-      "WAR"
+      "MOSS",
+      "CONCERT",
+      "GROUND"
     ],
     "groups": [
       {
-        "category": "Bodies of Water",
+        "category": "Components of healthy ecosystems",
         "words": [
-          "COVE",
-          "LAKE",
-          "CREEK",
-          "POND"
+          "SOIL",
+          "MOSS",
+          "VEGETATION",
+          "NITROGEN"
         ],
         "color": "yellow"
       },
       {
-        "category": "All contain \"IGH\"",
+        "category": "Words that rhyme",
         "words": [
-          "SAND",
-          "FIGHTING",
-          "MIDNIGHT",
-          "LIGHTWEIGHT"
+          "DIRT",
+          "ALERT",
+          "CONCERT",
+          "INSERT"
         ],
         "color": "green"
       },
       {
-        "category": "Things a boxer might touch",
+        "category": "Things in a boxing ring",
         "words": [
+          "BELL",
           "ROPE",
           "CORNER",
-          "CANVAS",
-          "BELL"
+          "CANVAS"
         ],
         "color": "blue"
       },
       {
-        "category": "___ + \"HEAD\"",
+        "category": "___ + \"WORK\"",
         "words": [
-          "BEACH",
-          "RAIL",
-          "FORE",
+          "CASE",
+          "GROUND",
+          "WOOD",
+          "FIRE"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T03:57:43.162660"
+    }
+  },
+  {
+    "id": "8b75499b-caa9-4846-94f2-9d192f169b3a",
+    "words": [
+      "HIGH",
+      "FENDER",
+      "LATTICE",
+      "CATTLEMAN",
+      "SPREAD",
+      "FOOT",
+      "WRANGLER",
+      "WINDOW",
+      "TRUSS",
+      "VINEYARD",
+      "DAIRY",
+      "BASKET",
+      "COWBOY",
+      "RANCH",
+      "PICKER",
+      "SNOW"
+    ],
+    "groups": [
+      {
+        "category": "Workmen",
+        "words": [
+          "CATTLEMAN",
+          "COWBOY",
+          "PICKER",
+          "WRANGLER"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Supporting Structures",
+        "words": [
+          "FENDER",
+          "LATTICE",
+          "TRUSS",
+          "WINDOW"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Farm Terms",
+        "words": [
+          "DAIRY",
+          "RANCH",
+          "SPREAD",
+          "VINEYARD"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ BALL",
+        "words": [
+          "BASKET",
+          "FOOT",
+          "HIGH",
+          "SNOW"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:57:54.813790"
+    }
+  },
+  {
+    "id": "2de54fe2-e1f9-426f-8607-3f705e96ea21",
+    "words": [
+      "FREE",
+      "GATE",
+      "MURDERER",
+      "PAS",
+      "GUIDEBOOK",
+      "GUN",
+      "THIEF",
+      "STAIR",
+      "BURGLAR",
+      "DADDY",
+      "BROCHURE",
+      "POP",
+      "SUB",
+      "DAD",
+      "TEXT",
+      "CATECHISM"
+    ],
+    "groups": [
+      {
+        "category": "Criminals",
+        "words": [
+          "BURGLAR",
+          "GUN",
+          "MURDERER",
+          "THIEF"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Books",
+        "words": [
+          "BROCHURE",
+          "CATECHISM",
+          "GUIDEBOOK",
+          "TEXT"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Father Terms",
+        "words": [
+          "DAD",
+          "DADDY",
+          "PAS",
+          "POP"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ WAY",
+        "words": [
+          "FREE",
+          "GATE",
+          "STAIR",
+          "SUB"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:58:01.872437"
+    }
+  },
+  {
+    "id": "ef35c07a-46b6-40c1-bfbb-5cfec7aa2296",
+    "words": [
+      "CHAMPION",
+      "DOWN",
+      "PIT",
+      "PRECIPITATION",
+      "CIVILIZATION",
+      "JIBE",
+      "WATER",
+      "JOKE",
+      "ROAST",
+      "VICTOR",
+      "BURN",
+      "WINNER",
+      "CORP",
+      "APPLICATION",
+      "RUNNER",
+      "SNOW"
+    ],
+    "groups": [
+      {
+        "category": "People who succeed in competition",
+        "words": [
+          "RUNNER",
+          "WINNER",
+          "CHAMPION",
+          "VICTOR"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "PRECIPITATION",
+          "APPLICATION",
+          "CIVILIZATION",
+          "CORP"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things in a celebrity roast",
+        "words": [
+          "ROAST",
+          "BURN",
+          "JOKE",
+          "JIBE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ + \"FALL\"",
+        "words": [
+          "PIT",
+          "SNOW",
+          "DOWN",
+          "WATER"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T03:58:41.900714"
+    }
+  },
+  {
+    "id": "4ed8ba06-22f1-4079-a1fb-af046cafa65f",
+    "words": [
+      "CONVENT",
+      "GRAPE",
+      "WAR",
+      "MANOR",
+      "BERRY",
+      "SPRING",
+      "MANSION",
+      "DUPLICATION",
+      "IMITATION",
+      "MODIFICATION",
+      "BED",
+      "LUNCH",
+      "PEACH",
+      "RESIDENCE",
+      "REPRODUCTION",
+      "PINEAPPLE"
+    ],
+    "groups": [
+      {
+        "category": "Edible Fruits",
+        "words": [
+          "BERRY",
+          "GRAPE",
+          "PEACH",
+          "PINEAPPLE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Dwellings",
+        "words": [
+          "CONVENT",
+          "MANOR",
+          "MANSION",
+          "RESIDENCE"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Copy Terms",
+        "words": [
+          "DUPLICATION",
+          "IMITATION",
+          "MODIFICATION",
+          "REPRODUCTION"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ TIME",
+        "words": [
+          "BED",
+          "LUNCH",
+          "SPRING",
           "WAR"
         ],
         "color": "purple"
       }
     ],
     "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:56:31.609291"
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T03:59:34.553302"
     }
   },
   {
-    "id": "d7d85cd2-c37e-4471-8b50-123c1ae7e136",
+    "id": "da1b1dd1-a63f-48e9-a1e1-86ae518628ef",
     "words": [
-      "BURN",
-      "MEMBER",
-      "CHAIR",
-      "INSULT",
-      "ROAST",
-      "THUMB",
-      "COMBINED",
-      "MEMBRANE",
-      "DIRECTOR",
-      "MANAGER",
-      "GENTLE",
-      "EXECUTIVE",
-      "BAT",
-      "MAIL",
-      "CHAIRMAN",
-      "JOKE"
+      "BOOK",
+      "SCOREBOARD",
+      "ENSEMBLE",
+      "HEADBAND",
+      "BRACELET",
+      "GRAND",
+      "NECKLACE",
+      "TOURNAMENT",
+      "COACH",
+      "RING",
+      "MISUNDER",
+      "BAND",
+      "TEAM",
+      "QUARTET",
+      "ORCHESTRA",
+      "UNDER"
     ],
     "groups": [
       {
-        "category": "Corporate leadership positions",
+        "category": "items worn on the body",
         "words": [
-          "DIRECTOR",
-          "EXECUTIVE",
-          "MANAGER",
-          "CHAIRMAN"
+          "BRACELET",
+          "RING",
+          "NECKLACE",
+          "HEADBAND"
         ],
         "color": "yellow"
       },
       {
-        "category": "All contain \"MB\"",
+        "category": "terms associated with sports",
         "words": [
-          "MEMBER",
-          "MEMBRANE",
-          "THUMB",
-          "COMBINED"
+          "TEAM",
+          "COACH",
+          "TOURNAMENT",
+          "SCOREBOARD"
         ],
         "color": "green"
       },
       {
-        "category": "Ways to Mock Someone Verbally",
+        "category": "words that precede 'stand'",
         "words": [
-          "ROAST",
-          "JOKE",
-          "INSULT",
-          "BURN"
+          "UNDER",
+          "MISUNDER",
+          "GRAND",
+          "BOOK"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "terms for groups of musicians",
+        "words": [
+          "ORCHESTRA",
+          "ENSEMBLE",
+          "QUARTET",
+          "BAND"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "adreama",
+      "generated_at": "2026-04-20T03:59:46.673756"
+    }
+  },
+  {
+    "id": "f4a8069c-860f-47c9-acee-6fae9cae550d",
+    "words": [
+      "RAIN",
+      "CLOWN",
+      "NIGHT",
+      "RING",
+      "WATER",
+      "PRESENTATION",
+      "DESTINATION",
+      "FROST",
+      "CONNECTION",
+      "DOWN",
+      "FOG",
+      "ICE",
+      "TENT",
+      "TRAPEZE",
+      "PRECIPITATION",
+      "SNOW"
+    ],
+    "groups": [
+      {
+        "category": "Things that form on cold surfaces",
+        "words": [
+          "SNOW",
+          "FOG",
+          "FROST",
+          "ICE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "All contain \"TION\"",
+        "words": [
+          "PRECIPITATION",
+          "PRESENTATION",
+          "DESTINATION",
+          "CONNECTION"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things at a circus",
+        "words": [
+          "TENT",
+          "RING",
+          "CLOWN",
+          "TRAPEZE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ + \"FALL\"",
+        "words": [
+          "RAIN",
+          "DOWN",
+          "NIGHT",
+          "WATER"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T04:00:01.908787"
+    }
+  },
+  {
+    "id": "e7a7c6f6-b74e-43f6-af23-aa65354c2581",
+    "words": [
+      "STEEL",
+      "GAVE",
+      "TOOK",
+      "APPEAL",
+      "STAND",
+      "SIDE",
+      "COAST",
+      "WING",
+      "CAME",
+      "FOOD",
+      "STRIP",
+      "SHORE",
+      "PIT",
+      "REVEAL",
+      "MEAL",
+      "GOT"
+    ],
+    "groups": [
+      {
+        "category": "Past tense forms of common verbs",
+        "words": [
+          "GAVE",
+          "TOOK",
+          "GOT",
+          "CAME"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "MEAL",
+          "APPEAL",
+          "REVEAL",
+          "STEEL"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things at a NASCAR race",
+        "words": [
+          "PIT",
+          "STRIP",
+          "WING",
+          "STAND"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "\"SEA\" + ___",
+        "words": [
+          "SIDE",
+          "COAST",
+          "FOOD",
+          "SHORE"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T04:00:15.762441"
+    }
+  },
+  {
+    "id": "db27b388-6d21-4d82-a75f-8b0c43398ecf",
+    "words": [
+      "PECTORALIS",
+      "GASTROCNEMIUS",
+      "CONSOLE",
+      "ABDOMINAL",
+      "CLOSET",
+      "DELTOID",
+      "BED",
+      "OXCART",
+      "PARK",
+      "ROAD",
+      "DRESSER",
+      "TRACTOR",
+      "AIR",
+      "WAGON",
+      "BUS",
+      "HIGH"
+    ],
+    "groups": [
+      {
+        "category": "Wheeled Vehicles",
+        "words": [
+          "BUS",
+          "OXCART",
+          "TRACTOR",
+          "WAGON"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Furniture",
+        "words": [
+          "BED",
+          "CLOSET",
+          "CONSOLE",
+          "DRESSER"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Skeletal Muscle Terms",
+        "words": [
+          "ABDOMINAL",
+          "DELTOID",
+          "GASTROCNEMIUS",
+          "PECTORALIS"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ WAY",
+        "words": [
+          "AIR",
+          "HIGH",
+          "PARK",
+          "ROAD"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T04:00:19.091366"
+    }
+  },
+  {
+    "id": "6b586cc8-6dfe-4ffd-ac26-4fcbb622099b",
+    "words": [
+      "SMOKE",
+      "INTERVIEW",
+      "BONE",
+      "GRILL",
+      "YARD",
+      "ADOPT",
+      "LOG",
+      "GURU",
+      "IMPLEMENT",
+      "INTRODUCE",
+      "SEAR",
+      "PROPOSE",
+      "CHAR",
+      "DROP",
+      "TISSUE",
+      "REVENUE"
+    ],
+    "groups": [
+      {
+        "category": "Stages of a new policy",
+        "words": [
+          "ADOPT",
+          "IMPLEMENT",
+          "INTRODUCE",
+          "PROPOSE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "TISSUE",
+          "REVENUE",
+          "GURU",
+          "INTERVIEW"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things at a BBQ",
+        "words": [
+          "CHAR",
+          "GRILL",
+          "SMOKE",
+          "SEAR"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "\"BACK\" + ___",
+        "words": [
+          "YARD",
+          "BONE",
+          "LOG",
+          "DROP"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T04:00:36.964813"
+    }
+  },
+  {
+    "id": "88a4e916-99e8-4fbf-b000-1c3d7c73b347",
+    "words": [
+      "KIDNEY",
+      "WATER",
+      "SUB",
+      "CANVAS",
+      "COLON",
+      "HALL",
+      "LUNG",
+      "ENGRAVING",
+      "PICTURE",
+      "SUBMARINE",
+      "PATH",
+      "HEART",
+      "HAMBURGER",
+      "MOSAIC",
+      "FAIR",
+      "BOMBER"
+    ],
+    "groups": [
+      {
+        "category": "Internal Organs",
+        "words": [
+          "COLON",
+          "HEART",
+          "KIDNEY",
+          "LUNG"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Art",
+        "words": [
+          "CANVAS",
+          "ENGRAVING",
+          "MOSAIC",
+          "PICTURE"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Sandwich Terms",
+        "words": [
+          "BOMBER",
+          "HAMBURGER",
+          "SUB",
+          "SUBMARINE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ WAY",
+        "words": [
+          "FAIR",
+          "HALL",
+          "PATH",
+          "WATER"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T04:02:25.763551"
+    }
+  },
+  {
+    "id": "9b90aa6b-ed7b-48e1-9e64-743c4a0eabca",
+    "words": [
+      "CHILI",
+      "MINSTREL",
+      "PEA",
+      "TROOPER",
+      "YOUNG",
+      "ONION",
+      "WORK",
+      "SPINACH",
+      "RIFLEMAN",
+      "HOLD",
+      "VOCALIST",
+      "ORDERLY",
+      "GUITARIST",
+      "REGULAR",
+      "KEEPER",
+      "WIFE"
+    ],
+    "groups": [
+      {
+        "category": "Vegetables",
+        "words": [
+          "CHILI",
+          "ONION",
+          "PEA",
+          "SPINACH"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Musicians",
+        "words": [
+          "GUITARIST",
+          "MINSTREL",
+          "VOCALIST",
+          "YOUNG"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Soldier Terms",
+        "words": [
+          "ORDERLY",
+          "REGULAR",
+          "RIFLEMAN",
+          "TROOPER"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "HOUSE ___",
+        "words": [
+          "HOLD",
+          "KEEPER",
+          "WIFE",
+          "WORK"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T04:03:03.424646"
+    }
+  },
+  {
+    "id": "df9d0d6e-bd16-41c5-81dd-fb34ae8c7e38",
+    "words": [
+      "ROCK",
+      "DEPART",
+      "ALBUM",
+      "VOWEL",
+      "CONSONANTAL",
+      "EXIT",
+      "LEAVING",
+      "WATERFRONT",
+      "HARBOR",
+      "DEPARTURE",
+      "BEATLE",
+      "ALPHABET",
+      "BAND",
+      "CANAL",
+      "WHARF",
+      "SYLLABICITY"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO SAY GOODBYE",
+        "words": [
+          "EXIT",
+          "DEPARTURE",
+          "DEPART",
+          "LEAVING"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "FAMOUS CANALS",
+        "words": [
+          "CANAL",
+          "WATERFRONT",
+          "WHARF",
+          "HARBOR"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "WORDS WITH DOUBLE LETTERS",
+        "words": [
+          "ALPHABET",
+          "VOWEL",
+          "CONSONANTAL",
+          "SYLLABICITY"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___BAND",
+        "words": [
+          "BAND",
+          "BEATLE",
+          "ALBUM",
+          "ROCK"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "kevin_fresh",
+      "generated_at": "2026-04-20T04:03:52.787385"
+    }
+  },
+  {
+    "id": "5975b0c7-9fbe-4706-8042-d4f70b2b8f45",
+    "words": [
+      "ALTO",
+      "DOOR",
+      "BARITONE",
+      "MAVERICK",
+      "QUACK",
+      "WATER",
+      "INTERN",
+      "ROAD",
+      "SURGEON",
+      "PUPPY",
+      "GUITARIST",
+      "PIANIST",
+      "AIR",
+      "HOG",
+      "PUP",
+      "VETERINARY"
+    ],
+    "groups": [
+      {
+        "category": "Musicians",
+        "words": [
+          "ALTO",
+          "BARITONE",
+          "GUITARIST",
+          "PIANIST"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Young",
+        "words": [
+          "HOG",
+          "MAVERICK",
+          "PUP",
+          "PUPPY"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Doctor Terms",
+        "words": [
+          "INTERN",
+          "QUACK",
+          "SURGEON",
+          "VETERINARY"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ WAY",
+        "words": [
+          "AIR",
+          "DOOR",
+          "ROAD",
+          "WATER"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T04:03:54.847034"
+    }
+  },
+  {
+    "id": "b59c9e90-9e61-4a05-a96e-d776f91219f9",
+    "words": [
+      "SOCIALITY",
+      "MUSICALLY",
+      "MOISTURE",
+      "SPROUTS",
+      "PSEUDOPHLOEM",
+      "PLANT",
+      "FOLIAGE",
+      "WETNESS",
+      "COMPOSITION",
+      "SOCIALLY",
+      "MINGLING",
+      "GENRE",
+      "MUSICIANSHIP",
+      "PERVAPORATION",
+      "DRENCHED",
+      "SOCIABILITY"
+    ],
+    "groups": [
+      {
+        "category": "STYLES OF SOCIAL INTERACTION",
+        "words": [
+          "SOCIALITY",
+          "SOCIABILITY",
+          "SOCIALLY",
+          "MINGLING"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "WORDS RELATED TO WATER",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "PERVAPORATION",
+          "DRENCHED"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "WAYS TO DESCRIBE MUSIC",
+        "words": [
+          "MUSICALLY",
+          "COMPOSITION",
+          "MUSICIANSHIP",
+          "GENRE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "TERMS IN BOTANY",
+        "words": [
+          "PLANT",
+          "PSEUDOPHLOEM",
+          "SPROUTS",
+          "FOLIAGE"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "kevin_fresh",
+      "generated_at": "2026-04-20T04:04:04.616582"
+    }
+  },
+  {
+    "id": "93627440-f0be-4173-8816-ba6d59f5a5e5",
+    "words": [
+      "SOCIALITY",
+      "VOWEL",
+      "RIVERBANK",
+      "BARGE",
+      "HYPHEN",
+      "SOCIABILITY",
+      "SUFFIX",
+      "COMPOSITION",
+      "SOCIALLY",
+      "RIVER",
+      "SOCIABLY",
+      "MUSICALLY",
+      "ARTS",
+      "MUSICIANSHIP",
+      "WATERFRONT",
+      "CONSONANTAL"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO BE SOCIAL",
+        "words": [
+          "SOCIALITY",
+          "SOCIALLY",
+          "SOCIABILITY",
+          "SOCIABLY"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "TYPES OF WATERWAYS",
+        "words": [
+          "RIVER",
+          "BARGE",
+          "WATERFRONT",
+          "RIVERBANK"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "GENRES OF MUSIC",
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "COMPOSITION"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "WORDS ENDING IN -LY",
+        "words": [
+          "HYPHEN",
+          "CONSONANTAL",
+          "VOWEL",
+          "SUFFIX"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "kevin_fresh",
+      "generated_at": "2026-04-20T04:04:14.642188"
+    }
+  },
+  {
+    "id": "208b1721-af5b-44ef-85a6-dd7e98bf2878",
+    "words": [
+      "WONDERFUL",
+      "BEAUTIFUL",
+      "MARCH",
+      "CAP",
+      "CHAIR",
+      "GOWN",
+      "HONOR",
+      "SUNNY",
+      "INCOMPLETE",
+      "BAT",
+      "SWEET",
+      "PLEASANT",
+      "RECEIPT",
+      "COMPETE",
+      "MAIL",
+      "GENTLE"
+    ],
+    "groups": [
+      {
+        "category": "Words that describe good weather",
+        "words": [
+          "PLEASANT",
+          "SUNNY",
+          "BEAUTIFUL",
+          "WONDERFUL"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "SWEET",
+          "INCOMPLETE",
+          "RECEIPT",
+          "COMPETE"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things at a graduation",
+        "words": [
+          "CAP",
+          "GOWN",
+          "MARCH",
+          "HONOR"
         ],
         "color": "blue"
       },
@@ -1135,535 +2743,535 @@
     ],
     "metadata": {
       "source": "burak",
-      "generated_at": "2026-04-20T00:56:42.255189"
+      "generated_at": "2026-04-20T04:07:34.684422"
     }
   },
   {
-    "id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0",
+    "id": "0ac4c891-9e25-4730-8aaa-51099adf7dd0",
     "words": [
-      "RIVER",
-      "DOWN",
+      "SUNDAY",
+      "BACKDROP",
+      "RAIL",
+      "WEDNESDAY",
+      "BEACH",
+      "HIGHWAY",
+      "SATURDAY",
+      "BRIDGE",
       "CREEK",
-      "WIND",
-      "NUMBER",
-      "POND",
-      "CLIMB",
-      "BRIE",
-      "PROSCIUTTO",
-      "CRACKERS",
-      "OLIVES",
-      "SNOW",
-      "NIGHT",
-      "COMBINING",
-      "GALE",
-      "BROOK"
+      "RIVER",
+      "CANAL",
+      "ROUND",
+      "LAKE",
+      "ENVELOPE",
+      "CARPET",
+      "SEAT"
     ],
     "groups": [
       {
-        "category": "Bodies of Water",
+        "category": "Bodies of water",
         "words": [
-          "BROOK",
+          "CANAL",
+          "RIVER",
           "CREEK",
-          "POND",
-          "RIVER"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "All contain \"MB\"",
-        "words": [
-          "NUMBER",
-          "CLIMB",
-          "GALE",
-          "COMBINING"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Charcuterie Board Essentials",
-        "words": [
-          "BRIE",
-          "PROSCIUTTO",
-          "OLIVES",
-          "CRACKERS"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "___ + \"FALL\"",
-        "words": [
-          "DOWN",
-          "NIGHT",
-          "WIND",
-          "SNOW"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:57:04.563685"
-    }
-  },
-  {
-    "id": "6ff8ccee-fecf-4c92-9643-d601ac255b8e",
-    "words": [
-      "CORN",
-      "WHEEL",
-      "MAIN",
-      "STICKERS",
-      "BANNER",
-      "TRASH",
-      "RING",
-      "RIBBON",
-      "TIMBER",
-      "WASTE",
-      "SUNRISE",
-      "SIGNS",
-      "RANGE",
-      "POSTER",
-      "MINIMIZE",
-      "ORGANIZE"
-    ],
-    "groups": [
-      {
-        "category": "Things you can display",
-        "words": [
-          "SIGNS",
-          "STICKERS",
-          "BANNER",
-          "POSTER"
+          "LAKE"
         ],
         "color": "yellow"
       },
       {
         "category": "Words that rhyme",
         "words": [
-          "TRASH",
-          "SUNRISE",
-          "MINIMIZE",
-          "ORGANIZE"
+          "HIGHWAY",
+          "SATURDAY",
+          "WEDNESDAY",
+          "SUNDAY"
         ],
         "color": "green"
       },
       {
-        "category": "Things that can be \"candy",
+        "category": "Things at an awards show",
         "words": [
-          "RING",
-          "RIBBON",
-          "CORN",
-          "WHEEL"
+          "CARPET",
+          "ENVELOPE",
+          "SEAT",
+          "BACKDROP"
         ],
         "color": "blue"
       },
       {
-        "category": "___ + \"LAND\"",
+        "category": "___ + \"HEAD\"",
         "words": [
-          "WASTE",
-          "TIMBER",
-          "RANGE",
-          "MAIN"
+          "BEACH",
+          "RAIL",
+          "ROUND",
+          "BRIDGE"
         ],
         "color": "purple"
       }
     ],
     "metadata": {
       "source": "burak",
-      "generated_at": "2026-04-20T00:57:30.282777"
+      "generated_at": "2026-04-20T04:07:47.125857"
     }
   },
   {
-    "id": "e80ba1e5-2417-474d-adca-aac7cfb77b79",
+    "id": "e61970fc-1d94-4ece-88f3-8e3c26e633a8",
     "words": [
-      "RACK",
-      "TABLE",
-      "ARISTOTLE",
-      "ACCESS",
-      "SOCRATES",
-      "CHAIR",
-      "PLATO",
-      "LINE",
-      "DECK",
-      "PYTHAGORAS",
-      "SOFA",
-      "GALAXY",
-      "CABINET",
-      "BATTERY",
-      "CHAIN",
-      "PANEL"
+      "SPREAD",
+      "POINT",
+      "LIGHT",
+      "BUSH",
+      "GRAVY",
+      "BALL",
+      "PEASANT",
+      "PILE",
+      "SAUCE",
+      "ROAD",
+      "COWHAND",
+      "PASTE",
+      "CATTLEMAN",
+      "COWBOY",
+      "LASH",
+      "BROW"
     ],
     "groups": [
       {
-        "category": "types of furniture",
+        "category": "Workmen",
         "words": [
-          "CHAIR",
-          "TABLE",
-          "SOFA",
-          "CABINET"
+          "CATTLEMAN",
+          "COWBOY",
+          "COWHAND",
+          "PEASANT"
         ],
         "color": "yellow"
       },
       {
-        "category": "ancient Greek philosophers",
+        "category": "Condiments",
         "words": [
-          "PLATO",
-          "ARISTOTLE",
-          "SOCRATES",
-          "PYTHAGORAS"
+          "GRAVY",
+          "PASTE",
+          "SAUCE",
+          "SPREAD"
         ],
         "color": "green"
       },
       {
-        "category": "words following roof",
+        "category": "Hair Terms",
         "words": [
-          "LINE",
-          "DECK",
-          "RACK",
-          "ACCESS"
+          "BROW",
+          "BUSH",
+          "LASH",
+          "PILE"
         ],
         "color": "blue"
       },
       {
-        "category": "collective nouns for specific professions",
+        "category": "HIGH ___",
         "words": [
-          "PANEL",
-          "BATTERY",
-          "CHAIN",
-          "GALAXY"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "adreama",
-      "generated_at": "2026-04-20T00:57:36.762413"
-    }
-  },
-  {
-    "id": "79f999d0-eccc-4224-bb03-e5e20513d57a",
-    "words": [
-      "BULLION",
-      "OLD FLAME",
-      "OLD GLORY",
-      "SILVER GIRL",
-      "RULE",
-      "ISLAND",
-      "COIN",
-      "OLD SCHOOL",
-      "AGE",
-      "HALF A MILE",
-      "OLD FASHIONED",
-      "SPOON",
-      "OLD FRIENDS",
-      "JEWELRY",
-      "RETRIEVER",
-      "RATIO"
-    ],
-    "groups": [
-      {
-        "category": "terms associated with silver",
-        "words": [
-          "BULLION",
-          "COIN",
-          "JEWELRY",
-          "SPOON"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "phrases containing 'old'",
-        "words": [
-          "OLD SCHOOL",
-          "OLD FASHIONED",
-          "OLD FLAME",
-          "OLD GLORY"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "words following 'golden'",
-        "words": [
-          "RETRIEVER",
-          "AGE",
-          "RULE",
-          "RATIO"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "ships in Simon and Garfunkel songs",
-        "words": [
-          "SILVER GIRL",
-          "HALF A MILE",
-          "ISLAND",
-          "OLD FRIENDS"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "adreama",
-      "generated_at": "2026-04-20T00:58:16.689547"
-    }
-  },
-  {
-    "id": "5f8dbf9a-8730-4f3b-b46b-046fe9e7bb7d",
-    "words": [
-      "SWEAT",
-      "WRAPPED",
-      "TURN",
-      "WRITE",
-      "NOW",
-      "PHONES",
-      "SCREAMS",
-      "STILL",
-      "ALREADY",
-      "RIGHT",
-      "WRIGHT",
-      "WRONG",
-      "POUR",
-      "CURRENTLY",
-      "CONFETTI",
-      "CAST"
-    ],
-    "groups": [
-      {
-        "category": "Words for the present time",
-        "words": [
-          "NOW",
-          "STILL",
-          "ALREADY",
-          "CURRENTLY"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "All contain \"WR\"",
-        "words": [
-          "WRONG",
-          "WRAPPED",
-          "WRITE",
-          "WRIGHT"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Things That Drop at Concerts",
-        "words": [
-          "SCREAMS",
-          "PHONES",
-          "SWEAT",
-          "CONFETTI"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "\"DOWN\" + ___",
-        "words": [
-          "POUR",
-          "CAST",
-          "TURN",
-          "RIGHT"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "burak",
-      "generated_at": "2026-04-20T00:58:33.585667"
-    }
-  },
-  {
-    "id": "e6973c5e-1fc0-4991-b807-910ea8767310",
-    "words": [
-      "TRADER",
-      "RAILING",
-      "RUNNER",
-      "BAKER",
-      "NESTER",
-      "ARM",
-      "HEAD",
-      "HOMESTEADER",
-      "BREAKWATER",
-      "FRONTIERSMAN",
-      "SEE",
-      "BULWARK",
-      "HURDLE",
-      "SOURDOUGH",
-      "DRAPER",
-      "BUTCHER"
-    ],
-    "groups": [
-      {
-        "category": "Merchants",
-        "words": [
-          "BAKER",
-          "BUTCHER",
-          "DRAPER",
-          "TRADER"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Settlers",
-        "words": [
-          "FRONTIERSMAN",
-          "HOMESTEADER",
-          "NESTER",
-          "SOURDOUGH"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Barrier Terms",
-        "words": [
-          "BREAKWATER",
-          "BULWARK",
-          "HURDLE",
-          "RAILING"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "FORE ___",
-        "words": [
-          "ARM",
-          "HEAD",
-          "RUNNER",
-          "SEE"
+          "BALL",
+          "LIGHT",
+          "POINT",
+          "ROAD"
         ],
         "color": "purple"
       }
     ],
     "metadata": {
       "source": "abuzar_nlp",
-      "generated_at": "2026-04-20T01:00:16.913546"
+      "generated_at": "2026-04-20T04:08:07.279427"
     }
   },
   {
-    "id": "8b89b828-4ba9-45eb-97eb-b7467432a79b",
+    "id": "5e2f8b54-dfc3-4555-9d71-7dafe994fea4",
     "words": [
-      "CORN",
-      "NIGHT",
-      "ENVELOPE",
-      "KERNEL",
-      "POKE",
-      "SKIN",
-      "GRAIN",
-      "PURSE",
-      "HEADMASTER",
-      "AIR",
-      "INSTRUCTOR",
-      "DAY",
-      "TEACHER",
-      "FILBERT",
-      "PROFESSOR",
-      "WEEK"
+      "STATUE",
+      "MAN",
+      "PATCH",
+      "MEN",
+      "SET",
+      "MOSAIC",
+      "SHADING",
+      "BLAZE",
+      "MINIATURE",
+      "FULL",
+      "GENTLEMAN",
+      "SCULPTURE",
+      "COME",
+      "DRAW",
+      "BUTLER",
+      "STREAK"
     ],
     "groups": [
       {
-        "category": "Educators",
+        "category": "Art",
         "words": [
-          "HEADMASTER",
-          "INSTRUCTOR",
-          "PROFESSOR",
-          "TEACHER"
+          "MINIATURE",
+          "MOSAIC",
+          "SCULPTURE",
+          "STATUE"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Manservants",
+        "words": [
+          "BUTLER",
+          "GENTLEMAN",
+          "MAN",
+          "MEN"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Marking Terms",
+        "words": [
+          "BLAZE",
+          "PATCH",
+          "SHADING",
+          "STREAK"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ BACK",
+        "words": [
+          "COME",
+          "DRAW",
+          "FULL",
+          "SET"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T04:08:19.652940"
+    }
+  },
+  {
+    "id": "ce03c254-8921-4b61-ad15-7c20cb961d76",
+    "words": [
+      "KETTLE",
+      "AERATOR",
+      "BOILER",
+      "DESCENT",
+      "TOOTH",
+      "GENERATOR",
+      "STILL",
+      "ANCESTRY",
+      "POSTERIOR",
+      "ORIGIN",
+      "SAUCEPAN",
+      "REFORMER",
+      "ANTERIOR",
+      "MIXER",
+      "LINEAGE",
+      "FOREHEAD"
+    ],
+    "groups": [
+      {
+        "category": "Bones",
+        "words": [
+          "ANTERIOR",
+          "FOREHEAD",
+          "POSTERIOR",
+          "TOOTH"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Kitchen Utensils",
+        "words": [
+          "BOILER",
+          "KETTLE",
+          "MIXER",
+          "SAUCEPAN"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Apparatus Terms",
+        "words": [
+          "AERATOR",
+          "GENERATOR",
+          "REFORMER",
+          "STILL"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "Associated With Tracing",
+        "words": [
+          "LINEAGE",
+          "ANCESTRY",
+          "DESCENT",
+          "ORIGIN"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "abuzar_nlp",
+      "generated_at": "2026-04-20T04:10:47.903000"
+    }
+  },
+  {
+    "id": "9f9240c4-2cbe-438a-a193-e8adedd2e7ef",
+    "words": [
+      "THOUGH",
+      "BEDDING",
+      "BUCK",
+      "EVIDENCE",
+      "FURNITURE",
+      "DOE",
+      "ALIBI",
+      "CLOTHING",
+      "HOUSEWARES",
+      "MOTIVE",
+      "WITNESS",
+      "SLOW",
+      "KEY",
+      "SPRING",
+      "FLOOR",
+      "THROW"
+    ],
+    "groups": [
+      {
+        "category": "Departments at a store",
+        "words": [
+          "FURNITURE",
+          "BEDDING",
+          "HOUSEWARES",
+          "CLOTHING"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "DOE",
+          "THOUGH",
+          "SLOW",
+          "THROW"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things in a true crime documentary",
+        "words": [
+          "WITNESS",
+          "MOTIVE",
+          "ALIBI",
+          "EVIDENCE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "___ + \"BOARD\"",
+        "words": [
+          "KEY",
+          "BUCK",
+          "FLOOR",
+          "SPRING"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T04:15:09.369685"
+    }
+  },
+  {
+    "id": "aa6d776f-0765-4269-95f8-0b73ec1c5eed",
+    "words": [
+      "REVOLUTION",
+      "SOUNDTRACK",
+      "MUSICALLY",
+      "ORCHESTRAL",
+      "AFFECTIONATE",
+      "BOATING",
+      "FERRY",
+      "GENRE",
+      "GREGARIOUS",
+      "UPRISING",
+      "VESSEL",
+      "RAPPORT",
+      "SAILING",
+      "INTERPERSONAL",
+      "INSURRECTION",
+      "DISOBEDIENCE"
+    ],
+    "groups": [
+      {
+        "category": "RADICAL POLITICAL MOVEMENTS",
+        "words": [
+          "DISOBEDIENCE",
+          "REVOLUTION",
+          "INSURRECTION",
+          "UPRISING"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "WORDS RELATED TO RIVER NAVIGATION",
+        "words": [
+          "BOATING",
+          "SAILING",
+          "FERRY",
+          "VESSEL"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
+        "words": [
+          "GREGARIOUS",
+          "INTERPERSONAL",
+          "RAPPORT",
+          "AFFECTIONATE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "TYPES OF AMBIENT MUSIC",
+        "words": [
+          "GENRE",
+          "ORCHESTRAL",
+          "SOUNDTRACK",
+          "MUSICALLY"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "kevin_fresh",
+      "generated_at": "2026-04-20T04:15:22.820349"
+    }
+  },
+  {
+    "id": "73f905cc-9169-40eb-854e-d785fd53561d",
+    "words": [
+      "COCONUT",
+      "BALL",
+      "FIREMAN",
+      "ALONG",
+      "COUNTRY",
+      "CORN",
+      "CURB",
+      "HAND",
+      "PISTOL",
+      "SHOT",
+      "WAY",
+      "SOYBEAN",
+      "KERNEL",
+      "CLEANER",
+      "GYPSY",
+      "HANDGUN"
+    ],
+    "groups": [
+      {
+        "category": "Weapons",
+        "words": [
+          "BALL",
+          "HANDGUN",
+          "PISTOL",
+          "SHOT"
         ],
         "color": "yellow"
       },
       {
         "category": "Seeds",
         "words": [
+          "COCONUT",
           "CORN",
-          "FILBERT",
-          "GRAIN",
-          "KERNEL"
+          "KERNEL",
+          "SOYBEAN"
         ],
         "color": "green"
       },
       {
-        "category": "Bag Terms",
+        "category": "Laborer Terms",
         "words": [
-          "ENVELOPE",
-          "POKE",
-          "PURSE",
-          "SKIN"
+          "CLEANER",
+          "FIREMAN",
+          "GYPSY",
+          "HAND"
         ],
         "color": "blue"
       },
       {
-        "category": "MID ___",
+        "category": "___ SIDE",
         "words": [
-          "AIR",
-          "DAY",
-          "NIGHT",
-          "WEEK"
+          "ALONG",
+          "COUNTRY",
+          "CURB",
+          "WAY"
         ],
         "color": "purple"
       }
     ],
     "metadata": {
       "source": "abuzar_nlp",
-      "generated_at": "2026-04-20T01:00:43.883943"
+      "generated_at": "2026-04-20T04:15:42.215045"
     }
   },
   {
-    "id": "029212f3-75ba-4374-9991-3b32d44ed4a1",
+    "id": "0edb6335-b898-4d7f-8bd3-7a0b1787e470",
     "words": [
-      "BED",
-      "MASTER",
-      "INN",
+      "TAXI",
+      "GANGSTER",
+      "SHOOTER",
+      "TRACTOR",
+      "TENDER",
+      "PACKET",
+      "HENCHMAN",
+      "BARGE",
+      "JEEP",
       "SPRING",
-      "MEAL",
-      "LODGE",
-      "PATHOLOGIST",
-      "NAVIGATOR",
-      "RESIDENT",
-      "PHYSICIAN",
-      "CAPTAIN",
-      "MATE",
-      "RESIDENCE",
-      "NIGHT",
-      "COTTAGE",
-      "CHEMIST"
+      "DAY",
+      "LIGHTER",
+      "MEAN",
+      "PEACE",
+      "MURDERER",
+      "VAN"
     ],
     "groups": [
       {
-        "category": "Buildings",
+        "category": "Criminals",
         "words": [
-          "COTTAGE",
-          "INN",
-          "LODGE",
-          "RESIDENCE"
+          "GANGSTER",
+          "HENCHMAN",
+          "MURDERER",
+          "SHOOTER"
         ],
         "color": "yellow"
       },
       {
-        "category": "Health Professionals",
+        "category": "Motor Vehicles",
         "words": [
-          "CHEMIST",
-          "PATHOLOGIST",
-          "PHYSICIAN",
-          "RESIDENT"
+          "JEEP",
+          "TAXI",
+          "TRACTOR",
+          "VAN"
         ],
         "color": "green"
       },
       {
-        "category": "Officer Terms",
+        "category": "Boat Terms",
         "words": [
-          "CAPTAIN",
-          "MASTER",
-          "MATE",
-          "NAVIGATOR"
+          "BARGE",
+          "LIGHTER",
+          "PACKET",
+          "TENDER"
         ],
         "color": "blue"
       },
       {
         "category": "___ TIME",
         "words": [
-          "BED",
-          "MEAL",
-          "NIGHT",
+          "DAY",
+          "MEAN",
+          "PEACE",
           "SPRING"
         ],
         "color": "purple"
@@ -1671,66 +3279,66 @@
     ],
     "metadata": {
       "source": "abuzar_nlp",
-      "generated_at": "2026-04-20T01:00:43.940640"
+      "generated_at": "2026-04-20T04:15:52.913787"
     }
   },
   {
-    "id": "38ff6a11-7a57-4234-b4b8-2c2d6793932d",
+    "id": "823a9209-4e46-4a46-8ce3-d1e63c39f289",
     "words": [
+      "AIR",
+      "NUT",
       "PARK",
-      "TENDON",
-      "RAIL",
-      "HARNESS",
-      "CARTILAGE",
-      "MUCOSA",
-      "KETTLE",
-      "BOILER",
-      "HOUSING",
-      "CRACKLE",
-      "HATCH",
-      "BIT",
-      "COFFEEPOT",
+      "ARM",
+      "THIGH",
+      "FOOT",
+      "LIMB",
+      "PEDESTAL",
+      "BASEMENT",
       "SUB",
-      "YOKE",
-      "INTIMA"
+      "BRAZIL",
+      "FILBERT",
+      "GATE",
+      "FINGER",
+      "FOUNDATION",
+      "WALNUT"
     ],
     "groups": [
       {
-        "category": "Animal Tissues",
+        "category": "Extremities",
         "words": [
-          "CARTILAGE",
-          "INTIMA",
-          "MUCOSA",
-          "TENDON"
+          "ARM",
+          "FINGER",
+          "LIMB",
+          "THIGH"
         ],
         "color": "yellow"
       },
       {
-        "category": "Utensils",
+        "category": "Seeds",
         "words": [
-          "BOILER",
-          "COFFEEPOT",
-          "CRACKLE",
-          "KETTLE"
+          "BRAZIL",
+          "FILBERT",
+          "NUT",
+          "WALNUT"
         ],
         "color": "green"
       },
       {
-        "category": "Stable Gear Terms",
+        "category": "Support Terms",
         "words": [
-          "BIT",
-          "HARNESS",
-          "HOUSING",
-          "YOKE"
+          "BASEMENT",
+          "FOOT",
+          "FOUNDATION",
+          "PEDESTAL"
         ],
         "color": "blue"
       },
       {
         "category": "___ WAY",
         "words": [
-          "HATCH",
+          "AIR",
+          "GATE",
           "PARK",
-          "RAIL",
           "SUB"
         ],
         "color": "purple"
@@ -1738,610 +3346,7 @@
     ],
     "metadata": {
       "source": "abuzar_nlp",
-      "generated_at": "2026-04-20T01:00:43.997445"
-    }
-  },
-  {
-    "id": "e3c5ce1b-a29a-4ecd-a389-50e0e2766da8",
-    "words": [
-      "KNIFE",
-      "DOWN",
-      "HATCHET",
-      "DEALER",
-      "VENDOR",
-      "LIGHT",
-      "SHINE",
-      "FIREMAN",
-      "CUTTER",
-      "MINER",
-      "GYPSY",
-      "JEWELER",
-      "CHISEL",
-      "RETAILER",
-      "PORTER",
-      "BURN"
-    ],
-    "groups": [
-      {
-        "category": "Merchants",
-        "words": [
-          "DEALER",
-          "JEWELER",
-          "RETAILER",
-          "VENDOR"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Cutting Implements",
-        "words": [
-          "CHISEL",
-          "CUTTER",
-          "HATCHET",
-          "KNIFE"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Laborer Terms",
-        "words": [
-          "FIREMAN",
-          "GYPSY",
-          "MINER",
-          "PORTER"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "SUN ___",
-        "words": [
-          "BURN",
-          "DOWN",
-          "LIGHT",
-          "SHINE"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "abuzar_nlp",
-      "generated_at": "2026-04-20T01:00:44.049037"
-    }
-  },
-  {
-    "id": "aaef97f9-9644-4d0f-bd9d-626e3f5017f7",
-    "words": [
-      "CALF",
-      "BICEPS",
-      "COPPER",
-      "CAPTAIN",
-      "STAIR",
-      "PISTOL",
-      "BOBBY",
-      "REVOLVER",
-      "ABDOMINAL",
-      "DOOR",
-      "FUZZ",
-      "DRIVE",
-      "GASTROCNEMIUS",
-      "HATCH",
-      "BAYONET",
-      "SHOTGUN"
-    ],
-    "groups": [
-      {
-        "category": "Muscles",
-        "words": [
-          "ABDOMINAL",
-          "BICEPS",
-          "CALF",
-          "GASTROCNEMIUS"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Weapons",
-        "words": [
-          "BAYONET",
-          "PISTOL",
-          "REVOLVER",
-          "SHOTGUN"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Policeman Terms",
-        "words": [
-          "BOBBY",
-          "CAPTAIN",
-          "COPPER",
-          "FUZZ"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "___ WAY",
-        "words": [
-          "DOOR",
-          "DRIVE",
-          "HATCH",
-          "STAIR"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "abuzar_nlp",
-      "generated_at": "2026-04-20T01:00:44.102277"
-    }
-  },
-  {
-    "id": "3887beb6-74d2-4efe-bac5-a44792325b50",
-    "words": [
-      "SEVEN",
-      "STRESSED",
-      "NAIL",
-      "BETWEEN",
-      "TRUCK",
-      "DRAWER",
-      "RAT",
-      "BEAVER",
-      "MOUSE",
-      "RIVER",
-      "SQUIRREL",
-      "STRAW",
-      "SHELTER",
-      "GARDEN",
-      "PEPPER",
-      "SNOOPS"
-    ],
-    "groups": [
-      {
-        "category": "Rodents",
-        "words": [
-          "MOUSE",
-          "RAT",
-          "BEAVER",
-          "SQUIRREL"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Things with a bed",
-        "words": [
-          "RIVER",
-          "TRUCK",
-          "GARDEN",
-          "NAIL"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Words that become new words when read backward",
-        "words": [
-          "STRESSED",
-          "DRAWER",
-          "SNOOPS",
-          "STRAW"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "Words using only the vowel E",
-        "words": [
-          "SEVEN",
-          "SHELTER",
-          "PEPPER",
-          "BETWEEN"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "abuzar_ai",
-      "generated_at": "2026-04-20T01:09:34.954067"
-    }
-  },
-  {
-    "id": "1ec62301-2782-45d1-89cd-214c4cd193b0",
-    "words": [
-      "PIE",
-      "JAGUARS",
-      "IDEA",
-      "SAUCE",
-      "CLOVE",
-      "TIGERISH",
-      "JUICE",
-      "SHEEPSHANK",
-      "BOWLINE",
-      "VOICE",
-      "FIGURE",
-      "LEOPARDS",
-      "BALL",
-      "CIDER",
-      "BILLION",
-      "TENT"
-    ],
-    "groups": [
-      {
-        "category": "Words After APPLE",
-        "words": [
-          "SAUCE",
-          "JUICE",
-          "PIE",
-          "CIDER"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "Things that can be pitched",
-        "words": [
-          "TENT",
-          "BALL",
-          "IDEA",
-          "VOICE"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "Words hiding a big cat",
-        "words": [
-          "BILLION",
-          "TIGERISH",
-          "JAGUARS",
-          "LEOPARDS"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "Also a type of knot",
-        "words": [
-          "BOWLINE",
-          "CLOVE",
-          "FIGURE",
-          "SHEEPSHANK"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "abuzar_ai",
-      "generated_at": "2026-04-20T01:26:56.327597"
-    }
-  },
-  {
-    "id": "bb40b438-db85-4ffb-8110-8032d28b3670",
-    "words": [
-      "SOCIALITY",
-      "SOCIABILITY",
-      "ORCHESTRAL",
-      "INSTRUMENTALIST",
-      "MUSICALLY",
-      "EXPONENT",
-      "ALGEBRAICALLY",
-      "SWAMP",
-      "ESTUARY",
-      "MULTIPLICATION",
-      "POND",
-      "SOCIABLY",
-      "SOCIALLY",
-      "MUSICIAN",
-      "LAGOON",
-      "MATH"
-    ],
-    "groups": [
-      {
-        "category": "WAYS TO BE SOCIABLE",
-        "words": [
-          "SOCIABILITY",
-          "SOCIABLY",
-          "SOCIALITY",
-          "SOCIALLY"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "AMBIENT MUSIC ARTISTS",
-        "words": [
-          "MUSICALLY",
-          "INSTRUMENTALIST",
-          "MUSICIAN",
-          "ORCHESTRAL"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "THINGS FOUND IN A CANAL",
-        "words": [
-          "ESTUARY",
-          "SWAMP",
-          "LAGOON",
-          "POND"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "RADICAL TERMS",
-        "words": [
-          "EXPONENT",
-          "ALGEBRAICALLY",
-          "MULTIPLICATION",
-          "MATH"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "kevin_fresh",
-      "generated_at": "2026-04-20T01:27:56.817945"
-    }
-  },
-  {
-    "id": "e5d3ef4f-d49d-41bb-9a18-af2e25cfc9b9",
-    "words": [
-      "RIVER",
-      "BARGE",
-      "SLIVERY",
-      "COMPOSITION",
-      "FRIENDSHIP",
-      "SHAPELY",
-      "MUSICIANSHIP",
-      "BEFRIEND",
-      "LOBLOLLY",
-      "ARTS",
-      "NEIGHBORLINESS",
-      "WATERFRONT",
-      "MUSICALLY",
-      "ESTUARY",
-      "FRIENDLY",
-      "SLINKY"
-    ],
-    "groups": [
-      {
-        "category": "WATERWAYS",
-        "words": [
-          "RIVER",
-          "ESTUARY",
-          "WATERFRONT",
-          "BARGE"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "WAYS TO DESCRIBE FRIENDLINESS",
-        "words": [
-          "FRIENDLY",
-          "FRIENDSHIP",
-          "BEFRIEND",
-          "NEIGHBORLINESS"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "WORDS ENDING IN 'LY'",
-        "words": [
-          "LOBLOLLY",
-          "SHAPELY",
-          "SLIVERY",
-          "SLINKY"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "GENRES OF MUSIC",
-        "words": [
-          "MUSICALLY",
-          "ARTS",
-          "MUSICIANSHIP",
-          "COMPOSITION"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "kevin_fresh",
-      "generated_at": "2026-04-20T01:28:10.505723"
-    }
-  },
-  {
-    "id": "3916c8a0-73e8-4b4a-83e6-cddaf3f96ac2",
-    "words": [
-      "SURROUNDINGS",
-      "WHARF",
-      "ENERGETICALLY",
-      "CANTLE",
-      "THERMODYNAMIC",
-      "HARBOR",
-      "CANTER",
-      "ENVIRON",
-      "AMBIENT",
-      "CANAL",
-      "WATERFRONT",
-      "CANDOUR",
-      "CANTERING",
-      "ENERGETIC",
-      "FUEL",
-      "ATMOSPHERIC"
-    ],
-    "groups": [
-      {
-        "category": "FAMOUS CANALS",
-        "words": [
-          "CANAL",
-          "WATERFRONT",
-          "WHARF",
-          "HARBOR"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "WORDS CONTAINING 'CAN'",
-        "words": [
-          "CANTER",
-          "CANTLE",
-          "CANDOUR",
-          "CANTERING"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "FORMS OF ENERGY",
-        "words": [
-          "THERMODYNAMIC",
-          "FUEL",
-          "ENERGETICALLY",
-          "ENERGETIC"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "WAYS TO DESCRIBE AMBIENCE",
-        "words": [
-          "SURROUNDINGS",
-          "AMBIENT",
-          "ENVIRON",
-          "ATMOSPHERIC"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "kevin_fresh",
-      "generated_at": "2026-04-20T01:28:32.966256"
-    }
-  },
-  {
-    "id": "22d64305-e465-4058-8116-b6e66ac89a1f",
-    "words": [
-      "ESTUARY",
-      "SOCIETY",
-      "DAYLIGHT",
-      "EMBANKMENT",
-      "SPECTACULARLY",
-      "LIGHTS",
-      "CANAL",
-      "SOCIETAL",
-      "DRASTICALLY",
-      "DRAMATICALLY",
-      "SOCIABILITY",
-      "SOCIALITY",
-      "DRAINAGE",
-      "ILLUMINATING",
-      "MOONLIGHT",
-      "MARKEDLY"
-    ],
-    "groups": [
-      {
-        "category": "WAYS TO SAY RADICALLY",
-        "words": [
-          "MARKEDLY",
-          "DRAMATICALLY",
-          "DRASTICALLY",
-          "SPECTACULARLY"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "SOCIALLY ACCEPTED BEHAVIOR",
-        "words": [
-          "SOCIALITY",
-          "SOCIETAL",
-          "SOCIETY",
-          "SOCIABILITY"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "WORDS FOR AMBIENT LIGHTING",
-        "words": [
-          "ILLUMINATING",
-          "DAYLIGHT",
-          "LIGHTS",
-          "MOONLIGHT"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "WORDS RELATED TO CANALS",
-        "words": [
-          "CANAL",
-          "DRAINAGE",
-          "ESTUARY",
-          "EMBANKMENT"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "kevin_fresh",
-      "generated_at": "2026-04-20T01:30:17.277758"
-    }
-  },
-  {
-    "id": "8e9359d4-a998-450d-a1cd-e3f0e098f461",
-    "words": [
-      "FLASHLIGHT",
-      "LAMP",
-      "BARGE",
-      "LAMPLIGHT",
-      "CANDOUR",
-      "RIVER",
-      "ADVERB",
-      "ADJECTIVAL",
-      "BULB",
-      "ADVERBIAL",
-      "CANTER",
-      "CAN",
-      "CONSONANTAL",
-      "CANTLE",
-      "RIVERBANK",
-      "WATERFRONT"
-    ],
-    "groups": [
-      {
-        "category": "TYPES OF LIGHTING",
-        "words": [
-          "LAMPLIGHT",
-          "LAMP",
-          "BULB",
-          "FLASHLIGHT"
-        ],
-        "color": "yellow"
-      },
-      {
-        "category": "CANALS AROUND THE WORLD",
-        "words": [
-          "BARGE",
-          "WATERFRONT",
-          "RIVER",
-          "RIVERBANK"
-        ],
-        "color": "green"
-      },
-      {
-        "category": "ADVERBS ENDING IN '-LY'",
-        "words": [
-          "ADVERB",
-          "ADVERBIAL",
-          "ADJECTIVAL",
-          "CONSONANTAL"
-        ],
-        "color": "blue"
-      },
-      {
-        "category": "WORDS THAT START WITH 'CAN'",
-        "words": [
-          "CAN",
-          "CANTLE",
-          "CANTER",
-          "CANDOUR"
-        ],
-        "color": "purple"
-      }
-    ],
-    "metadata": {
-      "source": "kevin_fresh",
-      "generated_at": "2026-04-20T01:30:30.515682"
+      "generated_at": "2026-04-20T04:15:52.966713"
     }
   }
 ]
