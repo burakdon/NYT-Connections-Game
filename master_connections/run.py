@@ -33,7 +33,8 @@ def _warn_missing_secrets(adapters: dict) -> None:
         'burak':       ('ANTHROPIC_API_KEY', 'OPENAI_API_KEY'),
         'adreama':     ('OPENAI_API_KEY',),
         'kevin_fresh': ('OPENAI_API_KEY',),
-        'abuzar_ai':   ('OPENAI_API_KEY',),
+        # Abuzar AI uses Claude (agents/claude_client.py).
+        'abuzar_ai':   ('ANTHROPIC_API_KEY',),
     }
     any_warn = False
     for pipeline, keys in needs.items():
@@ -50,71 +51,88 @@ def _warn_missing_secrets(adapters: dict) -> None:
         print('  (Abuzar NLP uses local datasets — no API key required.)\n')
 
 
-def build_adapters() -> dict:
+def build_adapters(only: str | None = None) -> dict:
+    """Register pipelines. If ``only`` is set, skip importing other pipelines (faster)."""
+
     adapters = {}
 
+    def want(name: str) -> bool:
+        return only is None or only == name
+
     # ── Burak ─────────────────────────────────────────────────
-    try:
-        from burak_pipeline import run_full_pipeline
-        adapters['burak'] = BurakAdapter(generate_fn=run_full_pipeline)
-        print('Registered: burak')
-    except ImportError:
-        print('Skipped: burak (burak_pipeline.py not found)')
+    if want('burak'):
+        try:
+            from burak_pipeline import run_full_pipeline
+
+            adapters['burak'] = BurakAdapter(generate_fn=run_full_pipeline)
+            print('Registered: burak')
+        except ImportError:
+            print('Skipped: burak (burak_pipeline.py not found)')
 
     # ── Adreama (v11, GPT-4.1) ────────────────────────────────
-    try:
-        adapters['adreama'] = AdreamaAIAdapter(
-            notebook_dir=os.path.dirname(os.path.abspath(__file__)),
-            openai_api_key=os.environ.get('OPENAI_API_KEY', ''),
-        )
-        print('Registered: adreama')
-    except Exception as e:
-        print(f'Skipped: adreama ({e})')
+    if want('adreama'):
+        try:
+            adapters['adreama'] = AdreamaAIAdapter(
+                notebook_dir=os.path.dirname(os.path.abspath(__file__)),
+                openai_api_key=os.environ.get('OPENAI_API_KEY', ''),
+            )
+            print('Registered: adreama')
+        except Exception as e:
+            print(f'Skipped: adreama ({e})')
 
     # Kevin's repo needs to be cloned into the Connections Project folder:
     # git clone https://github.com/Kevin2330/nyt-connections-generator kevin_repo
     # cd kevin_repo && pip install -r requirements.txt
 
-    kevin_root = ROOT / 'kevin_repo'
-    if not _repo_ready(kevin_root, 'scripts', 'cfr', 'generate_cfr.py'):
-        print('Skipped: kevin_fresh (kevin_repo/scripts/cfr/generate_cfr.py not found)')
-    else:
-        try:
-            adapters['kevin_fresh'] = KevinAdapter(
-                project_root=os.fspath(kevin_root),
-                mode='fresh',
-                api_key=os.environ.get('OPENAI_API_KEY', ''),
-            )
-            print('Registered: kevin_fresh')
-        except Exception as e:
-            print(f'Skipped: kevin_fresh ({e})')
+    if want('kevin_fresh'):
+        kevin_root = ROOT / 'kevin_repo'
+        if not _repo_ready(kevin_root, 'scripts', 'cfr', 'generate_cfr.py'):
+            print('Skipped: kevin_fresh (kevin_repo/scripts/cfr/generate_cfr.py not found)')
+        else:
+            try:
+                adapters['kevin_fresh'] = KevinAdapter(
+                    project_root=os.fspath(kevin_root),
+                    mode='fresh',
+                    api_key=os.environ.get('OPENAI_API_KEY', ''),
+                )
+                print('Registered: kevin_fresh')
+            except Exception as e:
+                print(f'Skipped: kevin_fresh ({e})')
 
     # ── Abuzar NLP ────────────────────────────────────────────
-    nlp_root = ROOT / 'abuzar_NLP-Connections-datasets-generators'
-    if not _repo_ready(nlp_root, 'pick_one_puzzle.py'):
-        print('Skipped: abuzar_nlp (abuzar_NLP-Connections-datasets-generators/pick_one_puzzle.py not found)')
-    else:
-        try:
-            adapters['abuzar_nlp'] = AbuzarNLPAdapter(
-                project_root=os.fspath(nlp_root),
+    if want('abuzar_nlp'):
+        nlp_root = ROOT / 'abuzar_NLP-Connections-datasets-generators'
+        if not _repo_ready(nlp_root, 'pick_one_puzzle.py'):
+            print(
+                'Skipped: abuzar_nlp '
+                '(abuzar_NLP-Connections-datasets-generators/pick_one_puzzle.py not found)'
             )
-            print('Registered: abuzar_nlp')
-        except Exception as e:
-            print(f'Skipped: abuzar_nlp ({e})')
+        else:
+            try:
+                adapters['abuzar_nlp'] = AbuzarNLPAdapter(
+                    project_root=os.fspath(nlp_root),
+                )
+                print('Registered: abuzar_nlp')
+            except Exception as e:
+                print(f'Skipped: abuzar_nlp ({e})')
 
     # ── Abuzar AI ─────────────────────────────────────────────
-    ai_root = ROOT / 'abuzar_AI-Connections'
-    if not _repo_ready(ai_root, 'run_fresh_puzzle.py'):
-        print('Skipped: abuzar_ai (abuzar_AI-Connections/run_fresh_puzzle.py not found)')
-    else:
-        try:
-            adapters['abuzar_ai'] = AbuzarAIAdapter(
-                project_root=os.fspath(ai_root),
-                api_keys={'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY', '')},
-            )
-            print('Registered: abuzar_ai')
-        except Exception as e:
-            print(f'Skipped: abuzar_ai ({e})')
+    if want('abuzar_ai'):
+        ai_root = ROOT / 'abuzar_AI-Connections'
+        if not _repo_ready(ai_root, 'run_fresh_puzzle.py'):
+            print('Skipped: abuzar_ai (abuzar_AI-Connections/run_fresh_puzzle.py not found)')
+        else:
+            try:
+                adapters['abuzar_ai'] = AbuzarAIAdapter(
+                    project_root=os.fspath(ai_root),
+                    api_keys={
+                        'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY', ''),
+                        'ANTHROPIC_API_KEY': os.environ.get('ANTHROPIC_API_KEY', ''),
+                    },
+                )
+                print('Registered: abuzar_ai')
+            except Exception as e:
+                print(f'Skipped: abuzar_ai ({e})')
 
     return adapters
 
@@ -143,7 +161,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.dry_run:
-        adapters = build_adapters()
+        adapters = build_adapters(only=args.only)
         if not adapters:
             print('No pipelines registered.')
             raise SystemExit(1)
@@ -157,7 +175,7 @@ if __name__ == '__main__':
         print('\nDry run complete (no puzzles generated).')
         raise SystemExit(0)
 
-    adapters = build_adapters()
+    adapters = build_adapters(only=args.only)
     if not adapters:
         print('No pipelines registered. Fix imports (burak/adreama), .env keys, and clone sibling repos.')
         raise SystemExit(1)
