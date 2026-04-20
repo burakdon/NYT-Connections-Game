@@ -36,6 +36,22 @@ DEFAULT_GROUP_REVIEWER_MODEL = "claude-sonnet-4-6"
 GROUP_DIFFICULTIES = {"easy", "medium", "hard", "tricky"}
 
 
+def _generator_candidate_count(target_count: int) -> int:
+    """How many groups Claude drafts per lane. Smaller = faster API + audit (defaults tuned for speed)."""
+    tc = max(1, target_count)
+    raw = os.environ.get("ABUZAR_GENERATOR_CANDIDATES", "").strip()
+    if raw.isdigit():
+        return max(tc, min(int(raw), 14))
+
+    fast = os.environ.get("ABUZAR_FAST", "").strip().lower() in ("1", "true", "yes")
+    if fast:
+        # e.g. target_count=1 → 4 drafts (was 9)
+        return max(tc, min(tc + 3, 5))
+
+    # Historical: max(tc * 3, tc + 8). New default: fewer groups = shorter calls.
+    return max(tc * 2, tc + 4)
+
+
 @dataclass
 class GroupAgentEvent:
     """One group-generation trace event."""
@@ -287,13 +303,17 @@ class GroupGenerationFactory:
         return "\n".join(lines) if lines else "- none"
 
     def _group_generator(self, target_count: int, difficulty: str, theme: str) -> list[dict[str, Any]]:
-        requested = max(target_count * 3, target_count + 8)
+        requested = _generator_candidate_count(target_count)
         difficulty_text = normalize_category(difficulty or "mixed")
         theme_text = normalize_category(theme or "none")
+        insp_n = int(os.environ.get("ABUZAR_CONCEPT_INSPIRATION_COUNT", "10"))
+        insp_n = max(4, min(insp_n, 30))
         concept_inspiration_guidance = format_concept_inspiration_guidance(
             difficulty=difficulty,
-            count=20,
+            count=insp_n,
         )
+        gen_tokens = int(os.environ.get("ABUZAR_GENERATOR_MAX_TOKENS", "4096"))
+        gen_tokens = max(1500, min(gen_tokens, 8000))
         system = (
             "You are Group Generator Agent. You create reusable answer groups for a "
             "Connections-style puzzle bank. You do not assemble full puzzles."
@@ -353,7 +373,7 @@ Return this exact shape:
             system=system,
             user=user,
             temperature=0.75,
-            max_tokens=6000,
+            max_tokens=gen_tokens,
         )
         groups = payload.get("groups", [])
         return groups if isinstance(groups, list) else []
@@ -403,12 +423,14 @@ Return this exact shape:
   ]
 }}
 """
+        audit_tokens = int(os.environ.get("ABUZAR_AUDITOR_MAX_TOKENS", "4096"))
+        audit_tokens = max(1500, min(audit_tokens, 8000))
         payload = self._run_agent(
             name="Group Auditor",
             system=system,
             user=user,
             temperature=0.2,
-            max_tokens=6000,
+            max_tokens=audit_tokens,
         )
         reviews = payload.get("reviews", [])
         mapped: dict[int, dict[str, Any]] = {}
