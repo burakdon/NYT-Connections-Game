@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Connections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Master Connections</h1>
+        </header>
+
+        <div id="message-bar" class="message-bar hidden"></div>
+
+        <div id="solved-groups"></div>
+
+        <div id="grid" class="grid"></div>
+
+        <div class="controls">
+            <div class="mistakes" id="mistakes">
+                Mistakes remaining:
+                <span id="mistake-dots"></span>
+            </div>
+            <div class="buttons">
+                <button id="btn-shuffle" onclick="shuffleWords()">Shuffle</button>
+                <button id="btn-deselect" onclick="deselectAll()">Deselect All</button>
+                <button id="btn-submit" onclick="submitGuess()" disabled>Submit</button>
+            </div>
+            <div class="buttons secondary">
+                <button id="btn-new" onclick="loadNewPuzzle()">New Puzzle</button>
+            </div>
+        </div>
+
+        <div id="game-over" class="game-over hidden">
+            <h2 id="game-over-text"></h2>
+            <button onclick="loadNewPuzzle()">Play Again</button>
+        </div>
+
+        <footer>
+            <p class="puzzle-count" id="puzzle-count"></p>
+        </footer>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+anthropic
+openai
+gensim
+python-Levenshtein
+nltk
+requests
+joblib
+scikit-learn
+python-dotenv
+sentence-transformers
+pandas

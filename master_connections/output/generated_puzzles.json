@@ -1,0 +1,152 @@
+[
+  {
+    "id": "e67416f7-1895-43c4-9078-c3063de10377",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:14:11.008017",
+    "board": [
+      "STUFF",
+      "BASKET",
+      "PLATE",
+      "STEP",
+      "THING",
+      "REASON",
+      "BELL",
+      "SATISFY",
+      "JUSTIFY",
+      "QUALIFY",
+      "HOW",
+      "ASPECT",
+      "WAY",
+      "JUDGE",
+      "KNOB",
+      "HEAT"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "THING",
+          "STUFF",
+          "ASPECT",
+          "REASON"
+        ],
+        "connection": "Words that can follow \"ANOTHER",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "HOW",
+          "SATISFY",
+          "QUALIFY",
+          "JUSTIFY"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "BASKET",
+          "HEAT",
+          "PLATE",
+          "JUDGE"
+        ],
+        "connection": "Things that can be \"hot",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "STEP",
+          "BELL",
+          "KNOB",
+          "WAY"
+        ],
+        "connection": "\"DOOR\" + ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "WAY",
+        "imp1": "HOW",
+        "imp2": "THING",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Words that follow \"any"
+      }
+    }
+  },
+  {
+    "id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:14:17.225253",
+    "board": [
+      "SHADE",
+      "CORNER",
+      "DOWN",
+      "TOMORROW",
+      "RAINBOW",
+      "STEREO",
+      "AROUND",
+      "SET",
+      "OFF",
+      "ROUND",
+      "INTO",
+      "ONTO",
+      "LIGHT",
+      "GLOVE",
+      "RING",
+      "OUT"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "OFF",
+          "ONTO",
+          "INTO",
+          "AROUND"
+        ],
+        "connection": "Words that can follow \"GET",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "OUT",
+          "STEREO",
+          "RAINBOW",
+          "TOMORROW"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "RING",
+          "GLOVE",
+          "ROUND",
+          "CORNER"
+        ],
+        "connection": "Boxing match elements",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "LIGHT",
+          "DOWN",
+          "SET",
+          "SHADE"
+        ],
+        "connection": "\"SUN\" + ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "DOWN",
+        "imp1": "OUT",
+        "imp2": "OFF",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Words that follow \"burn"
+      }
+    }
+  }
+]
