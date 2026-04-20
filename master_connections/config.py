@@ -31,7 +31,9 @@ PIPELINE_TIMEOUTS = {
     'kevin_remix': 30,
     'kevin_fresh': 45,
     'abuzar_nlp':  120,
-    'abuzar_ai':   180,
+    # Wall-clock for subprocess: Abuzar runs ~8 Claude calls (2 per color × 4); each HTTP call
+    # allows up to 120s in agents/claude_client.py — 180s was far too low and caused false timeouts.
+    'abuzar_ai':   900,
 }
 
 MAX_RETRIES_PER_PIPELINE = 3

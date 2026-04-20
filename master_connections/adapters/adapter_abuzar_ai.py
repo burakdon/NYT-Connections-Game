@@ -11,6 +11,11 @@ from typing import Optional
 
 from adapters.base import PuzzleAdapter
 
+try:
+    from config import PIPELINE_TIMEOUTS
+except ImportError:
+    PIPELINE_TIMEOUTS = {'abuzar_ai': 900}
+
 # run_fresh_puzzle builds lanes easy → medium → hard → tricky (NYT reveal order).
 _LANE_TO_COLOR = {
     'easy': 'yellow',
@@ -91,7 +96,7 @@ class AbuzarAIAdapter(PuzzleAdapter):
                 cwd=self.project_root,
                 capture_output=True,
                 text=True,
-                timeout=180,
+                timeout=int(PIPELINE_TIMEOUTS.get('abuzar_ai', 900)),
                 env=env,
             )
 

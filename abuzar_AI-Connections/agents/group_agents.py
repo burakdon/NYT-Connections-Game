@@ -269,7 +269,11 @@ class GroupGenerationFactory:
             "bank_total": saved_payload["total"],
         }
 
-    def _existing_group_context(self, limit: int = 80) -> str:
+    def _existing_group_context(self, limit: int | None = None) -> str:
+        """Truncate bank listing in prompts — large banks slow the API and crowd the context."""
+        if limit is None:
+            limit = int(os.environ.get("ABUZAR_EXISTING_GROUP_LIMIT", "50"))
+        limit = max(12, min(limit, 120))
         lines = []
         for group in self.existing_groups[:limit]:
             lines.append(
