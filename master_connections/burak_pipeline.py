@@ -1654,8 +1654,18 @@ def _is_bad_yellow_title_format(title: str, group: list) -> tuple[bool, str]:
     return False, ''
 
 
-def yellow_connection_with_retries(group: list, max_tries: int = 4):
+def _yellow_title_try_budget() -> int:
+    """Default budget for yellow title retries (LLM-heavy)."""
+    try:
+        return max(1, min(6, int(os.environ.get('BURAK_YELLOW_TITLE_MAX_TRIES', '2'))))
+    except Exception:
+        return 2
+
+
+def yellow_connection_with_retries(group: list, max_tries: int | None = None):
     """LLM title + verifier — rejects sloppy synonym/thematic labels."""
+    if max_tries is None:
+        max_tries = _yellow_title_try_budget()
     for attempt in range(max_tries):
         label = label_yellow_group(group)
         bad, why = _is_bad_yellow_title_format(label, group)
@@ -1669,7 +1679,17 @@ def yellow_connection_with_retries(group: list, max_tries: int = 4):
     return None
 
 
-def generate_yellow_group(existing_words, impostor=None, max_attempts=40):
+def _yellow_seed_budget() -> int:
+    """How many word2vec seeds to test for yellow generation."""
+    try:
+        return max(8, min(80, int(os.environ.get('BURAK_YELLOW_SEED_MAX_ATTEMPTS', '18'))))
+    except Exception:
+        return 18
+
+
+def generate_yellow_group(existing_words, impostor=None, max_attempts=None):
+    if max_attempts is None:
+        max_attempts = _yellow_seed_budget()
     excl  = set(w.lower() for w in existing_words)
     tried = set()
 

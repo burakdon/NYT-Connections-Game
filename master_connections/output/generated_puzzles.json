@@ -3211,5 +3211,80 @@
       }
     },
     "meta": {}
+  },
+  {
+    "id": "53d45b9b-c034-40c0-9251-7a2791938dc3",
+    "source": "burak",
+    "generated_at": "2026-04-20T03:28:44.608402",
+    "board": [
+      "WAFFLE",
+      "ANALYZE",
+      "FOUR",
+      "EIGHT",
+      "OMELET",
+      "BACON",
+      "INTERSTATE",
+      "DETERMINE",
+      "SEVEN",
+      "NINE",
+      "ASSESS",
+      "MIMOSA",
+      "EVALUATE",
+      "HATE",
+      "SIX",
+      "GREAT"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "ASSESS",
+          "EVALUATE",
+          "DETERMINE",
+          "ANALYZE"
+        ],
+        "connection": "Ways to examine something closely",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "EIGHT",
+          "HATE",
+          "INTERSTATE",
+          "GREAT"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "WAFFLE",
+          "MIMOSA",
+          "BACON",
+          "OMELET"
+        ],
+        "connection": "Breakfast Items That Go With Brunch",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "SIX",
+          "SEVEN",
+          "NINE",
+          "FOUR"
+        ],
+        "connection": "___ + \"TEEN\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "NINE",
+        "imp1": "EIGHT",
+        "imp2": "FIVE",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Numbers in a countdown sequence"
+      }
+    }
   }
 ]
