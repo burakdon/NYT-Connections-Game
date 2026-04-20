@@ -1,0 +1,1256 @@
+category,mechanism,word1,word2,word3,word4,answer,coherence_score,hypernym_depth,bucket_size
+yellow,wordnet_easy_hypernym,bishop,diocesan,pastor,preacher,clergyman,0.4727,6,26
+yellow,wordnet_easy_hypernym,lavatory,shower,stool,toilet,plumbing fixture,0.4313,6,10
+yellow,wordnet_easy_hypernym,apron,dock,pier,wharf,horizontal surface,0.4631,6,29
+yellow,wordnet_easy_hypernym,catcher,fireman,shortstop,southpaw,ballplayer,0.3676,6,16
+yellow,wordnet_easy_hypernym,bell,drum,piano,tambourine,percussion instrument,0.3547,8,8
+yellow,wordnet_easy_hypernym,captain,deputy,inspector,lieutenant,lawman,0.3594,6,22
+yellow,wordnet_easy_hypernym,head,instructor,lecturer,teacher,educator,0.3592,6,19
+yellow,wordnet_easy_hypernym,baby,colt,filly,kitten,young mammal,0.4047,8,12
+yellow,wordnet_easy_hypernym,infantryman,marine,redcoat,rifleman,enlisted person,0.3578,7,14
+yellow,wordnet_easy_hypernym,hut,oasis,shanty,tent,shelter,0.3507,6,14
+yellow,wordnet_easy_hypernym,abdominal,gastrocnemius,pecs,pectoralis,muscle,0.3682,7,10
+yellow,wordnet_easy_hypernym,gun,shotgun,slug,sword,weapon,0.3602,8,40
+yellow,wordnet_easy_hypernym,latex,paint,varnish,wash,coating,0.3573,6,17
+yellow,wordnet_easy_hypernym,hitter,lefthander,shortstop,twirler,ballplayer,0.4332,6,16
+yellow,wordnet_easy_hypernym,legume,potato,soybean,squash,vine,0.3700,8,13
+yellow,wordnet_easy_hypernym,drummer,pianist,rocker,singer,musician,0.5125,6,24
+yellow,wordnet_easy_hypernym,cartilage,intima,mucosa,tendon,animal tissue,0.4873,6,59
+yellow,wordnet_easy_hypernym,chemist,doctor,physician,resident,health professional,0.3898,6,25
+yellow,wordnet_easy_hypernym,accommodation,cottage,dwelling,mansion,housing,0.3525,6,34
+yellow,wordnet_easy_hypernym,gilt,lacquer,varnish,watercolor,coating,0.3827,6,17
+yellow,wordnet_easy_hypernym,coffeepot,crackle,porcelain,samovar,utensil,0.3645,7,14
+yellow,wordnet_easy_hypernym,brow,fuzz,mane,mustache,hair,0.3606,7,26
+yellow,wordnet_easy_hypernym,instructor,lecturer,master,tutor,educator,0.3876,6,19
+yellow,wordnet_easy_hypernym,cowboy,cowman,fireman,wrangler,laborer,0.3740,7,21
+yellow,wordnet_easy_hypernym,cabin,lodge,mansion,residence,dwelling,0.3954,7,16
+yellow,wordnet_easy_hypernym,bishop,canon,dean,vicar,clergyman,0.3517,6,26
+yellow,wordnet_easy_hypernym,castle,cottage,encampment,mansion,housing,0.4032,6,34
+yellow,wordnet_easy_hypernym,flannel,pajama,tweed,white,trouser,0.3551,8,4
+yellow,wordnet_easy_hypernym,camper,car,caravan,truck,wheeled vehicle,0.4131,7,55
+yellow,wordnet_easy_hypernym,gut,jejunum,liver,stomach,internal organ,0.4040,6,11
+yellow,wordnet_easy_hypernym,leg,pin,thigh,toe,extremity,0.3769,6,17
+yellow,wordnet_easy_hypernym,headmaster,instructor,professor,teacher,educator,0.4278,6,19
+yellow,wordnet_easy_hypernym,driveway,highway,interstate,turnpike,road,0.4492,6,25
+yellow,wordnet_easy_hypernym,baby,calf,colt,foal,young mammal,0.4150,8,12
+yellow,wordnet_easy_hypernym,china,pan,porcelain,samovar,utensil,0.3571,7,14
+yellow,wordnet_easy_hypernym,radio,stereo,television,transmitter,electronic equipment,0.3805,7,21
+yellow,wordnet_easy_hypernym,abstraction,canvas,cityscape,watercolor,graphic art,0.3802,7,15
+yellow,wordnet_easy_hypernym,convent,farmhouse,hall,residence,house,0.3645,7,14
+yellow,wordnet_easy_hypernym,gunman,hoodlum,murderer,robber,criminal,0.4125,7,37
+yellow,wordnet_easy_hypernym,baron,knight,lord,noble,male aristocrat,0.3508,6,10
+yellow,wordnet_easy_hypernym,batter,catcher,lefthander,shortstop,ballplayer,0.5229,6,16
+yellow,wordnet_easy_hypernym,drum,sax,string,trumpet,musical instrument,0.3781,7,27
+yellow,wordnet_easy_hypernym,coconut,gourd,grape,pineapple,fruit,0.4413,8,49
+yellow,wordnet_easy_hypernym,mustard,onion,radish,spinach,vegetable,0.4850,6,26
+yellow,wordnet_easy_hypernym,baritone,minstrel,rocker,vocalist,musician,0.3828,6,24
+yellow,wordnet_easy_hypernym,cottage,farmhouse,mansion,residence,house,0.5384,7,14
+yellow,wordnet_easy_hypernym,cannon,carbine,pistol,spear,weapon,0.4006,8,40
+yellow,wordnet_easy_hypernym,olive,paste,sauce,vinegar,condiment,0.3584,8,14
+yellow,wordnet_easy_hypernym,drone,drum,piano,saxophone,musical instrument,0.3545,7,27
+yellow,wordnet_easy_hypernym,mayonnaise,sauce,stick,vinegar,condiment,0.4042,8,14
+yellow,wordnet_easy_hypernym,catsup,dressing,sauce,vinegar,condiment,0.4074,8,14
+yellow,wordnet_easy_hypernym,resident,surgeon,veterinarian,veterinary,doctor,0.3626,8,16
+yellow,wordnet_easy_hypernym,cottage,lodge,restaurant,teahouse,building,0.3578,6,69
+yellow,wordnet_easy_hypernym,cheekbone,cortex,mucosa,parenchyma,animal tissue,0.3648,6,59
+yellow,wordnet_easy_hypernym,drum,guitar,tambourine,whistle,musical instrument,0.3828,7,27
+yellow,wordnet_easy_hypernym,berry,grape,oilseed,sloe,fruit,0.4190,8,49
+yellow,wordnet_easy_hypernym,lecturer,principal,professor,tutor,educator,0.3830,6,19
+yellow,wordnet_easy_hypernym,catsup,gravy,relish,sauce,condiment,0.3703,8,14
+yellow,wordnet_easy_hypernym,calorimeter,gage,manometer,synchronizer,measuring instrument,0.3659,8,31
+yellow,wordnet_easy_hypernym,arm,finger,limb,thigh,extremity,0.3875,6,17
+yellow,wordnet_easy_hypernym,engine,generator,outboard,turbine,motor,0.4371,8,8
+yellow,wordnet_easy_hypernym,avenue,boulevard,thoroughfare,turnpike,road,0.4071,6,25
+yellow,wordnet_easy_hypernym,dentist,pathologist,physician,surgeon,medical practitioner,0.4980,7,20
+yellow,wordnet_easy_hypernym,cottage,hearth,house,mansion,dwelling,0.4228,7,16
+yellow,wordnet_easy_hypernym,arch,chine,heel,spine,skeletal structure,0.3516,6,9
+yellow,wordnet_easy_hypernym,assassin,blackmailer,butcher,hoodlum,criminal,0.3543,7,37
+yellow,wordnet_easy_hypernym,beard,bouffant,mustache,stubble,hair,0.5547,7,26
+yellow,wordnet_easy_hypernym,adhesion,bone,epiphysis,tooth,connective tissue,0.3546,7,32
+yellow,wordnet_easy_hypernym,burglar,ghoul,hijacker,thief,criminal,0.3847,7,37
+yellow,wordnet_easy_hypernym,bomber,cruiser,destroyer,warship,military vehicle,0.3790,8,12
+yellow,wordnet_easy_hypernym,apartment,convent,palace,villa,housing,0.4210,6,34
+yellow,wordnet_easy_hypernym,baritone,guitarist,soprano,vocalist,musician,0.5785,6,24
+yellow,wordnet_easy_hypernym,compartment,foyer,lavatory,vestibule,room,0.4127,7,69
+yellow,wordnet_easy_hypernym,horn,piano,string,woodwind,musical instrument,0.3613,7,27
+yellow,wordnet_easy_hypernym,grain,grapefruit,legume,pea,fruit,0.3565,8,49
+yellow,wordnet_easy_hypernym,cannon,knife,rifle,shotgun,weapon,0.4605,8,40
+yellow,wordnet_easy_hypernym,beet,marrow,mushroom,potato,vegetable,0.3770,6,26
+yellow,wordnet_easy_hypernym,germ,kelp,protozoa,seaweed,microorganism,0.3542,6,11
+yellow,wordnet_easy_hypernym,cartilage,forehead,posterior,scalp,animal tissue,0.3668,6,59
+yellow,wordnet_easy_hypernym,bullet,revolver,rifle,slug,weapon,0.4207,8,40
+yellow,wordnet_easy_hypernym,boulevard,parkway,street,trail,road,0.4205,6,25
+yellow,wordnet_easy_hypernym,infantryman,rebel,rifleman,soldier,enlisted person,0.4107,7,14
+yellow,wordnet_easy_hypernym,dip,gravy,sauce,vinegar,condiment,0.3704,8,14
+yellow,wordnet_easy_hypernym,greatcoat,jacket,muffler,sweater,garment,0.4143,7,69
+yellow,wordnet_easy_hypernym,diagnostician,physician,psychiatrist,veterinary,medical practitioner,0.3581,7,20
+yellow,wordnet_easy_hypernym,celebrant,diocesan,priest,rector,clergyman,0.4246,6,26
+yellow,wordnet_easy_hypernym,cortex,parenchyma,vein,xylem,plant tissue,0.3786,6,7
+yellow,wordnet_easy_hypernym,autoloader,blade,gun,handgun,weapon,0.3667,8,40
+yellow,wordnet_easy_hypernym,catsup,mustard,paste,sauce,condiment,0.3934,8,14
+yellow,wordnet_easy_hypernym,dentist,doctor,physician,resident,medical practitioner,0.5014,7,20
+yellow,wordnet_easy_hypernym,hitter,outfielder,pitcher,slugger,ballplayer,0.5719,6,16
+yellow,wordnet_easy_hypernym,colt,foal,lamb,puppy,young mammal,0.4084,8,12
+yellow,wordnet_easy_hypernym,abode,cottage,hall,residence,housing,0.3662,6,34
+yellow,wordnet_easy_hypernym,shin,skull,teeth,tendon,connective tissue,0.3713,7,32
+yellow,wordnet_easy_hypernym,castle,hospital,mansion,monastery,building,0.3872,6,69
+yellow,wordnet_easy_hypernym,anterior,forehead,skull,tusk,bone,0.3730,8,23
+yellow,wordnet_easy_hypernym,garage,schoolhouse,smokehouse,tavern,building,0.3675,6,69
+yellow,wordnet_easy_hypernym,cityscape,painting,piece,sculpture,art,0.3553,6,37
+yellow,wordnet_easy_hypernym,castle,convent,house,monastery,dwelling,0.4759,7,16
+yellow,wordnet_easy_hypernym,bead,necklace,pearl,ring,jewelry,0.3551,7,17
+yellow,wordnet_easy_hypernym,castle,manor,palace,schoolhouse,building,0.4423,6,69
+yellow,wordnet_easy_hypernym,accelerometer,calorimeter,gage,pyrometer,measuring instrument,0.3895,8,31
+yellow,wordnet_easy_hypernym,carport,castle,inn,manor,building,0.3819,6,69
+yellow,wordnet_easy_hypernym,alto,baritone,minstrel,soprano,musician,0.4760,6,24
+yellow,wordnet_easy_hypernym,accelerator,pedal,stick,throttle,lever,0.3664,8,13
+yellow,wordnet_easy_hypernym,bone,rib,skull,tusk,connective tissue,0.4546,7,32
+yellow,wordnet_easy_hypernym,fang,jaw,skull,tendon,connective tissue,0.3867,7,32
+yellow,wordnet_easy_hypernym,castle,cottage,manor,studio,housing,0.3963,6,34
+yellow,wordnet_easy_hypernym,pyrometer,sonar,synchronizer,thermocouple,measuring instrument,0.3965,8,31
+yellow,wordnet_easy_hypernym,catcher,fireman,lefthander,pitcher,ballplayer,0.4219,6,16
+yellow,wordnet_easy_hypernym,alto,baritone,bass,soprano,singer,0.5535,7,13
+yellow,wordnet_easy_hypernym,captain,cop,detective,trooper,policeman,0.3718,7,12
+yellow,wordnet_easy_hypernym,bishop,deacon,minister,vicar,clergyman,0.4388,6,26
+yellow,wordnet_easy_hypernym,chick,kitten,pup,puppy,young,0.6307,7,16
+yellow,wordnet_easy_hypernym,pathologist,physician,psychiatrist,specialist,medical practitioner,0.3738,7,20
+yellow,wordnet_easy_hypernym,hovel,refuge,sanctuary,shanty,shelter,0.3553,6,14
+yellow,wordnet_easy_hypernym,fur,overcoat,shirt,turtleneck,garment,0.3935,7,69
+yellow,wordnet_easy_hypernym,flesh,rib,shin,tendon,animal tissue,0.3915,6,59
+yellow,wordnet_easy_hypernym,bunker,castle,fortress,stockade,defensive structure,0.3614,6,15
+yellow,wordnet_easy_hypernym,diagnostician,matron,nurse,physician,health professional,0.3976,6,25
+yellow,wordnet_easy_hypernym,cabin,cottage,monastery,palace,house,0.3576,7,14
+yellow,wordnet_easy_hypernym,churchman,deacon,pastor,shepherd,clergyman,0.4083,6,26
+yellow,wordnet_easy_hypernym,cabin,farmhouse,monastery,residence,house,0.3884,7,14
+yellow,wordnet_easy_hypernym,castle,hall,manor,palace,house,0.4406,7,14
+yellow,wordnet_easy_hypernym,brain,heart,liver,tongue,variety meat,0.3529,6,4
+yellow,wordnet_easy_hypernym,cheekbone,forehead,hammer,shin,bone,0.3510,8,23
+yellow,wordnet_easy_hypernym,anterior,cheekbone,posterior,skull,bone,0.3867,8,23
+yellow,wordnet_easy_hypernym,rib,skull,submucosa,tendon,connective tissue,0.3500,7,32
+yellow,wordnet_easy_hypernym,aorta,artery,capillary,vein,blood vessel,0.3824,8,5
+yellow,wordnet_easy_hypernym,cottage,lodge,monastery,villa,house,0.4299,7,14
+yellow,wordnet_easy_hypernym,grapefruit,lemon,olive,rye,fruit,0.4129,8,49
+yellow,wordnet_easy_hypernym,diagnostician,pathologist,specialist,veterinarian,doctor,0.3571,8,16
+yellow,wordnet_easy_hypernym,fresco,picture,sculpture,statue,art,0.3760,6,37
+yellow,wordnet_easy_hypernym,fang,shaft,skull,tooth,bone,0.3510,8,23
+yellow,wordnet_easy_hypernym,instructor,prof,schoolmaster,teacher,educator,0.3641,6,19
+yellow,wordnet_easy_hypernym,brothel,cafe,farmhouse,monastery,building,0.3552,6,69
+yellow,wordnet_easy_hypernym,gut,kidney,liver,lung,internal organ,0.4482,6,11
+yellow,wordnet_easy_hypernym,barrack,cabin,farmhouse,manor,housing,0.3623,6,34
+yellow,wordnet_easy_hypernym,matron,nurse,orthodontist,psychiatrist,health professional,0.3982,6,25
+yellow,wordnet_easy_hypernym,freeway,highway,interstate,roadway,road,0.6317,6,25
+yellow,wordnet_easy_hypernym,gut,heart,lung,stomach,internal organ,0.3858,6,11
+yellow,wordnet_easy_hypernym,cherry,fig,orange,pear,fruit,0.3960,8,49
+yellow,wordnet_easy_hypernym,calf,filly,foal,kitten,young,0.4027,7,16
+yellow,wordnet_easy_hypernym,alto,baritone,coloratura,vocalist,musician,0.5212,6,24
+yellow,wordnet_easy_hypernym,guitar,saxophone,string,violin,musical instrument,0.4515,7,27
+yellow,wordnet_easy_hypernym,chancellor,lecturer,principal,teacher,educator,0.3705,6,19
+yellow,wordnet_easy_hypernym,abdominal,deltoid,gastrocnemius,lat,skeletal muscle,0.4180,8,9
+yellow,wordnet_easy_hypernym,berry,fig,grapefruit,lime,edible fruit,0.4563,6,22
+yellow,wordnet_easy_hypernym,farmhouse,manor,palace,villa,house,0.4950,7,14
+yellow,wordnet_easy_hypernym,basin,fountain,lavatory,toilet,plumbing fixture,0.3590,6,10
+yellow,wordnet_easy_hypernym,closet,couch,dresser,wardrobe,furniture,0.4454,7,49
+yellow,wordnet_easy_hypernym,engraving,fresco,painting,watercolor,graphic art,0.5045,7,15
+yellow,wordnet_easy_hypernym,banquet,breakfast,luncheon,refreshment,meal,0.4360,6,16
+yellow,wordnet_easy_hypernym,earring,necklace,pearl,strand,jewelry,0.3801,7,17
+yellow,wordnet_easy_hypernym,grapefruit,lime,pineapple,sloe,edible fruit,0.4407,6,22
+yellow,wordnet_easy_hypernym,cheekbone,epiphysis,forehead,rib,bone,0.3895,8,23
+yellow,wordnet_easy_hypernym,guitarist,minstrel,pianist,violinist,musician,0.4971,6,24
+yellow,wordnet_easy_hypernym,academic,chancellor,lecturer,professor,educator,0.4182,6,19
+yellow,wordnet_easy_hypernym,baby,chick,kitten,nestling,young,0.3602,7,16
+yellow,wordnet_easy_hypernym,pitcher,runner,southpaw,twirler,ballplayer,0.3614,6,16
+yellow,wordnet_easy_hypernym,cloak,gown,sweatshirt,undershirt,garment,0.3584,7,69
+yellow,wordnet_easy_hypernym,apothecary,physician,psychiatrist,veterinarian,health professional,0.3737,6,25
+yellow,wordnet_easy_hypernym,barbecue,breakfast,dinner,picnic,meal,0.5724,6,16
+yellow,wordnet_easy_hypernym,fang,forearm,forefinger,thumb,extremity,0.3643,6,17
+yellow,wordnet_easy_hypernym,pepper,radish,squash,tomato,vegetable,0.4340,6,26
+yellow,wordnet_easy_hypernym,bicycle,cart,trolley,wheel,wheeled vehicle,0.3879,7,55
+yellow,wordnet_easy_hypernym,buffet,dinner,picnic,tea,meal,0.3969,6,16
+yellow,wordnet_easy_hypernym,cabin,lodge,mansion,monastery,house,0.3647,7,14
+yellow,wordnet_easy_hypernym,coach,headmaster,missionary,teacher,educator,0.3809,6,19
+yellow,wordnet_easy_hypernym,farmhouse,inn,mansion,monastery,building,0.5213,6,69
+yellow,wordnet_easy_hypernym,cop,detective,inspector,investigator,policeman,0.4997,7,12
+yellow,wordnet_easy_hypernym,colt,gelding,stallion,stud,male,0.6300,7,6
+yellow,wordnet_easy_hypernym,cowman,laborer,peasant,porter,workman,0.3619,6,26
+yellow,wordnet_easy_hypernym,apple,grapefruit,orange,peach,edible fruit,0.4837,6,22
+yellow,wordnet_easy_hypernym,castle,cottage,hearth,lodge,dwelling,0.3625,7,16
+yellow,wordnet_easy_hypernym,beard,fur,fuzz,mustache,body covering,0.3697,6,40
+yellow,wordnet_easy_hypernym,dinner,feast,supper,tea,meal,0.4165,6,16
+yellow,wordnet_easy_hypernym,bead,emerald,gem,pearl,jewelry,0.3759,7,17
+yellow,wordnet_easy_hypernym,intima,parenchyma,pleura,spleen,animal tissue,0.5066,6,59
+yellow,wordnet_easy_hypernym,abdominal,deltoid,gastrocnemius,lat,muscle,0.4180,7,10
+yellow,wordnet_easy_hypernym,bayonet,blade,gun,shotgun,weapon,0.3789,8,40
+yellow,wordnet_easy_hypernym,governess,lecturer,teacher,tutor,educator,0.3959,6,19
+yellow,wordnet_easy_hypernym,blade,burr,chisel,razor,cutting implement,0.3541,8,14
+yellow,wordnet_easy_hypernym,captain,lieutenant,sergeant,warden,lawman,0.4217,6,22
+yellow,wordnet_easy_hypernym,cowboy,cowhand,hostler,wrangler,hired hand,0.3579,8,10
+yellow,wordnet_easy_hypernym,bypass,freeway,highway,parkway,road,0.4626,6,25
+yellow,wordnet_easy_hypernym,digger,hostler,laborer,porter,workman,0.3638,6,26
+yellow,wordnet_easy_hypernym,castle,convent,hall,manor,dwelling,0.3868,7,16
+yellow,wordnet_easy_hypernym,calf,foal,hog,pup,young,0.3675,7,16
+yellow,wordnet_easy_hypernym,catsup,gravy,paste,vinegar,condiment,0.3985,8,14
+yellow,wordnet_easy_hypernym,colon,heart,jejunum,stomach,internal organ,0.3629,6,11
+yellow,wordnet_easy_hypernym,grapefruit,legume,lemon,sloe,fruit,0.3661,8,49
+yellow,wordnet_easy_hypernym,alto,baritone,guitarist,pianist,musician,0.5615,6,24
+yellow,wordnet_easy_hypernym,bandit,burglar,hijacker,pirate,thief,0.3774,8,10
+yellow,wordnet_easy_hypernym,cheekbone,forehead,shin,tendon,connective tissue,0.4821,7,32
+yellow,wordnet_easy_hypernym,cottage,hall,manor,villa,house,0.3770,7,14
+yellow,wordnet_easy_hypernym,banana,grape,lime,strawberry,edible fruit,0.4695,6,22
+yellow,wordnet_easy_hypernym,pan,saucepan,skillet,urn,utensil,0.4065,7,14
+yellow,wordnet_easy_hypernym,baritone,drone,sax,trumpet,wind instrument,0.3660,8,13
+yellow,wordnet_easy_hypernym,cop,investigator,marshal,sheriff,lawman,0.3506,6,22
+yellow,wordnet_easy_hypernym,cynic,existentialist,libertarian,realist,philosopher,0.3818,6,11
+yellow,wordnet_easy_hypernym,cop,deputy,lieutenant,warden,lawman,0.3946,6,22
+yellow,wordnet_easy_hypernym,convent,house,lodge,residence,dwelling,0.3887,7,16
+yellow,wordnet_easy_hypernym,buckboard,jeep,oxcart,saloon,wheeled vehicle,0.3790,7,55
+yellow,wordnet_easy_hypernym,fin,finger,forearm,toe,extremity,0.3768,6,17
+yellow,wordnet_easy_hypernym,bayonet,revolver,rifle,rod,weapon,0.3944,8,40
+yellow,wordnet_easy_hypernym,assassin,bandit,henchman,shooter,criminal,0.3755,7,37
+yellow,wordnet_easy_hypernym,celery,mustard,potato,squash,vegetable,0.3675,6,26
+yellow,wordnet_easy_hypernym,gravy,mayonnaise,paste,sauce,condiment,0.4830,8,14
+yellow,wordnet_easy_hypernym,chapel,convent,manor,temple,building,0.4061,6,69
+yellow,wordnet_easy_hypernym,manometer,thermocouple,thermometer,wristwatch,measuring instrument,0.3522,8,31
+yellow,wordnet_easy_hypernym,blade,hatchet,knife,lance,cutting implement,0.3557,8,14
+yellow,wordnet_easy_hypernym,fennel,green,pepper,tomato,vegetable,0.3542,6,26
+yellow,wordnet_easy_hypernym,castle,lodge,mansion,monastery,dwelling,0.4315,7,16
+yellow,wordnet_easy_hypernym,bronze,carving,marble,sculpture,plastic art,0.3562,7,12
+yellow,wordnet_easy_hypernym,baker,dealer,grocer,peddler,merchant,0.3571,6,15
+yellow,wordnet_easy_hypernym,fang,forehead,posterior,teeth,bone,0.3698,8,23
+yellow,wordnet_easy_hypernym,batter,fielder,hitter,lefthander,ballplayer,0.4878,6,16
+yellow,wordnet_easy_hypernym,horn,trumpet,violin,whistle,musical instrument,0.4702,7,27
+yellow,wordnet_easy_hypernym,chest,couch,desk,sofa,furniture,0.4299,7,49
+yellow,wordnet_easy_hypernym,highroad,highway,roadway,trail,road,0.3568,6,25
+yellow,wordnet_easy_hypernym,car,cart,cruiser,trailer,wheeled vehicle,0.3934,7,55
+yellow,wordnet_easy_hypernym,hovel,loft,shanty,tent,shelter,0.3511,6,14
+yellow,wordnet_easy_hypernym,driveway,expressway,freeway,turnpike,road,0.4723,6,25
+yellow,wordnet_easy_hypernym,bathroom,cooler,lavatory,toilet,room,0.4640,7,69
+yellow,wordnet_easy_hypernym,barbecue,buffet,lunch,refreshment,meal,0.4391,6,16
+yellow,wordnet_easy_hypernym,baby,bird,chick,doll,girl,0.3624,6,9
+yellow,wordnet_easy_hypernym,canvas,cityscape,landscape,picture,graphic art,0.3516,7,15
+yellow,wordnet_easy_hypernym,cabin,closet,cockpit,galley,room,0.3847,7,69
+yellow,wordnet_easy_hypernym,avocado,bean,cherry,sloe,fruit,0.3682,8,49
+yellow,wordnet_easy_hypernym,finger,leg,limb,toe,extremity,0.4022,6,17
+yellow,wordnet_easy_hypernym,banana,fig,grape,lemon,edible fruit,0.4471,6,22
+yellow,wordnet_easy_hypernym,dentist,psychiatrist,resident,veterinarian,health professional,0.3862,6,25
+yellow,wordnet_easy_hypernym,cheekbone,nasal,shin,skull,bone,0.3676,8,23
+yellow,wordnet_easy_hypernym,abdominal,deltoid,pectoralis,serratus,skeletal muscle,0.4569,8,9
+yellow,wordnet_easy_hypernym,inn,lodge,motel,resort,hotel,0.4702,7,5
+yellow,wordnet_easy_hypernym,fennel,onion,potato,spinach,vegetable,0.5535,6,26
+yellow,wordnet_easy_hypernym,chick,filly,foal,pup,young,0.4305,7,16
+yellow,wordnet_easy_hypernym,compartment,lavatory,schoolroom,toilet,room,0.3947,7,69
+yellow,wordnet_easy_hypernym,fresco,modernism,mosaic,painting,art,0.3882,6,37
+yellow,wordnet_easy_hypernym,hovel,hut,pavilion,shanty,shelter,0.3861,6,14
+yellow,wordnet_easy_hypernym,cheekbone,grinder,jaw,tendon,connective tissue,0.3576,7,32
+yellow,wordnet_easy_hypernym,foal,hog,kitten,pup,young mammal,0.3845,8,12
+yellow,wordnet_easy_hypernym,drone,fiddle,guitar,trumpet,musical instrument,0.3516,7,27
+yellow,wordnet_easy_hypernym,freeway,interstate,parkway,turnpike,road,0.5391,6,25
+yellow,wordnet_easy_hypernym,collie,puppy,terrier,toy,domestic animal,0.4432,7,15
+yellow,wordnet_easy_hypernym,avocado,bean,peanut,pineapple,fruit,0.4551,8,49
+yellow,wordnet_easy_hypernym,baritone,brass,saxophone,trumpet,wind instrument,0.4271,8,13
+yellow,wordnet_easy_hypernym,catcher,lefthander,runner,southpaw,ballplayer,0.4298,6,16
+yellow,wordnet_easy_hypernym,canvas,mosaic,painting,picture,art,0.4058,6,37
+yellow,wordnet_easy_hypernym,gown,overcoat,robe,teddy,garment,0.3949,7,69
+yellow,wordnet_easy_hypernym,cellar,closet,cupboard,drawer,storage space,0.5112,7,5
+yellow,wordnet_easy_hypernym,chancellor,director,minister,president,administrator,0.3702,6,9
+yellow,wordnet_easy_hypernym,gem,jewel,necklace,pearl,jewelry,0.4299,7,17
+yellow,wordnet_easy_hypernym,bronze,engraving,marble,watercolor,art,0.3616,6,37
+yellow,wordnet_easy_hypernym,candle,flashlight,lantern,torch,lamp,0.4408,8,10
+yellow,wordnet_easy_hypernym,interviewer,narrator,orator,storyteller,speaker,0.3573,6,14
+yellow,wordnet_easy_hypernym,car,cruiser,truck,van,wheeled vehicle,0.6018,7,55
+yellow,wordnet_easy_hypernym,bead,diamond,gem,necklace,jewelry,0.3606,7,17
+yellow,wordnet_easy_hypernym,autoloader,firearm,knife,pistol,weapon,0.4214,8,40
+yellow,wordnet_easy_hypernym,abstractionist,cubist,impressionist,watercolorist,painter,0.5013,6,11
+yellow,wordnet_easy_hypernym,carport,cottage,garage,tavern,building,0.3852,6,69
+yellow,wordnet_easy_hypernym,diagnostician,doctor,nurse,pathologist,health professional,0.4340,6,25
+yellow,wordnet_easy_hypernym,cruiser,trailer,truck,wagon,wheeled vehicle,0.4638,7,55
+yellow,wordnet_easy_hypernym,collie,poodle,puppy,toy,dog,0.4489,8,11
+yellow,wordnet_easy_hypernym,castle,cottage,mansion,monastery,house,0.4952,7,14
+yellow,wordnet_easy_hypernym,hall,lodge,mansion,villa,house,0.3806,7,14
+yellow,wordnet_easy_hypernym,greatcoat,overcoat,shirt,veil,garment,0.3954,7,69
+yellow,wordnet_easy_hypernym,cape,poncho,raincoat,turtleneck,garment,0.4846,7,69
+yellow,wordnet_easy_hypernym,automobile,buggy,jeep,tractor,wheeled vehicle,0.3697,7,55
+yellow,wordnet_easy_hypernym,catcher,fielder,southpaw,twirler,ballplayer,0.4049,6,16
+yellow,wordnet_easy_hypernym,blade,chisel,comb,knife,tool,0.3524,7,50
+yellow,wordnet_easy_hypernym,brain,hemisphere,hypothalamus,neocortex,neural structure,0.3867,6,9
+yellow,wordnet_easy_hypernym,sax,saxophone,trumpet,whistle,wind instrument,0.5314,8,13
+yellow,wordnet_easy_hypernym,cattleman,cowboy,cowman,woman,laborer,0.3758,7,21
+yellow,wordnet_easy_hypernym,brigadier,captain,corporal,skipper,military officer,0.3535,7,15
+yellow,wordnet_easy_hypernym,blade,cutter,lance,razor,cutting implement,0.3524,8,14
+yellow,wordnet_easy_hypernym,commander,lieutenant,marshal,skipper,commissioned officer,0.3797,8,11
+yellow,wordnet_easy_hypernym,calf,filly,foal,kitten,young mammal,0.4027,8,12
+yellow,wordnet_easy_hypernym,cowboy,cowhand,cowman,porter,laborer,0.3728,7,21
+yellow,wordnet_easy_hypernym,expressway,freeway,street,thoroughfare,road,0.5216,6,25
+yellow,wordnet_easy_hypernym,alto,bass,soprano,violinist,musician,0.5247,6,24
+yellow,wordnet_easy_hypernym,deputy,inspector,investigator,sheriff,lawman,0.3583,6,22
+yellow,wordnet_easy_hypernym,cattleman,cowman,picker,wrangler,hired hand,0.3832,8,10
+yellow,wordnet_easy_hypernym,bass,fiddle,saxophone,tambourine,musical instrument,0.4427,7,27
+yellow,wordnet_easy_hypernym,algae,bacteria,kelp,protozoa,microorganism,0.5115,6,11
+yellow,wordnet_easy_hypernym,collage,panorama,portrait,portrayal,picture,0.3512,7,13
+yellow,wordnet_easy_hypernym,foal,hog,kitten,puppy,young,0.3855,7,16
+yellow,wordnet_easy_hypernym,bloodhound,husky,poodle,terrier,domestic animal,0.4850,7,15
+yellow,wordnet_easy_hypernym,breakfast,dinner,luncheon,tea,meal,0.4753,6,16
+yellow,wordnet_easy_hypernym,colon,heart,kidney,lung,internal organ,0.4564,6,11
+yellow,wordnet_easy_hypernym,diagnostician,physician,specialist,surgeon,medical practitioner,0.3834,7,20
+yellow,wordnet_easy_hypernym,grain,kernel,legume,peanut,fruit,0.3516,8,49
+yellow,wordnet_easy_hypernym,celery,marrow,potato,sorrel,vegetable,0.3589,6,26
+yellow,wordnet_easy_hypernym,castle,cottage,mansion,residence,dwelling,0.4945,7,16
+yellow,wordnet_easy_hypernym,mole,mustard,sauce,vinegar,condiment,0.3510,8,14
+yellow,wordnet_easy_hypernym,headmaster,prof,schoolmaster,tutor,educator,0.3722,6,19
+yellow,wordnet_easy_hypernym,deacon,dean,rector,vicar,clergyman,0.4892,6,26
+yellow,wordnet_easy_hypernym,avocado,coconut,corn,lemon,fruit,0.4124,8,49
+yellow,wordnet_easy_hypernym,archbishop,churchman,king,vicar,clergyman,0.3954,6,26
+yellow,wordnet_easy_hypernym,dentist,diagnostician,doctor,orthodontist,health professional,0.4952,6,25
+yellow,wordnet_easy_hypernym,avocado,fig,grape,pineapple,edible fruit,0.5010,6,22
+yellow,wordnet_easy_hypernym,orthodontist,pathologist,veterinarian,veterinary,medical practitioner,0.4051,7,20
+yellow,wordnet_easy_hypernym,gourd,grape,legume,pea,vine,0.3976,8,13
+yellow,wordnet_easy_hypernym,brigadier,captain,colonel,commander,commissioned officer,0.4566,8,11
+yellow,wordnet_easy_hypernym,fig,peach,pear,strawberry,edible fruit,0.5699,6,22
+yellow,wordnet_easy_hypernym,breakfast,refreshment,snack,tea,meal,0.4200,6,16
+yellow,wordnet_easy_hypernym,diaphragm,muscle,nasal,posterior,animal tissue,0.3697,6,59
+yellow,wordnet_easy_hypernym,altar,couch,divan,sofa,furniture,0.4310,7,49
+yellow,wordnet_easy_hypernym,dog,hound,husky,poodle,domestic animal,0.4766,7,15
+yellow,wordnet_easy_hypernym,diplomat,judge,minister,prosecutor,official,0.3557,6,33
+yellow,wordnet_easy_hypernym,cheekbone,jaw,marrow,skull,connective tissue,0.4268,7,32
+yellow,wordnet_easy_hypernym,artillery,cannon,mortar,munition,armament,0.4120,7,7
+yellow,wordnet_easy_hypernym,artery,expressway,freeway,interstate,road,0.4694,6,25
+yellow,wordnet_easy_hypernym,bean,pea,potato,squash,vine,0.4572,8,13
+yellow,wordnet_easy_hypernym,avocado,berry,fig,sloe,edible fruit,0.4477,6,22
+yellow,wordnet_easy_hypernym,dentist,orthodontist,quack,veterinarian,health professional,0.4138,6,25
+yellow,wordnet_easy_hypernym,calorimeter,gauge,measure,pyrometer,measuring instrument,0.3623,8,31
+yellow,wordnet_easy_hypernym,grinder,skull,teeth,tooth,bone,0.3807,8,23
+yellow,wordnet_easy_hypernym,convent,hall,mansion,palace,dwelling,0.4019,7,16
+yellow,wordnet_easy_hypernym,batter,lefthander,southpaw,twirler,ballplayer,0.4489,6,16
+yellow,wordnet_easy_hypernym,diamond,gem,jewel,ring,jewelry,0.3684,7,17
+yellow,wordnet_easy_hypernym,horn,sax,whistle,woodwind,wind instrument,0.4551,8,13
+yellow,wordnet_easy_hypernym,fennel,mushroom,onion,pepper,vegetable,0.4906,6,26
+yellow,wordnet_easy_hypernym,brigadier,lieutenant,marshal,sergeant,military officer,0.4553,7,15
+yellow,wordnet_easy_hypernym,aide,brigadier,colonel,marshal,military officer,0.3610,7,15
+yellow,wordnet_easy_hypernym,cabin,cottage,farmhouse,manor,house,0.4733,7,14
+yellow,wordnet_easy_hypernym,lecturer,master,professor,teacher,educator,0.4009,6,19
+yellow,wordnet_easy_hypernym,assassin,burglar,rustler,thief,criminal,0.4100,7,37
+yellow,wordnet_easy_hypernym,hitter,outfielder,southpaw,twirler,ballplayer,0.4021,6,16
+yellow,wordnet_easy_hypernym,diagnostician,pathologist,specialist,veterinarian,medical practitioner,0.3571,7,20
+yellow,wordnet_easy_hypernym,bed,convertible,dresser,sofa,furniture,0.3604,7,49
+yellow,wordnet_easy_hypernym,dentist,orthodontist,resident,veterinarian,medical practitioner,0.4496,7,20
+yellow,wordnet_easy_hypernym,coconut,flaxseed,pineapple,sloe,fruit,0.3662,8,49
+yellow,wordnet_easy_hypernym,chancellor,dean,director,executive,administrator,0.4295,6,9
+yellow,wordnet_easy_hypernym,boiler,samovar,saucepan,skillet,utensil,0.3657,7,14
+yellow,wordnet_easy_hypernym,acrylic,latex,varnish,watercolor,coating,0.4249,6,17
+yellow,wordnet_easy_hypernym,horn,pipe,trumpet,whistle,wind instrument,0.3654,8,13
+yellow,wordnet_easy_hypernym,ghoul,parolee,robber,thief,criminal,0.3739,7,37
+yellow,wordnet_easy_hypernym,colt,filly,kitten,lamb,young,0.3725,7,16
+yellow,wordnet_easy_hypernym,bone,jaw,posterior,skull,connective tissue,0.4664,7,32
+yellow,wordnet_easy_hypernym,dressing,mayonnaise,olive,sauce,condiment,0.3569,8,14
+yellow,wordnet_easy_hypernym,berry,coconut,coffee,peanut,fruit,0.3752,8,49
+yellow,wordnet_easy_hypernym,catsup,mayonnaise,relish,vinegar,condiment,0.3795,8,14
+yellow,wordnet_easy_hypernym,fur,lingerie,overcoat,underwear,garment,0.3772,7,69
+yellow,wordnet_easy_hypernym,abode,convent,dormitory,residence,housing,0.3777,6,34
+yellow,wordnet_easy_hypernym,archbishop,cardinal,deacon,divine,clergyman,0.3592,6,26
+yellow,wordnet_easy_hypernym,cattleman,cowman,shepherd,wrangler,laborer,0.3796,7,21
+yellow,wordnet_easy_hypernym,bouffant,coat,mane,wool,hair,0.3584,7,26
+yellow,wordnet_easy_hypernym,boa,pant,poncho,undershirt,garment,0.3730,7,69
+yellow,wordnet_easy_hypernym,cape,poncho,robe,scarf,garment,0.5016,7,69
+yellow,wordnet_easy_hypernym,cattleman,cowboy,cowman,hostler,workman,0.3963,6,26
+yellow,wordnet_easy_hypernym,bean,berry,corn,orange,fruit,0.3962,8,49
+yellow,wordnet_easy_hypernym,chemist,diagnostician,physician,surgeon,health professional,0.3835,6,25
+yellow,wordnet_easy_hypernym,catcher,fielder,lefthander,slugger,ballplayer,0.5086,6,16
+yellow,wordnet_easy_hypernym,convent,farmhouse,lodge,villa,house,0.4101,7,14
+yellow,wordnet_easy_hypernym,closet,compartment,den,vestibule,room,0.3819,7,69
+yellow,wordnet_easy_hypernym,adhesion,bone,spleen,tendon,animal tissue,0.3584,6,59
+yellow,wordnet_easy_hypernym,marshal,matron,officer,policeman,lawman,0.3512,6,22
+yellow,wordnet_easy_hypernym,arm,forefinger,leg,toe,extremity,0.3770,6,17
+yellow,wordnet_easy_hypernym,diplomat,jurist,magistrate,prosecutor,official,0.4027,6,33
+yellow,wordnet_easy_hypernym,earring,emerald,gem,necklace,jewelry,0.4206,7,17
+yellow,wordnet_easy_hypernym,batter,catcher,outfielder,pitcher,ballplayer,0.5763,6,16
+yellow,wordnet_easy_hypernym,chow,collie,husky,puppy,dog,0.4126,8,11
+yellow,wordnet_easy_hypernym,hall,mansion,residence,villa,dwelling,0.4372,7,16
+yellow,wordnet_easy_hypernym,cab,coupe,cruiser,sedan,wheeled vehicle,0.4728,7,55
+yellow,wordnet_easy_hypernym,chaplain,deacon,father,priest,clergyman,0.4226,6,26
+yellow,wordnet_easy_hypernym,fullback,quarterback,receiver,tackle,football player,0.4485,6,10
+yellow,wordnet_easy_hypernym,coffeepot,crackle,saucepan,skillet,utensil,0.3986,7,14
+yellow,wordnet_easy_hypernym,detective,marshal,officer,trooper,lawman,0.4142,6,22
+yellow,wordnet_easy_hypernym,forehead,posterior,skin,skull,connective tissue,0.4119,7,32
+yellow,wordnet_easy_hypernym,buckboard,cab,limousine,taxi,wheeled vehicle,0.4652,7,55
+yellow,wordnet_easy_hypernym,gravy,mayonnaise,mustard,vinegar,condiment,0.4965,8,14
+yellow,wordnet_easy_hypernym,avocado,lime,orange,peach,edible fruit,0.4494,6,22
+yellow,wordnet_easy_hypernym,cottage,hall,house,monastery,dwelling,0.3617,7,16
+yellow,wordnet_easy_hypernym,almond,corn,pear,pineapple,fruit,0.4865,8,49
+yellow,wordnet_easy_hypernym,shawl,sweater,sweatshirt,teddy,garment,0.4642,7,69
+yellow,wordnet_easy_hypernym,artery,expressway,roadway,trail,road,0.3778,6,25
+yellow,wordnet_easy_hypernym,skin,teeth,tendon,tooth,connective tissue,0.4066,7,32
+yellow,wordnet_easy_hypernym,brigadier,captain,lieutenant,marshal,commissioned officer,0.3561,8,11
+yellow,wordnet_easy_hypernym,castle,cathedral,chapel,shrine,building,0.4818,6,69
+yellow,wordnet_easy_hypernym,convent,lodge,manor,mansion,house,0.3837,7,14
+yellow,wordnet_easy_hypernym,avocado,delicious,orange,pear,edible fruit,0.3943,6,22
+yellow,wordnet_easy_hypernym,bootlegger,henchman,racketeer,rustler,criminal,0.3581,7,37
+yellow,wordnet_easy_hypernym,cortex,epiphysis,posterior,tooth,animal tissue,0.3722,6,59
+yellow,wordnet_easy_hypernym,boa,raincoat,scarf,tweed,garment,0.3768,7,69
+yellow,wordnet_easy_hypernym,kettle,mixer,saucepan,skillet,utensil,0.4186,7,14
+yellow,wordnet_easy_hypernym,catcher,hitter,lefthander,outfielder,ballplayer,0.5797,6,16
+yellow,wordnet_easy_hypernym,farmhouse,hall,manor,monastery,house,0.3778,7,14
+yellow,wordnet_easy_hypernym,hovel,hut,refuge,tent,shelter,0.3527,6,14
+yellow,wordnet_easy_hypernym,beet,fennel,pepper,soybean,vegetable,0.3832,6,26
+yellow,wordnet_easy_hypernym,flannel,greatcoat,raincoat,robe,garment,0.4392,7,69
+yellow,wordnet_easy_hypernym,calf,colt,kitten,pup,young,0.4183,7,16
+yellow,wordnet_easy_hypernym,chariot,coupe,truck,van,wheeled vehicle,0.3729,7,55
+yellow,wordnet_easy_hypernym,amplifier,detector,radio,stereo,electronic equipment,0.3608,7,21
+yellow,wordnet_easy_hypernym,cortex,intima,parenchyma,tusk,animal tissue,0.3897,6,59
+yellow,wordnet_easy_hypernym,boss,chief,director,superintendent,supervisor,0.4155,6,8
+yellow,wordnet_easy_hypernym,amplifier,phone,stereo,transmitter,electronic equipment,0.3828,7,21
+yellow,wordnet_easy_hypernym,crossing,crossroad,interchange,intersection,junction,0.3643,6,8
+yellow,wordnet_easy_hypernym,boiler,coffeepot,kettle,samovar,kitchen utensil,0.3680,8,10
+yellow,wordnet_easy_hypernym,pathologist,physician,resident,veterinarian,medical practitioner,0.3713,7,20
+yellow,wordnet_easy_hypernym,bead,earring,necklace,pin,jewelry,0.3535,7,17
+yellow,wordnet_easy_hypernym,churchman,deacon,diocesan,preacher,clergyman,0.3954,6,26
+yellow,wordnet_easy_hypernym,baritone,soprano,tenor,voice,singer,0.5365,7,13
+yellow,wordnet_easy_hypernym,baby,foal,kitten,lamb,young mammal,0.3984,8,12
+yellow,wordnet_easy_hypernym,castle,cottage,farmhouse,monastery,dwelling,0.5147,7,16
+yellow,wordnet_easy_hypernym,fielder,pitcher,slugger,southpaw,ballplayer,0.4851,6,16
+yellow,wordnet_easy_hypernym,diagnostician,doctor,matron,surgeon,health professional,0.3950,6,25
+yellow,wordnet_easy_hypernym,cheekbone,jaw,skullcap,tooth,bone,0.3573,8,23
+yellow,wordnet_easy_hypernym,husky,poodle,puppy,terrier,dog,0.5398,8,11
+yellow,wordnet_easy_hypernym,celery,legume,pea,spinach,vegetable,0.4673,6,26
+yellow,wordnet_easy_hypernym,captain,officer,patrolman,warden,lawman,0.3539,6,22
+yellow,wordnet_easy_hypernym,apple,banana,corn,legume,fruit,0.4215,8,49
+yellow,wordnet_easy_hypernym,corner,interchange,intersection,roundabout,junction,0.4237,6,8
+yellow,wordnet_easy_hypernym,book,magazine,periodical,reprint,publication,0.3834,8,56
+yellow,wordnet_easy_hypernym,locomotive,pickup,trailer,van,wheeled vehicle,0.3949,7,55
+yellow,wordnet_easy_hypernym,doctor,pathologist,psychiatrist,veterinarian,health professional,0.4790,6,25
+yellow,wordnet_easy_hypernym,alto,bass,singer,vocalist,musician,0.4480,6,24
+yellow,wordnet_easy_hypernym,biscuit,bun,cracker,hardtack,bread,0.3642,6,9
+yellow,wordnet_easy_hypernym,apothecary,matron,nurse,surgeon,health professional,0.3785,6,25
+yellow,wordnet_easy_hypernym,jacket,laundry,poncho,raincoat,garment,0.3628,7,69
+yellow,wordnet_easy_hypernym,baritone,sax,saxophone,woodwind,wind instrument,0.5993,8,13
+yellow,wordnet_easy_hypernym,cartilage,epiphysis,parenchyma,rib,animal tissue,0.4544,6,59
+yellow,wordnet_easy_hypernym,artery,bypass,roadway,thoroughfare,road,0.4134,6,25
+yellow,wordnet_easy_hypernym,governess,headmaster,lecturer,professor,educator,0.3704,6,19
+yellow,wordnet_easy_hypernym,avocado,delicious,fig,peach,edible fruit,0.4434,6,22
+yellow,wordnet_easy_hypernym,castle,convent,mansion,palace,house,0.5030,7,14
+yellow,wordnet_easy_hypernym,boiler,coffeepot,kettle,samovar,utensil,0.3680,7,14
+yellow,wordnet_easy_hypernym,necktie,overcoat,pant,turtleneck,garment,0.4555,7,69
+yellow,wordnet_easy_hypernym,coach,instructor,teacher,tutor,educator,0.4423,6,19
+yellow,wordnet_easy_hypernym,baby,chick,foal,puppy,young,0.4448,7,16
+yellow,wordnet_easy_hypernym,nasal,posterior,teeth,tooth,bone,0.3981,8,23
+yellow,wordnet_easy_hypernym,brothel,castle,farmhouse,teahouse,building,0.3589,6,69
+yellow,wordnet_easy_hypernym,bell,fiddle,guitar,violin,musical instrument,0.3697,7,27
+yellow,wordnet_easy_hypernym,matron,patrolman,sergeant,warden,lawman,0.3960,6,22
+yellow,wordnet_easy_hypernym,finger,leg,pin,thumb,extremity,0.3616,6,17
+yellow,wordnet_easy_hypernym,cabin,cottage,monastery,residence,dwelling,0.3649,7,16
+yellow,wordnet_easy_hypernym,diagnostician,pathologist,physician,veterinary,health professional,0.3530,6,25
+yellow,wordnet_easy_hypernym,china,coffeepot,porcelain,pottery,utensil,0.5006,7,14
+yellow,wordnet_easy_hypernym,dormitory,dwelling,farmhouse,mansion,housing,0.3811,6,34
+yellow,wordnet_easy_hypernym,doctor,pathologist,psychiatrist,quack,medical practitioner,0.3800,7,20
+yellow,wordnet_easy_hypernym,libertarian,moralist,realist,utilitarian,philosopher,0.3860,6,11
+yellow,wordnet_easy_hypernym,bayonet,carbine,handgun,musket,weapon,0.4176,8,40
+yellow,wordnet_easy_hypernym,accelerometer,calorimeter,interferometer,synchronizer,measuring instrument,0.3671,8,31
+yellow,wordnet_easy_hypernym,cabin,galley,lavatory,vestibule,room,0.4329,7,69
+yellow,wordnet_easy_hypernym,castle,cottage,lodge,palace,house,0.4296,7,14
+yellow,wordnet_easy_hypernym,baker,dealer,draper,jeweler,merchant,0.3511,6,15
+yellow,wordnet_easy_hypernym,barbecue,lunch,snack,tea,meal,0.3822,6,16
+yellow,wordnet_easy_hypernym,batter,catcher,hitter,twirler,ballplayer,0.4133,6,16
+yellow,wordnet_easy_hypernym,gunman,hijacker,parolee,robber,criminal,0.4261,7,37
+yellow,wordnet_easy_hypernym,arrow,bullet,gun,lance,weapon,0.3527,8,40
+yellow,wordnet_easy_hypernym,catsup,mustard,olive,vinegar,condiment,0.3816,8,14
+yellow,wordnet_easy_hypernym,guitar,sax,tambourine,wood,musical instrument,0.4358,7,27
+yellow,wordnet_easy_hypernym,brigadier,commander,general,lieutenant,commissioned officer,0.3714,8,11
+yellow,wordnet_easy_hypernym,chisel,scoop,shovel,spade,tool,0.3528,7,50
+yellow,wordnet_easy_hypernym,baby,kit,kitten,pup,young mammal,0.3952,8,12
+yellow,wordnet_easy_hypernym,rib,skull,teeth,tusk,bone,0.3867,8,23
+yellow,wordnet_easy_hypernym,captain,colonel,corporal,lieutenant,military officer,0.5044,7,15
+yellow,wordnet_easy_hypernym,chemist,doctor,surgeon,veterinarian,health professional,0.4600,6,25
+yellow,wordnet_easy_hypernym,cheekbone,epiphysis,skull,tooth,bone,0.4006,8,23
+yellow,wordnet_easy_hypernym,collie,dog,poodle,queen,domestic animal,0.4356,7,15
+yellow,wordnet_easy_hypernym,horn,saxophone,trumpet,woodwind,musical instrument,0.5928,7,27
+yellow,wordnet_easy_hypernym,boulevard,expressway,parkway,roadway,road,0.5872,6,25
+yellow,wordnet_easy_hypernym,buffet,feast,picnic,supper,meal,0.4997,6,16
+yellow,wordnet_easy_hypernym,beard,curl,haircut,stubble,hair,0.3571,7,26
+yellow,wordnet_easy_hypernym,church,farmhouse,inn,nursery,building,0.3554,6,69
+yellow,wordnet_easy_hypernym,fielder,hitter,pitcher,runner,ballplayer,0.4478,6,16
+yellow,wordnet_easy_hypernym,captain,commander,lieutenant,marshal,military officer,0.4433,7,15
+yellow,wordnet_easy_hypernym,caliper,calorimeter,manometer,thermometer,measuring instrument,0.3900,8,31
+yellow,wordnet_easy_hypernym,drummer,singer,tenor,vocalist,musician,0.5137,6,24
+yellow,wordnet_easy_hypernym,grocer,jeweler,retailer,seller,merchant,0.4194,6,15
+yellow,wordnet_easy_hypernym,forehead,mucosa,scalp,teeth,animal tissue,0.3601,6,59
+yellow,wordnet_easy_hypernym,castle,house,palace,suite,housing,0.3605,6,34
+yellow,wordnet_easy_hypernym,audio,disc,disk,recording,memory device,0.3879,7,17
+yellow,wordnet_easy_hypernym,bone,pleura,posterior,spleen,animal tissue,0.3723,6,59
+yellow,wordnet_easy_hypernym,almond,olive,orange,rye,fruit,0.3761,8,49
+yellow,wordnet_easy_hypernym,canvas,engraving,painting,picture,graphic art,0.3707,7,15
+yellow,wordnet_easy_hypernym,fin,moccasin,sandal,sneaker,shoe,0.3554,7,8
+yellow,wordnet_easy_hypernym,adrenal,breast,epiphysis,thyroid,gland,0.3829,6,12
+yellow,wordnet_easy_hypernym,redcoat,rifleman,soldier,trooper,enlisted person,0.3941,7,14
+yellow,wordnet_easy_hypernym,bug,germ,vector,virus,microorganism,0.4295,6,11
+yellow,wordnet_easy_hypernym,bell,horn,piano,saxophone,musical instrument,0.4142,7,27
+yellow,wordnet_easy_hypernym,bathrobe,jacket,napkin,pajama,garment,0.3517,7,69
+yellow,wordnet_easy_hypernym,chow,collie,hound,poodle,dog,0.4240,8,11
+yellow,wordnet_easy_hypernym,balustrade,fender,railing,wall,barrier,0.3826,7,29
+yellow,wordnet_easy_hypernym,cheekbone,posterior,shin,skull,connective tissue,0.3889,7,32
+yellow,wordnet_easy_hypernym,posterior,rib,shin,skin,animal tissue,0.3502,6,59
+yellow,wordnet_easy_hypernym,automatic,bayonet,carbine,rifle,weapon,0.3966,8,40
+yellow,wordnet_easy_hypernym,ear,nose,nozzle,trunk,sense organ,0.3565,6,6
+yellow,wordnet_easy_hypernym,cabin,mansion,palace,villa,house,0.4685,7,14
+yellow,wordnet_easy_hypernym,assassin,ghoul,murderer,robber,criminal,0.3912,7,37
+yellow,wordnet_easy_hypernym,archbishop,cardinal,diocesan,vicar,clergyman,0.5042,6,26
+yellow,wordnet_easy_hypernym,booklet,brochure,leaflet,reprint,publication,0.4777,8,56
+yellow,wordnet_easy_hypernym,anterior,cheekbone,jaw,scalp,connective tissue,0.3610,7,32
+yellow,wordnet_easy_hypernym,deputy,detective,investigator,marshal,lawman,0.3955,6,22
+yellow,wordnet_easy_hypernym,forearm,forefinger,leg,thigh,extremity,0.5167,6,17
+yellow,wordnet_easy_hypernym,delicious,grapefruit,pear,pineapple,edible fruit,0.4815,6,22
+yellow,wordnet_easy_hypernym,baby,calf,colt,filly,young,0.3662,7,16
+yellow,wordnet_easy_hypernym,nurse,pathologist,psychiatrist,resident,health professional,0.3700,6,25
+yellow,wordnet_easy_hypernym,algae,bug,kelp,seaweed,microorganism,0.4060,6,11
+yellow,wordnet_easy_hypernym,batter,lefthander,pitcher,slugger,ballplayer,0.4933,6,16
+yellow,wordnet_easy_hypernym,cab,cruiser,wagon,wheel,wheeled vehicle,0.3778,7,55
+yellow,wordnet_easy_hypernym,chariot,pickup,trailer,truck,wheeled vehicle,0.3892,7,55
+yellow,wordnet_easy_hypernym,bloodhound,chow,husky,terrier,dog,0.3522,8,11
+yellow,wordnet_easy_hypernym,banquet,barbecue,breakfast,feast,meal,0.4445,6,16
+yellow,wordnet_easy_hypernym,hatchet,knife,lance,spear,weapon,0.3742,8,40
+yellow,wordnet_easy_hypernym,castle,cathedral,mosque,villa,building,0.3767,6,69
+yellow,wordnet_easy_hypernym,apple,fig,grapefruit,pear,fruit,0.5460,8,49
+yellow,wordnet_easy_hypernym,bed,crib,deathbed,sofa,furniture,0.3923,7,49
+yellow,wordnet_easy_hypernym,doctor,psychiatrist,resident,surgeon,health professional,0.4328,6,25
+yellow,wordnet_easy_hypernym,ethicist,existentialist,libertarian,moralist,philosopher,0.3800,6,11
+yellow,wordnet_easy_hypernym,dean,director,manager,minister,administrator,0.3905,6,9
+yellow,wordnet_easy_hypernym,breakfast,buffet,luncheon,snack,meal,0.4496,6,16
+yellow,wordnet_easy_hypernym,firearm,hatchet,pistol,revolver,weapon,0.4674,8,40
+yellow,wordnet_easy_hypernym,deltoid,gastrocnemius,pectoralis,serratus,muscle,0.4819,7,10
+yellow,wordnet_easy_hypernym,brass,horn,saxophone,tambourine,musical instrument,0.4049,7,27
+yellow,wordnet_easy_hypernym,monk,pianist,violinist,vocalist,musician,0.4696,6,24
+yellow,wordnet_easy_hypernym,carving,sculpture,statue,watercolor,art,0.3857,6,37
+yellow,wordnet_easy_hypernym,fielder,hitter,shortstop,southpaw,ballplayer,0.5338,6,16
+yellow,wordnet_easy_hypernym,boulevard,highroad,highway,street,road,0.3561,6,25
+yellow,wordnet_easy_hypernym,disc,recording,tape,video,memory device,0.3930,7,17
+yellow,wordnet_easy_hypernym,collie,dog,husky,terrier,domestic animal,0.5663,7,15
+yellow,wordnet_easy_hypernym,bicycle,cart,cruiser,truck,wheeled vehicle,0.4284,7,55
+yellow,wordnet_easy_hypernym,bean,beet,pea,tomato,vegetable,0.5279,6,26
+yellow,wordnet_easy_hypernym,cabin,cafe,cottage,lodge,building,0.3535,6,69
+yellow,wordnet_easy_hypernym,adrenal,epiphysis,pituitary,prostate,gland,0.4418,6,12
+yellow,wordnet_easy_hypernym,calf,foal,hog,lamb,young mammal,0.3773,8,12
+yellow,wordnet_easy_hypernym,jejunum,lung,rumen,stomach,internal organ,0.4092,6,11
+yellow,wordnet_easy_hypernym,cayenne,celery,legume,mustard,vegetable,0.3917,6,26
+yellow,wordnet_easy_hypernym,clutch,pedal,tappet,throttle,lever,0.3754,8,13
+yellow,wordnet_easy_hypernym,forehead,jaw,teeth,tusk,bone,0.4248,8,23
+yellow,wordnet_easy_hypernym,duffel,envelope,pocket,saddlebag,bag,0.3623,7,9
+yellow,wordnet_easy_hypernym,detective,policeman,sergeant,warden,lawman,0.4870,6,22
+yellow,wordnet_easy_hypernym,bootlegger,murderer,parolee,robber,criminal,0.3567,7,37
+yellow,wordnet_easy_hypernym,bead,diamond,jewel,pearl,jewelry,0.3677,7,17
+yellow,wordnet_easy_hypernym,bloodhound,poodle,puppy,queen,domestic animal,0.3683,7,15
+yellow,wordnet_easy_hypernym,assassin,gangster,murderer,parolee,criminal,0.4412,7,37
+yellow,wordnet_easy_hypernym,baker,draper,grocer,retailer,merchant,0.3671,6,15
+yellow,wordnet_easy_hypernym,deck,dock,landing,pier,horizontal surface,0.3651,6,29
+yellow,wordnet_easy_hypernym,arm,claw,leg,thigh,extremity,0.3687,6,17
+yellow,wordnet_easy_hypernym,buffet,picnic,refreshment,snack,meal,0.4324,6,16
+yellow,wordnet_easy_hypernym,chow,collie,hound,husky,domestic animal,0.3666,7,15
+yellow,wordnet_easy_hypernym,chaplain,churchman,preacher,rector,clergyman,0.4286,6,26
+yellow,wordnet_easy_hypernym,carbine,handgun,shotgun,slug,weapon,0.3946,8,40
+yellow,wordnet_easy_hypernym,girdle,pant,scarf,turtleneck,garment,0.4069,7,69
+yellow,wordnet_easy_hypernym,cowboy,cowhand,cowman,picker,workman,0.3773,6,26
+yellow,wordnet_easy_hypernym,banana,berry,grape,sloe,edible fruit,0.4797,6,22
+yellow,wordnet_easy_hypernym,lefthander,outfielder,pitcher,twirler,ballplayer,0.4970,6,16
+yellow,wordnet_easy_hypernym,butler,gentleman,man,valet,manservant,0.3505,6,5
+yellow,wordnet_easy_hypernym,churchman,father,preacher,vicar,clergyman,0.3786,6,26
+yellow,wordnet_easy_hypernym,specialist,surgeon,veterinarian,veterinary,health professional,0.3736,6,25
+yellow,wordnet_easy_hypernym,onion,pea,squash,tomato,vegetable,0.4817,6,26
+yellow,wordnet_easy_hypernym,cardinal,celebrant,minister,priest,clergyman,0.3578,6,26
+yellow,wordnet_easy_hypernym,matron,nurse,resident,veterinarian,health professional,0.3701,6,25
+yellow,wordnet_easy_hypernym,canvas,cityscape,fresco,watercolor,painting,0.3881,8,9
+yellow,wordnet_easy_hypernym,bandit,burglar,robber,shooter,criminal,0.4692,7,37
+yellow,wordnet_easy_hypernym,bass,brass,guitar,saxophone,musical instrument,0.4242,7,27
+yellow,wordnet_easy_hypernym,cherry,grape,pea,rye,fruit,0.3832,8,49
+yellow,wordnet_easy_hypernym,banquet,buffet,feast,refreshment,meal,0.3884,6,16
+yellow,wordnet_easy_hypernym,cherry,grape,orange,peach,edible fruit,0.4162,6,22
+yellow,wordnet_easy_hypernym,concessionaire,owner,patron,proprietor,businessman,0.4007,6,19
+yellow,wordnet_easy_hypernym,apartment,castle,residence,studio,housing,0.3547,6,34
+yellow,wordnet_easy_hypernym,cargo,freight,load,shipment,merchandise,0.4078,6,14
+yellow,wordnet_easy_hypernym,diagnostician,psychiatrist,veterinarian,veterinary,doctor,0.3805,8,16
+yellow,wordnet_easy_hypernym,batter,hitter,slugger,southpaw,ballplayer,0.4346,6,16
+yellow,wordnet_easy_hypernym,cardinal,priest,shepherd,vicar,clergyman,0.4117,6,26
+yellow,wordnet_easy_hypernym,captain,patrolman,sheriff,trooper,lawman,0.3828,6,22
+yellow,wordnet_easy_hypernym,candy,jelly,peppermint,sweet,dainty,0.3764,6,19
+yellow,wordnet_easy_hypernym,cruiser,fighter,submarine,warship,military vehicle,0.3793,8,12
+yellow,wordnet_easy_hypernym,coffeepot,kettle,samovar,urn,pot,0.3784,8,5
+yellow,wordnet_easy_hypernym,bacteria,germ,protozoa,vector,microorganism,0.4251,6,11
+yellow,wordnet_easy_hypernym,oilseed,olive,pear,pineapple,fruit,0.3998,8,49
+yellow,wordnet_easy_hypernym,bone,jaw,submucosa,tendon,connective tissue,0.4036,7,32
+yellow,wordnet_easy_hypernym,cabin,cottage,manor,residence,building,0.3920,6,69
+yellow,wordnet_easy_hypernym,fugitive,gunman,parolee,thief,criminal,0.3928,7,37
+yellow,wordnet_easy_hypernym,biscuit,cracker,loaf,toast,bread,0.3828,6,9
+yellow,wordnet_easy_hypernym,porcelain,pottery,saucepan,skillet,utensil,0.3771,7,14
+yellow,wordnet_easy_hypernym,avenue,expressway,highway,thoroughfare,road,0.4896,6,25
+yellow,wordnet_easy_hypernym,dentist,diagnostician,orthodontist,quack,medical practitioner,0.3807,7,20
+yellow,wordnet_easy_hypernym,iron,tee,wedge,wood,golf equipment,0.3827,8,9
+yellow,wordnet_easy_hypernym,cherry,fig,lemon,pineapple,edible fruit,0.4380,6,22
+yellow,wordnet_easy_hypernym,caliper,micrometer,pyrometer,wristwatch,measuring instrument,0.3610,8,31
+yellow,wordnet_easy_hypernym,cop,deputy,detective,sheriff,lawman,0.3751,6,22
+yellow,wordnet_easy_hypernym,alto,coloratura,tenor,voice,singer,0.4264,7,13
+yellow,wordnet_easy_hypernym,banana,grapefruit,lemon,pineapple,edible fruit,0.5185,6,22
+yellow,wordnet_easy_hypernym,beet,cabbage,celery,spinach,vegetable,0.5696,6,26
+yellow,wordnet_easy_hypernym,celery,mustard,spinach,tomato,vegetable,0.5236,6,26
+yellow,wordnet_easy_hypernym,abode,apartment,cabin,dwelling,housing,0.3875,6,34
+yellow,wordnet_easy_hypernym,biceps,deltoid,pecs,serratus,skeletal muscle,0.4290,8,9
+yellow,wordnet_easy_hypernym,beet,carrot,potato,radish,root vegetable,0.4625,7,4
+yellow,wordnet_easy_hypernym,banquet,luncheon,supper,tea,meal,0.4068,6,16
+yellow,wordnet_easy_hypernym,bulb,candle,flash,lantern,lamp,0.3905,8,10
+yellow,wordnet_easy_hypernym,garage,mansion,palace,villa,building,0.4372,6,69
+yellow,wordnet_easy_hypernym,babe,baby,chick,sister,girl,0.3933,6,9
+yellow,wordnet_easy_hypernym,grape,marrow,pea,potato,vine,0.3775,8,13
+yellow,wordnet_easy_hypernym,acrylic,lacquer,paint,varnish,coating,0.5105,6,17
+yellow,wordnet_easy_hypernym,car,limousine,oxcart,sedan,wheeled vehicle,0.3672,7,55
+yellow,wordnet_easy_hypernym,barbecue,luncheon,picnic,refreshment,meal,0.3879,6,16
+yellow,wordnet_easy_hypernym,baker,butcher,jeweler,seller,merchant,0.3616,6,15
+yellow,wordnet_easy_hypernym,beard,mustache,stubble,toothbrush,facial hair,0.4423,8,7
+yellow,wordnet_easy_hypernym,aide,commander,marshal,sergeant,military officer,0.3801,7,15
+yellow,wordnet_easy_hypernym,marble,molding,sculpture,statue,plastic art,0.3741,7,12
+yellow,wordnet_easy_hypernym,cannon,handgun,hatchet,shotgun,weapon,0.3546,8,40
+yellow,wordnet_easy_hypernym,cop,lieutenant,policeman,sergeant,lawman,0.5800,6,22
+yellow,wordnet_easy_hypernym,coloratura,singer,violinist,vocalist,musician,0.4509,6,24
+yellow,wordnet_easy_hypernym,adhesion,muscle,parenchyma,posterior,animal tissue,0.3685,6,59
+yellow,wordnet_easy_hypernym,bypass,expressway,freeway,interstate,highway,0.4400,7,7
+yellow,wordnet_easy_hypernym,arm,finger,thumb,toe,extremity,0.4560,6,17
+yellow,wordnet_easy_hypernym,dentist,diagnostician,veterinarian,veterinary,medical practitioner,0.4115,7,20
+yellow,wordnet_easy_hypernym,abode,cabin,cottage,farmhouse,housing,0.4536,6,34
+yellow,wordnet_easy_hypernym,forehead,jaw,posterior,rib,bone,0.4491,8,23
+yellow,wordnet_easy_hypernym,anterior,cheekbone,epiphysis,shin,bone,0.3658,8,23
+yellow,wordnet_easy_hypernym,forehead,posterior,scalp,submucosa,connective tissue,0.3695,7,32
+yellow,wordnet_easy_hypernym,cheekbone,shin,teeth,tooth,bone,0.4213,8,23
+yellow,wordnet_easy_hypernym,rocker,soloist,soprano,tenor,musician,0.4320,6,24
+yellow,wordnet_easy_hypernym,calorimeter,log,pyrometer,thermocouple,measuring instrument,0.3624,8,31
+yellow,wordnet_easy_hypernym,dinner,feast,lunch,snack,meal,0.4536,6,16
+yellow,wordnet_easy_hypernym,cattleman,cowboy,cowman,shepherd,hired hand,0.4241,8,10
+yellow,wordnet_easy_hypernym,archbishop,churchman,diocesan,minister,clergyman,0.4007,6,26
+yellow,wordnet_easy_hypernym,orthodontist,psychiatrist,quack,surgeon,medical practitioner,0.3529,7,20
+yellow,wordnet_easy_hypernym,filly,kitten,pup,puppy,young mammal,0.5429,8,12
+yellow,wordnet_easy_hypernym,bootlegger,hoodlum,murderer,thief,criminal,0.4089,7,37
+yellow,wordnet_easy_hypernym,captain,lieutenant,sergeant,skipper,military officer,0.4450,7,15
+yellow,wordnet_easy_hypernym,costume,disguise,mask,masquerade,attire,0.3905,7,12
+yellow,wordnet_easy_hypernym,baritone,guitar,piano,tambourine,musical instrument,0.5428,7,27
+yellow,wordnet_easy_hypernym,bass,fiddle,piano,violin,musical instrument,0.5179,7,27
+yellow,wordnet_easy_hypernym,calf,kitten,lamb,puppy,young,0.4105,7,16
+yellow,wordnet_easy_hypernym,gangster,murderer,robber,thief,criminal,0.4792,7,37
+yellow,wordnet_easy_hypernym,apple,cherry,orange,strawberry,edible fruit,0.4412,6,22
+yellow,wordnet_easy_hypernym,orthodontist,pathologist,specialist,surgeon,medical practitioner,0.3516,7,20
+yellow,wordnet_easy_hypernym,abdominal,biceps,calf,deltoid,skeletal muscle,0.4818,8,9
+yellow,wordnet_easy_hypernym,chapel,church,smokehouse,tavern,building,0.3519,6,69
+yellow,wordnet_easy_hypernym,baker,butcher,huckster,peddler,merchant,0.3643,6,15
+yellow,wordnet_easy_hypernym,cargo,freight,inventory,loading,merchandise,0.3557,6,14
+yellow,wordnet_easy_hypernym,avocado,filbert,lime,strawberry,fruit,0.4456,8,49
+yellow,wordnet_easy_hypernym,orthodontist,physician,resident,surgeon,medical practitioner,0.4176,7,20
+yellow,wordnet_easy_hypernym,breakwater,fence,gate,railing,barrier,0.3529,7,29
+yellow,wordnet_easy_hypernym,baron,duke,lord,nobleman,male aristocrat,0.3536,6,10
+yellow,wordnet_easy_hypernym,boatswain,captain,skipper,steward,sailor,0.3715,6,12
+yellow,wordnet_easy_hypernym,cottage,farmhouse,mansion,palace,dwelling,0.5151,7,16
+yellow,wordnet_easy_hypernym,dentist,physician,quack,veterinarian,medical practitioner,0.4135,7,20
+yellow,wordnet_easy_hypernym,carrot,celery,pepper,radish,vegetable,0.4437,6,26
+yellow,wordnet_easy_hypernym,boiler,porcelain,pottery,samovar,utensil,0.3656,7,14
+yellow,wordnet_easy_hypernym,collie,hound,poodle,puppy,domestic animal,0.5592,7,15
+yellow,wordnet_easy_hypernym,bandit,burglar,gangster,racketeer,criminal,0.4145,7,37
+yellow,wordnet_easy_hypernym,cabin,hall,house,residence,dwelling,0.4001,7,16
+yellow,wordnet_easy_hypernym,anterior,bone,rib,submucosa,animal tissue,0.3575,6,59
+yellow,wordnet_easy_hypernym,cattleman,cowman,peasant,picker,laborer,0.3539,7,21
+yellow,wordnet_easy_hypernym,horn,recorder,sax,saxophone,wind instrument,0.4142,8,13
+yellow,wordnet_easy_hypernym,blackmailer,bully,henchman,racketeer,criminal,0.3533,7,37
+yellow,wordnet_easy_hypernym,beard,bouffant,mustache,plume,body covering,0.3963,6,40
+yellow,wordnet_easy_hypernym,artery,boulevard,driveway,expressway,road,0.3845,6,25
+yellow,wordnet_easy_hypernym,academic,instructor,principal,teacher,educator,0.3663,6,19
+yellow,wordnet_easy_hypernym,berry,fig,lemon,peach,fruit,0.5121,8,49
+yellow,wordnet_easy_hypernym,claw,finger,forearm,thigh,extremity,0.3721,6,17
+yellow,wordnet_easy_hypernym,colon,liver,lung,rumen,internal organ,0.4630,6,11
+yellow,wordnet_easy_hypernym,banana,lemon,pear,strawberry,edible fruit,0.5220,6,22
+yellow,wordnet_easy_hypernym,firearm,handgun,musket,rifle,weapon,0.5584,8,40
+yellow,wordnet_easy_hypernym,diagnostician,psychiatrist,specialist,surgeon,doctor,0.3502,8,16
+yellow,wordnet_easy_hypernym,bloodhound,collie,husky,poodle,dog,0.5020,8,11
+yellow,wordnet_easy_hypernym,matron,orthodontist,physician,surgeon,health professional,0.4081,6,25
+yellow,wordnet_easy_hypernym,archbishop,celebrant,dean,pastor,clergyman,0.3630,6,26
+yellow,wordnet_easy_hypernym,bandage,bedspread,blanket,coverlet,cloth covering,0.3892,6,30
+yellow,wordnet_easy_hypernym,baker,jeweler,peddler,trader,merchant,0.3699,6,15
+yellow,wordnet_easy_hypernym,encampment,farmhouse,lodge,monastery,housing,0.3745,6,34
+yellow,wordnet_easy_hypernym,mayonnaise,mustard,relish,sauce,condiment,0.3648,8,14
+yellow,wordnet_easy_hypernym,blade,chisel,pitchfork,planer,tool,0.3620,7,50
+yellow,wordnet_easy_hypernym,bean,gourd,grape,peanut,vine,0.4020,8,13
+yellow,wordnet_easy_hypernym,blade,diaphragm,disk,rotor,rotating mechanism,0.3641,8,11
+yellow,wordnet_easy_hypernym,coloratura,minstrel,soprano,tenor,singer,0.4024,7,13
+yellow,wordnet_easy_hypernym,dealer,jeweler,peddler,seller,merchant,0.3837,6,15
+yellow,wordnet_easy_hypernym,cottage,monastery,palace,villa,dwelling,0.4621,7,16
+yellow,wordnet_easy_hypernym,jaw,posterior,skull,tusk,bone,0.4380,8,23
+yellow,wordnet_easy_hypernym,cabbage,chili,marrow,tomato,vegetable,0.4180,6,26
+yellow,wordnet_easy_hypernym,convent,cottage,manor,monastery,house,0.4562,7,14
+yellow,wordnet_easy_hypernym,anterior,epiphysis,posterior,scalp,connective tissue,0.4264,7,32
+yellow,wordnet_easy_hypernym,forehead,shin,tooth,tusk,bone,0.3682,8,23
+yellow,wordnet_easy_hypernym,fang,shin,skull,teeth,bone,0.3656,8,23
+yellow,wordnet_easy_hypernym,bloodhound,chow,poodle,puppy,dog,0.4243,8,11
+yellow,wordnet_easy_hypernym,baby,calf,kitten,puppy,young mammal,0.4907,8,12
+yellow,wordnet_easy_hypernym,butter,cheese,cream,milk,dairy product,0.4244,6,6
+yellow,wordnet_easy_hypernym,dentist,diagnostician,doctor,specialist,medical practitioner,0.3620,7,20
+yellow,wordnet_easy_hypernym,bobby,inspector,officer,sergeant,lawman,0.3903,6,22
+yellow,wordnet_easy_hypernym,bishop,father,pastor,rector,clergyman,0.4030,6,26
+yellow,wordnet_easy_hypernym,bobby,cop,inspector,trooper,policeman,0.3579,7,12
+yellow,wordnet_easy_hypernym,bloodhound,collie,puppy,terrier,dog,0.5879,8,11
+yellow,wordnet_easy_hypernym,coloratura,pianist,soloist,soprano,musician,0.6371,6,24
+yellow,wordnet_easy_hypernym,catsup,gravy,mayonnaise,olive,condiment,0.4029,8,14
+yellow,wordnet_easy_hypernym,coffeepot,mixer,samovar,saucepan,kitchen utensil,0.3597,8,10
+yellow,wordnet_easy_hypernym,burglar,gun,murderer,thief,criminal,0.4004,7,37
+yellow,wordnet_easy_hypernym,catsup,mayonnaise,mole,mustard,condiment,0.3688,8,14
+yellow,wordnet_easy_hypernym,brothel,convent,inn,motel,building,0.4162,6,69
+yellow,wordnet_easy_hypernym,bacteria,bug,kelp,virus,microorganism,0.3875,6,11
+yellow,wordnet_easy_hypernym,breakwater,fence,wall,weir,barrier,0.3892,7,29
+yellow,wordnet_easy_hypernym,bone,shin,tooth,tusk,connective tissue,0.3933,7,32
+yellow,wordnet_easy_hypernym,cowboy,cowhand,gypsy,wrangler,laborer,0.3548,7,21
+yellow,wordnet_easy_hypernym,brass,horn,saxophone,whistle,wind instrument,0.3814,8,13
+yellow,wordnet_easy_hypernym,bean,cayenne,celery,spinach,vegetable,0.4672,6,26
+yellow,wordnet_easy_hypernym,diamond,earring,gem,pearl,jewelry,0.4118,7,17
+yellow,wordnet_easy_hypernym,brain,cortex,hypothalamus,nucleus,neural structure,0.4365,6,9
+yellow,wordnet_easy_hypernym,baron,industrialist,proprietor,publisher,businessman,0.3506,6,19
+yellow,wordnet_easy_hypernym,dealer,huckster,peddler,pusher,seller,0.3585,7,4
+yellow,wordnet_easy_hypernym,baritone,fiddle,sax,saxophone,musical instrument,0.5287,7,27
+yellow,wordnet_easy_hypernym,doctor,intern,physician,veterinarian,medical practitioner,0.3969,7,20
+yellow,wordnet_easy_hypernym,cherry,corn,grain,strawberry,fruit,0.3670,8,49
+yellow,wordnet_easy_hypernym,balustrade,barricade,fence,railing,barrier,0.4401,7,29
+yellow,wordnet_easy_hypernym,banana,berry,grapefruit,pineapple,fruit,0.5410,8,49
+yellow,wordnet_easy_hypernym,castle,farmhouse,residence,villa,dwelling,0.4849,7,16
+yellow,wordnet_easy_hypernym,gage,micrometer,pyrometer,thermocouple,measuring instrument,0.4460,8,31
+yellow,wordnet_easy_hypernym,beet,potato,radish,tomato,vegetable,0.5821,6,26
+yellow,wordnet_easy_hypernym,armchair,bookcase,dresser,stool,furniture,0.3927,7,49
+yellow,wordnet_easy_hypernym,audio,recording,tape,transcription,memory device,0.3697,7,17
+yellow,wordnet_easy_hypernym,arm,forearm,leg,pin,limb,0.4066,7,8
+yellow,wordnet_easy_hypernym,banister,bar,railing,wall,barrier,0.3526,7,29
+yellow,wordnet_easy_hypernym,doctor,orthodontist,specialist,veterinarian,health professional,0.3888,6,25
+yellow,wordnet_easy_hypernym,marrow,parenchyma,pleura,posterior,animal tissue,0.4126,6,59
+yellow,wordnet_easy_hypernym,girdle,heel,hip,spine,skeletal structure,0.3987,6,9
+yellow,wordnet_easy_hypernym,abode,hearth,house,residence,housing,0.4235,6,34
+yellow,wordnet_easy_hypernym,cottage,inn,lodge,residence,building,0.4625,6,69
+yellow,wordnet_easy_hypernym,batter,hitter,pitcher,shortstop,ballplayer,0.5784,6,16
+yellow,wordnet_easy_hypernym,fang,scalp,teeth,tusk,connective tissue,0.3714,7,32
+yellow,wordnet_easy_hypernym,forehead,hammer,skull,tusk,animal tissue,0.3599,6,59
+yellow,wordnet_easy_hypernym,alley,artery,boulevard,street,thoroughfare,0.4205,7,8
+yellow,wordnet_easy_hypernym,arrow,gun,hatchet,knife,weapon,0.3767,8,40
+yellow,wordnet_easy_hypernym,bandstand,deck,pier,wharf,platform,0.4397,7,22
+yellow,wordnet_easy_hypernym,biceps,deltoid,lat,pectoralis,skeletal muscle,0.4004,8,9
+yellow,wordnet_easy_hypernym,cape,pant,sable,shirt,garment,0.3550,7,69
+yellow,wordnet_easy_hypernym,anterior,jaw,skull,tooth,bone,0.4172,8,23
+yellow,wordnet_easy_hypernym,bacteria,bug,germ,seaweed,microorganism,0.3667,6,11
+yellow,wordnet_easy_hypernym,dentist,orthodontist,physician,veterinary,medical practitioner,0.4621,7,20
+yellow,wordnet_easy_hypernym,girdle,lingerie,poncho,underwear,garment,0.4186,7,69
+yellow,wordnet_easy_hypernym,diaper,muffler,poncho,raincoat,garment,0.3619,7,69
+yellow,wordnet_easy_hypernym,chow,hound,puppy,terrier,dog,0.4161,8,11
+yellow,wordnet_easy_hypernym,bed,bunk,chest,sofa,furniture,0.4011,7,49
+yellow,wordnet_easy_hypernym,fennel,legume,radish,spinach,vegetable,0.4838,6,26
+yellow,wordnet_easy_hypernym,epiphysis,marrow,posterior,skull,animal tissue,0.3538,6,59
+yellow,wordnet_easy_hypernym,barbecue,picnic,supper,tea,meal,0.4099,6,16
+yellow,wordnet_easy_hypernym,dinner,feast,picnic,refreshment,meal,0.3884,6,16
+yellow,wordnet_easy_hypernym,doctor,matron,pathologist,physician,health professional,0.4119,6,25
+yellow,wordnet_easy_hypernym,oasis,refuge,sanctuary,tent,shelter,0.3646,6,14
+yellow,wordnet_easy_hypernym,collage,graphic,likeness,portrait,picture,0.3655,7,13
+yellow,wordnet_easy_hypernym,cafe,canteen,saloon,teahouse,building,0.3580,6,69
+yellow,wordnet_easy_hypernym,lodge,manor,palace,residence,house,0.3674,7,14
+yellow,wordnet_easy_hypernym,buckboard,bus,cab,wheel,wheeled vehicle,0.3567,7,55
+yellow,wordnet_easy_hypernym,epiphysis,scalp,teeth,tooth,connective tissue,0.3590,7,32
+yellow,wordnet_easy_hypernym,necktie,overcoat,shawl,trouser,garment,0.4233,7,69
+yellow,wordnet_easy_hypernym,bouffant,haircut,mustache,scalp,body covering,0.3801,6,40
+yellow,wordnet_easy_hypernym,baker,butcher,draper,trader,merchant,0.3866,6,15
+yellow,wordnet_easy_hypernym,castle,farmhouse,hall,lodge,dwelling,0.3513,7,16
+yellow,wordnet_easy_hypernym,bathrobe,jacket,lingerie,necktie,garment,0.3903,7,69
+yellow,wordnet_easy_hypernym,fang,finger,thigh,thumb,extremity,0.3695,6,17
+yellow,wordnet_easy_hypernym,colt,filly,lamb,pup,young mammal,0.4024,8,12
+yellow,wordnet_easy_hypernym,hammer,hatchet,pitchfork,wrench,tool,0.3845,7,50
+yellow,wordnet_easy_hypernym,convent,farmhouse,mansion,residence,dwelling,0.4660,7,16
+yellow,wordnet_easy_hypernym,cheekbone,epiphysis,parenchyma,tonsil,animal tissue,0.3862,6,59
+yellow,wordnet_easy_hypernym,blackmailer,bully,gangster,traitor,criminal,0.3569,7,37
+yellow,wordnet_easy_hypernym,bandstand,dock,pier,pulpit,horizontal surface,0.3611,6,29
+yellow,wordnet_easy_hypernym,necktie,robe,scarf,teddy,garment,0.4627,7,69
+yellow,wordnet_easy_hypernym,bone,epiphysis,posterior,skin,connective tissue,0.3962,7,32
+yellow,wordnet_easy_hypernym,convent,monastery,palace,villa,house,0.4985,7,14
+yellow,wordnet_easy_hypernym,cop,matron,policeman,warden,lawman,0.4104,6,22
+yellow,wordnet_easy_hypernym,cafe,convent,monastery,tavern,building,0.4065,6,69
+yellow,wordnet_easy_hypernym,bedroom,compartment,kitchen,vestibule,room,0.3914,7,69
+yellow,wordnet_easy_hypernym,farmhouse,hall,manor,monastery,dwelling,0.3778,7,16
+yellow,wordnet_easy_hypernym,cheekbone,posterior,rib,tooth,bone,0.3762,8,23
+yellow,wordnet_easy_hypernym,bite,buffet,dinner,feast,meal,0.4014,6,16
+yellow,wordnet_easy_hypernym,cruiser,sedan,tractor,wheel,wheeled vehicle,0.3846,7,55
+yellow,wordnet_easy_hypernym,door,kitchen,pantry,salon,room,0.3648,7,69
+yellow,wordnet_easy_hypernym,mosaic,painting,sculpture,watercolor,art,0.5364,6,37
+yellow,wordnet_easy_hypernym,butcher,dealer,grocer,trader,merchant,0.3692,6,15
+yellow,wordnet_easy_hypernym,cop,lieutenant,matron,patrolman,lawman,0.4121,6,22
+yellow,wordnet_easy_hypernym,brigadier,colonel,lieutenant,skipper,commissioned officer,0.3946,8,11
+yellow,wordnet_easy_hypernym,bean,beet,onion,sorrel,vegetable,0.4684,6,26
+yellow,wordnet_easy_hypernym,box,couch,divan,dresser,furniture,0.3528,7,49
+yellow,wordnet_easy_hypernym,coffeepot,mixer,samovar,skillet,utensil,0.3634,7,14
+yellow,wordnet_easy_hypernym,bandstand,bridge,dock,pier,platform,0.4314,7,22
+yellow,wordnet_easy_hypernym,cannon,gun,knife,spear,weapon,0.3747,8,40
+yellow,wordnet_easy_hypernym,bobby,cop,patrolman,sergeant,lawman,0.4747,6,22
+yellow,wordnet_easy_hypernym,brigadier,colonel,commander,corporal,military officer,0.5611,7,15
+yellow,wordnet_easy_hypernym,intern,physician,psychiatrist,surgeon,health professional,0.3719,6,25
+yellow,wordnet_easy_hypernym,brigadier,colonel,lieutenant,skipper,military officer,0.3946,7,15
+yellow,wordnet_easy_hypernym,bootlegger,gangster,henchman,traitor,criminal,0.3861,7,37
+yellow,wordnet_easy_hypernym,cabin,farmhouse,lodge,palace,house,0.3745,7,14
+yellow,wordnet_easy_hypernym,mushroom,onion,potato,tomato,vegetable,0.5987,6,26
+yellow,wordnet_easy_hypernym,catcher,closer,pitcher,southpaw,ballplayer,0.3572,6,16
+yellow,wordnet_easy_hypernym,pan,samovar,saucepan,skillet,kitchen utensil,0.4322,8,10
+yellow,wordnet_easy_hypernym,cabin,farmhouse,hearth,monastery,housing,0.3530,6,34
+yellow,wordnet_easy_hypernym,canon,dean,priest,rector,clergyman,0.3617,6,26
+yellow,wordnet_easy_hypernym,gravy,mustard,olive,sauce,condiment,0.3617,8,14
+yellow,wordnet_easy_hypernym,carving,engraving,fresco,watercolor,art,0.3666,6,37
+yellow,wordnet_easy_hypernym,ball,handgun,pistol,shot,weapon,0.3825,8,40
+yellow,wordnet_easy_hypernym,bacteria,kelp,seaweed,tang,microorganism,0.3575,6,11
+yellow,wordnet_easy_hypernym,forearm,pin,thigh,thumb,extremity,0.4031,6,17
+yellow,wordnet_easy_hypernym,cabin,cottage,dwelling,manor,housing,0.3764,6,34
+yellow,wordnet_easy_hypernym,farmhouse,lodge,palace,villa,dwelling,0.4410,7,16
+yellow,wordnet_easy_hypernym,claw,forearm,leg,toe,extremity,0.3800,6,17
+yellow,wordnet_easy_hypernym,algae,germ,kelp,virus,microorganism,0.3525,6,11
+yellow,wordnet_easy_hypernym,jelly,mint,savory,sweet,dainty,0.3561,6,19
+yellow,wordnet_easy_hypernym,fig,nut,peach,pear,fruit,0.4310,8,49
+yellow,wordnet_easy_hypernym,banana,berry,grapefruit,peach,edible fruit,0.5232,6,22
+yellow,wordnet_easy_hypernym,inspector,lieutenant,policeman,sheriff,lawman,0.3570,6,22
+yellow,wordnet_easy_hypernym,lodge,manor,mansion,villa,dwelling,0.4790,7,16
+yellow,wordnet_easy_hypernym,bass,drum,tambourine,woodwind,musical instrument,0.4105,7,27
+yellow,wordnet_easy_hypernym,aorta,artery,capillary,vein,vessel,0.3824,7,5
+yellow,wordnet_easy_hypernym,house,manor,mansion,residence,housing,0.5228,6,34
+yellow,wordnet_easy_hypernym,forehead,nasal,posterior,shin,bone,0.3692,8,23
+yellow,wordnet_easy_hypernym,deputy,marshal,sergeant,trooper,lawman,0.3884,6,22
+yellow,wordnet_easy_hypernym,chancellor,headmaster,principal,schoolmaster,educator,0.3862,6,19
+yellow,wordnet_easy_hypernym,baby,foal,pup,puppy,young mammal,0.5545,8,12
+yellow,wordnet_easy_hypernym,chow,collie,dog,stray,domestic animal,0.3778,7,15
+yellow,wordnet_easy_hypernym,butcher,grocer,peddler,retailer,merchant,0.3576,6,15
+yellow,wordnet_easy_hypernym,dentist,doctor,intern,veterinarian,health professional,0.3702,6,25
+yellow,wordnet_easy_hypernym,breakfast,buffet,refreshment,supper,meal,0.4924,6,16
+yellow,wordnet_easy_hypernym,colon,jejunum,kidney,liver,internal organ,0.5337,6,11
+yellow,wordnet_easy_hypernym,arrow,firearm,pistol,sword,weapon,0.4461,8,40
+yellow,wordnet_easy_hypernym,epiphysis,posterior,radius,submucosa,connective tissue,0.3779,7,32
+yellow,wordnet_easy_hypernym,beast,brute,ruffian,savage,attacker,0.4072,6,11
+yellow,wordnet_easy_hypernym,highway,parkway,trail,turnpike,road,0.5046,6,25
+yellow,wordnet_easy_hypernym,abstraction,canvas,cityscape,landscape,painting,0.3514,8,9
+yellow,wordnet_easy_hypernym,detective,inspector,matron,sergeant,lawman,0.3752,6,22
+yellow,wordnet_easy_hypernym,jaw,rib,shin,tusk,bone,0.4218,8,23
+yellow,wordnet_easy_hypernym,convent,cottage,house,villa,dwelling,0.4701,7,16
+yellow,wordnet_easy_hypernym,barrack,hall,mansion,palace,housing,0.3831,6,34
+yellow,wordnet_easy_hypernym,guitarist,monk,pianist,singer,musician,0.4062,6,24
+yellow,wordnet_easy_hypernym,fiddle,horn,sax,woodwind,musical instrument,0.4823,7,27
+yellow,wordnet_easy_hypernym,boulevard,bypass,highway,turnpike,road,0.3637,6,25
+yellow,wordnet_easy_hypernym,boulevard,highway,line,thoroughfare,road,0.3901,6,25
+yellow,wordnet_easy_hypernym,dealer,huckster,peddler,pusher,merchant,0.3585,6,15
+yellow,wordnet_easy_hypernym,cheekbone,forehead,jaw,posterior,connective tissue,0.4845,7,32
+yellow,wordnet_easy_hypernym,horn,recorder,trumpet,woodwind,wind instrument,0.3751,8,13
+yellow,wordnet_easy_hypernym,missile,pistol,rifle,shot,weapon,0.3878,8,40
+yellow,wordnet_easy_hypernym,castle,convent,hall,monastery,house,0.4276,7,14
+yellow,wordnet_easy_hypernym,boxcar,buckboard,sedan,truck,wheeled vehicle,0.3904,7,55
+yellow,wordnet_easy_hypernym,banana,filbert,grapefruit,olive,fruit,0.3880,8,49
+yellow,wordnet_easy_hypernym,castle,lodge,manor,monastery,house,0.4151,7,14
+yellow,wordnet_easy_hypernym,bat,bludgeon,crutch,cudgel,stick,0.3506,7,14
+yellow,wordnet_easy_hypernym,barricade,railing,wall,weir,barrier,0.3782,7,29
+yellow,wordnet_easy_hypernym,epiphysis,shaft,skull,tusk,bone,0.3690,8,23
+yellow,wordnet_easy_hypernym,biceps,calf,gastrocnemius,pectoralis,skeletal muscle,0.4011,8,9
+yellow,wordnet_easy_hypernym,batter,fielder,pitcher,twirler,ballplayer,0.4162,6,16
+yellow,wordnet_easy_hypernym,horn,recorder,sax,tambourine,musical instrument,0.3599,7,27
+yellow,wordnet_easy_hypernym,delicious,grape,lemon,peach,edible fruit,0.4462,6,22
+yellow,wordnet_easy_hypernym,costume,ensemble,frock,outfit,attire,0.3838,7,12
+yellow,wordnet_easy_hypernym,berry,grape,peach,pineapple,edible fruit,0.5649,6,22
+yellow,wordnet_easy_hypernym,bunk,crib,divan,hammock,furniture,0.3763,7,49
+yellow,wordnet_easy_hypernym,lefthander,pitcher,shortstop,southpaw,ballplayer,0.5942,6,16
+yellow,wordnet_easy_hypernym,cabin,lodge,residence,villa,house,0.4060,7,14
+yellow,wordnet_easy_hypernym,biceps,calf,deltoid,lat,muscle,0.3642,7,10
+yellow,wordnet_easy_hypernym,catcher,outfielder,shortstop,slugger,ballplayer,0.6563,6,16
+yellow,wordnet_easy_hypernym,chemist,dentist,matron,surgeon,health professional,0.3504,6,25
+yellow,wordnet_easy_hypernym,caravan,jeep,saloon,wagon,wheeled vehicle,0.4103,7,55
+yellow,wordnet_easy_hypernym,breakfast,feast,snack,supper,meal,0.4555,6,16
+yellow,wordnet_easy_hypernym,cop,detective,marshal,policeman,lawman,0.5065,6,22
+yellow,wordnet_easy_hypernym,biceps,calf,pectoralis,serratus,muscle,0.3599,7,10
+yellow,wordnet_easy_hypernym,abdominal,biceps,deltoid,serratus,muscle,0.4565,7,10
+yellow,wordnet_easy_hypernym,apartment,castle,home,palace,housing,0.3570,6,34
+yellow,wordnet_easy_hypernym,boxcar,buckboard,cab,wagon,wheeled vehicle,0.4455,7,55
+yellow,wordnet_easy_hypernym,baritone,bass,coloratura,voice,singer,0.3553,7,13
+yellow,wordnet_easy_hypernym,beard,haircut,mane,mustache,hair,0.5814,7,26
+yellow,wordnet_easy_hypernym,abdominal,biceps,calf,gastrocnemius,muscle,0.4154,7,10
+yellow,wordnet_easy_hypernym,academic,headmaster,lecturer,schoolmaster,educator,0.3534,6,19
+yellow,wordnet_easy_hypernym,banquet,breakfast,buffet,tea,meal,0.3872,6,16
+yellow,wordnet_easy_hypernym,diamond,emerald,necklace,pearl,jewelry,0.4388,7,17
+yellow,wordnet_easy_hypernym,barrack,manor,monastery,villa,housing,0.3685,6,34
+yellow,wordnet_easy_hypernym,baritone,minstrel,pianist,tenor,musician,0.4585,6,24
+yellow,wordnet_easy_hypernym,cabana,hut,pavilion,tent,shelter,0.3676,6,14
+yellow,wordnet_easy_hypernym,aide,brigadier,commander,lieutenant,military officer,0.4452,7,15
+yellow,wordnet_easy_hypernym,calf,colt,kitten,pup,young mammal,0.4183,8,12
+yellow,wordnet_easy_hypernym,assassin,fugitive,ghoul,henchman,criminal,0.3630,7,37
+yellow,wordnet_easy_hypernym,bean,beet,carrot,radish,vegetable,0.4188,6,26
+yellow,wordnet_easy_hypernym,celery,mushroom,radish,tomato,vegetable,0.5617,6,26
+yellow,wordnet_easy_hypernym,pitcher,runner,shortstop,slugger,ballplayer,0.4107,6,16
+yellow,wordnet_easy_hypernym,alto,guitarist,soloist,vocalist,musician,0.5900,6,24
+yellow,wordnet_easy_hypernym,matron,pathologist,psychiatrist,surgeon,health professional,0.3788,6,25
+yellow,wordnet_easy_hypernym,fur,hair,scalp,stubble,body covering,0.3642,6,40
+yellow,wordnet_easy_hypernym,canvas,fresco,picture,watercolor,graphic art,0.3550,7,15
+yellow,wordnet_easy_hypernym,broadcasting,cable,newspaper,radio,medium,0.3660,6,23
+yellow,wordnet_easy_hypernym,bishop,canon,churchman,priest,clergyman,0.5038,6,26
+yellow,wordnet_easy_hypernym,fuzz,haircut,mustache,stubble,hair,0.3987,7,26
+yellow,wordnet_easy_hypernym,beard,fur,stubble,wool,body covering,0.3721,6,40
+yellow,wordnet_easy_hypernym,calf,filly,pup,puppy,young,0.4157,7,16
+yellow,wordnet_easy_hypernym,chisel,hatchet,knife,razor,cutting implement,0.4103,8,14
+yellow,wordnet_easy_hypernym,governess,headmaster,mistress,schoolmaster,educator,0.3948,6,19
+yellow,wordnet_easy_hypernym,abdominal,biceps,lat,pectoralis,muscle,0.3837,7,10
+yellow,wordnet_easy_hypernym,baseball,basketball,bowl,football,ball,0.4440,8,6
+yellow,wordnet_easy_hypernym,baritone,brass,horn,sax,wind instrument,0.3851,8,13
+yellow,wordnet_easy_hypernym,ambulance,bus,carriage,tractor,wheeled vehicle,0.3567,7,55
+yellow,wordnet_easy_hypernym,abode,castle,palace,residence,housing,0.4686,6,34
+yellow,wordnet_easy_hypernym,bow,bullet,handgun,knife,weapon,0.3535,8,40
+yellow,wordnet_easy_hypernym,churchman,king,priest,rector,clergyman,0.3730,6,26
+yellow,wordnet_easy_hypernym,algae,bug,protozoa,virus,microorganism,0.3795,6,11
+yellow,wordnet_easy_hypernym,anterior,epiphysis,fang,skull,bone,0.3529,8,23
+yellow,wordnet_easy_hypernym,brass,tambourine,trumpet,woodwind,musical instrument,0.3925,7,27
+yellow,wordnet_easy_hypernym,cloak,fur,skirt,veil,garment,0.3652,7,69
+yellow,wordnet_easy_hypernym,dealer,grocer,seller,vendor,merchant,0.3568,6,15
+yellow,wordnet_easy_hypernym,fuzz,hair,mane,mustache,body covering,0.4759,6,40
+yellow,wordnet_easy_hypernym,fort,garrison,headquarters,outpost,military installation,0.3890,6,9
+yellow,wordnet_easy_hypernym,calf,colt,filly,puppy,young mammal,0.3982,8,12
+yellow,wordnet_easy_hypernym,cheekbone,forehead,jaw,tonsil,animal tissue,0.4834,6,59
+yellow,wordnet_easy_hypernym,minaret,spire,steeple,turret,tower,0.4300,6,6
+yellow,wordnet_easy_hypernym,apple,avocado,berry,lemon,edible fruit,0.5296,6,22
+yellow,wordnet_easy_hypernym,audio,disk,tape,video,memory device,0.3846,7,17
+yellow,wordnet_easy_hypernym,gum,jelly,nectar,peppermint,dainty,0.3591,6,19
+yellow,wordnet_easy_hypernym,grape,lemon,orange,pea,fruit,0.3627,8,49
+yellow,wordnet_easy_hypernym,doctor,physician,specialist,veterinary,medical practitioner,0.3829,7,20
+yellow,wordnet_easy_hypernym,interstate,thoroughfare,trail,turnpike,road,0.3521,6,25
+yellow,wordnet_easy_hypernym,alley,freeway,highway,thoroughfare,road,0.4929,6,25
+yellow,wordnet_easy_hypernym,lime,pear,sloe,strawberry,edible fruit,0.4618,6,22
+yellow,wordnet_easy_hypernym,dog,husky,puppy,toy,domestic animal,0.4147,7,15
+yellow,wordnet_easy_hypernym,armchair,closet,dresser,workbench,furniture,0.3668,7,49
+yellow,wordnet_easy_hypernym,fullback,guard,halfback,quarterback,football player,0.5204,6,10
+yellow,wordnet_easy_hypernym,forearm,stick,thumb,toe,extremity,0.3889,6,17
+yellow,wordnet_easy_hypernym,baron,operator,owner,proprietor,businessman,0.3982,6,19
+yellow,wordnet_easy_hypernym,castle,dungeon,fort,stockade,defensive structure,0.4158,6,15
+yellow,wordnet_easy_hypernym,diagnostician,doctor,pathologist,surgeon,medical practitioner,0.4454,7,20
+yellow,wordnet_easy_hypernym,cayenne,onion,radish,soybean,vegetable,0.3733,6,26
+yellow,wordnet_easy_hypernym,diagnostician,doctor,orthodontist,physician,medical practitioner,0.4710,7,20
+yellow,wordnet_easy_hypernym,capacitor,cell,rectifier,resistor,electrical device,0.4469,7,53
+yellow,wordnet_easy_hypernym,bobby,cop,detective,lieutenant,lawman,0.4375,6,22
+yellow,wordnet_easy_hypernym,banquet,lunch,refreshment,snack,meal,0.3790,6,16
+yellow,wordnet_easy_hypernym,beard,brow,haircut,stubble,body covering,0.4219,6,40
+yellow,wordnet_easy_hypernym,avocado,fig,seed,strawberry,fruit,0.3815,8,49
+yellow,wordnet_easy_hypernym,coach,instructor,lecturer,prof,educator,0.3577,6,19
+yellow,wordnet_easy_hypernym,autoloader,carbine,musket,revolver,weapon,0.3901,8,40
+yellow,wordnet_easy_hypernym,farmhouse,hearth,manor,palace,dwelling,0.3694,7,16
+yellow,wordnet_easy_hypernym,bar,bathroom,door,kitchen,room,0.3907,7,69
+yellow,wordnet_easy_hypernym,dealer,jeweler,retailer,vendor,merchant,0.3618,6,15
+yellow,wordnet_easy_hypernym,barbecue,dinner,snack,supper,meal,0.4990,6,16
+yellow,wordnet_easy_hypernym,cabin,cottage,manor,villa,dwelling,0.4464,7,16
+yellow,wordnet_easy_hypernym,heart,jejunum,liver,lung,internal organ,0.4544,6,11
+yellow,wordnet_easy_hypernym,interferometer,manometer,pyrometer,thermometer,measuring instrument,0.4280,8,31
+yellow,wordnet_easy_hypernym,freshman,junior,senior,sophomore,undergraduate,0.6877,7,4
+yellow,wordnet_easy_hypernym,pathologist,psychiatrist,surgeon,veterinary,doctor,0.3573,8,16
+yellow,wordnet_easy_hypernym,coffeepot,porcelain,saucepan,urn,utensil,0.3542,7,14
+yellow,wordnet_easy_hypernym,countenance,mug,physiognomy,visage,face,0.3952,6,4
+yellow,wordnet_easy_hypernym,bandit,hoodlum,robber,traitor,criminal,0.3740,7,37
+yellow,wordnet_easy_hypernym,chapel,cottage,farmhouse,mosque,building,0.3665,6,69
+yellow,wordnet_easy_hypernym,eyelid,parenchyma,posterior,skin,animal tissue,0.3783,6,59
+yellow,wordnet_easy_hypernym,blade,lance,rod,spear,weapon,0.4077,8,40
+yellow,wordnet_easy_hypernym,dean,executive,minister,president,administrator,0.3747,6,9
+yellow,wordnet_easy_hypernym,cartilage,diaphragm,scalp,skin,animal tissue,0.3708,6,59
+yellow,wordnet_easy_hypernym,greatcoat,jacket,napkin,raincoat,garment,0.4223,7,69
+yellow,wordnet_easy_hypernym,avocado,cherry,delicious,lime,edible fruit,0.3706,6,22
+yellow,wordnet_easy_hypernym,gourd,pea,potato,soybean,vine,0.4007,8,13
+yellow,wordnet_easy_hypernym,bloodhound,collie,stray,terrier,domestic animal,0.4288,7,15
+yellow,wordnet_easy_hypernym,bishop,chaplain,minister,rector,clergyman,0.4114,6,26
+yellow,wordnet_easy_hypernym,bandstand,pier,rostrum,wharf,horizontal surface,0.3576,6,29
+yellow,wordnet_easy_hypernym,baritone,brass,violin,woodwind,musical instrument,0.4104,7,27
+yellow,wordnet_easy_hypernym,emerald,jewel,pearl,ring,jewelry,0.3510,7,17
+yellow,wordnet_easy_hypernym,doctor,psychiatrist,specialist,surgeon,medical practitioner,0.4424,7,20
+yellow,wordnet_easy_hypernym,bosom,elbow,leg,shoulder,cloth covering,0.4055,6,30
+yellow,wordnet_easy_hypernym,dentist,intern,orthodontist,surgeon,medical practitioner,0.4001,7,20
+yellow,wordnet_easy_hypernym,bass,brass,horn,piano,musical instrument,0.3625,7,27
+yellow,wordnet_easy_hypernym,guitar,sax,string,woodwind,musical instrument,0.3939,7,27
+yellow,wordnet_easy_hypernym,celebrant,deacon,minister,pastor,clergyman,0.4027,6,26
+yellow,wordnet_easy_hypernym,bed,bunk,couch,deathbed,bedroom furniture,0.4169,8,9
+yellow,wordnet_easy_hypernym,cabbage,mushroom,potato,radish,vegetable,0.5599,6,26
+yellow,wordnet_easy_hypernym,alto,baritone,coloratura,minstrel,singer,0.4074,7,13
+yellow,wordnet_easy_hypernym,assassin,hijacker,murderer,thief,criminal,0.4242,7,37
+yellow,wordnet_easy_hypernym,instructor,lecturer,professor,schoolmaster,educator,0.4300,6,19
+yellow,wordnet_easy_hypernym,infantryman,marine,redcoat,rifleman,soldier,0.3578,8,11
+yellow,wordnet_easy_hypernym,bandit,burglar,ghoul,robber,thief,0.4683,8,10
+yellow,wordnet_easy_hypernym,baritone,bass,minstrel,tenor,singer,0.3813,7,13
+yellow,wordnet_easy_hypernym,caller,interviewer,questioner,teller,speaker,0.3524,6,14
+yellow,wordnet_easy_hypernym,cityscape,landscape,painting,watercolor,graphic art,0.4018,7,15
+yellow,wordnet_easy_hypernym,bouffant,brow,haircut,mane,hair,0.4236,7,26
+yellow,wordnet_easy_hypernym,dentist,matron,orthodontist,pathologist,health professional,0.3738,6,25
+yellow,wordnet_easy_hypernym,dentist,doctor,quack,surgeon,medical practitioner,0.4885,7,20
+yellow,wordnet_easy_hypernym,closet,dresser,nest,sofa,furniture,0.3682,7,49
+yellow,wordnet_easy_hypernym,bridge,deck,dock,scaffold,horizontal surface,0.3545,6,29
+yellow,wordnet_easy_hypernym,brothel,hotel,motel,palace,building,0.4016,6,69
+yellow,wordnet_easy_hypernym,cottage,lodge,manor,residence,dwelling,0.3986,7,16
+yellow,wordnet_easy_hypernym,legume,pea,pepper,soybean,vine,0.3644,8,13
+yellow,wordnet_easy_hypernym,fang,forehead,rib,tooth,connective tissue,0.3526,7,32
+yellow,wordnet_easy_hypernym,deputy,lieutenant,marshal,patrolman,lawman,0.4520,6,22
+yellow,wordnet_easy_hypernym,brigadier,captain,colonel,sergeant,military officer,0.4327,7,15
+yellow,wordnet_easy_hypernym,bully,gangster,henchman,hoodlum,criminal,0.4797,7,37
+yellow,wordnet_easy_hypernym,canvas,fresco,painting,print,graphic art,0.3531,7,15
+yellow,wordnet_easy_hypernym,brass,guitar,piano,sax,musical instrument,0.4930,7,27
+yellow,wordnet_easy_hypernym,autoloader,bullet,carbine,rifle,weapon,0.4257,8,40
+yellow,wordnet_easy_hypernym,castle,farmhouse,mansion,villa,house,0.5888,7,14
+yellow,wordnet_easy_hypernym,anterior,forehead,posterior,tooth,bone,0.3913,8,23
+yellow,wordnet_easy_hypernym,banquet,feast,luncheon,picnic,meal,0.4546,6,16
+yellow,wordnet_easy_hypernym,auto,cab,car,engine,wheeled vehicle,0.3522,7,55
+yellow,wordnet_easy_hypernym,captain,marshal,officer,sergeant,lawman,0.3717,6,22
+yellow,wordnet_easy_hypernym,buckboard,cart,chariot,cruiser,wheeled vehicle,0.3742,7,55
+yellow,wordnet_easy_hypernym,bootlegger,gangster,rustler,thief,criminal,0.3886,7,37
+yellow,wordnet_easy_hypernym,dock,pavement,pier,scaffold,horizontal surface,0.3645,6,29
+yellow,wordnet_easy_hypernym,caliper,gage,gauge,measure,measuring instrument,0.3767,8,31
+yellow,wordnet_easy_hypernym,bead,diamond,earring,emerald,jewelry,0.3818,7,17
+yellow,wordnet_easy_hypernym,caliper,manometer,micrometer,synchronizer,measuring instrument,0.4185,8,31
+yellow,wordnet_easy_hypernym,charcoal,pen,pencil,quill,writing implement,0.4112,7,6
+yellow,wordnet_easy_hypernym,minstrel,singer,soprano,vocalist,musician,0.4246,6,24
+yellow,wordnet_easy_hypernym,avenue,boulevard,freeway,roadway,road,0.4310,6,25
+yellow,wordnet_easy_hypernym,deltoid,gastrocnemius,pecs,pectoralis,skeletal muscle,0.4083,8,9
+yellow,wordnet_easy_hypernym,breakfast,feast,lunch,picnic,meal,0.4620,6,16
+yellow,wordnet_easy_hypernym,carbine,gun,hatchet,pistol,weapon,0.4466,8,40
+yellow,wordnet_easy_hypernym,nurse,orthodontist,physician,veterinary,health professional,0.3969,6,25
+yellow,wordnet_easy_hypernym,knight,lord,nobleman,sir,male aristocrat,0.3912,6,10
+yellow,wordnet_easy_hypernym,gourd,grape,potato,squash,vine,0.3819,8,13
+yellow,wordnet_easy_hypernym,artery,highway,thoroughfare,turnpike,road,0.4625,6,25
+yellow,wordnet_easy_hypernym,grape,peanut,potato,soybean,vine,0.4681,8,13
+yellow,wordnet_easy_hypernym,baritone,drummer,rocker,soprano,musician,0.4138,6,24
+yellow,wordnet_easy_hypernym,chick,colt,filly,puppy,young,0.3958,7,16
+yellow,wordnet_easy_hypernym,castle,convent,farmhouse,manor,house,0.4918,7,14
+yellow,wordnet_easy_hypernym,columnist,correspondent,newspaperman,sportswriter,journalist,0.5595,6,7
+yellow,wordnet_easy_hypernym,drum,horn,saxophone,violin,musical instrument,0.4726,7,27
+yellow,wordnet_easy_hypernym,firearm,knife,revolver,spear,weapon,0.4219,8,40
+yellow,wordnet_easy_hypernym,bastion,fortress,stockade,stronghold,defensive structure,0.3843,6,15
+yellow,wordnet_easy_hypernym,inn,monastery,temple,theater,building,0.3548,6,69
+yellow,wordnet_easy_hypernym,armchair,divan,sofa,vanity,furniture,0.3531,7,49
+yellow,wordnet_easy_hypernym,blackmailer,henchman,hoodlum,thief,criminal,0.4257,7,37
+yellow,wordnet_easy_hypernym,dais,dock,pier,wharf,platform,0.4405,7,22
+yellow,wordnet_easy_hypernym,boulevard,driveway,freeway,parkway,road,0.4863,6,25
+yellow,wordnet_easy_hypernym,nasal,posterior,skin,teeth,connective tissue,0.3808,7,32
+yellow,wordnet_easy_hypernym,canon,celebrant,priest,vicar,clergyman,0.4027,6,26
+yellow,wordnet_easy_hypernym,colon,gut,jejunum,lung,internal organ,0.3943,6,11
+yellow,wordnet_easy_hypernym,fur,greatcoat,shawl,sweater,garment,0.4257,7,69
+yellow,wordnet_easy_hypernym,napkin,robe,scarf,sweatshirt,garment,0.4281,7,69
+yellow,wordnet_easy_hypernym,assessor,federal,judge,magistrate,official,0.3542,6,33
+yellow,wordnet_easy_hypernym,baby,colt,kitten,puppy,young,0.4537,7,16
+yellow,wordnet_easy_hypernym,beard,coat,eyebrow,stubble,hair,0.3563,7,26
+yellow,wordnet_easy_hypernym,cattleman,cowboy,picker,wrangler,workman,0.3634,6,26
+yellow,wordnet_easy_hypernym,algae,bacteria,bug,vector,microorganism,0.3560,6,11
+yellow,wordnet_easy_hypernym,eyelid,membrane,mucosa,skin,animal tissue,0.3895,6,59
+yellow,wordnet_easy_hypernym,captain,colonel,marshal,skipper,commissioned officer,0.3652,8,11
+yellow,wordnet_easy_hypernym,fender,grillwork,transom,window,supporting structure,0.3865,6,44
+yellow,wordnet_easy_hypernym,heart,kidney,liver,stomach,internal organ,0.4631,6,11
+yellow,wordnet_easy_hypernym,bus,commuter,express,train,public transport,0.3727,7,8
+yellow,wordnet_easy_hypernym,china,coffeepot,samovar,urn,utensil,0.4164,7,14
+yellow,wordnet_easy_hypernym,highroad,roadway,street,thoroughfare,road,0.3509,6,25
+yellow,wordnet_easy_hypernym,arm,forearm,forefinger,limb,extremity,0.3721,6,17
+yellow,wordnet_easy_hypernym,mantle,necktie,robe,sweater,garment,0.3792,7,69
+yellow,wordnet_easy_hypernym,deputy,policeman,sergeant,sheriff,lawman,0.3694,6,22
+yellow,wordnet_easy_hypernym,commissioner,committeewoman,regent,trustee,member,0.3745,6,12
+yellow,wordnet_easy_hypernym,castle,house,palace,residence,dwelling,0.4787,7,16
+yellow,wordnet_easy_hypernym,alley,expressway,highway,street,road,0.4564,6,25
+yellow,wordnet_easy_hypernym,biceps,deltoid,gastrocnemius,pecs,muscle,0.4298,7,10
+yellow,wordnet_easy_hypernym,cortex,membrane,pleura,posterior,animal tissue,0.4337,6,59
+yellow,wordnet_easy_hypernym,ball,bayonet,knife,pistol,weapon,0.3686,8,40
+yellow,wordnet_easy_hypernym,chemist,dentist,orthodontist,resident,health professional,0.3932,6,25
+yellow,wordnet_easy_hypernym,abstraction,painting,picture,watercolor,graphic art,0.3841,7,15
+yellow,wordnet_easy_hypernym,chow,husky,puppy,terrier,domestic animal,0.3949,7,15
+yellow,wordnet_easy_hypernym,acrylic,latex,paint,pigment,coating,0.4008,6,17
+yellow,wordnet_easy_hypernym,colon,gut,kidney,stomach,internal organ,0.3658,6,11
+yellow,wordnet_easy_hypernym,arm,fang,forearm,leg,extremity,0.4029,6,17
+yellow,wordnet_easy_hypernym,expressway,interstate,roadway,thoroughfare,road,0.5369,6,25
+yellow,wordnet_easy_hypernym,envelope,pocket,pouch,purse,bag,0.3868,7,9
+yellow,wordnet_easy_hypernym,chapel,schoolhouse,synagogue,temple,building,0.4419,6,69
+yellow,wordnet_easy_hypernym,gangster,gunman,shooter,thief,criminal,0.3532,7,37
+yellow,wordnet_easy_hypernym,detective,marshal,patrolman,sergeant,lawman,0.4917,6,22
+yellow,wordnet_easy_hypernym,hog,kitten,lamb,puppy,young mammal,0.3802,8,12
+yellow,wordnet_easy_hypernym,belly,bone,diaphragm,skull,animal tissue,0.3578,6,59
+yellow,wordnet_easy_hypernym,addict,fan,fanatic,fiend,enthusiast,0.4445,6,6
+yellow,wordnet_easy_hypernym,cathedral,convent,embassy,monastery,building,0.4362,6,69
+yellow,wordnet_easy_hypernym,legume,pea,peanut,squash,vine,0.3555,8,13
+yellow,wordnet_easy_hypernym,chest,dresser,hammock,sofa,furniture,0.3682,7,49
+yellow,wordnet_easy_hypernym,burglar,gangster,gunman,parolee,criminal,0.3940,7,37
+yellow,wordnet_easy_hypernym,bean,marrow,pepper,potato,vine,0.3553,8,13
+yellow,wordnet_easy_hypernym,abstraction,cityscape,painting,watercolor,art,0.4029,6,37
+yellow,wordnet_easy_hypernym,gutter,pitchfork,shovel,spade,hand tool,0.3697,8,21
+yellow,wordnet_easy_hypernym,jaw,membrane,skull,tusk,animal tissue,0.3862,6,59
+yellow,wordnet_easy_hypernym,dentist,doctor,orthodontist,psychiatrist,medical practitioner,0.5829,7,20
+yellow,wordnet_easy_hypernym,hammer,pitchfork,spade,wrench,hand tool,0.3643,8,21
+yellow,wordnet_easy_hypernym,legume,marrow,pea,radish,vegetable,0.3654,6,26
+yellow,wordnet_easy_hypernym,grinder,gyro,hamburger,sandwich,snack food,0.3720,7,13
+yellow,wordnet_easy_hypernym,bun,hardtack,loaf,toast,bread,0.3527,6,9
+yellow,wordnet_easy_hypernym,cabin,castle,convent,cottage,house,0.3741,7,14
+yellow,wordnet_easy_hypernym,epiphysis,jaw,tooth,tusk,bone,0.4042,8,23
+yellow,wordnet_easy_hypernym,hound,husky,stray,terrier,domestic animal,0.3504,7,15
+yellow,wordnet_easy_hypernym,baritone,piano,sax,violin,musical instrument,0.6168,7,27
+yellow,wordnet_easy_hypernym,castle,hall,monastery,residence,dwelling,0.3612,7,16
+yellow,wordnet_easy_hypernym,commander,corporal,sergeant,skipper,military officer,0.4206,7,15
+yellow,wordnet_easy_hypernym,hitter,outfielder,runner,shortstop,ballplayer,0.4759,6,16
+yellow,wordnet_easy_hypernym,pianist,rocker,tenor,violinist,musician,0.4637,6,24
+yellow,wordnet_easy_hypernym,baby,calf,foal,lamb,young,0.3982,7,16
+yellow,wordnet_easy_hypernym,cabin,convent,farmhouse,mansion,house,0.4125,7,14
+yellow,wordnet_easy_hypernym,cowboy,cowhand,cowman,picker,hired hand,0.3773,8,10
+yellow,wordnet_easy_hypernym,baby,foal,kitten,pup,young,0.5353,7,16
+yellow,wordnet_easy_hypernym,baritone,bass,piano,saxophone,musical instrument,0.5526,7,27
+yellow,wordnet_easy_hypernym,gangster,henchman,murderer,shooter,criminal,0.3800,7,37
+yellow,wordnet_easy_hypernym,breast,pituitary,prostate,thyroid,gland,0.4457,6,12
+yellow,wordnet_easy_hypernym,apple,cherry,pear,sloe,edible fruit,0.4737,6,22
+yellow,wordnet_easy_hypernym,abdominal,calf,deltoid,pecs,muscle,0.3632,7,10
+yellow,wordnet_easy_hypernym,celebrant,chaplain,preacher,priest,clergyman,0.4470,6,26
+yellow,wordnet_easy_hypernym,batter,outfielder,shortstop,southpaw,ballplayer,0.4582,6,16
+yellow,wordnet_easy_hypernym,bayonet,bullet,knife,musket,weapon,0.3945,8,40
+yellow,wordnet_easy_hypernym,brow,scalp,skin,stubble,body covering,0.3664,6,40
+yellow,wordnet_easy_hypernym,banana,berry,coffee,sloe,fruit,0.4127,8,49
+yellow,wordnet_easy_hypernym,forehead,pleura,shin,skull,animal tissue,0.3629,6,59
+yellow,wordnet_easy_hypernym,bench,couch,sofa,table,furniture,0.4088,7,49
+yellow,wordnet_easy_hypernym,fang,forehead,jaw,skull,bone,0.4665,8,23
+yellow,wordnet_easy_hypernym,cayenne,celery,chili,sorrel,vegetable,0.4434,6,26
+yellow,wordnet_easy_hypernym,bicycle,buggy,trailer,truck,wheeled vehicle,0.4056,7,55
+yellow,wordnet_easy_hypernym,chow,collie,poodle,terrier,domestic animal,0.4654,7,15
+yellow,wordnet_easy_hypernym,boatswain,mate,navigator,skipper,sailor,0.3631,6,12
+yellow,wordnet_easy_hypernym,almond,banana,lemon,peanut,fruit,0.4254,8,49
+yellow,wordnet_easy_hypernym,anterior,bone,skin,tendon,connective tissue,0.3884,7,32
+yellow,wordnet_easy_hypernym,arm,fin,finger,leg,extremity,0.3746,6,17
+yellow,wordnet_easy_hypernym,grapefruit,lemon,lime,strawberry,edible fruit,0.5061,6,22
+yellow,wordnet_easy_hypernym,alto,drummer,singer,violinist,musician,0.4546,6,24
+yellow,wordnet_easy_hypernym,acrylic,lacquer,oil,watercolor,coating,0.3596,6,17
+yellow,wordnet_easy_hypernym,banquet,buffet,dinner,lunch,meal,0.5766,6,16
+yellow,wordnet_easy_hypernym,barn,carport,coop,mansion,building,0.3514,6,69
+yellow,wordnet_easy_hypernym,chancellor,headmaster,teacher,tutor,educator,0.4156,6,19
+yellow,wordnet_easy_hypernym,chick,colt,foal,lamb,young,0.3604,7,16
+yellow,wordnet_easy_hypernym,forearm,leg,limb,thumb,extremity,0.4516,6,17
+yellow,wordnet_easy_hypernym,detective,patrolman,sheriff,warden,lawman,0.4364,6,22
+yellow,wordnet_easy_hypernym,bishop,king,knight,queen,game equipment,0.3918,7,30
+yellow,wordnet_easy_hypernym,castle,chapel,hall,library,building,0.3686,6,69
+yellow,wordnet_easy_hypernym,coffeepot,samovar,skillet,urn,kitchen utensil,0.3623,8,10
+yellow,wordnet_easy_hypernym,chili,onion,pea,spinach,vegetable,0.4376,6,26
+yellow,wordnet_easy_hypernym,dog,poodle,terrier,toy,domestic animal,0.4409,7,15
+yellow,wordnet_easy_hypernym,abdominal,biceps,gastrocnemius,pecs,skeletal muscle,0.3887,8,9
+yellow,wordnet_easy_hypernym,baby,lamb,pup,puppy,young,0.4734,7,16
+yellow,wordnet_easy_hypernym,barbecue,buffet,dinner,luncheon,meal,0.5597,6,16
+yellow,wordnet_easy_hypernym,archbishop,cardinal,priest,reader,clergyman,0.4213,6,26
+yellow,wordnet_easy_hypernym,cop,marshal,officer,patrolman,lawman,0.4598,6,22
+yellow,wordnet_easy_hypernym,advocate,counsel,prosecutor,solicitor,lawyer,0.3975,6,7
+yellow,wordnet_easy_hypernym,baby,calf,chick,pup,young,0.4357,7,16
+yellow,wordnet_easy_hypernym,catheter,coil,hose,pipe,tube,0.4025,8,21
+yellow,wordnet_easy_hypernym,diagnostician,doctor,quack,veterinarian,medical practitioner,0.3867,7,20
+yellow,wordnet_easy_hypernym,captain,mate,seafarer,skipper,sailor,0.4298,6,12
+yellow,wordnet_easy_hypernym,cynic,ethicist,moralist,realist,philosopher,0.4091,6,11
+yellow,wordnet_easy_hypernym,house,manor,mansion,palace,dwelling,0.4997,7,16
+yellow,wordnet_easy_hypernym,buckboard,cart,jeep,wagon,wheeled vehicle,0.4704,7,55
+yellow,wordnet_easy_hypernym,colonel,corporal,marshal,sergeant,military officer,0.5106,7,15
+yellow,wordnet_easy_hypernym,acrylic,gilt,pigment,varnish,coating,0.3569,6,17
+yellow,wordnet_easy_hypernym,cannery,factory,mill,plant,building complex,0.5107,6,9
+yellow,wordnet_easy_hypernym,avocado,cherry,grape,sloe,edible fruit,0.3866,6,22
+yellow,wordnet_easy_hypernym,baritone,coloratura,pianist,violinist,musician,0.5569,6,24
+yellow,wordnet_easy_hypernym,chaplain,deacon,diocesan,rector,clergyman,0.4311,6,26
+yellow,wordnet_easy_hypernym,bass,guitarist,pianist,vocalist,musician,0.5812,6,24
+yellow,wordnet_easy_hypernym,anterior,bone,nasal,submucosa,connective tissue,0.3692,7,32
+yellow,wordnet_easy_hypernym,cattleman,cowman,shepherd,wrangler,workman,0.3796,6,26
+yellow,wordnet_easy_hypernym,butter,cheese,curd,stick,dairy product,0.3596,6,6
+yellow,wordnet_easy_hypernym,robe,shirt,sweater,veil,garment,0.4406,7,69
+yellow,wordnet_easy_hypernym,bicycle,chariot,oxcart,tractor,wheeled vehicle,0.3894,7,55
+yellow,wordnet_easy_hypernym,arm,fin,forearm,thumb,extremity,0.3809,6,17
+yellow,wordnet_easy_hypernym,halfback,quarterback,receiver,runner,football player,0.3916,6,10
+yellow,wordnet_easy_hypernym,bishop,churchman,minister,preacher,clergyman,0.4216,6,26
+yellow,wordnet_easy_hypernym,peddler,seller,trader,vendor,merchant,0.3624,6,15
+yellow,wordnet_easy_hypernym,cattleman,cowboy,cowhand,peasant,workman,0.3526,6,26
+yellow,wordnet_easy_hypernym,apple,grape,lemon,sloe,edible fruit,0.4661,6,22
+yellow,wordnet_easy_hypernym,castle,convent,monastery,palace,housing,0.5220,6,34
+yellow,wordnet_easy_hypernym,convent,farmhouse,home,manor,housing,0.3866,6,34
+yellow,wordnet_easy_hypernym,coach,headmaster,instructor,schoolmaster,educator,0.3602,6,19
+yellow,wordnet_easy_hypernym,bean,grape,legume,potato,vine,0.4918,8,13
+yellow,wordnet_easy_hypernym,cabin,dwelling,mansion,residence,housing,0.3821,6,34
+yellow,wordnet_easy_hypernym,captain,navigator,pilot,skipper,sailor,0.3748,6,12
+yellow,wordnet_easy_hypernym,barbecue,breakfast,luncheon,supper,meal,0.5529,6,16
+yellow,wordnet_easy_hypernym,lunch,picnic,snack,supper,meal,0.4912,6,16
+yellow,wordnet_easy_hypernym,carrier,destroyer,submarine,warship,military vehicle,0.4324,8,12
+yellow,wordnet_easy_hypernym,anterior,marrow,nasal,posterior,connective tissue,0.3816,7,32
+yellow,wordnet_easy_hypernym,almond,delicious,pea,walnut,fruit,0.3784,8,49
+yellow,wordnet_easy_hypernym,baritone,bass,vocalist,voice,musician,0.3806,6,24
+yellow,wordnet_easy_hypernym,alley,driveway,interstate,parkway,road,0.3995,6,25
+yellow,wordnet_easy_hypernym,doctor,psychiatrist,veterinarian,veterinary,medical practitioner,0.4758,7,20
+yellow,wordnet_easy_hypernym,alto,guitarist,rocker,soprano,musician,0.4297,6,24
+yellow,wordnet_easy_hypernym,duffel,pouch,purse,saddlebag,bag,0.4319,7,9
+yellow,wordnet_easy_hypernym,alto,baritone,rocker,soloist,musician,0.4328,6,24
+yellow,wordnet_easy_hypernym,bag,overnighter,suitcase,trunk,baggage,0.3654,8,7
+yellow,wordnet_easy_hypernym,baker,grocer,jeweler,vendor,merchant,0.3615,6,15
+yellow,wordnet_easy_hypernym,lacquer,latex,pigment,varnish,coating,0.4644,6,17
+yellow,wordnet_easy_hypernym,baritone,drummer,singer,soloist,musician,0.4437,6,24
+yellow,wordnet_easy_hypernym,bandit,pirate,robber,rustler,thief,0.3683,8,10
+yellow,wordnet_easy_hypernym,convent,hearth,monastery,villa,dwelling,0.3686,7,16
+yellow,wordnet_easy_hypernym,director,executive,insider,manager,administrator,0.4336,6,9
+yellow,wordnet_easy_hypernym,dressing,mayonnaise,paste,vinegar,condiment,0.3753,8,14
+yellow,wordnet_easy_hypernym,aide,corporal,lieutenant,sergeant,military officer,0.5205,7,15
+yellow,wordnet_easy_hypernym,amplifier,camera,mixer,stereo,electronic equipment,0.3796,7,21
+yellow,wordnet_easy_hypernym,chapel,farmhouse,palace,schoolhouse,building,0.4019,6,69
+yellow,wordnet_easy_hypernym,drone,horn,saxophone,trumpet,wind instrument,0.4046,8,13
+yellow,wordnet_easy_hypernym,bone,nasal,skin,tooth,connective tissue,0.4083,7,32
+yellow,wordnet_easy_hypernym,alto,berry,coloratura,soprano,singer,0.4015,7,13
+yellow,wordnet_easy_hypernym,pathologist,psychiatrist,resident,surgeon,medical practitioner,0.3582,7,20
+yellow,wordnet_easy_hypernym,circuit,dipole,loop,rectifier,electrical device,0.3531,7,53
+yellow,wordnet_easy_hypernym,bean,grape,pea,pepper,vine,0.4338,8,13
+yellow,wordnet_easy_hypernym,blade,carbine,pistol,revolver,weapon,0.4581,8,40
+yellow,wordnet_easy_hypernym,abdominal,calf,gastrocnemius,serratus,skeletal muscle,0.3670,8,9
+yellow,wordnet_easy_hypernym,cortex,forehead,skin,skull,animal tissue,0.3706,6,59
+yellow,wordnet_easy_hypernym,boiler,mixer,saucepan,skillet,kitchen utensil,0.3763,8,10
+yellow,wordnet_easy_hypernym,dealer,retailer,seller,trader,merchant,0.3867,6,15
+yellow,wordnet_easy_hypernym,baton,bludgeon,cudgel,hammer,stick,0.3847,7,14
+yellow,wordnet_easy_hypernym,hall,manor,mansion,villa,housing,0.4360,6,34
+yellow,wordnet_easy_hypernym,soloist,soprano,vocalist,voice,musician,0.4697,6,24
+yellow,wordnet_easy_hypernym,minstrel,rocker,soprano,violinist,musician,0.3508,6,24
+yellow,wordnet_easy_hypernym,cheekbone,forehead,skull,teeth,bone,0.4674,8,23
+yellow,wordnet_easy_hypernym,convent,hall,monastery,villa,housing,0.3977,6,34
+yellow,wordnet_easy_hypernym,fin,thigh,thumb,toe,extremity,0.3592,6,17
+yellow,wordnet_easy_hypernym,fang,forearm,thigh,toe,extremity,0.4293,6,17
+yellow,wordnet_easy_hypernym,locomotive,taxi,tractor,trolley,wheeled vehicle,0.4093,7,55
+yellow,wordnet_easy_hypernym,cop,investigator,lieutenant,trooper,lawman,0.4329,6,22
+yellow,wordnet_easy_hypernym,castle,cottage,hall,residence,house,0.3603,7,14
+yellow,wordnet_easy_hypernym,baritone,bell,guitar,saxophone,musical instrument,0.3643,7,27
+yellow,wordnet_easy_hypernym,catsup,dressing,gravy,mustard,condiment,0.3593,8,14
+yellow,wordnet_easy_hypernym,blade,chisel,cutter,knife,cutting implement,0.4057,8,14
+yellow,wordnet_easy_hypernym,avenue,driveway,freeway,highway,road,0.3833,6,25
+yellow,wordnet_easy_hypernym,bloodhound,collie,husky,puppy,domestic animal,0.5048,7,15
+yellow,wordnet_easy_hypernym,epiphysis,jaw,rib,tusk,connective tissue,0.3852,7,32
+yellow,wordnet_easy_hypernym,closer,lefthander,slugger,southpaw,ballplayer,0.3672,6,16
+yellow,wordnet_easy_hypernym,bandit,gangster,hijacker,robber,criminal,0.4445,7,37
+yellow,wordnet_easy_hypernym,collie,husky,terrier,toy,dog,0.3521,8,11
+yellow,wordnet_easy_hypernym,buckboard,cab,tractor,truck,wheeled vehicle,0.4939,7,55
+yellow,wordnet_easy_hypernym,celery,fennel,legume,marrow,vegetable,0.3621,6,26
+yellow,wordnet_easy_hypernym,chemist,orthodontist,psychiatrist,veterinarian,health professional,0.3629,6,25
+yellow,wordnet_easy_hypernym,avocado,berry,lime,pineapple,edible fruit,0.5314,6,22
+yellow,wordnet_easy_hypernym,baby,calf,filly,pup,young mammal,0.3548,8,12
+yellow,wordnet_easy_hypernym,cinema,film,television,video,medium,0.4031,6,23
+yellow,wordnet_easy_hypernym,dad,daddy,father,stepmother,parent,0.6353,8,7
+yellow,wordnet_easy_hypernym,brow,fuzz,mane,stubble,body covering,0.3652,6,40
+yellow,wordnet_easy_hypernym,pea,peanut,pepper,potato,vine,0.4272,8,13
+yellow,wordnet_easy_hypernym,collie,husky,poodle,stray,domestic animal,0.3914,7,15
+yellow,wordnet_easy_hypernym,chow,dog,poodle,puppy,domestic animal,0.5267,7,15
+yellow,wordnet_easy_hypernym,emperor,king,monarch,sovereign,representative,0.4311,6,26
+yellow,wordnet_easy_hypernym,pathologist,psychiatrist,resident,veterinarian,doctor,0.3518,8,16
+yellow,wordnet_easy_hypernym,addict,fanatic,freak,nut,enthusiast,0.3756,6,6
+yellow,wordnet_easy_hypernym,bean,legume,peanut,pepper,vine,0.4181,8,13
+yellow,wordnet_easy_hypernym,kettle,saucepan,skillet,urn,kitchen utensil,0.3665,8,10
+yellow,wordnet_easy_hypernym,calf,lamb,pup,puppy,young mammal,0.4478,8,12
+yellow,wordnet_easy_hypernym,drummer,minstrel,soloist,tenor,musician,0.3559,6,24
+yellow,wordnet_easy_hypernym,colonel,commander,lieutenant,sergeant,military officer,0.6504,7,15
+yellow,wordnet_easy_hypernym,poncho,sweatshirt,underwear,wrapper,garment,0.3689,7,69
+yellow,wordnet_easy_hypernym,epiphysis,marrow,skull,tooth,connective tissue,0.3566,7,32
+yellow,wordnet_easy_hypernym,bandstand,bridge,pier,runway,horizontal surface,0.3535,6,29
+yellow,wordnet_easy_hypernym,cab,engine,sedan,van,wheeled vehicle,0.3670,7,55
+yellow,wordnet_easy_hypernym,algae,bacteria,seaweed,virus,microorganism,0.4234,6,11
+yellow,wordnet_easy_hypernym,castle,dormitory,manor,villa,housing,0.4007,6,34
+yellow,wordnet_easy_hypernym,apartment,dwelling,house,shelter,housing,0.3872,6,34
+yellow,wordnet_easy_hypernym,anterior,epiphysis,rib,tooth,bone,0.3571,8,23
+yellow,wordnet_easy_hypernym,beard,bouffant,eyebrow,mane,hair,0.4425,7,26
+yellow,wordnet_easy_hypernym,bishop,cardinal,churchman,diocesan,clergyman,0.5291,6,26
+yellow,wordnet_easy_hypernym,boatswain,captain,navigator,seafarer,sailor,0.3900,6,12
+yellow,wordnet_easy_hypernym,principal,prof,teacher,tutor,educator,0.3781,6,19
+yellow,wordnet_easy_hypernym,avenue,driveway,roadway,turnpike,road,0.3508,6,25
+yellow,wordnet_easy_hypernym,epiphysis,intima,rib,tendon,animal tissue,0.4567,6,59
+yellow,wordnet_easy_hypernym,dog,puppy,stray,terrier,domestic animal,0.5304,7,15
+yellow,wordnet_easy_hypernym,hound,poodle,queen,terrier,domestic animal,0.3720,7,15
+yellow,wordnet_easy_hypernym,avocado,fig,grapefruit,pear,edible fruit,0.5474,6,22
+yellow,wordnet_easy_hypernym,apartment,lodge,mansion,monastery,housing,0.3598,6,34
+yellow,wordnet_easy_hypernym,babe,chick,doll,rosebud,girl,0.3564,6,9
+yellow,wordnet_easy_hypernym,coat,mane,mustache,stubble,hair,0.4561,7,26
+yellow,wordnet_easy_hypernym,bus,oxcart,tractor,wagon,wheeled vehicle,0.4279,7,55
+yellow,wordnet_easy_hypernym,barn,castle,manor,nursery,building,0.3666,6,69
+yellow,wordnet_easy_hypernym,brass,trumpet,whistle,woodwind,wind instrument,0.3615,8,13
+yellow,wordnet_easy_hypernym,cartilage,rib,skin,spleen,animal tissue,0.4023,6,59
+yellow,wordnet_easy_hypernym,colon,gut,heart,liver,internal organ,0.3606,6,11
+yellow,wordnet_easy_hypernym,bishop,king,preacher,priest,clergyman,0.4251,6,26
+yellow,wordnet_easy_hypernym,miniature,mosaic,sculpture,statue,art,0.4187,6,37
+yellow,wordnet_easy_hypernym,drum,fiddle,guitar,woodwind,musical instrument,0.4230,7,27
+yellow,wordnet_easy_hypernym,robe,sweater,sweatshirt,underwear,garment,0.4995,7,69
+yellow,wordnet_easy_hypernym,apartment,farmhouse,hall,villa,housing,0.3707,6,34
+yellow,wordnet_easy_hypernym,gourd,legume,peanut,soybean,vine,0.3724,8,13
+yellow,wordnet_easy_hypernym,fence,fender,gate,wall,barrier,0.3569,7,29
+yellow,wordnet_easy_hypernym,dentist,doctor,matron,nurse,health professional,0.5069,6,25

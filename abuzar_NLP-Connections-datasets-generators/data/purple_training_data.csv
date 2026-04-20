@@ -1,0 +1,393 @@
+category,mechanism,word1,word2,word3,word4,answer,label,llm_label,llm_score,llm_reason
+purple,compound_suffix,hatch,park,run,water,way,1,keep,4,"Forms natural compounds: hatchway, parkway, runway, waterway. All are recognizable terms."
+purple,compound_prefix,borne,mail,plane,port,air,1,keep,5,"Excellent compound prefix group: airborne, airmail, airplane, airport. All very common words."
+purple,compound_prefix,bone,drop,log,yard,back,1,keep,4,"Good compounds: backbone, backdrop, backlog, backyard. All natural and recognizable."
+purple,verb_noun_association,eel,salmon,fish,shrimp,smelt,0,reject,2,"While 'smelt' can be a verb meaning to melt metal, it's not strongly suggested by these seafood nouns. 'Cook' or 'catch' would be more natural."
+purple,compound_prefix,burn,light,rise,set,sun,1,keep,5,"Perfect compound prefix: sunburn, sunlight, sunrise, sunset. All very common words."
+purple,compound_prefix,line,port,strip,way,air,1,keep,4,"Good compounds: airline, airport, airstrip, airway. All natural terms."
+purple,compound_suffix,along,broad,country,sea,side,1,keep,4,"Natural compounds: alongside, broadside, countryside, seaside. All recognizable words."
+purple,compound_prefix,land,made,owner,sick,home,1,keep,4,"Good compounds: homeland, homemade, homeowner, homesick. All common terms."
+purple,anagram,caret,cater,crate,react,anagram,1,keep,4,"Clean anagram set with common words: caret, cater, crate, react. All recognizable."
+purple,anagram,salve,selva,slave,valse,anagram,0,reject,2,"While valid anagrams, 'selva' and 'valse' are quite obscure. Most players wouldn't recognize these."
+purple,compound_prefix,cast,hill,stream,wind,down,1,keep,4,"Good compounds: downcast, downhill, downstream, downwind. All natural terms."
+purple,anagram,canter,nectar,recant,trance,anagram,1,keep,4,"Valid anagrams with reasonably common words: canter, nectar, recant, trance."
+purple,compound_prefix,burn,down,rise,set,sun,1,keep,4,"Good compounds: sunburn, sundown, sunrise, sunset. All very common words."
+purple,compound_prefix,club,fall,mare,time,night,1,keep,4,"Natural compounds: nightclub, nightfall, nightmare, nighttime. All recognizable."
+purple,compound_prefix,arm,finger,runner,sight,fore,1,keep,4,"Good compounds: forearm, forefinger, forerunner, foresight. All common terms."
+purple,compound_suffix,flash,high,search,sun,light,1,keep,4,"Natural compounds: flashlight, highlight, searchlight, sunlight. All recognizable."
+purple,compound_prefix,arm,cast,head,sight,fore,1,keep,4,"Good compounds: forearm, forecast, forehead, foresight. All common words."
+purple,compound_prefix,arm,finger,ground,sight,fore,1,keep,4,"Natural compounds: forearm, forefinger, foreground, foresight. All recognizable."
+purple,compound_prefix,bow,coat,fall,storm,rain,1,keep,5,"Classic example: rainbow, raincoat, rainfall, rainstorm. Perfect compound prefix group."
+purple,compound_suffix,draw,horse,paper,set,back,1,keep,4,"Good compounds: drawback, horseback, paperback, setback. All natural terms."
+purple,anagram,cater,crate,react,recta,anagram,0,reject,2,'Recta' is too obscure/technical. Most players wouldn't recognize it as a valid word.
+purple,verb_noun_association,script,poem,poetry,book,read,1,keep,4,All nouns strongly suggest 'read' as the associated verb. Natural connection.
+purple,verb_noun_association,religion,ideology,doctrine,principle,adhere,0,reject,2,'Adhere' is not the most natural verb for these abstract nouns. 'Follow' or 'believe' would be more intuitive.
+purple,compound_suffix,half,path,rail,run,way,1,keep,4,"Natural compounds: halfway, pathway, railway, runway. All common terms."
+purple,verb_noun_association,tumor,kidney,infection,disease,recur,0,reject,2,Medical conditions don't strongly suggest 'recur' as the primary verb - 'treat' or 'diagnose' would be more natural.
+purple,compound_prefix,cast,hill,pour,right,down,1,keep,4,"Forms natural compounds: downcast, downhill, downpour, downright."
+purple,compound_suffix,base,eye,high,snow,ball,1,keep,5,"Excellent compounds: baseball, eyeball, highball, snowball."
+purple,compound_suffix,field,fire,net,patch,work,1,keep,4,"Good compounds: fieldwork, firework, network, patchwork."
+purple,verb_noun_association,creativity,innovation,excellence,passion,nurture,0,reject,2,"Abstract concepts don't strongly suggest 'nurture' - could be 'foster', 'develop', or 'cultivate'."
+purple,compound_prefix,cast,ground,runner,see,fore,1,keep,4,"Forms natural compounds: forecast, foreground, forerunner, foresee."
+purple,anagram,aril,lair,lari,rail,anagram,0,reject,2,Contains 'lari' which is obscure (Georgian currency unit).
+purple,anagram,aril,lari,rail,rial,anagram,0,reject,2,Contains 'lari' which is obscure (Georgian currency unit).
+purple,compound_suffix,air,high,run,water,way,1,keep,4,"Good compounds: airway, highway, runway, waterway."
+purple,verb_noun_association,parade,tribute,celebration,ceremony,salute,1,keep,4,Events that naturally suggest 'salute' as the associated action.
+purple,compound_prefix,cast,pour,right,stream,down,1,keep,4,"Forms natural compounds: downcast, downpour, downright, downstream."
+purple,compound_suffix,dinner,lunch,spring,war,time,1,keep,4,"Good compounds: dinnertime, lunchtime, springtime, wartime."
+purple,anagram,astir,sitar,stria,tarsi,anagram,0,reject,2,Contains obscure words like 'stria' and 'tarsi' - too technical/medical.
+purple,verb_noun_association,meal,dish,kitchen,dinner,cook,1,keep,5,Food-related nouns clearly suggest 'cook' as the primary verb.
+purple,verb_noun_association,bullet,pistol,gun,rifle,shoot,1,keep,5,Weapons clearly suggest 'shoot' as the primary associated verb.
+purple,verb_noun_association,crop,wheat,harvest,grain,yield,0,reject,2,Agricultural terms suggest 'grow' or 'harvest' more strongly than 'yield'.
+purple,compound_suffix,fair,half,mid,path,way,1,keep,4,"Forms natural compounds: fairway, halfway, midway, pathway."
+purple,verb_noun_association,channel,cable,programming,television,broadcast,1,keep,4,Media/TV terms naturally suggest 'broadcast' as the associated verb.
+purple,compound_suffix,fair,hall,road,run,way,1,keep,4,"Forms natural compounds: fairway, hallway, roadway, runway."
+purple,anagram,aril,lair,lira,rail,anagram,1,keep,4,"Clean anagram set with common words: aril, lair, lira, rail."
+purple,verb_noun_association,nozzle,valve,piston,cylinder,exhaust,0,reject,2,Engine parts don't clearly suggest 'exhaust' - could be 'operate' or other verbs.
+purple,compound_prefix,cast,runner,see,sight,fore,1,keep,4,"Forms natural compounds: forecast, forerunner, foresee, foresight."
+purple,compound_suffix,free,half,park,run,way,1,keep,4,"Good compounds: freeway, halfway, parkway, runway."
+purple,anagram,luster,result,sutler,ulster,anagram,0,reject,2,Contains 'sutler' which is archaic/obscure (military provisioner).
+purple,anagram,lair,lari,rail,rial,anagram,0,reject,2,Contains 'lari' which is obscure (Georgian currency unit).
+purple,anagram,armed,derma,dream,ramed,anagram,0,reject,1,RAMED is not a recognizable English word - appears to be dictionary junk.
+purple,verb_noun_association,probation,sentence,parole,jail,plead,0,reject,2,"These legal terms don't strongly suggest PLEAD as the primary verb - could be SERVE, IMPOSE, or others."
+purple,compound_suffix,bed,peace,spring,war,time,1,keep,4,"Clean compound suffix pattern: bedtime, peacetime, springtime, wartime - all natural compounds."
+purple,verb_noun_association,lineage,ancestry,descent,origin,trace,1,keep,4,"Strong verb association - lineage, ancestry, descent, origin all suggest TRACE as primary action."
+purple,compound_prefix,ball,point,road,way,high,0,reject,2,HIGHBALL and HIGHPOINT are questionable compounds; mechanism doesn't work cleanly for all words.
+purple,compound_suffix,bed,life,night,summer,time,1,keep,5,"Perfect compound suffix: bedtime, lifetime, nighttime, summertime - all excellent natural compounds."
+purple,anagram,east,sate,seat,seta,anagram,0,reject,2,SETA is too obscure/technical (botanical term) for a fair puzzle.
+purple,compound_prefix,hill,pour,right,stream,down,1,keep,4,"Good compound prefix: downhill, downpour, downright, downstream - all natural compounds."
+purple,verb_noun_association,drink,bottle,wine,glass,pour,1,keep,5,"Excellent verb association - drink, bottle, wine, glass all strongly suggest POUR."
+purple,compound_prefix,craft,mail,strip,way,air,1,keep,4,"Clean compound prefix: aircraft, airmail, airstrip, airway - all natural compounds."
+purple,verb_noun_association,god,salvation,divine,heaven,pray,0,reject,2,"Religious/spiritual terms don't uniquely suggest PRAY - could be WORSHIP, BELIEVE, etc."
+purple,anagram,aper,pear,rape,reap,anagram,0,reject,1,APER is not a recognizable English word - dictionary junk.
+purple,verb_noun_association,size,length,width,diameter,vary,0,reject,2,"Measurement terms don't strongly suggest VARY - could be MEASURE, CALCULATE, etc."
+purple,anagram,ates,eats,sate,seat,anagram,0,reject,2,ATES is questionable as a standalone word - feels like dictionary junk.
+purple,compound_prefix,cracker,light,place,work,fire,1,keep,4,"Good compound prefix: firecracker, firelight, fireplace, firework - all natural compounds."
+purple,compound_suffix,court,round,store,tea,house,1,keep,4,"Clean compound suffix: courthouse, roundhouse, storehouse, teahouse - all natural compounds."
+purple,compound_prefix,fall,pour,right,town,down,1,keep,4,"Good compound prefix: downfall, downpour, downright, downtown - all natural compounds."
+purple,anagram,merit,miter,mitre,remit,anagram,0,reject,2,MITER/MITRE are the same word (US/UK spelling) - violates anagram diversity.
+purple,compound_suffix,air,road,run,water,way,1,keep,4,"Clean compound suffix: airway, roadway, runway, waterway - all natural compounds."
+purple,anagram,leapt,petal,plate,tepal,anagram,0,reject,2,TEPAL is too obscure/technical (botanical term) for a fair puzzle.
+purple,verb_noun_association,bakery,cafe,store,restaurant,shop,0,reject,2,"These are places, not actions - doesn't fit verb_noun_association mechanism well."
+purple,compound_prefix,borne,craft,plane,port,air,1,keep,4,"Good compound prefix: airborne, aircraft, airplane, airport - all natural compounds."
+purple,verb_noun_association,grocery,supermarket,store,pharmacy,retail,0,reject,2,RETAIL is more of a business model than a verb these nouns suggest.
+purple,compound_prefix,borne,craft,field,strip,air,1,keep,4,"Clean compound prefix: airborne, aircraft, airfield, airstrip - all natural compounds."
+purple,compound_prefix,arm,cast,head,runner,fore,1,keep,4,"Good compound prefix: forearm, forecast, forehead, forerunner - all natural compounds."
+purple,compound_suffix,hatch,park,rail,sub,way,1,keep,4,"Forms natural compounds: hatchway, parkway, railway, subway."
+purple,compound_prefix,arm,cast,finger,runner,fore,1,keep,4,"Forms natural compounds: forearm, forecast, forefinger, forerunner."
+purple,compound_suffix,buck,cup,score,spring,board,1,keep,4,"Forms natural compounds: buckboard, cupboard, scoreboard, springboard."
+purple,compound_prefix,fall,pour,stream,turn,down,1,keep,4,"Forms natural compounds: downfall, downpour, downstream, downturn."
+purple,anagram,lari,liar,rail,rial,anagram,0,reject,2,Lari and rial are obscure currency terms; not common enough for puzzle.
+purple,verb_noun_association,tendon,knee,shoulder,surgery,tear,1,keep,4,"All nouns strongly suggest 'tear' as a verb - you can tear tendons, knees, shoulders, and need surgery for tears."
+purple,compound_suffix,free,hall,hatch,high,way,1,keep,4,"Forms natural compounds: freeway, hallway, hatchway, highway."
+purple,anagram,aper,pare,pear,rape,anagram,0,reject,2,Aper is too obscure/archaic; rape is inappropriate for puzzle context.
+purple,compound_suffix,half,mid,park,sub,way,1,keep,4,"Forms natural compounds: halfway, midway, parkway, subway."
+purple,verb_noun_association,platoon,battalion,sergeant,regiment,recruit,0,reject,2,These military units don't strongly suggest 'recruit' - they suggest 'command' or 'lead' more naturally.
+purple,compound_prefix,finger,head,runner,see,fore,1,keep,4,"Forms natural compounds: forefinger, forehead, forerunner, foresee."
+purple,verb_noun_association,lending,debt,loan,credit,borrow,1,keep,4,All financial terms strongly suggest 'borrow' as the associated verb.
+purple,verb_noun_association,curriculum,classroom,academic,learning,enrich,0,reject,2,"These educational terms don't specifically suggest 'enrich' - could be 'teach', 'study', 'improve', etc."
+purple,verb_noun_association,accomplishment,victory,triumph,achievement,congratulate,1,keep,4,All success-related nouns strongly suggest 'congratulate' as the appropriate response verb.
+purple,verb_noun_association,axle,brake,tire,wheel,steer,0,reject,2,"Car parts don't specifically suggest 'steer' - could be 'repair', 'replace', 'check', etc."
+purple,verb_noun_association,likelihood,risk,danger,threat,lessen,0,reject,2,"These threat-related nouns don't specifically suggest 'lessen' - could be 'avoid', 'assess', 'manage', etc."
+purple,verb_noun_association,pilgrimage,journey,voyage,expedition,undertake,1,keep,4,All journey-related nouns strongly suggest 'undertake' as the verb to begin them.
+purple,anagram,reins,resin,serin,siren,anagram,0,reject,2,Serin is too obscure (type of bird); not common enough for puzzle.
+purple,anagram,resin,rinse,risen,siren,anagram,1,keep,4,"Clean anagram set with common, recognizable words."
+purple,compound_suffix,fair,gate,high,run,way,1,keep,4,"Forms natural compounds: fairway, gateway, highway, runway."
+purple,verb_noun_association,lending,mortgage,debt,loan,underwrite,0,reject,2,"These financial terms don't specifically suggest 'underwrite' - could be 'approve', 'manage', 'process', etc."
+purple,compound_suffix,air,hatch,high,sub,way,1,keep,4,"Forms natural compounds: airway, hatchway, highway, subway."
+purple,anagram,lave,vale,veal,vela,anagram,0,reject,2,Vela is too obscure (constellation/anatomy term); not common enough for puzzle.
+purple,verb_noun_association,tumor,tissue,bone,skin,remove,1,keep,4,All body parts/medical terms strongly suggest 'remove' in surgical context.
+purple,anagram,abet,bate,beat,beta,anagram,1,keep,4,"Clean anagram set with common, recognizable words."
+purple,anagram,rate,tare,tear,tera,anagram,1,keep,5,"Clean anagram set with common words: rate, tare, tear, tera."
+purple,compound_suffix,air,gate,half,hatch,way,1,keep,4,"Good compound suffix: airway, gateway, halfway, hatchway are all natural compounds."
+purple,compound_prefix,borne,craft,mail,port,air,1,keep,5,"Excellent compound prefix: airborne, aircraft, airmail, airport are all common compounds."
+purple,compound_prefix,cast,fall,pour,turn,down,1,keep,4,"Good compound prefix: downcast, downfall, downpour, downturn are natural compounds."
+purple,compound_prefix,right,stream,turn,wind,down,1,keep,4,"Good compound prefix: downright, downstream, downturn, downwind are natural compounds."
+purple,compound_prefix,fall,right,turn,wind,down,1,keep,4,"Good compound prefix: downfall, downright, downturn, downwind are natural compounds."
+purple,compound_prefix,field,mail,strip,way,air,1,keep,5,"Excellent compound prefix: airfield, airmail, airstrip, airway are all common compounds."
+purple,verb_noun_association,ranch,herd,cattle,livestock,corral,0,reject,2,Verb 'corral' is too specific and not strongly suggested by all four nouns.
+purple,verb_noun_association,plaque,monument,statue,memorial,commemorate,1,keep,4,"Good verb association: plaque, monument, statue, memorial all strongly suggest 'commemorate'."
+purple,compound_prefix,craft,field,port,way,air,1,keep,5,"Excellent compound prefix: aircraft, airfield, airport, airway are all common compounds."
+purple,compound_prefix,field,port,strip,way,air,1,keep,5,"Excellent compound prefix: airfield, airport, airstrip, airway are all common compounds."
+purple,compound_prefix,cast,hill,right,town,down,1,keep,4,"Good compound prefix: downcast, downhill, downright, downtown are natural compounds."
+purple,anagram,caret,cater,crate,trace,anagram,1,keep,5,"Clean anagram set with common words: caret, cater, crate, trace."
+purple,verb_noun_association,drummer,vocalist,guitarist,band,jam,1,keep,4,"Good verb association: drummer, vocalist, guitarist, band all strongly suggest 'jam'."
+purple,anagram,stale,steal,stela,tales,anagram,0,reject,2,"Stela is too obscure/archaic for a fair puzzle, though other words are common."
+purple,compound_prefix,borne,field,line,port,air,1,keep,5,"Excellent compound prefix: airborne, airfield, airline, airport are all common compounds."
+purple,verb_noun_association,prosecution,jury,trial,defendant,testify,1,keep,4,"Good verb association: prosecution, jury, trial, defendant all strongly suggest 'testify'."
+purple,compound_suffix,mid,path,stair,water,way,1,keep,4,"Good compound suffix: midway, pathway, stairway, waterway are natural compounds."
+purple,compound_prefix,air,day,night,week,mid,1,keep,4,"Good compound prefix: midair, midday, midnight, midweek are natural compounds."
+purple,compound_prefix,burn,down,light,shade,sun,1,keep,4,"Good compound prefix: sunburn, sundown, sunlight, sunshade are natural compounds."
+purple,verb_noun_association,roadway,freeway,highway,expressway,stretch,0,reject,2,Verb 'stretch' is not strongly suggested by these road-related nouns; 'travel' or 'drive' would be better.
+purple,compound_prefix,ache,light,line,water,head,1,keep,4,"Good compound prefix: headache, headlight, headline, headwater are natural compounds."
+purple,compound_suffix,air,border,crystal,shore,line,1,keep,4,"Good compound suffix: airline, borderline, crystalline, shoreline are natural compounds."
+purple,anagram,piles,plies,spiel,spile,anagram,0,reject,2,"Spile is too obscure for a fair puzzle, though other words are common."
+purple,verb_noun_association,tournament,round,playoff,championship,qualify,1,keep,4,"Good verb association: tournament, round, playoff, championship all strongly suggest 'qualify'."
+purple,verb_noun_association,waste,garbage,trash,sewage,dispose,0,reject,2,The verb 'dispose' doesn't strongly connect to all nouns - sewage especially doesn't naturally suggest 'dispose' as the primary action.
+purple,anagram,mate,meat,tame,team,anagram,1,keep,5,"Perfect anagram set with common, recognizable words: mate/meat/tame/team."
+purple,compound_prefix,arm,ground,runner,see,fore,1,keep,4,"Clean compound prefix group: forearm, foreground, forerunner, foresee are all natural compounds."
+purple,verb_noun_association,discomfort,pain,stress,anxiety,relieve,1,keep,4,Good verb association - 'relieve' naturally connects to all four types of negative experiences.
+purple,compound_suffix,door,hatch,rail,run,way,1,keep,4,"Solid compound suffix group: doorway, hatchway, railway, runway are all natural compounds."
+purple,verb_noun_association,diligence,courage,dedication,commitment,commend,0,reject,2,"The verb 'commend' is weak - these virtues more naturally suggest 'admire', 'praise', or 'respect'."
+purple,compound_suffix,check,guide,note,sketch,book,1,keep,5,"Excellent compound suffix group: checkbook, guidebook, notebook, sketchbook are all common, natural compounds."
+purple,compound_prefix,cast,finger,ground,runner,fore,1,keep,4,"Good compound prefix group: forecast, forefinger, foreground, forerunner are all natural compounds."
+purple,compound_prefix,arm,finger,ground,runner,fore,1,keep,4,"Clean compound prefix group: forearm, forefinger, foreground, forerunner are all natural compounds."
+purple,compound_suffix,drive,half,path,rail,way,1,keep,4,"Good compound suffix group: driveway, halfway, pathway, railway are all natural compounds."
+purple,verb_noun_association,god,heaven,divine,holy,glorify,0,reject,2,The verb 'glorify' doesn't naturally connect to all words - 'divine' and 'holy' are adjectives that don't strongly suggest this action.
+purple,anagram,reins,rinse,serin,siren,anagram,0,reject,2,'Serin' is too obscure (a type of finch) - most players wouldn't recognize it as a valid anagram partner.
+purple,verb_noun_association,legislation,amendment,bill,proposal,oppose,0,reject,2,"The verb 'oppose' is weak - these legislative items more naturally suggest 'pass', 'enact', or 'draft'."
+purple,anagram,derange,enraged,grandee,grenade,anagram,1,keep,4,"Good anagram set with recognizable words, though 'grandee' is less common but still legitimate."
+purple,anagram,cater,crate,recta,trace,anagram,0,reject,2,'Recta' is too obscure/technical (anatomical term) - not suitable for a general puzzle.
+purple,verb_noun_association,oppression,injustice,slavery,discrimination,perpetuate,0,reject,2,"The verb 'perpetuate' is too specific and negative - these concepts more naturally suggest 'fight', 'end', or 'oppose'."
+purple,verb_noun_association,strife,unrest,turmoil,controversy,beset,0,reject,2,"The verb 'beset' is too archaic/formal - these situations more naturally suggest 'cause', 'create', or 'resolve'."
+purple,compound_prefix,borne,craft,line,mail,air,1,keep,4,"Good compound prefix group: airborne, aircraft, airline, airmail are all natural compounds."
+purple,compound_prefix,boy,house,master,room,school,1,keep,4,"Clean compound prefix group: schoolboy, schoolhouse, schoolmaster, schoolroom are all natural compounds."
+purple,anagram,ester,reset,steer,terse,anagram,1,keep,5,"Excellent anagram set with common, recognizable words: ester/reset/steer/terse."
+purple,compound_suffix,fair,hatch,mid,water,way,1,keep,4,"Good compound suffix group: fairway, hatchway, midway, waterway are all natural compounds."
+purple,verb_noun_association,impasse,dispute,conflict,crisis,resolve,1,keep,5,Perfect verb association - 'resolve' naturally and strongly connects to all four types of problems.
+purple,verb_noun_association,assent,consent,approval,permission,withhold,1,keep,4,Good verb association - 'withhold' naturally connects to all four types of positive responses.
+purple,compound_suffix,dinner,life,night,peace,time,1,keep,4,"Good compound suffix group: dinnertime, lifetime, nighttime, peacetime are all natural compounds."
+purple,compound_suffix,day,life,meal,night,time,1,keep,4,"Clean compound suffix group: daytime, lifetime, mealtime, nighttime are all natural compounds."
+purple,anagram,slate,steal,stela,tales,anagram,1,keep,4,"Clean anagram set with common words: slate, steal, tales are very recognizable, stela is less common but valid."
+purple,compound_prefix,craft,port,strip,way,air,1,keep,4,"Good compound prefix group: aircraft, airport, airstrip, airway are all natural compounds."
+purple,anagram,dinar,drain,nadir,ranid,anagram,0,reject,2,"Weak anagram set - ranid is very obscure (relating to frogs), making this too technical for general solvers."
+purple,compound_prefix,color,fall,proof,way,water,1,keep,5,"Excellent compound prefix group: watercolor, waterfall, waterproof, waterway are all common, natural compounds."
+purple,verb_noun_association,pastor,congregation,clergy,church,preach,1,keep,4,"Good verb-noun association - all four nouns (pastor, congregation, clergy, church) strongly suggest the action of preaching."
+purple,compound_suffix,bed,mean,night,spring,time,1,keep,4,"Good compound suffix group: bedtime, meantime, nighttime, springtime are all natural compounds."
+purple,compound_prefix,field,line,mail,strip,air,1,keep,4,"Good compound prefix group: airfield, airline, airmail, airstrip are all natural compounds."
+purple,compound_suffix,dinner,life,spring,war,time,1,keep,4,"Good compound suffix group: dinnertime, lifetime, springtime, wartime are all natural compounds."
+purple,compound_suffix,bill,cup,peg,score,board,1,keep,4,"Good compound suffix group: billboard, cupboard, pegboard, scoreboard are all natural compounds."
+purple,compound_prefix,burn,down,light,rise,sun,1,keep,5,"Excellent compound prefix group: sunburn, sundown, sunlight, sunrise are all very common, natural compounds."
+purple,compound_suffix,court,green,smoke,tea,house,1,keep,4,"Good compound suffix group: courthouse, greenhouse, smokehouse, teahouse are all natural compounds."
+purple,verb_noun_association,cargo,shipment,container,freight,unload,1,keep,4,"Good verb-noun association - cargo, shipment, container, freight all strongly suggest the action of unloading."
+purple,compound_prefix,craft,field,mail,way,air,1,keep,4,"Good compound prefix group: aircraft, airfield, airmail, airway are all natural compounds."
+purple,compound_prefix,field,mail,port,way,air,1,keep,4,"Good compound prefix group: airfield, airmail, airport, airway are all natural compounds."
+purple,compound_prefix,fall,right,stream,wind,down,1,keep,4,"Good compound prefix group: downfall, downright, downstream, downwind are all natural compounds."
+purple,compound_prefix,cast,finger,head,see,fore,1,keep,4,"Good compound prefix group: forecast, forefinger, forehead, foresee are all natural compounds."
+purple,anagram,reins,rinse,risen,serin,anagram,0,reject,2,"Weak anagram set - serin is very obscure (a type of finch), making this too technical for general solvers."
+purple,compound_suffix,fire,frame,patch,wood,work,1,keep,4,"Good compound suffix group: firework, framework, patchwork, woodwork are all natural compounds."
+purple,anagram,reales,resale,reseal,sealer,anagram,0,reject,2,"Weak anagram set - reales is obscure (Spanish currency plural), making this too technical for general solvers."
+purple,compound_prefix,cast,pour,turn,wind,down,1,keep,4,"Good compound prefix group: downcast, downpour, downturn, downwind are all natural compounds."
+purple,anagram,lair,lari,liar,lira,anagram,0,reject,2,"Weak anagram set - lari is obscure (Georgian currency), making this too technical for general solvers."
+purple,compound_suffix,birth,common,fire,market,place,1,keep,4,"Good compound suffix group: birthplace, commonplace, fireplace, marketplace are all natural compounds."
+purple,anagram,aril,lair,liar,lira,anagram,0,reject,2,"Weak anagram set - aril is very obscure (seed covering), making this too technical for general solvers."
+purple,compound_suffix,bed,lunch,spring,war,time,1,keep,4,"Good compound suffix group: bedtime, lunchtime, springtime, wartime are all natural compounds."
+purple,compound_prefix,field,mail,port,strip,air,1,keep,5,"Perfect compound prefix group: airfield, airmail, airport, airstrip are all natural, recognizable compounds."
+purple,anagram,alert,alter,later,ratel,anagram,1,keep,4,"Clean anagram set with common words, though 'ratel' (honey badger) is less familiar but still legitimate."
+purple,compound_suffix,door,high,path,stair,way,1,keep,5,"Excellent compound suffix group: doorway, highway, pathway, stairway are all natural compounds."
+purple,anagram,lasting,salting,slating,staling,anagram,1,keep,4,"Good anagram set with recognizable words, though 'staling' is less common but valid."
+purple,compound_prefix,hill,right,town,wind,down,1,keep,5,"Strong compound prefix group: downhill, downright, downtown, downwind are all natural compounds."
+purple,verb_noun_association,touchdown,receiver,quarterback,offense,pass,1,keep,5,Excellent verb-noun association: all four football terms strongly suggest 'pass' as the connecting verb.
+purple,anagram,resin,rinse,serin,siren,anagram,1,keep,4,"Good anagram set, though 'serin' (type of finch) is less common but legitimate."
+purple,verb_noun_association,guitar,violin,saxophone,piano,fiddle,0,reject,2,Weak verb-noun association: 'play' would be much more natural than 'fiddle' for these instruments.
+purple,anagram,ates,east,eats,sate,anagram,1,keep,4,"Clean anagram set with common words, though 'ates' is less familiar but valid."
+purple,compound_suffix,air,drive,hall,run,way,1,keep,5,"Perfect compound suffix group: airway, driveway, hallway, runway are all natural compounds."
+purple,compound_suffix,case,field,fire,grill,work,1,keep,4,"Good compound suffix group: casework, fieldwork, firework, grillwork are recognizable compounds."
+purple,compound_prefix,burn,down,light,set,sun,1,keep,5,"Excellent compound prefix group: sunburn, sundown, sunlight, sunset are all natural compounds."
+purple,compound_prefix,cast,fall,stream,turn,down,1,keep,5,"Strong compound prefix group: downcast, downfall, downstream, downturn are all natural compounds."
+purple,anagram,least,slate,steal,stela,anagram,1,keep,4,"Good anagram set, though 'stela' (stone monument) is less common but legitimate."
+purple,compound_prefix,down,light,set,shine,sun,1,keep,5,"Perfect compound prefix group: sundown, sunlight, sunset, sunshine are all natural compounds."
+purple,compound_prefix,pour,right,stream,turn,down,1,keep,5,"Excellent compound prefix group: downpour, downright, downstream, downturn are all natural compounds."
+purple,anagram,ruse,suer,sure,user,anagram,1,keep,5,"Perfect anagram set with all common, recognizable words."
+purple,anagram,caret,carte,cater,crate,anagram,1,keep,5,"Excellent anagram set with all common, recognizable words."
+purple,compound_prefix,arm,cast,finger,head,fore,1,keep,5,"Perfect compound prefix group: forearm, forecast, forefinger, forehead are all natural compounds."
+purple,anagram,cater,react,recta,trace,anagram,1,keep,4,"Good anagram set, though 'recta' (anatomical term) is technical but legitimate."
+purple,compound_suffix,black,dash,floor,key,board,1,keep,5,"Excellent compound suffix group: blackboard, dashboard, floorboard, keyboard are all natural compounds."
+purple,compound_suffix,free,hatch,run,stair,way,1,keep,5,"Perfect compound suffix group: freeway, hatchway, runway, stairway are all natural compounds."
+purple,anagram,reins,rinse,risen,siren,anagram,1,keep,5,"Excellent anagram set with all common, recognizable words."
+purple,verb_noun_association,borrower,mortgage,loan,lending,repay,0,reject,2,"Mixed word types (borrower/lending are agent/gerund, not pure nouns) and 'repay' isn't the strongest verb association."
+purple,compound_prefix,arm,cast,finger,ground,fore,1,keep,4,"Clean compound prefix pattern: forearm, forecast, forefinger, foreground are all natural compounds."
+purple,compound_suffix,fair,hall,hatch,high,way,1,keep,4,"Good compound suffix: fairway, hallway, hatchway, highway are all recognizable compounds."
+purple,anagram,prat,rapt,tarp,trap,anagram,1,keep,5,"Perfect anagram set with common, recognizable words that are clean anagrams of each other."
+purple,compound_suffix,hatch,road,run,water,way,1,keep,4,"Solid compound suffix: hatchway, roadway, runway, waterway are all natural compounds."
+purple,anagram,lascar,rascal,sacral,scalar,anagram,0,reject,2,Contains obscure/technical words like 'lascar' and 'sacral' that most players wouldn't recognize.
+purple,compound_suffix,free,hatch,mid,sub,way,1,keep,4,"Good compound suffix: freeway, hatchway, midway, subway are all common compounds."
+purple,compound_suffix,along,curb,dock,mountain,side,1,keep,4,"Clean compound suffix: alongside, curbside, dockside, mountainside are all natural compounds."
+purple,compound_prefix,field,line,port,way,air,1,keep,4,"Good compound prefix: airfield, airline, airport, airway are all recognizable compounds."
+purple,anagram,acinar,arnica,carina,crania,anagram,0,reject,1,"All words are obscure/technical terms that most players wouldn't know (acinar, arnica, carina, crania)."
+purple,verb_noun_association,injustice,oppression,slavery,persecution,denounce,0,reject,2,'Denounce' is not the strongest verb association; these nouns more strongly suggest 'fight' or 'oppose'.
+purple,compound_suffix,bed,life,peace,summer,time,1,keep,5,"Excellent compound suffix: bedtime, lifetime, peacetime, summertime are all common, natural compounds."
+purple,compound_prefix,craft,field,mail,port,air,1,keep,4,"Good compound prefix: aircraft, airfield, airmail, airport are all common compounds."
+purple,compound_suffix,fair,hall,high,park,way,1,keep,4,"Solid compound suffix: fairway, hallway, highway, parkway are all recognizable compounds."
+purple,anagram,least,slate,steal,tales,anagram,1,keep,5,"Excellent anagram set with common, easily recognizable words."
+purple,verb_noun_association,herd,livestock,sheep,cattle,roam,0,reject,2,'Roam' is not the strongest verb association; these nouns more strongly suggest 'graze' or 'tend'.
+purple,compound_prefix,borne,craft,mail,strip,air,1,keep,4,"Good compound prefix: airborne, aircraft, airmail, airstrip are all natural compounds."
+purple,compound_suffix,lunch,meal,peace,summer,time,1,keep,4,"Solid compound suffix: lunchtime, mealtime, peacetime, summertime are all common compounds."
+purple,verb_noun_association,humidity,moisture,dry,wet,tolerate,0,reject,1,"Mixed word types (dry/wet are adjectives, not nouns) and 'tolerate' is not a strong association."
+purple,verb_noun_association,verdict,judgment,ruling,decision,appeal,1,keep,4,Good verb-noun association: all four nouns strongly suggest the action 'appeal' in legal contexts.
+purple,compound_suffix,door,hatch,park,road,way,1,keep,4,"Clean compound suffix: doorway, hatchway, parkway, roadway are all natural compounds."
+purple,anagram,reins,resin,rinse,risen,anagram,1,keep,5,"Perfect anagram set with common, recognizable words that are clean anagrams."
+purple,verb_noun_association,technique,concept,method,approach,refine,0,reject,2,'Refine' is not the strongest verb association; these nouns more strongly suggest 'develop' or 'apply'.
+purple,verb_noun_association,villain,character,storyline,hero,portray,0,reject,2,"The nouns don't strongly suggest 'portray' - they could suggest 'develop', 'create', 'write' equally well."
+purple,verb_noun_association,frost,cold,snow,winter,freeze,1,keep,4,All four nouns clearly suggest the verb 'freeze' - good association.
+purple,anagram,astir,sitar,stair,tarsi,anagram,0,reject,2,'tarsi' is too obscure/technical (plural of tarsus) for a fair puzzle.
+purple,compound_suffix,gate,rail,road,run,way,1,keep,5,"Perfect compounds: gateway, railway, roadway, runway - all natural and recognizable."
+purple,compound_prefix,light,rise,set,shine,sun,1,keep,5,"Excellent compounds: sunlight, sunrise, sunset, sunshine - all natural."
+purple,anagram,aril,lari,liar,lira,anagram,0,reject,2,'lari' is too obscure (Georgian currency) for a fair puzzle.
+purple,anagram,caret,carte,crate,recta,anagram,0,reject,2,'recta' is too obscure/technical for a fair puzzle.
+purple,compound_suffix,round,school,store,tea,house,1,keep,4,"Good compounds: roundhouse, schoolhouse, storehouse, teahouse - all recognizable."
+purple,compound_prefix,craft,mail,port,strip,air,1,keep,5,"Perfect compounds: aircraft, airmail, airport, airstrip - all natural."
+purple,compound_suffix,door,hall,park,stair,way,1,keep,5,"Excellent compounds: doorway, hallway, parkway, stairway - all natural."
+purple,compound_suffix,hall,hatch,run,stair,way,1,keep,4,"Good compounds: hallway, hatchway, runway, stairway - all recognizable."
+purple,compound_prefix,arm,cast,finger,sight,fore,1,keep,5,"Perfect compounds: forearm, forecast, forefinger, foresight - all natural."
+purple,compound_suffix,draw,horse,line,paper,back,1,keep,4,"Good compounds: drawback, horseback, lineback, paperback - all recognizable."
+purple,verb_noun_association,affection,devotion,friendship,love,cherish,1,keep,4,All four nouns clearly suggest the verb 'cherish' - good association.
+purple,anagram,lair,lari,lira,rail,anagram,0,reject,2,'lari' is too obscure (Georgian currency) for a fair puzzle.
+purple,compound_prefix,pour,right,town,wind,down,1,keep,5,"Perfect compounds: downpour, downright, downtown, downwind - all natural."
+purple,compound_suffix,door,path,stair,water,way,1,keep,5,"Excellent compounds: doorway, pathway, stairway, waterway - all natural."
+purple,anagram,alert,alter,artel,later,anagram,0,reject,2,'artel' is too obscure (Russian cooperative) for a fair puzzle.
+purple,compound_prefix,craft,plane,port,strip,air,1,keep,5,"Perfect compounds: aircraft, airplane, airport, airstrip - all natural."
+purple,verb_noun_association,syllable,vowel,consonant,alphabet,pronounce,0,reject,2,"The nouns don't strongly suggest 'pronounce' - they could suggest 'spell', 'read', 'write' equally well."
+purple,compound_prefix,cast,finger,head,runner,fore,1,keep,4,"Good compounds: forecast, forefinger, forehead, forerunner - all recognizable."
+purple,compound_suffix,pit,rain,snow,water,fall,1,keep,5,"Perfect compounds: pitfall, rainfall, snowfall, waterfall - all natural."
+purple,compound_suffix,club,court,school,tea,house,1,keep,5,"Excellent compounds: clubhouse, courthouse, schoolhouse, teahouse - all natural."
+purple,anagram,resin,rinse,risen,serin,anagram,0,reject,2,'serin' is too obscure (type of finch) for a fair puzzle.
+purple,compound_suffix,bed,meal,peace,summer,time,1,keep,5,"Perfect compounds: bedtime, mealtime, peacetime, summertime - all natural."
+purple,compound_prefix,down,light,set,shade,sun,1,keep,5,"Perfect compound prefix group: sundown, sunlight, sunset, sunshade are all natural compounds."
+purple,compound_suffix,come,draw,half,set,back,1,keep,4,"Good compound suffix group: comeback, drawback, halfback, setback are all recognizable compounds."
+purple,verb_noun_association,thirst,curiosity,appetite,desire,satisfy,1,keep,5,"Excellent verb-noun association: all four nouns (thirst, curiosity, appetite, desire) are strongly associated with 'satisfy'."
+purple,anagram,east,eats,sate,seta,anagram,1,keep,4,"Clean anagram set: east, eats, sate, seta are all anagrams of each other and reasonably common words."
+purple,verb_noun_association,schooner,vessel,voyage,sailing,shipwreck,0,reject,2,Weak verb-noun association: 'shipwreck' is not a verb strongly suggested by these nautical nouns; 'sail' would be better.
+purple,verb_noun_association,garbage,rubbish,trash,waste,dump,1,keep,4,Good verb-noun association: all four waste-related nouns strongly suggest the verb 'dump'.
+purple,verb_noun_association,lion,beast,tiger,creature,roar,1,keep,4,Good verb-noun association: these animal/creature nouns naturally suggest 'roar' as a characteristic action.
+purple,verb_noun_association,juice,nectar,milk,honey,suck,0,reject,2,Weak verb-noun association: 'suck' is not the most natural verb for these liquids; 'drink' or 'consume' would be better.
+purple,compound_suffix,door,fair,half,high,way,1,keep,4,"Good compound suffix group: doorway, fairway, halfway, highway are all natural compounds."
+purple,compound_suffix,draw,feed,line,set,back,1,keep,4,"Good compound suffix group: drawback, feedback, lineup, setback are all recognizable compounds."
+purple,compound_prefix,finger,head,runner,sight,fore,1,keep,4,"Good compound prefix group: forefinger, forehead, forerunner, foresight are all natural compounds."
+purple,compound_suffix,along,country,curb,way,side,1,keep,4,"Good compound suffix group: alongside, countryside, curbside, wayside are all natural compounds."
+purple,compound_suffix,half,park,road,water,way,1,keep,4,"Good compound suffix group: halfway, parkway, roadway, waterway are all natural compounds."
+purple,anagram,caret,carte,cater,recta,anagram,0,reject,2,Weak anagram set: 'recta' is too obscure/technical; the other three are good but one weak link hurts the group.
+purple,anagram,aril,lair,lari,liar,anagram,0,reject,2,Weak anagram set: 'aril' and 'lari' are too obscure for most solvers; only 'lair' and 'liar' are common.
+purple,anagram,enlist,listen,silent,tinsel,anagram,1,keep,5,"Excellent anagram set: enlist, listen, silent, tinsel are all common words and perfect anagrams."
+purple,compound_suffix,cup,dash,floor,spring,board,1,keep,4,"Good compound suffix group: cupboard, dashboard, floorboard, springboard are all natural compounds."
+purple,compound_suffix,drive,half,mid,run,way,1,keep,4,"Good compound suffix group: driveway, halfway, midway, runway are all natural compounds."
+purple,compound_suffix,back,battle,fore,play,ground,1,keep,4,"Good compound suffix group: background, battleground, foreground, playground are all natural compounds."
+purple,verb_noun_association,expressway,freeway,parkway,highway,connect,0,reject,2,Weak verb-noun association: 'connect' is not strongly suggested by these road types; they don't naturally evoke that specific verb.
+purple,compound_suffix,air,free,high,road,way,1,keep,4,"Good compound suffix group: airway, freeway, highway, roadway are all natural compounds."
+purple,compound_suffix,day,dinner,mean,night,time,1,keep,4,"Good compound suffix group: daytime, dinnertime, meantime, nighttime are all natural compounds."
+purple,compound_prefix,cast,right,turn,wind,down,1,keep,4,"Good compound prefix group: downcast, downright, downturn, downwind are all natural compounds."
+purple,verb_noun_association,statute,legislation,law,amendment,enforce,1,keep,4,Good verb-noun association: all four legal terms strongly suggest the verb 'enforce'.
+purple,compound_suffix,bed,dinner,mean,spring,time,1,keep,4,"Good compound suffix group: bedtime, dinnertime, meantime, springtime are all natural compounds."
+purple,compound_prefix,borne,craft,plane,strip,air,1,keep,5,"Perfect compound_prefix group: airborne, aircraft, airplane, airstrip are all natural, recognizable compounds."
+purple,compound_suffix,door,hall,hatch,road,way,1,keep,5,"Excellent compound_suffix group: doorway, hallway, hatchway, roadway are all natural compounds."
+purple,compound_prefix,line,mail,port,way,air,1,keep,5,"Strong compound_prefix group: airline, airmail, airport, airway are all common, natural compounds."
+purple,anagram,lair,liar,lira,rial,anagram,1,keep,4,"Good anagram set with common words: lair, liar, lira, rial are all recognizable anagrams."
+purple,compound_prefix,craft,line,port,strip,air,1,keep,5,"Perfect compound_prefix group: aircraft, airline, airport, airstrip are all natural compounds."
+purple,verb_noun_association,thigh,knee,elbow,ankle,bruise,0,reject,2,"Weak verb_noun_association. Body parts don't strongly suggest 'bruise' - they could suggest many other verbs like bend, flex, injure."
+purple,compound_suffix,air,gate,hall,sub,way,1,keep,4,"Good compound_suffix group: airway, gateway, hallway, subway are natural compounds."
+purple,anagram,carte,crate,react,trace,anagram,1,keep,5,"Excellent anagram set: carte, crate, react, trace are all common words and clean anagrams."
+purple,compound_prefix,cast,pour,right,town,down,1,keep,4,"Good compound_prefix group: downcast, downpour, downright, downtown are all natural compounds."
+purple,anagram,inert,inter,niter,trine,anagram,1,keep,4,"Good anagram set: inert, inter, niter, trine are recognizable words and valid anagrams."
+purple,anagram,caret,crate,recta,trace,anagram,0,reject,2,"Weak anagram set. 'Recta' is obscure/technical (anatomical term), making this unfair for general solvers."
+purple,compound_prefix,cast,hill,pour,stream,down,1,keep,5,"Excellent compound_prefix group: downcast, downhill, downpour, downstream are all natural compounds."
+purple,verb_noun_association,legislation,repeal,amendment,reform,enact,0,reject,2,"Weak verb_noun_association. These legislative terms don't uniquely suggest 'enact' - they could suggest pass, vote, create, etc."
+purple,verb_noun_association,visa,passport,permit,license,require,0,reject,2,"Weak verb_noun_association. Documents like visa, passport don't strongly suggest 'require' - could be obtain, issue, check, etc."
+purple,compound_suffix,drive,half,hatch,mid,way,1,keep,4,"Good compound_suffix group: driveway, halfway, hatchway, midway are natural compounds."
+purple,compound_suffix,beach,bridge,red,war,head,1,keep,4,"Good compound_suffix group: beachhead, bridgehead, redhead, warhead are all natural compounds."
+purple,anagram,escarp,parsec,scrape,secpar,anagram,0,reject,1,"Bad anagram set. 'Secpar' appears to be dictionary junk/artificial, making this unfair."
+purple,compound_prefix,pour,right,stream,wind,down,1,keep,5,"Excellent compound_prefix group: downpour, downright, downstream, downwind are all natural compounds."
+purple,compound_suffix,broad,dock,hill,sea,side,1,keep,4,"Good compound_suffix group: broadside, dockside, hillside, seaside are natural compounds."
+purple,anagram,carte,cater,react,recta,anagram,0,reject,2,"Weak anagram set. 'Recta' is obscure/technical, making this unfair for general puzzle solvers."
+purple,compound_suffix,bed,mean,peace,spring,time,1,keep,4,"Good compound_suffix group: bedtime, meantime, peacetime, springtime are natural compounds."
+purple,verb_noun_association,pedal,accelerator,brake,steering,throttle,0,reject,2,"Weak verb_noun_association. Car controls don't uniquely suggest 'throttle' - could be press, use, operate, etc."
+purple,verb_noun_association,joke,parody,funny,humor,gag,0,reject,2,"Weak verb_noun_association. Comedy terms don't strongly suggest 'gag' specifically - could be tell, make, create, etc."
+purple,compound_prefix,cast,right,stream,wind,down,1,keep,5,"Excellent compound_prefix group: downcast, downright, downstream, downwind are all natural compounds."
+purple,verb_noun_association,irrigation,reservoir,water,dam,supply,0,reject,2,"Weak verb_noun_association. Water-related nouns don't uniquely suggest 'supply' - could be store, manage, control, etc."
+purple,anagram,part,prat,rapt,trap,anagram,1,keep,5,"Clean anagram set with common, recognizable words."
+purple,compound_prefix,cast,hill,town,wind,down,1,keep,5,"Perfect compound prefix group: downcast, downhill, downtown, downwind."
+purple,anagram,aril,lari,lira,rial,anagram,0,reject,2,"Too many obscure currency/botanical terms (aril, lari, rial)."
+purple,compound_prefix,light,rise,set,shade,sun,1,keep,5,"Excellent compound prefix group: sunlight, sunrise, sunset, sunshade."
+purple,verb_noun_association,firearm,ammunition,weapon,gun,carry,0,reject,2,Verb 'carry' is not strongly suggested by these weapon-related nouns.
+purple,verb_noun_association,drywall,stucco,flooring,tile,plaster,0,reject,2,'Plaster' is not a verb strongly associated with all these construction materials.
+purple,anagram,glare,lager,large,regal,anagram,1,keep,5,"Clean anagram set with common, recognizable words."
+purple,compound_prefix,burn,light,rise,shine,sun,1,keep,5,"Strong compound prefix group: sunburn, sunlight, sunrise, sunshine."
+purple,compound_prefix,cast,finger,ground,head,fore,1,keep,5,"Good compound prefix group: forecast, foreground, forehead, foreground."
+purple,compound_suffix,drive,free,gate,rail,way,1,keep,5,"Excellent compound suffix group: driveway, freeway, gateway, railway."
+purple,compound_prefix,borne,field,port,way,air,1,keep,5,"Strong compound prefix group: airborne, airfield, airport, airway."
+purple,anagram,part,rapt,tarp,trap,anagram,1,keep,5,"Clean anagram set with common, recognizable words."
+purple,verb_noun_association,yacht,boat,vessel,ship,sail,1,keep,5,Perfect verb-noun association: all watercraft strongly suggest 'sail'.
+purple,compound_suffix,air,gate,hatch,park,way,1,keep,5,"Good compound suffix group: airway, gateway, hatchway, parkway."
+purple,anagram,aril,lair,lari,rial,anagram,0,reject,2,"Too many obscure terms (aril, lari, rial) for fair puzzle."
+purple,verb_noun_association,orbit,rocket,spacecraft,missile,launch,1,keep,5,Excellent verb-noun association: all space/projectile objects strongly suggest 'launch'.
+purple,compound_prefix,cast,head,see,sight,fore,1,keep,5,"Strong compound prefix group: forecast, forehead, foresee, foresight."
+purple,anagram,lair,liar,rail,rial,anagram,0,reject,2,Contains obscure currency term 'rial' making it unfair.
+purple,anagram,arches,chaser,eschar,search,anagram,0,reject,2,'Eschar' is too obscure/medical for most players.
+purple,compound_suffix,free,hall,mid,park,way,1,keep,5,"Good compound suffix group: freeway, hallway, midway, parkway."
+purple,compound_prefix,fall,pour,right,wind,down,1,keep,5,"Strong compound prefix group: downfall, downpour, downright, downwind."
+purple,verb_noun_association,misconception,myth,notion,stereotype,dispel,1,keep,4,Good verb-noun association: these false beliefs/ideas strongly suggest 'dispel'.
+purple,compound_suffix,high,park,road,sub,way,1,keep,5,"Excellent compound suffix group: highway, parkway, roadway, subway."
+purple,anagram,aril,lair,lari,lira,anagram,0,reject,2,"Contains obscure terms (aril, lari, lira) making it unfair."
+purple,verb_noun_association,reelection,incumbent,nomination,candidate,bid,1,keep,4,"Political terms that all strongly suggest 'bid' as the verb - bid for reelection, bid as incumbent, bid for nomination, candidate bids."
+purple,verb_noun_association,assertion,hypothesis,theory,argument,corroborate,0,reject,2,Too academic/technical. 'Corroborate' is not the most natural verb suggested by these nouns - 'support' or 'prove' would be more intuitive.
+purple,compound_suffix,bed,day,mean,spring,time,1,keep,5,"Perfect compound suffix group: bedtime, daytime, meantime, springtime - all natural, common compounds."
+purple,verb_noun_association,gallery,museum,art,sculpture,exhibit,1,keep,4,"Art-related nouns that strongly suggest 'exhibit' - galleries exhibit, museums exhibit, art is exhibited, sculptures are exhibited."
+purple,anagram,danger,gander,garden,ranged,anagram,1,keep,5,"Clean anagram set of common words: danger, gander, garden, ranged all use the same letters."
+purple,anagram,east,eats,sate,seat,anagram,1,keep,5,"Perfect anagram set of very common words: east, eats, sate, seat."
+purple,verb_noun_association,sorrow,sadness,grief,mourning,weep,1,keep,4,"Emotional states that naturally suggest 'weep' - people weep from sorrow, sadness, grief, mourning."
+purple,compound_suffix,door,hall,mid,stair,way,1,keep,5,"Excellent compound suffix: doorway, hallway, midway, stairway - all natural, common compounds."
+purple,verb_noun_association,spouse,husband,married,wife,divorce,0,reject,2,Mixed word types (married is adjective) and 'divorce' is not strongly suggested by all four - more likely to think 'marry' or 'wed'.
+purple,compound_suffix,club,court,green,round,house,1,keep,4,"Good compound suffix: clubhouse, courthouse, greenhouse, roundhouse - all recognizable compounds."
+purple,verb_noun_association,patient,practitioner,nurse,physician,prescribe,1,keep,4,"Medical context where 'prescribe' fits well - patients receive prescriptions, practitioners prescribe, nurses administer prescriptions, physicians prescribe."
+purple,verb_noun_association,wrist,elbow,knee,leg,straighten,0,reject,2,"Body parts don't strongly suggest 'straighten' specifically - could be bend, flex, move, etc. Too many possible verbs."
+purple,anagram,aril,lira,rail,rial,anagram,0,reject,2,"Obscure words - aril, lira, rial are not commonly known, making this too difficult for most players."
+purple,compound_suffix,draw,half,paper,quarter,back,1,keep,4,"Good compound suffix: drawback, halfback, paperback, quarterback - all natural compounds."
+purple,anagram,latrine,ratline,retinal,trenail,anagram,0,reject,1,"Very obscure words - latrine, ratline, trenail are not commonly known. Too difficult for general players."
+purple,compound_suffix,grill,ground,patch,wood,work,1,keep,4,"Good compound suffix: grillwork, groundwork, patchwork, woodwork - all natural, recognizable compounds."
+purple,anagram,allergy,gallery,largely,regally,anagram,1,keep,4,"Clean anagram set of reasonably common words: allergy, gallery, largely, regally."
+purple,verb_noun_association,revolt,rebellion,unrest,uprising,pacify,1,keep,4,"Conflict-related nouns that suggest 'pacify' - revolts are pacified, rebellions pacified, unrest pacified, uprisings pacified."
+purple,compound_suffix,along,country,sea,way,side,1,keep,4,"Good compound suffix: alongside, countryside, seaside, wayside - all natural compounds."
+purple,compound_suffix,gate,hall,hatch,high,way,1,keep,5,"Perfect compound suffix: gateway, hallway, hatchway, highway - all very common, natural compounds."
+purple,compound_prefix,craft,field,plane,way,air,1,keep,5,"Excellent compound prefix: aircraft, airfield, airplane, airway - all natural, common compounds."
+purple,verb_noun_association,mineral,ore,coal,copper,exploit,0,reject,2,'Exploit' is not the most natural verb for these mining materials - 'mine' or 'extract' would be more intuitive.
+purple,compound_prefix,cast,pour,town,wind,down,1,keep,4,"Good compound prefix: downcast, downpour, downtown, downwind - all natural compounds."
+purple,anagram,crate,react,recta,trace,anagram,0,reject,2,"'Recta' is not a common English word - appears to be anatomical/medical term, making this too obscure."
+purple,verb_noun_association,biopsy,diagnosis,tumor,patient,scan,1,keep,4,"Medical terms that suggest 'scan' - biopsies involve scans, diagnosis uses scans, tumors are scanned, patients get scanned."
+purple,compound_suffix,air,door,free,high,way,1,keep,4,"Forms natural compounds: airway, doorway, freeway, highway."
+purple,compound_prefix,borne,line,mail,port,air,1,keep,4,"Forms natural compounds: airborne, airline, airmail, airport."
+purple,compound_suffix,free,hall,run,stair,way,1,keep,4,"Forms natural compounds: freeway, hallway, runway, stairway."
+purple,verb_noun_association,forehead,nose,skin,neck,wrinkle,1,keep,4,Body parts that can wrinkle - clear verb-noun association.
+purple,anagram,part,prat,rapt,tarp,anagram,1,keep,5,"Clean anagram set of common words: part, prat, rapt, tarp."
+purple,compound_suffix,break,run,show,touch,down,1,keep,4,"Forms natural compounds: breakdown, rundown, showdown, touchdown."
+purple,compound_prefix,fall,right,stream,town,down,1,keep,4,"Forms natural compounds: downfall, downright, downstream, downtown."
+purple,verb_noun_association,efficiency,productivity,utilization,effectiveness,maximize,1,keep,4,Business/performance metrics that you maximize - clear verb association.
+purple,compound_prefix,hill,stream,turn,wind,down,1,keep,4,"Forms natural compounds: downhill, downstream, downturn, downwind."
+purple,verb_noun_association,posture,stance,attitude,approach,adopt,1,keep,4,Things you adopt - clear verb-noun association.
+purple,compound_prefix,cast,fall,town,wind,down,1,keep,4,"Forms natural compounds: downcast, downfall, downtown, downwind."
+purple,compound_suffix,drive,path,run,water,way,1,keep,4,"Forms natural compounds: driveway, pathway, runway, waterway."
+purple,anagram,filer,flier,lifer,rifle,anagram,1,keep,4,"Clean anagram set: filer, flier, lifer, rifle."
+purple,verb_noun_association,legislation,amendment,provision,bill,act,0,reject,2,Mixed association - 'pass' or 'enact' would be more natural for legislation/amendment/provision/bill.
+purple,anagram,gilder,girdle,glider,ridgel,anagram,0,reject,2,'Ridgel' is too obscure - not a commonly known word.
+purple,compound_suffix,along,bed,hill,road,side,1,keep,4,"Forms natural compounds: alongside, bedside, hillside, roadside."
+purple,verb_noun_association,burglary,robbery,arson,theft,commit,1,keep,5,Crimes you commit - perfect verb-noun association.
+purple,anagram,ates,east,sate,seta,anagram,0,reject,2,'Ates' and 'seta' are too obscure/technical for a fair puzzle.
+purple,compound_suffix,drive,hatch,park,water,way,1,keep,4,"Forms natural compounds: driveway, hatchway, parkway, waterway."
+purple,verb_noun_association,birdie,bogey,par,fairway,putt,0,reject,2,Golf terms don't strongly suggest 'putt' - 'play' or 'score' would be more natural.
+purple,compound_suffix,case,fire,frame,house,work,1,keep,4,"Forms natural compounds: casework, firework, framework, housework."
+purple,anagram,caret,cater,recta,trace,anagram,0,reject,2,'Recta' is too obscure/technical for a fair puzzle.
+purple,compound_suffix,broad,country,curb,dock,side,1,keep,4,"Forms natural compounds: broadside, countryside, curbside, dockside."
+purple,anagram,dale,deal,lade,lead,anagram,1,keep,5,"Clean anagram set of common words: dale, deal, lade, lead."
+purple,compound_suffix,bed,day,lunch,summer,time,1,keep,5,"Excellent compound_suffix group: bedtime, daytime, lunchtime, summertime are all natural, common compounds."
+purple,compound_suffix,buck,card,cup,spring,board,1,keep,4,"Good compound_suffix group: buckboard, cardboard, cupboard, springboard are all recognizable compounds."
+purple,compound_suffix,air,gate,half,sub,way,1,keep,4,"Good compound_suffix group: airway, gateway, halfway, subway are all natural compounds."
+purple,anagram,result,rustle,sutler,ulster,anagram,0,reject,2,Weak anagram group: sutler and ulster are obscure/archaic words that most players wouldn't recognize.
+purple,verb_noun_association,dirt,sand,soil,mud,dig,1,keep,4,"Good verb_noun_association: dirt, sand, soil, mud all strongly suggest digging."
+purple,anagram,aril,liar,lira,rail,anagram,0,reject,2,"Weak anagram group: aril is too obscure for most players, and lira is foreign currency."
+purple,compound_prefix,arm,cast,finger,see,fore,1,keep,5,"Excellent compound_prefix group: forearm, forecast, forefinger, foresee are all common compounds."
+purple,verb_noun_association,harvest,corn,wheat,rice,reap,1,keep,4,"Good verb_noun_association: harvest, corn, wheat, rice all strongly connect to reaping."
+purple,anagram,evil,live,veil,vile,anagram,1,keep,5,"Excellent anagram group: evil, live, veil, vile are all common words with clean anagram relationship."
+purple,compound_prefix,line,mail,port,strip,air,1,keep,5,"Excellent compound_prefix group: airline, airmail, airport, airstrip are all natural compounds."
+purple,verb_noun_association,marrow,kidney,transplant,liver,donate,1,keep,4,"Good verb_noun_association: marrow, kidney, transplant, liver all relate to organ donation."
+purple,compound_suffix,door,fair,gate,mid,way,1,keep,4,"Good compound_suffix group: doorway, fairway, gateway, midway are all recognizable compounds."
+purple,compound_prefix,craft,plane,strip,way,air,1,keep,5,"Excellent compound_prefix group: aircraft, airplane, airstrip, airway are all natural compounds."
+purple,anagram,east,eats,seat,seta,anagram,0,reject,2,Weak anagram group: seta is too obscure/technical for most players to recognize.
+purple,verb_noun_association,commitment,faith,determination,belief,reaffirm,0,reject,2,Weak verb_noun_association: reaffirm is not the most natural verb for these abstract concepts.
+purple,verb_noun_association,platoon,infantry,artillery,battalion,overrun,0,reject,2,Weak verb_noun_association: overrun is not the most obvious verb for these military units.
+purple,verb_noun_association,offspring,mating,breeding,nest,reproduce,1,keep,4,"Good verb_noun_association: offspring, mating, breeding, nest all strongly relate to reproduction."
+purple,verb_noun_association,cavalry,infantry,battalion,artillery,advance,0,reject,2,Weak verb_noun_association: advance is not the most natural verb for these military units.
+purple,anagram,slate,stale,steal,tales,anagram,1,keep,5,"Excellent anagram group: slate, stale, steal, tales are all common words with clean anagram relationship."
+purple,compound_prefix,child,daughter,mother,son,grand,1,keep,5,"Excellent compound_prefix group: grandchild, granddaughter, grandmother, grandson are all natural compounds."
+purple,compound_prefix,head,runner,see,sight,fore,1,keep,4,"Good compound_prefix group: forehead, forerunner, foresee, foresight are all recognizable compounds."
+purple,anagram,latrine,ratline,reliant,trenail,anagram,0,reject,1,"Bad anagram group: latrine, ratline, trenail are all obscure/archaic words most players wouldn't know."
+purple,anagram,latrine,ratline,reliant,retinal,anagram,0,reject,2,Weak anagram group: latrine and ratline are too obscure for most players.
+purple,compound_prefix,finger,ground,head,sight,fore,1,keep,5,"Excellent compound_prefix group: forefinger, foreground, forehead, foresight are all natural compounds."
+purple,compound_prefix,field,line,mail,way,air,1,keep,5,"Excellent compound_prefix group: airfield, airline, airmail, airway are all common compounds."

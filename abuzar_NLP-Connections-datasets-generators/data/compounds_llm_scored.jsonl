@@ -1,0 +1,844 @@
+{"left": "accept", "right": "ability", "full_word": "acceptability", "label": "pattern_only", "brief_reason": "suffix pattern, not a natural compound"}
+{"left": "account", "right": "ability", "full_word": "accountability", "label": "pattern_only", "brief_reason": "suffix pattern, not a natural compound"}
+{"left": "ace", "right": "tone", "full_word": "acetone", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "acre", "right": "age", "full_word": "acreage", "label": "natural_compound", "brief_reason": "acres + age naturally forms acreage"}
+{"left": "adult", "right": "hood", "full_word": "adulthood", "label": "natural_compound", "brief_reason": "adult + hood naturally forms adulthood"}
+{"left": "air", "right": "borne", "full_word": "airborne", "label": "natural_compound", "brief_reason": "air + borne naturally forms airborne"}
+{"left": "air", "right": "craft", "full_word": "aircraft", "label": "natural_compound", "brief_reason": "air + craft naturally forms aircraft"}
+{"left": "air", "right": "field", "full_word": "airfield", "label": "natural_compound", "brief_reason": "air + field naturally forms airfield"}
+{"left": "air", "right": "line", "full_word": "airline", "label": "natural_compound", "brief_reason": "air + line naturally forms airline"}
+{"left": "air", "right": "mail", "full_word": "airmail", "label": "natural_compound", "brief_reason": "air + mail naturally forms airmail"}
+{"left": "air", "right": "plane", "full_word": "airplane", "label": "natural_compound", "brief_reason": "air + plane naturally forms airplane"}
+{"left": "air", "right": "port", "full_word": "airport", "label": "natural_compound", "brief_reason": "air + port naturally forms airport"}
+{"left": "air", "right": "strip", "full_word": "airstrip", "label": "natural_compound", "brief_reason": "air + strip naturally forms airstrip"}
+{"left": "air", "right": "way", "full_word": "airway", "label": "natural_compound", "brief_reason": "air + way naturally forms airway"}
+{"left": "alien", "right": "ate", "full_word": "alienate", "label": "pattern_only", "brief_reason": "suffix pattern, not a natural compound"}
+{"left": "along", "right": "side", "full_word": "alongside", "label": "natural_compound", "brief_reason": "along + side naturally forms alongside"}
+{"left": "alter", "right": "native", "full_word": "alternative", "label": "pattern_only", "brief_reason": "prefix pattern, not a natural compound"}
+{"left": "apprentice", "right": "ship", "full_word": "apprenticeship", "label": "natural_compound", "brief_reason": "apprentice + ship naturally forms apprenticeship"}
+{"left": "arch", "right": "bishop", "full_word": "archbishop", "label": "natural_compound", "brief_reason": "arch + bishop naturally forms archbishop"}
+{"left": "arm", "right": "chair", "full_word": "armchair", "label": "natural_compound", "brief_reason": "arm + chair naturally forms armchair"}
+{"left": "arm", "right": "hole", "full_word": "armhole", "label": "natural_compound", "brief_reason": "arm + hole naturally forms armhole"}
+{"left": "arm", "right": "pit", "full_word": "armpit", "label": "natural_compound", "brief_reason": "arm + pit naturally forms armpit"}
+{"left": "ash", "right": "ore", "full_word": "ashore", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "assail", "right": "ant", "full_word": "assailant", "label": "pattern_only", "brief_reason": "suffix pattern, not a natural compound"}
+{"left": "assist", "right": "ant", "full_word": "assistant", "label": "pattern_only", "brief_reason": "suffix pattern, not a natural compound"}
+{"left": "attend", "right": "ant", "full_word": "attendant", "label": "pattern_only", "brief_reason": "suffix pattern, not a natural compound"}
+{"left": "author", "right": "ship", "full_word": "authorship", "label": "natural_compound", "brief_reason": "author + ship naturally forms authorship"}
+{"left": "auto", "right": "biographical", "full_word": "autobiographical", "label": "natural_compound", "brief_reason": "auto + biographical naturally forms autobiographical"}
+{"left": "auto", "right": "biography", "full_word": "autobiography", "label": "natural_compound", "brief_reason": "auto + biography naturally forms autobiography"}
+{"left": "auto", "right": "fluorescence", "full_word": "autofluorescence", "label": "natural_compound", "brief_reason": "auto + fluorescence naturally forms autofluorescence"}
+{"left": "auto", "right": "graph", "full_word": "autograph", "label": "natural_compound", "brief_reason": "auto + graph naturally forms autograph"}
+{"left": "auto", "right": "mobile", "full_word": "automobile", "label": "natural_compound", "brief_reason": "auto + mobile naturally forms automobile"}
+{"left": "auto", "right": "motive", "full_word": "automotive", "label": "natural_compound", "brief_reason": "auto + motive naturally forms automotive"}
+{"left": "avail", "right": "ability", "full_word": "availability", "label": "pattern_only", "brief_reason": "suffix pattern, not a natural compound"}
+{"left": "back", "right": "bone", "full_word": "backbone", "label": "natural_compound", "brief_reason": "back + bone naturally forms backbone"}
+{"left": "back", "right": "drop", "full_word": "backdrop", "label": "natural_compound", "brief_reason": "back + drop naturally forms backdrop"}
+{"left": "back", "right": "ground", "full_word": "background", "label": "natural_compound", "brief_reason": "back + ground naturally forms background"}
+{"left": "back", "right": "log", "full_word": "backlog", "label": "natural_compound", "brief_reason": "back + log naturally forms backlog"}
+{"left": "back", "right": "ward", "full_word": "backward", "label": "natural_compound", "brief_reason": "back + ward naturally forms backward"}
+{"left": "back", "right": "yard", "full_word": "backyard", "label": "natural_compound", "brief_reason": "back + yard naturally forms backyard"}
+{"left": "bag", "right": "gage", "full_word": "baggage", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "ball", "right": "player", "full_word": "ballplayer", "label": "natural_compound", "brief_reason": "ball + player naturally forms ballplayer"}
+{"left": "ball", "right": "room", "full_word": "ballroom", "label": "natural_compound", "brief_reason": "ball + room naturally forms ballroom"}
+{"left": "band", "right": "age", "full_word": "bandage", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "band", "right": "stand", "full_word": "bandstand", "label": "natural_compound", "brief_reason": "band + stand naturally forms bandstand"}
+{"left": "bar", "right": "bell", "full_word": "barbell", "label": "natural_compound", "brief_reason": "bar + bell naturally forms barbell"}
+{"left": "bare", "right": "foot", "full_word": "barefoot", "label": "natural_compound", "brief_reason": "bare + foot naturally forms barefoot"}
+{"left": "bar", "right": "gain", "full_word": "bargain", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "bar", "right": "rack", "full_word": "barrack", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "bar", "right": "rage", "full_word": "barrage", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "bar", "right": "tender", "full_word": "bartender", "label": "natural_compound", "brief_reason": "bar + tender naturally forms bartender"}
+{"left": "base", "right": "ball", "full_word": "baseball", "label": "natural_compound", "brief_reason": "base + ball naturally forms baseball"}
+{"left": "base", "right": "man", "full_word": "baseman", "label": "natural_compound", "brief_reason": "base + man naturally forms baseman"}
+{"left": "basket", "right": "ball", "full_word": "basketball", "label": "natural_compound", "brief_reason": "basket + ball naturally forms basketball"}
+{"left": "bath", "right": "robe", "full_word": "bathrobe", "label": "natural_compound", "brief_reason": "bath + robe naturally forms bathrobe"}
+{"left": "bath", "right": "room", "full_word": "bathroom", "label": "natural_compound", "brief_reason": "bath + room naturally forms bathroom"}
+{"left": "bath", "right": "tub", "full_word": "bathtub", "label": "natural_compound", "brief_reason": "bath + tub naturally forms bathtub"}
+{"left": "bat", "right": "ten", "full_word": "batten", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "battle", "right": "field", "full_word": "battlefield", "label": "natural_compound", "brief_reason": "battle + field naturally forms battlefield"}
+{"left": "battle", "right": "ground", "full_word": "battleground", "label": "natural_compound", "brief_reason": "battle + ground naturally forms battleground"}
+{"left": "beach", "right": "head", "full_word": "beachhead", "label": "natural_compound", "brief_reason": "beach + head naturally forms beachhead"}
+{"left": "bed", "right": "room", "full_word": "bedroom", "label": "natural_compound", "brief_reason": "bed + room naturally forms bedroom"}
+{"left": "bed", "right": "side", "full_word": "bedside", "label": "natural_compound", "brief_reason": "bed + side naturally forms bedside"}
+{"left": "bed", "right": "spread", "full_word": "bedspread", "label": "natural_compound", "brief_reason": "bed + spread naturally forms bedspread"}
+{"left": "bed", "right": "time", "full_word": "bedtime", "label": "natural_compound", "brief_reason": "bed + time naturally forms bedtime"}
+{"left": "bell", "right": "boy", "full_word": "bellboy", "label": "natural_compound", "brief_reason": "bell + boy naturally forms bellboy"}
+{"left": "bel", "right": "low", "full_word": "bellow", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "bench", "right": "mark", "full_word": "benchmark", "label": "natural_compound", "brief_reason": "bench + mark naturally forms benchmark"}
+{"left": "best", "right": "seller", "full_word": "bestseller", "label": "natural_compound", "brief_reason": "best + seller naturally forms bestseller"}
+{"left": "bet", "right": "ray", "full_word": "betray", "label": "reject", "brief_reason": "not a meaningful compound split"}
+{"left": "bill", "right": "board", "full_word": "billboard", "label": "natural_compound", "brief_reason": "bill + board naturally forms billboard"}
+{"left": "birth", "right": "day", "full_word": "birthday", "label": "natural_compound", "brief_reason": "birth + day naturally forms birthday"}
+{"left": "birth", "right": "place", "full_word": "birthplace", "label": "natural_compound", "brief_reason": "birth + place naturally forms birthplace"}
+{"left": "black", "right": "board", "full_word": "blackboard", "label": "natural_compound", "brief_reason": "black + board naturally forms blackboard"}
+{"left": "black", "right": "mail", "full_word": "blackmail", "label": "natural_compound", "brief_reason": "black + mail naturally forms blackmail"}
+{"left": "blood", "right": "hound", "full_word": "bloodhound", "label": "natural_compound", "brief_reason": "A specific breed of dog known for tracking by scent"}
+{"left": "blood", "right": "stream", "full_word": "bloodstream", "label": "natural_compound", "brief_reason": "The flow of blood through the circulatory system"}
+{"left": "blue", "right": "print", "full_word": "blueprint", "label": "natural_compound", "brief_reason": "Technical drawing or detailed plan"}
+{"left": "boat", "right": "man", "full_word": "boatman", "label": "natural_compound", "brief_reason": "Person who operates or works on boats"}
+{"left": "body", "right": "builder", "full_word": "bodybuilder", "label": "natural_compound", "brief_reason": "Person who develops muscles through exercise"}
+{"left": "bomb", "right": "proof", "full_word": "bombproof", "label": "natural_compound", "brief_reason": "Resistant to bomb damage"}
+{"left": "bond", "right": "age", "full_word": "bondage", "label": "pattern_only", "brief_reason": "Not a natural compound of bond + age meaning"}
+{"left": "book", "right": "case", "full_word": "bookcase", "label": "natural_compound", "brief_reason": "Furniture for storing books"}
+{"left": "book", "right": "let", "full_word": "booklet", "label": "natural_compound", "brief_reason": "Small book or pamphlet"}
+{"left": "book", "right": "shelf", "full_word": "bookshelf", "label": "natural_compound", "brief_reason": "Shelf for holding books"}
+{"left": "border", "right": "line", "full_word": "borderline", "label": "natural_compound", "brief_reason": "Line marking a border or boundary"}
+{"left": "bottle", "right": "neck", "full_word": "bottleneck", "label": "natural_compound", "brief_reason": "Narrow part of bottle or point of congestion"}
+{"left": "box", "right": "car", "full_word": "boxcar", "label": "natural_compound", "brief_reason": "Enclosed railroad freight car"}
+{"left": "boy", "right": "hood", "full_word": "boyhood", "label": "natural_compound", "brief_reason": "The state or time of being a boy"}
+{"left": "break", "right": "down", "full_word": "breakdown", "label": "natural_compound", "brief_reason": "Failure or collapse of something"}
+{"left": "break", "right": "fast", "full_word": "breakfast", "label": "natural_compound", "brief_reason": "Morning meal that breaks the overnight fast"}
+{"left": "break", "right": "water", "full_word": "breakwater", "label": "natural_compound", "brief_reason": "Structure that breaks the force of waves"}
+{"left": "brick", "right": "layer", "full_word": "bricklayer", "label": "natural_compound", "brief_reason": "Person who lays bricks"}
+{"left": "bride", "right": "groom", "full_word": "bridegroom", "label": "natural_compound", "brief_reason": "Man getting married"}
+{"left": "bridge", "right": "head", "full_word": "bridgehead", "label": "natural_compound", "brief_reason": "Military position at end of bridge"}
+{"left": "broad", "right": "cast", "full_word": "broadcast", "label": "natural_compound", "brief_reason": "Transmission of radio or TV programs"}
+{"left": "broad", "right": "side", "full_word": "broadside", "label": "natural_compound", "brief_reason": "Side of ship or simultaneous firing of guns"}
+{"left": "broke", "right": "rage", "full_word": "brokerage", "label": "pattern_only", "brief_reason": "Not a natural compound of broke + rage"}
+{"left": "broker", "right": "age", "full_word": "brokerage", "label": "pattern_only", "brief_reason": "Suffix -age added to broker, not natural compound"}
+{"left": "brother", "right": "hood", "full_word": "brotherhood", "label": "natural_compound", "brief_reason": "Bond between brothers or fraternal organization"}
+{"left": "brush", "right": "fire", "full_word": "brushfire", "label": "natural_compound", "brief_reason": "Fire that spreads through brush"}
+{"left": "buck", "right": "board", "full_word": "buckboard", "label": "natural_compound", "brief_reason": "Type of four-wheeled wagon"}
+{"left": "buck", "right": "skin", "full_word": "buckskin", "label": "natural_compound", "brief_reason": "Leather made from deer hide"}
+{"left": "bud", "right": "get", "full_word": "budget", "label": "pattern_only", "brief_reason": "Not a natural compound of bud + get"}
+{"left": "bus", "right": "boy", "full_word": "busboy", "label": "natural_compound", "brief_reason": "Restaurant worker who clears tables"}
+{"left": "camp", "right": "fire", "full_word": "campfire", "label": "natural_compound", "brief_reason": "Fire made at a campsite"}
+{"left": "camp", "right": "ground", "full_word": "campground", "label": "natural_compound", "brief_reason": "Area designated for camping"}
+{"left": "camp", "right": "site", "full_word": "campsite", "label": "natural_compound", "brief_reason": "Specific location for camping"}
+{"left": "candid", "right": "ate", "full_word": "candidate", "label": "pattern_only", "brief_reason": "Not a natural compound of candid + ate"}
+{"left": "can", "right": "non", "full_word": "cannon", "label": "pattern_only", "brief_reason": "Not a natural compound of can + non"}
+{"left": "can", "right": "teen", "full_word": "canteen", "label": "pattern_only", "brief_reason": "Not a natural compound of can + teen"}
+{"left": "can", "right": "vas", "full_word": "canvas", "label": "pattern_only", "brief_reason": "Not a natural compound of can + vas"}
+{"left": "car", "right": "away", "full_word": "caraway", "label": "pattern_only", "brief_reason": "Not a natural compound of car + away"}
+{"left": "card", "right": "board", "full_word": "cardboard", "label": "natural_compound", "brief_reason": "Stiff paper material made from card"}
+{"left": "care", "right": "free", "full_word": "carefree", "label": "natural_compound", "brief_reason": "Free from care or worry"}
+{"left": "car", "right": "load", "full_word": "carload", "label": "natural_compound", "brief_reason": "Amount that fills a car"}
+{"left": "car", "right": "pet", "full_word": "carpet", "label": "pattern_only", "brief_reason": "Not a natural compound of car + pet"}
+{"left": "car", "right": "port", "full_word": "carport", "label": "natural_compound", "brief_reason": "Covered parking area for cars"}
+{"left": "car", "right": "rot", "full_word": "carrot", "label": "pattern_only", "brief_reason": "Not a natural compound of car + rot"}
+{"left": "cart", "right": "ridge", "full_word": "cartridge", "label": "pattern_only", "brief_reason": "Not a natural compound of cart + ridge"}
+{"left": "cart", "right": "wheel", "full_word": "cartwheel", "label": "natural_compound", "brief_reason": "Wheel of a cart or gymnastic move"}
+{"left": "case", "right": "work", "full_word": "casework", "label": "natural_compound", "brief_reason": "Social work involving individual cases"}
+{"left": "cash", "right": "mere", "full_word": "cashmere", "label": "pattern_only", "brief_reason": "Not a natural compound of cash + mere"}
+{"left": "cattle", "right": "man", "full_word": "cattleman", "label": "natural_compound", "brief_reason": "Person who raises cattle"}
+{"left": "chair", "right": "man", "full_word": "chairman", "label": "natural_compound", "brief_reason": "Person who chairs a meeting or organization"}
+{"left": "chamber", "right": "maid", "full_word": "chambermaid", "label": "natural_compound", "brief_reason": "Hotel worker who cleans rooms"}
+{"left": "champion", "right": "ship", "full_word": "championship", "label": "natural_compound", "brief_reason": "Competition to determine a champion"}
+{"left": "chap", "right": "lain", "full_word": "chaplain", "label": "pattern_only", "brief_reason": "Not a natural compound of chap + lain"}
+{"left": "check", "right": "book", "full_word": "checkbook", "label": "natural_compound", "brief_reason": "Book containing bank checks"}
+{"left": "check", "right": "list", "full_word": "checklist", "label": "natural_compound", "brief_reason": "List of items to check off"}
+{"left": "cheek", "right": "bone", "full_word": "cheekbone", "label": "natural_compound", "brief_reason": "Bone forming the cheek"}
+{"left": "child", "right": "birth", "full_word": "childbirth", "label": "natural_compound", "brief_reason": "Process of giving birth to a child"}
+{"left": "child", "right": "hood", "full_word": "childhood", "label": "natural_compound", "brief_reason": "The state or time of being a child"}
+{"left": "child", "right": "like", "full_word": "childlike", "label": "natural_compound", "brief_reason": "Resembling or characteristic of a child"}
+{"left": "church", "right": "man", "full_word": "churchman", "label": "natural_compound", "brief_reason": "Member of clergy or church official"}
+{"left": "church", "right": "yard", "full_word": "churchyard", "label": "natural_compound", "brief_reason": "Yard or cemetery around a church"}
+{"left": "citizen", "right": "ship", "full_word": "citizenship", "label": "natural_compound", "brief_reason": "Status of being a citizen"}
+{"left": "claim", "right": "ant", "full_word": "claimant", "label": "pattern_only", "brief_reason": "Suffix -ant added to claim, not natural compound"}
+{"left": "class", "right": "mate", "full_word": "classmate", "label": "natural_compound", "brief_reason": "Fellow member of a class"}
+{"left": "class", "right": "room", "full_word": "classroom", "label": "natural_compound", "brief_reason": "Room where classes are held"}
+{"left": "clergy", "right": "man", "full_word": "clergyman", "label": "natural_compound", "brief_reason": "Member of the clergy"}
+{"left": "clock", "right": "wise", "full_word": "clockwise", "label": "natural_compound", "brief_reason": "In the direction of clock hands"}
+{"left": "clothes", "right": "horse", "full_word": "clotheshorse", "label": "natural_compound", "brief_reason": "Frame for drying clothes or fashion-conscious person"}
+{"left": "cloud", "right": "burst", "full_word": "cloudburst", "label": "natural_compound", "brief_reason": "Sudden heavy rainfall"}
+{"left": "club", "right": "house", "full_word": "clubhouse", "label": "natural_compound", "brief_reason": "Building used by a club"}
+{"left": "coach", "right": "man", "full_word": "coachman", "label": "natural_compound", "brief_reason": "Person who drives a coach"}
+{"left": "cock", "right": "pit", "full_word": "cockpit", "label": "natural_compound", "brief_reason": "Pilot's compartment in aircraft"}
+{"left": "cock", "right": "tail", "full_word": "cocktail", "label": "natural_compound", "brief_reason": "Mixed alcoholic drink"}
+{"left": "coffee", "right": "pot", "full_word": "coffeepot", "label": "natural_compound", "brief_reason": "Pot for brewing or serving coffee"}
+{"left": "combat", "right": "ant", "full_word": "combatant", "label": "pattern_only", "brief_reason": "Suffix -ant added to combat, not natural compound"}
+{"left": "come", "right": "back", "full_word": "comeback", "label": "natural_compound", "brief_reason": "Clear compound: return or recovery"}
+{"left": "commit", "right": "tee", "full_word": "committee", "label": "pattern_only", "brief_reason": "Not a natural compound, just prefix pattern"}
+{"left": "committee", "right": "woman", "full_word": "committeewoman", "label": "natural_compound", "brief_reason": "Woman who serves on committee"}
+{"left": "common", "right": "place", "full_word": "commonplace", "label": "natural_compound", "brief_reason": "Common + place = ordinary thing"}
+{"left": "common", "right": "wealth", "full_word": "commonwealth", "label": "natural_compound", "brief_reason": "Shared wealth/prosperity"}
+{"left": "companion", "right": "ship", "full_word": "companionship", "label": "natural_compound", "brief_reason": "State of being companions"}
+{"left": "comrade", "right": "ship", "full_word": "comradeship", "label": "natural_compound", "brief_reason": "Bond between comrades"}
+{"left": "con", "right": "cave", "full_word": "concave", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "concur", "right": "rent", "full_word": "concurrent", "label": "pattern_only", "brief_reason": "Not a natural compound"}
+{"left": "con", "right": "duct", "full_word": "conduct", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "fine", "full_word": "confine", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "firm", "full_word": "confirm", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "form", "full_word": "conform", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "front", "full_word": "confront", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "fuse", "full_word": "confuse", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "genial", "full_word": "congenial", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "quest", "full_word": "conquest", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "sent", "full_word": "consent", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "serve", "full_word": "conserve", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "sign", "full_word": "consign", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "sole", "full_word": "console", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "tact", "full_word": "contact", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "tend", "full_word": "contend", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "tender", "full_word": "contender", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "tends", "full_word": "contends", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "tent", "full_word": "content", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "test", "full_word": "contest", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "text", "full_word": "context", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "tour", "full_word": "contour", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "tract", "full_word": "contract", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "vent", "full_word": "convent", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "con", "right": "verse", "full_word": "converse", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "cool", "right": "ant", "full_word": "coolant", "label": "natural_compound", "brief_reason": "Substance that cools"}
+{"left": "cork", "right": "screw", "full_word": "corkscrew", "label": "natural_compound", "brief_reason": "Screw-shaped tool for cork"}
+{"left": "corner", "right": "stone", "full_word": "cornerstone", "label": "natural_compound", "brief_reason": "Foundation stone at corner"}
+{"left": "corn", "right": "meal", "full_word": "cornmeal", "label": "natural_compound", "brief_reason": "Meal made from corn"}
+{"left": "corp", "right": "oral", "full_word": "corporal", "label": "pattern_only", "brief_reason": "Not a natural compound"}
+{"left": "counter", "right": "attack", "full_word": "counterattack", "label": "natural_compound", "brief_reason": "Attack in response"}
+{"left": "counter", "right": "balance", "full_word": "counterbalance", "label": "natural_compound", "brief_reason": "Balance that counters"}
+{"left": "counter", "right": "part", "full_word": "counterpart", "label": "natural_compound", "brief_reason": "Corresponding part"}
+{"left": "counter", "right": "point", "full_word": "counterpoint", "label": "natural_compound", "brief_reason": "Opposing point or musical technique"}
+{"left": "country", "right": "side", "full_word": "countryside", "label": "natural_compound", "brief_reason": "Rural areas of country"}
+{"left": "country", "right": "wide", "full_word": "countrywide", "label": "natural_compound", "brief_reason": "Across the whole country"}
+{"left": "court", "right": "house", "full_word": "courthouse", "label": "natural_compound", "brief_reason": "Building housing court"}
+{"left": "court", "right": "room", "full_word": "courtroom", "label": "natural_compound", "brief_reason": "Room where court meets"}
+{"left": "court", "right": "ship", "full_word": "courtship", "label": "natural_compound", "brief_reason": "Process of courting"}
+{"left": "court", "right": "yard", "full_word": "courtyard", "label": "natural_compound", "brief_reason": "Yard enclosed by court/building"}
+{"left": "cover", "right": "age", "full_word": "coverage", "label": "natural_compound", "brief_reason": "Extent of covering"}
+{"left": "cover", "right": "let", "full_word": "coverlet", "label": "natural_compound", "brief_reason": "Small cover for bed"}
+{"left": "coward", "right": "ice", "full_word": "cowardice", "label": "natural_compound", "brief_reason": "Quality of being coward"}
+{"left": "cow", "right": "bird", "full_word": "cowbird", "label": "natural_compound", "brief_reason": "Bird associated with cows"}
+{"left": "cow", "right": "boy", "full_word": "cowboy", "label": "natural_compound", "brief_reason": "Person who tends cows"}
+{"left": "cow", "right": "hand", "full_word": "cowhand", "label": "natural_compound", "brief_reason": "Worker who handles cows"}
+{"left": "cow", "right": "man", "full_word": "cowman", "label": "natural_compound", "brief_reason": "Man who works with cows"}
+{"left": "crack", "right": "pot", "full_word": "crackpot", "label": "natural_compound", "brief_reason": "Eccentric person (like cracked pot)"}
+{"left": "craftsman", "right": "ship", "full_word": "craftsmanship", "label": "natural_compound", "brief_reason": "Skill of craftsman"}
+{"left": "cross", "right": "road", "full_word": "crossroad", "label": "natural_compound", "brief_reason": "Road that crosses another"}
+{"left": "crystal", "right": "line", "full_word": "crystalline", "label": "natural_compound", "brief_reason": "Having crystal-like structure"}
+{"left": "cup", "right": "board", "full_word": "cupboard", "label": "natural_compound", "brief_reason": "Board/cabinet for cups"}
+{"left": "curb", "right": "side", "full_word": "curbside", "label": "natural_compound", "brief_reason": "Side near the curb"}
+{"left": "dam", "right": "age", "full_word": "damage", "label": "pattern_only", "brief_reason": "Not a natural compound"}
+{"left": "dam", "right": "pen", "full_word": "dampen", "label": "pattern_only", "brief_reason": "Not a natural compound"}
+{"left": "dash", "right": "board", "full_word": "dashboard", "label": "natural_compound", "brief_reason": "Board with dashes/instruments"}
+{"left": "day", "right": "light", "full_word": "daylight", "label": "natural_compound", "brief_reason": "Light during day"}
+{"left": "day", "right": "time", "full_word": "daytime", "label": "natural_compound", "brief_reason": "Time during day"}
+{"left": "dead", "right": "line", "full_word": "deadline", "label": "natural_compound", "brief_reason": "Line that is dead/final"}
+{"left": "dead", "right": "lock", "full_word": "deadlock", "label": "natural_compound", "brief_reason": "Lock that is dead/stuck"}
+{"left": "debut", "right": "ante", "full_word": "debutante", "label": "pattern_only", "brief_reason": "Not a natural compound"}
+{"left": "decor", "right": "ate", "full_word": "decorate", "label": "pattern_only", "brief_reason": "Not a natural compound"}
+{"left": "deer", "right": "skin", "full_word": "deerskin", "label": "natural_compound", "brief_reason": "Skin from deer"}
+{"left": "defend", "right": "ant", "full_word": "defendant", "label": "natural_compound", "brief_reason": "One who defends (in court)"}
+{"left": "den", "right": "ounce", "full_word": "denounce", "label": "pattern_only", "brief_reason": "Not a natural compound"}
+{"left": "design", "right": "ate", "full_word": "designate", "label": "pattern_only", "brief_reason": "Not a natural compound"}
+{"left": "develop", "right": "mental", "full_word": "developmental", "label": "natural_compound", "brief_reason": "Related to development"}
+{"left": "dictator", "right": "ship", "full_word": "dictatorship", "label": "natural_compound", "brief_reason": "Rule by dictator"}
+{"left": "dinner", "right": "time", "full_word": "dinnertime", "label": "natural_compound", "brief_reason": "Time for dinner, natural compound"}
+{"left": "disciple", "right": "ship", "full_word": "discipleship", "label": "natural_compound", "brief_reason": "State of being a disciple, natural compound"}
+{"left": "disc", "right": "lose", "full_word": "disclose", "label": "pattern_only", "brief_reason": "Prefix pattern, not a natural compound"}
+{"left": "dock", "right": "side", "full_word": "dockside", "label": "natural_compound", "brief_reason": "Area beside a dock, natural compound"}
+{"left": "door", "right": "bell", "full_word": "doorbell", "label": "natural_compound", "brief_reason": "Bell at a door, natural compound"}
+{"left": "door", "right": "knob", "full_word": "doorknob", "label": "natural_compound", "brief_reason": "Knob on a door, natural compound"}
+{"left": "door", "right": "man", "full_word": "doorman", "label": "natural_compound", "brief_reason": "Person who works at a door, natural compound"}
+{"left": "door", "right": "step", "full_word": "doorstep", "label": "natural_compound", "brief_reason": "Step at a door, natural compound"}
+{"left": "door", "right": "way", "full_word": "doorway", "label": "natural_compound", "brief_reason": "Opening with a door, natural compound"}
+{"left": "dos", "right": "age", "full_word": "dosage", "label": "pattern_only", "brief_reason": "Not a natural compound, suffix pattern"}
+{"left": "down", "right": "cast", "full_word": "downcast", "label": "natural_compound", "brief_reason": "Cast downward, natural compound"}
+{"left": "down", "right": "fall", "full_word": "downfall", "label": "natural_compound", "brief_reason": "Fall downward, natural compound"}
+{"left": "down", "right": "hill", "full_word": "downhill", "label": "natural_compound", "brief_reason": "Down a hill, natural compound"}
+{"left": "down", "right": "pour", "full_word": "downpour", "label": "natural_compound", "brief_reason": "Heavy rain pouring down, natural compound"}
+{"left": "down", "right": "right", "full_word": "downright", "label": "natural_compound", "brief_reason": "Completely, natural compound"}
+{"left": "down", "right": "stream", "full_word": "downstream", "label": "natural_compound", "brief_reason": "Down the stream, natural compound"}
+{"left": "down", "right": "town", "full_word": "downtown", "label": "natural_compound", "brief_reason": "Central part of town, natural compound"}
+{"left": "down", "right": "turn", "full_word": "downturn", "label": "natural_compound", "brief_reason": "Turn downward, natural compound"}
+{"left": "down", "right": "ward", "full_word": "downward", "label": "natural_compound", "brief_reason": "Toward down direction, natural compound"}
+{"left": "down", "right": "wind", "full_word": "downwind", "label": "natural_compound", "brief_reason": "In direction wind blows, natural compound"}
+{"left": "drain", "right": "age", "full_word": "drainage", "label": "natural_compound", "brief_reason": "System for draining, natural compound"}
+{"left": "draw", "right": "back", "full_word": "drawback", "label": "natural_compound", "brief_reason": "Something that draws back/hinders, natural compound"}
+{"left": "dream", "right": "like", "full_word": "dreamlike", "label": "natural_compound", "brief_reason": "Like a dream, natural compound"}
+{"left": "drive", "right": "way", "full_word": "driveway", "label": "natural_compound", "brief_reason": "Way to drive on, natural compound"}
+{"left": "drop", "right": "let", "full_word": "droplet", "label": "natural_compound", "brief_reason": "Small drop, natural compound"}
+{"left": "drug", "right": "store", "full_word": "drugstore", "label": "natural_compound", "brief_reason": "Store selling drugs, natural compound"}
+{"left": "dumb", "right": "bell", "full_word": "dumbbell", "label": "natural_compound", "brief_reason": "Exercise weight, natural compound"}
+{"left": "ear", "right": "nest", "full_word": "earnest", "label": "pattern_only", "brief_reason": "Not a natural compound, different etymology"}
+{"left": "east", "right": "ward", "full_word": "eastward", "label": "natural_compound", "brief_reason": "Toward the east, natural compound"}
+{"left": "elect", "right": "oral", "full_word": "electoral", "label": "pattern_only", "brief_reason": "Suffix pattern, not natural compound"}
+{"left": "elect", "right": "rode", "full_word": "electrode", "label": "pattern_only", "brief_reason": "Technical term, not natural compound"}
+{"left": "epic", "right": "enter", "full_word": "epicenter", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "every", "right": "body", "full_word": "everybody", "label": "natural_compound", "brief_reason": "Every person, natural compound"}
+{"left": "every", "right": "day", "full_word": "everyday", "label": "natural_compound", "brief_reason": "Each day, natural compound"}
+{"left": "every", "right": "one", "full_word": "everyone", "label": "natural_compound", "brief_reason": "Every person, natural compound"}
+{"left": "expect", "right": "ant", "full_word": "expectant", "label": "pattern_only", "brief_reason": "Suffix pattern, not natural compound"}
+{"left": "extra", "right": "ordinary", "full_word": "extraordinary", "label": "natural_compound", "brief_reason": "Beyond ordinary, natural compound"}
+{"left": "extra", "right": "terrestrial", "full_word": "extraterrestrial", "label": "natural_compound", "brief_reason": "Beyond terrestrial, natural compound"}
+{"left": "eye", "right": "ball", "full_word": "eyeball", "label": "natural_compound", "brief_reason": "Ball of the eye, natural compound"}
+{"left": "eye", "right": "brow", "full_word": "eyebrow", "label": "natural_compound", "brief_reason": "Brow above eye, natural compound"}
+{"left": "eye", "right": "glass", "full_word": "eyeglass", "label": "natural_compound", "brief_reason": "Glass for eye, natural compound"}
+{"left": "eye", "right": "lid", "full_word": "eyelid", "label": "natural_compound", "brief_reason": "Lid of eye, natural compound"}
+{"left": "fair", "right": "way", "full_word": "fairway", "label": "natural_compound", "brief_reason": "Golf course area, natural compound"}
+{"left": "false", "right": "hood", "full_word": "falsehood", "label": "natural_compound", "brief_reason": "State of being false, natural compound"}
+{"left": "fare", "right": "well", "full_word": "farewell", "label": "natural_compound", "brief_reason": "Wish to fare well, natural compound"}
+{"left": "farm", "right": "house", "full_word": "farmhouse", "label": "natural_compound", "brief_reason": "House on a farm, natural compound"}
+{"left": "feed", "right": "back", "full_word": "feedback", "label": "natural_compound", "brief_reason": "Information fed back, natural compound"}
+{"left": "fellow", "right": "ship", "full_word": "fellowship", "label": "natural_compound", "brief_reason": "State of being fellows, natural compound"}
+{"left": "field", "right": "work", "full_word": "fieldwork", "label": "natural_compound", "brief_reason": "Work done in field, natural compound"}
+{"left": "finger", "right": "nail", "full_word": "fingernail", "label": "natural_compound", "brief_reason": "Nail on finger, natural compound"}
+{"left": "finger", "right": "print", "full_word": "fingerprint", "label": "natural_compound", "brief_reason": "Print made by finger, natural compound"}
+{"left": "finger", "right": "tip", "full_word": "fingertip", "label": "natural_compound", "brief_reason": "Tip of finger, natural compound"}
+{"left": "fire", "right": "arm", "full_word": "firearm", "label": "natural_compound", "brief_reason": "Weapon using fire, natural compound"}
+{"left": "fire", "right": "cracker", "full_word": "firecracker", "label": "natural_compound", "brief_reason": "Cracker that makes fire, natural compound"}
+{"left": "fire", "right": "light", "full_word": "firelight", "label": "natural_compound", "brief_reason": "Light from fire, natural compound"}
+{"left": "fire", "right": "man", "full_word": "fireman", "label": "natural_compound", "brief_reason": "Person who fights fires, natural compound"}
+{"left": "fire", "right": "place", "full_word": "fireplace", "label": "natural_compound", "brief_reason": "Place for fire, natural compound"}
+{"left": "fire", "right": "work", "full_word": "firework", "label": "natural_compound", "brief_reason": "Explosive display, natural compound"}
+{"left": "flash", "right": "light", "full_word": "flashlight", "label": "natural_compound", "brief_reason": "Light that flashes, natural compound"}
+{"left": "floor", "right": "board", "full_word": "floorboard", "label": "natural_compound", "brief_reason": "Board in floor, natural compound"}
+{"left": "flower", "right": "pot", "full_word": "flowerpot", "label": "natural_compound", "brief_reason": "Pot for flowers, natural compound"}
+{"left": "folk", "right": "lore", "full_word": "folklore", "label": "natural_compound", "brief_reason": "Lore of folk, natural compound"}
+{"left": "food", "right": "stuff", "full_word": "foodstuff", "label": "natural_compound", "brief_reason": "Stuff that is food, natural compound"}
+{"left": "fool", "right": "hardy", "full_word": "foolhardy", "label": "natural_compound", "brief_reason": "Hardy like a fool, natural compound"}
+{"left": "fool", "right": "proof", "full_word": "foolproof", "label": "natural_compound", "brief_reason": "Proof against fools, natural compound"}
+{"left": "foot", "right": "ball", "full_word": "football", "label": "natural_compound", "brief_reason": "Ball kicked with foot, natural compound"}
+{"left": "foot", "right": "note", "full_word": "footnote", "label": "natural_compound", "brief_reason": "Note at foot of page, natural compound"}
+{"left": "foot", "right": "step", "full_word": "footstep", "label": "natural_compound", "brief_reason": "Step made by foot, natural compound"}
+{"left": "fore", "right": "arm", "full_word": "forearm", "label": "natural_compound", "brief_reason": "Arm part before elbow, natural compound"}
+{"left": "fore", "right": "cast", "full_word": "forecast", "label": "natural_compound", "brief_reason": "Cast before/predict, natural compound"}
+{"left": "fore", "right": "finger", "full_word": "forefinger", "label": "natural_compound", "brief_reason": "Finger at fore/front, natural compound"}
+{"left": "fore", "right": "ground", "full_word": "foreground", "label": "natural_compound", "brief_reason": "Ground at fore/front, natural compound"}
+{"left": "fore", "right": "head", "full_word": "forehead", "label": "natural_compound", "brief_reason": "Head part at fore/front, natural compound"}
+{"left": "fore", "right": "man", "full_word": "foreman", "label": "natural_compound", "brief_reason": "Man at fore/in charge, natural compound"}
+{"left": "fore", "right": "runner", "full_word": "forerunner", "label": "natural_compound", "brief_reason": "Runner at fore/ahead, natural compound"}
+{"left": "fore", "right": "saw", "full_word": "foresaw", "label": "pattern_only", "brief_reason": "Past tense of foresee, not a compound of fore + saw"}
+{"left": "fore", "right": "see", "full_word": "foresee", "label": "natural_compound", "brief_reason": "Naturally understood as seeing ahead/before"}
+{"left": "fore", "right": "seen", "full_word": "foreseen", "label": "pattern_only", "brief_reason": "Past participle of foresee, not a compound"}
+{"left": "fore", "right": "sight", "full_word": "foresight", "label": "natural_compound", "brief_reason": "Naturally understood as sight ahead/before"}
+{"left": "fore", "right": "stall", "full_word": "forestall", "label": "pattern_only", "brief_reason": "Etymology is fore + stall but modern meaning is not transparent"}
+{"left": "forth", "right": "right", "full_word": "forthright", "label": "pattern_only", "brief_reason": "Not naturally understood as forth + right"}
+{"left": "four", "right": "teen", "full_word": "fourteen", "label": "natural_compound", "brief_reason": "Clearly four + teen"}
+{"left": "fox", "right": "hole", "full_word": "foxhole", "label": "natural_compound", "brief_reason": "Hole used by foxes or soldiers"}
+{"left": "frame", "right": "work", "full_word": "framework", "label": "natural_compound", "brief_reason": "Work structure like a frame"}
+{"left": "freed", "right": "man", "full_word": "freedman", "label": "natural_compound", "brief_reason": "Man who has been freed"}
+{"left": "free", "right": "hand", "full_word": "freehand", "label": "natural_compound", "brief_reason": "Drawing with free hand"}
+{"left": "free", "right": "holder", "full_word": "freeholder", "label": "natural_compound", "brief_reason": "One who holds property free"}
+{"left": "free", "right": "way", "full_word": "freeway", "label": "natural_compound", "brief_reason": "Free way/road for travel"}
+{"left": "fresh", "right": "man", "full_word": "freshman", "label": "natural_compound", "brief_reason": "Fresh/new man at school"}
+{"left": "friend", "right": "ship", "full_word": "friendship", "label": "natural_compound", "brief_reason": "State of being friends"}
+{"left": "front", "right": "age", "full_word": "frontage", "label": "natural_compound", "brief_reason": "Front area/measurement"}
+{"left": "frost", "right": "bite", "full_word": "frostbite", "label": "natural_compound", "brief_reason": "Bite/injury from frost"}
+{"left": "full", "right": "back", "full_word": "fullback", "label": "natural_compound", "brief_reason": "Football position at the back"}
+{"left": "fur", "right": "row", "full_word": "furrow", "label": "pattern_only", "brief_reason": "Not naturally understood as fur + row"}
+{"left": "gall", "right": "ant", "full_word": "gallant", "label": "pattern_only", "brief_reason": "Not naturally understood as gall + ant"}
+{"left": "garb", "right": "age", "full_word": "garbage", "label": "pattern_only", "brief_reason": "Not naturally understood as garb + age"}
+{"left": "gate", "right": "way", "full_word": "gateway", "label": "natural_compound", "brief_reason": "Way through a gate"}
+{"left": "gaunt", "right": "let", "full_word": "gauntlet", "label": "pattern_only", "brief_reason": "Not naturally understood as gaunt + let"}
+{"left": "gentle", "right": "man", "full_word": "gentleman", "label": "natural_compound", "brief_reason": "Gentle man, well-mannered man"}
+{"left": "give", "right": "away", "full_word": "giveaway", "label": "natural_compound", "brief_reason": "Something given away"}
+{"left": "god", "right": "dam", "full_word": "goddam", "label": "reject", "brief_reason": "Profanity, inappropriate for casual puzzle"}
+{"left": "god", "right": "damn", "full_word": "goddamn", "label": "reject", "brief_reason": "Profanity, inappropriate for casual puzzle"}
+{"left": "god", "right": "send", "full_word": "godsend", "label": "natural_compound", "brief_reason": "Something sent by God"}
+{"left": "good", "right": "night", "full_word": "goodnight", "label": "natural_compound", "brief_reason": "Good night greeting"}
+{"left": "govern", "right": "mental", "full_word": "governmental", "label": "pattern_only", "brief_reason": "Government + al suffix, not govern + mental"}
+{"left": "gram", "right": "mar", "full_word": "grammar", "label": "pattern_only", "brief_reason": "Not naturally understood as gram + mar"}
+{"left": "grand", "right": "child", "full_word": "grandchild", "label": "natural_compound", "brief_reason": "Child of one's child"}
+{"left": "grand", "right": "daughter", "full_word": "granddaughter", "label": "natural_compound", "brief_reason": "Daughter of one's child"}
+{"left": "grand", "right": "father", "full_word": "grandfather", "label": "natural_compound", "brief_reason": "Father of one's parent"}
+{"left": "grand", "right": "mother", "full_word": "grandmother", "label": "natural_compound", "brief_reason": "Mother of one's parent"}
+{"left": "grand", "right": "son", "full_word": "grandson", "label": "natural_compound", "brief_reason": "Son of one's child"}
+{"left": "grape", "right": "fruit", "full_word": "grapefruit", "label": "natural_compound", "brief_reason": "Fruit that grows like grapes"}
+{"left": "grape", "right": "vine", "full_word": "grapevine", "label": "natural_compound", "brief_reason": "Vine that grows grapes"}
+{"left": "grave", "right": "yard", "full_word": "graveyard", "label": "natural_compound", "brief_reason": "Yard with graves"}
+{"left": "great", "right": "coat", "full_word": "greatcoat", "label": "natural_compound", "brief_reason": "Great/large coat"}
+{"left": "green", "right": "house", "full_word": "greenhouse", "label": "natural_compound", "brief_reason": "House for growing green plants"}
+{"left": "grill", "right": "work", "full_word": "grillwork", "label": "natural_compound", "brief_reason": "Decorative work like a grill"}
+{"left": "grim", "right": "ace", "full_word": "grimace", "label": "pattern_only", "brief_reason": "Not naturally understood as grim + ace"}
+{"left": "ground", "right": "work", "full_word": "groundwork", "label": "natural_compound", "brief_reason": "Foundation work on the ground"}
+{"left": "guide", "right": "book", "full_word": "guidebook", "label": "natural_compound", "brief_reason": "Book that guides"}
+{"left": "gun", "right": "fire", "full_word": "gunfire", "label": "natural_compound", "brief_reason": "Fire from guns"}
+{"left": "gun", "right": "man", "full_word": "gunman", "label": "natural_compound", "brief_reason": "Man with a gun"}
+{"left": "gun", "right": "powder", "full_word": "gunpowder", "label": "natural_compound", "brief_reason": "Powder for guns"}
+{"left": "habit", "right": "ant", "full_word": "habitant", "label": "pattern_only", "brief_reason": "Not naturally understood as habit + ant"}
+{"left": "hair", "right": "cut", "full_word": "haircut", "label": "natural_compound", "brief_reason": "Cut of hair"}
+{"left": "half", "right": "back", "full_word": "halfback", "label": "natural_compound", "brief_reason": "Football position halfway back"}
+{"left": "half", "right": "way", "full_word": "halfway", "label": "natural_compound", "brief_reason": "Half the way"}
+{"left": "hall", "right": "mark", "full_word": "hallmark", "label": "natural_compound", "brief_reason": "Mark of quality like guild hall marks"}
+{"left": "hall", "right": "way", "full_word": "hallway", "label": "natural_compound", "brief_reason": "Way through a hall"}
+{"left": "ham", "right": "let", "full_word": "hamlet", "label": "pattern_only", "brief_reason": "Not naturally understood as ham + let"}
+{"left": "ham", "right": "mock", "full_word": "hammock", "label": "pattern_only", "brief_reason": "Not naturally understood as ham + mock"}
+{"left": "hand", "right": "bag", "full_word": "handbag", "label": "natural_compound", "brief_reason": "Bag carried by hand"}
+{"left": "hand", "right": "cuff", "full_word": "handcuff", "label": "natural_compound", "brief_reason": "Cuff for hands"}
+{"left": "hand", "right": "gun", "full_word": "handgun", "label": "natural_compound", "brief_reason": "Gun held in hand"}
+{"left": "handy", "right": "man", "full_word": "handyman", "label": "natural_compound", "brief_reason": "Man who is handy with repairs"}
+{"left": "happen", "right": "stance", "full_word": "happenstance", "label": "pattern_only", "brief_reason": "Not naturally understood as happen + stance"}
+{"left": "hard", "right": "ship", "full_word": "hardship", "label": "natural_compound", "brief_reason": "Hard circumstances"}
+{"left": "hard", "right": "tack", "full_word": "hardtack", "label": "natural_compound", "brief_reason": "Hard type of tack/biscuit"}
+{"left": "hatch", "right": "way", "full_word": "hatchway", "label": "natural_compound", "brief_reason": "Way through a hatch"}
+{"left": "head", "right": "ache", "full_word": "headache", "label": "natural_compound", "brief_reason": "Ache in the head"}
+{"left": "head", "right": "light", "full_word": "headlight", "label": "natural_compound", "brief_reason": "Light at the head/front"}
+{"left": "head", "right": "line", "full_word": "headline", "label": "natural_compound", "brief_reason": "Line at the head/top"}
+{"left": "head", "right": "master", "full_word": "headmaster", "label": "natural_compound", "brief_reason": "Master who is head of school"}
+{"left": "head", "right": "water", "full_word": "headwater", "label": "natural_compound", "brief_reason": "Water at the head/source"}
+{"left": "hear", "right": "say", "full_word": "hearsay", "label": "natural_compound", "brief_reason": "What one hears others say"}
+{"left": "heart", "right": "beat", "full_word": "heartbeat", "label": "natural_compound", "brief_reason": "Beat of the heart"}
+{"left": "heat", "right": "hen", "full_word": "heathen", "label": "pattern_only", "brief_reason": "Not naturally understood as heat + hen"}
+{"left": "hence", "right": "forth", "full_word": "henceforth", "label": "natural_compound", "brief_reason": "From hence forth"}
+{"left": "high", "right": "ball", "full_word": "highball", "label": "natural_compound", "brief_reason": "Tall drink or high signal"}
+{"left": "high", "right": "light", "full_word": "highlight", "label": "natural_compound", "brief_reason": "High/bright light or emphasis"}
+{"left": "high", "right": "point", "full_word": "highpoint", "label": "natural_compound", "brief_reason": "high + point naturally forms highpoint (peak moment)"}
+{"left": "high", "right": "road", "full_word": "highroad", "label": "natural_compound", "brief_reason": "high + road naturally forms highroad (elevated path)"}
+{"left": "high", "right": "way", "full_word": "highway", "label": "natural_compound", "brief_reason": "high + way naturally forms highway (major road)"}
+{"left": "hill", "right": "side", "full_word": "hillside", "label": "natural_compound", "brief_reason": "hill + side naturally forms hillside (slope of hill)"}
+{"left": "hind", "right": "sight", "full_word": "hindsight", "label": "natural_compound", "brief_reason": "hind + sight naturally forms hindsight (looking back)"}
+{"left": "home", "right": "land", "full_word": "homeland", "label": "natural_compound", "brief_reason": "home + land naturally forms homeland (native country)"}
+{"left": "home", "right": "made", "full_word": "homemade", "label": "natural_compound", "brief_reason": "home + made naturally forms homemade (made at home)"}
+{"left": "home", "right": "maker", "full_word": "homemaker", "label": "natural_compound", "brief_reason": "home + maker naturally forms homemaker (person who manages home)"}
+{"left": "home", "right": "owner", "full_word": "homeowner", "label": "natural_compound", "brief_reason": "home + owner naturally forms homeowner (person who owns home)"}
+{"left": "home", "right": "sick", "full_word": "homesick", "label": "natural_compound", "brief_reason": "home + sick naturally forms homesick (longing for home)"}
+{"left": "honey", "right": "bee", "full_word": "honeybee", "label": "natural_compound", "brief_reason": "honey + bee naturally forms honeybee (bee that makes honey)"}
+{"left": "honey", "right": "moon", "full_word": "honeymoon", "label": "natural_compound", "brief_reason": "honey + moon naturally forms honeymoon (post-wedding trip)"}
+{"left": "horse", "right": "back", "full_word": "horseback", "label": "natural_compound", "brief_reason": "horse + back naturally forms horseback (on horse's back)"}
+{"left": "horse", "right": "man", "full_word": "horseman", "label": "natural_compound", "brief_reason": "horse + man naturally forms horseman (person who rides horses)"}
+{"left": "horseman", "right": "ship", "full_word": "horsemanship", "label": "natural_compound", "brief_reason": "horseman + ship naturally forms horsemanship (skill in riding)"}
+{"left": "horse", "right": "play", "full_word": "horseplay", "label": "natural_compound", "brief_reason": "horse + play naturally forms horseplay (rough play)"}
+{"left": "horse", "right": "power", "full_word": "horsepower", "label": "natural_compound", "brief_reason": "horse + power naturally forms horsepower (unit of power)"}
+{"left": "host", "right": "age", "full_word": "hostage", "label": "pattern_only", "brief_reason": "host + age is not natural compound; hostage has different etymology"}
+{"left": "house", "right": "hold", "full_word": "household", "label": "natural_compound", "brief_reason": "house + hold naturally forms household (family unit)"}
+{"left": "house", "right": "keeper", "full_word": "housekeeper", "label": "natural_compound", "brief_reason": "house + keeper naturally forms housekeeper (person who maintains house)"}
+{"left": "house", "right": "wife", "full_word": "housewife", "label": "natural_compound", "brief_reason": "house + wife naturally forms housewife (woman managing household)"}
+{"left": "house", "right": "work", "full_word": "housework", "label": "natural_compound", "brief_reason": "house + work naturally forms housework (domestic tasks)"}
+{"left": "hum", "right": "mock", "full_word": "hummock", "label": "pattern_only", "brief_reason": "hum + mock is not natural compound; hummock has different etymology"}
+{"left": "ice", "right": "box", "full_word": "icebox", "label": "natural_compound", "brief_reason": "ice + box naturally forms icebox (refrigeration container)"}
+{"left": "idea", "right": "list", "full_word": "idealist", "label": "pattern_only", "brief_reason": "idea + list is not natural compound; idealist uses suffix -ist"}
+{"left": "import", "right": "ant", "full_word": "important", "label": "pattern_only", "brief_reason": "import + ant is not natural compound; important uses suffix -ant"}
+{"left": "inform", "right": "ant", "full_word": "informant", "label": "pattern_only", "brief_reason": "inform + ant is not natural compound; informant uses suffix -ant"}
+{"left": "inn", "right": "ate", "full_word": "innate", "label": "pattern_only", "brief_reason": "inn + ate is not natural compound; innate has different etymology"}
+{"left": "interrelation", "right": "ship", "full_word": "interrelationship", "label": "natural_compound", "brief_reason": "interrelation + ship naturally forms interrelationship (complex relationship)"}
+{"left": "joy", "right": "ride", "full_word": "joyride", "label": "natural_compound", "brief_reason": "joy + ride naturally forms joyride (pleasure drive)"}
+{"left": "key", "right": "board", "full_word": "keyboard", "label": "natural_compound", "brief_reason": "key + board naturally forms keyboard (input device)"}
+{"left": "key", "right": "hole", "full_word": "keyhole", "label": "natural_compound", "brief_reason": "key + hole naturally forms keyhole (lock opening)"}
+{"left": "key", "right": "note", "full_word": "keynote", "label": "natural_compound", "brief_reason": "key + note naturally forms keynote (main speech/theme)"}
+{"left": "kit", "right": "ten", "full_word": "kitten", "label": "pattern_only", "brief_reason": "kit + ten is not natural compound; kitten has different etymology"}
+{"left": "know", "right": "ledge", "full_word": "knowledge", "label": "pattern_only", "brief_reason": "know + ledge is not natural compound; knowledge has different etymology"}
+{"left": "lamp", "right": "light", "full_word": "lamplight", "label": "natural_compound", "brief_reason": "lamp + light naturally forms lamplight (light from lamp)"}
+{"left": "land", "right": "lord", "full_word": "landlord", "label": "natural_compound", "brief_reason": "land + lord naturally forms landlord (property owner)"}
+{"left": "land", "right": "mark", "full_word": "landmark", "label": "natural_compound", "brief_reason": "land + mark naturally forms landmark (notable location)"}
+{"left": "land", "right": "slide", "full_word": "landslide", "label": "natural_compound", "brief_reason": "land + slide naturally forms landslide (earth movement)"}
+{"left": "law", "right": "maker", "full_word": "lawmaker", "label": "natural_compound", "brief_reason": "law + maker naturally forms lawmaker (legislator)"}
+{"left": "law", "right": "man", "full_word": "lawman", "label": "natural_compound", "brief_reason": "law + man naturally forms lawman (law enforcement officer)"}
+{"left": "lay", "right": "man", "full_word": "layman", "label": "natural_compound", "brief_reason": "lay + man naturally forms layman (non-expert person)"}
+{"left": "leader", "right": "ship", "full_word": "leadership", "label": "natural_compound", "brief_reason": "leader + ship naturally forms leadership (quality of leading)"}
+{"left": "leaf", "right": "let", "full_word": "leaflet", "label": "natural_compound", "brief_reason": "leaf + let naturally forms leaflet (small leaf/pamphlet)"}
+{"left": "leg", "right": "end", "full_word": "legend", "label": "pattern_only", "brief_reason": "leg + end is not natural compound; legend has different etymology"}
+{"left": "length", "right": "wise", "full_word": "lengthwise", "label": "natural_compound", "brief_reason": "length + wise naturally forms lengthwise (along the length)"}
+{"left": "lieu", "right": "tenant", "full_word": "lieutenant", "label": "pattern_only", "brief_reason": "lieu + tenant is not natural compound; lieutenant has different etymology"}
+{"left": "life", "right": "boat", "full_word": "lifeboat", "label": "natural_compound", "brief_reason": "life + boat naturally forms lifeboat (emergency boat)"}
+{"left": "life", "right": "like", "full_word": "lifelike", "label": "natural_compound", "brief_reason": "life + like naturally forms lifelike (resembling life)"}
+{"left": "life", "right": "time", "full_word": "lifetime", "label": "natural_compound", "brief_reason": "life + time naturally forms lifetime (duration of life)"}
+{"left": "light", "right": "weight", "full_word": "lightweight", "label": "natural_compound", "brief_reason": "light + weight naturally forms lightweight (not heavy)"}
+{"left": "like", "right": "wise", "full_word": "likewise", "label": "natural_compound", "brief_reason": "like + wise naturally forms likewise (similarly)"}
+{"left": "line", "right": "age", "full_word": "lineage", "label": "pattern_only", "brief_reason": "line + age is not natural compound; lineage has different etymology"}
+{"left": "line", "right": "back", "full_word": "lineback", "label": "natural_compound", "brief_reason": "line + back naturally forms lineback (football position)"}
+{"left": "link", "right": "age", "full_word": "linkage", "label": "pattern_only", "brief_reason": "link + age is not natural compound; linkage uses suffix -age"}
+{"left": "lip", "right": "stick", "full_word": "lipstick", "label": "natural_compound", "brief_reason": "lip + stick naturally forms lipstick (cosmetic product)"}
+{"left": "liter", "right": "ate", "full_word": "literate", "label": "pattern_only", "brief_reason": "liter + ate is not natural compound; literate has different etymology"}
+{"left": "live", "right": "stock", "full_word": "livestock", "label": "natural_compound", "brief_reason": "live + stock naturally forms livestock (farm animals)"}
+{"left": "long", "right": "hand", "full_word": "longhand", "label": "natural_compound", "brief_reason": "long + hand naturally forms longhand (cursive writing)"}
+{"left": "long", "right": "horn", "full_word": "longhorn", "label": "natural_compound", "brief_reason": "long + horn naturally forms longhorn (cattle breed)"}
+{"left": "loop", "right": "hole", "full_word": "loophole", "label": "natural_compound", "brief_reason": "loop + hole naturally forms loophole (gap/escape)"}
+{"left": "lord", "right": "ship", "full_word": "lordship", "label": "natural_compound", "brief_reason": "lord + ship naturally forms lordship (status of lord)"}
+{"left": "loud", "right": "speaker", "full_word": "loudspeaker", "label": "natural_compound", "brief_reason": "loud + speaker naturally forms loudspeaker (audio device)"}
+{"left": "lunch", "right": "time", "full_word": "lunchtime", "label": "natural_compound", "brief_reason": "lunch + time naturally forms lunchtime (time for lunch)"}
+{"left": "mad", "right": "man", "full_word": "madman", "label": "natural_compound", "brief_reason": "mad + man naturally forms madman (insane person)"}
+{"left": "mail", "right": "box", "full_word": "mailbox", "label": "natural_compound", "brief_reason": "mail + box naturally forms mailbox (postal receptacle)"}
+{"left": "main", "right": "land", "full_word": "mainland", "label": "natural_compound", "brief_reason": "main + land naturally forms mainland (principal landmass)"}
+{"left": "main", "right": "stream", "full_word": "mainstream", "label": "natural_compound", "brief_reason": "main + stream naturally forms mainstream (dominant trend)"}
+{"left": "make", "right": "shift", "full_word": "makeshift", "label": "natural_compound", "brief_reason": "make + shift naturally forms makeshift (temporary solution)"}
+{"left": "man", "right": "age", "full_word": "manage", "label": "pattern_only", "brief_reason": "man + age is not natural compound; manage has different etymology"}
+{"left": "man", "right": "date", "full_word": "mandate", "label": "pattern_only", "brief_reason": "man + date is not natural compound; mandate has different etymology"}
+{"left": "man", "right": "hood", "full_word": "manhood", "label": "natural_compound", "brief_reason": "man + hood naturally forms manhood (state of being man)"}
+{"left": "man", "right": "kind", "full_word": "mankind", "label": "natural_compound", "brief_reason": "man + kind naturally forms mankind (human race)"}
+{"left": "man", "right": "made", "full_word": "manmade", "label": "natural_compound", "brief_reason": "man + made naturally forms manmade (artificial)"}
+{"left": "man", "right": "power", "full_word": "manpower", "label": "natural_compound", "brief_reason": "man + power naturally forms manpower (human workforce)"}
+{"left": "mar", "right": "gin", "full_word": "margin", "label": "pattern_only", "brief_reason": "mar is not a meaningful standalone word in this context"}
+{"left": "market", "right": "place", "full_word": "marketplace", "label": "natural_compound", "brief_reason": "market + place naturally forms marketplace"}
+{"left": "marksman", "right": "ship", "full_word": "marksmanship", "label": "natural_compound", "brief_reason": "marksman + ship (suffix) forms marksmanship"}
+{"left": "mar", "right": "row", "full_word": "marrow", "label": "pattern_only", "brief_reason": "mar is not meaningful as a standalone word here"}
+{"left": "mass", "right": "age", "full_word": "massage", "label": "pattern_only", "brief_reason": "mass + age doesn't naturally form massage"}
+{"left": "master", "right": "piece", "full_word": "masterpiece", "label": "natural_compound", "brief_reason": "master + piece naturally forms masterpiece"}
+{"left": "match", "right": "maker", "full_word": "matchmaker", "label": "natural_compound", "brief_reason": "match + maker naturally forms matchmaker"}
+{"left": "meal", "right": "time", "full_word": "mealtime", "label": "natural_compound", "brief_reason": "meal + time naturally forms mealtime"}
+{"left": "mean", "right": "time", "full_word": "meantime", "label": "natural_compound", "brief_reason": "mean + time naturally forms meantime"}
+{"left": "member", "right": "ship", "full_word": "membership", "label": "natural_compound", "brief_reason": "member + ship (suffix) forms membership"}
+{"left": "men", "right": "ace", "full_word": "menace", "label": "pattern_only", "brief_reason": "men + ace doesn't naturally form menace"}
+{"left": "mess", "right": "age", "full_word": "message", "label": "pattern_only", "brief_reason": "mess + age doesn't naturally form message"}
+{"left": "mid", "right": "air", "full_word": "midair", "label": "natural_compound", "brief_reason": "mid + air naturally forms midair"}
+{"left": "mid", "right": "day", "full_word": "midday", "label": "natural_compound", "brief_reason": "mid + day naturally forms midday"}
+{"left": "mid", "right": "night", "full_word": "midnight", "label": "natural_compound", "brief_reason": "mid + night naturally forms midnight"}
+{"left": "mid", "right": "summer", "full_word": "midsummer", "label": "natural_compound", "brief_reason": "mid + summer naturally forms midsummer"}
+{"left": "mid", "right": "way", "full_word": "midway", "label": "natural_compound", "brief_reason": "mid + way naturally forms midway"}
+{"left": "mid", "right": "week", "full_word": "midweek", "label": "natural_compound", "brief_reason": "mid + week naturally forms midweek"}
+{"left": "mile", "right": "age", "full_word": "mileage", "label": "natural_compound", "brief_reason": "mile + age naturally forms mileage"}
+{"left": "mile", "right": "stone", "full_word": "milestone", "label": "natural_compound", "brief_reason": "mile + stone naturally forms milestone"}
+{"left": "mist", "right": "rust", "full_word": "mistrust", "label": "pattern_only", "brief_reason": "mist + rust doesn't naturally form mistrust"}
+{"left": "mode", "right": "rate", "full_word": "moderate", "label": "pattern_only", "brief_reason": "mode + rate doesn't naturally form moderate"}
+{"left": "moon", "right": "light", "full_word": "moonlight", "label": "natural_compound", "brief_reason": "moon + light naturally forms moonlight"}
+{"left": "moon", "right": "lit", "full_word": "moonlit", "label": "natural_compound", "brief_reason": "moon + lit naturally forms moonlit"}
+{"left": "mountain", "right": "side", "full_word": "mountainside", "label": "natural_compound", "brief_reason": "mountain + side naturally forms mountainside"}
+{"left": "mouth", "right": "piece", "full_word": "mouthpiece", "label": "natural_compound", "brief_reason": "mouth + piece naturally forms mouthpiece"}
+{"left": "musician", "right": "ship", "full_word": "musicianship", "label": "natural_compound", "brief_reason": "musician + ship (suffix) forms musicianship"}
+{"left": "must", "right": "ache", "full_word": "mustache", "label": "pattern_only", "brief_reason": "must + ache doesn't naturally form mustache"}
+{"left": "name", "right": "sake", "full_word": "namesake", "label": "natural_compound", "brief_reason": "name + sake naturally forms namesake"}
+{"left": "nation", "right": "wide", "full_word": "nationwide", "label": "natural_compound", "brief_reason": "nation + wide naturally forms nationwide"}
+{"left": "neck", "right": "lace", "full_word": "necklace", "label": "natural_compound", "brief_reason": "neck + lace naturally forms necklace"}
+{"left": "neck", "right": "line", "full_word": "neckline", "label": "natural_compound", "brief_reason": "neck + line naturally forms neckline"}
+{"left": "neck", "right": "tie", "full_word": "necktie", "label": "natural_compound", "brief_reason": "neck + tie naturally forms necktie"}
+{"left": "neighbor", "right": "hood", "full_word": "neighborhood", "label": "natural_compound", "brief_reason": "neighbor + hood naturally forms neighborhood"}
+{"left": "net", "right": "work", "full_word": "network", "label": "natural_compound", "brief_reason": "net + work naturally forms network"}
+{"left": "new", "right": "born", "full_word": "newborn", "label": "natural_compound", "brief_reason": "new + born naturally forms newborn"}
+{"left": "news", "right": "boy", "full_word": "newsboy", "label": "natural_compound", "brief_reason": "news + boy naturally forms newsboy"}
+{"left": "news", "right": "letter", "full_word": "newsletter", "label": "natural_compound", "brief_reason": "news + letter naturally forms newsletter"}
+{"left": "news", "right": "man", "full_word": "newsman", "label": "natural_compound", "brief_reason": "news + man naturally forms newsman"}
+{"left": "news", "right": "paper", "full_word": "newspaper", "label": "natural_compound", "brief_reason": "news + paper naturally forms newspaper"}
+{"left": "night", "right": "club", "full_word": "nightclub", "label": "natural_compound", "brief_reason": "night + club naturally forms nightclub"}
+{"left": "night", "right": "fall", "full_word": "nightfall", "label": "natural_compound", "brief_reason": "night + fall naturally forms nightfall"}
+{"left": "night", "right": "mare", "full_word": "nightmare", "label": "natural_compound", "brief_reason": "night + mare naturally forms nightmare"}
+{"left": "night", "right": "time", "full_word": "nighttime", "label": "natural_compound", "brief_reason": "night + time naturally forms nighttime"}
+{"left": "nine", "right": "teen", "full_word": "nineteen", "label": "natural_compound", "brief_reason": "nine + teen naturally forms nineteen"}
+{"left": "noble", "right": "man", "full_word": "nobleman", "label": "natural_compound", "brief_reason": "noble + man naturally forms nobleman"}
+{"left": "noise", "right": "maker", "full_word": "noisemaker", "label": "natural_compound", "brief_reason": "noise + maker naturally forms noisemaker"}
+{"left": "non", "right": "sense", "full_word": "nonsense", "label": "natural_compound", "brief_reason": "non + sense naturally forms nonsense"}
+{"left": "non", "right": "verbal", "full_word": "nonverbal", "label": "natural_compound", "brief_reason": "non + verbal naturally forms nonverbal"}
+{"left": "non", "right": "white", "full_word": "nonwhite", "label": "natural_compound", "brief_reason": "non + white naturally forms nonwhite"}
+{"left": "north", "right": "east", "full_word": "northeast", "label": "natural_compound", "brief_reason": "north + east naturally forms northeast"}
+{"left": "north", "right": "ward", "full_word": "northward", "label": "natural_compound", "brief_reason": "north + ward naturally forms northward"}
+{"left": "north", "right": "west", "full_word": "northwest", "label": "natural_compound", "brief_reason": "north + west naturally forms northwest"}
+{"left": "note", "right": "book", "full_word": "notebook", "label": "natural_compound", "brief_reason": "note + book naturally forms notebook"}
+{"left": "note", "right": "worthy", "full_word": "noteworthy", "label": "natural_compound", "brief_reason": "note + worthy naturally forms noteworthy"}
+{"left": "oil", "right": "cloth", "full_word": "oilcloth", "label": "natural_compound", "brief_reason": "oil + cloth naturally forms oilcloth"}
+{"left": "one", "right": "self", "full_word": "oneself", "label": "natural_compound", "brief_reason": "one + self naturally forms oneself"}
+{"left": "origin", "right": "ate", "full_word": "originate", "label": "pattern_only", "brief_reason": "origin + ate is a suffix pattern, not natural compound"}
+{"left": "overt", "right": "one", "full_word": "overtone", "label": "pattern_only", "brief_reason": "overt + one doesn't naturally form overtone"}
+{"left": "owner", "right": "ship", "full_word": "ownership", "label": "natural_compound", "brief_reason": "owner + ship (suffix) forms ownership"}
+{"left": "pack", "right": "age", "full_word": "package", "label": "natural_compound", "brief_reason": "pack + age naturally forms package"}
+{"left": "pad", "right": "lock", "full_word": "padlock", "label": "natural_compound", "brief_reason": "pad + lock naturally forms padlock"}
+{"left": "page", "right": "ant", "full_word": "pageant", "label": "pattern_only", "brief_reason": "page + ant doesn't naturally form pageant"}
+{"left": "pal", "right": "ace", "full_word": "palace", "label": "pattern_only", "brief_reason": "pal + ace doesn't naturally form palace"}
+{"left": "pal", "right": "ate", "full_word": "palate", "label": "pattern_only", "brief_reason": "pal + ate doesn't naturally form palate"}
+{"left": "pal", "right": "lid", "full_word": "pallid", "label": "pattern_only", "brief_reason": "pal + lid doesn't naturally form pallid"}
+{"left": "paper", "right": "back", "full_word": "paperback", "label": "natural_compound", "brief_reason": "paper + back naturally forms paperback"}
+{"left": "par", "right": "amount", "full_word": "paramount", "label": "pattern_only", "brief_reason": "par + amount doesn't naturally form paramount"}
+{"left": "parent", "right": "age", "full_word": "parentage", "label": "natural_compound", "brief_reason": "parent + age naturally forms parentage"}
+{"left": "parent", "right": "hood", "full_word": "parenthood", "label": "natural_compound", "brief_reason": "parent + hood naturally forms parenthood"}
+{"left": "park", "right": "way", "full_word": "parkway", "label": "natural_compound", "brief_reason": "park + way naturally forms parkway"}
+{"left": "par", "right": "lance", "full_word": "parlance", "label": "pattern_only", "brief_reason": "par + lance doesn't naturally form parlance"}
+{"left": "partner", "right": "ship", "full_word": "partnership", "label": "natural_compound", "brief_reason": "partner + ship (suffix) forms partnership"}
+{"left": "pas", "right": "sage", "full_word": "passage", "label": "pattern_only", "brief_reason": "pas + sage doesn't naturally form passage"}
+{"left": "pass", "right": "age", "full_word": "passage", "label": "natural_compound", "brief_reason": "pass + age naturally forms passage"}
+{"left": "pas", "right": "sport", "full_word": "passport", "label": "pattern_only", "brief_reason": "pas is not a meaningful standalone word"}
+{"left": "pass", "right": "port", "full_word": "passport", "label": "natural_compound", "brief_reason": "pass and port are both meaningful words forming passport"}
+{"left": "pas", "right": "time", "full_word": "pastime", "label": "pattern_only", "brief_reason": "pas is not a meaningful standalone word"}
+{"left": "past", "right": "oral", "full_word": "pastoral", "label": "pattern_only", "brief_reason": "not a natural compound, pastoral is not past+oral"}
+{"left": "patch", "right": "work", "full_word": "patchwork", "label": "natural_compound", "brief_reason": "patch and work combine naturally to form patchwork"}
+{"left": "path", "right": "way", "full_word": "pathway", "label": "natural_compound", "brief_reason": "path and way combine naturally to form pathway"}
+{"left": "pat", "right": "riot", "full_word": "patriot", "label": "pattern_only", "brief_reason": "patriot is not naturally pat+riot"}
+{"left": "patrol", "right": "man", "full_word": "patrolman", "label": "natural_compound", "brief_reason": "patrol and man combine naturally to form patrolman"}
+{"left": "patron", "right": "age", "full_word": "patronage", "label": "pattern_only", "brief_reason": "patronage is not naturally patron+age"}
+{"left": "pay", "right": "check", "full_word": "paycheck", "label": "natural_compound", "brief_reason": "pay and check combine naturally to form paycheck"}
+{"left": "pay", "right": "day", "full_word": "payday", "label": "natural_compound", "brief_reason": "pay and day combine naturally to form payday"}
+{"left": "pay", "right": "roll", "full_word": "payroll", "label": "natural_compound", "brief_reason": "pay and roll combine naturally to form payroll"}
+{"left": "peace", "right": "time", "full_word": "peacetime", "label": "natural_compound", "brief_reason": "peace and time combine naturally to form peacetime"}
+{"left": "pea", "right": "cock", "full_word": "peacock", "label": "natural_compound", "brief_reason": "pea and cock combine naturally to form peacock"}
+{"left": "pea", "right": "nut", "full_word": "peanut", "label": "natural_compound", "brief_reason": "pea and nut combine naturally to form peanut"}
+{"left": "peg", "right": "board", "full_word": "pegboard", "label": "natural_compound", "brief_reason": "peg and board combine naturally to form pegboard"}
+{"left": "pepper", "right": "mint", "full_word": "peppermint", "label": "natural_compound", "brief_reason": "pepper and mint combine naturally to form peppermint"}
+{"left": "person", "right": "age", "full_word": "personage", "label": "pattern_only", "brief_reason": "personage is not naturally person+age"}
+{"left": "photo", "right": "chemical", "full_word": "photochemical", "label": "natural_compound", "brief_reason": "photo and chemical combine naturally to form photochemical"}
+{"left": "photo", "right": "graph", "full_word": "photograph", "label": "natural_compound", "brief_reason": "photo and graph combine naturally to form photograph"}
+{"left": "photo", "right": "graphic", "full_word": "photographic", "label": "natural_compound", "brief_reason": "photo and graphic combine naturally to form photographic"}
+{"left": "piece", "right": "meal", "full_word": "piecemeal", "label": "natural_compound", "brief_reason": "piece and meal combine naturally to form piecemeal"}
+{"left": "pill", "right": "age", "full_word": "pillage", "label": "pattern_only", "brief_reason": "pillage is not naturally pill+age"}
+{"left": "pine", "right": "apple", "full_word": "pineapple", "label": "natural_compound", "brief_reason": "pine and apple combine naturally to form pineapple"}
+{"left": "pin", "right": "point", "full_word": "pinpoint", "label": "natural_compound", "brief_reason": "pin and point combine naturally to form pinpoint"}
+{"left": "pipe", "right": "line", "full_word": "pipeline", "label": "natural_compound", "brief_reason": "pipe and line combine naturally to form pipeline"}
+{"left": "pitch", "right": "fork", "full_word": "pitchfork", "label": "natural_compound", "brief_reason": "pitch and fork combine naturally to form pitchfork"}
+{"left": "pit", "right": "fall", "full_word": "pitfall", "label": "natural_compound", "brief_reason": "pit and fall combine naturally to form pitfall"}
+{"left": "play", "right": "ground", "full_word": "playground", "label": "natural_compound", "brief_reason": "play and ground combine naturally to form playground"}
+{"left": "play", "right": "mate", "full_word": "playmate", "label": "natural_compound", "brief_reason": "play and mate combine naturally to form playmate"}
+{"left": "plea", "right": "sure", "full_word": "pleasure", "label": "pattern_only", "brief_reason": "pleasure is not naturally plea+sure"}
+{"left": "pocket", "right": "book", "full_word": "pocketbook", "label": "natural_compound", "brief_reason": "pocket and book combine naturally to form pocketbook"}
+{"left": "police", "right": "man", "full_word": "policeman", "label": "natural_compound", "brief_reason": "police and man combine naturally to form policeman"}
+{"left": "port", "right": "ray", "full_word": "portray", "label": "pattern_only", "brief_reason": "portray is not naturally port+ray"}
+{"left": "post", "right": "card", "full_word": "postcard", "label": "natural_compound", "brief_reason": "post and card combine naturally to form postcard"}
+{"left": "post", "right": "graduate", "full_word": "postgraduate", "label": "natural_compound", "brief_reason": "post and graduate combine naturally to form postgraduate"}
+{"left": "post", "right": "man", "full_word": "postman", "label": "natural_compound", "brief_reason": "post and man combine naturally to form postman"}
+{"left": "post", "right": "mark", "full_word": "postmark", "label": "natural_compound", "brief_reason": "post and mark combine naturally to form postmark"}
+{"left": "post", "right": "script", "full_word": "postscript", "label": "natural_compound", "brief_reason": "post and script combine naturally to form postscript"}
+{"left": "post", "right": "war", "full_word": "postwar", "label": "natural_compound", "brief_reason": "post and war combine naturally to form postwar"}
+{"left": "pot", "right": "boiler", "full_word": "potboiler", "label": "natural_compound", "brief_reason": "pot and boiler combine naturally to form potboiler"}
+{"left": "pro", "right": "claim", "full_word": "proclaim", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "cure", "full_word": "procure", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "duct", "full_word": "product", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "file", "full_word": "profile", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "fit", "full_word": "profit", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "found", "full_word": "profound", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "fuse", "full_word": "profuse", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "prof", "right": "use", "full_word": "profuse", "label": "pattern_only", "brief_reason": "prof is not a meaningful standalone word"}
+{"left": "pro", "right": "gram", "full_word": "program", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "noun", "full_word": "pronoun", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "pose", "full_word": "propose", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "proprietor", "right": "ship", "full_word": "proprietorship", "label": "natural_compound", "brief_reason": "proprietor and ship combine naturally to form proprietorship"}
+{"left": "prose", "right": "cute", "full_word": "prosecute", "label": "pattern_only", "brief_reason": "prosecute is not naturally prose+cute"}
+{"left": "pro", "right": "state", "full_word": "prostate", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "tease", "full_word": "protease", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "test", "full_word": "protest", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "ton", "full_word": "proton", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pro", "right": "verb", "full_word": "proverb", "label": "pattern_only", "brief_reason": "pro is a prefix, not a natural compound"}
+{"left": "pup", "right": "pet", "full_word": "puppet", "label": "pattern_only", "brief_reason": "puppet is not naturally pup+pet"}
+{"left": "quarter", "right": "back", "full_word": "quarterback", "label": "natural_compound", "brief_reason": "quarter and back combine naturally to form quarterback"}
+{"left": "quick", "right": "silver", "full_word": "quicksilver", "label": "natural_compound", "brief_reason": "quick and silver combine naturally to form quicksilver"}
+{"left": "quick", "right": "step", "full_word": "quickstep", "label": "natural_compound", "brief_reason": "quick and step combine naturally to form quickstep"}
+{"left": "race", "right": "track", "full_word": "racetrack", "label": "natural_compound", "brief_reason": "race and track combine naturally to form racetrack"}
+{"left": "radio", "right": "active", "full_word": "radioactive", "label": "natural_compound", "brief_reason": "radio and active combine naturally to form radioactive"}
+{"left": "radio", "right": "activity", "full_word": "radioactivity", "label": "natural_compound", "brief_reason": "radio and activity combine naturally to form radioactivity"}
+{"left": "rail", "right": "head", "full_word": "railhead", "label": "natural_compound", "brief_reason": "rail and head combine naturally to form railhead"}
+{"left": "rail", "right": "road", "full_word": "railroad", "label": "natural_compound", "brief_reason": "rail and road combine naturally to form railroad"}
+{"left": "rail", "right": "way", "full_word": "railway", "label": "natural_compound", "brief_reason": "rail and way combine naturally to form railway"}
+{"left": "rain", "right": "bow", "full_word": "rainbow", "label": "natural_compound", "brief_reason": "rain and bow combine naturally to form rainbow"}
+{"left": "rain", "right": "coat", "full_word": "raincoat", "label": "natural_compound", "brief_reason": "rain and coat combine naturally to form raincoat"}
+{"left": "rain", "right": "fall", "full_word": "rainfall", "label": "natural_compound", "brief_reason": "rain and fall combine naturally to form rainfall"}
+{"left": "rain", "right": "storm", "full_word": "rainstorm", "label": "natural_compound", "brief_reason": "rain and storm combine naturally to form rainstorm"}
+{"left": "ramp", "right": "ant", "full_word": "rampant", "label": "pattern_only", "brief_reason": "rampant is not naturally ramp+ant"}
+{"left": "ramp", "right": "art", "full_word": "rampart", "label": "pattern_only", "brief_reason": "rampart is not naturally ramp+art"}
+{"left": "range", "right": "land", "full_word": "rangeland", "label": "natural_compound", "brief_reason": "Land used for grazing livestock, natural compound"}
+{"left": "ran", "right": "sack", "full_word": "ransack", "label": "pattern_only", "brief_reason": "Not a compound of 'ran' + 'sack', different etymology"}
+{"left": "rattle", "right": "snake", "full_word": "rattlesnake", "label": "natural_compound", "brief_reason": "Snake that rattles, clear compound"}
+{"left": "react", "right": "ant", "full_word": "reactant", "label": "pattern_only", "brief_reason": "Chemical term with suffix -ant, not compound"}
+{"left": "reap", "right": "pear", "full_word": "reappear", "label": "pattern_only", "brief_reason": "Prefix re- + appear, not compound"}
+{"left": "rear", "right": "range", "full_word": "rearrange", "label": "pattern_only", "brief_reason": "Prefix re- + arrange, not compound"}
+{"left": "rebel", "right": "lion", "full_word": "rebellion", "label": "pattern_only", "brief_reason": "Not a compound, suffix -ion"}
+{"left": "red", "right": "coat", "full_word": "redcoat", "label": "natural_compound", "brief_reason": "British soldier in red coat, natural compound"}
+{"left": "red", "right": "dish", "full_word": "reddish", "label": "pattern_only", "brief_reason": "Adjective with suffix -ish, not compound"}
+{"left": "red", "right": "head", "full_word": "redhead", "label": "natural_compound", "brief_reason": "Person with red hair, natural compound"}
+{"left": "red", "right": "wood", "full_word": "redwood", "label": "natural_compound", "brief_reason": "Type of tree with red wood, natural compound"}
+{"left": "rein", "right": "force", "full_word": "reinforce", "label": "pattern_only", "brief_reason": "Prefix re- + enforce, not compound"}
+{"left": "relation", "right": "ship", "full_word": "relationship", "label": "pattern_only", "brief_reason": "Abstract noun with suffix -ship, not compound"}
+{"left": "repair", "right": "man", "full_word": "repairman", "label": "natural_compound", "brief_reason": "Man who does repairs, natural compound"}
+{"left": "resist", "right": "ant", "full_word": "resistant", "label": "pattern_only", "brief_reason": "Adjective with suffix -ant, not compound"}
+{"left": "respect", "right": "ability", "full_word": "respectability", "label": "pattern_only", "brief_reason": "Abstract noun with suffix -ability, not compound"}
+{"left": "rest", "right": "ore", "full_word": "restore", "label": "pattern_only", "brief_reason": "Prefix re- + store, not compound"}
+{"left": "rest", "right": "rain", "full_word": "restrain", "label": "pattern_only", "brief_reason": "Not a compound, different etymology"}
+{"left": "result", "right": "ant", "full_word": "resultant", "label": "pattern_only", "brief_reason": "Adjective with suffix -ant, not compound"}
+{"left": "rid", "right": "den", "full_word": "ridden", "label": "pattern_only", "brief_reason": "Past participle of ride, not compound"}
+{"left": "rifle", "right": "man", "full_word": "rifleman", "label": "natural_compound", "brief_reason": "Soldier with rifle, natural compound"}
+{"left": "right", "right": "field", "full_word": "rightfield", "label": "natural_compound", "brief_reason": "Baseball position, natural compound"}
+{"left": "river", "right": "bank", "full_word": "riverbank", "label": "natural_compound", "brief_reason": "Bank of a river, natural compound"}
+{"left": "road", "right": "block", "full_word": "roadblock", "label": "natural_compound", "brief_reason": "Barrier on road, natural compound"}
+{"left": "road", "right": "side", "full_word": "roadside", "label": "natural_compound", "brief_reason": "Side of road, natural compound"}
+{"left": "road", "right": "way", "full_word": "roadway", "label": "natural_compound", "brief_reason": "Way for roads, natural compound"}
+{"left": "rock", "right": "like", "full_word": "rocklike", "label": "natural_compound", "brief_reason": "Like rock, natural compound"}
+{"left": "roof", "right": "top", "full_word": "rooftop", "label": "natural_compound", "brief_reason": "Top of roof, natural compound"}
+{"left": "rose", "right": "bud", "full_word": "rosebud", "label": "natural_compound", "brief_reason": "Bud of rose, natural compound"}
+{"left": "rot", "right": "ate", "full_word": "rotate", "label": "pattern_only", "brief_reason": "Not a compound, different etymology"}
+{"left": "rot", "right": "ten", "full_word": "rotten", "label": "pattern_only", "brief_reason": "Adjective with suffix -en, not compound"}
+{"left": "rough", "right": "cast", "full_word": "roughcast", "label": "natural_compound", "brief_reason": "Type of plaster finish, natural compound"}
+{"left": "round", "right": "head", "full_word": "roundhead", "label": "natural_compound", "brief_reason": "Historical term for Puritan, natural compound"}
+{"left": "round", "right": "house", "full_word": "roundhouse", "label": "natural_compound", "brief_reason": "Round building for trains, natural compound"}
+{"left": "run", "right": "away", "full_word": "runaway", "label": "natural_compound", "brief_reason": "Person who runs away, natural compound"}
+{"left": "run", "right": "down", "full_word": "rundown", "label": "natural_compound", "brief_reason": "Summary or deteriorated state, natural compound"}
+{"left": "run", "right": "way", "full_word": "runway", "label": "natural_compound", "brief_reason": "Way for running/takeoff, natural compound"}
+{"left": "saddle", "right": "bag", "full_word": "saddlebag", "label": "natural_compound", "brief_reason": "Bag attached to saddle, natural compound"}
+{"left": "safe", "right": "guard", "full_word": "safeguard", "label": "natural_compound", "brief_reason": "Guard for safety, natural compound"}
+{"left": "sail", "right": "boat", "full_word": "sailboat", "label": "natural_compound", "brief_reason": "Boat with sails, natural compound"}
+{"left": "salesman", "right": "ship", "full_word": "salesmanship", "label": "pattern_only", "brief_reason": "Abstract noun with suffix -ship, not compound"}
+{"left": "sauce", "right": "pan", "full_word": "saucepan", "label": "natural_compound", "brief_reason": "Pan for sauce, natural compound"}
+{"left": "saw", "right": "dust", "full_word": "sawdust", "label": "natural_compound", "brief_reason": "Dust from sawing, natural compound"}
+{"left": "saw", "right": "timber", "full_word": "sawtimber", "label": "natural_compound", "brief_reason": "Timber suitable for sawing, natural compound"}
+{"left": "scar", "right": "city", "full_word": "scarcity", "label": "pattern_only", "brief_reason": "Abstract noun with suffix -ity, not compound"}
+{"left": "scholar", "right": "ship", "full_word": "scholarship", "label": "pattern_only", "brief_reason": "Abstract noun with suffix -ship, not compound"}
+{"left": "school", "right": "boy", "full_word": "schoolboy", "label": "natural_compound", "brief_reason": "Boy at school, natural compound"}
+{"left": "school", "right": "house", "full_word": "schoolhouse", "label": "natural_compound", "brief_reason": "House for school, natural compound"}
+{"left": "school", "right": "master", "full_word": "schoolmaster", "label": "natural_compound", "brief_reason": "Master of school, natural compound"}
+{"left": "school", "right": "mate", "full_word": "schoolmate", "label": "natural_compound", "brief_reason": "Mate from school, natural compound"}
+{"left": "school", "right": "room", "full_word": "schoolroom", "label": "natural_compound", "brief_reason": "Room for school, natural compound"}
+{"left": "score", "right": "board", "full_word": "scoreboard", "label": "natural_compound", "brief_reason": "Board showing score, natural compound"}
+{"left": "sea", "right": "coast", "full_word": "seacoast", "label": "natural_compound", "brief_reason": "Coast by sea, natural compound"}
+{"left": "sea", "right": "food", "full_word": "seafood", "label": "natural_compound", "brief_reason": "Food from sea, natural compound"}
+{"left": "sea", "right": "man", "full_word": "seaman", "label": "natural_compound", "brief_reason": "Man of the sea, natural compound"}
+{"left": "sea", "right": "port", "full_word": "seaport", "label": "natural_compound", "brief_reason": "Port by sea, natural compound"}
+{"left": "search", "right": "light", "full_word": "searchlight", "label": "natural_compound", "brief_reason": "Light for searching, natural compound"}
+{"left": "sea", "right": "shore", "full_word": "seashore", "label": "natural_compound", "brief_reason": "Shore of sea, natural compound"}
+{"left": "sea", "right": "side", "full_word": "seaside", "label": "natural_compound", "brief_reason": "Side of sea, natural compound"}
+{"left": "sea", "right": "son", "full_word": "season", "label": "pattern_only", "brief_reason": "Not a compound, different etymology"}
+{"left": "see", "right": "page", "full_word": "seepage", "label": "pattern_only", "brief_reason": "Noun with suffix -age, not compound"}
+{"left": "set", "right": "back", "full_word": "setback", "label": "natural_compound", "brief_reason": "Something that sets back, natural compound"}
+{"left": "seven", "right": "teen", "full_word": "seventeen", "label": "natural_compound", "brief_reason": "Seven plus ten, natural compound"}
+{"left": "sew", "right": "age", "full_word": "sewage", "label": "pattern_only", "brief_reason": "Not related to sewing, different etymology"}
+{"left": "share", "right": "holder", "full_word": "shareholder", "label": "natural_compound", "brief_reason": "Holder of shares, natural compound"}
+{"left": "sheep", "right": "skin", "full_word": "sheepskin", "label": "natural_compound", "brief_reason": "Skin of sheep, natural compound"}
+{"left": "ship", "right": "mate", "full_word": "shipmate", "label": "natural_compound", "brief_reason": "Mate on ship, natural compound"}
+{"left": "ship", "right": "wreck", "full_word": "shipwreck", "label": "natural_compound", "brief_reason": "Wrecked ship, natural compound"}
+{"left": "shock", "right": "wave", "full_word": "shockwave", "label": "natural_compound", "brief_reason": "Wave from shock, natural compound"}
+{"left": "shore", "right": "line", "full_word": "shoreline", "label": "natural_compound", "brief_reason": "Line of shore, natural compound"}
+{"left": "short", "right": "age", "full_word": "shortage", "label": "pattern_only", "brief_reason": "Abstract noun with suffix -age, not compound"}
+{"left": "short", "right": "hand", "full_word": "shorthand", "label": "natural_compound", "brief_reason": "Short way of writing by hand, natural compound"}
+{"left": "short", "right": "stop", "full_word": "shortstop", "label": "natural_compound", "brief_reason": "Baseball position, natural compound"}
+{"left": "shot", "right": "gun", "full_word": "shotgun", "label": "natural_compound", "brief_reason": "Gun that shoots shot, natural compound"}
+{"left": "show", "right": "case", "full_word": "showcase", "label": "natural_compound", "brief_reason": "Case to show things, natural compound"}
+{"left": "show", "right": "down", "full_word": "showdown", "label": "natural_compound", "brief_reason": "Natural compound meaning final confrontation"}
+{"left": "show", "right": "man", "full_word": "showman", "label": "natural_compound", "brief_reason": "Natural compound for entertainer/performer"}
+{"left": "showman", "right": "ship", "full_word": "showmanship", "label": "natural_compound", "brief_reason": "Natural compound for performance skill"}
+{"left": "shrink", "right": "age", "full_word": "shrinkage", "label": "natural_compound", "brief_reason": "Natural compound for process of shrinking"}
+{"left": "shut", "right": "down", "full_word": "shutdown", "label": "natural_compound", "brief_reason": "Natural compound for closing/stopping operation"}
+{"left": "side", "right": "walk", "full_word": "sidewalk", "label": "natural_compound", "brief_reason": "Natural compound for pedestrian path"}
+{"left": "side", "right": "wise", "full_word": "sidewise", "label": "natural_compound", "brief_reason": "Natural compound meaning toward the side"}
+{"left": "sign", "right": "post", "full_word": "signpost", "label": "natural_compound", "brief_reason": "Natural compound for directional marker"}
+{"left": "six", "right": "teen", "full_word": "sixteen", "label": "natural_compound", "brief_reason": "Natural compound number formation"}
+{"left": "sketch", "right": "book", "full_word": "sketchbook", "label": "natural_compound", "brief_reason": "Natural compound for drawing pad"}
+{"left": "skull", "right": "cap", "full_word": "skullcap", "label": "natural_compound", "brief_reason": "Natural compound for tight-fitting hat"}
+{"left": "slap", "right": "stick", "full_word": "slapstick", "label": "natural_compound", "brief_reason": "Natural compound for physical comedy style"}
+{"left": "smoke", "right": "house", "full_word": "smokehouse", "label": "natural_compound", "brief_reason": "Natural compound for meat curing building"}
+{"left": "snow", "right": "ball", "full_word": "snowball", "label": "natural_compound", "brief_reason": "Natural compound for packed snow sphere"}
+{"left": "snow", "right": "fall", "full_word": "snowfall", "label": "natural_compound", "brief_reason": "Natural compound for falling snow"}
+{"left": "snow", "right": "storm", "full_word": "snowstorm", "label": "natural_compound", "brief_reason": "Natural compound for heavy snow weather"}
+{"left": "sod", "right": "den", "full_word": "sodden", "label": "pattern_only", "brief_reason": "Not a natural compound, archaic past participle"}
+{"left": "sol", "right": "ace", "full_word": "solace", "label": "pattern_only", "brief_reason": "Not a natural compound, Latin-derived word"}
+{"left": "sol", "right": "vent", "full_word": "solvent", "label": "pattern_only", "brief_reason": "Not a natural compound, Latin-derived word"}
+{"left": "son", "right": "net", "full_word": "sonnet", "label": "pattern_only", "brief_reason": "Not a natural compound, from Italian/French"}
+{"left": "sour", "right": "dough", "full_word": "sourdough", "label": "natural_compound", "brief_reason": "Natural compound for fermented bread starter"}
+{"left": "south", "right": "east", "full_word": "southeast", "label": "natural_compound", "brief_reason": "Natural compound direction"}
+{"left": "south", "right": "eastern", "full_word": "southeastern", "label": "natural_compound", "brief_reason": "Natural compound directional adjective"}
+{"left": "south", "right": "paw", "full_word": "southpaw", "label": "natural_compound", "brief_reason": "Natural compound for left-handed person"}
+{"left": "south", "right": "ward", "full_word": "southward", "label": "natural_compound", "brief_reason": "Natural compound directional adverb"}
+{"left": "south", "right": "west", "full_word": "southwest", "label": "natural_compound", "brief_reason": "Natural compound direction"}
+{"left": "space", "right": "craft", "full_word": "spacecraft", "label": "natural_compound", "brief_reason": "Natural compound for space vehicle"}
+{"left": "space", "right": "ship", "full_word": "spaceship", "label": "natural_compound", "brief_reason": "Natural compound for space vehicle"}
+{"left": "spoil", "right": "age", "full_word": "spoilage", "label": "natural_compound", "brief_reason": "Natural compound for process of spoiling"}
+{"left": "sponsor", "right": "ship", "full_word": "sponsorship", "label": "natural_compound", "brief_reason": "Natural compound for act of sponsoring"}
+{"left": "spot", "right": "light", "full_word": "spotlight", "label": "natural_compound", "brief_reason": "Natural compound for focused light beam"}
+{"left": "spring", "right": "board", "full_word": "springboard", "label": "natural_compound", "brief_reason": "Natural compound for diving board"}
+{"left": "spring", "right": "time", "full_word": "springtime", "label": "natural_compound", "brief_reason": "Natural compound for spring season"}
+{"left": "stair", "right": "case", "full_word": "staircase", "label": "natural_compound", "brief_reason": "Natural compound for set of stairs"}
+{"left": "stair", "right": "way", "full_word": "stairway", "label": "natural_compound", "brief_reason": "Natural compound for passage with stairs"}
+{"left": "stale", "right": "mate", "full_word": "stalemate", "label": "natural_compound", "brief_reason": "Natural compound for chess/deadlock situation"}
+{"left": "stand", "right": "point", "full_word": "standpoint", "label": "natural_compound", "brief_reason": "Natural compound for viewpoint/perspective"}
+{"left": "star", "right": "let", "full_word": "starlet", "label": "natural_compound", "brief_reason": "Natural compound for young actress"}
+{"left": "state", "right": "room", "full_word": "stateroom", "label": "natural_compound", "brief_reason": "Natural compound for ship cabin"}
+{"left": "statesman", "right": "ship", "full_word": "statesmanship", "label": "natural_compound", "brief_reason": "Natural compound for political skill"}
+{"left": "state", "right": "wide", "full_word": "statewide", "label": "natural_compound", "brief_reason": "Natural compound meaning throughout state"}
+{"left": "steam", "right": "boat", "full_word": "steamboat", "label": "natural_compound", "brief_reason": "Natural compound for steam-powered boat"}
+{"left": "steam", "right": "ship", "full_word": "steamship", "label": "natural_compound", "brief_reason": "Natural compound for steam-powered ship"}
+{"left": "step", "right": "mother", "full_word": "stepmother", "label": "natural_compound", "brief_reason": "Natural compound for parent by marriage"}
+{"left": "step", "right": "son", "full_word": "stepson", "label": "natural_compound", "brief_reason": "Natural compound for child by marriage"}
+{"left": "step", "right": "wise", "full_word": "stepwise", "label": "natural_compound", "brief_reason": "Natural compound meaning in steps"}
+{"left": "stereo", "right": "type", "full_word": "stereotype", "label": "natural_compound", "brief_reason": "Natural compound for fixed impression"}
+{"left": "stock", "right": "holder", "full_word": "stockholder", "label": "natural_compound", "brief_reason": "Natural compound for share owner"}
+{"left": "stock", "right": "room", "full_word": "stockroom", "label": "natural_compound", "brief_reason": "Natural compound for storage room"}
+{"left": "store", "right": "house", "full_word": "storehouse", "label": "natural_compound", "brief_reason": "Natural compound for storage building"}
+{"left": "story", "right": "line", "full_word": "storyline", "label": "natural_compound", "brief_reason": "Natural compound for narrative plot"}
+{"left": "straight", "right": "away", "full_word": "straightaway", "label": "natural_compound", "brief_reason": "Natural compound meaning immediately"}
+{"left": "straight", "right": "forward", "full_word": "straightforward", "label": "natural_compound", "brief_reason": "Natural compound meaning direct/honest"}
+{"left": "straw", "right": "berry", "full_word": "strawberry", "label": "natural_compound", "brief_reason": "Natural compound for fruit"}
+{"left": "street", "right": "car", "full_word": "streetcar", "label": "natural_compound", "brief_reason": "Natural compound for trolley"}
+{"left": "strong", "right": "hold", "full_word": "stronghold", "label": "natural_compound", "brief_reason": "Natural compound for fortress/secure place"}
+{"left": "stub", "right": "born", "full_word": "stubborn", "label": "pattern_only", "brief_reason": "Not a natural compound, etymology unclear"}
+{"left": "sub", "right": "due", "full_word": "subdue", "label": "pattern_only", "brief_reason": "Prefix pattern, not natural compound"}
+{"left": "sub", "right": "group", "full_word": "subgroup", "label": "pattern_only", "brief_reason": "Prefix pattern, technical term"}
+{"left": "sub", "right": "lime", "full_word": "sublime", "label": "pattern_only", "brief_reason": "Not a natural compound, Latin-derived"}
+{"left": "sub", "right": "marine", "full_word": "submarine", "label": "pattern_only", "brief_reason": "Prefix pattern, technical term"}
+{"left": "sub", "right": "mucosa", "full_word": "submucosa", "label": "pattern_only", "brief_reason": "Medical prefix pattern"}
+{"left": "sub", "right": "side", "full_word": "subside", "label": "pattern_only", "brief_reason": "Not a natural compound, Latin-derived"}
+{"left": "sub", "right": "space", "full_word": "subspace", "label": "pattern_only", "brief_reason": "Technical prefix pattern"}
+{"left": "sub", "right": "stance", "full_word": "substance", "label": "pattern_only", "brief_reason": "Not a natural compound, Latin-derived"}
+{"left": "sub", "right": "system", "full_word": "subsystem", "label": "pattern_only", "brief_reason": "Technical prefix pattern"}
+{"left": "sub", "right": "tract", "full_word": "subtract", "label": "pattern_only", "brief_reason": "Not a natural compound, Latin-derived"}
+{"left": "sub", "right": "type", "full_word": "subtype", "label": "pattern_only", "brief_reason": "Technical prefix pattern"}
+{"left": "sub", "right": "urban", "full_word": "suburban", "label": "pattern_only", "brief_reason": "Prefix pattern, though common"}
+{"left": "sub", "right": "way", "full_word": "subway", "label": "natural_compound", "brief_reason": "Natural compound for underground railway"}
+{"left": "suit", "right": "case", "full_word": "suitcase", "label": "natural_compound", "brief_reason": "Natural compound for luggage"}
+{"left": "summer", "right": "time", "full_word": "summertime", "label": "natural_compound", "brief_reason": "Natural compound for summer season"}
+{"left": "sun", "right": "burn", "full_word": "sunburn", "label": "natural_compound", "brief_reason": "Natural compound for skin damage from sun"}
+{"left": "sun", "right": "down", "full_word": "sundown", "label": "natural_compound", "brief_reason": "Natural compound for sunset"}
+{"left": "sun", "right": "light", "full_word": "sunlight", "label": "natural_compound", "brief_reason": "Natural compound for light from sun"}
+{"left": "sun", "right": "rise", "full_word": "sunrise", "label": "natural_compound", "brief_reason": "Natural compound - sun rising"}
+{"left": "sun", "right": "set", "full_word": "sunset", "label": "natural_compound", "brief_reason": "Natural compound - sun setting"}
+{"left": "sun", "right": "shade", "full_word": "sunshade", "label": "natural_compound", "brief_reason": "Natural compound - shade from sun"}
+{"left": "sun", "right": "shine", "full_word": "sunshine", "label": "natural_compound", "brief_reason": "Natural compound - light from sun"}
+{"left": "super", "right": "human", "full_word": "superhuman", "label": "natural_compound", "brief_reason": "Natural compound - beyond human"}
+{"left": "super", "right": "impose", "full_word": "superimpose", "label": "pattern_only", "brief_reason": "Prefix pattern - super as intensifier"}
+{"left": "super", "right": "market", "full_word": "supermarket", "label": "natural_compound", "brief_reason": "Natural compound - large market"}
+{"left": "super", "right": "natural", "full_word": "supernatural", "label": "natural_compound", "brief_reason": "Natural compound - beyond natural"}
+{"left": "sweat", "right": "shirt", "full_word": "sweatshirt", "label": "natural_compound", "brief_reason": "Natural compound - shirt for sweating/exercise"}
+{"left": "sweet", "right": "heart", "full_word": "sweetheart", "label": "natural_compound", "brief_reason": "Natural compound - beloved person"}
+{"left": "table", "right": "spoon", "full_word": "tablespoon", "label": "natural_compound", "brief_reason": "Natural compound - spoon for table/serving"}
+{"left": "tail", "right": "gate", "full_word": "tailgate", "label": "natural_compound", "brief_reason": "Natural compound - gate at tail/back"}
+{"left": "tap", "right": "pet", "full_word": "tappet", "label": "reject", "brief_reason": "Not a natural compound - mechanical term"}
+{"left": "tea", "right": "house", "full_word": "teahouse", "label": "natural_compound", "brief_reason": "Natural compound - house for tea"}
+{"left": "team", "right": "mate", "full_word": "teammate", "label": "natural_compound", "brief_reason": "Natural compound - mate on team"}
+{"left": "tea", "right": "spoon", "full_word": "teaspoon", "label": "natural_compound", "brief_reason": "Natural compound - spoon for tea"}
+{"left": "teen", "right": "age", "full_word": "teenage", "label": "natural_compound", "brief_reason": "Natural compound - age of teens"}
+{"left": "temper", "right": "ate", "full_word": "temperate", "label": "pattern_only", "brief_reason": "Suffix pattern - not natural compound"}
+{"left": "ten", "right": "ant", "full_word": "tenant", "label": "pattern_only", "brief_reason": "Not natural compound - etymology unrelated"}
+{"left": "tender", "right": "foot", "full_word": "tenderfoot", "label": "natural_compound", "brief_reason": "Natural compound - person with tender feet/inexperienced"}
+{"left": "text", "right": "book", "full_word": "textbook", "label": "natural_compound", "brief_reason": "Natural compound - book of text"}
+{"left": "thereto", "right": "fore", "full_word": "theretofore", "label": "pattern_only", "brief_reason": "Archaic compound - not natural for modern speakers"}
+{"left": "thorough", "right": "fare", "full_word": "thoroughfare", "label": "natural_compound", "brief_reason": "Natural compound - way for thorough passage"}
+{"left": "thou", "right": "sand", "full_word": "thousand", "label": "pattern_only", "brief_reason": "Historical etymology - not perceived as compound"}
+{"left": "thread", "right": "bare", "full_word": "threadbare", "label": "natural_compound", "brief_reason": "Natural compound - bare of thread/worn"}
+{"left": "three", "right": "fold", "full_word": "threefold", "label": "natural_compound", "brief_reason": "Natural compound - folded three times"}
+{"left": "timber", "right": "land", "full_word": "timberland", "label": "natural_compound", "brief_reason": "Natural compound - land with timber"}
+{"left": "time", "right": "table", "full_word": "timetable", "label": "natural_compound", "brief_reason": "Natural compound - table of times"}
+{"left": "tin", "right": "table", "full_word": "tintable", "label": "reject", "brief_reason": "Not a compound - means able to be tinted"}
+{"left": "tomb", "right": "like", "full_word": "tomblike", "label": "natural_compound", "brief_reason": "Natural compound - like a tomb"}
+{"left": "tomb", "right": "stone", "full_word": "tombstone", "label": "natural_compound", "brief_reason": "Natural compound - stone for tomb"}
+{"left": "tooth", "right": "brush", "full_word": "toothbrush", "label": "natural_compound", "brief_reason": "Natural compound - brush for teeth"}
+{"left": "top", "right": "coat", "full_word": "topcoat", "label": "natural_compound", "brief_reason": "Natural compound - coat worn on top"}
+{"left": "touch", "right": "down", "full_word": "touchdown", "label": "natural_compound", "brief_reason": "Natural compound - touching down"}
+{"left": "town", "right": "ship", "full_word": "township", "label": "natural_compound", "brief_reason": "Natural compound - administrative division of town"}
+{"left": "trade", "right": "mark", "full_word": "trademark", "label": "natural_compound", "brief_reason": "Natural compound - mark for trade"}
+{"left": "trench", "right": "ant", "full_word": "trenchant", "label": "pattern_only", "brief_reason": "Not natural compound - means cutting/incisive"}
+{"left": "trip", "right": "let", "full_word": "triplet", "label": "pattern_only", "brief_reason": "Suffix pattern - let as diminutive"}
+{"left": "trust", "right": "worthy", "full_word": "trustworthy", "label": "natural_compound", "brief_reason": "Natural compound - worthy of trust"}
+{"left": "turn", "right": "pike", "full_word": "turnpike", "label": "natural_compound", "brief_reason": "Natural compound - road with turns/tolls"}
+{"left": "turtle", "right": "neck", "full_word": "turtleneck", "label": "natural_compound", "brief_reason": "Natural compound - neck like turtle's"}
+{"left": "two", "right": "fold", "full_word": "twofold", "label": "natural_compound", "brief_reason": "Natural compound - folded two times"}
+{"left": "type", "right": "writer", "full_word": "typewriter", "label": "natural_compound", "brief_reason": "Natural compound - writer of type"}
+{"left": "valid", "right": "ate", "full_word": "validate", "label": "pattern_only", "brief_reason": "Suffix pattern - ate as verb ending"}
+{"left": "view", "right": "point", "full_word": "viewpoint", "label": "natural_compound", "brief_reason": "Natural compound - point of view"}
+{"left": "vine", "right": "yard", "full_word": "vineyard", "label": "natural_compound", "brief_reason": "Natural compound - yard of vines"}
+{"left": "wall", "right": "paper", "full_word": "wallpaper", "label": "natural_compound", "brief_reason": "Natural compound - paper for walls"}
+{"left": "war", "right": "den", "full_word": "warden", "label": "pattern_only", "brief_reason": "Not natural compound - etymology different"}
+{"left": "ward", "right": "robe", "full_word": "wardrobe", "label": "pattern_only", "brief_reason": "Etymology from French - not perceived as ward+robe"}
+{"left": "war", "right": "fare", "full_word": "warfare", "label": "natural_compound", "brief_reason": "Natural compound - fare/conduct of war"}
+{"left": "war", "right": "head", "full_word": "warhead", "label": "natural_compound", "brief_reason": "Natural compound - head of war weapon"}
+{"left": "war", "right": "like", "full_word": "warlike", "label": "natural_compound", "brief_reason": "Natural compound - like war"}
+{"left": "war", "right": "ship", "full_word": "warship", "label": "natural_compound", "brief_reason": "Natural compound - ship for war"}
+{"left": "war", "right": "time", "full_word": "wartime", "label": "natural_compound", "brief_reason": "Natural compound - time of war"}
+{"left": "waste", "right": "basket", "full_word": "wastebasket", "label": "natural_compound", "brief_reason": "Natural compound - basket for waste"}
+{"left": "waste", "right": "land", "full_word": "wasteland", "label": "natural_compound", "brief_reason": "Natural compound - land that is waste"}
+{"left": "waste", "right": "water", "full_word": "wastewater", "label": "natural_compound", "brief_reason": "Natural compound - water that is waste"}
+{"left": "watch", "right": "dog", "full_word": "watchdog", "label": "natural_compound", "brief_reason": "Natural compound - dog that watches"}
+{"left": "watch", "right": "maker", "full_word": "watchmaker", "label": "natural_compound", "brief_reason": "Natural compound - maker of watches"}
+{"left": "water", "right": "color", "full_word": "watercolor", "label": "natural_compound", "brief_reason": "Natural compound - color using water"}
+{"left": "water", "right": "fall", "full_word": "waterfall", "label": "natural_compound", "brief_reason": "Natural compound - fall of water"}
+{"left": "water", "right": "front", "full_word": "waterfront", "label": "natural_compound", "brief_reason": "Natural compound - front by water"}
+{"left": "water", "right": "proof", "full_word": "waterproof", "label": "natural_compound", "brief_reason": "Natural compound - proof against water"}
+{"left": "water", "right": "way", "full_word": "waterway", "label": "natural_compound", "brief_reason": "Natural compound - way for water"}
+{"left": "wave", "right": "length", "full_word": "wavelength", "label": "natural_compound", "brief_reason": "Natural compound - length of wave"}
+{"left": "way", "right": "side", "full_word": "wayside", "label": "natural_compound", "brief_reason": "Natural compound - side of way"}
+{"left": "way", "right": "ward", "full_word": "wayward", "label": "natural_compound", "brief_reason": "Natural compound - ward/directed away from way"}
+{"left": "weather", "right": "proof", "full_word": "weatherproof", "label": "natural_compound", "brief_reason": "Natural compound - proof against weather"}
+{"left": "week", "right": "day", "full_word": "weekday", "label": "natural_compound", "brief_reason": "Natural compound - day of week"}
+{"left": "week", "right": "end", "full_word": "weekend", "label": "natural_compound", "brief_reason": "Natural compound - end of week"}
+{"left": "west", "right": "ward", "full_word": "westward", "label": "natural_compound", "brief_reason": "Natural compound - ward/toward west"}
+{"left": "white", "right": "face", "full_word": "whiteface", "label": "natural_compound", "brief_reason": "Natural compound - face that is white"}
+{"left": "white", "right": "tail", "full_word": "whitetail", "label": "natural_compound", "brief_reason": "Natural compound - tail that is white"}
+{"left": "whole", "right": "sale", "full_word": "wholesale", "label": "natural_compound", "brief_reason": "Natural compound - sale of whole quantities"}
+{"left": "wide", "right": "spread", "full_word": "widespread", "label": "natural_compound", "brief_reason": "Natural compound - spread wide"}
+{"left": "wild", "right": "cat", "full_word": "wildcat", "label": "natural_compound", "brief_reason": "Wild and cat combine naturally to form wildcat (animal or oil well type)"}
+{"left": "wild", "right": "life", "full_word": "wildlife", "label": "natural_compound", "brief_reason": "Wild and life naturally combine to mean animals in nature"}
+{"left": "wind", "right": "fall", "full_word": "windfall", "label": "natural_compound", "brief_reason": "Wind and fall combine to mean unexpected good fortune or fruit blown down"}
+{"left": "window", "right": "pane", "full_word": "windowpane", "label": "natural_compound", "brief_reason": "Window and pane naturally combine to mean glass sheet in window"}
+{"left": "wind", "right": "shield", "full_word": "windshield", "label": "natural_compound", "brief_reason": "Wind and shield combine naturally to mean car's front glass protection"}
+{"left": "woo", "right": "den", "full_word": "wooden", "label": "pattern_only", "brief_reason": "Woo is not a meaningful standalone word in this context"}
+{"left": "wood", "right": "smoke", "full_word": "woodsmoke", "label": "natural_compound", "brief_reason": "Wood and smoke naturally combine to mean smoke from burning wood"}
+{"left": "wood", "right": "wind", "full_word": "woodwind", "label": "natural_compound", "brief_reason": "Wood and wind combine to describe musical instrument category"}
+{"left": "wood", "right": "work", "full_word": "woodwork", "label": "natural_compound", "brief_reason": "Wood and work naturally combine to mean carpentry or wooden structures"}
+{"left": "work", "right": "bench", "full_word": "workbench", "label": "natural_compound", "brief_reason": "Work and bench naturally combine to mean table for manual work"}
+{"left": "work", "right": "man", "full_word": "workman", "label": "natural_compound", "brief_reason": "Work and man naturally combine to mean manual laborer"}
+{"left": "workman", "right": "like", "full_word": "workmanlike", "label": "natural_compound", "brief_reason": "Workman and like combine to mean skillful, competent manner"}
+{"left": "workman", "right": "ship", "full_word": "workmanship", "label": "natural_compound", "brief_reason": "Workman and ship combine to mean quality of craftsmanship"}
+{"left": "work", "right": "shop", "full_word": "workshop", "label": "natural_compound", "brief_reason": "Work and shop naturally combine to mean place for manual work or training"}
+{"left": "wreck", "right": "age", "full_word": "wreckage", "label": "natural_compound", "brief_reason": "Wreck and age combine to mean debris from destruction"}
+{"left": "wrist", "right": "watch", "full_word": "wristwatch", "label": "natural_compound", "brief_reason": "Wrist and watch naturally combine to mean watch worn on wrist"}
+{"left": "writ", "right": "ten", "full_word": "written", "label": "pattern_only", "brief_reason": "Writ and ten are not meaningful parts; this is past participle formation"}
+{"left": "yard", "right": "age", "full_word": "yardage", "label": "natural_compound", "brief_reason": "Yard and age combine to mean amount measured in yards"}
+{"left": "yard", "right": "stick", "full_word": "yardstick", "label": "natural_compound", "brief_reason": "Yard and stick naturally combine to mean measuring tool or standard"}

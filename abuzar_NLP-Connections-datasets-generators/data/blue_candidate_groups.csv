@@ -1,0 +1,854 @@
+category,mechanism,word1,word2,word3,word4,answer
+blue,wordnet_direct_hypernym,rib,skull,teeth,tooth,bone
+blue,wordnet_direct_hypernym,biceps,deltoid,pectoralis,serratus,skeletal muscle
+blue,wordnet_direct_hypernym,blueprint,closeup,scene,shot,photograph
+blue,wordnet_direct_hypernym,beaver,cannon,helmet,palette,armor plate
+blue,wordnet_direct_hypernym,atmosphere,sunshine,thaw,warming,weather
+blue,wordnet_direct_hypernym,envelope,poke,pouch,saddlebag,bag
+blue,wordnet_direct_hypernym,kit,outfit,rigging,tack,gear
+blue,wordnet_direct_hypernym,ferry,junk,lighter,tender,boat
+blue,wordnet_direct_hypernym,barricade,grate,rail,roadblock,barrier
+blue,wordnet_direct_hypernym,charcoal,plan,sketch,tracing,drawing
+blue,wordnet_direct_hypernym,column,pillar,post,stud,upright
+blue,wordnet_direct_hypernym,bay,box,cab,cabinet,compartment
+blue,wordnet_direct_hypernym,likeness,panorama,reflection,scan,picture
+blue,wordnet_direct_hypernym,charcoal,diagram,rendering,trace,drawing
+blue,wordnet_direct_hypernym,diagram,plan,rendering,tracing,drawing
+blue,wordnet_direct_hypernym,catheter,coil,stem,straw,tube
+blue,wordnet_direct_hypernym,magnification,mosaic,print,still,photograph
+blue,wordnet_direct_hypernym,catheter,drain,pipe,straw,tube
+blue,wordnet_direct_hypernym,discus,hammer,saucer,stick,sports equipment
+blue,wordnet_direct_hypernym,coil,hose,piping,straw,tube
+blue,wordnet_direct_hypernym,alto,baritone,bass,minstrel,singer
+blue,wordnet_direct_hypernym,downfall,sunshine,thaw,wind,weather
+blue,wordnet_direct_hypernym,casting,modification,print,toy,copy
+blue,wordnet_direct_hypernym,cinch,harness,housing,trapping,stable gear
+blue,wordnet_direct_hypernym,aisle,arcade,corridor,gate,passageway
+blue,wordnet_direct_hypernym,frame,print,stereo,still,photograph
+blue,wordnet_direct_hypernym,grinder,gyro,hamburger,wrap,sandwich
+blue,wordnet_direct_hypernym,air,calm,gale,gust,wind
+blue,wordnet_direct_hypernym,compact,convertible,hack,saloon,car
+blue,wordnet_direct_hypernym,foil,graphic,panorama,reflection,picture
+blue,wordnet_direct_hypernym,eagle,hawk,owl,vulture,bird of prey
+blue,wordnet_direct_hypernym,derrick,horse,lattice,pilot,framework
+blue,wordnet_direct_hypernym,granary,magazine,railhead,warehouse,storehouse
+blue,wordnet_direct_hypernym,nasal,phalanx,rib,skullcap,bone
+blue,wordnet_direct_hypernym,calm,draft,gale,squall,wind
+blue,wordnet_direct_hypernym,automobile,car,machine,truck,motor vehicle
+blue,wordnet_direct_hypernym,coil,mouthpiece,pipe,straw,tube
+blue,wordnet_direct_hypernym,court,inn,lodge,resort,hotel
+blue,wordnet_direct_hypernym,knife,pick,razor,shear,edge tool
+blue,wordnet_direct_hypernym,hammer,mat,mouthpiece,stick,sports equipment
+blue,wordnet_direct_hypernym,charcoal,silhouette,study,trace,drawing
+blue,wordnet_direct_hypernym,chalk,charcoal,marker,pencil,writing implement
+blue,wordnet_direct_hypernym,balustrade,bulwark,fender,roadblock,barrier
+blue,wordnet_direct_hypernym,buckboard,cab,chariot,coach,carriage
+blue,wordnet_direct_hypernym,discus,spike,stick,weight,sports equipment
+blue,wordnet_direct_hypernym,low,park,reverse,third,gear
+blue,wordnet_direct_hypernym,ambulance,cab,electric,saloon,car
+blue,wordnet_direct_hypernym,interne,quack,veterinarian,veterinary,doctor
+blue,wordnet_direct_hypernym,shimmy,teddy,underwear,vest,undergarment
+blue,wordnet_direct_hypernym,centrifuge,lighting,pendulum,reactor,apparatus
+blue,wordnet_direct_hypernym,infantryman,redcoat,tanker,territorial,soldier
+blue,wordnet_direct_hypernym,bracing,sill,tread,upright,structural member
+blue,wordnet_direct_hypernym,aerator,lighting,still,telegraph,apparatus
+blue,wordnet_direct_hypernym,radio,reception,television,video,broadcasting
+blue,wordnet_direct_hypernym,pry,stick,tappet,trigger,lever
+blue,wordnet_direct_hypernym,corn,oat,rice,rye,cereal
+blue,wordnet_direct_hypernym,chicken,dove,duck,turkey,poultry
+blue,wordnet_direct_hypernym,specialist,surgeon,veterinarian,veterinary,doctor
+blue,wordnet_direct_hypernym,recording,register,store,tape,memory device
+blue,wordnet_direct_hypernym,bulwark,fence,groin,roadblock,barrier
+blue,wordnet_direct_hypernym,lens,monitor,scope,telephone,electronic equipment
+blue,wordnet_direct_hypernym,discus,hammer,spike,target,sports equipment
+blue,wordnet_direct_hypernym,cab,car,locker,trunk,compartment
+blue,wordnet_direct_hypernym,butt,saucer,stick,target,sports equipment
+blue,wordnet_direct_hypernym,diagnostician,pathologist,psychiatrist,shrink,specialist
+blue,wordnet_direct_hypernym,barley,rice,rye,wheat,cereal
+blue,wordnet_direct_hypernym,captain,copper,detective,inspector,policeman
+blue,wordnet_direct_hypernym,caraway,fennel,rue,tea,herb
+blue,wordnet_direct_hypernym,infantryman,orderly,tanker,trooper,soldier
+blue,wordnet_direct_hypernym,monitor,phone,scope,terminal,electronic equipment
+blue,wordnet_direct_hypernym,atmosphere,sunshine,thawing,wind,weather
+blue,wordnet_direct_hypernym,meteor,radiance,ray,sunshine,light
+blue,wordnet_direct_hypernym,burner,centrifuge,pendulum,reformer,apparatus
+blue,wordnet_direct_hypernym,catheter,coil,drain,piping,tube
+blue,wordnet_direct_hypernym,breakwater,dam,fencing,groin,barrier
+blue,wordnet_direct_hypernym,bag,cage,hill,lumber,baseball equipment
+blue,wordnet_direct_hypernym,grinder,gyro,hero,wedge,sandwich
+blue,wordnet_direct_hypernym,burner,lighting,reformer,telegraph,apparatus
+blue,wordnet_direct_hypernym,beard,bush,down,eyebrow,hair
+blue,wordnet_direct_hypernym,bow,club,spindle,staff,stick
+blue,wordnet_direct_hypernym,cutter,ferry,tower,tug,boat
+blue,wordnet_direct_hypernym,infantryman,orderly,regular,territorial,soldier
+blue,wordnet_direct_hypernym,jaw,phalanx,rib,teeth,bone
+blue,wordnet_direct_hypernym,bat,baton,bludgeon,cudgel,club
+blue,wordnet_direct_hypernym,cityscape,illumination,miniature,watercolor,painting
+blue,wordnet_direct_hypernym,burglar,dip,pirate,robber,thief
+blue,wordnet_direct_hypernym,bay,mare,pacer,poster,horse
+blue,wordnet_direct_hypernym,bobby,cop,detective,trooper,policeman
+blue,wordnet_direct_hypernym,bag,base,hill,mound,baseball equipment
+blue,wordnet_direct_hypernym,arcade,drift,gate,tunnel,passageway
+blue,wordnet_direct_hypernym,bus,compact,limousine,sedan,car
+blue,wordnet_direct_hypernym,brassiere,teddy,undershirt,underwear,undergarment
+blue,wordnet_direct_hypernym,mixer,processor,telephone,terminal,electronic equipment
+blue,wordnet_direct_hypernym,abdominal,pecs,pectoralis,serratus,skeletal muscle
+blue,wordnet_direct_hypernym,jaw,nasal,teeth,tooth,bone
+blue,wordnet_direct_hypernym,branch,bulb,cane,trunk,stalk
+blue,wordnet_direct_hypernym,carbon,cast,duplication,toy,copy
+blue,wordnet_direct_hypernym,bumper,pony,schooner,tumbler,glass
+blue,wordnet_direct_hypernym,air,blow,draft,thermal,wind
+blue,wordnet_direct_hypernym,banister,breakwater,fencing,railing,barrier
+blue,wordnet_direct_hypernym,hammer,planer,saw,smoother,power tool
+blue,wordnet_direct_hypernym,binding,darn,gathering,mend,sewing
+blue,wordnet_direct_hypernym,barge,ferry,lighter,tower,boat
+blue,wordnet_direct_hypernym,baggage,kit,pocketbook,wallet,case
+blue,wordnet_direct_hypernym,accelerator,clutch,gun,throttle,pedal
+blue,wordnet_direct_hypernym,conspirator,punk,runner,traitor,criminal
+blue,wordnet_direct_hypernym,air,gale,monsoon,thermal,wind
+blue,wordnet_direct_hypernym,buckboard,buggy,cab,trap,carriage
+blue,wordnet_direct_hypernym,cleaner,digger,gypsy,miner,laborer
+blue,wordnet_direct_hypernym,barrel,capillary,drain,mouthpiece,tube
+blue,wordnet_direct_hypernym,runway,scaffold,stage,top,platform
+blue,wordnet_direct_hypernym,bustle,fender,framing,grille,framework
+blue,wordnet_direct_hypernym,base,glove,hill,lumber,baseball equipment
+blue,wordnet_direct_hypernym,bolt,lever,rail,runway,bar
+blue,wordnet_direct_hypernym,aerator,burner,centrifuge,lighting,apparatus
+blue,wordnet_direct_hypernym,cop,inspector,investigator,trooper,policeman
+blue,wordnet_direct_hypernym,authority,leaflet,pamphlet,text,book
+blue,wordnet_direct_hypernym,compact,luggage,pocketbook,wallet,case
+blue,wordnet_direct_hypernym,ambulance,cab,hack,taxi,car
+blue,wordnet_direct_hypernym,bobby,cop,copper,pig,policeman
+blue,wordnet_direct_hypernym,cross,shading,spot,streak,marking
+blue,wordnet_direct_hypernym,diagram,plan,study,trace,drawing
+blue,wordnet_direct_hypernym,first,high,low,third,gear
+blue,wordnet_direct_hypernym,burner,reactor,reformer,still,apparatus
+blue,wordnet_direct_hypernym,catalog,catechism,leaflet,reference,book
+blue,wordnet_direct_hypernym,disposal,microwave,oven,stove,kitchen appliance
+blue,wordnet_direct_hypernym,barricade,mole,railing,roadblock,barrier
+blue,wordnet_direct_hypernym,bomber,hero,submarine,wedge,sandwich
+blue,wordnet_direct_hypernym,disk,recording,storage,store,memory device
+blue,wordnet_direct_hypernym,binding,darn,gather,stitch,sewing
+blue,wordnet_direct_hypernym,baby,foal,kit,kitten,young mammal
+blue,wordnet_direct_hypernym,costume,disguise,rig,turnout,attire
+blue,wordnet_direct_hypernym,bush,coat,lash,mane,hair
+blue,wordnet_direct_hypernym,moccasin,pump,sandal,sneaker,shoe
+blue,wordnet_direct_hypernym,mare,plug,pony,poster,horse
+blue,wordnet_direct_hypernym,carbon,imitation,modification,toy,copy
+blue,wordnet_direct_hypernym,bakery,booth,canteen,drugstore,shop
+blue,wordnet_direct_hypernym,carbon,modification,print,reproduction,copy
+blue,wordnet_direct_hypernym,colonel,lieutenant,major,marshal,commissioned military officer
+blue,wordnet_direct_hypernym,bell,mouthpiece,muffler,siren,acoustic device
+blue,wordnet_direct_hypernym,capillary,mouthpiece,pipe,stem,tube
+blue,wordnet_direct_hypernym,bus,cable,cord,electrode,conductor
+blue,wordnet_direct_hypernym,delineation,plan,silhouette,tracing,drawing
+blue,wordnet_direct_hypernym,buck,bustle,grille,wattle,framework
+blue,wordnet_direct_hypernym,abdominal,biceps,gastrocnemius,serratus,skeletal muscle
+blue,wordnet_direct_hypernym,compound,coop,niche,pen,enclosure
+blue,wordnet_direct_hypernym,bobby,bull,captain,investigator,policeman
+blue,wordnet_direct_hypernym,bypass,freeway,interstate,pike,highway
+blue,wordnet_direct_hypernym,landing,pad,pier,top,platform
+blue,wordnet_direct_hypernym,audio,tape,transcription,video,recording
+blue,wordnet_direct_hypernym,mare,mount,plug,sorrel,horse
+blue,wordnet_direct_hypernym,downpour,drizzle,monsoon,shower,rain
+blue,wordnet_direct_hypernym,authority,catalog,pamphlet,reference,book
+blue,wordnet_direct_hypernym,blast,breeze,gust,squall,wind
+blue,wordnet_direct_hypernym,buffer,disc,register,tape,memory device
+blue,wordnet_direct_hypernym,dad,daddy,pas,pop,father
+blue,wordnet_direct_hypernym,bomber,gyro,hamburger,western,sandwich
+blue,wordnet_direct_hypernym,accessory,punk,pusher,tough,criminal
+blue,wordnet_direct_hypernym,baggage,compact,pocketbook,shoe,case
+blue,wordnet_direct_hypernym,beard,bush,mane,pile,hair
+blue,wordnet_direct_hypernym,cotton,filling,metallic,warp,thread
+blue,wordnet_direct_hypernym,derrick,grate,grille,window,framework
+blue,wordnet_direct_hypernym,detector,mixer,peripheral,phone,electronic equipment
+blue,wordnet_direct_hypernym,bolt,lever,rotor,shackle,bar
+blue,wordnet_direct_hypernym,arm,forearm,leg,thigh,limb
+blue,wordnet_direct_hypernym,radiance,shaft,sun,sunshine,light
+blue,wordnet_direct_hypernym,cast,duplicate,imitation,print,copy
+blue,wordnet_direct_hypernym,buffer,burr,hammer,saw,power tool
+blue,wordnet_direct_hypernym,irradiation,meteor,radiance,shaft,light
+blue,wordnet_direct_hypernym,chamber,coop,pen,pit,enclosure
+blue,wordnet_direct_hypernym,blow,monsoon,squall,thermal,wind
+blue,wordnet_direct_hypernym,issue,number,serial,series,periodical
+blue,wordnet_direct_hypernym,authority,brochure,catalog,text,book
+blue,wordnet_direct_hypernym,beard,coat,curl,down,hair
+blue,wordnet_direct_hypernym,bishop,castle,horse,knight,chessman
+blue,wordnet_direct_hypernym,collage,graphic,panorama,transparency,picture
+blue,wordnet_direct_hypernym,clotheshorse,fender,pilot,window,framework
+blue,wordnet_direct_hypernym,barge,cutter,lighter,tug,boat
+blue,wordnet_direct_hypernym,bastion,bunker,fieldwork,stockade,fortification
+blue,wordnet_direct_hypernym,ferry,packet,tender,tug,boat
+blue,wordnet_direct_hypernym,infantryman,orderly,redcoat,rifleman,soldier
+blue,wordnet_direct_hypernym,barge,cutter,junk,tender,boat
+blue,wordnet_direct_hypernym,bootlegger,hijacker,punk,thief,criminal
+blue,wordnet_direct_hypernym,blueprint,closeup,magnification,stereo,photograph
+blue,wordnet_direct_hypernym,brochure,catechism,reference,text,book
+blue,wordnet_direct_hypernym,bomber,sub,wedge,wrap,sandwich
+blue,wordnet_direct_hypernym,blueprint,closeup,frame,mosaic,photograph
+blue,wordnet_direct_hypernym,aperture,peg,register,thermostat,regulator
+blue,wordnet_direct_hypernym,breakwater,bulwark,hurdle,railing,barrier
+blue,wordnet_direct_hypernym,ghoul,lifter,robber,rustler,thief
+blue,wordnet_direct_hypernym,glow,moon,sun,sunshine,light
+blue,wordnet_direct_hypernym,filling,nap,warp,worsted,thread
+blue,wordnet_direct_hypernym,mosque,shrine,synagogue,temple,place of worship
+blue,wordnet_direct_hypernym,bootlegger,hijacker,racketeer,tough,criminal
+blue,wordnet_direct_hypernym,beaver,bonnet,fedora,sailor,hat
+blue,wordnet_direct_hypernym,coop,lock,niche,pit,enclosure
+blue,wordnet_direct_hypernym,bus,bypass,cable,shunt,conductor
+blue,wordnet_direct_hypernym,irradiation,moon,ray,sun,light
+blue,wordnet_direct_hypernym,barrel,drain,piping,straw,tube
+blue,wordnet_direct_hypernym,cage,dock,lock,niche,enclosure
+blue,wordnet_direct_hypernym,barrel,catheter,hose,straw,tube
+blue,wordnet_direct_hypernym,lighter,packet,tower,tug,boat
+blue,wordnet_direct_hypernym,door,gateway,hatchway,threshold,entrance
+blue,wordnet_direct_hypernym,bakery,drugstore,pharmacy,salon,shop
+blue,wordnet_direct_hypernym,cabin,cottage,lodge,residence,house
+blue,wordnet_direct_hypernym,downfall,sunshine,thawing,warming,weather
+blue,wordnet_direct_hypernym,first,low,reverse,transmission,gear
+blue,wordnet_direct_hypernym,filling,metallic,pick,pile,thread
+blue,wordnet_direct_hypernym,breeze,draft,gale,gust,wind
+blue,wordnet_direct_hypernym,cross,patch,spot,stripe,marking
+blue,wordnet_direct_hypernym,almond,brazil,coconut,filbert,edible nut
+blue,wordnet_direct_hypernym,convertible,coupe,electric,sedan,car
+blue,wordnet_direct_hypernym,bomber,grinder,gyro,submarine,sandwich
+blue,wordnet_direct_hypernym,bay,box,cockpit,locker,compartment
+blue,wordnet_direct_hypernym,buffer,plane,saw,smoother,power tool
+blue,wordnet_direct_hypernym,curl,down,eyebrow,mane,hair
+blue,wordnet_direct_hypernym,cab,electric,jeep,taxi,car
+blue,wordnet_direct_hypernym,bow,fore,nose,stem,front
+blue,wordnet_direct_hypernym,berth,bunk,couch,deathbed,bed
+blue,wordnet_direct_hypernym,chapel,church,mosque,synagogue,place of worship
+blue,wordnet_direct_hypernym,barge,lighter,packet,tender,boat
+blue,wordnet_direct_hypernym,butt,discus,hammer,mouthpiece,sports equipment
+blue,wordnet_direct_hypernym,bandit,dip,ghoul,robber,thief
+blue,wordnet_direct_hypernym,bull,cop,copper,detective,policeman
+blue,wordnet_direct_hypernym,bay,hack,pony,sorrel,horse
+blue,wordnet_direct_hypernym,crest,cross,device,flag,emblem
+blue,wordnet_direct_hypernym,chuck,clinch,holder,jaw,holding device
+blue,wordnet_direct_hypernym,aerator,generator,lighting,pendulum,apparatus
+blue,wordnet_direct_hypernym,bandit,burglar,ghoul,pirate,thief
+blue,wordnet_direct_hypernym,casting,imitation,miniature,toy,copy
+blue,wordnet_direct_hypernym,grapefruit,lemon,lime,orange,citrus
+blue,wordnet_direct_hypernym,darn,gathering,patch,stitch,sewing
+blue,wordnet_direct_hypernym,butt,mat,mouthpiece,spike,sports equipment
+blue,wordnet_direct_hypernym,gyro,hamburger,sub,wedge,sandwich
+blue,wordnet_direct_hypernym,bull,cop,fuzz,pig,policeman
+blue,wordnet_direct_hypernym,beam,glowing,moon,sunshine,light
+blue,wordnet_direct_hypernym,beard,curl,eyebrow,pile,hair
+blue,wordnet_direct_hypernym,balustrade,breakwater,fence,fender,barrier
+blue,wordnet_direct_hypernym,capillary,hose,mouthpiece,piping,tube
+blue,wordnet_direct_hypernym,bandstand,runway,scaffold,wharf,platform
+blue,wordnet_direct_hypernym,convertible,cruiser,saloon,wagon,car
+blue,wordnet_direct_hypernym,branch,cane,cutting,slip,stalk
+blue,wordnet_direct_hypernym,compact,convertible,coupe,wagon,car
+blue,wordnet_direct_hypernym,brim,curb,milling,rim,edge
+blue,wordnet_direct_hypernym,capsule,chair,rumble,saddle,seat
+blue,wordnet_direct_hypernym,curl,lash,mane,pile,hair
+blue,wordnet_direct_hypernym,booth,console,counter,vanity,table
+blue,wordnet_direct_hypernym,ironing,laundry,linen,washing,white goods
+blue,wordnet_direct_hypernym,barricade,dam,fender,railing,barrier
+blue,wordnet_direct_hypernym,detector,lens,scope,terminal,electronic equipment
+blue,wordnet_direct_hypernym,fin,platform,sandal,sneaker,shoe
+blue,wordnet_direct_hypernym,aerator,generator,reformer,still,apparatus
+blue,wordnet_direct_hypernym,bell,mute,siren,whistle,acoustic device
+blue,wordnet_direct_hypernym,committeewoman,director,regent,trustee,committee member
+blue,wordnet_direct_hypernym,bomber,grinder,hamburger,wedge,sandwich
+blue,wordnet_direct_hypernym,mare,mount,pacer,pony,horse
+blue,wordnet_direct_hypernym,bark,cutter,dandy,schooner,sailing vessel
+blue,wordnet_direct_hypernym,charcoal,delineation,sketch,trace,drawing
+blue,wordnet_direct_hypernym,abstraction,cityscape,landscape,miniature,painting
+blue,wordnet_direct_hypernym,batten,pale,picket,slat,strip
+blue,wordnet_direct_hypernym,dock,pulpit,ring,stump,platform
+blue,wordnet_direct_hypernym,bomber,hero,western,wrap,sandwich
+blue,wordnet_direct_hypernym,engine,locomotive,streetcar,trolley,self-propelled vehicle
+blue,wordnet_direct_hypernym,biceps,calf,gastrocnemius,pectoralis,skeletal muscle
+blue,wordnet_direct_hypernym,buffer,register,storage,store,memory device
+blue,wordnet_direct_hypernym,cabinet,car,cockpit,locker,compartment
+blue,wordnet_direct_hypernym,bullet,seeker,shot,slug,projectile
+blue,wordnet_direct_hypernym,calf,deltoid,gastrocnemius,serratus,skeletal muscle
+blue,wordnet_direct_hypernym,derrick,frame,rack,sash,framework
+blue,wordnet_direct_hypernym,coconut,filbert,peanut,walnut,edible nut
+blue,wordnet_direct_hypernym,bull,captain,cop,inspector,policeman
+blue,wordnet_direct_hypernym,bull,detective,inspector,pig,policeman
+blue,wordnet_direct_hypernym,butt,hammer,spike,stick,sports equipment
+blue,wordnet_direct_hypernym,clamp,holder,jaw,spindle,holding device
+blue,wordnet_direct_hypernym,episode,positive,reel,sequence,film
+blue,wordnet_direct_hypernym,orderly,redcoat,regular,tanker,soldier
+blue,wordnet_direct_hypernym,marine,orderly,rifleman,tanker,soldier
+blue,wordnet_direct_hypernym,bedspread,blanket,cover,throw,bedclothes
+blue,wordnet_direct_hypernym,console,desk,stand,vanity,table
+blue,wordnet_direct_hypernym,cab,car,stall,well,compartment
+blue,wordnet_direct_hypernym,boa,muffler,sable,stole,scarf
+blue,wordnet_direct_hypernym,amplifier,lens,mixer,telephone,electronic equipment
+blue,wordnet_direct_hypernym,conspirator,hoodlum,runner,tough,criminal
+blue,wordnet_direct_hypernym,coach,governess,missionary,tutor,teacher
+blue,wordnet_direct_hypernym,hack,mount,plug,pony,horse
+blue,wordnet_direct_hypernym,basement,foot,foundation,pedestal,support
+blue,wordnet_direct_hypernym,coupe,electric,taxi,wagon,car
+blue,wordnet_direct_hypernym,collage,likeness,panorama,semblance,picture
+blue,wordnet_direct_hypernym,duplication,miniature,modification,toy,copy
+blue,wordnet_direct_hypernym,clip,gem,necklace,pin,jewelry
+blue,wordnet_direct_hypernym,bastion,castle,dugout,fieldwork,fortification
+blue,wordnet_direct_hypernym,cutter,junk,packet,tug,boat
+blue,wordnet_direct_hypernym,bay,cabin,cockpit,well,compartment
+blue,wordnet_direct_hypernym,hive,hopper,tray,trough,receptacle
+blue,wordnet_direct_hypernym,casting,imitation,print,reproduction,copy
+blue,wordnet_direct_hypernym,disc,storage,store,tape,memory device
+blue,wordnet_direct_hypernym,ambulance,coupe,heap,limousine,car
+blue,wordnet_direct_hypernym,carbon,duplication,imitation,print,copy
+blue,wordnet_direct_hypernym,journal,number,review,series,periodical
+blue,wordnet_direct_hypernym,buffer,recording,stack,store,memory device
+blue,wordnet_direct_hypernym,bay,box,cabin,stall,compartment
+blue,wordnet_direct_hypernym,casting,duplication,miniature,print,copy
+blue,wordnet_direct_hypernym,compact,kit,luggage,shoe,case
+blue,wordnet_direct_hypernym,beam,fluorescence,glowing,radiance,light
+blue,wordnet_direct_hypernym,deluge,drizzle,shower,torrent,rain
+blue,wordnet_direct_hypernym,blueprint,magnification,mosaic,shot,photograph
+blue,wordnet_direct_hypernym,grate,rack,sash,truss,framework
+blue,wordnet_direct_hypernym,lens,mixer,monitor,processor,electronic equipment
+blue,wordnet_direct_hypernym,bandstand,deck,dock,rostrum,platform
+blue,wordnet_direct_hypernym,chuck,clamp,clinch,spindle,holding device
+blue,wordnet_direct_hypernym,hammer,mouthpiece,saucer,spike,sports equipment
+blue,wordnet_direct_hypernym,aerator,lighting,reactor,reformer,apparatus
+blue,wordnet_direct_hypernym,grinder,submarine,western,wrap,sandwich
+blue,wordnet_direct_hypernym,brochure,catalog,catechism,pamphlet,book
+blue,wordnet_direct_hypernym,abdominal,deltoid,lat,serratus,skeletal muscle
+blue,wordnet_direct_hypernym,metallic,nap,pick,tinsel,thread
+blue,wordnet_direct_hypernym,calm,gust,monsoon,squall,wind
+blue,wordnet_direct_hypernym,digger,fireman,hand,miner,laborer
+blue,wordnet_direct_hypernym,heaver,lever,rotor,runway,bar
+blue,wordnet_direct_hypernym,bolt,heaver,runway,shackle,bar
+blue,wordnet_direct_hypernym,jaw,nasal,rib,skull,bone
+blue,wordnet_direct_hypernym,captain,inspector,investigator,pig,policeman
+blue,wordnet_direct_hypernym,hack,mare,mount,poster,horse
+blue,wordnet_direct_hypernym,biceps,calf,pecs,serratus,skeletal muscle
+blue,wordnet_direct_hypernym,breakwater,bulwark,dam,grate,barrier
+blue,wordnet_direct_hypernym,costume,habit,outfit,rig,attire
+blue,wordnet_direct_hypernym,marine,orderly,redcoat,trooper,soldier
+blue,wordnet_direct_hypernym,dairy,ranch,spread,vineyard,farm
+blue,wordnet_direct_hypernym,poke,purse,sack,saddlebag,bag
+blue,wordnet_direct_hypernym,stake,standard,stump,timber,post
+blue,wordnet_direct_hypernym,buffer,stack,storage,tape,memory device
+blue,wordnet_direct_hypernym,pulpit,rostrum,scaffold,stage,platform
+blue,wordnet_direct_hypernym,aisle,corridor,drift,tunnel,passageway
+blue,wordnet_direct_hypernym,compact,hack,jeep,limousine,car
+blue,wordnet_direct_hypernym,cab,cabinet,cockpit,trunk,compartment
+blue,wordnet_direct_hypernym,beaver,fuzz,imperial,stubble,beard
+blue,wordnet_direct_hypernym,bark,cutter,sailboat,smack,sailing vessel
+blue,wordnet_direct_hypernym,blueprint,frame,magnification,still,photograph
+blue,wordnet_direct_hypernym,discus,mat,stick,target,sports equipment
+blue,wordnet_direct_hypernym,picket,scout,sentinel,watch,watchman
+blue,wordnet_direct_hypernym,buggy,chariot,coach,trap,carriage
+blue,wordnet_direct_hypernym,fugitive,hijacker,peddler,pusher,criminal
+blue,wordnet_direct_hypernym,cage,niche,pen,pit,enclosure
+blue,wordnet_direct_hypernym,brochure,leaflet,pamphlet,reference,book
+blue,wordnet_direct_hypernym,abdominal,deltoid,gastrocnemius,pectoralis,skeletal muscle
+blue,wordnet_direct_hypernym,heaver,rail,rotor,shackle,bar
+blue,wordnet_direct_hypernym,interne,quack,resident,surgeon,doctor
+blue,wordnet_direct_hypernym,dais,landing,pulpit,rostrum,platform
+blue,wordnet_direct_hypernym,rung,spoke,stave,thwart,crosspiece
+blue,wordnet_direct_hypernym,carrier,engine,tractor,trolley,self-propelled vehicle
+blue,wordnet_direct_hypernym,parolee,peddler,punk,tough,criminal
+blue,wordnet_direct_hypernym,peripheral,scope,telephone,terminal,electronic equipment
+blue,wordnet_direct_hypernym,bus,cruiser,heap,limousine,car
+blue,wordnet_direct_hypernym,centrifuge,pendulum,still,telegraph,apparatus
+blue,wordnet_direct_hypernym,frame,mosaic,shot,still,photograph
+blue,wordnet_direct_hypernym,captain,commander,lieutenant,skipper,commissioned naval officer
+blue,wordnet_direct_hypernym,cleaner,hand,miner,porter,laborer
+blue,wordnet_direct_hypernym,hack,pacer,pony,poster,horse
+blue,wordnet_direct_hypernym,cotton,filling,pick,worsted,thread
+blue,wordnet_direct_hypernym,dais,landing,pier,runway,platform
+blue,wordnet_direct_hypernym,generator,lighting,reactor,telegraph,apparatus
+blue,wordnet_direct_hypernym,gyro,wedge,western,wrap,sandwich
+blue,wordnet_direct_hypernym,buffer,disk,register,stack,memory device
+blue,wordnet_direct_hypernym,beet,carrot,potato,radish,root vegetable
+blue,wordnet_direct_hypernym,picket,tank,technical,warship,military vehicle
+blue,wordnet_direct_hypernym,copper,fuzz,pig,trooper,policeman
+blue,wordnet_direct_hypernym,high,reverse,third,transmission,gear
+blue,wordnet_direct_hypernym,bandstand,pad,rostrum,top,platform
+blue,wordnet_direct_hypernym,junk,packet,tender,tower,boat
+blue,wordnet_direct_hypernym,chapel,church,shrine,temple,place of worship
+blue,wordnet_direct_hypernym,detector,mixer,monitor,telephone,electronic equipment
+blue,wordnet_direct_hypernym,captain,master,mate,navigator,officer
+blue,wordnet_direct_hypernym,expressway,freeway,highroad,interstate,highway
+blue,wordnet_direct_hypernym,blaze,patch,shading,streak,marking
+blue,wordnet_direct_hypernym,beef,bull,cow,steer,cattle
+blue,wordnet_direct_hypernym,eyebrow,lash,lock,pile,hair
+blue,wordnet_direct_hypernym,bench,chair,couch,stool,seat
+blue,wordnet_direct_hypernym,detector,monitor,peripheral,scope,electronic equipment
+blue,wordnet_direct_hypernym,disguise,habit,outfit,turnout,attire
+blue,wordnet_direct_hypernym,number,pictorial,review,serial,periodical
+blue,wordnet_direct_hypernym,chamfer,curbing,milling,rim,edge
+blue,wordnet_direct_hypernym,barrel,drain,hose,stem,tube
+blue,wordnet_direct_hypernym,booth,dresser,stand,vanity,table
+blue,wordnet_direct_hypernym,atmosphere,downfall,warming,wind,weather
+blue,wordnet_direct_hypernym,burner,generator,still,telegraph,apparatus
+blue,wordnet_direct_hypernym,mosaic,print,shot,stereo,photograph
+blue,wordnet_direct_hypernym,glow,irradiation,moon,shaft,light
+blue,wordnet_direct_hypernym,alto,bass,tenor,voice,singer
+blue,wordnet_direct_hypernym,adrenal,epiphysis,prostate,thyroid,endocrine gland
+blue,wordnet_direct_hypernym,bead,clip,earring,gem,jewelry
+blue,wordnet_direct_hypernym,bootlegger,fugitive,gangster,racketeer,criminal
+blue,wordnet_direct_hypernym,captain,mate,skipper,steward,officer
+blue,wordnet_direct_hypernym,dock,landing,pulpit,top,platform
+blue,wordnet_direct_hypernym,butt,discus,mat,saucer,sports equipment
+blue,wordnet_direct_hypernym,booth,counter,desk,stand,table
+blue,wordnet_direct_hypernym,hulk,pirate,tender,wreck,ship
+blue,wordnet_direct_hypernym,envelope,sack,saddlebag,skin,bag
+blue,wordnet_direct_hypernym,gastrocnemius,lat,pecs,serratus,skeletal muscle
+blue,wordnet_direct_hypernym,disc,recording,register,storage,memory device
+blue,wordnet_direct_hypernym,bus,hack,jeep,saloon,car
+blue,wordnet_direct_hypernym,fireman,gypsy,miner,porter,laborer
+blue,wordnet_direct_hypernym,cotton,metallic,nap,worsted,thread
+blue,wordnet_direct_hypernym,apron,pavement,paving,runway,paved surface
+blue,wordnet_direct_hypernym,deck,landing,ring,scaffold,platform
+blue,wordnet_direct_hypernym,mat,saucer,stick,weight,sports equipment
+blue,wordnet_direct_hypernym,barricade,dam,mole,rail,barrier
+blue,wordnet_direct_hypernym,barrel,capillary,coil,hose,tube
+blue,wordnet_direct_hypernym,bandage,compress,plaster,poultice,dressing
+blue,wordnet_direct_hypernym,intern,resident,specialist,surgeon,doctor
+blue,wordnet_direct_hypernym,barrel,catheter,column,drain,tube
+blue,wordnet_direct_hypernym,grinder,hero,sub,submarine,sandwich
+blue,wordnet_direct_hypernym,gyro,sub,submarine,wrap,sandwich
+blue,wordnet_direct_hypernym,barge,cutter,ferry,packet,boat
+blue,wordnet_direct_hypernym,cellar,closet,cupboard,drawer,storage space
+blue,wordnet_direct_hypernym,fluorescence,glowing,meteor,sun,light
+blue,wordnet_direct_hypernym,charcoal,rendering,silhouette,sketch,drawing
+blue,wordnet_direct_hypernym,brim,curbing,lip,milling,edge
+blue,wordnet_direct_hypernym,cage,chamber,compound,niche,enclosure
+blue,wordnet_direct_hypernym,cotton,filling,nap,tinsel,thread
+blue,wordnet_direct_hypernym,binding,gathering,patchwork,stitch,sewing
+blue,wordnet_direct_hypernym,bay,hack,mare,plug,horse
+blue,wordnet_direct_hypernym,base,foot,pedestal,prop,support
+blue,wordnet_direct_hypernym,charcoal,diagram,sketch,study,drawing
+blue,wordnet_direct_hypernym,bazaar,canteen,drugstore,pharmacy,shop
+blue,wordnet_direct_hypernym,delineation,rendering,silhouette,trace,drawing
+blue,wordnet_direct_hypernym,derrick,frame,grate,pilot,framework
+blue,wordnet_direct_hypernym,regular,tanker,territorial,trooper,soldier
+blue,wordnet_direct_hypernym,display,generator,organizer,tube,electronic device
+blue,wordnet_direct_hypernym,cistern,cyst,float,pouch,sac
+blue,wordnet_direct_hypernym,digger,gypsy,hand,porter,laborer
+blue,wordnet_direct_hypernym,closeup,frame,scene,still,photograph
+blue,wordnet_direct_hypernym,almond,cherry,olive,peach,drupe
+blue,wordnet_direct_hypernym,deck,pier,runway,top,platform
+blue,wordnet_direct_hypernym,mouthpiece,spike,stick,target,sports equipment
+blue,wordnet_direct_hypernym,jaw,rib,skullcap,tooth,bone
+blue,wordnet_direct_hypernym,bobby,cop,fuzz,investigator,policeman
+blue,wordnet_direct_hypernym,brassiere,foundation,teddy,vest,undergarment
+blue,wordnet_direct_hypernym,centrifuge,lighting,reformer,still,apparatus
+blue,wordnet_direct_hypernym,barrel,pipe,stem,straw,tube
+blue,wordnet_direct_hypernym,cartridge,phone,pickup,speaker,electro-acoustic transducer
+blue,wordnet_direct_hypernym,hack,limousine,sedan,taxi,car
+blue,wordnet_direct_hypernym,bit,cinch,trapping,yoke,stable gear
+blue,wordnet_direct_hypernym,almond,brazil,peanut,walnut,edible nut
+blue,wordnet_direct_hypernym,bead,clip,jewel,necklace,jewelry
+blue,wordnet_direct_hypernym,bypass,cable,electrode,wire,conductor
+blue,wordnet_direct_hypernym,belt,round,shell,tracer,ammunition
+blue,wordnet_direct_hypernym,butt,mouthpiece,target,weight,sports equipment
+blue,wordnet_direct_hypernym,bomber,hamburger,sub,submarine,sandwich
+blue,wordnet_direct_hypernym,carbon,cast,miniature,modification,copy
+blue,wordnet_direct_hypernym,cutter,junk,lighter,tower,boat
+blue,wordnet_direct_hypernym,counter,goal,net,wheel,game equipment
+blue,wordnet_direct_hypernym,frame,mosaic,print,scene,photograph
+blue,wordnet_direct_hypernym,chisel,plane,razor,shear,edge tool
+blue,wordnet_direct_hypernym,bomber,grinder,sub,western,sandwich
+blue,wordnet_direct_hypernym,burglar,dip,ghoul,rustler,thief
+blue,wordnet_direct_hypernym,dock,ring,rostrum,top,platform
+blue,wordnet_direct_hypernym,bandit,burglar,lifter,robber,thief
+blue,wordnet_direct_hypernym,amplifier,monitor,telephone,terminal,electronic equipment
+blue,wordnet_direct_hypernym,air,breeze,draft,squall,wind
+blue,wordnet_direct_hypernym,deck,pier,ring,wharf,platform
+blue,wordnet_direct_hypernym,chamfer,curb,lip,rim,edge
+blue,wordnet_direct_hypernym,aerator,centrifuge,reactor,still,apparatus
+blue,wordnet_direct_hypernym,belt,canister,cartridge,tracer,ammunition
+blue,wordnet_direct_hypernym,mausoleum,monument,repository,vault,burial chamber
+blue,wordnet_direct_hypernym,closeup,shot,stereo,still,photograph
+blue,wordnet_direct_hypernym,centrifuge,generator,reformer,telegraph,apparatus
+blue,wordnet_direct_hypernym,mouthpiece,muffler,mute,whistle,acoustic device
+blue,wordnet_direct_hypernym,border,hem,roadside,wayside,edge
+blue,wordnet_direct_hypernym,capillary,piping,stem,straw,tube
+blue,wordnet_direct_hypernym,bobby,captain,pig,trooper,policeman
+blue,wordnet_direct_hypernym,blast,breeze,monsoon,thermal,wind
+blue,wordnet_direct_hypernym,bass,minstrel,soprano,tenor,singer
+blue,wordnet_direct_hypernym,detective,fuzz,inspector,investigator,policeman
+blue,wordnet_direct_hypernym,chamber,compound,dock,pen,enclosure
+blue,wordnet_direct_hypernym,bay,locker,trunk,well,compartment
+blue,wordnet_direct_hypernym,cop,detective,investigator,pig,policeman
+blue,wordnet_direct_hypernym,charcoal,delineation,rendering,tracing,drawing
+blue,wordnet_direct_hypernym,bastion,dungeon,hold,keep,stronghold
+blue,wordnet_direct_hypernym,collage,foil,graphic,semblance,picture
+blue,wordnet_direct_hypernym,gangster,hoodlum,runner,traitor,criminal
+blue,wordnet_direct_hypernym,cloudburst,deluge,drizzle,monsoon,rain
+blue,wordnet_direct_hypernym,gyro,hero,sub,western,sandwich
+blue,wordnet_direct_hypernym,sub,submarine,wedge,western,sandwich
+blue,wordnet_direct_hypernym,fennel,mint,sage,tea,herb
+blue,wordnet_direct_hypernym,buffer,lattice,rack,truss,framework
+blue,wordnet_direct_hypernym,brim,chamfer,groin,lip,edge
+blue,wordnet_direct_hypernym,cottage,lodge,mansion,villa,house
+blue,wordnet_direct_hypernym,doorway,gateway,hatchway,portal,entrance
+blue,wordnet_direct_hypernym,gin,net,pitfall,web,trap
+blue,wordnet_direct_hypernym,blast,draft,gust,thermal,wind
+blue,wordnet_direct_hypernym,chancellor,monarch,president,sovereign,head of state
+blue,wordnet_direct_hypernym,alley,avenue,boulevard,rue,street
+blue,wordnet_direct_hypernym,bandit,pirate,robber,rustler,thief
+blue,wordnet_direct_hypernym,autoloader,handgun,pistol,rifle,firearm
+blue,wordnet_direct_hypernym,discus,mat,mouthpiece,weight,sports equipment
+blue,wordnet_direct_hypernym,express,limited,local,train,public transport
+blue,wordnet_direct_hypernym,quack,resident,specialist,veterinary,doctor
+blue,wordnet_direct_hypernym,intern,quack,surgeon,veterinary,doctor
+blue,wordnet_direct_hypernym,deluge,downpour,monsoon,torrent,rain
+blue,wordnet_direct_hypernym,journal,pictorial,serial,series,periodical
+blue,wordnet_direct_hypernym,bay,mount,pacer,sorrel,horse
+blue,wordnet_direct_hypernym,base,cage,glove,mound,baseball equipment
+blue,wordnet_direct_hypernym,delineation,diagram,rendering,study,drawing
+blue,wordnet_direct_hypernym,delineation,diagram,sketch,tracing,drawing
+blue,wordnet_direct_hypernym,base,foot,foundation,groundwork,support
+blue,wordnet_direct_hypernym,bush,coat,lock,pile,hair
+blue,wordnet_direct_hypernym,bobby,captain,copper,fuzz,policeman
+blue,wordnet_direct_hypernym,cable,cord,shunt,wire,conductor
+blue,wordnet_direct_hypernym,poke,pouch,sack,skin,bag
+blue,wordnet_direct_hypernym,beam,fluorescence,glow,ray,light
+blue,wordnet_direct_hypernym,air,blast,monsoon,squall,wind
+blue,wordnet_direct_hypernym,garbage,hopper,socket,tray,receptacle
+blue,wordnet_direct_hypernym,framing,grate,horse,wattle,framework
+blue,wordnet_direct_hypernym,cab,cabin,locker,well,compartment
+blue,wordnet_direct_hypernym,air,blow,gale,squall,wind
+blue,wordnet_direct_hypernym,air,blast,blow,calm,wind
+blue,wordnet_direct_hypernym,blueprint,mosaic,scene,stereo,photograph
+blue,wordnet_direct_hypernym,alto,baritone,soprano,voice,singer
+blue,wordnet_direct_hypernym,bang,bouffant,fringe,haircut,hairdo
+blue,wordnet_direct_hypernym,banner,blackjack,pennant,standard,flag
+blue,wordnet_direct_hypernym,grille,sash,wattle,window,framework
+blue,wordnet_direct_hypernym,buck,bustle,lattice,mounting,framework
+blue,wordnet_direct_hypernym,carbon,miniature,reproduction,toy,copy
+blue,wordnet_direct_hypernym,bell,muffler,slapstick,whistle,acoustic device
+blue,wordnet_direct_hypernym,cartridge,loudspeaker,microphone,pickup,electro-acoustic transducer
+blue,wordnet_direct_hypernym,dictionary,glossary,lexicon,vocabulary,wordbook
+blue,wordnet_direct_hypernym,hack,heap,jeep,sedan,car
+blue,wordnet_direct_hypernym,compact,kit,pocketbook,sleeve,case
+blue,wordnet_direct_hypernym,orderly,regular,rifleman,trooper,soldier
+blue,wordnet_direct_hypernym,earring,gem,jewel,necklace,jewelry
+blue,wordnet_direct_hypernym,berth,couch,hammock,sack,bed
+blue,wordnet_direct_hypernym,bay,mount,plug,poster,horse
+blue,wordnet_direct_hypernym,nasal,phalanx,skull,teeth,bone
+blue,wordnet_direct_hypernym,amplifier,detector,peripheral,terminal,electronic equipment
+blue,wordnet_direct_hypernym,coil,diaphragm,rubber,safety,contraceptive
+blue,wordnet_direct_hypernym,cloudburst,monsoon,shower,torrent,rain
+blue,wordnet_direct_hypernym,calf,lat,pectoralis,serratus,skeletal muscle
+blue,wordnet_direct_hypernym,abdominal,biceps,lat,pecs,skeletal muscle
+blue,wordnet_direct_hypernym,foil,scan,semblance,transparency,picture
+blue,wordnet_direct_hypernym,artillery,broadside,gun,munition,armament
+blue,wordnet_direct_hypernym,glow,irradiation,ray,sunshine,light
+blue,wordnet_direct_hypernym,fluorescence,glow,irradiation,sun,light
+blue,wordnet_direct_hypernym,cape,cope,poncho,wrap,cloak
+blue,wordnet_direct_hypernym,abdominal,calf,gastrocnemius,pecs,skeletal muscle
+blue,wordnet_direct_hypernym,first,high,park,reverse,gear
+blue,wordnet_direct_hypernym,balustrade,banister,barricade,grate,barrier
+blue,wordnet_direct_hypernym,bandstand,pad,pulpit,scaffold,platform
+blue,wordnet_direct_hypernym,beam,bracing,tread,vertical,structural member
+blue,wordnet_direct_hypernym,box,cabin,car,well,compartment
+blue,wordnet_direct_hypernym,brow,bush,lash,pile,hair
+blue,wordnet_direct_hypernym,carbon,casting,duplicate,modification,copy
+blue,wordnet_direct_hypernym,duplicate,print,reproduction,toy,copy
+blue,wordnet_direct_hypernym,buffer,bustle,clotheshorse,grate,framework
+blue,wordnet_direct_hypernym,plan,rendering,sketch,trace,drawing
+blue,wordnet_direct_hypernym,bull,copper,investigator,pig,policeman
+blue,wordnet_direct_hypernym,alcove,bay,fireplace,hearth,recess
+blue,wordnet_direct_hypernym,candle,lantern,spotlight,taper,lamp
+blue,wordnet_direct_hypernym,coil,drain,pipe,stem,tube
+blue,wordnet_direct_hypernym,compound,coop,dock,lock,enclosure
+blue,wordnet_direct_hypernym,episode,negative,roll,sequence,film
+blue,wordnet_direct_hypernym,bootlegger,hoodlum,murderer,racketeer,criminal
+blue,wordnet_direct_hypernym,captain,copper,investigator,trooper,policeman
+blue,wordnet_direct_hypernym,blade,pad,pitcher,scale,leaf
+blue,wordnet_direct_hypernym,redcoat,rifleman,territorial,trooper,soldier
+blue,wordnet_direct_hypernym,duct,sluice,spill,tubing,conduit
+blue,wordnet_direct_hypernym,mat,mouthpiece,saucer,target,sports equipment
+blue,wordnet_direct_hypernym,duplicate,imitation,miniature,reproduction,copy
+blue,wordnet_direct_hypernym,bay,car,cockpit,stall,compartment
+blue,wordnet_direct_hypernym,buffer,burr,planer,smoother,power tool
+blue,wordnet_direct_hypernym,mouthpiece,siren,slapstick,whistle,acoustic device
+blue,wordnet_direct_hypernym,banister,fender,groin,railing,barrier
+blue,wordnet_direct_hypernym,cast,duplicate,modification,toy,copy
+blue,wordnet_direct_hypernym,intern,quack,resident,veterinarian,doctor
+blue,wordnet_direct_hypernym,bypass,cord,electrode,shunt,conductor
+blue,wordnet_direct_hypernym,cleaner,fireman,gypsy,hand,laborer
+blue,wordnet_direct_hypernym,booth,console,desk,dresser,table
+blue,wordnet_direct_hypernym,cabin,mansion,residence,villa,house
+blue,wordnet_direct_hypernym,brow,coat,mane,pile,hair
+blue,wordnet_direct_hypernym,foundation,groundwork,pedestal,prop,support
+blue,wordnet_direct_hypernym,clove,fennel,ginger,nutmeg,spice
+blue,wordnet_direct_hypernym,hamburger,sub,western,wrap,sandwich
+blue,wordnet_direct_hypernym,high,low,park,transmission,gear
+blue,wordnet_direct_hypernym,hamburger,hero,submarine,wrap,sandwich
+blue,wordnet_direct_hypernym,mount,pony,poster,sorrel,horse
+blue,wordnet_direct_hypernym,dip,lifter,pirate,rustler,thief
+blue,wordnet_direct_hypernym,bush,eyebrow,lock,mane,hair
+blue,wordnet_direct_hypernym,carriage,coach,tender,van,car
+blue,wordnet_direct_hypernym,landing,ring,runway,stage,platform
+blue,wordnet_direct_hypernym,altar,counter,dresser,vanity,table
+blue,wordnet_direct_hypernym,bean,coffee,nut,pip,seed
+blue,wordnet_direct_hypernym,cooler,dungeon,hold,keep,cell
+blue,wordnet_direct_hypernym,cloudburst,downpour,drizzle,torrent,rain
+blue,wordnet_direct_hypernym,bulwark,fencing,hurdle,mole,barrier
+blue,wordnet_direct_hypernym,coat,down,lock,mane,hair
+blue,wordnet_direct_hypernym,bulwark,dam,fencing,roadblock,barrier
+blue,wordnet_direct_hypernym,spoke,stave,transom,traverse,crosspiece
+blue,wordnet_direct_hypernym,altar,console,counter,stand,table
+blue,wordnet_direct_hypernym,diagram,silhouette,study,tracing,drawing
+blue,wordnet_direct_hypernym,banister,fender,hurdle,rail,barrier
+blue,wordnet_direct_hypernym,blow,breeze,draft,monsoon,wind
+blue,wordnet_direct_hypernym,diaphragm,intima,mucosa,web,membrane
+blue,wordnet_direct_hypernym,altar,booth,desk,vanity,table
+blue,wordnet_direct_hypernym,pinpoint,plaque,speck,splash,spot
+blue,wordnet_direct_hypernym,capillary,column,hose,stem,tube
+blue,wordnet_direct_hypernym,aerator,burner,pendulum,reactor,apparatus
+blue,wordnet_direct_hypernym,bit,harness,housing,yoke,stable gear
+blue,wordnet_direct_hypernym,rendering,sketch,study,tracing,drawing
+blue,wordnet_direct_hypernym,barley,corn,oat,wheat,cereal
+blue,wordnet_direct_hypernym,cattleman,cowboy,cowhand,cowman,ranch hand
+blue,wordnet_direct_hypernym,disc,disk,stack,storage,memory device
+blue,wordnet_direct_hypernym,calf,kit,lamb,pup,young mammal
+blue,wordnet_direct_hypernym,altar,desk,dresser,stand,table
+blue,wordnet_direct_hypernym,foal,kitten,lamb,pup,young mammal
+blue,wordnet_direct_hypernym,barrel,coil,mouthpiece,stem,tube
+blue,wordnet_direct_hypernym,bench,lounge,sofa,stool,seat
+blue,wordnet_direct_hypernym,beard,coat,lash,lock,hair
+blue,wordnet_direct_hypernym,accessory,hoodlum,punk,runner,criminal
+blue,wordnet_direct_hypernym,bead,earring,necklace,pin,jewelry
+blue,wordnet_direct_hypernym,arch,doorway,hatchway,threshold,entrance
+blue,wordnet_direct_hypernym,kiss,mint,patty,rock,candy
+blue,wordnet_direct_hypernym,carriage,limber,rig,sulky,horse-drawn vehicle
+blue,wordnet_direct_hypernym,bootlegger,hijacker,hood,pusher,criminal
+blue,wordnet_direct_hypernym,abstraction,illumination,landscape,watercolor,painting
+blue,wordnet_direct_hypernym,axis,bulb,cane,slip,stalk
+blue,wordnet_direct_hypernym,meteor,ray,shaft,sun,light
+blue,wordnet_direct_hypernym,derrick,grate,lattice,rack,framework
+blue,wordnet_direct_hypernym,bead,gem,jewel,pin,jewelry
+blue,wordnet_direct_hypernym,cage,chamber,lock,pit,enclosure
+blue,wordnet_direct_hypernym,corridor,gate,heading,tunnel,passageway
+blue,wordnet_direct_hypernym,framing,horse,mounting,rack,framework
+blue,wordnet_direct_hypernym,biplane,bomber,fighter,jet,airplane
+blue,wordnet_direct_hypernym,graphic,reflection,scan,transparency,picture
+blue,wordnet_direct_hypernym,cruiser,electric,heap,wagon,car
+blue,wordnet_direct_hypernym,pouch,purse,saddlebag,skin,bag
+blue,wordnet_direct_hypernym,magnification,scene,stereo,still,photograph
+blue,wordnet_direct_hypernym,baggage,compact,sleeve,wallet,case
+blue,wordnet_direct_hypernym,coat,down,lash,pile,hair
+blue,wordnet_direct_hypernym,bobby,copper,detective,investigator,policeman
+blue,wordnet_direct_hypernym,chamfer,curb,groin,milling,edge
+blue,wordnet_direct_hypernym,blackmailer,hoodlum,parolee,runner,criminal
+blue,wordnet_direct_hypernym,duplication,imitation,modification,reproduction,copy
+blue,wordnet_direct_hypernym,album,journal,novel,paperback,book
+blue,wordnet_direct_hypernym,hammer,mat,target,weight,sports equipment
+blue,wordnet_direct_hypernym,drapery,mantle,pall,shutter,blind
+blue,wordnet_direct_hypernym,beam,meteor,shaft,sunshine,light
+blue,wordnet_direct_hypernym,bus,electric,saloon,sedan,car
+blue,wordnet_direct_hypernym,bus,electric,hack,wagon,car
+blue,wordnet_direct_hypernym,barrel,capillary,catheter,piping,tube
+blue,wordnet_direct_hypernym,axis,cutting,slip,trunk,stalk
+blue,wordnet_direct_hypernym,disk,recording,stack,tape,memory device
+blue,wordnet_direct_hypernym,blade,chuck,flank,plate,cut of beef
+blue,wordnet_direct_hypernym,burner,lighting,pendulum,still,apparatus
+blue,wordnet_direct_hypernym,detector,lens,processor,telephone,electronic equipment
+blue,wordnet_direct_hypernym,chisel,knife,pick,plane,edge tool
+blue,wordnet_direct_hypernym,compound,dock,niche,pit,enclosure
+blue,wordnet_direct_hypernym,chamber,lock,niche,pen,enclosure
+blue,wordnet_direct_hypernym,blackmailer,fugitive,peddler,racketeer,criminal
+blue,wordnet_direct_hypernym,master,navigator,skipper,steward,officer
+blue,wordnet_direct_hypernym,buffer,disc,disk,recording,memory device
+blue,wordnet_direct_hypernym,bag,glove,lumber,mound,baseball equipment
+blue,wordnet_direct_hypernym,fang,grinder,posterior,tusk,tooth
+blue,wordnet_direct_hypernym,biceps,deltoid,gastrocnemius,lat,skeletal muscle
+blue,wordnet_direct_hypernym,bakery,bazaar,canteen,salon,shop
+blue,wordnet_direct_hypernym,bandstand,deck,pier,stage,platform
+blue,wordnet_direct_hypernym,fin,lag,lath,stave,slat
+blue,wordnet_direct_hypernym,cafe,canteen,grill,teahouse,restaurant
+blue,wordnet_direct_hypernym,baby,calf,kitten,lamb,young mammal
+blue,wordnet_direct_hypernym,buffer,disk,store,tape,memory device
+blue,wordnet_direct_hypernym,counterpart,match,mate,similitude,duplicate
+blue,wordnet_direct_hypernym,dock,lock,pen,pit,enclosure
+blue,wordnet_direct_hypernym,bus,electrode,shunt,wire,conductor
+blue,wordnet_direct_hypernym,blast,blow,gust,monsoon,wind
+blue,wordnet_direct_hypernym,rung,thwart,transom,traverse,crosspiece
+blue,wordnet_direct_hypernym,cockpit,locker,stall,trunk,compartment
+blue,wordnet_direct_hypernym,phalanx,skullcap,teeth,tooth,bone
+blue,wordnet_direct_hypernym,bunker,castle,dugout,stockade,fortification
+blue,wordnet_direct_hypernym,autoloader,rifle,scattergun,shotgun,firearm
+blue,wordnet_direct_hypernym,rue,sage,savory,tea,herb
+blue,wordnet_direct_hypernym,brow,bush,down,lock,hair
+blue,wordnet_direct_hypernym,box,cab,car,cockpit,compartment
+blue,wordnet_direct_hypernym,diaphragm,discus,saucer,token,disk
+blue,wordnet_direct_hypernym,bobby,fuzz,inspector,trooper,policeman
+blue,wordnet_direct_hypernym,peddler,punk,pusher,thief,criminal
+blue,wordnet_direct_hypernym,drift,gallery,gate,heading,passageway
+blue,wordnet_direct_hypernym,gangster,murderer,tough,traitor,criminal
+blue,wordnet_direct_hypernym,beard,down,lock,pile,hair
+blue,wordnet_direct_hypernym,brassiere,foundation,shimmy,undershirt,undergarment
+blue,wordnet_direct_hypernym,cage,compound,coop,pit,enclosure
+blue,wordnet_direct_hypernym,cotton,nap,pick,warp,thread
+blue,wordnet_direct_hypernym,pocketbook,shoe,sleeve,wallet,case
+blue,wordnet_direct_hypernym,generator,pendulum,reactor,reformer,apparatus
+blue,wordnet_direct_hypernym,ambulance,cab,limousine,sedan,car
+blue,wordnet_direct_hypernym,coil,pill,rubber,safe,contraceptive
+blue,wordnet_direct_hypernym,accessory,murderer,peddler,traitor,criminal
+blue,wordnet_direct_hypernym,cap,hat,helmet,lid,headdress
+blue,wordnet_direct_hypernym,filling,metallic,tinsel,worsted,thread
+blue,wordnet_direct_hypernym,blaze,cross,shading,stripe,marking
+blue,wordnet_direct_hypernym,cleaner,digger,fireman,porter,laborer
+blue,wordnet_direct_hypernym,carrier,locomotive,streetcar,tractor,self-propelled vehicle
+blue,wordnet_direct_hypernym,graphic,panorama,scan,semblance,picture
+blue,wordnet_direct_hypernym,charcoal,plan,rendering,study,drawing
+blue,wordnet_direct_hypernym,bus,coach,express,local,public transport
+blue,wordnet_direct_hypernym,brow,bush,curl,mane,hair
+blue,wordnet_direct_hypernym,baby,calf,foal,pup,young mammal
+blue,wordnet_direct_hypernym,print,scene,shot,still,photograph
+blue,wordnet_direct_hypernym,metallic,nap,pile,warp,thread
+blue,wordnet_direct_hypernym,disk,register,storage,tape,memory device
+blue,wordnet_direct_hypernym,boiler,coffeepot,kettle,urn,pot
+blue,wordnet_direct_hypernym,frame,magnification,print,shot,photograph
+blue,wordnet_direct_hypernym,bandstand,dais,deck,runway,platform
+blue,wordnet_direct_hypernym,aisle,arcade,drift,gallery,passageway
+blue,wordnet_direct_hypernym,collage,reflection,semblance,transparency,picture
+blue,wordnet_direct_hypernym,hack,mare,pacer,sorrel,horse
+blue,wordnet_direct_hypernym,negative,positive,reel,roll,film
+blue,wordnet_direct_hypernym,caraway,mint,sage,savory,herb
+blue,wordnet_direct_hypernym,collage,foil,likeness,scan,picture
+blue,wordnet_direct_hypernym,beam,line,microwave,ray,electromagnetic radiation
+blue,wordnet_direct_hypernym,burr,hammer,plane,smoother,power tool
+blue,wordnet_direct_hypernym,glowing,radiance,ray,shaft,light
+blue,wordnet_direct_hypernym,dandy,sailboat,schooner,smack,sailing vessel
+blue,wordnet_direct_hypernym,figure,globe,restoration,roughcast,model
+blue,wordnet_direct_hypernym,accessory,peddler,racketeer,tough,criminal
+blue,wordnet_direct_hypernym,cotton,pile,warp,worsted,thread
+blue,wordnet_direct_hypernym,bus,bypass,cord,wire,conductor
+blue,wordnet_direct_hypernym,grate,groin,railing,roadblock,barrier
+blue,wordnet_direct_hypernym,hack,plug,poster,sorrel,horse
+blue,wordnet_direct_hypernym,amplifier,lens,peripheral,phone,electronic equipment
+blue,wordnet_direct_hypernym,buck,grill,rack,sash,framework
+blue,wordnet_direct_hypernym,handgun,pistol,scattergun,shotgun,firearm
+blue,wordnet_direct_hypernym,delineation,plan,sketch,study,drawing
+blue,wordnet_direct_hypernym,clotheshorse,derrick,fender,lattice,framework
+blue,wordnet_direct_hypernym,aisle,corridor,gallery,heading,passageway
+blue,wordnet_direct_hypernym,envelope,poke,purse,skin,bag
+blue,wordnet_direct_hypernym,foil,graphic,likeness,transparency,picture
+blue,wordnet_direct_hypernym,glowing,irradiation,radiance,sun,light
+blue,wordnet_direct_hypernym,jail,pen,prison,reformatory,correctional institution
+blue,wordnet_direct_hypernym,beam,sill,upright,vertical,structural member
+blue,wordnet_direct_hypernym,blast,calm,gale,thermal,wind
+blue,wordnet_direct_hypernym,bell,mouthpiece,mute,slapstick,acoustic device
+blue,wordnet_direct_hypernym,fender,grillwork,horse,window,framework
+blue,wordnet_direct_hypernym,abdominal,biceps,calf,deltoid,skeletal muscle
+blue,wordnet_direct_hypernym,brim,curbing,groin,rim,edge
+blue,wordnet_direct_hypernym,canister,cartridge,round,shell,ammunition
+blue,wordnet_direct_hypernym,detector,lens,monitor,phone,electronic equipment
+blue,wordnet_direct_hypernym,balustrade,breakwater,fencing,grate,barrier
+blue,wordnet_direct_hypernym,jaw,phalanx,skull,tooth,bone
+blue,wordnet_direct_hypernym,foundation,undershirt,underwear,vest,undergarment
+blue,wordnet_direct_hypernym,baggage,luggage,shoe,sleeve,case
+blue,wordnet_direct_hypernym,diagram,plan,silhouette,sketch,drawing
+blue,wordnet_direct_hypernym,arcade,corridor,drift,heading,passageway
+blue,wordnet_direct_hypernym,bypass,expressway,highroad,pike,highway
+blue,wordnet_direct_hypernym,amplifier,mixer,peripheral,scope,electronic equipment
+blue,wordnet_direct_hypernym,brass,pipe,whistle,woodwind,wind instrument
+blue,wordnet_direct_hypernym,basement,foot,groundwork,prop,support
+blue,wordnet_direct_hypernym,mixer,monitor,peripheral,terminal,electronic equipment
+blue,wordnet_direct_hypernym,convertible,electric,heap,saloon,car
+blue,wordnet_direct_hypernym,glow,radiance,ray,sun,light
+blue,wordnet_direct_hypernym,cape,poncho,shawl,wrapper,cloak
+blue,wordnet_direct_hypernym,bag,imperial,suitcase,trunk,baggage
+blue,wordnet_direct_hypernym,fennel,mint,rue,savory,herb
+blue,wordnet_direct_hypernym,fluorescence,moon,radiance,ray,light
+blue,wordnet_direct_hypernym,box,cabin,cockpit,trunk,compartment
+blue,wordnet_direct_hypernym,bunk,deathbed,hammock,sack,bed
+blue,wordnet_direct_hypernym,arcade,gallery,heading,tunnel,passageway
+blue,wordnet_direct_hypernym,kit,luggage,sleeve,wallet,case
+blue,wordnet_direct_hypernym,cotton,pick,pile,tinsel,thread
+blue,wordnet_direct_hypernym,envelope,pouch,purse,sack,bag
+blue,wordnet_direct_hypernym,bus,coach,limited,train,public transport
+blue,wordnet_direct_hypernym,butt,hammer,saucer,weight,sports equipment
+blue,wordnet_direct_hypernym,brow,coat,curl,lock,hair
+blue,wordnet_direct_hypernym,barge,tender,tower,tug,boat
+blue,wordnet_direct_hypernym,chair,couch,lounge,sofa,seat
+blue,wordnet_direct_hypernym,blow,breeze,calm,thermal,wind
+blue,wordnet_direct_hypernym,authority,brochure,catechism,leaflet,book
+blue,wordnet_direct_hypernym,graphic,likeness,reflection,semblance,picture
+blue,wordnet_direct_hypernym,fog,fume,haze,smoke,aerosol
+blue,wordnet_direct_hypernym,charcoal,delineation,diagram,silhouette,drawing
+blue,wordnet_direct_hypernym,butt,hinge,scarf,seam,joint
+blue,wordnet_direct_hypernym,amplifier,peripheral,processor,telephone,electronic equipment
+blue,wordnet_direct_hypernym,arch,door,portal,threshold,entrance
+blue,wordnet_direct_hypernym,baron,count,duke,peer,lord
+blue,wordnet_direct_hypernym,bay,pacer,plug,pony,horse
+blue,wordnet_direct_hypernym,catheter,column,mouthpiece,pipe,tube
+blue,wordnet_direct_hypernym,bay,cab,cabin,trunk,compartment
+blue,wordnet_direct_hypernym,molding,roadside,shoulder,wayside,edge
+blue,wordnet_direct_hypernym,garbage,hive,socket,trough,receptacle
+blue,wordnet_direct_hypernym,carbon,cast,duplicate,reproduction,copy
+blue,wordnet_direct_hypernym,infantryman,marine,redcoat,regular,soldier
+blue,wordnet_direct_hypernym,clip,earring,jewel,pin,jewelry
+blue,wordnet_direct_hypernym,factory,mill,mint,still,plant
+blue,wordnet_direct_hypernym,cast,miniature,print,reproduction,copy
+blue,wordnet_direct_hypernym,issue,journal,pictorial,review,periodical
+blue,wordnet_direct_hypernym,frame,scene,shot,stereo,photograph
+blue,wordnet_direct_hypernym,closeup,print,scene,stereo,photograph
+blue,wordnet_direct_hypernym,baritone,minstrel,tenor,voice,singer
+blue,wordnet_direct_hypernym,groin,lip,milling,rim,edge
+blue,wordnet_direct_hypernym,cage,chamber,coop,dock,enclosure
+blue,wordnet_direct_hypernym,buffer,derrick,fender,frame,framework
+blue,wordnet_direct_hypernym,muffler,mute,siren,slapstick,acoustic device
+blue,wordnet_direct_hypernym,barge,ferry,junk,tug,boat
+blue,wordnet_direct_hypernym,amplifier,mixer,phone,terminal,electronic equipment
+blue,wordnet_direct_hypernym,deck,pulpit,stage,stump,platform
+blue,wordnet_direct_hypernym,nap,pile,tinsel,worsted,thread
+blue,wordnet_direct_hypernym,aisle,gallery,gate,tunnel,passageway
+blue,wordnet_direct_hypernym,blow,calm,draft,gust,wind
+blue,wordnet_direct_hypernym,infantryman,regular,rifleman,tanker,soldier
+blue,wordnet_direct_hypernym,amplifier,detector,processor,scope,electronic equipment
+blue,wordnet_direct_hypernym,beam,glow,meteor,radiance,light
+blue,wordnet_direct_hypernym,frame,lattice,pilot,wattle,framework
+blue,wordnet_direct_hypernym,fin,moccasin,platform,pump,shoe
+blue,wordnet_direct_hypernym,pick,tinsel,warp,worsted,thread
+blue,wordnet_direct_hypernym,drain,elbow,main,manifold,pipe
+blue,wordnet_direct_hypernym,binding,gather,mend,patch,sewing
+blue,wordnet_direct_hypernym,interne,resident,specialist,veterinarian,doctor
+blue,wordnet_direct_hypernym,beard,brow,curl,lash,hair
+blue,wordnet_direct_hypernym,accommodation,dormitory,hall,harem,living quarters
+blue,wordnet_direct_hypernym,kit,outfit,rig,tackle,gear
+blue,wordnet_direct_hypernym,box,cab,stall,trunk,compartment
+blue,wordnet_direct_hypernym,fugitive,pusher,runner,thief,criminal
+blue,wordnet_direct_hypernym,cab,cabinet,locker,stall,compartment
+blue,wordnet_direct_hypernym,box,cabinet,trunk,well,compartment
+blue,wordnet_direct_hypernym,pickup,rig,tractor,van,truck
+blue,wordnet_direct_hypernym,duplicate,miniature,modification,print,copy
+blue,wordnet_direct_hypernym,cloudburst,deluge,downpour,shower,rain
+blue,wordnet_direct_hypernym,frame,magnification,mosaic,stereo,photograph
+blue,wordnet_direct_hypernym,cab,cabin,cockpit,stall,compartment
+blue,wordnet_direct_hypernym,discus,saucer,target,weight,sports equipment
+blue,wordnet_direct_hypernym,closeup,magnification,mosaic,scene,photograph
+blue,wordnet_direct_hypernym,coffin,crate,flat,mailbox,box
+blue,wordnet_direct_hypernym,first,park,third,transmission,gear
+blue,wordnet_direct_hypernym,air,gust,squall,thermal,wind
+blue,wordnet_direct_hypernym,pier,ring,rostrum,scaffold,platform
+blue,wordnet_direct_hypernym,grinder,hamburger,hero,western,sandwich
+blue,wordnet_direct_hypernym,darn,mend,patchwork,stitch,sewing
+blue,wordnet_direct_hypernym,bond,gravitation,gravity,magnetism,attraction
+blue,wordnet_direct_hypernym,brassiere,dress,frock,wrapper,woman's clothing
+blue,wordnet_direct_hypernym,axis,branch,bulb,cutting,stalk
+blue,wordnet_direct_hypernym,marine,regular,rifleman,territorial,soldier
+blue,wordnet_direct_hypernym,burner,centrifuge,generator,reactor,apparatus
+blue,wordnet_direct_hypernym,bootlegger,hood,parolee,runner,criminal
+blue,wordnet_direct_hypernym,drum,kettle,piano,triangle,percussion instrument
+blue,wordnet_direct_hypernym,border,hem,molding,shoulder,edge
+blue,wordnet_direct_hypernym,infantryman,marine,territorial,trooper,soldier
+blue,wordnet_direct_hypernym,cage,coop,lock,pen,enclosure
+blue,wordnet_direct_hypernym,irradiation,meteor,moon,sunshine,light
+blue,wordnet_direct_hypernym,disc,register,stack,store,memory device
+blue,wordnet_direct_hypernym,filling,pile,tinsel,warp,thread
+blue,wordnet_direct_hypernym,aerator,pendulum,reformer,telegraph,apparatus
+blue,wordnet_direct_hypernym,bazaar,booth,pharmacy,salon,shop
+blue,wordnet_direct_hypernym,bulwark,fence,grate,railing,barrier
+blue,wordnet_direct_hypernym,banister,bulwark,grate,rail,barrier
+blue,wordnet_direct_hypernym,calf,deltoid,pecs,pectoralis,skeletal muscle
+blue,wordnet_direct_hypernym,blaze,spot,streak,stripe,marking

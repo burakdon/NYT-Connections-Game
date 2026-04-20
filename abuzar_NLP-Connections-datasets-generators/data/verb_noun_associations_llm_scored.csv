@@ -1,0 +1,508 @@
+verb,embedding_score,nouns,llm_score,tag,brief_reason,keep
+abide,0.4711,"verdict,ruling,decision,outcome",2,wrong_sense,"These nouns relate to legal outcomes, not the sense of 'abide by' or 'tolerate'",False
+abolish,0.4876,"slavery,emancipation,slave,equality",4,good,"Clear connection to abolishing slavery, though 'emancipation' and 'equality' are results rather than things abolished",True
+absorb,0.4705,"ultraviolet,wavelength,sunlight,infrared",4,good,"Light/radiation terms that can be absorbed, natural scientific connection",True
+abstract,0.6473,"painting,painter,sculpture,sculptor",3,too_broad,Art terms but abstract as adjective vs verb is ambiguous,False
+accompany,0.5611,"trip,journey,expedition,voyage",4,good,Travel terms that one accompanies others on,True
+accumulate,0.4635,"liver,tumor,tissue,membrane",3,too_abstract,Body parts don't clearly suggest accumulation without medical context,False
+accuse,0.4943,"rape,murder,killing,crime",3,sensitive,"Serious crimes one is accused of, but sensitive content",False
+ache,0.5225,"diarrhea,nausea,vomiting,stomach",3,wrong_sense,Stomach symptoms but most don't typically 'ache',False
+acquire,0.5497,"acquisition,transaction,deal,merger",2,too_direct,Business terms including the root word 'acquisition',False
+act,0.6548,"legislation,amendment,provision,bill",4,good,Legislative terms that become acts when passed,True
+adhere,0.4861,"religion,ideology,doctrine,principle",4,good,Belief systems one adheres to,True
+admire,0.5,"courage,bravery,brave,determination",4,good,"Qualities commonly admired, though 'brave' repeats 'bravery'",True
+adopt,0.5055,"posture,stance,attitude,approach",5,good,Perfect - all things one adopts in behavior/thinking,True
+adore,0.5397,"goddess,divine,god,heaven",4,good,Religious/divine entities that are adored,True
+advance,0.5237,"cavalry,infantry,battalion,artillery",4,good,Military units that advance in battle,True
+affirm,0.4862,"scripture,divine,salvation,god",3,too_abstract,Religious concepts but connection to affirming is indirect,False
+afford,0.464,"buy,rent,pay,purchase",4,good,Financial actions one can/cannot afford,True
+alight,0.5451,"blaze,burning,burn,fire",3,wrong_sense,Fire terms but 'alight' as 'catch fire' vs 'land/dismount' is ambiguous,False
+alleviate,0.5328,"discomfort,distress,pain,anxiety",5,good,Perfect - all negative states that are alleviated,True
+amend,0.5791,"repeal,legislation,bill,provision",4,good,Legislative items that are amended,True
+amuse,0.5748,"wit,satire,humor,comedy",4,good,Forms of entertainment that amuse,True
+appeal,0.5296,"verdict,judgment,ruling,decision",4,good,Legal decisions that can be appealed,True
+appease,0.5584,"goddess,deity,god,emperor",4,good,Powerful entities that are appeased,True
+apply,0.4948,"visa,passport,citizenship,permit",5,good,Perfect - all documents/statuses one applies for,True
+approve,0.5611,"proposal,amendment,legislation,plan",5,good,Perfect - all items that require approval,True
+arouse,0.6701,"hostility,resentment,anger,hatred",4,good,Negative emotions that are aroused,True
+arrest,0.5913,"imprisonment,conviction,jail,prison",3,wrong_sense,"These are consequences of arrest, not the arrest itself",False
+ask,0.5792,"tell,say,want,know",2,too_broad,Too general - basic communication verbs,False
+assert,0.5893,"primacy,dominance,supremacy,superiority",4,good,Forms of authority/power that are asserted,True
+attach,0.4669,"brigadier,colonel,intelligence,commander",2,obscure,Military ranks/roles but attachment connection unclear,False
+attain,0.4699,"enlightenment,salvation,immortality,happiness",4,good,Lofty goals that are attained,True
+attend,0.5405,"school,graduation,college,student",3,too_broad,Education terms but 'student' doesn't fit the pattern,False
+avenge,0.5727,"murder,killing,death,murderer",3,sensitive,"Violence-related terms that could be avenged, but sensitive",False
+awaken,0.4877,"demon,creature,evil,monster",3,too_abstract,Supernatural entities but awakening connection is metaphorical,False
+bail,0.538,"jail,probation,conviction,sentence",3,wrong_sense,Legal consequences but bail is specific to pre-trial release,False
+bake,0.5519,"bread,loaf,dough,flour",5,good,Perfect - baking ingredients and products,True
+bandage,0.5449,"forehead,jaw,nose,ear",4,good,Body parts that can be bandaged,True
+barge,0.6027,"dock,wharf,pier,boat",2,wrong_sense,Water/dock terms but 'barge' as verb (intrude) vs noun (boat) unclear,False
+bark,0.4922,"foliage,tree,elm,beech",2,wrong_sense,Tree terms but bark as verb (dog sound) vs noun (tree covering) unclear,False
+batter,0.6921,"fielder,pitcher,catcher,shortstop",2,wrong_sense,Baseball positions but batter as verb (hit) vs noun (player) unclear,False
+beg,0.4809,"ruler,sultan,throne,emperor",1,wrong_sense,"These are royal/authority figures, not related to begging",False
+beggar,0.5956,"prostitute,woman,boy,girl",0,invalid,"Beggar is a noun, not a verb",False
+behold,0.4837,"thou,god,heaven,lord",2,obscure,"Archaic biblical language, too specialized",False
+beset,0.5305,"strife,unrest,turmoil,controversy",4,good,Clear connection - these troubles can beset someone,True
+bid,0.5124,"reelection,incumbent,nomination,candidate",4,good,Political context where one bids for office,True
+bind,0.7186,"peptide,protein,molecule,enzyme",4,good,Scientific context - molecules bind together,True
+blast,0.51,"explosion,grenade,bomb,bombing",5,good,Perfect connection - all create blasts,True
+blunt,0.5569,"teeth,jaw,tooth,skull",3,too_broad,Teeth can be blunt but connection is weak,False
+boil,0.5567,"broth,stew,cabbage,soup",5,good,Excellent - all foods that are boiled,True
+bolster,0.5549,"offense,defensive,offensive,defense",4,good,Sports/military context - can bolster these strategies,True
+bore,0.5537,"rpm,torque,cylinder,horsepower",3,too_abstract,Engine terms but bore connection is technical,False
+borrow,0.5043,"lending,debt,loan,credit",5,good,Perfect financial context for borrowing,True
+bother,0.6038,"tell,think,want,know",2,wrong_sense,"These are mental actions, not things that bother",False
+breakfast,0.683,"lunch,dinner,meal,supper",0,not_action,"Breakfast is typically a noun, not a verb",False
+breed,0.6059,"sheep,cattle,goat,pig",5,good,Perfect - all livestock that are bred,True
+brew,0.5748,"beer,drink,liquor,alcohol",4,good,Clear connection - alcoholic beverages are brewed,True
+broadcast,0.4836,"channel,cable,programming,television",4,good,Media context - all related to broadcasting,True
+brood,0.4875,"cowbird,parasite,nest,larva",3,too_abstract,Biological context but connection unclear,False
+bruise,0.7571,"thigh,knee,elbow,ankle",5,good,Perfect - all body parts that can bruise,True
+bury,0.5494,"burial,funeral,tomb,cemetery",4,good,Clear death/burial context,True
+bust,0.6185,"sculptor,statue,sculpture,monument",3,wrong_sense,Art context but bust as verb doesn't fit well,False
+butterfly,0.4703,"moth,orchid,insect,genus",0,not_action,"Butterfly is a noun, not a verb",False
+buy,0.5364,"sell,price,purchase,sale",4,good,Commercial context - all related to buying,True
+calm,0.5644,"demeanor,temperament,attitude,personality",3,too_abstract,Personality traits but calming connection weak,False
+carpet,0.4926,"rug,upholstery,flooring,furniture",2,not_action,Carpet rarely used as verb,False
+carry,0.5739,"firearm,ammunition,weapon,gun",4,good,Weapons context - all can be carried,True
+carve,0.5666,"marble,wood,granite,stone",5,good,Perfect - all materials that are carved,True
+cast,0.4756,"turnout,voter,ballot,vote",4,good,Voting context - cast a vote/ballot,True
+chant,0.5817,"sung,hymn,melody,singing",4,good,Musical context - all vocal expressions,True
+chart,0.4569,"song,album,pop,rap",4,good,Music charts context - songs chart,True
+cheer,0.546,"tennis,gymnastics,basketball,athletics",4,good,Sports context - all have cheering,True
+cherish,0.5308,"affection,devotion,friendship,love",5,good,Perfect - all emotions/relationships to cherish,True
+choke,0.4562,"flange,throttle,valve,cylinder",3,too_abstract,Mechanical parts but choke connection unclear,False
+chop,0.6699,"pork,beef,meat,chicken",5,good,Perfect - all meats that are chopped,True
+chrome,0.5267,"grille,headlight,radiator,fender",2,not_action,Chrome rarely used as verb,False
+circulate,0.4731,"cooling,heating,heat,cool",4,good,HVAC context - air circulates for these purposes,True
+clap,0.4835,"applause,shout,chant,cheer",4,good,Audience responses - clapping fits well,True
+climb,0.5153,"mountain,slope,cliff,ridge",5,good,Perfect - all geographical features to climb,True
+clinch,0.5853,"title,victory,championship,win",5,good,Perfect sports context - all can be clinched,True
+clog,0.4704,"dancing,tap,dancer,dance",3,wrong_sense,Dance context but clog as verb doesn't fit,False
+clump,0.4899,"foliage,flowering,beech,flower",2,wrong_sense,These nouns relate to plants/trees but don't clearly suggest the action of clumping together,False
+coal,0.6015,"miner,mine,mining,ore",0,not_action,"Coal is a noun, not a verb - these nouns relate to coal mining but don't form a verb clue",False
+cocoon,0.6368,"larva,moth,wasp,insect",2,not_action,Cocoon as verb (to envelop/protect) is obscure; these nouns suggest the noun cocoon in insect development,False
+collect,0.4655,"rent,payment,fee,pay",4,good,"These are all things you collect/gather as payments, clear connection to the verb",True
+commemorate,0.5681,"plaque,monument,statue,memorial",5,good,Perfect - these are all things that commemorate people or events,True
+commend,0.4904,"diligence,courage,dedication,commitment",4,good,These are all qualities you would commend someone for having,True
+commit,0.6179,"burglary,robbery,arson,theft",5,good,Excellent - these are all crimes you commit,True
+commute,0.5007,"transportation,transit,ferry,bus",4,good,"These relate to commuting/traveling to work, though slightly indirect",True
+compete,0.5306,"athletics,tennis,sport,basketball",4,good,These are all areas where you compete,True
+complain,0.459,"discomfort,fatigue,pain,feeling",3,too_broad,These are things you might complain about but connection is somewhat weak,False
+compose,0.6735,"concerto,piano,orchestra,violin",4,good,"These relate to musical composition, though mix instruments and compositions",True
+compound,0.502,"chloride,sodium,nitrogen,potassium",3,too_abstract,"Chemical elements that form compounds, but connection to verb is technical",False
+compress,0.477,"piston,ignition,combustion,cylinder",3,too_abstract,"Engine parts where compression occurs, but connection is technical",False
+conceive,0.5266,"pregnancy,child,baby,birth",4,good,These all relate to conception and childbirth,True
+concentrate,0.5368,"zinc,ore,copper,mine",2,wrong_sense,These relate to mineral concentration (noun) not the verb meaning to focus,False
+concert,0.7373,"pianist,soloist,violinist,piano",0,not_action,Concert is primarily a noun; these relate to concert performances,False
+concur,0.4528,"judgment,verdict,opinion,ruling",3,too_abstract,"These are things you might concur with, but connection is somewhat abstract",False
+congratulate,0.4992,"accomplishment,victory,triumph,achievement",4,good,These are all things you congratulate someone for,True
+congregate,0.4782,"forage,feeding,breeding,feed",2,wrong_sense,These are animal behaviors but don't clearly suggest gathering together,False
+connect,0.6637,"expressway,freeway,parkway,highway",4,good,These are all roads that connect places,True
+conquer,0.5817,"galaxy,earth,planet,universe",3,too_broad,These are things that could be conquered but connection is quite abstract,False
+consult,0.5202,"counsel,lawyer,attorney,expert",4,good,These are all people you consult for advice,True
+consume,0.5041,"dietary,diet,eating,meal",4,good,These all relate to consuming food,True
+contain,0.5745,"vitamin,potassium,calcium,protein",3,too_abstract,"These are nutrients that foods contain, but connection is indirect",False
+contradict,0.5741,"assertion,assumption,notion,belief",4,good,These are all things you can contradict,True
+convey,0.5066,"impression,sense,feeling,feel",4,good,These are all things you can convey to others,True
+convince,0.4643,"let,telling,give,tell",2,too_broad,These verbs are too general and don't clearly relate to convincing,False
+cook,0.4747,"meal,dish,kitchen,dinner",4,good,These all relate to cooking food,True
+cop,0.4565,"detective,police,crime,murder",1,not_action,Cop as verb (to catch/steal) is obscure; these nouns suggest cop as noun (police officer),False
+corral,0.5391,"ranch,herd,cattle,livestock",4,good,These relate to corralling animals on a ranch,True
+corroborate,0.5487,"assertion,hypothesis,theory,argument",4,good,These are all things you can corroborate with evidence,True
+count,0.4748,"nobleman,nobility,castle,prince",1,wrong_sense,These relate to count as noun (nobleman) not the verb to count,False
+counterpoint,0.6236,"melody,sonata,violin,piano",2,not_action,Counterpoint is primarily a musical noun; these relate to music but not the verb,False
+crash,0.5777,"flight,plane,aircraft,aviation",4,good,These all relate to things that can crash in aviation,True
+crawl,0.5801,"swimmer,swimming,swim,pool",4,good,These relate to the crawl swimming stroke,True
+cream,0.5924,"dessert,chocolate,pastry,cake",2,wrong_sense,These contain cream but don't suggest the verb to cream (beat/defeat),False
+crush,0.589,"rebellion,revolt,uprising,rebel",4,good,These are all things that can be crushed (defeated),True
+cultivate,0.6449,"sorghum,wheat,barley,corn",5,good,Perfect - these are all crops you cultivate,True
+cure,0.6126,"tuberculosis,disease,virus,infection",5,good,Excellent - these are all things you cure medically,True
+damp,0.5671,"drier,moisture,wet,dry",2,not_action,Damp is primarily an adjective; these relate to dampness but not the verb,False
+debate,0.4605,"discussion,topic,forum,issue",3,too_broad,These are debate-related concepts but don't clearly indicate the action of debating,False
+decorate,0.4847,"facade,exterior,interior,dome",3,too_broad,Architectural elements that can be decorated but connection is not strong,False
+delegate,0.4903,"elector,nomination,nominee,candidate",2,wrong_sense,"These are political roles, not things you delegate to someone",False
+demonstrate,0.5023,"proficiency,mastery,competence,skill",4,good,Clear connection - these are things you demonstrate,True
+denounce,0.5164,"injustice,oppression,slavery,persecution",4,good,Strong connection - these are things commonly denounced,True
+deprive,0.4821,"liberty,sovereignty,constitutional,sovereign",3,too_abstract,"Abstract political concepts, connection to depriving is weak",False
+derive,0.5029,"meaning,verb,word,noun",4,good,Clear linguistic connection - you derive meaning from words,True
+destroy,0.5098,"humanity,planet,earth,universe",4,good,Clear connection - these are things that can be destroyed,True
+dice,0.4669,"roulette,gambling,poker,bet",3,too_broad,Gambling activities but dice is too specific for this broad category,False
+dig,0.4755,"dirt,sand,soil,mud",5,good,Perfect connection - these are materials you dig through,True
+dip,0.5294,"sauce,garlic,onion,cheese",3,too_broad,"Food ingredients, but dip connection is not clear enough",False
+disapprove,0.4994,"relationship,romance,marriage,friendship",3,too_broad,Relationship types but connection to disapproving is weak,False
+disarm,0.4514,"warhead,detonation,bomb,explosive",4,good,Clear connection - these are weapons/explosives you disarm,True
+discern,0.4572,"divine,evil,spiritual,god",3,too_abstract,"Abstract spiritual concepts, connection to discerning is weak",False
+discharge,0.6458,"effluent,wastewater,sewage,drainage",5,good,Perfect connection - these are all things that are discharged,True
+discourage,0.4633,"smoking,drinking,tobacco,alcohol",4,good,Clear connection - these are commonly discouraged behaviors/substances,True
+dispel,0.5768,"misconception,myth,notion,stereotype",5,good,Perfect connection - these are things you dispel,True
+dispense,0.4906,"prescription,medication,pharmacy,pharmaceutical",4,good,Clear medical connection - these relate to dispensing medication,True
+dispose,0.5671,"waste,garbage,trash,sewage",5,good,Perfect connection - these are things you dispose of,True
+disprove,0.6115,"hypothesis,myth,theory,notion",5,good,Perfect connection - these are things you can disprove,True
+disrupt,0.4791,"membrane,protein,cell,tissue",4,good,Biological structures that can be disrupted,True
+dissolve,0.454,"sodium,chloride,acid,calcium",4,good,Chemical substances that dissolve,True
+divorce,0.5784,"spouse,husband,married,wife",4,good,Clear connection to marriage relationships and divorce,True
+donate,0.5756,"marrow,kidney,transplant,liver",4,good,Clear connection - these are organs/tissues you can donate,True
+dress,0.5553,"attire,wear,clothing,clothes",4,good,Clear connection - these are clothing-related terms,True
+drive,0.566,"axle,car,truck,vehicle",4,good,Clear automotive connection - these relate to driving,True
+drizzle,0.6145,"downpour,rain,rainfall,snow",4,good,Clear weather connection - types of precipitation,True
+dump,0.6506,"garbage,rubbish,trash,waste",5,good,Perfect connection - these are things you dump,True
+dwell,0.4886,"heaven,god,hell,divine",3,too_abstract,"Abstract spiritual concepts, connection to dwelling is weak",False
+eat,0.6895,"meal,lunch,breakfast,dinner",5,good,Perfect connection - these are meals you eat,True
+eclipse,0.676,"filly,jockey,colt,horse",2,wrong_sense,Horse racing terms don't connect to astronomical eclipse,False
+enact,0.5591,"legislation,repeal,amendment,reform",4,good,Clear legislative connection - these are things you enact,True
+encourage,0.4555,"participation,cooperation,interaction,involvement",4,good,Clear connection - these are behaviors you encourage,True
+enforce,0.5542,"statute,legislation,law,amendment",4,good,Clear legal connection - these are things you enforce,True
+engage,0.5656,"conversation,dialogue,discussion,debate",4,good,Clear connection - these are communicative activities you engage in,True
+enhance,0.454,"understanding,learning,experience,knowledge",4,good,Clear connection - these are things you can enhance,True
+enlist,0.6246,"army,regiment,battalion,infantry",4,good,Clear military connection - these are military units you enlist in,True
+enrich,0.4849,"curriculum,classroom,academic,learning",4,good,Clear educational connection - these are things you can enrich,True
+enroll,0.5709,"semester,undergraduate,college,student",4,good,Clear educational connection - these relate to enrollment,True
+enslave,0.5676,"mankind,humanity,earth,planet",3,too_broad,"Very broad concepts, connection to enslaving is abstract",False
+excise,0.531,"whiskey,liquor,alcohol,beer",2,wrong_sense,"These are alcoholic beverages, but excise means to cut out/remove, not tax",False
+excite,0.551,"fluorescence,electron,spectroscopy,molecule",4,good,Scientific terms that can be excited (energized) in physics/chemistry,True
+exemplify,0.4937,"commitment,dedication,courage,determination",4,good,Abstract virtues that can be exemplified or demonstrated,True
+exhaust,0.5727,"nozzle,valve,piston,cylinder",3,wrong_sense,"Engine parts related to exhaust system, but verb means to tire out",False
+exhibit,0.5175,"gallery,museum,art,sculpture",5,good,Perfect connection - all places/things that exhibit art,True
+exonerate,0.4957,"manslaughter,murder,rape,crime",4,good,Serious crimes one can be exonerated from,True
+explode,0.5854,"detonation,explosion,bomb,blast",2,too_direct,Too direct - explosion is literally the noun form of explode,False
+exploit,0.4705,"mineral,ore,coal,copper",4,good,Natural resources that can be exploited/extracted,True
+export,0.5691,"wheat,crop,cotton,grain",5,good,Agricultural products commonly exported,True
+express,0.6147,"train,locomotive,rail,railway",3,wrong_sense,Railway terms but express as verb means to communicate,False
+exterminate,0.5778,"humanity,mankind,planet,civilization",1,sensitive,Extremely dark/sensitive content about genocide,False
+facilitate,0.4975,"cooperation,interaction,dialogue,collaboration",5,good,Perfect - all things that can be facilitated,True
+farm,0.6297,"dairy,livestock,cattle,sheep",5,good,Animals and products that are farmed,True
+fear,0.5252,"loathing,anxiety,anger,hatred",3,too_broad,Negative emotions but not all are fears,False
+feel,0.5671,"like,think,want,know",2,too_broad,"Too broad - mental states/verbs, not specific to feeling",False
+fiddle,0.7455,"guitar,violin,saxophone,piano",3,wrong_sense,"Musical instruments but fiddle means to tinker, not play music",False
+filter,0.4839,"frequency,modulation,wavelength,amplitude",4,good,Signal processing terms that can be filtered,True
+finger,0.4993,"thumb,toe,wrist,tendon",2,wrong_sense,Body parts but finger as verb means to touch/identify,False
+flex,0.4642,"elbow,thumb,boot,knee",3,good,"Body parts that can flex, though boot is odd",False
+fling,0.5124,"affair,romance,relationship,friendship",3,wrong_sense,Romantic relationships but fling as verb means to throw,False
+flour,0.5501,"dough,butter,bread,pastry",2,not_action,"Flour is primarily a noun, not a common verb",False
+fly,0.7559,"airplane,aircraft,plane,jet",5,good,Perfect - all things that fly,True
+forecast,0.5223,"weather,storm,rain,rainfall",5,good,Weather phenomena that are forecasted,True
+foresee,0.519,"possibility,danger,risk,threat",4,good,Future events/outcomes that can be foreseen,True
+formalize,0.5706,"notion,reasoning,logic,theory",4,good,Abstract concepts that can be formalized,True
+formulate,0.5638,"hypothesis,theory,theorem,notion",5,good,Perfect - all things that are formulated,True
+fort,0.5257,"garrison,infantry,battalion,colonel",1,not_action,"Fort is primarily a noun, not a verb",False
+founder,0.472,"chairman,director,editor,president",2,wrong_sense,Leadership roles but founder as verb means to fail/sink,False
+fracture,0.7148,"forearm,ankle,wrist,elbow",5,good,Perfect - body parts that can be fractured,True
+freeze,0.4727,"frost,cold,snow,winter",3,too_broad,Cold weather terms but not all can freeze,False
+fuel,0.4909,"gallon,gasoline,pump,oil",3,wrong_sense,Fuel-related items but fuel as verb means to power/energize,False
+fulfill,0.4792,"ambition,commitment,desire,vision",5,good,Perfect - all things that can be fulfilled,True
+fume,0.466,"silica,zinc,oxide,silicon",2,wrong_sense,Chemical compounds but fume means to be angry,False
+fund,0.5246,"investor,equity,investment,asset",4,good,Financial terms related to funding,True
+gag,0.5312,"joke,parody,funny,humor",3,wrong_sense,Comedy terms but gag as verb means to choke/silence,False
+gallop,0.568,"jockey,horse,colt,rider",4,good,"Horse-related terms, horses gallop",True
+gauge,0.6342,"locomotive,railway,rail,railroad",3,wrong_sense,Railway terms but gauge as verb means to measure,False
+generalize,0.4778,"scalar,theorem,integer,polynomial",3,too_abstract,Mathematical concepts that can be generalized but very abstract,False
+glaze,0.5373,"bisque,porcelain,pottery,ceramic",5,good,Perfect - ceramic items that are glazed,True
+glorify,0.4918,"god,heaven,divine,holy",4,good,Religious concepts that are glorified,True
+glue,0.5186,"adhesive,epoxy,varnish,resin",2,wrong_sense,"These are materials/substances, not things you glue together",False
+graduate,0.6311,"undergraduate,student,faculty,university",3,too_broad,Academic context but doesn't clearly point to the action of graduating,False
+graph,0.4598,"vertex,polynomial,invariant,integer",2,too_abstract,Mathematical concepts too abstract for general puzzle audience,False
+grass,0.4871,"forage,grazing,hay,vegetation",1,not_action,"Grass is a noun, not an action verb",False
+grate,0.6034,"boiler,heater,furnace,stove",2,wrong_sense,These have grates but aren't things you grate,False
+gravel,0.5153,"sand,asphalt,dirt,mud",1,not_action,"Gravel is a noun, not an action verb",False
+greet,0.488,"hug,hello,kiss,smile",4,good,Clear ways to greet someone,True
+grind,0.6045,"flour,corn,grain,wheat",4,good,Things commonly ground into flour or meal,True
+grow,0.5789,"corn,wheat,crop,cotton",5,good,Perfect - things farmers grow,True
+guess,0.5767,"sort,know,think,kind",2,too_abstract,"Vague mental concepts, unclear connection to guessing",False
+hail,0.503,"rain,snow,storm,flooding",2,wrong_sense,"Weather phenomena, not things you hail (call/summon)",False
+handle,0.4789,"cargo,terminal,freight,passenger",3,too_broad,Transportation context but connection to handling is weak,False
+harness,0.4629,"racetrack,racing,saddle,horse",3,too_broad,Horse racing context but doesn't clearly point to harnessing,False
+hasten,0.4964,"downfall,demise,departure,collapse",3,too_abstract,Abstract concepts that can be hastened but unclear,False
+hatch,0.451,"brood,feed,feeding,fed",2,wrong_sense,Bird care activities but not specifically about hatching,False
+heal,0.4984,"sickness,illness,infection,injury",4,good,Things that need healing,True
+hear,0.5356,"say,feel,tell,think",2,too_abstract,"Mental/communication verbs, weak connection to hearing",False
+hit,0.4827,"inning,homer,pitcher,pitch",4,good,Baseball terms related to hitting,True
+hop,0.4796,"rap,artist,musician,music",2,wrong_sense,"Hip-hop music context, not the action of hopping",False
+hover,0.4859,"takeoff,fly,flight,jet",3,too_broad,Aviation context but doesn't specifically indicate hovering,False
+howl,0.5237,"wail,roar,scream,cry",5,good,Perfect - different types of vocal expressions/sounds,True
+hue,0.555,"magenta,purple,crimson,yellow",1,not_action,"Hue is a noun (colors), not an action verb",False
+hunger,0.5421,"malnutrition,starvation,famine,poverty",1,not_action,"Hunger is typically a noun, not an action verb",False
+hymn,0.517,"sung,melody,verse,poem",1,not_action,"Hymn is a noun, not an action verb",False
+impart,0.5479,"aroma,flavor,taste,texture",4,good,Sensory qualities that can be imparted,True
+impose,0.5442,"sentence,penalty,punishment,imprisonment",5,good,Perfect - legal penalties that are imposed,True
+improvise,0.6179,"cadenza,melody,violin,piano",3,too_abstract,Musical context but cadenza is obscure for general audience,False
+indulge,0.4964,"passion,lust,fascination,desire",4,good,Emotions/desires one can indulge in,True
+inherit,0.7266,"uncle,grandfather,aunt,cousin",4,good,Family members you inherit from,True
+inhibit,0.57,"protease,secretion,enzyme,metabolism",2,too_abstract,Biological processes too technical for general puzzle,False
+ink,0.5736,"toner,printer,printing,print",2,wrong_sense,"Printing supplies, not things you ink",False
+institute,0.5496,"biology,economics,science,mathematics",2,wrong_sense,"Academic subjects, not things you institute",False
+intern,0.5294,"hospital,surgeon,physician,medical",3,too_broad,Medical context but doesn't clearly point to interning,False
+invalidate,0.5312,"statute,provision,legislation,amendment",4,good,Legal documents that can be invalidated,True
+invite,0.5835,"dinner,feast,meal,lunch",5,good,Perfect - events you invite people to,True
+invoke,0.6137,"deity,divine,goddess,god",4,good,Divine beings commonly invoked,True
+isolate,0.5006,"bacteria,organism,protein,tissue",4,good,Biological specimens that are isolated in labs,True
+jam,0.7417,"drummer,vocalist,guitarist,band",5,good,Perfect - musicians who jam together,True
+jaw,0.5225,"teeth,tooth,bone,skull",1,not_action,"Jaw is a noun, not an action verb",False
+jockey,0.59,"filly,colt,horse,stud",3,too_broad,Horse types but connection to jockeying is indirect,False
+journey,0.4953,"voyage,trip,adventure,expedition",2,not_action,"These are all nouns for types of journeys, not things you journey to/through",False
+judge,0.5141,"court,magistrate,prosecutor,attorney",3,too_broad,Legal professionals/settings but doesn't clearly indicate the act of judging,False
+know,0.5384,"think,want,going,feel",2,too_abstract,Mental states but connection to 'know' is unclear and abstract,False
+knuckle,0.5036,"fingertip,finger,thumb,elbow",2,not_action,"Body parts, but knuckle as verb (knuckle down/under) not clearly indicated",False
+label,0.5274,"punk,jazz,band,music",4,good,Music genres/terms that you would label or categorize,True
+lace,0.5798,"satin,linen,silk,velvet",3,too_broad,"Fabrics, but lacing connection is not clear",False
+laminate,0.59,"epoxy,resin,adhesive,polymer",4,good,Materials used in laminating processes,True
+lard,0.5462,"pork,pig,beef,hog",3,too_broad,Meat/animal terms but larding as cooking technique not clearly indicated,False
+launch,0.5355,"orbit,rocket,spacecraft,missile",5,good,Things that are launched into space/air,True
+lean,0.495,"pork,beef,fat,meat",3,wrong_sense,"Meat types, but lean as adjective not verb",False
+lease,0.5455,"rent,tenant,landlord,rental",4,good,Rental/leasing related terms,True
+lengthen,0.4611,"tendon,limb,muscle,bone",3,too_broad,Body parts but lengthening connection is weak,False
+lessen,0.5273,"likelihood,risk,danger,threat",4,good,Things you would want to lessen or reduce,True
+let,0.5032,"know,lie,tell,say",3,too_abstract,Communication verbs but 'let' connection is unclear,False
+listen,0.5395,"think,say,tell,telling",2,wrong_sense,"Speaking/thinking verbs, opposite of listening",False
+loom,0.5442,"cloth,fabric,embroidery,silk",4,good,Textile materials made on looms,True
+lunch,0.5782,"dinner,breakfast,meal,snack",2,not_action,"Meal types, but lunch as verb (to lunch) is weak",False
+manufacture,0.5043,"cloth,leather,silk,cotton",4,good,Materials that are manufactured,True
+marry,0.7546,"niece,cousin,daughter,aunt",1,sensitive,"Family relations, inappropriate marriage implications",False
+marshal,0.5348,"commander,officer,chief,deputy",3,too_broad,Authority figures but marshaling as action unclear,False
+marvel,0.4787,"comic,storyline,villain,character",2,too_direct,"Marvel Comics references, too direct",False
+massage,0.4558,"therapist,therapy,therapeutic,stimulation",4,good,Massage therapy related terms,True
+mature,0.4645,"fruit,tree,leaf,flower",4,good,Plant parts that mature/ripen,True
+maximize,0.4508,"efficiency,productivity,utilization,effectiveness",5,good,Business metrics you want to maximize,True
+melt,0.5794,"viscosity,polymer,adhesive,coating",3,too_abstract,Material properties but melting connection unclear,False
+mist,0.5261,"fog,rain,snow,wet",2,not_action,"Weather phenomena, mist as verb is weak",False
+mix,0.48,"pop,rap,punk,rock",4,good,Music genres that DJs mix,True
+mourn,0.5224,"grief,sadness,tragedy,joy",3,too_broad,"Emotions, but joy doesn't fit mourning",False
+multiply,0.4802,"integer,decimal,scalar,polynomial",4,good,Mathematical terms you can multiply,True
+murder,0.5602,"parole,conviction,imprisonment,sentence",3,sensitive,Legal consequences but murder is sensitive topic,False
+negotiate,0.5413,"agreement,lease,deal,contract",5,good,Legal documents you negotiate,True
+nurse,0.6345,"practitioner,physician,surgeon,doctor",2,not_action,"Medical professionals, nurse as verb unclear",False
+nurture,0.4877,"creativity,innovation,excellence,passion",4,good,Qualities/traits you nurture and develop,True
+obtain,0.5386,"permit,permission,consent,approval",5,good,Official authorizations you obtain,True
+offend,0.568,"decency,morality,conscience,moral",4,good,Values/principles you can offend against,True
+operate,0.4976,"bus,ferry,rail,transit",4,good,Transportation systems you operate,True
+oppose,0.6623,"legislation,amendment,bill,proposal",5,good,Political measures you can oppose,True
+ordain,0.6975,"clergy,priest,bishop,archbishop",4,good,Religious positions that are ordained,True
+oust,0.4719,"dictator,junta,coup,regime",4,good,Political entities that get ousted,True
+outnumber,0.4526,"men,male,female,adult",3,too_broad,Demographic groups but outnumbering relationship unclear,False
+overhang,0.4715,"porch,balcony,chimney,roof",3,too_broad,architectural features that can overhang but connection is weak,False
+overload,0.4746,"hypertrophy,ventricle,edema,liver",2,wrong_sense,medical terms don't clearly connect to overload as action,False
+overrun,0.5813,"platoon,infantry,artillery,battalion",3,too_broad,military units but overrun connection unclear,False
+pacify,0.6756,"revolt,rebellion,unrest,uprising",5,good,clear set of disturbances that need pacifying,True
+paint,0.5019,"varnish,acrylic,pigment,coating",4,good,painting materials and substances,True
+pass,0.4717,"touchdown,receiver,quarterback,offense",4,good,football terms related to passing,True
+pay,0.4791,"compensation,salary,wage,pension",5,good,clear forms of payment,True
+pelt,0.4735,"beaver,wolf,tiger,lion",4,good,animals whose pelts are known,True
+perish,0.5276,"everlasting,heaven,god,divine",2,wrong_sense,eternal concepts opposite of perishing,False
+perpetuate,0.5117,"oppression,injustice,slavery,discrimination",4,good,social problems that get perpetuated,True
+photograph,0.4978,"portrait,picture,depicting,painting",3,too_broad,visual art forms but not all photographed,False
+pitch,0.4986,"batter,inning,catcher,bat",4,good,baseball terms related to pitching,True
+plank,0.5152,"flooring,wood,lumber,oak",3,too_broad,wood materials but planking connection weak,False
+plant,0.5478,"shrub,flowering,leaf,flower",3,too_broad,plant parts/types but not things you plant,False
+plaster,0.5598,"drywall,stucco,flooring,tile",3,too_broad,building materials but not all plastered,False
+plead,0.5846,"probation,sentence,parole,jail",4,good,legal consequences you might plead for/against,True
+please,0.6098,"see,tell,know,say",2,wrong_sense,verbs that follow please but not what please means,False
+plumb,0.5088,"ellipsoid,perpendicular,vertical,horizontal",3,too_abstract,geometric concepts related to plumb but abstract,False
+plunge,0.4855,"dip,slide,dive,drop",4,good,downward movements similar to plunging,True
+poison,0.4665,"kill,dying,killing,die",2,wrong_sense,effects of poison but not things you poison,False
+pop,0.5942,"ballad,song,album,vocalist",3,too_broad,music terms but pop is just one genre,False
+port,0.5366,"container,cargo,shipping,freight",3,too_broad,shipping terms but not things you port,False
+portray,0.4784,"villain,character,storyline,hero",4,good,character types that actors portray,True
+pose,0.7227,"ankle,knee,shoulder,hip",2,wrong_sense,body parts but not things you pose,False
+postulate,0.455,"relativity,thermodynamics,theorem,entropy",4,good,scientific concepts that are postulated,True
+pour,0.4537,"drink,bottle,wine,glass",4,good,liquids and containers for pouring,True
+pray,0.5421,"god,salvation,divine,heaven",4,good,religious concepts related to prayer,True
+preach,0.6221,"pastor,congregation,clergy,church",5,good,clear religious context for preaching,True
+precede,0.6163,"noun,verb,adjective,phrase",3,too_abstract,grammar terms but precedence unclear,False
+predict,0.4621,"likelihood,probability,estimate,risk",4,good,statistical concepts used in prediction,True
+prejudice,0.5988,"bigotry,intolerance,hatred,ignorance",3,not_action,forms of prejudice but prejudice not clearly an action,False
+prescribe,0.5293,"patient,practitioner,nurse,physician",4,good,medical professionals who prescribe,True
+preserve,0.5507,"wildlife,conservation,habitat,forest",4,good,environmental things that need preserving,True
+press,0.5563,"publishing,publisher,editor,publication",4,good,printing press and publishing industry,True
+proclaim,0.4539,"independence,sovereign,liberty,sovereignty",4,good,political concepts that are proclaimed,True
+profess,0.54,"faith,religion,morality,religious",4,good,beliefs and values that are professed,True
+promote,0.4782,"equality,unity,democracy,peace",4,good,ideals that are promoted,True
+pronounce,0.53,"syllable,vowel,consonant,alphabet",4,good,speech elements involved in pronunciation,True
+propel,0.4924,"spacecraft,propulsion,rocket,orbit",4,good,space technology involving propulsion,True
+provoke,0.5373,"jealousy,outrage,hatred,anger",5,good,clear emotions that can be provoked,True
+publish,0.534,"periodical,publication,journal,magazine",2,wrong_sense,"These are things that are published, not the action of publishing",False
+pump,0.5832,"piston,nozzle,valve,rotor",3,too_abstract,Mechanical parts related to pumping but connection is indirect,False
+purify,0.4754,"chromatography,antibody,protein,enzyme",2,too_abstract,Scientific terms loosely related to purification processes,False
+putt,0.6494,"birdie,bogey,par,fairway",4,good,Golf scoring terms clearly related to putting context,True
+pyramid,0.4651,"tomb,burial,temple,monument",2,wrong_sense,These are structures but pyramid as verb means to build up/accumulate,False
+qualify,0.4924,"tournament,round,playoff,championship",4,good,Sports contexts where one qualifies for events,True
+raft,0.4945,"canoe,sail,boat,voyage",3,too_broad,Water transportation terms but raft as verb is less clear,False
+raid,0.5425,"bombing,bomber,bomb,attack",4,good,Military attack terms that clearly relate to raiding,True
+rail,0.5809,"freight,transit,transport,transportation",2,wrong_sense,Transportation terms but rail as verb means to complain/criticize,False
+railroad,0.5277,"depot,locomotive,railway,train",2,wrong_sense,Train-related nouns but railroad as verb means to rush/force through,False
+ramp,0.5952,"freeway,parkway,turnpike,expressway",2,wrong_sense,Road types but ramp as verb means to increase/escalate,False
+rat,0.5725,"rodent,snake,toad,rabbit",2,wrong_sense,Small animals but rat as verb means to inform/betray,False
+react,0.5683,"chloride,sodium,potassium,calcium",4,good,Chemical elements that react with each other,True
+read,0.4631,"script,poem,poetry,book",5,good,Clear examples of things you read,True
+reaffirm,0.4581,"commitment,faith,determination,belief",5,good,Abstract concepts commonly reaffirmed,True
+reap,0.5445,"harvest,corn,wheat,rice",4,good,Agricultural context where crops are reaped,True
+rebuild,0.4977,"temple,castle,cathedral,palace",5,good,Large structures that can be rebuilt,True
+rebut,0.4966,"defendant,testimony,prosecution,witness",4,good,Legal terms related to rebutting arguments,True
+recite,0.5841,"poem,verse,poetry,hymn",5,good,Literary forms commonly recited,True
+reckon,0.5466,"think,know,say,going",2,too_abstract,"Vague mental verbs, unclear connection to reckon",False
+recoil,0.7268,"firearm,pistol,gun,rifle",5,good,Weapons that physically recoil when fired,True
+reconcile,0.4911,"faith,theology,doctrine,religion",3,too_abstract,Religious concepts but connection to reconciling is indirect,False
+recount,0.5654,"ballot,voter,election,vote",5,good,Election terms where votes are recounted,True
+recruit,0.5697,"platoon,battalion,sergeant,regiment",4,good,Military units that recruit soldiers,True
+recur,0.4532,"tumor,kidney,infection,disease",4,good,Medical conditions that can recur,True
+refine,0.4569,"technique,concept,method,approach",5,good,Abstract things commonly refined or improved,True
+reform,0.4503,"conservative,party,progressive,liberal",3,too_broad,Political terms but connection to reform is indirect,False
+refrain,0.661,"verse,melody,lyric,song",2,wrong_sense,Musical terms but refrain as verb means to abstain,False
+regiment,0.6006,"infantry,battalion,platoon,army",2,wrong_sense,Military units but regiment as verb means to organize strictly,False
+regret,0.5384,"feeling,feel,thing,think",2,too_abstract,"Vague emotional terms, too general",False
+regulate,0.5495,"secretion,metabolism,calcium,protein",4,good,Biological processes that are regulated,True
+reinforce,0.6641,"platoon,battalion,infantry,regiment",4,good,Military units that can be reinforced,True
+reject,0.5973,"notion,hypothesis,idea,theory",5,good,Abstract concepts commonly rejected,True
+relieve,0.5631,"discomfort,pain,stress,anxiety",5,good,Physical and emotional states that are relieved,True
+remember,0.5533,"thinking,know,thing,think",2,too_abstract,"Vague mental terms, too general",False
+remove,0.4541,"tumor,tissue,bone,skin",4,good,Body parts/growths that can be surgically removed,True
+rent,0.5655,"landlord,tenancy,tenant,lease",5,good,Rental property terms clearly related to renting,True
+repay,0.5876,"borrower,mortgage,loan,lending",5,good,Financial terms related to repaying debt,True
+repel,0.4603,"invasion,attack,assault,raid",5,good,Military actions that are repelled,True
+repent,0.4997,"savior,salvation,god,heaven",4,good,Religious concepts related to repentance,True
+reproduce,0.4558,"offspring,mating,breeding,nest",4,good,Clear biological reproduction theme,True
+require,0.4863,"visa,passport,permit,license",5,good,Perfect - all documents that are required,True
+rescue,0.545,"lifeboat,boat,submarine,vessel",3,too_broad,"Too focused on water vessels, not rescue action",False
+resolve,0.4726,"impasse,dispute,conflict,crisis",5,good,Excellent - all situations that need resolving,True
+retail,0.5945,"grocery,supermarket,store,pharmacy",4,good,Good retail establishments theme,True
+revolt,0.6116,"insurrection,uprising,rebellion,revolution",5,good,Perfect synonyms for revolt,True
+ride,0.4654,"bicycle,bus,train,truck",5,good,Clear vehicles you can ride,True
+rifle,0.6486,"pistol,shotgun,firearm,revolver",2,wrong_sense,"Rifle as noun, not verb meaning to search",False
+roam,0.668,"herd,livestock,sheep,cattle",4,good,Animals that roam in groups,True
+roar,0.4645,"lion,beast,tiger,creature",4,good,Animals that roar,True
+rob,0.6521,"drummer,bass,guitarist,guitar",1,wrong_sense,"Musical instruments, unclear connection to rob",False
+rotate,0.5156,"spindle,rotor,axle,cylinder",5,good,Perfect - all rotating mechanical parts,True
+roughcast,0.5474,"stucco,masonry,brick,stone",3,obscure,Obscure construction term,False
+rouse,0.6682,"concerto,symphony,composer,orchestra",2,wrong_sense,Musical terms don't clearly connect to rouse,False
+sail,0.6627,"yacht,boat,vessel,ship",5,good,Perfect - all things that sail,True
+salute,0.4591,"parade,tribute,celebration,ceremony",3,too_broad,"Events where saluting might occur, but indirect",False
+sandwich,0.5952,"mayonnaise,salad,bacon,sauce",2,wrong_sense,"Food items, not sandwich as verb",False
+satisfy,0.4761,"thirst,curiosity,appetite,desire",5,good,Perfect - all things that can be satisfied,True
+sauce,0.6002,"garlic,tomato,onion,pepper",1,not_action,Sauce is not typically used as a verb,False
+say,0.5711,"think,want,thing,know",2,too_abstract,Too abstract and vague connection,False
+scalp,0.4541,"hair,forehead,skin,skull",2,wrong_sense,"Body parts, not scalp as verb",False
+scan,0.4629,"biopsy,diagnosis,tumor,patient",3,too_broad,Medical context but indirect connection,False
+scarf,0.5542,"jacket,wear,dress,wearing",1,wrong_sense,"Clothing items, not scarf as verb",False
+scatter,0.4828,"diffraction,wavelength,detector,electron",3,too_abstract,"Physics terms, too technical",False
+scour,0.4574,"sediment,gravel,vegetation,sand",3,too_abstract,"Geological materials, indirect connection",False
+scrape,0.4955,"vegetation,forage,shrub,grass",2,too_broad,"Plant materials, weak connection to scrape",False
+scrub,0.5644,"shrub,oak,pine,beech",2,wrong_sense,"Trees/plants, not scrub as cleaning verb",False
+secede,0.453,"secession,sovereignty,sovereign,independence",4,good,Political concepts related to seceding,True
+sediment,0.4803,"gravel,sand,debris,mud",1,not_action,Sediment not typically used as verb,False
+seed,0.4608,"planting,crop,flowering,corn",4,good,Agricultural activities involving seeding,True
+sell,0.5486,"buyer,buy,sale,purchase",4,good,Commerce-related terms,True
+sew,0.5596,"garment,clothes,clothing,dress",4,good,Items that are sewn,True
+shame,0.4879,"humiliation,embarrassment,disgrace,anger",3,too_abstract,"Emotions, but shame as verb is less clear",False
+shave,0.595,"haircut,mustache,beard,hair",4,good,Hair-related items that can be shaved,True
+shine,0.4506,"gospel,song,sung,album",2,wrong_sense,"Musical terms, unclear connection to shine",False
+ship,0.5673,"vessel,sail,voyage,sailing",3,wrong_sense,"Maritime terms, but ship as noun not verb",False
+shipwreck,0.5318,"schooner,vessel,voyage,sailing",2,wrong_sense,"Maritime terms, but shipwreck rarely used as verb",False
+shoot,0.6303,"bullet,pistol,gun,rifle",5,good,Perfect - weapons used to shoot,True
+shop,0.5496,"bakery,cafe,store,restaurant",4,good,Places where you shop,True
+shore,0.5254,"lake,inlet,pond,reservoir",2,wrong_sense,"Water bodies, but shore as verb is obscure",False
+sing,0.5977,"hymn,song,melody,verse",5,good,All four nouns are things you sing - clear and natural,True
+sink,0.6103,"warship,submarine,destroyer,ship",4,good,"All are vessels that can sink, though submarine is designed to",True
+sit,0.5099,"wait,watch,watching,waiting",2,wrong_sense,"These are activities you might do while sitting, not things you sit on/in",False
+slant,0.5074,"ballad,pop,song,album",1,wrong_sense,Music genres/forms don't clearly connect to slanting,False
+sluice,0.5464,"weir,dam,reservoir,waterway",3,too_abstract,Water control structures but sluice as verb is less clear,False
+smelt,0.6129,"eel,salmon,fish,shrimp",2,wrong_sense,"These are sea creatures, not metals you smelt",False
+sniff,0.4765,"scent,odor,smell,mouth",3,too_direct,"Three are things you sniff, mouth doesn't fit well",False
+solve,0.4833,"puzzle,problem,riddle,mystery",5,good,All four are things you solve - perfect connection,True
+sonnet,0.5577,"quatrain,poet,poem,verse",1,not_action,"Sonnet is a noun, not a verb action",False
+soothe,0.5007,"irritation,pain,anger,anxiety",4,good,All are negative states you can soothe,True
+sow,0.5707,"dissension,mistrust,distrust,hatred",4,good,All are negative things you can sow (spread),True
+spat,0.453,"spitting,chewing,spit,mouth",2,too_direct,"Too directly related to spitting, not the argument meaning",False
+speak,0.4761,"dialect,language,accent,tongue",4,good,All relate to ways of speaking,True
+specify,0.4895,"minimum,maximum,requirement,limit",4,good,All are things you specify or set precisely,True
+spend,0.6653,"night,weekend,evening,afternoon",5,good,All are time periods you spend,True
+spin,0.5624,"electron,particle,proton,spectroscopy",2,too_abstract,Physics concept of spin is too technical,False
+splinter,0.4673,"liberation,communist,socialist,nationalist",2,too_abstract,Political movements that can splinter but connection is weak,False
+spoil,0.5111,"quarry,mining,coal,mine",2,wrong_sense,Mining terms but spoil meaning is unclear,False
+sponge,0.5216,"cake,pastry,dough,chocolate",3,too_abstract,Sponge cake connection but verb usage unclear,False
+squall,0.4869,"wind,weather,rainfall,rain",1,not_action,Squall is primarily a noun (storm type),False
+stabilize,0.5381,"substrate,molecule,electron,protein",3,too_abstract,Scientific terms that can be stabilized but too technical,False
+stag,0.4889,"deer,hunting,rabbit,wolf",1,not_action,Stag is primarily a noun (male deer),False
+steam,0.5377,"piston,engine,valve,cylinder",3,too_abstract,Engine parts but steam as verb connection unclear,False
+steer,0.4949,"axle,brake,tire,wheel",3,too_abstract,Car parts related to steering but indirect,False
+stick,0.4711,"blade,knife,weapon,sword",2,wrong_sense,Sharp objects that can stick into things but weak connection,False
+stimulate,0.5245,"secretion,hormone,insulin,metabolism",4,good,All are biological processes you can stimulate,True
+stink,0.6099,"pest,insect,wasp,ant",2,wrong_sense,Insects that might stink but connection is weak,False
+stir,0.5396,"sauce,soup,dish,cooking",4,good,All are things you stir while cooking,True
+straighten,0.6441,"wrist,elbow,knee,leg",5,good,All are body parts you can straighten,True
+stray,0.7454,"kitten,dog,cat,puppy",5,good,All are animals that can stray or be strays,True
+stretch,0.6894,"roadway,freeway,highway,expressway",4,good,All are roads that stretch across distances,True
+struggle,0.5004,"liberation,equality,freedom,democracy",4,good,All are ideals people struggle for,True
+stucco,0.5178,"gable,exterior,facade,roof",3,too_abstract,Building parts you can stucco but verb usage uncommon,False
+suck,0.4508,"juice,nectar,milk,honey",4,good,All are liquids you can suck,True
+suffer,0.5087,"anxiety,pain,stress,depression",5,good,All are conditions you suffer from,True
+summon,0.5779,"demon,creature,beast,monster",4,good,All are supernatural beings you can summon,True
+supply,0.5236,"irrigation,reservoir,water,dam",4,good,All relate to water supply systems,True
+suppose,0.4712,"polynomial,integer,parameter,vertex",3,too_abstract,Math terms you might suppose in proofs but too technical,False
+suppress,0.7449,"rebellion,insurrection,revolt,uprising",5,good,All are uprisings that can be suppressed,True
+surge,0.5875,"flooding,hurricane,storm,flood",4,good,All are weather events that can surge,True
+suspect,0.5164,"murder,murderer,killer,crime",4,good,Clear connection - you suspect people of crimes,True
+swallow,0.5924,"goose,owl,bird,falcon",2,wrong_sense,"Swallow as bird type, not the verb action",False
+swan,0.5362,"lake,river,pond,hill",1,not_action,"Swan is a noun, not a verb",False
+swirl,0.5163,"piston,cylinder,torque,valve",2,too_abstract,Engine parts don't clearly suggest swirling motion,False
+tailor,0.5329,"garment,clothes,clothing,cloth",4,good,Clear connection - you tailor clothing items,True
+talk,0.5693,"programming,radio,broadcasting,broadcast",3,too_broad,Broadcasting context but connection to talk is loose,False
+tally,0.4868,"ballot,counting,voting,vote",4,good,Clear connection - you tally votes,True
+tame,0.5625,"pet,bird,animal,cat",4,good,Clear connection - you tame animals,True
+tap,0.6703,"dancer,dancing,dance,ballet",5,good,Perfect - tap dancing is a clear connection,True
+taxi,0.5646,"jet,airline,aircraft,aviation",3,too_abstract,Aircraft taxi on runways but connection is technical,False
+teach,0.5614,"curriculum,classroom,mathematics,math",4,good,Clear connection - you teach subjects in classrooms,True
+tear,0.5483,"tendon,knee,shoulder,surgery",4,good,Clear connection - you can tear body parts,True
+telescope,0.587,"interferometer,infrared,spectrometer,spectroscopy",1,not_action,"Telescope is primarily a noun, not a verb",False
+tell,0.4569,"want,know,wrong,going",2,too_abstract,"Abstract concepts, unclear connection to telling",False
+tempt,0.4689,"sin,devil,god,evil",4,good,Clear connection - devils tempt with sin,True
+tense,0.5868,"verb,vowel,noun,syllable",2,wrong_sense,"Grammar tense, not the verb meaning tight/anxious",False
+testify,0.5404,"prosecution,jury,trial,defendant",5,good,Perfect - you testify in legal proceedings,True
+think,0.5344,"lot,bit,sort,kind",2,too_abstract,"Vague words, unclear connection to thinking",False
+throttle,0.4929,"pedal,accelerator,brake,steering",4,good,Clear connection - you throttle with car controls,True
+thrust,0.545,"rotor,propeller,compressor,turbine",3,too_abstract,Engine parts create thrust but connection is technical,False
+tip,0.5156,"jaw,thumb,finger,nose",3,wrong_sense,Body parts have tips but verb sense unclear,False
+tolerate,0.5162,"humidity,moisture,dry,wet",3,too_broad,You can tolerate weather conditions but weak,False
+toss,0.4654,"bat,batting,pitch,ball",4,good,Clear connection - you toss balls in baseball,True
+trace,0.47,"lineage,ancestry,descent,origin",4,good,Clear connection - you trace family lineage,True
+trail,0.4724,"hiking,campground,wilderness,camping",2,wrong_sense,"Trail as noun (hiking path), not verb",False
+train,0.5556,"locomotive,freight,rail,railway",2,wrong_sense,"Train as noun (locomotive), not verb",False
+transit,0.5431,"streetcar,subway,trolley,rail",2,wrong_sense,"Transit as noun (transportation), not verb",False
+translate,0.4778,"vernacular,language,word,phrase",4,good,Clear connection - you translate languages and words,True
+transplant,0.5742,"marrow,kidney,liver,lung",5,good,Perfect - you transplant organs,True
+travel,0.4554,"destination,journey,trip,adventure",4,good,Clear connection - travel involves journeys and trips,True
+treat,0.6047,"malaria,tuberculosis,disease,infection",5,good,Perfect - you treat diseases medically,True
+tree,0.5294,"shrub,elm,pine,oak",1,not_action,"Tree is a noun, not a verb",False
+trim,0.5219,"grille,chrome,sedan,coupe",3,wrong_sense,"Car trim as decoration, not the verb action",False
+trumpet,0.7609,"sax,saxophone,piano,guitar",2,wrong_sense,"Trumpet as noun (instrument), not verb",False
+tug,0.6571,"vessel,schooner,boat,ship",3,wrong_sense,Tugboat context but verb connection unclear,False
+tutor,0.5425,"teach,instructor,teacher,teaching",1,too_direct,Too direct - teach and tutor are synonyms,False
+uncover,0.5098,"murderer,disappearance,killer,murder",4,good,Clear connection - you uncover crimes and criminals,True
+underestimate,0.4949,"prevalence,incidence,risk,probability",4,good,Clear connection - you can underestimate statistical measures,True
+undermine,0.4792,"morality,moral,doctrine,constitutional",4,good,Clear connection - you can undermine principles,True
+undertake,0.5128,"pilgrimage,journey,voyage,expedition",5,good,Perfect - you undertake journeys and expeditions,True
+underwrite,0.5318,"lending,mortgage,debt,loan",4,good,Financial terms that underwriters evaluate and guarantee,True
+unload,0.4941,"cargo,shipment,container,freight",5,good,Perfect shipping/transport items that are unloaded,True
+uphold,0.5484,"democracy,constitution,sovereignty,constitutional",4,good,Political/legal concepts that are upheld or defended,True
+utter,0.6007,"astonishment,disbelief,disdain,dismay",4,good,Emotions/reactions that can be uttered or expressed,True
+vary,0.4974,"size,length,width,diameter",5,good,Measurements that can vary or change,True
+verify,0.4795,"correctness,authenticity,validity,accuracy",5,good,Qualities that are verified or confirmed,True
+vest,0.5936,"sweater,jacket,shirt,coat",2,wrong_sense,Clothing items but vest as verb means to grant authority,False
+violate,0.5064,"amendment,constitution,statute,constitutional",4,good,Legal documents/concepts that can be violated,True
+vow,0.4649,"obedience,allegiance,devotion,loyalty",4,good,Concepts that can be vowed or pledged,True
+want,0.6397,"know,think,say,tell",3,too_broad,"General verbs, connection to want is weak",False
+wanton,0.4753,"cruelty,brutality,violence,persecution",3,too_abstract,"Abstract concepts, wanton as adjective not clear verb",False
+waste,0.5371,"dumping,dump,garbage,trash",4,good,Waste-related items and actions,True
+wear,0.6091,"attire,dress,clothes,clothing",5,good,Perfect clothing items that are worn,True
+weather,0.5487,"rain,rainfall,snow,wet",2,wrong_sense,Weather phenomena but weather as verb means to endure,False
+weave,0.5673,"fabric,cloth,silk,linen",5,good,Textiles that are woven,True
+wed,0.7597,"daughter,niece,husband,son",3,too_broad,Family members but connection to wedding unclear,False
+weep,0.666,"sorrow,sadness,grief,mourning",5,good,Emotions that cause weeping,True
+whore,0.5357,"prostitute,prostitution,rape,sex",1,sensitive,Inappropriate sexual content for puzzle,False
+win,0.5461,"playoff,championship,trophy,title",5,good,Sports achievements that are won,True
+wither,0.5163,"flowering,vine,flower,leaf",4,good,Plant parts that can wither,True
+withhold,0.5262,"assent,consent,approval,permission",4,good,Things that can be withheld or denied,True
+worry,0.4688,"thing,going,tell,think",2,too_broad,"Vague general words, weak connection",False
+worship,0.6238,"congregation,pastor,synagogue,church",4,good,Religious contexts where worship occurs,True
+wrap,0.4864,"cloth,plastic,fabric,silk",4,good,Materials used for wrapping,True
+wrinkle,0.4765,"forehead,nose,skin,neck",4,good,Body parts that can wrinkle,True
+write,0.5879,"biography,autobiography,novel,book",5,good,Literary works that are written,True
+yield,0.5565,"crop,wheat,harvest,grain",4,good,Agricultural products that yield or are yielded,True

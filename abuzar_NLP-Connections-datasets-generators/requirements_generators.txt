@@ -1,0 +1,9 @@
+anthropic
+better-profanity
+gensim
+joblib
+levenshtein
+nltk
+prettytable
+scikit-learn
+tqdm

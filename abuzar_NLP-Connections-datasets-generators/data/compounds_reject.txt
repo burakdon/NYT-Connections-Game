@@ -1,0 +1,14 @@
+ace	tone	acetone
+ash	ore	ashore
+bag	gage	baggage
+band	age	bandage
+bar	gain	bargain
+bar	rack	barrack
+bar	rage	barrage
+bat	ten	batten
+bel	low	bellow
+bet	ray	betray
+god	dam	goddam
+god	damn	goddamn
+tap	pet	tappet
+tin	table	tintable
