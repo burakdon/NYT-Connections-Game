@@ -863,64 +863,73 @@ def inject_impostor(group: list, impostor: str, mechanism: str = '') -> tuple:
 
 def try_rhyme(impostor, excl):
     """
-    Build a 4-word rhyme group with impostor as anchor. Uses all CMU pronunciations
-    for the impostor (merged pools) and tries many companion triples.
+    Build a 4-word rhyme group with impostor as anchor.
+    Tries each CMU pronunciation ending as the rhyme key in turn (merged pools
+    across endings broke green_mechanism_holds when primary_ending did not
+    appear in every companion's get_rhyme_endings).
     """
     endings = get_rhyme_endings(impostor)
     if not endings:
         return None
 
-    pool = []
-    seen = set()
-    for ending in endings:
-        for w in rhyme_idx.get(ending, []):
-            if w == impostor or w in excl or len(w) < 3 or is_proper_noun(w):
-                continue
-            if w not in seen:
-                seen.add(w)
-                pool.append(w)
+    n_random = _rhyme_anchor_random_trials()
+    endings_shuf = endings[:]
+    random.shuffle(endings_shuf)
 
-    if len(pool) < 3:
-        return None
-
-    primary_ending = endings[0]
-
-    def pack(companions):
+    def pack(primary_ending, companions):
         group = [impostor] + list(companions)
         if not is_valid_group(group):
             return None
         if len(set(w[-3:] for w in group)) == 1:
             return None
+        if not all(primary_ending in get_rhyme_endings(w) for w in group):
+            return None
         return {
             'mechanism':  'rhyme',
             'ending':     primary_ending,
             'group':      [w.upper() for w in group],
-            # Fixed label — avoids picking a rhyming word that is also on the board
-            # (e.g. "Rhymes with VERIFY" while VERIFY is in the group).
             'connection': 'Words that rhyme',
         }
 
-    random.shuffle(pool)
-    if len(pool) <= 22:
-        shuf = pool[:]
-        random.shuffle(shuf)
-        for companions in combinations(shuf, 3):
-            r = pack(companions)
-            if r:
-                return r
-    else:
-        for _ in range(12):
-            random.shuffle(pool)
-            for start in range(len(pool) - 2):
-                companions = tuple(pool[start : start + 3])
-                r = pack(companions)
+    def search_pool(primary_ending, pool):
+        if len(pool) < 3:
+            return None
+        random.shuffle(pool)
+        if len(pool) <= 22:
+            shuf = pool[:]
+            random.shuffle(shuf)
+            for companions in combinations(shuf, 3):
+                r = pack(primary_ending, companions)
                 if r:
                     return r
-        for _ in range(4000):
+            return None
+        for _ in range(12):
+            random.shuffle(pool)
+            for start in range(max(0, len(pool) - 2)):
+                companions = tuple(pool[start : start + 3])
+                r = pack(primary_ending, companions)
+                if r:
+                    return r
+        for _ in range(n_random):
             companions = tuple(random.sample(pool, 3))
-            r = pack(companions)
+            r = pack(primary_ending, companions)
             if r:
                 return r
+        return None
+
+    for primary_ending in endings_shuf:
+        pool = [
+            w
+            for w in rhyme_idx.get(primary_ending, [])
+            if w != impostor
+            and w not in excl
+            and len(w) >= 3
+            and not is_proper_noun(w)
+            and primary_ending in get_rhyme_endings(w)
+        ]
+        hit = search_pool(primary_ending, pool)
+        if hit:
+            return hit
     return None
 
 
@@ -1039,6 +1048,33 @@ def random_letter_pattern(excl):
 
 # ── Green mechanism integrity check ───────────────────────────
 
+def _green_allow_impostor_inject() -> bool:
+    """Legacy: random green + swap-in impostor (often breaks non-rhyme mechanisms)."""
+    v = (os.environ.get('BURAK_GREEN_ALLOW_IMPOSTOR_INJECT') or '').strip().lower()
+    return v in ('1', 'true', 'yes', 'on')
+
+
+def _rhyme_anchor_random_trials() -> int:
+    """How many random triples to try per rhyme ending (large pools)."""
+    try:
+        return max(2000, min(100_000, int(os.environ.get('BURAK_RHYME_ANCHOR_TRIALS', '20000'))))
+    except Exception:
+        return 20_000
+
+
+def _common_rhyme_ending_for_group(group: list) -> str | None:
+    """CMU ending string shared by all words (any pronunciation), or None."""
+    sets = [set(get_rhyme_endings(str(w).lower())) for w in group]
+    if not all(sets):
+        return None
+    common = sets[0].copy()
+    for s in sets[1:]:
+        common &= s
+    if not common:
+        return None
+    return sorted(common, key=len)[0]
+
+
 def green_mechanism_holds(result: dict) -> bool:
     """
     Ensure the displayed green connection still matches the final words.
@@ -1096,7 +1132,14 @@ def generate_rhyme_group(existing_words=None, impostor=None) -> dict | None:
                 print(f'  ✓ {name} succeeded')
                 return result
 
-        print(f'  All anchored mechanisms failed — falling back to random + inject')
+        if not _green_allow_impostor_inject():
+            print(
+                '  All anchored mechanisms failed — abandoning puzzle '
+                '(MasterGenerator will retry with a new impostor). '
+                'Set BURAK_GREEN_ALLOW_IMPOSTOR_INJECT=1 for legacy random+inject.'
+            )
+            return None
+        print('  All anchored mechanisms failed — falling back to random + inject')
 
     # Random fallback
     fallbacks = [
@@ -1125,6 +1168,11 @@ def generate_rhyme_group(existing_words=None, impostor=None) -> dict | None:
                 result['replaced']     = replaced
                 print(f'  Fallback inject: {replaced} → {impostor}')
                 print(f'  Original       : {original_group}')
+
+            if result.get('mechanism') == 'rhyme':
+                ce = _common_rhyme_ending_for_group(result['group'])
+                if ce:
+                    result['ending'] = ce
 
             if not green_mechanism_holds(result):
                 print(
@@ -1349,10 +1397,24 @@ def verify_blue_group(group: list, connection: str) -> tuple:
         return False, 'parse error'
 
 
+def _blue_connection_from_topic(topic: str) -> str:
+    """Publish the same brief solvers thematically expect (sentence case)."""
+    t = (topic or '').strip()
+    if not t:
+        return t
+    return t[0].upper() + t[1:] if len(t) > 1 else t.upper()
+
+
+def _blue_separate_title_llm() -> bool:
+    """Legacy: extra Haiku call(s) to infer title from words only."""
+    v = (os.environ.get('BURAK_BLUE_SEPARATE_TITLE_LLM') or '').strip().lower()
+    return v in ('1', 'true', 'yes', 'on')
+
+
 def label_blue_group(group: list) -> str:
     """
-    BLUE titles must be inferred only from the four words — not from the internal
-    NICHE_TOPIC string used during generation (that would echo the scaffold).
+    Optional second pass: infer a title from the four words only (no topic string).
+    Enable with BURAK_BLUE_SEPARATE_TITLE_LLM=1 — costs an extra API call per try.
     """
     banned = ', '.join(group)
     prompt = (
@@ -1389,7 +1451,8 @@ def _blue_title_format_ok(title: str) -> bool:
     if t.count('"') % 2 == 1:
         return False
     words = [w for w in t.split() if w]
-    if len(words) < 2 or len(words) > 8:
+    # Niche topic strings can run long (e.g. "things in a Law and Order episode").
+    if len(words) < 2 or len(words) > 12:
         return False
     bad_markers = ('wait,', 'let me', 'reconsider', "doesn't work", '->', '\n')
     low = t.lower()
@@ -1471,9 +1534,9 @@ def generate_blue_group(existing_words: list,
         prompt = (
             f'You are choosing four words for a NYT Connections BLUE group '
             f'(medium-hard, slightly lateral).\n\n'
-            f'Internal creative brief (do NOT output this phrase as the puzzle title — '
-            f'it is only for your brainstorming): {topic}\n\n'
-            f'Generate exactly 4 single English words that fit that brief. '
+            f'Category theme (this exact idea will be shown to solvers as the group title): '
+            f'{topic}\n\n'
+            f'Generate exactly 4 single English words that clearly fit that theme. '
             f'They should feel loosely related when the connection is revealed, '
             f'unrelated at first glance.\n\n'
             f'Rules:\n'
@@ -1481,7 +1544,7 @@ def generate_blue_group(existing_words: list,
             f'- Do NOT relate to: {avoid_themes}\n'
             f'- Common everyday English — no proper nouns, no multi-word phrases\n'
             f'- Prefer short punchy words\n\n'
-            f'Return ONLY this JSON (words only — no category title yet):\n'
+            f'Return ONLY this JSON:\n'
             f'{{"group": ["W1","W2","W3","W4"]}}'
         )
 
@@ -1508,22 +1571,34 @@ def generate_blue_group(existing_words: list,
             print(f'  Rejected   : overlaps existing: {overlap}')
             continue
 
-        connection = None
-        verified = False
-        for label_try in range(4):
-            connection = label_blue_group(group)
+        if _blue_separate_title_llm():
+            connection = None
+            verified = False
+            for label_try in range(4):
+                connection = label_blue_group(group)
+                connection = _repair_blue_title(connection, group)
+                if not _blue_title_format_ok(connection):
+                    print(f'  Title try {label_try + 1}: "{connection}" → rejected (format)')
+                    continue
+                ok, reason = verify_blue_group(group, connection)
+                print(f'  Title try {label_try + 1}: "{connection}" → verified={ok} — {reason}')
+                if ok:
+                    verified = True
+                    break
+            if not verified:
+                print('  Rejected   : could not verify title')
+                continue
+        else:
+            connection = _blue_connection_from_topic(topic)
             connection = _repair_blue_title(connection, group)
             if not _blue_title_format_ok(connection):
-                print(f'  Title try {label_try + 1}: "{connection}" → rejected (format)')
+                print(f'  Rejected   : bad title format from topic — "{connection}"')
                 continue
             ok, reason = verify_blue_group(group, connection)
-            print(f'  Title try {label_try + 1}: "{connection}" → verified={ok} — {reason}')
-            if ok:
-                verified = True
-                break
-        if not verified:
-            print('  Rejected   : could not verify title')
-            continue
+            print(f'  Title (from topic): "{connection}" → verified={ok} — {reason}')
+            if not ok:
+                print('  Rejected   : verifier did not accept words vs topic title')
+                continue
 
         return {
             'mechanism':   'llm_niche',
