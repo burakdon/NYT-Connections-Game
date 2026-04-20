@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "TOPOGRAPHICAL",
+      "CANAL",
+      "SLACK",
+      "CONSONANTAL",
+      "YAHOO",
+      "TINDER",
+      "MUSICALLY",
+      "TELEGRAM",
+      "LEXICAL",
+      "DRAINAGE",
+      "INSTRUMENTALIST",
+      "MORPHEMIC",
+      "MUSICIAN",
+      "ESTUARY",
+      "ORCHESTRAL",
+      "SUFFIX"
+    ],
+    "groups": [
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6291800240675608
+      },
+      {
+        "category": "SOCIAL MEDIA PLATFORMS",
+        "words": [
+          "SLACK",
+          "YAHOO",
+          "TELEGRAM",
+          "TINDER"
+        ],
+        "color": "green",
+        "similarity_score": 0.5293056865533193
+      },
+      {
+        "category": "WORDS ENDING IN -ICALLY",
+        "words": [
+          "SUFFIX",
+          "CONSONANTAL",
+          "LEXICAL",
+          "MORPHEMIC"
+        ],
+        "color": "blue",
+        "similarity_score": 0.4912429302930832
+      },
+      {
+        "category": "CANAL-RELATED TERMS",
+        "words": [
+          "CANAL",
+          "TOPOGRAPHICAL",
+          "ESTUARY",
+          "DRAINAGE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.41206329067548114
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "SLACK",
+                "YAHOO",
+                "TINDER",
+                "TELEGRAM"
+              ],
+              "score": 0.5293056865533193
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "LEXICAL",
+                "MORPHEMIC",
+                "SUFFIX"
+              ],
+              "score": 0.4912429302930832
+            },
+            {
+              "words": [
+                "TOPOGRAPHICAL",
+                "CANAL",
+                "DRAINAGE",
+                "ESTUARY"
+              ],
+              "score": 0.41206329067548114
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "TOPOGRAPHICAL",
+                "CANAL",
+                "DRAINAGE",
+                "ESTUARY"
+              ],
+              "score": 0.41206329067548114
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "SLACK",
+                "YAHOO",
+                "TINDER",
+                "TELEGRAM"
+              ],
+              "score": 0.5293056865533193
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "LEXICAL",
+                "MORPHEMIC",
+                "SUFFIX"
+              ],
+              "score": 0.4912429302930832
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5154479828973612,
+      "created_at": "2026-04-20T03:25:18.090260+00:00",
+      "accepted": true
+    }
+  }
+]

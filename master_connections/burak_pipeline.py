@@ -1375,9 +1375,57 @@ def label_blue_group(group: list) -> str:
             max_tokens=48,
             messages=[{'role': 'user', 'content': prompt}],
         )
-        return resp.content[0].text.strip().strip('"').strip()
+        raw = resp.content[0].text.strip()
+        title = raw.splitlines()[0].strip().strip('"').strip("'").strip()
+        return title
     except Exception:
         return 'Related items'
+
+
+def _blue_title_format_ok(title: str) -> bool:
+    t = (title or '').strip()
+    if not t:
+        return False
+    if t.count('"') % 2 == 1:
+        return False
+    words = [w for w in t.split() if w]
+    if len(words) < 2 or len(words) > 8:
+        return False
+    bad_markers = ('wait,', 'let me', 'reconsider', "doesn't work", '->', '\n')
+    low = t.lower()
+    if any(m in low for m in bad_markers):
+        return False
+    return True
+
+
+def _repair_blue_title(title: str, group: list) -> str:
+    """
+    Normalize common malformed but semantically-correct outputs.
+    Example: Things you can get a "Golden" -> Words that follow "GOLDEN"
+    """
+    t = (title or '').strip()
+    if not t:
+        return t
+
+    low = t.lower()
+    # Common malformed pattern from model outputs.
+    if 'you can get a "' in low or 'you can get an "' in low:
+        m = re.search(r'"([^"]+)"', t)
+        if m:
+            token = m.group(1).strip().upper()
+            if token:
+                return f'Words that follow "{token}"'
+
+    # If a quoted token appears in any other malformed context, try phrase-completion repair.
+    m = re.search(r'"([^"]+)"', t)
+    if m:
+        token = m.group(1).strip()
+        if token:
+            token_u = token.upper()
+            if not _blue_title_format_ok(t):
+                return f'Words that follow "{token_u}"'
+
+    return t
 
 
 def verify_yellow_group(group: list, connection: str) -> tuple:
@@ -1464,6 +1512,10 @@ def generate_blue_group(existing_words: list,
         verified = False
         for label_try in range(4):
             connection = label_blue_group(group)
+            connection = _repair_blue_title(connection, group)
+            if not _blue_title_format_ok(connection):
+                print(f'  Title try {label_try + 1}: "{connection}" → rejected (format)')
+                continue
             ok, reason = verify_blue_group(group, connection)
             print(f'  Title try {label_try + 1}: "{connection}" → verified={ok} — {reason}')
             if ok:
@@ -1554,15 +1606,62 @@ def label_yellow_group(group: list) -> str:
             max_tokens=48,
             messages=[{'role': 'user', 'content': prompt}]
         )
-        return resp.content[0].text.strip().strip('"')
+        # Keep only the first line/title and strip wrappers.
+        raw = resp.content[0].text.strip()
+        title = raw.splitlines()[0].strip()
+        title = title.strip('"').strip("'").strip()
+        return title
     except Exception:
         return f'Words related to {group[0]}'
+
+
+def _is_bad_yellow_title_format(title: str, group: list) -> tuple[bool, str]:
+    """Local guardrail against verbose or weak yellow labels."""
+    t = (title or '').strip()
+    if not t:
+        return True, 'empty title'
+
+    lower = t.lower()
+    words = [w for w in t.replace('"', '').split() if w]
+    if len(words) < 2 or len(words) > 7:
+        return True, 'title length out of range (2-7 words)'
+
+    # Catch chain-of-thought / rambling artifacts that occasionally leak through.
+    bad_markers = (
+        'wait,', 'let me', 'reconsider', "doesn't work", 'that does not work',
+        '->', '—', '\n',
+    )
+    if any(m in lower for m in bad_markers):
+        return True, 'rambling/meta text detected'
+
+    if t.count('"') % 2 == 1:
+        return True, 'unbalanced quotes'
+
+    # For yellow, avoid brittle phrase-completion labels like "words that follow X".
+    if lower.startswith('words that follow') or lower.startswith('words that precede'):
+        return True, 'yellow should not use follow/precede framing'
+
+    # Model is instructed not to echo member words in title.
+    group_lower = {w.lower() for w in group}
+    title_tokens = {
+        tok.strip('".,!?;:()[]{}').lower()
+        for tok in t.split()
+        if tok.strip('".,!?;:()[]{}')
+    }
+    if group_lower & title_tokens:
+        return True, 'title includes group word(s)'
+
+    return False, ''
 
 
 def yellow_connection_with_retries(group: list, max_tries: int = 4):
     """LLM title + verifier — rejects sloppy synonym/thematic labels."""
     for attempt in range(max_tries):
         label = label_yellow_group(group)
+        bad, why = _is_bad_yellow_title_format(label, group)
+        if bad:
+            print(f'    yellow title try {attempt + 1}: "{label}" → False — {why}')
+            continue
         ok, reason = verify_yellow_group(group, label)
         print(f'    yellow title try {attempt + 1}: "{label}" → {ok} — {reason}')
         if ok:

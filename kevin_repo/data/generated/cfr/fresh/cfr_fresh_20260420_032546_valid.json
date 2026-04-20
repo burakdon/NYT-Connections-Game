@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "CONSONANTAL",
+      "HYPHEN",
+      "MUSICALLY",
+      "AFFABLY",
+      "ARTS",
+      "MUSICIAN",
+      "SEAWATER",
+      "MUSICIANSHIP",
+      "EARNESTLY",
+      "SUFFIX",
+      "OCEAN",
+      "GENTLEMANLY",
+      "SALTWATER",
+      "VOWEL",
+      "SEA",
+      "DEMEANOR"
+    ],
+    "groups": [
+      {
+        "category": "BODY OF WATER",
+        "words": [
+          "SEAWATER",
+          "OCEAN",
+          "SALTWATER",
+          "SEA"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7495868305365244
+      },
+      {
+        "category": "MUSIC GENRES",
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "color": "green",
+        "similarity_score": 0.585886687040329
+      },
+      {
+        "category": "ADVERBS OF MANNER",
+        "words": [
+          "DEMEANOR",
+          "AFFABLY",
+          "EARNESTLY",
+          "GENTLEMANLY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5495477517445883
+      },
+      {
+        "category": "WORDS ENDING IN -LY",
+        "words": [
+          "HYPHEN",
+          "CONSONANTAL",
+          "VOWEL",
+          "SUFFIX"
+        ],
+        "color": "purple",
+        "similarity_score": 0.49365417659282684
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SEAWATER",
+                "OCEAN",
+                "SALTWATER",
+                "SEA"
+              ],
+              "score": 0.7495868305365244
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIAN",
+                "MUSICIANSHIP"
+              ],
+              "score": 0.585886687040329
+            },
+            {
+              "words": [
+                "AFFABLY",
+                "EARNESTLY",
+                "GENTLEMANLY",
+                "DEMEANOR"
+              ],
+              "score": 0.5495477517445883
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "HYPHEN",
+                "SUFFIX",
+                "VOWEL"
+              ],
+              "score": 0.49365417659282684
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIAN",
+                "MUSICIANSHIP"
+              ],
+              "score": 0.585886687040329
+            },
+            {
+              "words": [
+                "SEAWATER",
+                "OCEAN",
+                "SALTWATER",
+                "SEA"
+              ],
+              "score": 0.7495868305365244
+            },
+            {
+              "words": [
+                "AFFABLY",
+                "EARNESTLY",
+                "GENTLEMANLY",
+                "DEMEANOR"
+              ],
+              "score": 0.5495477517445883
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "HYPHEN",
+                "SUFFIX",
+                "VOWEL"
+              ],
+              "score": 0.49365417659282684
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5946688614785671,
+      "created_at": "2026-04-20T03:25:44.709125+00:00",
+      "accepted": true
+    }
+  }
+]

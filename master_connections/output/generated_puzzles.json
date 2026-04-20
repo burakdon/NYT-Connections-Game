@@ -2521,5 +2521,695 @@
       },
       "solver_validation": {}
     }
+  },
+  {
+    "id": "be326f50-0111-4dd3-963b-a7bc73412e83",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T03:21:53.455442",
+    "board": [
+      "SAUCER",
+      "TURN",
+      "GUM",
+      "CHEMIST",
+      "RIGHT",
+      "WIND",
+      "MINT",
+      "HAMMER",
+      "DENTIST",
+      "KISS",
+      "WEIGHT",
+      "BUTT",
+      "MATRON",
+      "CANDY",
+      "STREAM",
+      "SURGEON"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "CHEMIST",
+          "DENTIST",
+          "MATRON",
+          "SURGEON"
+        ],
+        "connection": "Health Professionals",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "CANDY",
+          "GUM",
+          "KISS",
+          "MINT"
+        ],
+        "connection": "Dainties",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "BUTT",
+          "HAMMER",
+          "SAUCER",
+          "WEIGHT"
+        ],
+        "connection": "Sports Equipment Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "RIGHT",
+          "STREAM",
+          "TURN",
+          "WIND"
+        ],
+        "connection": "DOWN ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "47847e64-0c3d-4955-80bd-5f7dda35a1f9",
+    "source": "adreama",
+    "generated_at": "2026-04-20T03:23:15.094691",
+    "board": [
+      "CONCLAVE",
+      "WITNESS",
+      "FENCE",
+      "ROCKS",
+      "APPEAL",
+      "PETER",
+      "JURY",
+      "TINKER BELL",
+      "WENDY",
+      "AIR",
+      "VERDICT",
+      "RUN",
+      "TRIAL",
+      "UNKINDNESS",
+      "MURDER",
+      "HOOK"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "VERDICT",
+          "WITNESS",
+          "TRIAL",
+          "APPEAL"
+        ],
+        "connection": "legal terms",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "PETER",
+          "WENDY",
+          "HOOK",
+          "TINKER BELL"
+        ],
+        "connection": "characters from classic fairy tales",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "RUN",
+          "AIR",
+          "FENCE",
+          "ROCKS"
+        ],
+        "connection": "words that complete the phrase 'on the ___'",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "MURDER",
+          "UNKINDNESS",
+          "JURY",
+          "CONCLAVE"
+        ],
+        "connection": "collective nouns for professions",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "jury",
+      "false_group": "",
+      "trap_impersonates": "legal terms"
+    }
+  },
+  {
+    "id": "387811a0-9dd5-4d08-bc5e-63133ea02bd8",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T03:23:27.579575",
+    "board": [
+      "BEET",
+      "WOODWIND",
+      "BRASS",
+      "PEPPER",
+      "CRAFT",
+      "SOYBEAN",
+      "FENNEL",
+      "PIPE",
+      "MANUAL",
+      "MAIL",
+      "FIELD",
+      "GUIDEBOOK",
+      "WHISTLE",
+      "LEAFLET",
+      "STRIP",
+      "CATECHISM"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "BEET",
+          "FENNEL",
+          "PEPPER",
+          "SOYBEAN"
+        ],
+        "connection": "Vegetables",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "CATECHISM",
+          "GUIDEBOOK",
+          "LEAFLET",
+          "MANUAL"
+        ],
+        "connection": "Books",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "BRASS",
+          "PIPE",
+          "WHISTLE",
+          "WOODWIND"
+        ],
+        "connection": "Wind Instrument Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "CRAFT",
+          "FIELD",
+          "MAIL",
+          "STRIP"
+        ],
+        "connection": "AIR ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "33b64f03-e378-4977-b9af-ca738086eb1a",
+    "source": "adreama",
+    "generated_at": "2026-04-20T03:23:41.435044",
+    "board": [
+      "JUSTICE LEAGUE",
+      "STROBE",
+      "FLASH",
+      "FRANCIUM",
+      "X MEN",
+      "DAY",
+      "TEEN TITANS",
+      "AVENGERS",
+      "BULLDOZER",
+      "CALIFORNIUM",
+      "BACKHOE",
+      "POLONIUM",
+      "CRANE",
+      "EXCAVATOR",
+      "GERMANIUM",
+      "SPOT"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "CRANE",
+          "BULLDOZER",
+          "EXCAVATOR",
+          "BACKHOE"
+        ],
+        "connection": "types of construction equipment",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "CALIFORNIUM",
+          "GERMANIUM",
+          "POLONIUM",
+          "FRANCIUM"
+        ],
+        "connection": "elements named after places",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "DAY",
+          "FLASH",
+          "SPOT",
+          "STROBE"
+        ],
+        "connection": "words that precede 'light'",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "AVENGERS",
+          "X MEN",
+          "JUSTICE LEAGUE",
+          "TEEN TITANS"
+        ],
+        "connection": "fictional groups of superheroes",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "avengers",
+      "false_group": "",
+      "trap_impersonates": "things that can assemble"
+    }
+  },
+  {
+    "id": "06fd437b-e5ae-4976-a0c2-eab5bb517fd0",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T03:23:53.901197",
+    "board": [
+      "THAWING",
+      "HATCHET",
+      "PISTOL",
+      "FALL",
+      "GRAVEYARD",
+      "SUNSHINE",
+      "CARBINE",
+      "CEMETERY",
+      "WARMING",
+      "DOWNFALL",
+      "TOWN",
+      "STREAM",
+      "WIND",
+      "EXCAVATION",
+      "APRON",
+      "GUN"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "CARBINE",
+          "GUN",
+          "HATCHET",
+          "PISTOL"
+        ],
+        "connection": "Weapons",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "APRON",
+          "CEMETERY",
+          "EXCAVATION",
+          "GRAVEYARD"
+        ],
+        "connection": "Sites",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "DOWNFALL",
+          "SUNSHINE",
+          "THAWING",
+          "WARMING"
+        ],
+        "connection": "Weather Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "FALL",
+          "STREAM",
+          "TOWN",
+          "WIND"
+        ],
+        "connection": "DOWN ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "b04940e1-67bd-4d60-a36a-aed8bcd6ad41",
+    "source": "burak",
+    "generated_at": "2026-04-20T03:24:56.264673",
+    "board": [
+      "PROTEST",
+      "EXPRESSED",
+      "RAIN",
+      "PURPLE",
+      "ARREST",
+      "BLUE",
+      "JIBE",
+      "BEST",
+      "PINK",
+      "BELAY",
+      "TOP",
+      "BOOM",
+      "SHEET",
+      "GREAT",
+      "RED",
+      "YELLOW"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "PINK",
+          "PURPLE",
+          "BLUE",
+          "YELLOW"
+        ],
+        "connection": "Colors",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "BEST",
+          "ARREST",
+          "PROTEST",
+          "EXPRESSED"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "BOOM",
+          "SHEET",
+          "JIBE",
+          "BELAY"
+        ],
+        "connection": "Nautical commands and terminology",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "RAIN",
+          "TOP",
+          "RED",
+          "GREAT"
+        ],
+        "connection": "___ + \"COAT\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "TOP",
+        "imp1": "BEST",
+        "imp2": "HIGHEST",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Superlatives meaning \"number one"
+      }
+    }
+  },
+  {
+    "id": "bc174406-862f-41f4-ad63-ae444932bc7d",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T03:25:20.765334",
+    "board": [
+      "PEN",
+      "FUR",
+      "PIT",
+      "SEE",
+      "CAGE",
+      "ARROW",
+      "NICHE",
+      "SIGHT",
+      "CURL",
+      "RUNNER",
+      "WOOL",
+      "PELT",
+      "FIREARM",
+      "ARM",
+      "SWORD",
+      "PISTOL"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "ARROW",
+          "FIREARM",
+          "PISTOL",
+          "SWORD"
+        ],
+        "connection": "Weapons",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "CURL",
+          "FUR",
+          "PELT",
+          "WOOL"
+        ],
+        "connection": "Body Coverings",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "CAGE",
+          "NICHE",
+          "PEN",
+          "PIT"
+        ],
+        "connection": "Enclosure Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "ARM",
+          "RUNNER",
+          "SEE",
+          "SIGHT"
+        ],
+        "connection": "FORE ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "8fbba29b-ac28-42d8-83d4-7506e0aefc97",
+    "source": "adreama",
+    "generated_at": "2026-04-20T03:25:22.265947",
+    "board": [
+      "POIROT",
+      "BANG",
+      "WHISPER",
+      "FARM",
+      "SPADE",
+      "GREEN",
+      "GAGGLE",
+      "SIEGE",
+      "CLAP",
+      "MARPLE",
+      "HOLMES",
+      "BUZZ",
+      "GUEST",
+      "PARLIAMENT",
+      "TREE",
+      "MURDER"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "CLAP",
+          "BANG",
+          "BUZZ",
+          "WHISPER"
+        ],
+        "connection": "action noises",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "HOLMES",
+          "MARPLE",
+          "POIROT",
+          "SPADE"
+        ],
+        "connection": "fictional detectives",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "TREE",
+          "GREEN",
+          "GUEST",
+          "FARM"
+        ],
+        "connection": "compound words with 'house'",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "GAGGLE",
+          "MURDER",
+          "SIEGE",
+          "PARLIAMENT"
+        ],
+        "connection": "collective nouns for birds",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "gaggle",
+      "false_group": "",
+      "trap_impersonates": "sounds"
+    }
+  },
+  {
+    "id": "c89ef782-e2e2-4371-bd4e-9acc75ef2988",
+    "source": "kevin_fresh",
+    "generated_at": "2026-04-20T03:25:46.853204",
+    "board": [
+      "SALTWATER",
+      "AFFABLY",
+      "ARTS",
+      "VOWEL",
+      "CONSONANTAL",
+      "SEAWATER",
+      "MUSICALLY",
+      "HYPHEN",
+      "SUFFIX",
+      "EARNESTLY",
+      "MUSICIANSHIP",
+      "MUSICIAN",
+      "OCEAN",
+      "SEA",
+      "DEMEANOR",
+      "GENTLEMANLY"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "SEAWATER",
+          "OCEAN",
+          "SALTWATER",
+          "SEA"
+        ],
+        "connection": "BODY OF WATER",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "green": {
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "connection": "MUSIC GENRES",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "blue": {
+        "words": [
+          "DEMEANOR",
+          "AFFABLY",
+          "EARNESTLY",
+          "GENTLEMANLY"
+        ],
+        "connection": "ADVERBS OF MANNER",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "purple": {
+        "words": [
+          "HYPHEN",
+          "CONSONANTAL",
+          "VOWEL",
+          "SUFFIX"
+        ],
+        "connection": "WORDS ENDING IN -LY",
+        "mechanism": "kevin_cfr_fresh"
+      }
+    },
+    "meta": {
+      "mode": "fresh",
+      "similarity_scores": {
+        "yellow": 0.7495868305365244,
+        "green": 0.585886687040329,
+        "blue": 0.5495477517445883,
+        "purple": 0.49365417659282684
+      },
+      "solver_validation": {}
+    }
+  },
+  {
+    "id": "6ae5fb8b-5af4-4f4c-a882-9b90bc9df166",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T03:25:46.913005",
+    "board": [
+      "SHOT",
+      "MID",
+      "SLUG",
+      "HATCH",
+      "SHOULDER",
+      "BEDSPREAD",
+      "BANDAGE",
+      "KNEE",
+      "HALF",
+      "BULLET",
+      "OUTFIT",
+      "FROCK",
+      "ENSEMBLE",
+      "SEEKER",
+      "COSTUME",
+      "DRIVE"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "COSTUME",
+          "ENSEMBLE",
+          "FROCK",
+          "OUTFIT"
+        ],
+        "connection": "Attire",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "BANDAGE",
+          "BEDSPREAD",
+          "KNEE",
+          "SHOULDER"
+        ],
+        "connection": "Cloth Coverings",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "BULLET",
+          "SEEKER",
+          "SHOT",
+          "SLUG"
+        ],
+        "connection": "Projectile Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "DRIVE",
+          "HALF",
+          "HATCH",
+          "MID"
+        ],
+        "connection": "___ WAY",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {}
   }
 ]

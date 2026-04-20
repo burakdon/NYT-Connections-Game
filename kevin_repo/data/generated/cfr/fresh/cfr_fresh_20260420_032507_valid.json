@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "MANNERS",
+      "COMMUNICATE",
+      "VEGETABLE",
+      "MOISTURE",
+      "CABBAGE",
+      "CARROT",
+      "ACOUSTICAL",
+      "RADISH",
+      "PERVAPORATION",
+      "COMMUNICATING",
+      "SONOROUS",
+      "DRENCHED",
+      "PHONOLOGIC",
+      "POLITE",
+      "SONORITY",
+      "WETNESS"
+    ],
+    "groups": [
+      {
+        "category": "ADJECTIVES DESCRIBING SOUND",
+        "words": [
+          "ACOUSTICAL",
+          "SONOROUS",
+          "PHONOLOGIC",
+          "SONORITY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6531933049360911
+      },
+      {
+        "category": "TYPES OF VEGETABLES",
+        "words": [
+          "VEGETABLE",
+          "CABBAGE",
+          "RADISH",
+          "CARROT"
+        ],
+        "color": "green",
+        "similarity_score": 0.5993316074212393
+      },
+      {
+        "category": "WORDS RELATED TO WATER",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "PERVAPORATION",
+          "DRENCHED"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5920474976301193
+      },
+      {
+        "category": "WAYS TO BE FRIENDLY",
+        "words": [
+          "COMMUNICATE",
+          "MANNERS",
+          "POLITE",
+          "COMMUNICATING"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5819412420193354
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "ACOUSTICAL",
+                "SONOROUS",
+                "PHONOLOGIC",
+                "SONORITY"
+              ],
+              "score": 0.6531933049360911
+            },
+            {
+              "words": [
+                "VEGETABLE",
+                "CABBAGE",
+                "CARROT",
+                "RADISH"
+              ],
+              "score": 0.5993316074212393
+            },
+            {
+              "words": [
+                "MOISTURE",
+                "PERVAPORATION",
+                "DRENCHED",
+                "WETNESS"
+              ],
+              "score": 0.5920474976301193
+            },
+            {
+              "words": [
+                "MANNERS",
+                "COMMUNICATE",
+                "COMMUNICATING",
+                "POLITE"
+              ],
+              "score": 0.5819411973158518
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MOISTURE",
+                "PERVAPORATION",
+                "DRENCHED",
+                "WETNESS"
+              ],
+              "score": 0.5920474976301193
+            },
+            {
+              "words": [
+                "ACOUSTICAL",
+                "SONOROUS",
+                "PHONOLOGIC",
+                "SONORITY"
+              ],
+              "score": 0.6531933049360911
+            },
+            {
+              "words": [
+                "VEGETABLE",
+                "CABBAGE",
+                "CARROT",
+                "RADISH"
+              ],
+              "score": 0.5993316074212393
+            },
+            {
+              "words": [
+                "MANNERS",
+                "COMMUNICATE",
+                "COMMUNICATING",
+                "POLITE"
+              ],
+              "score": 0.5819411973158518
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6066284130016962,
+      "created_at": "2026-04-20T03:25:06.207610+00:00",
+      "accepted": true
+    }
+  }
+]

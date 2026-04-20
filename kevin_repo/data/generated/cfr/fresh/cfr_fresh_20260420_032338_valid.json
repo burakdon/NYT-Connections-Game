@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "SUFFIX",
+      "VOCABULARY",
+      "ESTUARY",
+      "ORCHESTRAL",
+      "LAGOON",
+      "BARGE",
+      "SOCIABILITY",
+      "WHARF",
+      "SOUNDTRACK",
+      "DICTIONARY",
+      "SOCIABLY",
+      "MUSICALLY",
+      "SOCIALITY",
+      "SYNONYM",
+      "SOCIALLY",
+      "GENRE"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO BE SOCIABLE",
+        "words": [
+          "SOCIABILITY",
+          "SOCIABLY",
+          "SOCIALITY",
+          "SOCIALLY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.707529604434967
+      },
+      {
+        "category": "THINGS YOU CAN FIND IN A CANAL",
+        "words": [
+          "ESTUARY",
+          "LAGOON",
+          "WHARF",
+          "BARGE"
+        ],
+        "color": "green",
+        "similarity_score": 0.5898859898249308
+      },
+      {
+        "category": "TYPES OF AMBIENT MUSIC",
+        "words": [
+          "GENRE",
+          "ORCHESTRAL",
+          "SOUNDTRACK",
+          "MUSICALLY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5271080831686655
+      },
+      {
+        "category": "WORDS RELATED TO RADICALS",
+        "words": [
+          "VOCABULARY",
+          "SUFFIX",
+          "SYNONYM",
+          "DICTIONARY"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5202918201684952
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIALLY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "LAGOON",
+                "BARGE",
+                "WHARF"
+              ],
+              "score": 0.5898859202861786
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "SOUNDTRACK",
+                "MUSICALLY",
+                "GENRE"
+              ],
+              "score": 0.5271081775426865
+            },
+            {
+              "words": [
+                "SUFFIX",
+                "VOCABULARY",
+                "DICTIONARY",
+                "SYNONYM"
+              ],
+              "score": 0.5202916463216146
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "ORCHESTRAL",
+                "SOUNDTRACK",
+                "MUSICALLY",
+                "GENRE"
+              ],
+              "score": 0.5271081775426865
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIALLY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "LAGOON",
+                "BARGE",
+                "WHARF"
+              ],
+              "score": 0.5898859202861786
+            },
+            {
+              "words": [
+                "SUFFIX",
+                "VOCABULARY",
+                "DICTIONARY",
+                "SYNONYM"
+              ],
+              "score": 0.5202916463216146
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5862038743992646,
+      "created_at": "2026-04-20T03:23:36.579761+00:00",
+      "accepted": true
+    }
+  }
+]
