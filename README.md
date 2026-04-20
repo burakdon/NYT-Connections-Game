@@ -68,7 +68,7 @@ python -m http.server 8080 --directory webapp
 
 Open `http://localhost:8080/`.
 
-## GitHub Pages deploy
+## GitHub Pages deployed
 
 - Workflow: `/.github/workflows/deploy-pages.yml`
 - Published directory: `master_connections/webapp`
