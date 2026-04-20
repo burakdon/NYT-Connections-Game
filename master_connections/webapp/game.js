@@ -67,7 +67,7 @@ function updatePuzzleSourceLabel() {
         el.classList.add('hidden');
         return;
     }
-    el.textContent = label;
+    el.textContent = 'Source: ' + label;
     el.classList.remove('hidden');
 }
 

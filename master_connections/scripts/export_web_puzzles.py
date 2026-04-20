@@ -80,12 +80,16 @@ def canonical_to_kevin(p: dict) -> dict | None:
     if len(words16) != 16:
         return None
 
+    src = p.get('source')
+    if src is not None:
+        src = str(src).strip() or None
+
     entry = {
         'id': p.get('id'),
         'words': words16,
         'groups': out_groups,
         'metadata': {
-            'source': p.get('source'),
+            'source': src,
             'generated_at': p.get('generated_at'),
         },
     }
