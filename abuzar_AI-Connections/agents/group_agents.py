@@ -29,7 +29,9 @@ from agents.puzzle_agents import QUALITY_RULES, extract_json_object
 from agents.puzzle_validator import normalize_category, puzzle_fingerprint
 
 
-DEFAULT_GROUP_GENERATOR_MODEL = "claude-opus-4-7"
+# Generator default was Opus (very slow per request). Sonnet is much faster; override with
+# CLAUDE_GROUP_GENERATOR_MODEL if you want Opus quality back.
+DEFAULT_GROUP_GENERATOR_MODEL = "claude-sonnet-4-6"
 DEFAULT_GROUP_REVIEWER_MODEL = "claude-sonnet-4-6"
 GROUP_DIFFICULTIES = {"easy", "medium", "hard", "tricky"}
 
