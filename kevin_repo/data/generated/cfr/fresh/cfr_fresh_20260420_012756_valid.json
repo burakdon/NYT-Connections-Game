@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "ALGEBRAICALLY",
+      "EXPONENT",
+      "MUSICALLY",
+      "SWAMP",
+      "INSTRUMENTALIST",
+      "ORCHESTRAL",
+      "SOCIABILITY",
+      "MUSICIAN",
+      "LAGOON",
+      "MATH",
+      "SOCIABLY",
+      "POND",
+      "SOCIALITY",
+      "MULTIPLICATION",
+      "SOCIALLY",
+      "ESTUARY"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO BE SOCIABLE",
+        "words": [
+          "SOCIABILITY",
+          "SOCIABLY",
+          "SOCIALITY",
+          "SOCIALLY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.707529604434967
+      },
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "green",
+        "similarity_score": 0.6291800240675608
+      },
+      {
+        "category": "THINGS FOUND IN A CANAL",
+        "words": [
+          "ESTUARY",
+          "SWAMP",
+          "LAGOON",
+          "POND"
+        ],
+        "color": "blue",
+        "similarity_score": 0.563431441783905
+      },
+      {
+        "category": "RADICAL TERMS",
+        "words": [
+          "EXPONENT",
+          "ALGEBRAICALLY",
+          "MULTIPLICATION",
+          "MATH"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5441805273294449
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIALLY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "ORCHESTRAL",
+                "MUSICIAN"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "SWAMP",
+                "LAGOON",
+                "POND",
+                "ESTUARY"
+              ],
+              "score": 0.5634314268827438
+            },
+            {
+              "words": [
+                "ALGEBRAICALLY",
+                "EXPONENT",
+                "MATH",
+                "MULTIPLICATION"
+              ],
+              "score": 0.5441805273294449
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "ORCHESTRAL",
+                "MUSICIAN"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIALLY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "SWAMP",
+                "LAGOON",
+                "POND",
+                "ESTUARY"
+              ],
+              "score": 0.5634314268827438
+            },
+            {
+              "words": [
+                "ALGEBRAICALLY",
+                "EXPONENT",
+                "MATH",
+                "MULTIPLICATION"
+              ],
+              "score": 0.5441805273294449
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6110803994039694,
+      "created_at": "2026-04-20T01:27:54.231210+00:00",
+      "accepted": true
+    }
+  }
+]

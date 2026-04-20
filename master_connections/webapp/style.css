@@ -246,6 +246,26 @@ footer .puzzle-count {
     font-size: 12px;
 }
 
+/* Generator attribution — fixed corner, unobtrusive */
+.puzzle-source {
+    position: fixed;
+    bottom: 10px;
+    right: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #a8a8a8;
+    letter-spacing: 0.02em;
+    z-index: 5;
+    pointer-events: none;
+    max-width: 45vw;
+    text-align: right;
+    line-height: 1.3;
+}
+
+.puzzle-source.hidden {
+    display: none;
+}
+
 @media (max-width: 480px) {
     .tile {
         padding: 12px 4px;

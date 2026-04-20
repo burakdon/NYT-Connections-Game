@@ -1327,5 +1327,1523 @@
     "source": "group-bank-assembler",
     "difficulty_mode": "easy",
     "id": "gb-fdb8943ed3ba"
+  },
+  {
+    "groups": [
+      {
+        "category": "Rodents",
+        "difficulty": "easy",
+        "words": [
+          "MOUSE",
+          "RAT",
+          "BEAVER",
+          "SQUIRREL"
+        ],
+        "explanation": "All are rodent species.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "rodents"
+      },
+      {
+        "category": "Things with a bed",
+        "difficulty": "medium",
+        "words": [
+          "RIVER",
+          "TRUCK",
+          "GARDEN",
+          "NAIL"
+        ],
+        "explanation": "Each commonly has a 'bed': riverbed, truck bed, garden bed, nail bed.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_with_a_bed"
+      },
+      {
+        "category": "Words that become new words when read backward",
+        "difficulty": "hard",
+        "words": [
+          "STRESSED",
+          "DRAWER",
+          "SNOOPS",
+          "STRAW"
+        ],
+        "explanation": "Each reversed spells another valid word: DESSERTS, REWARD, SPOONS, WARTS.",
+        "mechanism_family": "spelling",
+        "concept_key": "reversal_new_word_set_a"
+      },
+      {
+        "category": "Words using only the vowel E",
+        "difficulty": "tricky",
+        "words": [
+          "SEVEN",
+          "SHELTER",
+          "PEPPER",
+          "BETWEEN"
+        ],
+        "explanation": "E is the only vowel appearing in each word.",
+        "mechanism_family": "shared_property",
+        "concept_key": "monovowel_e_words"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-3521ed39a9e8"
+  },
+  {
+    "groups": [
+      {
+        "category": "Words that can follow \"ANOTHER",
+        "difficulty": "easy",
+        "words": [
+          "THING",
+          "STUFF",
+          "ASPECT",
+          "REASON"
+        ],
+        "explanation": "Words that can follow \"ANOTHER"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "HOW",
+          "SATISFY",
+          "QUALIFY",
+          "JUSTIFY"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Things that can be \"hot",
+        "difficulty": "hard",
+        "words": [
+          "BASKET",
+          "HEAT",
+          "PLATE",
+          "JUDGE"
+        ],
+        "explanation": "Things that can be \"hot"
+      },
+      {
+        "category": "\"DOOR\" + ___",
+        "difficulty": "tricky",
+        "words": [
+          "STEP",
+          "BELL",
+          "KNOB",
+          "WAY"
+        ],
+        "explanation": "\"DOOR\" + ___"
+      }
+    ],
+    "source": "synced-burak",
+    "id": "e67416f7-1895-43c4-9078-c3063de10377"
+  },
+  {
+    "groups": [
+      {
+        "category": "Words that can follow \"GET",
+        "difficulty": "easy",
+        "words": [
+          "OFF",
+          "ONTO",
+          "INTO",
+          "AROUND"
+        ],
+        "explanation": "Words that can follow \"GET"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "OUT",
+          "STEREO",
+          "RAINBOW",
+          "TOMORROW"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Boxing match elements",
+        "difficulty": "hard",
+        "words": [
+          "RING",
+          "GLOVE",
+          "ROUND",
+          "CORNER"
+        ],
+        "explanation": "Boxing match elements"
+      },
+      {
+        "category": "\"SUN\" + ___",
+        "difficulty": "tricky",
+        "words": [
+          "LIGHT",
+          "DOWN",
+          "SET",
+          "SHADE"
+        ],
+        "explanation": "\"SUN\" + ___"
+      }
+    ],
+    "source": "synced-burak",
+    "id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518"
+  },
+  {
+    "groups": [
+      {
+        "category": "Past tense movement verbs",
+        "difficulty": "easy",
+        "words": [
+          "WALKED",
+          "WENT",
+          "CAME",
+          "TURNED"
+        ],
+        "explanation": "Past tense movement verbs"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "PLAY",
+          "ARRAY",
+          "LES",
+          "EVERYDAY"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Things with a \"potato",
+        "difficulty": "hard",
+        "words": [
+          "COUCH",
+          "BAND",
+          "GUEST",
+          "AUDIENCE"
+        ],
+        "explanation": "Things with a \"potato"
+      },
+      {
+        "category": "___ + \"BOARD\"",
+        "difficulty": "tricky",
+        "words": [
+          "BUCK",
+          "FLOOR",
+          "CARD",
+          "SCORE"
+        ],
+        "explanation": "___ + \"BOARD\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "7cff7d56-6795-49e3-9fc2-fbb5cccb7fb6"
+  },
+  {
+    "groups": [
+      {
+        "category": "MUSICAL GENRES",
+        "difficulty": "easy",
+        "words": [
+          "MUSIC",
+          "MUSICALLY",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "explanation": "MUSICAL GENRES"
+      },
+      {
+        "category": "TERMS RELATED TO CHANGE",
+        "difficulty": "medium",
+        "words": [
+          "TERMINOLOGY",
+          "JARGON",
+          "VOCABULARY",
+          "GLOSSARY"
+        ],
+        "explanation": "TERMS RELATED TO CHANGE"
+      },
+      {
+        "category": "WORDS ASSOCIATED WITH WATER",
+        "difficulty": "hard",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "DRENCHED",
+          "PERVAPORATION"
+        ],
+        "explanation": "WORDS ASSOCIATED WITH WATER"
+      },
+      {
+        "category": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
+        "difficulty": "tricky",
+        "words": [
+          "GREGARIOUS",
+          "INTERPERSONAL",
+          "RAPPORT",
+          "AFFECTIONATE"
+        ],
+        "explanation": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR"
+      }
+    ],
+    "source": "synced-kevin_fresh",
+    "id": "eaac41f1-39b7-4070-b2aa-7d978b29093e"
+  },
+  {
+    "groups": [
+      {
+        "category": "Bodies of water",
+        "difficulty": "easy",
+        "words": [
+          "COVE",
+          "BEACH",
+          "LAKE",
+          "CREEK"
+        ],
+        "explanation": "Bodies of water"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "LOW",
+          "ALTHOUGH",
+          "THROW",
+          "HELLO"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Parts of a Newspaper",
+        "difficulty": "hard",
+        "words": [
+          "COLUMN",
+          "SECTION",
+          "FOLD",
+          "SPREAD"
+        ],
+        "explanation": "Parts of a Newspaper"
+      },
+      {
+        "category": "___ + \"LAND\"",
+        "difficulty": "tricky",
+        "words": [
+          "HIGH",
+          "FIN",
+          "HOME",
+          "ICE"
+        ],
+        "explanation": "___ + \"LAND\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "8cda65ea-d562-4ec3-b57f-7f7aa2b2b488"
+  },
+  {
+    "groups": [
+      {
+        "category": "Precious metals and elements",
+        "difficulty": "easy",
+        "words": [
+          "GOLD",
+          "SILVER",
+          "COPPER",
+          "PLATINUM"
+        ],
+        "explanation": "Precious metals and elements"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "EAT",
+          "RECEIPT",
+          "SHEET",
+          "SUITE"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Things You Can Give",
+        "difficulty": "hard",
+        "words": [
+          "DRINK",
+          "CEMENT",
+          "TAPE",
+          "SIGNAL"
+        ],
+        "explanation": "Things You Can Give"
+      },
+      {
+        "category": "___ + \"BACK\"",
+        "difficulty": "tricky",
+        "words": [
+          "DRAW",
+          "FEED",
+          "COME",
+          "LINE"
+        ],
+        "explanation": "___ + \"BACK\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "d79f0f1a-46e8-4bd5-a056-fee3d36a0ab3"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things that can be ___ eyes",
+        "difficulty": "easy",
+        "words": [
+          "BREAKING",
+          "SETTING",
+          "REACHING",
+          "LOCKING"
+        ],
+        "explanation": "Things that can be ___ eyes"
+      },
+      {
+        "category": "All contain \"QU\"",
+        "difficulty": "medium",
+        "words": [
+          "BROKE",
+          "INQUIRE",
+          "QUANTUM",
+          "AQUARIUM"
+        ],
+        "explanation": "All contain \"QU\""
+      },
+      {
+        "category": "Things in Game of Thrones",
+        "difficulty": "hard",
+        "words": [
+          "WALL",
+          "THRONE",
+          "DRAGON",
+          "WINTER"
+        ],
+        "explanation": "Things in Game of Thrones"
+      },
+      {
+        "category": "\"UP\" + ___",
+        "difficulty": "tricky",
+        "words": [
+          "DATE",
+          "SET",
+          "COMING",
+          "GRADE"
+        ],
+        "explanation": "\"UP\" + ___"
+      }
+    ],
+    "source": "synced-burak",
+    "id": "69f1eff5-af23-4c19-b0e2-d28b7bcdd735"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things on a job description",
+        "difficulty": "easy",
+        "words": [
+          "TASKS",
+          "FUNCTION",
+          "ASSIGNMENT",
+          "WORK"
+        ],
+        "explanation": "Things on a job description"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "DOOR",
+          "CORPS",
+          "BEFORE",
+          "SHORE"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Dead _____ (things that can follow \"dead\")",
+        "difficulty": "hard",
+        "words": [
+          "HEAT",
+          "WEIGHT",
+          "RINGER",
+          "STOCK"
+        ],
+        "explanation": "Dead _____ (things that can follow \"dead\")"
+      },
+      {
+        "category": "___ + \"WAY\"",
+        "difficulty": "tricky",
+        "words": [
+          "GATE",
+          "RAIL",
+          "BROAD",
+          "HIGH"
+        ],
+        "explanation": "___ + \"WAY\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "8a4d28b6-9e1c-499f-9238-1df976fdbff8"
+  },
+  {
+    "groups": [
+      {
+        "category": "Adverbs that soften statements",
+        "difficulty": "easy",
+        "words": [
+          "MERELY",
+          "SIMPLY",
+          "RATHER",
+          "INSTEAD"
+        ],
+        "explanation": "Adverbs that soften statements"
+      },
+      {
+        "category": "All contain \"GHT\"",
+        "difficulty": "medium",
+        "words": [
+          "FOUGHT",
+          "NIGHT",
+          "STRAIGHT",
+          "PAGE"
+        ],
+        "explanation": "All contain \"GHT\""
+      },
+      {
+        "category": "Things you can charcuterie",
+        "difficulty": "hard",
+        "words": [
+          "BOARD",
+          "CHEESE",
+          "CURED",
+          "SPREAD"
+        ],
+        "explanation": "Things you can charcuterie"
+      },
+      {
+        "category": "___ + \"BOOK\"",
+        "difficulty": "tricky",
+        "words": [
+          "SKETCH",
+          "POCKET",
+          "NOTE",
+          "TEXT"
+        ],
+        "explanation": "___ + \"BOOK\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "84dcae44-b634-497b-8b6a-74057513effc"
+  },
+  {
+    "groups": [
+      {
+        "category": "Words for area of ground",
+        "difficulty": "easy",
+        "words": [
+          "TRACT",
+          "ACRE",
+          "PARCEL",
+          "LAND"
+        ],
+        "explanation": "Words for area of ground"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "WEATHER",
+          "ROULETTE",
+          "FORGET",
+          "LAFAYETTE"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Things You Move in Games",
+        "difficulty": "hard",
+        "words": [
+          "DICE",
+          "CARD",
+          "TOKEN",
+          "PIECE"
+        ],
+        "explanation": "Things You Move in Games"
+      },
+      {
+        "category": "\"RAIN\" + ___",
+        "difficulty": "tricky",
+        "words": [
+          "BOW",
+          "STORM",
+          "COAT",
+          "FALL"
+        ],
+        "explanation": "\"RAIN\" + ___"
+      }
+    ],
+    "source": "synced-burak",
+    "id": "50b053bd-60e4-45ad-a575-af5c7c787d78"
+  },
+  {
+    "groups": [
+      {
+        "category": "astronomical terms",
+        "difficulty": "easy",
+        "words": [
+          "NEBULA",
+          "SUPERNOVA",
+          "BLACK HOLE",
+          "COMET"
+        ],
+        "explanation": "astronomical terms"
+      },
+      {
+        "category": "types of stages or phases",
+        "difficulty": "medium",
+        "words": [
+          "PUBERTY",
+          "CRISIS",
+          "RENAISSANCE",
+          "INFANCY"
+        ],
+        "explanation": "types of stages or phases"
+      },
+      {
+        "category": "words that can follow 'split'",
+        "difficulty": "hard",
+        "words": [
+          "DECISION",
+          "SECOND",
+          "ENDS",
+          "PERSONALITY"
+        ],
+        "explanation": "words that can follow 'split'"
+      },
+      {
+        "category": "collective nouns for unusual professions",
+        "difficulty": "tricky",
+        "words": [
+          "A MISCHIEF",
+          "A MURMURATION",
+          "A TROOP",
+          "A GALAXY"
+        ],
+        "explanation": "collective nouns for unusual professions"
+      }
+    ],
+    "source": "synced-adreama",
+    "id": "a0ab0d4c-f7d5-4ea5-a940-783041955f4e"
+  },
+  {
+    "groups": [
+      {
+        "category": "room types in a house",
+        "difficulty": "easy",
+        "words": [
+          "KITCHEN",
+          "BATHROOM",
+          "BEDROOM",
+          "LIVING ROOM"
+        ],
+        "explanation": "room types in a house"
+      },
+      {
+        "category": "famous authors' pen names",
+        "difficulty": "medium",
+        "words": [
+          "GEORGE ORWELL",
+          "MARK TWAIN",
+          "LEWIS CARROLL",
+          "OVIDIUS NASO"
+        ],
+        "explanation": "famous authors' pen names"
+      },
+      {
+        "category": "words that precede 'table'",
+        "difficulty": "hard",
+        "words": [
+          "COFFEE",
+          "DINING",
+          "POOL",
+          "PERIODIC"
+        ],
+        "explanation": "words that precede 'table'"
+      },
+      {
+        "category": "characters in Alice in Wonderland",
+        "difficulty": "tricky",
+        "words": [
+          "CATERPILLAR",
+          "CHESHIRE CAT",
+          "DORMOUSE",
+          "HARE"
+        ],
+        "explanation": "characters in Alice in Wonderland"
+      }
+    ],
+    "source": "synced-adreama",
+    "id": "405f097a-66af-450d-a60e-e5ced2730106"
+  },
+  {
+    "groups": [
+      {
+        "category": "types of drinkware",
+        "difficulty": "easy",
+        "words": [
+          "MUG",
+          "GOBLET",
+          "TUMBLER",
+          "GLASS"
+        ],
+        "explanation": "types of drinkware"
+      },
+      {
+        "category": "famous rivers",
+        "difficulty": "medium",
+        "words": [
+          "NILE",
+          "AMAZON",
+          "YANGTZE",
+          "DANUBE"
+        ],
+        "explanation": "famous rivers"
+      },
+      {
+        "category": "phrases ending with 'over'",
+        "difficulty": "hard",
+        "words": [
+          "VOICE",
+          "LEFT",
+          "TURN",
+          "DO"
+        ],
+        "explanation": "phrases ending with 'over'"
+      },
+      {
+        "category": "collective nouns for crocodiles",
+        "difficulty": "tricky",
+        "words": [
+          "BASK",
+          "CONGREGATION",
+          "FLOAT",
+          "NEST"
+        ],
+        "explanation": "collective nouns for crocodiles"
+      }
+    ],
+    "source": "synced-adreama",
+    "id": "2821aae6-f883-4b14-a206-4894ec5d3451"
+  },
+  {
+    "groups": [
+      {
+        "category": "Parts of the body",
+        "difficulty": "easy",
+        "words": [
+          "LEG",
+          "KNEE",
+          "NECK",
+          "WRIST"
+        ],
+        "explanation": "Parts of the body"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "SHOULDER",
+          "THOUGH",
+          "TOE",
+          "KNOW"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Words That Can Follow \"Inside",
+        "difficulty": "hard",
+        "words": [
+          "HEIST",
+          "CAPER",
+          "INSIDE",
+          "JOB"
+        ],
+        "explanation": "Words That Can Follow \"Inside"
+      },
+      {
+        "category": "___ + \"HOLE\"",
+        "difficulty": "tricky",
+        "words": [
+          "KEY",
+          "LOOP",
+          "ARM",
+          "FOX"
+        ],
+        "explanation": "___ + \"HOLE\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "34ab2a3f-6522-4b40-b53f-9afa8e8ce4ff"
+  },
+  {
+    "groups": [
+      {
+        "category": "forms of government",
+        "difficulty": "easy",
+        "words": [
+          "DEMOCRACY",
+          "MONARCHY",
+          "OLIGARCHY",
+          "THEOCRACY"
+        ],
+        "explanation": "forms of government"
+      },
+      {
+        "category": "famous fictional schools",
+        "difficulty": "medium",
+        "words": [
+          "HOGWARTS",
+          "XAVIERS",
+          "BAYSIDE",
+          "THIRD STREET"
+        ],
+        "explanation": "famous fictional schools"
+      },
+      {
+        "category": "words that precede 'bed'",
+        "difficulty": "hard",
+        "words": [
+          "FEATHER",
+          "FLOWER",
+          "RIVER",
+          "SUN"
+        ],
+        "explanation": "words that precede 'bed'"
+      },
+      {
+        "category": "collective nouns for specific birds",
+        "difficulty": "tricky",
+        "words": [
+          "AN UNKINDNESS",
+          "A PARLIAMENT",
+          "A WAKE",
+          "A CONVOCATION"
+        ],
+        "explanation": "collective nouns for specific birds"
+      }
+    ],
+    "source": "synced-adreama",
+    "id": "b62f2cba-b2b2-4650-9678-2e7b6bc79a94"
+  },
+  {
+    "groups": [
+      {
+        "category": "Bodies of Water",
+        "difficulty": "easy",
+        "words": [
+          "COVE",
+          "LAKE",
+          "CREEK",
+          "POND"
+        ],
+        "explanation": "Bodies of Water"
+      },
+      {
+        "category": "All contain \"IGH\"",
+        "difficulty": "medium",
+        "words": [
+          "SAND",
+          "FIGHTING",
+          "MIDNIGHT",
+          "LIGHTWEIGHT"
+        ],
+        "explanation": "All contain \"IGH\""
+      },
+      {
+        "category": "Things a boxer might touch",
+        "difficulty": "hard",
+        "words": [
+          "ROPE",
+          "CORNER",
+          "CANVAS",
+          "BELL"
+        ],
+        "explanation": "Things a boxer might touch"
+      },
+      {
+        "category": "___ + \"HEAD\"",
+        "difficulty": "tricky",
+        "words": [
+          "BEACH",
+          "RAIL",
+          "FORE",
+          "WAR"
+        ],
+        "explanation": "___ + \"HEAD\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "523e1ad2-dafe-487e-8f41-4ccf035370d6"
+  },
+  {
+    "groups": [
+      {
+        "category": "Corporate leadership positions",
+        "difficulty": "easy",
+        "words": [
+          "DIRECTOR",
+          "EXECUTIVE",
+          "MANAGER",
+          "CHAIRMAN"
+        ],
+        "explanation": "Corporate leadership positions"
+      },
+      {
+        "category": "All contain \"MB\"",
+        "difficulty": "medium",
+        "words": [
+          "MEMBER",
+          "MEMBRANE",
+          "THUMB",
+          "COMBINED"
+        ],
+        "explanation": "All contain \"MB\""
+      },
+      {
+        "category": "Ways to Mock Someone Verbally",
+        "difficulty": "hard",
+        "words": [
+          "ROAST",
+          "JOKE",
+          "INSULT",
+          "BURN"
+        ],
+        "explanation": "Ways to Mock Someone Verbally"
+      },
+      {
+        "category": "___ + \"MAN\"",
+        "difficulty": "tricky",
+        "words": [
+          "MAIL",
+          "GENTLE",
+          "BAT",
+          "CHAIR"
+        ],
+        "explanation": "___ + \"MAN\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "d7d85cd2-c37e-4471-8b50-123c1ae7e136"
+  },
+  {
+    "groups": [
+      {
+        "category": "Bodies of Water",
+        "difficulty": "easy",
+        "words": [
+          "BROOK",
+          "CREEK",
+          "POND",
+          "RIVER"
+        ],
+        "explanation": "Bodies of Water"
+      },
+      {
+        "category": "All contain \"MB\"",
+        "difficulty": "medium",
+        "words": [
+          "NUMBER",
+          "CLIMB",
+          "GALE",
+          "COMBINING"
+        ],
+        "explanation": "All contain \"MB\""
+      },
+      {
+        "category": "Charcuterie Board Essentials",
+        "difficulty": "hard",
+        "words": [
+          "BRIE",
+          "PROSCIUTTO",
+          "OLIVES",
+          "CRACKERS"
+        ],
+        "explanation": "Charcuterie Board Essentials"
+      },
+      {
+        "category": "___ + \"FALL\"",
+        "difficulty": "tricky",
+        "words": [
+          "DOWN",
+          "NIGHT",
+          "WIND",
+          "SNOW"
+        ],
+        "explanation": "___ + \"FALL\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things you can display",
+        "difficulty": "easy",
+        "words": [
+          "SIGNS",
+          "STICKERS",
+          "BANNER",
+          "POSTER"
+        ],
+        "explanation": "Things you can display"
+      },
+      {
+        "category": "Words that rhyme",
+        "difficulty": "medium",
+        "words": [
+          "TRASH",
+          "SUNRISE",
+          "MINIMIZE",
+          "ORGANIZE"
+        ],
+        "explanation": "Words that rhyme"
+      },
+      {
+        "category": "Things that can be \"candy",
+        "difficulty": "hard",
+        "words": [
+          "RING",
+          "RIBBON",
+          "CORN",
+          "WHEEL"
+        ],
+        "explanation": "Things that can be \"candy"
+      },
+      {
+        "category": "___ + \"LAND\"",
+        "difficulty": "tricky",
+        "words": [
+          "WASTE",
+          "TIMBER",
+          "RANGE",
+          "MAIN"
+        ],
+        "explanation": "___ + \"LAND\""
+      }
+    ],
+    "source": "synced-burak",
+    "id": "6ff8ccee-fecf-4c92-9643-d601ac255b8e"
+  },
+  {
+    "groups": [
+      {
+        "category": "types of furniture",
+        "difficulty": "easy",
+        "words": [
+          "CHAIR",
+          "TABLE",
+          "SOFA",
+          "CABINET"
+        ],
+        "explanation": "types of furniture"
+      },
+      {
+        "category": "ancient Greek philosophers",
+        "difficulty": "medium",
+        "words": [
+          "PLATO",
+          "ARISTOTLE",
+          "SOCRATES",
+          "PYTHAGORAS"
+        ],
+        "explanation": "ancient Greek philosophers"
+      },
+      {
+        "category": "words following roof",
+        "difficulty": "hard",
+        "words": [
+          "LINE",
+          "DECK",
+          "RACK",
+          "ACCESS"
+        ],
+        "explanation": "words following roof"
+      },
+      {
+        "category": "collective nouns for specific professions",
+        "difficulty": "tricky",
+        "words": [
+          "PANEL",
+          "BATTERY",
+          "CHAIN",
+          "GALAXY"
+        ],
+        "explanation": "collective nouns for specific professions"
+      }
+    ],
+    "source": "synced-adreama",
+    "id": "e80ba1e5-2417-474d-adca-aac7cfb77b79"
+  },
+  {
+    "groups": [
+      {
+        "category": "terms associated with silver",
+        "difficulty": "easy",
+        "words": [
+          "BULLION",
+          "COIN",
+          "JEWELRY",
+          "SPOON"
+        ],
+        "explanation": "terms associated with silver"
+      },
+      {
+        "category": "phrases containing 'old'",
+        "difficulty": "medium",
+        "words": [
+          "OLD SCHOOL",
+          "OLD FASHIONED",
+          "OLD FLAME",
+          "OLD GLORY"
+        ],
+        "explanation": "phrases containing 'old'"
+      },
+      {
+        "category": "words following 'golden'",
+        "difficulty": "hard",
+        "words": [
+          "RETRIEVER",
+          "AGE",
+          "RULE",
+          "RATIO"
+        ],
+        "explanation": "words following 'golden'"
+      },
+      {
+        "category": "ships in Simon and Garfunkel songs",
+        "difficulty": "tricky",
+        "words": [
+          "SILVER GIRL",
+          "HALF A MILE",
+          "ISLAND",
+          "OLD FRIENDS"
+        ],
+        "explanation": "ships in Simon and Garfunkel songs"
+      }
+    ],
+    "source": "synced-adreama",
+    "id": "79f999d0-eccc-4224-bb03-e5e20513d57a"
+  },
+  {
+    "groups": [
+      {
+        "category": "Words for the present time",
+        "difficulty": "easy",
+        "words": [
+          "NOW",
+          "STILL",
+          "ALREADY",
+          "CURRENTLY"
+        ],
+        "explanation": "Words for the present time"
+      },
+      {
+        "category": "All contain \"WR\"",
+        "difficulty": "medium",
+        "words": [
+          "WRONG",
+          "WRAPPED",
+          "WRITE",
+          "WRIGHT"
+        ],
+        "explanation": "All contain \"WR\""
+      },
+      {
+        "category": "Things That Drop at Concerts",
+        "difficulty": "hard",
+        "words": [
+          "SCREAMS",
+          "PHONES",
+          "SWEAT",
+          "CONFETTI"
+        ],
+        "explanation": "Things That Drop at Concerts"
+      },
+      {
+        "category": "\"DOWN\" + ___",
+        "difficulty": "tricky",
+        "words": [
+          "POUR",
+          "CAST",
+          "TURN",
+          "RIGHT"
+        ],
+        "explanation": "\"DOWN\" + ___"
+      }
+    ],
+    "source": "synced-burak",
+    "id": "5f8dbf9a-8730-4f3b-b46b-046fe9e7bb7d"
+  },
+  {
+    "groups": [
+      {
+        "category": "Merchants",
+        "difficulty": "easy",
+        "words": [
+          "BAKER",
+          "BUTCHER",
+          "DRAPER",
+          "TRADER"
+        ],
+        "explanation": "Merchants"
+      },
+      {
+        "category": "Settlers",
+        "difficulty": "medium",
+        "words": [
+          "FRONTIERSMAN",
+          "HOMESTEADER",
+          "NESTER",
+          "SOURDOUGH"
+        ],
+        "explanation": "Settlers"
+      },
+      {
+        "category": "Barrier Terms",
+        "difficulty": "hard",
+        "words": [
+          "BREAKWATER",
+          "BULWARK",
+          "HURDLE",
+          "RAILING"
+        ],
+        "explanation": "Barrier Terms"
+      },
+      {
+        "category": "FORE ___",
+        "difficulty": "tricky",
+        "words": [
+          "ARM",
+          "HEAD",
+          "RUNNER",
+          "SEE"
+        ],
+        "explanation": "FORE ___"
+      }
+    ],
+    "source": "synced-abuzar_nlp",
+    "id": "e6973c5e-1fc0-4991-b807-910ea8767310"
+  },
+  {
+    "groups": [
+      {
+        "category": "Educators",
+        "difficulty": "easy",
+        "words": [
+          "HEADMASTER",
+          "INSTRUCTOR",
+          "PROFESSOR",
+          "TEACHER"
+        ],
+        "explanation": "Educators"
+      },
+      {
+        "category": "Seeds",
+        "difficulty": "medium",
+        "words": [
+          "CORN",
+          "FILBERT",
+          "GRAIN",
+          "KERNEL"
+        ],
+        "explanation": "Seeds"
+      },
+      {
+        "category": "Bag Terms",
+        "difficulty": "hard",
+        "words": [
+          "ENVELOPE",
+          "POKE",
+          "PURSE",
+          "SKIN"
+        ],
+        "explanation": "Bag Terms"
+      },
+      {
+        "category": "MID ___",
+        "difficulty": "tricky",
+        "words": [
+          "AIR",
+          "DAY",
+          "NIGHT",
+          "WEEK"
+        ],
+        "explanation": "MID ___"
+      }
+    ],
+    "source": "synced-abuzar_nlp",
+    "id": "8b89b828-4ba9-45eb-97eb-b7467432a79b"
+  },
+  {
+    "groups": [
+      {
+        "category": "Buildings",
+        "difficulty": "easy",
+        "words": [
+          "COTTAGE",
+          "INN",
+          "LODGE",
+          "RESIDENCE"
+        ],
+        "explanation": "Buildings"
+      },
+      {
+        "category": "Health Professionals",
+        "difficulty": "medium",
+        "words": [
+          "CHEMIST",
+          "PATHOLOGIST",
+          "PHYSICIAN",
+          "RESIDENT"
+        ],
+        "explanation": "Health Professionals"
+      },
+      {
+        "category": "Officer Terms",
+        "difficulty": "hard",
+        "words": [
+          "CAPTAIN",
+          "MASTER",
+          "MATE",
+          "NAVIGATOR"
+        ],
+        "explanation": "Officer Terms"
+      },
+      {
+        "category": "___ TIME",
+        "difficulty": "tricky",
+        "words": [
+          "BED",
+          "MEAL",
+          "NIGHT",
+          "SPRING"
+        ],
+        "explanation": "___ TIME"
+      }
+    ],
+    "source": "synced-abuzar_nlp",
+    "id": "029212f3-75ba-4374-9991-3b32d44ed4a1"
+  },
+  {
+    "groups": [
+      {
+        "category": "Animal Tissues",
+        "difficulty": "easy",
+        "words": [
+          "CARTILAGE",
+          "INTIMA",
+          "MUCOSA",
+          "TENDON"
+        ],
+        "explanation": "Animal Tissues"
+      },
+      {
+        "category": "Utensils",
+        "difficulty": "medium",
+        "words": [
+          "BOILER",
+          "COFFEEPOT",
+          "CRACKLE",
+          "KETTLE"
+        ],
+        "explanation": "Utensils"
+      },
+      {
+        "category": "Stable Gear Terms",
+        "difficulty": "hard",
+        "words": [
+          "BIT",
+          "HARNESS",
+          "HOUSING",
+          "YOKE"
+        ],
+        "explanation": "Stable Gear Terms"
+      },
+      {
+        "category": "___ WAY",
+        "difficulty": "tricky",
+        "words": [
+          "HATCH",
+          "PARK",
+          "RAIL",
+          "SUB"
+        ],
+        "explanation": "___ WAY"
+      }
+    ],
+    "source": "synced-abuzar_nlp",
+    "id": "38ff6a11-7a57-4234-b4b8-2c2d6793932d"
+  },
+  {
+    "groups": [
+      {
+        "category": "Merchants",
+        "difficulty": "easy",
+        "words": [
+          "DEALER",
+          "JEWELER",
+          "RETAILER",
+          "VENDOR"
+        ],
+        "explanation": "Merchants"
+      },
+      {
+        "category": "Cutting Implements",
+        "difficulty": "medium",
+        "words": [
+          "CHISEL",
+          "CUTTER",
+          "HATCHET",
+          "KNIFE"
+        ],
+        "explanation": "Cutting Implements"
+      },
+      {
+        "category": "Laborer Terms",
+        "difficulty": "hard",
+        "words": [
+          "FIREMAN",
+          "GYPSY",
+          "MINER",
+          "PORTER"
+        ],
+        "explanation": "Laborer Terms"
+      },
+      {
+        "category": "SUN ___",
+        "difficulty": "tricky",
+        "words": [
+          "BURN",
+          "DOWN",
+          "LIGHT",
+          "SHINE"
+        ],
+        "explanation": "SUN ___"
+      }
+    ],
+    "source": "synced-abuzar_nlp",
+    "id": "e3c5ce1b-a29a-4ecd-a389-50e0e2766da8"
+  },
+  {
+    "groups": [
+      {
+        "category": "Muscles",
+        "difficulty": "easy",
+        "words": [
+          "ABDOMINAL",
+          "BICEPS",
+          "CALF",
+          "GASTROCNEMIUS"
+        ],
+        "explanation": "Muscles"
+      },
+      {
+        "category": "Weapons",
+        "difficulty": "medium",
+        "words": [
+          "BAYONET",
+          "PISTOL",
+          "REVOLVER",
+          "SHOTGUN"
+        ],
+        "explanation": "Weapons"
+      },
+      {
+        "category": "Policeman Terms",
+        "difficulty": "hard",
+        "words": [
+          "BOBBY",
+          "CAPTAIN",
+          "COPPER",
+          "FUZZ"
+        ],
+        "explanation": "Policeman Terms"
+      },
+      {
+        "category": "___ WAY",
+        "difficulty": "tricky",
+        "words": [
+          "DOOR",
+          "DRIVE",
+          "HATCH",
+          "STAIR"
+        ],
+        "explanation": "___ WAY"
+      }
+    ],
+    "source": "synced-abuzar_nlp",
+    "id": "aaef97f9-9644-4d0f-bd9d-626e3f5017f7"
+  },
+  {
+    "groups": [
+      {
+        "category": "Words After APPLE",
+        "difficulty": "easy",
+        "words": [
+          "SAUCE",
+          "JUICE",
+          "PIE",
+          "CIDER"
+        ],
+        "explanation": "Each word follows APPLE to make a common food or drink compound: applesauce, apple juice, apple pie, apple cider.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_after_apple"
+      },
+      {
+        "category": "Things that can be pitched",
+        "difficulty": "medium",
+        "words": [
+          "TENT",
+          "BALL",
+          "IDEA",
+          "VOICE"
+        ],
+        "explanation": "A tent is pitched at a campsite, a ball is pitched in baseball, an idea is pitched to investors, and a voice can be pitched high or low.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_that_can_be_pitched"
+      },
+      {
+        "category": "Words hiding a big cat",
+        "difficulty": "hard",
+        "words": [
+          "BILLION",
+          "TIGERISH",
+          "JAGUARS",
+          "LEOPARDS"
+        ],
+        "explanation": "Each word contains a big cat hidden inside: BILLION\u2192LION, TIGERISH\u2192TIGER, JAGUARS\u2192JAGUAR, LEOPARDS\u2192LEOPARD.",
+        "mechanism_family": "spelling",
+        "concept_key": "words_hiding_big_cat"
+      },
+      {
+        "category": "Also a type of knot",
+        "difficulty": "tricky",
+        "words": [
+          "BOWLINE",
+          "CLOVE",
+          "FIGURE",
+          "SHEEPSHANK"
+        ],
+        "explanation": "Each word is a common English word or phrase that is also the name of a specific knot used in sailing or climbing.",
+        "mechanism_family": "double_identity",
+        "concept_key": "types_of_knot"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-cd15958e79c7"
   }
 ]

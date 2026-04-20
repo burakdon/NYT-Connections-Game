@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "INTERPERSONAL",
+      "GREGARIOUS",
+      "TERMINOLOGY",
+      "MOISTURE",
+      "JARGON",
+      "GLOSSARY",
+      "MUSIC",
+      "VOCABULARY",
+      "DRENCHED",
+      "AFFECTIONATE",
+      "MUSICALLY",
+      "PERVAPORATION",
+      "MUSICIANSHIP",
+      "RAPPORT",
+      "MUSICIAN",
+      "WETNESS"
+    ],
+    "groups": [
+      {
+        "category": "MUSICAL GENRES",
+        "words": [
+          "MUSIC",
+          "MUSICALLY",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6628897190093994
+      },
+      {
+        "category": "TERMS RELATED TO CHANGE",
+        "words": [
+          "TERMINOLOGY",
+          "JARGON",
+          "VOCABULARY",
+          "GLOSSARY"
+        ],
+        "color": "green",
+        "similarity_score": 0.6170542538166046
+      },
+      {
+        "category": "WORDS ASSOCIATED WITH WATER",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "DRENCHED",
+          "PERVAPORATION"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5920474976301193
+      },
+      {
+        "category": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
+        "words": [
+          "GREGARIOUS",
+          "INTERPERSONAL",
+          "RAPPORT",
+          "AFFECTIONATE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5418798377116522
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSIC",
+                "MUSICALLY",
+                "MUSICIANSHIP",
+                "MUSICIAN"
+              ],
+              "score": 0.6628897190093994
+            },
+            {
+              "words": [
+                "TERMINOLOGY",
+                "JARGON",
+                "GLOSSARY",
+                "VOCABULARY"
+              ],
+              "score": 0.6170542538166046
+            },
+            {
+              "words": [
+                "MOISTURE",
+                "DRENCHED",
+                "PERVAPORATION",
+                "WETNESS"
+              ],
+              "score": 0.5920474976301193
+            },
+            {
+              "words": [
+                "INTERPERSONAL",
+                "GREGARIOUS",
+                "AFFECTIONATE",
+                "RAPPORT"
+              ],
+              "score": 0.5418798377116522
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSIC",
+                "MUSICALLY",
+                "MUSICIANSHIP",
+                "MUSICIAN"
+              ],
+              "score": 0.6628897190093994
+            },
+            {
+              "words": [
+                "TERMINOLOGY",
+                "JARGON",
+                "GLOSSARY",
+                "VOCABULARY"
+              ],
+              "score": 0.6170542538166046
+            },
+            {
+              "words": [
+                "MOISTURE",
+                "DRENCHED",
+                "PERVAPORATION",
+                "WETNESS"
+              ],
+              "score": 0.5920474976301193
+            },
+            {
+              "words": [
+                "INTERPERSONAL",
+                "GREGARIOUS",
+                "AFFECTIONATE",
+                "RAPPORT"
+              ],
+              "score": 0.5418798377116522
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6034678270419439,
+      "created_at": "2026-04-20T00:53:54.468920+00:00",
+      "accepted": true
+    }
+  }
+]

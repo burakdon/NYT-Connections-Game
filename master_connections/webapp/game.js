@@ -22,12 +22,59 @@ document.addEventListener('DOMContentLoaded', async () => {
             allPuzzles.length + ' puzzles available';
         loadNewPuzzle();
     } catch (e) {
+        currentPuzzle = null;
+        updatePuzzleSourceLabel();
         showMessage('Failed to load puzzles', 'wrong');
     }
 });
 
+/** Maps canonical pipeline ids (export metadata.source) to short UI labels. */
+function formatPuzzleSource(raw) {
+    if (!raw || typeof raw !== 'string') return '';
+    const key = raw.trim().toLowerCase();
+    const labels = {
+        burak: 'Burak',
+        adreama: 'Adreama',
+        kevin_fresh: 'Kevin',
+        kevin_remix: 'Kevin',
+        abuzar_nlp: 'Abuzar NLP',
+        abuzar_ai: 'Abuzar AI',
+    };
+    if (labels[key]) return labels[key];
+    return raw
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, function (c) {
+            return c.toUpperCase();
+        });
+}
+
+function updatePuzzleSourceLabel() {
+    const el = document.getElementById('puzzle-source');
+    if (!el) return;
+
+    const raw =
+        currentPuzzle &&
+        currentPuzzle.metadata &&
+        currentPuzzle.metadata.source
+            ? currentPuzzle.metadata.source
+            : currentPuzzle && currentPuzzle.source
+              ? currentPuzzle.source
+              : '';
+
+    const label = formatPuzzleSource(raw);
+    if (!label) {
+        el.textContent = '';
+        el.classList.add('hidden');
+        return;
+    }
+    el.textContent = label;
+    el.classList.remove('hidden');
+}
+
 function loadNewPuzzle() {
     if (allPuzzles.length === 0) {
+        currentPuzzle = null;
+        updatePuzzleSourceLabel();
         showMessage('No puzzles available', 'wrong');
         return;
     }
@@ -45,6 +92,7 @@ function loadNewPuzzle() {
     hideMessage();
     document.getElementById('solved-groups').innerHTML = '';
     document.getElementById('game-over').classList.add('hidden');
+    updatePuzzleSourceLabel();
     renderMistakeDots();
     renderGrid();
 }

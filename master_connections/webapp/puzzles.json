@@ -1,1 +1,136 @@
-[]
+[
+  {
+    "id": "e67416f7-1895-43c4-9078-c3063de10377",
+    "words": [
+      "STUFF",
+      "BASKET",
+      "PLATE",
+      "STEP",
+      "THING",
+      "REASON",
+      "BELL",
+      "SATISFY",
+      "JUSTIFY",
+      "QUALIFY",
+      "HOW",
+      "ASPECT",
+      "WAY",
+      "JUDGE",
+      "KNOB",
+      "HEAT"
+    ],
+    "groups": [
+      {
+        "category": "Words that can follow \"ANOTHER",
+        "words": [
+          "THING",
+          "STUFF",
+          "ASPECT",
+          "REASON"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "HOW",
+          "SATISFY",
+          "QUALIFY",
+          "JUSTIFY"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Things that can be \"hot",
+        "words": [
+          "BASKET",
+          "HEAT",
+          "PLATE",
+          "JUDGE"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "\"DOOR\" + ___",
+        "words": [
+          "STEP",
+          "BELL",
+          "KNOB",
+          "WAY"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T00:14:11.008017"
+    }
+  },
+  {
+    "id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518",
+    "words": [
+      "SHADE",
+      "CORNER",
+      "DOWN",
+      "TOMORROW",
+      "RAINBOW",
+      "STEREO",
+      "AROUND",
+      "SET",
+      "OFF",
+      "ROUND",
+      "INTO",
+      "ONTO",
+      "LIGHT",
+      "GLOVE",
+      "RING",
+      "OUT"
+    ],
+    "groups": [
+      {
+        "category": "Words that can follow \"GET",
+        "words": [
+          "OFF",
+          "ONTO",
+          "INTO",
+          "AROUND"
+        ],
+        "color": "yellow"
+      },
+      {
+        "category": "Words that rhyme",
+        "words": [
+          "OUT",
+          "STEREO",
+          "RAINBOW",
+          "TOMORROW"
+        ],
+        "color": "green"
+      },
+      {
+        "category": "Boxing match elements",
+        "words": [
+          "RING",
+          "GLOVE",
+          "ROUND",
+          "CORNER"
+        ],
+        "color": "blue"
+      },
+      {
+        "category": "\"SUN\" + ___",
+        "words": [
+          "LIGHT",
+          "DOWN",
+          "SET",
+          "SHADE"
+        ],
+        "color": "purple"
+      }
+    ],
+    "metadata": {
+      "source": "burak",
+      "generated_at": "2026-04-20T00:14:17.225253"
+    }
+  }
+]

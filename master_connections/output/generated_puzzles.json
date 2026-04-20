@@ -148,5 +148,2378 @@
         "fake_connection": "Words that follow \"burn"
       }
     }
+  },
+  {
+    "id": "7cff7d56-6795-49e3-9fc2-fbb5cccb7fb6",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:52:52.181867",
+    "board": [
+      "WALKED",
+      "SCORE",
+      "COUCH",
+      "CARD",
+      "GUEST",
+      "AUDIENCE",
+      "LES",
+      "FLOOR",
+      "ARRAY",
+      "CAME",
+      "BAND",
+      "EVERYDAY",
+      "PLAY",
+      "BUCK",
+      "TURNED",
+      "WENT"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "WALKED",
+          "WENT",
+          "CAME",
+          "TURNED"
+        ],
+        "connection": "Past tense movement verbs",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "PLAY",
+          "ARRAY",
+          "LES",
+          "EVERYDAY"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "COUCH",
+          "BAND",
+          "GUEST",
+          "AUDIENCE"
+        ],
+        "connection": "Things with a \"potato",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "BUCK",
+          "FLOOR",
+          "CARD",
+          "SCORE"
+        ],
+        "connection": "___ + \"BOARD\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "SCORE",
+        "imp1": "PLAY",
+        "imp2": "WIN",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Things you can do in sports"
+      }
+    }
+  },
+  {
+    "id": "eaac41f1-39b7-4070-b2aa-7d978b29093e",
+    "source": "kevin_fresh",
+    "generated_at": "2026-04-20T00:53:57.833562",
+    "board": [
+      "MOISTURE",
+      "GLOSSARY",
+      "RAPPORT",
+      "JARGON",
+      "INTERPERSONAL",
+      "VOCABULARY",
+      "DRENCHED",
+      "PERVAPORATION",
+      "TERMINOLOGY",
+      "MUSICIANSHIP",
+      "AFFECTIONATE",
+      "MUSIC",
+      "GREGARIOUS",
+      "MUSICALLY",
+      "MUSICIAN",
+      "WETNESS"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "MUSIC",
+          "MUSICALLY",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "connection": "MUSICAL GENRES",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "green": {
+        "words": [
+          "TERMINOLOGY",
+          "JARGON",
+          "VOCABULARY",
+          "GLOSSARY"
+        ],
+        "connection": "TERMS RELATED TO CHANGE",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "blue": {
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "DRENCHED",
+          "PERVAPORATION"
+        ],
+        "connection": "WORDS ASSOCIATED WITH WATER",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "purple": {
+        "words": [
+          "GREGARIOUS",
+          "INTERPERSONAL",
+          "RAPPORT",
+          "AFFECTIONATE"
+        ],
+        "connection": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
+        "mechanism": "kevin_cfr_fresh"
+      }
+    },
+    "meta": {
+      "mode": "fresh",
+      "similarity_scores": {
+        "yellow": 0.6628897190093994,
+        "green": 0.6170542538166046,
+        "blue": 0.5920474976301193,
+        "purple": 0.5418798377116522
+      },
+      "solver_validation": {}
+    }
+  },
+  {
+    "id": "8cda65ea-d562-4ec3-b57f-7f7aa2b2b488",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:54:04.249643",
+    "board": [
+      "COLUMN",
+      "SECTION",
+      "HOME",
+      "FIN",
+      "LOW",
+      "BEACH",
+      "ALTHOUGH",
+      "FOLD",
+      "LAKE",
+      "HIGH",
+      "ICE",
+      "COVE",
+      "HELLO",
+      "THROW",
+      "CREEK",
+      "SPREAD"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "COVE",
+          "BEACH",
+          "LAKE",
+          "CREEK"
+        ],
+        "connection": "Bodies of water",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "LOW",
+          "ALTHOUGH",
+          "THROW",
+          "HELLO"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "COLUMN",
+          "SECTION",
+          "FOLD",
+          "SPREAD"
+        ],
+        "connection": "Parts of a Newspaper",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "HIGH",
+          "FIN",
+          "HOME",
+          "ICE"
+        ],
+        "connection": "___ + \"LAND\"",
+        "mechanism": "suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "HIGH",
+        "imp1": "LOW",
+        "imp2": "LOWER",
+        "imp1_target": "blue",
+        "imp2_target": "green",
+        "fake_connection": "Comparative adjectives of vertical position"
+      }
+    }
+  },
+  {
+    "id": "d79f0f1a-46e8-4bd5-a056-fee3d36a0ab3",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:54:36.148567",
+    "board": [
+      "DRINK",
+      "FEED",
+      "SILVER",
+      "EAT",
+      "COPPER",
+      "SHEET",
+      "LINE",
+      "PLATINUM",
+      "GOLD",
+      "COME",
+      "RECEIPT",
+      "SUITE",
+      "SIGNAL",
+      "TAPE",
+      "CEMENT",
+      "DRAW"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "GOLD",
+          "SILVER",
+          "COPPER",
+          "PLATINUM"
+        ],
+        "connection": "Precious metals and elements",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "EAT",
+          "RECEIPT",
+          "SHEET",
+          "SUITE"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "DRINK",
+          "CEMENT",
+          "TAPE",
+          "SIGNAL"
+        ],
+        "connection": "Things You Can Give",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "DRAW",
+          "FEED",
+          "COME",
+          "LINE"
+        ],
+        "connection": "___ + \"BACK\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "FEED",
+        "imp1": "EAT",
+        "imp2": "HUNGRY",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Things related to hunger/eating"
+      }
+    }
+  },
+  {
+    "id": "69f1eff5-af23-4c19-b0e2-d28b7bcdd735",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:54:57.735722",
+    "board": [
+      "COMING",
+      "DRAGON",
+      "LOCKING",
+      "THRONE",
+      "BROKE",
+      "SETTING",
+      "SET",
+      "DATE",
+      "WINTER",
+      "QUANTUM",
+      "GRADE",
+      "WALL",
+      "AQUARIUM",
+      "INQUIRE",
+      "BREAKING",
+      "REACHING"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "BREAKING",
+          "SETTING",
+          "REACHING",
+          "LOCKING"
+        ],
+        "connection": "Things that can be ___ eyes",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "BROKE",
+          "INQUIRE",
+          "QUANTUM",
+          "AQUARIUM"
+        ],
+        "connection": "All contain \"QU\"",
+        "mechanism": "letter_pattern"
+      },
+      "blue": {
+        "words": [
+          "WALL",
+          "THRONE",
+          "DRAGON",
+          "WINTER"
+        ],
+        "connection": "Things in Game of Thrones",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "DATE",
+          "SET",
+          "COMING",
+          "GRADE"
+        ],
+        "connection": "\"UP\" + ___",
+        "mechanism": "prefix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "SET",
+        "imp1": "BROKE",
+        "imp2": "BREAKING",
+        "imp1_target": "green",
+        "imp2_target": "yellow",
+        "fake_connection": "Words that can precede 'record'"
+      }
+    }
+  },
+  {
+    "id": "8a4d28b6-9e1c-499f-9238-1df976fdbff8",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:55:14.873651",
+    "board": [
+      "RINGER",
+      "HIGH",
+      "HEAT",
+      "WORK",
+      "FUNCTION",
+      "DOOR",
+      "WEIGHT",
+      "GATE",
+      "CORPS",
+      "TASKS",
+      "BROAD",
+      "BEFORE",
+      "STOCK",
+      "RAIL",
+      "ASSIGNMENT",
+      "SHORE"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "TASKS",
+          "FUNCTION",
+          "ASSIGNMENT",
+          "WORK"
+        ],
+        "connection": "Things on a job description",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "DOOR",
+          "CORPS",
+          "BEFORE",
+          "SHORE"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "HEAT",
+          "WEIGHT",
+          "RINGER",
+          "STOCK"
+        ],
+        "connection": "Dead _____ (things that can follow \"dead\")",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "GATE",
+          "RAIL",
+          "BROAD",
+          "HIGH"
+        ],
+        "connection": "___ + \"WAY\"",
+        "mechanism": "suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "GATE",
+        "imp1": "DOOR",
+        "imp2": "ENTRANCE",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Things you can crash through"
+      }
+    }
+  },
+  {
+    "id": "84dcae44-b634-497b-8b6a-74057513effc",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:55:46.298812",
+    "board": [
+      "NIGHT",
+      "FOUGHT",
+      "PAGE",
+      "TEXT",
+      "SKETCH",
+      "BOARD",
+      "POCKET",
+      "INSTEAD",
+      "CURED",
+      "CHEESE",
+      "NOTE",
+      "SPREAD",
+      "SIMPLY",
+      "MERELY",
+      "STRAIGHT",
+      "RATHER"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "MERELY",
+          "SIMPLY",
+          "RATHER",
+          "INSTEAD"
+        ],
+        "connection": "Adverbs that soften statements",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "FOUGHT",
+          "NIGHT",
+          "STRAIGHT",
+          "PAGE"
+        ],
+        "connection": "All contain \"GHT\"",
+        "mechanism": "letter_pattern"
+      },
+      "blue": {
+        "words": [
+          "BOARD",
+          "CHEESE",
+          "CURED",
+          "SPREAD"
+        ],
+        "connection": "Things you can charcuterie",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "SKETCH",
+          "POCKET",
+          "NOTE",
+          "TEXT"
+        ],
+        "connection": "___ + \"BOOK\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "TEXT",
+        "imp1": "PAGE",
+        "imp2": "LATEX",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Things found in a book"
+      }
+    }
+  },
+  {
+    "id": "50b053bd-60e4-45ad-a575-af5c7c787d78",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:55:53.510719",
+    "board": [
+      "TOKEN",
+      "ACRE",
+      "WEATHER",
+      "BOW",
+      "STORM",
+      "COAT",
+      "LAND",
+      "LAFAYETTE",
+      "ROULETTE",
+      "PIECE",
+      "PARCEL",
+      "TRACT",
+      "CARD",
+      "DICE",
+      "FORGET",
+      "FALL"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "TRACT",
+          "ACRE",
+          "PARCEL",
+          "LAND"
+        ],
+        "connection": "Words for area of ground",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "WEATHER",
+          "ROULETTE",
+          "FORGET",
+          "LAFAYETTE"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "DICE",
+          "CARD",
+          "TOKEN",
+          "PIECE"
+        ],
+        "connection": "Things You Move in Games",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "BOW",
+          "STORM",
+          "COAT",
+          "FALL"
+        ],
+        "connection": "\"RAIN\" + ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "STORM",
+        "imp1": "WEATHER",
+        "imp2": "FLOOD",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Natural disaster types"
+      }
+    }
+  },
+  {
+    "id": "a0ab0d4c-f7d5-4ea5-a940-783041955f4e",
+    "source": "adreama",
+    "generated_at": "2026-04-20T00:55:59.633240",
+    "board": [
+      "ENDS",
+      "PUBERTY",
+      "INFANCY",
+      "SECOND",
+      "A GALAXY",
+      "BLACK HOLE",
+      "COMET",
+      "RENAISSANCE",
+      "DECISION",
+      "SUPERNOVA",
+      "A MISCHIEF",
+      "PERSONALITY",
+      "A MURMURATION",
+      "CRISIS",
+      "NEBULA",
+      "A TROOP"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "NEBULA",
+          "SUPERNOVA",
+          "BLACK HOLE",
+          "COMET"
+        ],
+        "connection": "astronomical terms",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "PUBERTY",
+          "CRISIS",
+          "RENAISSANCE",
+          "INFANCY"
+        ],
+        "connection": "types of stages or phases",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "DECISION",
+          "SECOND",
+          "ENDS",
+          "PERSONALITY"
+        ],
+        "connection": "words that can follow 'split'",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "A MISCHIEF",
+          "A MURMURATION",
+          "A TROOP",
+          "A GALAXY"
+        ],
+        "connection": "collective nouns for unusual professions",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "a galaxy",
+      "false_group": "",
+      "trap_impersonates": "astronomical terms"
+    }
+  },
+  {
+    "id": "405f097a-66af-450d-a60e-e5ced2730106",
+    "source": "adreama",
+    "generated_at": "2026-04-20T00:56:04.052428",
+    "board": [
+      "HARE",
+      "CHESHIRE CAT",
+      "KITCHEN",
+      "POOL",
+      "OVIDIUS NASO",
+      "DINING",
+      "CATERPILLAR",
+      "DORMOUSE",
+      "BEDROOM",
+      "BATHROOM",
+      "MARK TWAIN",
+      "PERIODIC",
+      "LEWIS CARROLL",
+      "COFFEE",
+      "LIVING ROOM",
+      "GEORGE ORWELL"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "KITCHEN",
+          "BATHROOM",
+          "BEDROOM",
+          "LIVING ROOM"
+        ],
+        "connection": "room types in a house",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "GEORGE ORWELL",
+          "MARK TWAIN",
+          "LEWIS CARROLL",
+          "OVIDIUS NASO"
+        ],
+        "connection": "famous authors' pen names",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "COFFEE",
+          "DINING",
+          "POOL",
+          "PERIODIC"
+        ],
+        "connection": "words that precede 'table'",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "CATERPILLAR",
+          "CHESHIRE CAT",
+          "DORMOUSE",
+          "HARE"
+        ],
+        "connection": "characters in Alice in Wonderland",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "caterpillar",
+      "false_group": "",
+      "trap_impersonates": "insects"
+    }
+  },
+  {
+    "id": "2821aae6-f883-4b14-a206-4894ec5d3451",
+    "source": "adreama",
+    "generated_at": "2026-04-20T00:56:07.338806",
+    "board": [
+      "DO",
+      "GOBLET",
+      "NEST",
+      "FLOAT",
+      "CONGREGATION",
+      "DANUBE",
+      "TURN",
+      "LEFT",
+      "VOICE",
+      "TUMBLER",
+      "GLASS",
+      "AMAZON",
+      "MUG",
+      "BASK",
+      "YANGTZE",
+      "NILE"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "MUG",
+          "GOBLET",
+          "TUMBLER",
+          "GLASS"
+        ],
+        "connection": "types of drinkware",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "NILE",
+          "AMAZON",
+          "YANGTZE",
+          "DANUBE"
+        ],
+        "connection": "famous rivers",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "VOICE",
+          "LEFT",
+          "TURN",
+          "DO"
+        ],
+        "connection": "phrases ending with 'over'",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "BASK",
+          "CONGREGATION",
+          "FLOAT",
+          "NEST"
+        ],
+        "connection": "collective nouns for crocodiles",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "float",
+      "false_group": "",
+      "trap_impersonates": "types of drinkware"
+    }
+  },
+  {
+    "id": "34ab2a3f-6522-4b40-b53f-9afa8e8ce4ff",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:56:12.359981",
+    "board": [
+      "LOOP",
+      "KNOW",
+      "NECK",
+      "TOE",
+      "CAPER",
+      "ARM",
+      "FOX",
+      "INSIDE",
+      "JOB",
+      "THOUGH",
+      "KEY",
+      "LEG",
+      "SHOULDER",
+      "WRIST",
+      "KNEE",
+      "HEIST"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "LEG",
+          "KNEE",
+          "NECK",
+          "WRIST"
+        ],
+        "connection": "Parts of the body",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "SHOULDER",
+          "THOUGH",
+          "TOE",
+          "KNOW"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "HEIST",
+          "CAPER",
+          "INSIDE",
+          "JOB"
+        ],
+        "connection": "Words That Can Follow \"Inside",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "KEY",
+          "LOOP",
+          "ARM",
+          "FOX"
+        ],
+        "connection": "___ + \"HOLE\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "ARM",
+        "imp1": "SHOULDER",
+        "imp2": "LEG",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Parts of a human body"
+      }
+    }
+  },
+  {
+    "id": "b62f2cba-b2b2-4650-9678-2e7b6bc79a94",
+    "source": "adreama",
+    "generated_at": "2026-04-20T00:56:18.021376",
+    "board": [
+      "A WAKE",
+      "DEMOCRACY",
+      "FEATHER",
+      "RIVER",
+      "HOGWARTS",
+      "SUN",
+      "FLOWER",
+      "THIRD STREET",
+      "XAVIERS",
+      "A PARLIAMENT",
+      "OLIGARCHY",
+      "BAYSIDE",
+      "AN UNKINDNESS",
+      "THEOCRACY",
+      "MONARCHY",
+      "A CONVOCATION"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "DEMOCRACY",
+          "MONARCHY",
+          "OLIGARCHY",
+          "THEOCRACY"
+        ],
+        "connection": "forms of government",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "HOGWARTS",
+          "XAVIERS",
+          "BAYSIDE",
+          "THIRD STREET"
+        ],
+        "connection": "famous fictional schools",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "FEATHER",
+          "FLOWER",
+          "RIVER",
+          "SUN"
+        ],
+        "connection": "words that precede 'bed'",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "AN UNKINDNESS",
+          "A PARLIAMENT",
+          "A WAKE",
+          "A CONVOCATION"
+        ],
+        "connection": "collective nouns for specific birds",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "a parliament",
+      "false_group": "",
+      "trap_impersonates": "forms of government"
+    }
+  },
+  {
+    "id": "523e1ad2-dafe-487e-8f41-4ccf035370d6",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:56:31.609291",
+    "board": [
+      "LIGHTWEIGHT",
+      "MIDNIGHT",
+      "POND",
+      "LAKE",
+      "ROPE",
+      "FORE",
+      "CREEK",
+      "COVE",
+      "FIGHTING",
+      "BEACH",
+      "CANVAS",
+      "SAND",
+      "RAIL",
+      "CORNER",
+      "BELL",
+      "WAR"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "COVE",
+          "LAKE",
+          "CREEK",
+          "POND"
+        ],
+        "connection": "Bodies of Water",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "SAND",
+          "FIGHTING",
+          "MIDNIGHT",
+          "LIGHTWEIGHT"
+        ],
+        "connection": "All contain \"IGH\"",
+        "mechanism": "letter_pattern"
+      },
+      "blue": {
+        "words": [
+          "ROPE",
+          "CORNER",
+          "CANVAS",
+          "BELL"
+        ],
+        "connection": "Things a boxer might touch",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "BEACH",
+          "RAIL",
+          "FORE",
+          "WAR"
+        ],
+        "connection": "___ + \"HEAD\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "BEACH",
+        "imp1": "SAND",
+        "imp2": "COVE",
+        "imp1_target": "green",
+        "imp2_target": "yellow",
+        "fake_connection": "Places to swim in summer"
+      }
+    }
+  },
+  {
+    "id": "d7d85cd2-c37e-4471-8b50-123c1ae7e136",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:56:42.255189",
+    "board": [
+      "BURN",
+      "MEMBER",
+      "CHAIR",
+      "INSULT",
+      "ROAST",
+      "THUMB",
+      "COMBINED",
+      "MEMBRANE",
+      "DIRECTOR",
+      "MANAGER",
+      "GENTLE",
+      "EXECUTIVE",
+      "BAT",
+      "MAIL",
+      "CHAIRMAN",
+      "JOKE"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "DIRECTOR",
+          "EXECUTIVE",
+          "MANAGER",
+          "CHAIRMAN"
+        ],
+        "connection": "Corporate leadership positions",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "MEMBER",
+          "MEMBRANE",
+          "THUMB",
+          "COMBINED"
+        ],
+        "connection": "All contain \"MB\"",
+        "mechanism": "letter_pattern"
+      },
+      "blue": {
+        "words": [
+          "ROAST",
+          "JOKE",
+          "INSULT",
+          "BURN"
+        ],
+        "connection": "Ways to Mock Someone Verbally",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "MAIL",
+          "GENTLE",
+          "BAT",
+          "CHAIR"
+        ],
+        "connection": "___ + \"MAN\"",
+        "mechanism": "suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "CHAIR",
+        "imp1": "MEMBER",
+        "imp2": "DIRECTOR",
+        "imp1_target": "green",
+        "imp2_target": "yellow",
+        "fake_connection": "Board ___ \" (roles in organizations)"
+      }
+    }
+  },
+  {
+    "id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:57:04.563685",
+    "board": [
+      "RIVER",
+      "DOWN",
+      "CREEK",
+      "WIND",
+      "NUMBER",
+      "POND",
+      "CLIMB",
+      "BRIE",
+      "PROSCIUTTO",
+      "CRACKERS",
+      "OLIVES",
+      "SNOW",
+      "NIGHT",
+      "COMBINING",
+      "GALE",
+      "BROOK"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "BROOK",
+          "CREEK",
+          "POND",
+          "RIVER"
+        ],
+        "connection": "Bodies of Water",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "NUMBER",
+          "CLIMB",
+          "GALE",
+          "COMBINING"
+        ],
+        "connection": "All contain \"MB\"",
+        "mechanism": "letter_pattern"
+      },
+      "blue": {
+        "words": [
+          "BRIE",
+          "PROSCIUTTO",
+          "OLIVES",
+          "CRACKERS"
+        ],
+        "connection": "Charcuterie Board Essentials",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "DOWN",
+          "NIGHT",
+          "WIND",
+          "SNOW"
+        ],
+        "connection": "___ + \"FALL\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "WIND",
+        "imp1": "GALE",
+        "imp2": "STORM",
+        "imp1_target": "blue",
+        "imp2_target": "yellow",
+        "fake_connection": "Synonyms for strong wind"
+      }
+    }
+  },
+  {
+    "id": "6ff8ccee-fecf-4c92-9643-d601ac255b8e",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:57:30.282777",
+    "board": [
+      "CORN",
+      "WHEEL",
+      "MAIN",
+      "STICKERS",
+      "BANNER",
+      "TRASH",
+      "RING",
+      "RIBBON",
+      "TIMBER",
+      "WASTE",
+      "SUNRISE",
+      "SIGNS",
+      "RANGE",
+      "POSTER",
+      "MINIMIZE",
+      "ORGANIZE"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "SIGNS",
+          "STICKERS",
+          "BANNER",
+          "POSTER"
+        ],
+        "connection": "Things you can display",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "TRASH",
+          "SUNRISE",
+          "MINIMIZE",
+          "ORGANIZE"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "RING",
+          "RIBBON",
+          "CORN",
+          "WHEEL"
+        ],
+        "connection": "Things that can be \"candy",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "WASTE",
+          "TIMBER",
+          "RANGE",
+          "MAIN"
+        ],
+        "connection": "___ + \"LAND\"",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "WASTE",
+        "imp1": "TRASH",
+        "imp2": "DISPOSAL",
+        "imp1_target": "green",
+        "imp2_target": "yellow",
+        "fake_connection": "Ways to get rid of garbage"
+      }
+    }
+  },
+  {
+    "id": "e80ba1e5-2417-474d-adca-aac7cfb77b79",
+    "source": "adreama",
+    "generated_at": "2026-04-20T00:57:36.762413",
+    "board": [
+      "RACK",
+      "TABLE",
+      "ARISTOTLE",
+      "ACCESS",
+      "SOCRATES",
+      "CHAIR",
+      "PLATO",
+      "LINE",
+      "DECK",
+      "PYTHAGORAS",
+      "SOFA",
+      "GALAXY",
+      "CABINET",
+      "BATTERY",
+      "CHAIN",
+      "PANEL"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "CHAIR",
+          "TABLE",
+          "SOFA",
+          "CABINET"
+        ],
+        "connection": "types of furniture",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "PLATO",
+          "ARISTOTLE",
+          "SOCRATES",
+          "PYTHAGORAS"
+        ],
+        "connection": "ancient Greek philosophers",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "LINE",
+          "DECK",
+          "RACK",
+          "ACCESS"
+        ],
+        "connection": "words following roof",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "PANEL",
+          "BATTERY",
+          "CHAIN",
+          "GALAXY"
+        ],
+        "connection": "collective nouns for specific professions",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "panel",
+      "false_group": "",
+      "trap_impersonates": "types of furniture"
+    }
+  },
+  {
+    "id": "79f999d0-eccc-4224-bb03-e5e20513d57a",
+    "source": "adreama",
+    "generated_at": "2026-04-20T00:58:16.689547",
+    "board": [
+      "BULLION",
+      "OLD FLAME",
+      "OLD GLORY",
+      "SILVER GIRL",
+      "RULE",
+      "ISLAND",
+      "COIN",
+      "OLD SCHOOL",
+      "AGE",
+      "HALF A MILE",
+      "OLD FASHIONED",
+      "SPOON",
+      "OLD FRIENDS",
+      "JEWELRY",
+      "RETRIEVER",
+      "RATIO"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "BULLION",
+          "COIN",
+          "JEWELRY",
+          "SPOON"
+        ],
+        "connection": "terms associated with silver",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "OLD SCHOOL",
+          "OLD FASHIONED",
+          "OLD FLAME",
+          "OLD GLORY"
+        ],
+        "connection": "phrases containing 'old'",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "RETRIEVER",
+          "AGE",
+          "RULE",
+          "RATIO"
+        ],
+        "connection": "words following 'golden'",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "SILVER GIRL",
+          "HALF A MILE",
+          "ISLAND",
+          "OLD FRIENDS"
+        ],
+        "connection": "ships in Simon and Garfunkel songs",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "silver girl",
+      "false_group": "",
+      "trap_impersonates": "silver-related terms"
+    }
+  },
+  {
+    "id": "5f8dbf9a-8730-4f3b-b46b-046fe9e7bb7d",
+    "source": "burak",
+    "generated_at": "2026-04-20T00:58:33.585667",
+    "board": [
+      "SWEAT",
+      "WRAPPED",
+      "TURN",
+      "WRITE",
+      "NOW",
+      "PHONES",
+      "SCREAMS",
+      "STILL",
+      "ALREADY",
+      "RIGHT",
+      "WRIGHT",
+      "WRONG",
+      "POUR",
+      "CURRENTLY",
+      "CONFETTI",
+      "CAST"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "NOW",
+          "STILL",
+          "ALREADY",
+          "CURRENTLY"
+        ],
+        "connection": "Words for the present time",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "WRONG",
+          "WRAPPED",
+          "WRITE",
+          "WRIGHT"
+        ],
+        "connection": "All contain \"WR\"",
+        "mechanism": "letter_pattern"
+      },
+      "blue": {
+        "words": [
+          "SCREAMS",
+          "PHONES",
+          "SWEAT",
+          "CONFETTI"
+        ],
+        "connection": "Things That Drop at Concerts",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "POUR",
+          "CAST",
+          "TURN",
+          "RIGHT"
+        ],
+        "connection": "\"DOWN\" + ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "RIGHT",
+        "imp1": "WRONG",
+        "imp2": "NOW",
+        "imp1_target": "green",
+        "imp2_target": "yellow",
+        "fake_connection": "Words that follow \"dead"
+      }
+    }
+  },
+  {
+    "id": "e6973c5e-1fc0-4991-b807-910ea8767310",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T01:00:16.913546",
+    "board": [
+      "TRADER",
+      "RAILING",
+      "RUNNER",
+      "BAKER",
+      "NESTER",
+      "ARM",
+      "HEAD",
+      "HOMESTEADER",
+      "BREAKWATER",
+      "FRONTIERSMAN",
+      "SEE",
+      "BULWARK",
+      "HURDLE",
+      "SOURDOUGH",
+      "DRAPER",
+      "BUTCHER"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "BAKER",
+          "BUTCHER",
+          "DRAPER",
+          "TRADER"
+        ],
+        "connection": "Merchants",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "FRONTIERSMAN",
+          "HOMESTEADER",
+          "NESTER",
+          "SOURDOUGH"
+        ],
+        "connection": "Settlers",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "BREAKWATER",
+          "BULWARK",
+          "HURDLE",
+          "RAILING"
+        ],
+        "connection": "Barrier Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "ARM",
+          "HEAD",
+          "RUNNER",
+          "SEE"
+        ],
+        "connection": "FORE ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "8b89b828-4ba9-45eb-97eb-b7467432a79b",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T01:00:43.883943",
+    "board": [
+      "CORN",
+      "NIGHT",
+      "ENVELOPE",
+      "KERNEL",
+      "POKE",
+      "SKIN",
+      "GRAIN",
+      "PURSE",
+      "HEADMASTER",
+      "AIR",
+      "INSTRUCTOR",
+      "DAY",
+      "TEACHER",
+      "FILBERT",
+      "PROFESSOR",
+      "WEEK"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "HEADMASTER",
+          "INSTRUCTOR",
+          "PROFESSOR",
+          "TEACHER"
+        ],
+        "connection": "Educators",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "CORN",
+          "FILBERT",
+          "GRAIN",
+          "KERNEL"
+        ],
+        "connection": "Seeds",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "ENVELOPE",
+          "POKE",
+          "PURSE",
+          "SKIN"
+        ],
+        "connection": "Bag Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "AIR",
+          "DAY",
+          "NIGHT",
+          "WEEK"
+        ],
+        "connection": "MID ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "029212f3-75ba-4374-9991-3b32d44ed4a1",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T01:00:43.940640",
+    "board": [
+      "BED",
+      "MASTER",
+      "INN",
+      "SPRING",
+      "MEAL",
+      "LODGE",
+      "PATHOLOGIST",
+      "NAVIGATOR",
+      "RESIDENT",
+      "PHYSICIAN",
+      "CAPTAIN",
+      "MATE",
+      "RESIDENCE",
+      "NIGHT",
+      "COTTAGE",
+      "CHEMIST"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "COTTAGE",
+          "INN",
+          "LODGE",
+          "RESIDENCE"
+        ],
+        "connection": "Buildings",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "CHEMIST",
+          "PATHOLOGIST",
+          "PHYSICIAN",
+          "RESIDENT"
+        ],
+        "connection": "Health Professionals",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "CAPTAIN",
+          "MASTER",
+          "MATE",
+          "NAVIGATOR"
+        ],
+        "connection": "Officer Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "BED",
+          "MEAL",
+          "NIGHT",
+          "SPRING"
+        ],
+        "connection": "___ TIME",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "38ff6a11-7a57-4234-b4b8-2c2d6793932d",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T01:00:43.997445",
+    "board": [
+      "PARK",
+      "TENDON",
+      "RAIL",
+      "HARNESS",
+      "CARTILAGE",
+      "MUCOSA",
+      "KETTLE",
+      "BOILER",
+      "HOUSING",
+      "CRACKLE",
+      "HATCH",
+      "BIT",
+      "COFFEEPOT",
+      "SUB",
+      "YOKE",
+      "INTIMA"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "CARTILAGE",
+          "INTIMA",
+          "MUCOSA",
+          "TENDON"
+        ],
+        "connection": "Animal Tissues",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "BOILER",
+          "COFFEEPOT",
+          "CRACKLE",
+          "KETTLE"
+        ],
+        "connection": "Utensils",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "BIT",
+          "HARNESS",
+          "HOUSING",
+          "YOKE"
+        ],
+        "connection": "Stable Gear Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "HATCH",
+          "PARK",
+          "RAIL",
+          "SUB"
+        ],
+        "connection": "___ WAY",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "e3c5ce1b-a29a-4ecd-a389-50e0e2766da8",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T01:00:44.049037",
+    "board": [
+      "KNIFE",
+      "DOWN",
+      "HATCHET",
+      "DEALER",
+      "VENDOR",
+      "LIGHT",
+      "SHINE",
+      "FIREMAN",
+      "CUTTER",
+      "MINER",
+      "GYPSY",
+      "JEWELER",
+      "CHISEL",
+      "RETAILER",
+      "PORTER",
+      "BURN"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "DEALER",
+          "JEWELER",
+          "RETAILER",
+          "VENDOR"
+        ],
+        "connection": "Merchants",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "CHISEL",
+          "CUTTER",
+          "HATCHET",
+          "KNIFE"
+        ],
+        "connection": "Cutting Implements",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "FIREMAN",
+          "GYPSY",
+          "MINER",
+          "PORTER"
+        ],
+        "connection": "Laborer Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "BURN",
+          "DOWN",
+          "LIGHT",
+          "SHINE"
+        ],
+        "connection": "SUN ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "aaef97f9-9644-4d0f-bd9d-626e3f5017f7",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-20T01:00:44.102277",
+    "board": [
+      "CALF",
+      "BICEPS",
+      "COPPER",
+      "CAPTAIN",
+      "STAIR",
+      "PISTOL",
+      "BOBBY",
+      "REVOLVER",
+      "ABDOMINAL",
+      "DOOR",
+      "FUZZ",
+      "DRIVE",
+      "GASTROCNEMIUS",
+      "HATCH",
+      "BAYONET",
+      "SHOTGUN"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "ABDOMINAL",
+          "BICEPS",
+          "CALF",
+          "GASTROCNEMIUS"
+        ],
+        "connection": "Muscles",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "BAYONET",
+          "PISTOL",
+          "REVOLVER",
+          "SHOTGUN"
+        ],
+        "connection": "Weapons",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "BOBBY",
+          "CAPTAIN",
+          "COPPER",
+          "FUZZ"
+        ],
+        "connection": "Policeman Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "DOOR",
+          "DRIVE",
+          "HATCH",
+          "STAIR"
+        ],
+        "connection": "___ WAY",
+        "mechanism": "compound_suffix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "3887beb6-74d2-4efe-bac5-a44792325b50",
+    "source": "abuzar_ai",
+    "generated_at": "2026-04-20T01:09:34.954067",
+    "board": [
+      "SEVEN",
+      "STRESSED",
+      "NAIL",
+      "BETWEEN",
+      "TRUCK",
+      "DRAWER",
+      "RAT",
+      "BEAVER",
+      "MOUSE",
+      "RIVER",
+      "SQUIRREL",
+      "STRAW",
+      "SHELTER",
+      "GARDEN",
+      "PEPPER",
+      "SNOOPS"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "MOUSE",
+          "RAT",
+          "BEAVER",
+          "SQUIRREL"
+        ],
+        "connection": "Rodents",
+        "mechanism": "semantic_set"
+      },
+      "green": {
+        "words": [
+          "RIVER",
+          "TRUCK",
+          "GARDEN",
+          "NAIL"
+        ],
+        "connection": "Things with a bed",
+        "mechanism": "shared_property"
+      },
+      "blue": {
+        "words": [
+          "STRESSED",
+          "DRAWER",
+          "SNOOPS",
+          "STRAW"
+        ],
+        "connection": "Words that become new words when read backward",
+        "mechanism": "spelling"
+      },
+      "purple": {
+        "words": [
+          "SEVEN",
+          "SHELTER",
+          "PEPPER",
+          "BETWEEN"
+        ],
+        "connection": "Words using only the vowel E",
+        "mechanism": "shared_property"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "1ec62301-2782-45d1-89cd-214c4cd193b0",
+    "source": "abuzar_ai",
+    "generated_at": "2026-04-20T01:26:56.327597",
+    "board": [
+      "PIE",
+      "JAGUARS",
+      "IDEA",
+      "SAUCE",
+      "CLOVE",
+      "TIGERISH",
+      "JUICE",
+      "SHEEPSHANK",
+      "BOWLINE",
+      "VOICE",
+      "FIGURE",
+      "LEOPARDS",
+      "BALL",
+      "CIDER",
+      "BILLION",
+      "TENT"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "SAUCE",
+          "JUICE",
+          "PIE",
+          "CIDER"
+        ],
+        "connection": "Words After APPLE",
+        "mechanism": "phrase_completion"
+      },
+      "green": {
+        "words": [
+          "TENT",
+          "BALL",
+          "IDEA",
+          "VOICE"
+        ],
+        "connection": "Things that can be pitched",
+        "mechanism": "shared_property"
+      },
+      "blue": {
+        "words": [
+          "BILLION",
+          "TIGERISH",
+          "JAGUARS",
+          "LEOPARDS"
+        ],
+        "connection": "Words hiding a big cat",
+        "mechanism": "spelling"
+      },
+      "purple": {
+        "words": [
+          "BOWLINE",
+          "CLOVE",
+          "FIGURE",
+          "SHEEPSHANK"
+        ],
+        "connection": "Also a type of knot",
+        "mechanism": "double_identity"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "bb40b438-db85-4ffb-8110-8032d28b3670",
+    "source": "kevin_fresh",
+    "generated_at": "2026-04-20T01:27:56.817945",
+    "board": [
+      "SOCIALITY",
+      "SOCIABILITY",
+      "ORCHESTRAL",
+      "INSTRUMENTALIST",
+      "MUSICALLY",
+      "EXPONENT",
+      "ALGEBRAICALLY",
+      "SWAMP",
+      "ESTUARY",
+      "MULTIPLICATION",
+      "POND",
+      "SOCIABLY",
+      "SOCIALLY",
+      "MUSICIAN",
+      "LAGOON",
+      "MATH"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "SOCIABILITY",
+          "SOCIABLY",
+          "SOCIALITY",
+          "SOCIALLY"
+        ],
+        "connection": "WAYS TO BE SOCIABLE",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "green": {
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "connection": "AMBIENT MUSIC ARTISTS",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "blue": {
+        "words": [
+          "ESTUARY",
+          "SWAMP",
+          "LAGOON",
+          "POND"
+        ],
+        "connection": "THINGS FOUND IN A CANAL",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "purple": {
+        "words": [
+          "EXPONENT",
+          "ALGEBRAICALLY",
+          "MULTIPLICATION",
+          "MATH"
+        ],
+        "connection": "RADICAL TERMS",
+        "mechanism": "kevin_cfr_fresh"
+      }
+    },
+    "meta": {
+      "mode": "fresh",
+      "similarity_scores": {
+        "yellow": 0.707529604434967,
+        "green": 0.6291800240675608,
+        "blue": 0.563431441783905,
+        "purple": 0.5441805273294449
+      },
+      "solver_validation": {}
+    }
+  },
+  {
+    "id": "e5d3ef4f-d49d-41bb-9a18-af2e25cfc9b9",
+    "source": "kevin_fresh",
+    "generated_at": "2026-04-20T01:28:10.505723",
+    "board": [
+      "RIVER",
+      "BARGE",
+      "SLIVERY",
+      "COMPOSITION",
+      "FRIENDSHIP",
+      "SHAPELY",
+      "MUSICIANSHIP",
+      "BEFRIEND",
+      "LOBLOLLY",
+      "ARTS",
+      "NEIGHBORLINESS",
+      "WATERFRONT",
+      "MUSICALLY",
+      "ESTUARY",
+      "FRIENDLY",
+      "SLINKY"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "RIVER",
+          "ESTUARY",
+          "WATERFRONT",
+          "BARGE"
+        ],
+        "connection": "WATERWAYS",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "green": {
+        "words": [
+          "FRIENDLY",
+          "FRIENDSHIP",
+          "BEFRIEND",
+          "NEIGHBORLINESS"
+        ],
+        "connection": "WAYS TO DESCRIBE FRIENDLINESS",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "blue": {
+        "words": [
+          "LOBLOLLY",
+          "SHAPELY",
+          "SLIVERY",
+          "SLINKY"
+        ],
+        "connection": "WORDS ENDING IN 'LY'",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "purple": {
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "COMPOSITION"
+        ],
+        "connection": "GENRES OF MUSIC",
+        "mechanism": "kevin_cfr_fresh"
+      }
+    },
+    "meta": {
+      "mode": "fresh",
+      "similarity_scores": {
+        "yellow": 0.588820238908132,
+        "green": 0.5741855849822363,
+        "blue": 0.5718330144882202,
+        "purple": 0.5407992502053579
+      },
+      "solver_validation": {}
+    }
+  },
+  {
+    "id": "3916c8a0-73e8-4b4a-83e6-cddaf3f96ac2",
+    "source": "kevin_fresh",
+    "generated_at": "2026-04-20T01:28:32.966256",
+    "board": [
+      "SURROUNDINGS",
+      "WHARF",
+      "ENERGETICALLY",
+      "CANTLE",
+      "THERMODYNAMIC",
+      "HARBOR",
+      "CANTER",
+      "ENVIRON",
+      "AMBIENT",
+      "CANAL",
+      "WATERFRONT",
+      "CANDOUR",
+      "CANTERING",
+      "ENERGETIC",
+      "FUEL",
+      "ATMOSPHERIC"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "CANAL",
+          "WATERFRONT",
+          "WHARF",
+          "HARBOR"
+        ],
+        "connection": "FAMOUS CANALS",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "green": {
+        "words": [
+          "CANTER",
+          "CANTLE",
+          "CANDOUR",
+          "CANTERING"
+        ],
+        "connection": "WORDS CONTAINING 'CAN'",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "blue": {
+        "words": [
+          "THERMODYNAMIC",
+          "FUEL",
+          "ENERGETICALLY",
+          "ENERGETIC"
+        ],
+        "connection": "FORMS OF ENERGY",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "purple": {
+        "words": [
+          "SURROUNDINGS",
+          "AMBIENT",
+          "ENVIRON",
+          "ATMOSPHERIC"
+        ],
+        "connection": "WAYS TO DESCRIBE AMBIENCE",
+        "mechanism": "kevin_cfr_fresh"
+      }
+    },
+    "meta": {
+      "mode": "fresh",
+      "similarity_scores": {
+        "yellow": 0.6047859787940979,
+        "green": 0.5905311654011408,
+        "blue": 0.5286541879177094,
+        "purple": 0.5274365494648615
+      },
+      "solver_validation": {}
+    }
+  },
+  {
+    "id": "22d64305-e465-4058-8116-b6e66ac89a1f",
+    "source": "kevin_fresh",
+    "generated_at": "2026-04-20T01:30:17.277758",
+    "board": [
+      "ESTUARY",
+      "SOCIETY",
+      "DAYLIGHT",
+      "EMBANKMENT",
+      "SPECTACULARLY",
+      "LIGHTS",
+      "CANAL",
+      "SOCIETAL",
+      "DRASTICALLY",
+      "DRAMATICALLY",
+      "SOCIABILITY",
+      "SOCIALITY",
+      "DRAINAGE",
+      "ILLUMINATING",
+      "MOONLIGHT",
+      "MARKEDLY"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "MARKEDLY",
+          "DRAMATICALLY",
+          "DRASTICALLY",
+          "SPECTACULARLY"
+        ],
+        "connection": "WAYS TO SAY RADICALLY",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "green": {
+        "words": [
+          "SOCIALITY",
+          "SOCIETAL",
+          "SOCIETY",
+          "SOCIABILITY"
+        ],
+        "connection": "SOCIALLY ACCEPTED BEHAVIOR",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "blue": {
+        "words": [
+          "ILLUMINATING",
+          "DAYLIGHT",
+          "LIGHTS",
+          "MOONLIGHT"
+        ],
+        "connection": "WORDS FOR AMBIENT LIGHTING",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "purple": {
+        "words": [
+          "CANAL",
+          "DRAINAGE",
+          "ESTUARY",
+          "EMBANKMENT"
+        ],
+        "connection": "WORDS RELATED TO CANALS",
+        "mechanism": "kevin_cfr_fresh"
+      }
+    },
+    "meta": {
+      "mode": "fresh",
+      "similarity_scores": {
+        "yellow": 0.7337576746940613,
+        "green": 0.7135739425818125,
+        "blue": 0.6029201745986938,
+        "purple": 0.47986099620660144
+      },
+      "solver_validation": {}
+    }
+  },
+  {
+    "id": "8e9359d4-a998-450d-a1cd-e3f0e098f461",
+    "source": "kevin_fresh",
+    "generated_at": "2026-04-20T01:30:30.515682",
+    "board": [
+      "FLASHLIGHT",
+      "LAMP",
+      "BARGE",
+      "LAMPLIGHT",
+      "CANDOUR",
+      "RIVER",
+      "ADVERB",
+      "ADJECTIVAL",
+      "BULB",
+      "ADVERBIAL",
+      "CANTER",
+      "CAN",
+      "CONSONANTAL",
+      "CANTLE",
+      "RIVERBANK",
+      "WATERFRONT"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "LAMPLIGHT",
+          "LAMP",
+          "BULB",
+          "FLASHLIGHT"
+        ],
+        "connection": "TYPES OF LIGHTING",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "green": {
+        "words": [
+          "BARGE",
+          "WATERFRONT",
+          "RIVER",
+          "RIVERBANK"
+        ],
+        "connection": "CANALS AROUND THE WORLD",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "blue": {
+        "words": [
+          "ADVERB",
+          "ADVERBIAL",
+          "ADJECTIVAL",
+          "CONSONANTAL"
+        ],
+        "connection": "ADVERBS ENDING IN '-LY'",
+        "mechanism": "kevin_cfr_fresh"
+      },
+      "purple": {
+        "words": [
+          "CAN",
+          "CANTLE",
+          "CANTER",
+          "CANDOUR"
+        ],
+        "connection": "WORDS THAT START WITH 'CAN'",
+        "mechanism": "kevin_cfr_fresh"
+      }
+    },
+    "meta": {
+      "mode": "fresh",
+      "similarity_scores": {
+        "yellow": 0.7144956787427267,
+        "green": 0.6192683974901835,
+        "blue": 0.5637098252773285,
+        "purple": 0.5291597992181778
+      },
+      "solver_validation": {}
+    }
   }
 ]

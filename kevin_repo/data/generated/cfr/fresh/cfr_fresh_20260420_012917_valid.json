@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "ESTUARY",
+      "RIVER",
+      "MUSICALLY",
+      "SOCIALLY",
+      "INSTRUMENTALIST",
+      "ORCHESTRAL",
+      "UPRISING",
+      "MUSICIAN",
+      "SOCIABILITY",
+      "BARGE",
+      "DISOBEDIENCE",
+      "CLIQUE",
+      "INSURRECTION",
+      "WATERFRONT",
+      "REBELLION",
+      "SOCIALITY"
+    ],
+    "groups": [
+      {
+        "category": "RADICAL MOVEMENTS",
+        "words": [
+          "UPRISING",
+          "DISOBEDIENCE",
+          "INSURRECTION",
+          "REBELLION"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7428610821564993
+      },
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "green",
+        "similarity_score": 0.6291800240675608
+      },
+      {
+        "category": "SOCIAL NETWORKS",
+        "words": [
+          "SOCIALITY",
+          "SOCIALLY",
+          "SOCIABILITY",
+          "CLIQUE"
+        ],
+        "color": "blue",
+        "similarity_score": 0.6068495561679205
+      },
+      {
+        "category": "WATERWAYS",
+        "words": [
+          "RIVER",
+          "ESTUARY",
+          "WATERFRONT",
+          "BARGE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.588820238908132
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "UPRISING",
+                "DISOBEDIENCE",
+                "INSURRECTION",
+                "REBELLION"
+              ],
+              "score": 0.7428610821564993
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "ORCHESTRAL",
+                "MUSICIAN"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "SOCIALLY",
+                "SOCIABILITY",
+                "CLIQUE",
+                "SOCIALITY"
+              ],
+              "score": 0.6068495561679205
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "RIVER",
+                "BARGE",
+                "WATERFRONT"
+              ],
+              "score": 0.588820199171702
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "UPRISING",
+                "DISOBEDIENCE",
+                "INSURRECTION",
+                "REBELLION"
+              ],
+              "score": 0.7428610821564993
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "ORCHESTRAL",
+                "MUSICIAN"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "SOCIALLY",
+                "SOCIABILITY",
+                "CLIQUE",
+                "SOCIALITY"
+              ],
+              "score": 0.6068495561679205
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "RIVER",
+                "BARGE",
+                "WATERFRONT"
+              ],
+              "score": 0.588820199171702
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6419277253250282,
+      "created_at": "2026-04-20T01:29:15.626280+00:00",
+      "accepted": true
+    }
+  }
+]

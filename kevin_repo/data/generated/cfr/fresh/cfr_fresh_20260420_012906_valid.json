@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "WATERFRONT",
+      "CANAL",
+      "MUSICALLY",
+      "MANTIC",
+      "INSTRUMENTALIST",
+      "ORCHESTRAL",
+      "EXIT",
+      "MUSICIAN",
+      "MANUMISSION",
+      "WHARF",
+      "DEPARTURE",
+      "MANFULNESS",
+      "DEPART",
+      "RIVERBANK",
+      "LEAVING",
+      "MENDACIOUS"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO SAY GOODBYE",
+        "words": [
+          "EXIT",
+          "DEPARTURE",
+          "DEPART",
+          "LEAVING"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7183854579925537
+      },
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "green",
+        "similarity_score": 0.6291800240675608
+      },
+      {
+        "category": "WORDS ENDING WITH -MENT",
+        "words": [
+          "MENDACIOUS",
+          "MANTIC",
+          "MANUMISSION",
+          "MANFULNESS"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5934106806914011
+      },
+      {
+        "category": "NAMES OF NEW YORK CITY CANALS",
+        "words": [
+          "CANAL",
+          "WATERFRONT",
+          "RIVERBANK",
+          "WHARF"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5764104525248209
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854679266611
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "ORCHESTRAL",
+                "MUSICIAN"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "MANTIC",
+                "MANUMISSION",
+                "MANFULNESS",
+                "MENDACIOUS"
+              ],
+              "score": 0.5934106806914011
+            },
+            {
+              "words": [
+                "WATERFRONT",
+                "CANAL",
+                "WHARF",
+                "RIVERBANK"
+              ],
+              "score": 0.5764104525248209
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "ORCHESTRAL",
+                "MUSICIAN"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "MANTIC",
+                "MANUMISSION",
+                "MANFULNESS",
+                "MENDACIOUS"
+              ],
+              "score": 0.5934106806914011
+            },
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854679266611
+            },
+            {
+              "words": [
+                "WATERFRONT",
+                "CANAL",
+                "WHARF",
+                "RIVERBANK"
+              ],
+              "score": 0.5764104525248209
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6293466538190841,
+      "created_at": "2026-04-20T01:29:04.557541+00:00",
+      "accepted": true
+    }
+  }
+]

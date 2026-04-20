@@ -57,13 +57,34 @@ class AbuzarNLPAdapter(PuzzleAdapter):
         if data is None:
             return None
         try:
-            groups = data.get('groups', {})
+            # pick_one_puzzle.py writes groups as a list of
+            # {category, mechanism, title, words, ...}; other code may use
+            # a dict keyed by color.
+            raw = data.get('groups', {})
+            if isinstance(raw, list):
+                groups: dict = {}
+                for g in raw:
+                    if not isinstance(g, dict):
+                        continue
+                    color = (g.get('category') or '').strip().lower()
+                    if color in ('yellow', 'green', 'blue', 'purple'):
+                        groups[color] = g
+            else:
+                groups = raw
 
             def get_group(color):
-                g     = groups.get(color, {})
+                g = groups.get(color, {})
+                if not isinstance(g, dict):
+                    return [], '', 'abuzar_nlp'
                 words = g.get('words', g.get('members', []))
-                conn  = g.get('connection', g.get('category', g.get('label', '')))
-                mech  = g.get('mechanism', 'abuzar_nlp')
+                conn = (
+                    g.get('connection')
+                    or g.get('title')
+                    or g.get('label')
+                    or g.get('category')
+                    or ''
+                )
+                mech = g.get('mechanism', 'abuzar_nlp')
                 return words, conn, mech
 
             yw, yc, ym = get_group('yellow')

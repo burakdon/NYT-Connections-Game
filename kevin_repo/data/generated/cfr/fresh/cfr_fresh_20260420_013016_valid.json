@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "DRAINAGE",
+      "CANAL",
+      "SOCIALITY",
+      "DAYLIGHT",
+      "SOCIETAL",
+      "SOCIABILITY",
+      "MARKEDLY",
+      "SOCIETY",
+      "LIGHTS",
+      "EMBANKMENT",
+      "DRAMATICALLY",
+      "MOONLIGHT",
+      "DRASTICALLY",
+      "ESTUARY",
+      "SPECTACULARLY",
+      "ILLUMINATING"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO SAY RADICALLY",
+        "words": [
+          "MARKEDLY",
+          "DRAMATICALLY",
+          "DRASTICALLY",
+          "SPECTACULARLY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7337576746940613
+      },
+      {
+        "category": "SOCIALLY ACCEPTED BEHAVIOR",
+        "words": [
+          "SOCIALITY",
+          "SOCIETAL",
+          "SOCIETY",
+          "SOCIABILITY"
+        ],
+        "color": "green",
+        "similarity_score": 0.7135739425818125
+      },
+      {
+        "category": "WORDS FOR AMBIENT LIGHTING",
+        "words": [
+          "ILLUMINATING",
+          "DAYLIGHT",
+          "LIGHTS",
+          "MOONLIGHT"
+        ],
+        "color": "blue",
+        "similarity_score": 0.6029201745986938
+      },
+      {
+        "category": "WORDS RELATED TO CANALS",
+        "words": [
+          "CANAL",
+          "DRAINAGE",
+          "ESTUARY",
+          "EMBANKMENT"
+        ],
+        "color": "purple",
+        "similarity_score": 0.47986099620660144
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MARKEDLY",
+                "DRAMATICALLY",
+                "DRASTICALLY",
+                "SPECTACULARLY"
+              ],
+              "score": 0.7337576746940613
+            },
+            {
+              "words": [
+                "SOCIALITY",
+                "SOCIETAL",
+                "SOCIABILITY",
+                "SOCIETY"
+              ],
+              "score": 0.7135739425818125
+            },
+            {
+              "words": [
+                "DAYLIGHT",
+                "LIGHTS",
+                "MOONLIGHT",
+                "ILLUMINATING"
+              ],
+              "score": 0.6029200553894043
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "CANAL",
+                "EMBANKMENT",
+                "ESTUARY"
+              ],
+              "score": 0.4798610558112462
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "DAYLIGHT",
+                "LIGHTS",
+                "MOONLIGHT",
+                "ILLUMINATING"
+              ],
+              "score": 0.6029200553894043
+            },
+            {
+              "words": [
+                "SOCIALITY",
+                "SOCIETAL",
+                "SOCIABILITY",
+                "SOCIETY"
+              ],
+              "score": 0.7135739425818125
+            },
+            {
+              "words": [
+                "MARKEDLY",
+                "DRAMATICALLY",
+                "DRASTICALLY",
+                "SPECTACULARLY"
+              ],
+              "score": 0.7337576746940613
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "CANAL",
+                "EMBANKMENT",
+                "ESTUARY"
+              ],
+              "score": 0.4798610558112462
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6325281970202923,
+      "created_at": "2026-04-20T01:30:15.077808+00:00",
+      "accepted": true
+    }
+  }
+]

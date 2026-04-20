@@ -1,6 +1,101 @@
 {
   "groups": [
     {
+      "id": "d1f32ed9bdfb",
+      "category": "Adverbs that soften statements",
+      "difficulty": "easy",
+      "words": [
+        "MERELY",
+        "SIMPLY",
+        "RATHER",
+        "INSTEAD"
+      ],
+      "explanation": "Adverbs that soften statements",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_adverbs_that_soften_statements",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "84dcae44-b634-497b-8b6a-74057513effc"
+      },
+      "verified": true
+    },
+    {
+      "id": "fe1a1fc0012c",
+      "category": "Animal Tissues",
+      "difficulty": "easy",
+      "words": [
+        "CARTILAGE",
+        "INTIMA",
+        "MUCOSA",
+        "TENDON"
+      ],
+      "explanation": "Animal Tissues",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_animal_tissues",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "38ff6a11-7a57-4234-b4b8-2c2d6793932d"
+      },
+      "verified": true
+    },
+    {
+      "id": "2ef1c150b017",
+      "category": "astronomical terms",
+      "difficulty": "easy",
+      "words": [
+        "NEBULA",
+        "SUPERNOVA",
+        "BLACK HOLE",
+        "COMET"
+      ],
+      "explanation": "astronomical terms",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_astronomical_terms",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "a0ab0d4c-f7d5-4ea5-a940-783041955f4e"
+      },
+      "verified": true
+    },
+    {
+      "id": "efb07565ebc0",
+      "category": "Baby animals",
+      "difficulty": "easy",
+      "words": [
+        "FOAL",
+        "CALF",
+        "LAMB",
+        "KID"
+      ],
+      "explanation": "Each word is a common name for a young animal: a baby horse, cow, sheep, or goat.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_baby_animals",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "bca77f82c52b"
+      },
+      "verified": true
+    },
+    {
+      "id": "1e786672388d",
+      "category": "Basic tastes",
+      "difficulty": "easy",
+      "words": [
+        "SWEET",
+        "SOUR",
+        "SALTY",
+        "BITTER"
+      ],
+      "explanation": "Sweet, sour, salty, and bitter are four of the recognized basic taste sensations.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_basic_tastes",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "3aacda397393"
+      },
+      "verified": true
+    },
+    {
       "id": "0ea93474f076",
       "category": "Board games",
       "difficulty": "easy",
@@ -16,6 +111,82 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-002"
+      },
+      "verified": true
+    },
+    {
+      "id": "f3741c75c8a0",
+      "category": "Bodies of water",
+      "difficulty": "easy",
+      "words": [
+        "COVE",
+        "BEACH",
+        "LAKE",
+        "CREEK"
+      ],
+      "explanation": "Bodies of water",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_bodies_of_water",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8cda65ea-d562-4ec3-b57f-7f7aa2b2b488"
+      },
+      "verified": true
+    },
+    {
+      "id": "6ae00edf8d08",
+      "category": "Bodies of Water",
+      "difficulty": "easy",
+      "words": [
+        "COVE",
+        "LAKE",
+        "CREEK",
+        "POND"
+      ],
+      "explanation": "Bodies of Water",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_bodies_of_water",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "523e1ad2-dafe-487e-8f41-4ccf035370d6"
+      },
+      "verified": true
+    },
+    {
+      "id": "78b4ff2e0ec0",
+      "category": "Bodies of Water",
+      "difficulty": "easy",
+      "words": [
+        "BROOK",
+        "CREEK",
+        "POND",
+        "RIVER"
+      ],
+      "explanation": "Bodies of Water",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_bodies_of_water",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0"
+      },
+      "verified": true
+    },
+    {
+      "id": "de3cd69e597d",
+      "category": "Buildings",
+      "difficulty": "easy",
+      "words": [
+        "COTTAGE",
+        "INN",
+        "LODGE",
+        "RESIDENCE"
+      ],
+      "explanation": "Buildings",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_buildings",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "029212f3-75ba-4374-9991-3b32d44ed4a1"
       },
       "verified": true
     },
@@ -77,6 +248,44 @@
       "verified": true
     },
     {
+      "id": "234873a3c9bc",
+      "category": "Corporate leadership positions",
+      "difficulty": "easy",
+      "words": [
+        "DIRECTOR",
+        "EXECUTIVE",
+        "MANAGER",
+        "CHAIRMAN"
+      ],
+      "explanation": "Corporate leadership positions",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_corporate_leadership_positions",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d7d85cd2-c37e-4471-8b50-123c1ae7e136"
+      },
+      "verified": true
+    },
+    {
+      "id": "0382c6248ee7",
+      "category": "Educators",
+      "difficulty": "easy",
+      "words": [
+        "HEADMASTER",
+        "INSTRUCTOR",
+        "PROFESSOR",
+        "TEACHER"
+      ],
+      "explanation": "Educators",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_educators",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8b89b828-4ba9-45eb-97eb-b7467432a79b"
+      },
+      "verified": true
+    },
+    {
       "id": "2dcd0c660a26",
       "category": "Flowers",
       "difficulty": "easy",
@@ -92,6 +301,25 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-012"
+      },
+      "verified": true
+    },
+    {
+      "id": "2a37190ccab5",
+      "category": "forms of government",
+      "difficulty": "easy",
+      "words": [
+        "DEMOCRACY",
+        "MONARCHY",
+        "OLIGARCHY",
+        "THEOCRACY"
+      ],
+      "explanation": "forms of government",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_forms_of_government",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "b62f2cba-b2b2-4650-9678-2e7b6bc79a94"
       },
       "verified": true
     },
@@ -153,6 +381,101 @@
       "verified": true
     },
     {
+      "id": "121dd903003a",
+      "category": "Merchants",
+      "difficulty": "easy",
+      "words": [
+        "BAKER",
+        "BUTCHER",
+        "DRAPER",
+        "TRADER"
+      ],
+      "explanation": "Merchants",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_merchants",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e6973c5e-1fc0-4991-b807-910ea8767310"
+      },
+      "verified": true
+    },
+    {
+      "id": "774faec620fd",
+      "category": "Merchants",
+      "difficulty": "easy",
+      "words": [
+        "DEALER",
+        "JEWELER",
+        "RETAILER",
+        "VENDOR"
+      ],
+      "explanation": "Merchants",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_merchants",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e3c5ce1b-a29a-4ecd-a389-50e0e2766da8"
+      },
+      "verified": true
+    },
+    {
+      "id": "cab03864d48a",
+      "category": "Months with exactly 30 days",
+      "difficulty": "easy",
+      "words": [
+        "APRIL",
+        "JUNE",
+        "SEPTEMBER",
+        "NOVEMBER"
+      ],
+      "explanation": "These four months each have exactly 30 days.",
+      "mechanism_family": "specific_set",
+      "concept_key": "thirty_day_months",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "607a56eb71e6"
+      },
+      "verified": true
+    },
+    {
+      "id": "45b6eb5ebc7d",
+      "category": "Muscles",
+      "difficulty": "easy",
+      "words": [
+        "ABDOMINAL",
+        "BICEPS",
+        "CALF",
+        "GASTROCNEMIUS"
+      ],
+      "explanation": "Muscles",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_muscles",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "aaef97f9-9644-4d0f-bd9d-626e3f5017f7"
+      },
+      "verified": true
+    },
+    {
+      "id": "c2ca2cab3924",
+      "category": "MUSICAL GENRES",
+      "difficulty": "easy",
+      "words": [
+        "MUSIC",
+        "MUSICALLY",
+        "MUSICIANSHIP",
+        "MUSICIAN"
+      ],
+      "explanation": "MUSICAL GENRES",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_musical_genres",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "eaac41f1-39b7-4070-b2aa-7d978b29093e"
+      },
+      "verified": true
+    },
+    {
       "id": "9a4f825d87d1",
       "category": "Musical instruments",
       "difficulty": "easy",
@@ -172,6 +495,25 @@
       "verified": true
     },
     {
+      "id": "e4e9611ebd3a",
+      "category": "Ocean features",
+      "difficulty": "easy",
+      "words": [
+        "REEF",
+        "TIDE",
+        "SHELF",
+        "SHORE"
+      ],
+      "explanation": "Reef, tide, shelf, and shore are all distinct features or zones found in and around the ocean.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_ocean_features",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "0303245ce9b7"
+      },
+      "verified": true
+    },
+    {
       "id": "aa03be05dad8",
       "category": "Parts of a book",
       "difficulty": "easy",
@@ -187,6 +529,44 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-008"
+      },
+      "verified": true
+    },
+    {
+      "id": "eaac29982232",
+      "category": "Parts of the body",
+      "difficulty": "easy",
+      "words": [
+        "LEG",
+        "KNEE",
+        "NECK",
+        "WRIST"
+      ],
+      "explanation": "Parts of the body",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_parts_of_the_body",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "34ab2a3f-6522-4b40-b53f-9afa8e8ce4ff"
+      },
+      "verified": true
+    },
+    {
+      "id": "da6f51ac4e97",
+      "category": "Past tense movement verbs",
+      "difficulty": "easy",
+      "words": [
+        "WALKED",
+        "WENT",
+        "CAME",
+        "TURNED"
+      ],
+      "explanation": "Past tense movement verbs",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_past_tense_movement_verbs",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "7cff7d56-6795-49e3-9fc2-fbb5cccb7fb6"
       },
       "verified": true
     },
@@ -229,6 +609,63 @@
       "verified": true
     },
     {
+      "id": "0ce305fffc39",
+      "category": "Precious metals and elements",
+      "difficulty": "easy",
+      "words": [
+        "GOLD",
+        "SILVER",
+        "COPPER",
+        "PLATINUM"
+      ],
+      "explanation": "Precious metals and elements",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_precious_metals_and_elements",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d79f0f1a-46e8-4bd5-a056-fee3d36a0ab3"
+      },
+      "verified": true
+    },
+    {
+      "id": "2be8cc4754d3",
+      "category": "Rodents",
+      "difficulty": "easy",
+      "words": [
+        "MOUSE",
+        "RAT",
+        "BEAVER",
+        "SQUIRREL"
+      ],
+      "explanation": "All are rodent species.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "rodents",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "9541b42b07e4",
+      "category": "room types in a house",
+      "difficulty": "easy",
+      "words": [
+        "KITCHEN",
+        "BATHROOM",
+        "BEDROOM",
+        "LIVING ROOM"
+      ],
+      "explanation": "room types in a house",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_room_types_in_a_house",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "405f097a-66af-450d-a60e-e5ced2730106"
+      },
+      "verified": true
+    },
+    {
       "id": "5551910ddd16",
       "category": "Sailor's vocabulary",
       "difficulty": "easy",
@@ -267,6 +704,44 @@
       "verified": true
     },
     {
+      "id": "e3e47ee90471",
+      "category": "Sources of light",
+      "difficulty": "easy",
+      "words": [
+        "CANDLE",
+        "LANTERN",
+        "TORCH",
+        "LAMP"
+      ],
+      "explanation": "Candle, lantern, torch, and lamp all produce light.",
+      "mechanism_family": "semantic",
+      "concept_key": "sources_of_light",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e2f379eed0aa"
+      },
+      "verified": true
+    },
+    {
+      "id": "c9ab1c529acb",
+      "category": "terms associated with silver",
+      "difficulty": "easy",
+      "words": [
+        "BULLION",
+        "COIN",
+        "JEWELRY",
+        "SPOON"
+      ],
+      "explanation": "terms associated with silver",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_terms_associated_with_silver",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "79f999d0-eccc-4224-bb03-e5e20513d57a"
+      },
+      "verified": true
+    },
+    {
       "id": "1b13593fcc17",
       "category": "Things in a deck",
       "difficulty": "easy",
@@ -286,6 +761,177 @@
       "verified": true
     },
     {
+      "id": "6fd5831cfdbe",
+      "category": "Things on a job description",
+      "difficulty": "easy",
+      "words": [
+        "TASKS",
+        "FUNCTION",
+        "ASSIGNMENT",
+        "WORK"
+      ],
+      "explanation": "Things on a job description",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_on_a_job_description",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8a4d28b6-9e1c-499f-9238-1df976fdbff8"
+      },
+      "verified": true
+    },
+    {
+      "id": "831b4fc550d6",
+      "category": "Things that can be ___ eyes",
+      "difficulty": "easy",
+      "words": [
+        "BREAKING",
+        "SETTING",
+        "REACHING",
+        "LOCKING"
+      ],
+      "explanation": "Things that can be ___ eyes",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_completion_things_that_can_be_eyes",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "69f1eff5-af23-4c19-b0e2-d28b7bcdd735"
+      },
+      "verified": true
+    },
+    {
+      "id": "a48e6a2be68c",
+      "category": "Things you can display",
+      "difficulty": "easy",
+      "words": [
+        "SIGNS",
+        "STICKERS",
+        "BANNER",
+        "POSTER"
+      ],
+      "explanation": "Things you can display",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_can_display",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "6ff8ccee-fecf-4c92-9643-d601ac255b8e"
+      },
+      "verified": true
+    },
+    {
+      "id": "a0dd3d900ecd",
+      "category": "Things you can fold",
+      "difficulty": "easy",
+      "words": [
+        "SHEET",
+        "SHIRT",
+        "PAPER",
+        "BLANKET"
+      ],
+      "explanation": "All are common items typically folded after washing or use.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_can_fold",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "ed8cc9df6b82"
+      },
+      "verified": true
+    },
+    {
+      "id": "69cf6697ffa6",
+      "category": "Things you can hatch",
+      "difficulty": "easy",
+      "words": [
+        "EGG",
+        "PLAN",
+        "PLOT",
+        "SCHEME"
+      ],
+      "explanation": "You can hatch an egg, a plan, a plot, or a scheme \u2014 all natural uses of the verb hatch.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_you_can_hatch",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "a9aa974daa8a"
+      },
+      "verified": true
+    },
+    {
+      "id": "61cc8e45d663",
+      "category": "Things you can knit",
+      "difficulty": "easy",
+      "words": [
+        "SCARF",
+        "SWEATER",
+        "MITTENS",
+        "BLANKET"
+      ],
+      "explanation": "Scarves, sweaters, mittens, and blankets are all classic items people make by knitting.",
+      "mechanism_family": "semantic",
+      "concept_key": "knittable_items",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "6f2f427cf36a"
+      },
+      "verified": true
+    },
+    {
+      "id": "318cfc9aef55",
+      "category": "Things you can squeeze",
+      "difficulty": "easy",
+      "words": [
+        "LEMON",
+        "SPONGE",
+        "TOOTHPASTE",
+        "KETCHUP"
+      ],
+      "explanation": "All four are commonly squeezed to extract something from them.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_can_squeeze",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8c93e28d426d"
+      },
+      "verified": true
+    },
+    {
+      "id": "330f52bc5ff8",
+      "category": "Things you can strike",
+      "difficulty": "easy",
+      "words": [
+        "MATCH",
+        "BELL",
+        "CHORD",
+        "DEAL"
+      ],
+      "explanation": "You strike a match, strike a bell, strike a chord, and strike a deal \u2014 all pair naturally with the verb 'strike'.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_struck",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "0a46cf8d5c24"
+      },
+      "verified": true
+    },
+    {
+      "id": "7002c2eb5678",
+      "category": "Things you can toast",
+      "difficulty": "easy",
+      "words": [
+        "BREAD",
+        "BAGEL",
+        "WAFFLE",
+        "MARSHMALLOW"
+      ],
+      "explanation": "All four are foods commonly toasted over heat or in a toaster.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_can_toast",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e0e7d41f6d01"
+      },
+      "verified": true
+    },
+    {
       "id": "46167dc4a4ec",
       "category": "Types of bread",
       "difficulty": "easy",
@@ -301,6 +947,44 @@
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "8b0119ffa2c2",
+      "category": "types of drinkware",
+      "difficulty": "easy",
+      "words": [
+        "MUG",
+        "GOBLET",
+        "TUMBLER",
+        "GLASS"
+      ],
+      "explanation": "types of drinkware",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_types_of_drinkware",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "2821aae6-f883-4b14-a206-4894ec5d3451"
+      },
+      "verified": true
+    },
+    {
+      "id": "5930d2880ba4",
+      "category": "types of furniture",
+      "difficulty": "easy",
+      "words": [
+        "CHAIR",
+        "TABLE",
+        "SOFA",
+        "CABINET"
+      ],
+      "explanation": "types of furniture",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_types_of_furniture",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e80ba1e5-2417-474d-adca-aac7cfb77b79"
       },
       "verified": true
     },
@@ -381,6 +1065,101 @@
       "verified": true
     },
     {
+      "id": "b4ad5d168d67",
+      "category": "Words After APPLE",
+      "difficulty": "easy",
+      "words": [
+        "SAUCE",
+        "JUICE",
+        "PIE",
+        "CIDER"
+      ],
+      "explanation": "Each word follows APPLE to make a common food or drink compound: applesauce, apple juice, apple pie, apple cider.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_apple",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "e0486ff6b114",
+      "category": "Words for area of ground",
+      "difficulty": "easy",
+      "words": [
+        "TRACT",
+        "ACRE",
+        "PARCEL",
+        "LAND"
+      ],
+      "explanation": "Words for area of ground",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_words_for_area_of_ground",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "50b053bd-60e4-45ad-a575-af5c7c787d78"
+      },
+      "verified": true
+    },
+    {
+      "id": "2f37d0467559",
+      "category": "Words for the present time",
+      "difficulty": "easy",
+      "words": [
+        "NOW",
+        "STILL",
+        "ALREADY",
+        "CURRENTLY"
+      ],
+      "explanation": "Words for the present time",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_words_for_the_present_time",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "5f8dbf9a-8730-4f3b-b46b-046fe9e7bb7d"
+      },
+      "verified": true
+    },
+    {
+      "id": "e1ce63a1035b",
+      "category": "Words that can follow \"ANOTHER",
+      "difficulty": "easy",
+      "words": [
+        "THING",
+        "STUFF",
+        "ASPECT",
+        "REASON"
+      ],
+      "explanation": "Words that can follow \"ANOTHER",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_completion_words_that_can_follow_another",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e67416f7-1895-43c4-9078-c3063de10377"
+      },
+      "verified": true
+    },
+    {
+      "id": "f12ea99d4de6",
+      "category": "Words that can follow \"GET",
+      "difficulty": "easy",
+      "words": [
+        "OFF",
+        "ONTO",
+        "INTO",
+        "AROUND"
+      ],
+      "explanation": "Words that can follow \"GET",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_completion_words_that_can_follow_get",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518"
+      },
+      "verified": true
+    },
+    {
       "id": "f848d340532f",
       "category": "Add an H to make a new word",
       "difficulty": "hard",
@@ -396,6 +1175,177 @@
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "c160fc8a07d6",
+      "category": "Add G to the front to make a new word",
+      "difficulty": "hard",
+      "words": [
+        "ROUND",
+        "RAIN",
+        "RIND",
+        "RIP"
+      ],
+      "explanation": "ROUND\u2192GROUND, RAIN\u2192GRAIN, RIND\u2192GRIND, RIP\u2192GRIP \u2014 adding G to the front of each creates a new common word.",
+      "mechanism_family": "transformation",
+      "concept_key": "add_g_to_front",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "a9aa974daa8a"
+      },
+      "verified": true
+    },
+    {
+      "id": "7b9bd3b728da",
+      "category": "Bag Terms",
+      "difficulty": "hard",
+      "words": [
+        "ENVELOPE",
+        "POKE",
+        "PURSE",
+        "SKIN"
+      ],
+      "explanation": "Bag Terms",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_bag_terms",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8b89b828-4ba9-45eb-97eb-b7467432a79b"
+      },
+      "verified": true
+    },
+    {
+      "id": "77cd4951dfd5",
+      "category": "Barrier Terms",
+      "difficulty": "hard",
+      "words": [
+        "BREAKWATER",
+        "BULWARK",
+        "HURDLE",
+        "RAILING"
+      ],
+      "explanation": "Barrier Terms",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_barrier_terms",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e6973c5e-1fc0-4991-b807-910ea8767310"
+      },
+      "verified": true
+    },
+    {
+      "id": "67e7a7237801",
+      "category": "Boxing match elements",
+      "difficulty": "hard",
+      "words": [
+        "RING",
+        "GLOVE",
+        "ROUND",
+        "CORNER"
+      ],
+      "explanation": "Boxing match elements",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_boxing_match_elements",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518"
+      },
+      "verified": true
+    },
+    {
+      "id": "f045cfeb43f7",
+      "category": "Card game actions",
+      "difficulty": "hard",
+      "words": [
+        "TRUMP",
+        "BLUFF",
+        "FOLD",
+        "DEAL"
+      ],
+      "explanation": "Each word is an action a player takes during a card game: playing a trump, bluffing, folding, or dealing.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_card_game_actions",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "bca77f82c52b"
+      },
+      "verified": true
+    },
+    {
+      "id": "b75bf0690a0d",
+      "category": "Charcuterie Board Essentials",
+      "difficulty": "hard",
+      "words": [
+        "BRIE",
+        "PROSCIUTTO",
+        "OLIVES",
+        "CRACKERS"
+      ],
+      "explanation": "Charcuterie Board Essentials",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_charcuterie_board_essentials",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0"
+      },
+      "verified": true
+    },
+    {
+      "id": "8999e1a26ce7",
+      "category": "Dead _____ (things that can follow \"dead\")",
+      "difficulty": "hard",
+      "words": [
+        "HEAT",
+        "WEIGHT",
+        "RINGER",
+        "STOCK"
+      ],
+      "explanation": "Dead _____ (things that can follow \"dead\")",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_completion_dead_things_that_can_follow_dead",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8a4d28b6-9e1c-499f-9238-1df976fdbff8"
+      },
+      "verified": true
+    },
+    {
+      "id": "9c1173490191",
+      "category": "Laborer Terms",
+      "difficulty": "hard",
+      "words": [
+        "FIREMAN",
+        "GYPSY",
+        "MINER",
+        "PORTER"
+      ],
+      "explanation": "Laborer Terms",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_laborer_terms",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e3c5ce1b-a29a-4ecd-a389-50e0e2766da8"
+      },
+      "verified": true
+    },
+    {
+      "id": "feee4acdc3fe",
+      "category": "Officer Terms",
+      "difficulty": "hard",
+      "words": [
+        "CAPTAIN",
+        "MASTER",
+        "MATE",
+        "NAVIGATOR"
+      ],
+      "explanation": "Officer Terms",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_officer_terms",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "029212f3-75ba-4374-9991-3b32d44ed4a1"
       },
       "verified": true
     },
@@ -419,6 +1369,63 @@
       "verified": true
     },
     {
+      "id": "78c37dc31c4a",
+      "category": "Parts of a Newspaper",
+      "difficulty": "hard",
+      "words": [
+        "COLUMN",
+        "SECTION",
+        "FOLD",
+        "SPREAD"
+      ],
+      "explanation": "Parts of a Newspaper",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_parts_of_a_newspaper",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8cda65ea-d562-4ec3-b57f-7f7aa2b2b488"
+      },
+      "verified": true
+    },
+    {
+      "id": "ff3dec73f164",
+      "category": "phrases ending with 'over'",
+      "difficulty": "hard",
+      "words": [
+        "VOICE",
+        "LEFT",
+        "TURN",
+        "DO"
+      ],
+      "explanation": "phrases ending with 'over'",
+      "mechanism_family": "spelling",
+      "concept_key": "spelling_phrases_ending_with_over",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "2821aae6-f883-4b14-a206-4894ec5d3451"
+      },
+      "verified": true
+    },
+    {
+      "id": "7138acee7221",
+      "category": "Policeman Terms",
+      "difficulty": "hard",
+      "words": [
+        "BOBBY",
+        "CAPTAIN",
+        "COPPER",
+        "FUZZ"
+      ],
+      "explanation": "Policeman Terms",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_policeman_terms",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "aaef97f9-9644-4d0f-bd9d-626e3f5017f7"
+      },
+      "verified": true
+    },
+    {
       "id": "3277cd5a41b0",
       "category": "Remove the last letter to get a body part",
       "difficulty": "hard",
@@ -434,6 +1441,196 @@
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "30810b1a5e62",
+      "category": "Shades of blue",
+      "difficulty": "hard",
+      "words": [
+        "NAVY",
+        "TEAL",
+        "COBALT",
+        "AZURE"
+      ],
+      "explanation": "Navy, teal, cobalt, and azure are all recognized shades of blue.",
+      "mechanism_family": "color_shade",
+      "concept_key": "color_shade_set",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "0303245ce9b7"
+      },
+      "verified": true
+    },
+    {
+      "id": "dd58b192439a",
+      "category": "Spans of time",
+      "difficulty": "hard",
+      "words": [
+        "DECADE",
+        "FORTNIGHT",
+        "CENTURY",
+        "MILLISECOND"
+      ],
+      "explanation": "All four are recognized measurements of time duration.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_spans_of_time",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8c93e28d426d"
+      },
+      "verified": true
+    },
+    {
+      "id": "be0b547d1fb2",
+      "category": "Stable Gear Terms",
+      "difficulty": "hard",
+      "words": [
+        "BIT",
+        "HARNESS",
+        "HOUSING",
+        "YOKE"
+      ],
+      "explanation": "Stable Gear Terms",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_stable_gear_terms",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "38ff6a11-7a57-4234-b4b8-2c2d6793932d"
+      },
+      "verified": true
+    },
+    {
+      "id": "2b8570881cb6",
+      "category": "Things a boxer might touch",
+      "difficulty": "hard",
+      "words": [
+        "ROPE",
+        "CORNER",
+        "CANVAS",
+        "BELL"
+      ],
+      "explanation": "Things a boxer might touch",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_a_boxer_might_touch",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "523e1ad2-dafe-487e-8f41-4ccf035370d6"
+      },
+      "verified": true
+    },
+    {
+      "id": "0c789ea65b03",
+      "category": "Things in Game of Thrones",
+      "difficulty": "hard",
+      "words": [
+        "WALL",
+        "THRONE",
+        "DRAGON",
+        "WINTER"
+      ],
+      "explanation": "Things in Game of Thrones",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_in_game_of_thrones",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "69f1eff5-af23-4c19-b0e2-d28b7bcdd735"
+      },
+      "verified": true
+    },
+    {
+      "id": "27c7ead0e40d",
+      "category": "Things that can be \"candy",
+      "difficulty": "hard",
+      "words": [
+        "RING",
+        "RIBBON",
+        "CORN",
+        "WHEEL"
+      ],
+      "explanation": "Things that can be \"candy",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_that_can_be_candy",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "6ff8ccee-fecf-4c92-9643-d601ac255b8e"
+      },
+      "verified": true
+    },
+    {
+      "id": "f32795abd2a0",
+      "category": "Things that can be \"hot",
+      "difficulty": "hard",
+      "words": [
+        "BASKET",
+        "HEAT",
+        "PLATE",
+        "JUDGE"
+      ],
+      "explanation": "Things that can be \"hot",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_that_can_be_hot",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e67416f7-1895-43c4-9078-c3063de10377"
+      },
+      "verified": true
+    },
+    {
+      "id": "f5f828749985",
+      "category": "Things that can be scrambled",
+      "difficulty": "hard",
+      "words": [
+        "EGG",
+        "SIGNAL",
+        "JETS",
+        "MESSAGE"
+      ],
+      "explanation": "All can be scrambled: scrambled egg, scrambled signal, scrambled jets (launched fighters), scrambled message.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_that_can_be_scrambled",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "ed8cc9df6b82"
+      },
+      "verified": true
+    },
+    {
+      "id": "362ce8c44ab0",
+      "category": "Things That Drop at Concerts",
+      "difficulty": "hard",
+      "words": [
+        "SCREAMS",
+        "PHONES",
+        "SWEAT",
+        "CONFETTI"
+      ],
+      "explanation": "Things That Drop at Concerts",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_that_drop_at_concerts",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "5f8dbf9a-8730-4f3b-b46b-046fe9e7bb7d"
+      },
+      "verified": true
+    },
+    {
+      "id": "0e1077d54259",
+      "category": "Things that have a face",
+      "difficulty": "hard",
+      "words": [
+        "CLOCK",
+        "COIN",
+        "CLIFF",
+        "CARD"
+      ],
+      "explanation": "A clock face, coin face, cliff face, and playing-card face are all recognized named parts of these objects.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_with_a_face",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "6f2f427cf36a"
       },
       "verified": true
     },
@@ -457,6 +1654,44 @@
       "verified": true
     },
     {
+      "id": "ae52995ddfaf",
+      "category": "Things with a \"potato",
+      "difficulty": "hard",
+      "words": [
+        "COUCH",
+        "BAND",
+        "GUEST",
+        "AUDIENCE"
+      ],
+      "explanation": "Things with a \"potato",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_with_a_potato",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "7cff7d56-6795-49e3-9fc2-fbb5cccb7fb6"
+      },
+      "verified": true
+    },
+    {
+      "id": "2743f9b52c11",
+      "category": "Things with rings",
+      "difficulty": "hard",
+      "words": [
+        "SATURN",
+        "TRUNK",
+        "BATHTUB",
+        "BOXING"
+      ],
+      "explanation": "Saturn has planetary rings, a tree trunk has growth rings, a bathtub leaves a ring, and boxing takes place in a ring.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_with_rings",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e0e7d41f6d01"
+      },
+      "verified": true
+    },
+    {
       "id": "878b36df3960",
       "category": "Things with scales",
       "difficulty": "hard",
@@ -476,6 +1711,139 @@
       "verified": true
     },
     {
+      "id": "19b3c726abca",
+      "category": "Things you can charcuterie",
+      "difficulty": "hard",
+      "words": [
+        "BOARD",
+        "CHEESE",
+        "CURED",
+        "SPREAD"
+      ],
+      "explanation": "Things you can charcuterie",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_can_charcuterie",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "84dcae44-b634-497b-8b6a-74057513effc"
+      },
+      "verified": true
+    },
+    {
+      "id": "46eb385388a9",
+      "category": "Things you can draw",
+      "difficulty": "hard",
+      "words": [
+        "CURTAIN",
+        "SWORD",
+        "BATH",
+        "CONCLUSION"
+      ],
+      "explanation": "You can draw a curtain (close it), draw a sword (unsheathe it), draw a bath (fill it), and draw a conclusion (reach one).",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_you_can_draw",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "607a56eb71e6"
+      },
+      "verified": true
+    },
+    {
+      "id": "bc08e55fad0d",
+      "category": "Things You Can Give",
+      "difficulty": "hard",
+      "words": [
+        "DRINK",
+        "CEMENT",
+        "TAPE",
+        "SIGNAL"
+      ],
+      "explanation": "Things You Can Give",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_can_give",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d79f0f1a-46e8-4bd5-a056-fee3d36a0ab3"
+      },
+      "verified": true
+    },
+    {
+      "id": "f2831f4e7da7",
+      "category": "Things You Move in Games",
+      "difficulty": "hard",
+      "words": [
+        "DICE",
+        "CARD",
+        "TOKEN",
+        "PIECE"
+      ],
+      "explanation": "Things You Move in Games",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_move_in_games",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "50b053bd-60e4-45ad-a575-af5c7c787d78"
+      },
+      "verified": true
+    },
+    {
+      "id": "13f6b7b684f9",
+      "category": "Types of academic study",
+      "difficulty": "hard",
+      "words": [
+        "MAJOR",
+        "MINOR",
+        "THESIS",
+        "SEMINAR"
+      ],
+      "explanation": "Major, minor, thesis, and seminar are all standard elements of university academic life.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_types_of_academic_study",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "3aacda397393"
+      },
+      "verified": true
+    },
+    {
+      "id": "48d5fd8e3ddb",
+      "category": "Ways to Mock Someone Verbally",
+      "difficulty": "hard",
+      "words": [
+        "ROAST",
+        "JOKE",
+        "INSULT",
+        "BURN"
+      ],
+      "explanation": "Ways to Mock Someone Verbally",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_ways_to_mock_someone_verbally",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d7d85cd2-c37e-4471-8b50-123c1ae7e136"
+      },
+      "verified": true
+    },
+    {
+      "id": "230196cedf61",
+      "category": "WORDS ASSOCIATED WITH WATER",
+      "difficulty": "hard",
+      "words": [
+        "WETNESS",
+        "MOISTURE",
+        "DRENCHED",
+        "PERVAPORATION"
+      ],
+      "explanation": "WORDS ASSOCIATED WITH WATER",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_words_associated_with_water",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "eaac41f1-39b7-4070-b2aa-7d978b29093e"
+      },
+      "verified": true
+    },
+    {
       "id": "1ce1a75247ad",
       "category": "Words before fly",
       "difficulty": "hard",
@@ -491,6 +1859,329 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-007"
+      },
+      "verified": true
+    },
+    {
+      "id": "24d4ace7e156",
+      "category": "words following 'golden'",
+      "difficulty": "hard",
+      "words": [
+        "RETRIEVER",
+        "AGE",
+        "RULE",
+        "RATIO"
+      ],
+      "explanation": "words following 'golden'",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_words_following_golden",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "79f999d0-eccc-4224-bb03-e5e20513d57a"
+      },
+      "verified": true
+    },
+    {
+      "id": "e1dc4bf5525f",
+      "category": "words following roof",
+      "difficulty": "hard",
+      "words": [
+        "LINE",
+        "DECK",
+        "RACK",
+        "ACCESS"
+      ],
+      "explanation": "words following roof",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_words_following_roof",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e80ba1e5-2417-474d-adca-aac7cfb77b79"
+      },
+      "verified": true
+    },
+    {
+      "id": "6af6e1f0ab82",
+      "category": "Words hiding a big cat",
+      "difficulty": "hard",
+      "words": [
+        "BILLION",
+        "TIGERISH",
+        "JAGUARS",
+        "LEOPARDS"
+      ],
+      "explanation": "Each word contains a big cat hidden inside: BILLION\u2192LION, TIGERISH\u2192TIGER, JAGUARS\u2192JAGUAR, LEOPARDS\u2192LEOPARD.",
+      "mechanism_family": "spelling",
+      "concept_key": "words_hiding_big_cat",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "096ccf9f7110",
+      "category": "Words that become a new word when reversed",
+      "difficulty": "hard",
+      "words": [
+        "STEP",
+        "POOL",
+        "STAR",
+        "MOOD"
+      ],
+      "explanation": "STEP\u2192PETS, POOL\u2192LOOP, STAR\u2192RATS, MOOD\u2192DOOM \u2014 each reverses to a different common English word.",
+      "mechanism_family": "spelling",
+      "concept_key": "reversible_words",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "0a46cf8d5c24"
+      },
+      "verified": true
+    },
+    {
+      "id": "b9d4a71d5015",
+      "category": "Words that become new words when read backward",
+      "difficulty": "hard",
+      "words": [
+        "STRESSED",
+        "DRAWER",
+        "SNOOPS",
+        "STRAW"
+      ],
+      "explanation": "Each reversed spells another valid word: DESSERTS, REWARD, SPOONS, WARTS.",
+      "mechanism_family": "spelling",
+      "concept_key": "reversal_new_word_set_a",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "38d3c2077544",
+      "category": "Words That Can Follow \"Inside",
+      "difficulty": "hard",
+      "words": [
+        "HEIST",
+        "CAPER",
+        "INSIDE",
+        "JOB"
+      ],
+      "explanation": "Words That Can Follow \"Inside",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_completion_words_that_can_follow_inside",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "34ab2a3f-6522-4b40-b53f-9afa8e8ce4ff"
+      },
+      "verified": true
+    },
+    {
+      "id": "104f3d48a1c9",
+      "category": "words that can follow 'split'",
+      "difficulty": "hard",
+      "words": [
+        "DECISION",
+        "SECOND",
+        "ENDS",
+        "PERSONALITY"
+      ],
+      "explanation": "words that can follow 'split'",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_completion_words_that_can_follow_split",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "a0ab0d4c-f7d5-4ea5-a940-783041955f4e"
+      },
+      "verified": true
+    },
+    {
+      "id": "f5814294ac51",
+      "category": "words that precede 'bed'",
+      "difficulty": "hard",
+      "words": [
+        "FEATHER",
+        "FLOWER",
+        "RIVER",
+        "SUN"
+      ],
+      "explanation": "words that precede 'bed'",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_completion_words_that_precede_bed",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "b62f2cba-b2b2-4650-9678-2e7b6bc79a94"
+      },
+      "verified": true
+    },
+    {
+      "id": "bc659b837948",
+      "category": "words that precede 'table'",
+      "difficulty": "hard",
+      "words": [
+        "COFFEE",
+        "DINING",
+        "POOL",
+        "PERIODIC"
+      ],
+      "explanation": "words that precede 'table'",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_completion_words_that_precede_table",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "405f097a-66af-450d-a60e-e5ced2730106"
+      },
+      "verified": true
+    },
+    {
+      "id": "ab79847ad952",
+      "category": "Words that rhyme with a number",
+      "difficulty": "hard",
+      "words": [
+        "SUN",
+        "BLUE",
+        "HEAVEN",
+        "DINE"
+      ],
+      "explanation": "SUN rhymes with ONE, BLUE rhymes with TWO, HEAVEN rhymes with SEVEN, and DINE rhymes with NINE.",
+      "mechanism_family": "sound",
+      "concept_key": "rhymes_with_number",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e2f379eed0aa"
+      },
+      "verified": true
+    },
+    {
+      "id": "93d538aa86e8",
+      "category": "All contain \"GHT\"",
+      "difficulty": "medium",
+      "words": [
+        "FOUGHT",
+        "NIGHT",
+        "STRAIGHT",
+        "PAGE"
+      ],
+      "explanation": "All contain \"GHT\"",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_all_contain_ght",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "84dcae44-b634-497b-8b6a-74057513effc"
+      },
+      "verified": true
+    },
+    {
+      "id": "8ecdb519b947",
+      "category": "All contain \"IGH\"",
+      "difficulty": "medium",
+      "words": [
+        "SAND",
+        "FIGHTING",
+        "MIDNIGHT",
+        "LIGHTWEIGHT"
+      ],
+      "explanation": "All contain \"IGH\"",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_all_contain_igh",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "523e1ad2-dafe-487e-8f41-4ccf035370d6"
+      },
+      "verified": true
+    },
+    {
+      "id": "91872ce65ccf",
+      "category": "All contain \"MB\"",
+      "difficulty": "medium",
+      "words": [
+        "MEMBER",
+        "MEMBRANE",
+        "THUMB",
+        "COMBINED"
+      ],
+      "explanation": "All contain \"MB\"",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_all_contain_mb",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d7d85cd2-c37e-4471-8b50-123c1ae7e136"
+      },
+      "verified": true
+    },
+    {
+      "id": "262779b6ff6c",
+      "category": "All contain \"MB\"",
+      "difficulty": "medium",
+      "words": [
+        "NUMBER",
+        "CLIMB",
+        "GALE",
+        "COMBINING"
+      ],
+      "explanation": "All contain \"MB\"",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_all_contain_mb",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0"
+      },
+      "verified": true
+    },
+    {
+      "id": "714cbba0f445",
+      "category": "All contain \"QU\"",
+      "difficulty": "medium",
+      "words": [
+        "BROKE",
+        "INQUIRE",
+        "QUANTUM",
+        "AQUARIUM"
+      ],
+      "explanation": "All contain \"QU\"",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_all_contain_qu",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "69f1eff5-af23-4c19-b0e2-d28b7bcdd735"
+      },
+      "verified": true
+    },
+    {
+      "id": "89d59d7043d4",
+      "category": "All contain \"WR\"",
+      "difficulty": "medium",
+      "words": [
+        "WRONG",
+        "WRAPPED",
+        "WRITE",
+        "WRIGHT"
+      ],
+      "explanation": "All contain \"WR\"",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_all_contain_wr",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "5f8dbf9a-8730-4f3b-b46b-046fe9e7bb7d"
+      },
+      "verified": true
+    },
+    {
+      "id": "fe0e4b12c494",
+      "category": "ancient Greek philosophers",
+      "difficulty": "medium",
+      "words": [
+        "PLATO",
+        "ARISTOTLE",
+        "SOCRATES",
+        "PYTHAGORAS"
+      ],
+      "explanation": "ancient Greek philosophers",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_ancient_greek_philosophers",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e80ba1e5-2417-474d-adca-aac7cfb77b79"
       },
       "verified": true
     },
@@ -529,6 +2220,25 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-010"
+      },
+      "verified": true
+    },
+    {
+      "id": "63a60abf284e",
+      "category": "Castle fortifications",
+      "difficulty": "medium",
+      "words": [
+        "MOAT",
+        "DRAWBRIDGE",
+        "TURRET",
+        "RAMPART"
+      ],
+      "explanation": "These are defensive structures or barriers associated with castles.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "castle_fortifications",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "607a56eb71e6"
       },
       "verified": true
     },
@@ -590,6 +2300,25 @@
       "verified": true
     },
     {
+      "id": "881969081a40",
+      "category": "Cutting Implements",
+      "difficulty": "medium",
+      "words": [
+        "CHISEL",
+        "CUTTER",
+        "HATCHET",
+        "KNIFE"
+      ],
+      "explanation": "Cutting Implements",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_cutting_implements",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e3c5ce1b-a29a-4ecd-a389-50e0e2766da8"
+      },
+      "verified": true
+    },
+    {
       "id": "d2b6a35439a2",
       "category": "Dog breeds",
       "difficulty": "medium",
@@ -605,6 +2334,63 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-009"
+      },
+      "verified": true
+    },
+    {
+      "id": "b9b3f1a91dc2",
+      "category": "famous authors' pen names",
+      "difficulty": "medium",
+      "words": [
+        "GEORGE ORWELL",
+        "MARK TWAIN",
+        "LEWIS CARROLL",
+        "OVIDIUS NASO"
+      ],
+      "explanation": "famous authors' pen names",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_famous_authors_pen_names",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "405f097a-66af-450d-a60e-e5ced2730106"
+      },
+      "verified": true
+    },
+    {
+      "id": "39efb748d64e",
+      "category": "famous fictional schools",
+      "difficulty": "medium",
+      "words": [
+        "HOGWARTS",
+        "XAVIERS",
+        "BAYSIDE",
+        "THIRD STREET"
+      ],
+      "explanation": "famous fictional schools",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_famous_fictional_schools",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "b62f2cba-b2b2-4650-9678-2e7b6bc79a94"
+      },
+      "verified": true
+    },
+    {
+      "id": "cd3a02411c56",
+      "category": "famous rivers",
+      "difficulty": "medium",
+      "words": [
+        "NILE",
+        "AMAZON",
+        "YANGTZE",
+        "DANUBE"
+      ],
+      "explanation": "famous rivers",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_famous_rivers",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "2821aae6-f883-4b14-a206-4894ec5d3451"
       },
       "verified": true
     },
@@ -666,6 +2452,25 @@
       "verified": true
     },
     {
+      "id": "32aacee59533",
+      "category": "Health Professionals",
+      "difficulty": "medium",
+      "words": [
+        "CHEMIST",
+        "PATHOLOGIST",
+        "PHYSICIAN",
+        "RESIDENT"
+      ],
+      "explanation": "Health Professionals",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_health_professionals",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "029212f3-75ba-4374-9991-3b32d44ed4a1"
+      },
+      "verified": true
+    },
+    {
       "id": "0da88ffe8f90",
       "category": "Olympic throwing events",
       "difficulty": "medium",
@@ -681,6 +2486,25 @@
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "261f040bde79",
+      "category": "Parts of a bicycle",
+      "difficulty": "medium",
+      "words": [
+        "WHEEL",
+        "BRAKE",
+        "GEAR",
+        "BELL"
+      ],
+      "explanation": "Each is a recognisable part or feature of a bicycle.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_parts_of_a_bicycle",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "ed8cc9df6b82"
       },
       "verified": true
     },
@@ -704,6 +2528,25 @@
       "verified": true
     },
     {
+      "id": "06103532161b",
+      "category": "phrases containing 'old'",
+      "difficulty": "medium",
+      "words": [
+        "OLD SCHOOL",
+        "OLD FASHIONED",
+        "OLD FLAME",
+        "OLD GLORY"
+      ],
+      "explanation": "phrases containing 'old'",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_phrases_containing_old",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "79f999d0-eccc-4224-bb03-e5e20513d57a"
+      },
+      "verified": true
+    },
+    {
       "id": "c64f8605ab51",
       "category": "Rock genres",
       "difficulty": "medium",
@@ -719,6 +2562,44 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-012"
+      },
+      "verified": true
+    },
+    {
+      "id": "44d0b63f0fdc",
+      "category": "Seeds",
+      "difficulty": "medium",
+      "words": [
+        "CORN",
+        "FILBERT",
+        "GRAIN",
+        "KERNEL"
+      ],
+      "explanation": "Seeds",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_seeds",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8b89b828-4ba9-45eb-97eb-b7467432a79b"
+      },
+      "verified": true
+    },
+    {
+      "id": "17302867fbbd",
+      "category": "Settlers",
+      "difficulty": "medium",
+      "words": [
+        "FRONTIERSMAN",
+        "HOMESTEADER",
+        "NESTER",
+        "SOURDOUGH"
+      ],
+      "explanation": "Settlers",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_settlers",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e6973c5e-1fc0-4991-b807-910ea8767310"
       },
       "verified": true
     },
@@ -742,6 +2623,44 @@
       "verified": true
     },
     {
+      "id": "e22fa83f52a7",
+      "category": "TERMS RELATED TO CHANGE",
+      "difficulty": "medium",
+      "words": [
+        "TERMINOLOGY",
+        "JARGON",
+        "VOCABULARY",
+        "GLOSSARY"
+      ],
+      "explanation": "TERMS RELATED TO CHANGE",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_terms_related_to_change",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "eaac41f1-39b7-4070-b2aa-7d978b29093e"
+      },
+      "verified": true
+    },
+    {
+      "id": "305b00181c4c",
+      "category": "Things that can be cast",
+      "difficulty": "medium",
+      "words": [
+        "SHADOW",
+        "NET",
+        "SPELL",
+        "VOTE"
+      ],
+      "explanation": "You cast a shadow, cast a net, cast a spell, and cast a vote.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_that_can_be_cast",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "a9aa974daa8a"
+      },
+      "verified": true
+    },
+    {
       "id": "f5e51ce5be85",
       "category": "Things that can be cracked",
       "difficulty": "medium",
@@ -757,6 +2676,25 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-005"
+      },
+      "verified": true
+    },
+    {
+      "id": "983f241ef957",
+      "category": "Things that can be pitched",
+      "difficulty": "medium",
+      "words": [
+        "TENT",
+        "BALL",
+        "IDEA",
+        "VOICE"
+      ],
+      "explanation": "A tent is pitched at a campsite, a ball is pitched in baseball, an idea is pitched to investors, and a voice can be pitched high or low.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_that_can_be_pitched",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -799,6 +2737,25 @@
       "verified": true
     },
     {
+      "id": "cfa45d83711f",
+      "category": "Things that float",
+      "difficulty": "medium",
+      "words": [
+        "BALLOON",
+        "CORK",
+        "ICEBERG",
+        "RAFT"
+      ],
+      "explanation": "Each is well known for floating, whether on water or in the air.",
+      "mechanism_family": "shared_property",
+      "concept_key": "shared_property_things_that_float",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8c93e28d426d"
+      },
+      "verified": true
+    },
+    {
       "id": "5227ae83c0b5",
       "category": "Things that have arms",
       "difficulty": "medium",
@@ -811,6 +2768,44 @@
       "explanation": "Each of these has an arm as a feature.",
       "mechanism_family": "shared_property",
       "concept_key": "things_with_arms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "2ce6a822b86b",
+      "category": "Things that rock",
+      "difficulty": "medium",
+      "words": [
+        "CRADLE",
+        "BOAT",
+        "CHAIR",
+        "HORSE"
+      ],
+      "explanation": "Rocking cradle, rocking boat, rocking chair, and rocking horse all rock back and forth.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_that_rock_back_and_forth",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e2f379eed0aa"
+      },
+      "verified": true
+    },
+    {
+      "id": "ab5dd0c891c1",
+      "category": "Things with a bed",
+      "difficulty": "medium",
+      "words": [
+        "RIVER",
+        "TRUCK",
+        "GARDEN",
+        "NAIL"
+      ],
+      "explanation": "Each commonly has a 'bed': riverbed, truck bed, garden bed, nail bed.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_with_a_bed",
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"
@@ -871,6 +2866,44 @@
       "verified": true
     },
     {
+      "id": "3183815d957f",
+      "category": "Things you can catch",
+      "difficulty": "medium",
+      "words": [
+        "COLD",
+        "BUS",
+        "WAVE",
+        "BREAK"
+      ],
+      "explanation": "You can catch a cold, catch a bus, catch a wave, or catch a break.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_can_catch",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "bca77f82c52b"
+      },
+      "verified": true
+    },
+    {
+      "id": "52fc4015f68b",
+      "category": "Things you can whistle",
+      "difficulty": "medium",
+      "words": [
+        "TUNE",
+        "SONG",
+        "MELODY",
+        "JINGLE"
+      ],
+      "explanation": "You can whistle a tune, song, melody, or jingle \u2014 all musical things producible by whistling.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_things_you_can_whistle",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "3aacda397393"
+      },
+      "verified": true
+    },
+    {
       "id": "6750da9b35f2",
       "category": "Types of clouds",
       "difficulty": "medium",
@@ -890,6 +2923,25 @@
       "verified": true
     },
     {
+      "id": "91c3eb0cd72f",
+      "category": "types of stages or phases",
+      "difficulty": "medium",
+      "words": [
+        "PUBERTY",
+        "CRISIS",
+        "RENAISSANCE",
+        "INFANCY"
+      ],
+      "explanation": "types of stages or phases",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_types_of_stages_or_phases",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "a0ab0d4c-f7d5-4ea5-a940-783041955f4e"
+      },
+      "verified": true
+    },
+    {
       "id": "93a634a278b1",
       "category": "Types of storms",
       "difficulty": "medium",
@@ -905,6 +2957,82 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-007"
+      },
+      "verified": true
+    },
+    {
+      "id": "156667e59689",
+      "category": "Utensils",
+      "difficulty": "medium",
+      "words": [
+        "BOILER",
+        "COFFEEPOT",
+        "CRACKLE",
+        "KETTLE"
+      ],
+      "explanation": "Utensils",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_utensils",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "38ff6a11-7a57-4234-b4b8-2c2d6793932d"
+      },
+      "verified": true
+    },
+    {
+      "id": "c30d90533352",
+      "category": "Ways to travel on water",
+      "difficulty": "medium",
+      "words": [
+        "FERRY",
+        "CANOE",
+        "KAYAK",
+        "BARGE"
+      ],
+      "explanation": "Each is a vessel used to travel across water.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_ways_to_travel_on_water",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e0e7d41f6d01"
+      },
+      "verified": true
+    },
+    {
+      "id": "c621fca832f1",
+      "category": "Weapons",
+      "difficulty": "medium",
+      "words": [
+        "BAYONET",
+        "PISTOL",
+        "REVOLVER",
+        "SHOTGUN"
+      ],
+      "explanation": "Weapons",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_weapons",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "aaef97f9-9644-4d0f-bd9d-626e3f5017f7"
+      },
+      "verified": true
+    },
+    {
+      "id": "6b4b64faf5cf",
+      "category": "Words before 'house'",
+      "difficulty": "medium",
+      "words": [
+        "WARE",
+        "POWER",
+        "FULL",
+        "OPEN"
+      ],
+      "explanation": "Each word precedes 'house' to form a compound word: warehouse, powerhouse, full house, open house.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_house",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "0303245ce9b7"
       },
       "verified": true
     },
@@ -947,6 +3075,215 @@
       "verified": true
     },
     {
+      "id": "89cd28722860",
+      "category": "Words that follow 'OVER'",
+      "difficulty": "medium",
+      "words": [
+        "FLOW",
+        "NIGHT",
+        "BOARD",
+        "COAT"
+      ],
+      "explanation": "OVERFLOW, OVERNIGHT, OVERBOARD, OVERCOAT \u2014 all common compound words beginning with OVER.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_over",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "0a46cf8d5c24"
+      },
+      "verified": true
+    },
+    {
+      "id": "83bbc15484f8",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "HOW",
+        "SATISFY",
+        "QUALIFY",
+        "JUSTIFY"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e67416f7-1895-43c4-9078-c3063de10377"
+      },
+      "verified": true
+    },
+    {
+      "id": "47fa202ae59c",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "OUT",
+        "STEREO",
+        "RAINBOW",
+        "TOMORROW"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518"
+      },
+      "verified": true
+    },
+    {
+      "id": "f5796b06f04d",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "PLAY",
+        "ARRAY",
+        "LES",
+        "EVERYDAY"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "7cff7d56-6795-49e3-9fc2-fbb5cccb7fb6"
+      },
+      "verified": true
+    },
+    {
+      "id": "27326ab0d1cf",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "LOW",
+        "ALTHOUGH",
+        "THROW",
+        "HELLO"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8cda65ea-d562-4ec3-b57f-7f7aa2b2b488"
+      },
+      "verified": true
+    },
+    {
+      "id": "1c16f485eaec",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "EAT",
+        "RECEIPT",
+        "SHEET",
+        "SUITE"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d79f0f1a-46e8-4bd5-a056-fee3d36a0ab3"
+      },
+      "verified": true
+    },
+    {
+      "id": "cbac60ef5db4",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "DOOR",
+        "CORPS",
+        "BEFORE",
+        "SHORE"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8a4d28b6-9e1c-499f-9238-1df976fdbff8"
+      },
+      "verified": true
+    },
+    {
+      "id": "8bb92ee6d79a",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "WEATHER",
+        "ROULETTE",
+        "FORGET",
+        "LAFAYETTE"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "50b053bd-60e4-45ad-a575-af5c7c787d78"
+      },
+      "verified": true
+    },
+    {
+      "id": "efa890f0cfe4",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "SHOULDER",
+        "THOUGH",
+        "TOE",
+        "KNOW"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "34ab2a3f-6522-4b40-b53f-9afa8e8ce4ff"
+      },
+      "verified": true
+    },
+    {
+      "id": "79a8d0871949",
+      "category": "Words that rhyme",
+      "difficulty": "medium",
+      "words": [
+        "TRASH",
+        "SUNRISE",
+        "MINIMIZE",
+        "ORGANIZE"
+      ],
+      "explanation": "Words that rhyme",
+      "mechanism_family": "sound",
+      "concept_key": "sound_words_that_rhyme",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "6ff8ccee-fecf-4c92-9643-d601ac255b8e"
+      },
+      "verified": true
+    },
+    {
+      "id": "53d31d02e032",
+      "category": "Words with a silent B",
+      "difficulty": "medium",
+      "words": [
+        "LAMB",
+        "COMB",
+        "THUMB",
+        "DOUBT"
+      ],
+      "explanation": "Each word contains a B that is never pronounced: lam, cohm, thum, dowt.",
+      "mechanism_family": "spelling",
+      "concept_key": "silent_letter_b",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "6f2f427cf36a"
+      },
+      "verified": true
+    },
+    {
       "id": "9ee31ca90049",
       "category": "Zodiac signs",
       "difficulty": "medium",
@@ -962,6 +3299,671 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-003"
+      },
+      "verified": true
+    },
+    {
+      "id": "5504bef2c018",
+      "category": "\"DOOR\" + ___",
+      "difficulty": "tricky",
+      "words": [
+        "STEP",
+        "BELL",
+        "KNOB",
+        "WAY"
+      ],
+      "explanation": "\"DOOR\" + ___",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_door",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e67416f7-1895-43c4-9078-c3063de10377"
+      },
+      "verified": true
+    },
+    {
+      "id": "e92dffb1ec07",
+      "category": "\"DOWN\" + ___",
+      "difficulty": "tricky",
+      "words": [
+        "POUR",
+        "CAST",
+        "TURN",
+        "RIGHT"
+      ],
+      "explanation": "\"DOWN\" + ___",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_down",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "5f8dbf9a-8730-4f3b-b46b-046fe9e7bb7d"
+      },
+      "verified": true
+    },
+    {
+      "id": "7fab9dbf5d7e",
+      "category": "\"RAIN\" + ___",
+      "difficulty": "tricky",
+      "words": [
+        "BOW",
+        "STORM",
+        "COAT",
+        "FALL"
+      ],
+      "explanation": "\"RAIN\" + ___",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_rain",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "50b053bd-60e4-45ad-a575-af5c7c787d78"
+      },
+      "verified": true
+    },
+    {
+      "id": "11c6737b524a",
+      "category": "\"SUN\" + ___",
+      "difficulty": "tricky",
+      "words": [
+        "LIGHT",
+        "DOWN",
+        "SET",
+        "SHADE"
+      ],
+      "explanation": "\"SUN\" + ___",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_sun",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518"
+      },
+      "verified": true
+    },
+    {
+      "id": "746b943291e7",
+      "category": "\"UP\" + ___",
+      "difficulty": "tricky",
+      "words": [
+        "DATE",
+        "SET",
+        "COMING",
+        "GRADE"
+      ],
+      "explanation": "\"UP\" + ___",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_up",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "69f1eff5-af23-4c19-b0e2-d28b7bcdd735"
+      },
+      "verified": true
+    },
+    {
+      "id": "7d55011c050f",
+      "category": "___ + \"BACK\"",
+      "difficulty": "tricky",
+      "words": [
+        "DRAW",
+        "FEED",
+        "COME",
+        "LINE"
+      ],
+      "explanation": "___ + \"BACK\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_back",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d79f0f1a-46e8-4bd5-a056-fee3d36a0ab3"
+      },
+      "verified": true
+    },
+    {
+      "id": "64dbc67bcf8d",
+      "category": "___ + \"BOARD\"",
+      "difficulty": "tricky",
+      "words": [
+        "BUCK",
+        "FLOOR",
+        "CARD",
+        "SCORE"
+      ],
+      "explanation": "___ + \"BOARD\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_board",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "7cff7d56-6795-49e3-9fc2-fbb5cccb7fb6"
+      },
+      "verified": true
+    },
+    {
+      "id": "eb7a8e31568f",
+      "category": "___ + \"BOOK\"",
+      "difficulty": "tricky",
+      "words": [
+        "SKETCH",
+        "POCKET",
+        "NOTE",
+        "TEXT"
+      ],
+      "explanation": "___ + \"BOOK\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_book",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "84dcae44-b634-497b-8b6a-74057513effc"
+      },
+      "verified": true
+    },
+    {
+      "id": "9dffb97e433d",
+      "category": "___ + \"FALL\"",
+      "difficulty": "tricky",
+      "words": [
+        "DOWN",
+        "NIGHT",
+        "WIND",
+        "SNOW"
+      ],
+      "explanation": "___ + \"FALL\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_fall",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0"
+      },
+      "verified": true
+    },
+    {
+      "id": "d1598e628afc",
+      "category": "___ + \"HEAD\"",
+      "difficulty": "tricky",
+      "words": [
+        "BEACH",
+        "RAIL",
+        "FORE",
+        "WAR"
+      ],
+      "explanation": "___ + \"HEAD\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_head",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "523e1ad2-dafe-487e-8f41-4ccf035370d6"
+      },
+      "verified": true
+    },
+    {
+      "id": "d7b66b185caf",
+      "category": "___ + \"HOLE\"",
+      "difficulty": "tricky",
+      "words": [
+        "KEY",
+        "LOOP",
+        "ARM",
+        "FOX"
+      ],
+      "explanation": "___ + \"HOLE\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_hole",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "34ab2a3f-6522-4b40-b53f-9afa8e8ce4ff"
+      },
+      "verified": true
+    },
+    {
+      "id": "27f74ccb9509",
+      "category": "___ + \"LAND\"",
+      "difficulty": "tricky",
+      "words": [
+        "HIGH",
+        "FIN",
+        "HOME",
+        "ICE"
+      ],
+      "explanation": "___ + \"LAND\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_land",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8cda65ea-d562-4ec3-b57f-7f7aa2b2b488"
+      },
+      "verified": true
+    },
+    {
+      "id": "e30c45b65969",
+      "category": "___ + \"LAND\"",
+      "difficulty": "tricky",
+      "words": [
+        "WASTE",
+        "TIMBER",
+        "RANGE",
+        "MAIN"
+      ],
+      "explanation": "___ + \"LAND\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_land",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "6ff8ccee-fecf-4c92-9643-d601ac255b8e"
+      },
+      "verified": true
+    },
+    {
+      "id": "610be19393ea",
+      "category": "___ + \"MAN\"",
+      "difficulty": "tricky",
+      "words": [
+        "MAIL",
+        "GENTLE",
+        "BAT",
+        "CHAIR"
+      ],
+      "explanation": "___ + \"MAN\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_man",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "d7d85cd2-c37e-4471-8b50-123c1ae7e136"
+      },
+      "verified": true
+    },
+    {
+      "id": "69a117440cc3",
+      "category": "___ + \"WAY\"",
+      "difficulty": "tricky",
+      "words": [
+        "GATE",
+        "RAIL",
+        "BROAD",
+        "HIGH"
+      ],
+      "explanation": "___ + \"WAY\"",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_way",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8a4d28b6-9e1c-499f-9238-1df976fdbff8"
+      },
+      "verified": true
+    },
+    {
+      "id": "0b62b7baf36b",
+      "category": "___ TIME",
+      "difficulty": "tricky",
+      "words": [
+        "BED",
+        "MEAL",
+        "NIGHT",
+        "SPRING"
+      ],
+      "explanation": "___ TIME",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_time",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "029212f3-75ba-4374-9991-3b32d44ed4a1"
+      },
+      "verified": true
+    },
+    {
+      "id": "20ea24e02bd4",
+      "category": "___ WAY",
+      "difficulty": "tricky",
+      "words": [
+        "HATCH",
+        "PARK",
+        "RAIL",
+        "SUB"
+      ],
+      "explanation": "___ WAY",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_way",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "38ff6a11-7a57-4234-b4b8-2c2d6793932d"
+      },
+      "verified": true
+    },
+    {
+      "id": "a70fa66434ab",
+      "category": "___ WAY",
+      "difficulty": "tricky",
+      "words": [
+        "DOOR",
+        "DRIVE",
+        "HATCH",
+        "STAIR"
+      ],
+      "explanation": "___ WAY",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_target_way",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "aaef97f9-9644-4d0f-bd9d-626e3f5017f7"
+      },
+      "verified": true
+    },
+    {
+      "id": "094109b43a5a",
+      "category": "Also a type of knot",
+      "difficulty": "tricky",
+      "words": [
+        "BOWLINE",
+        "CLOVE",
+        "FIGURE",
+        "SHEEPSHANK"
+      ],
+      "explanation": "Each word is a common English word or phrase that is also the name of a specific knot used in sailing or climbing.",
+      "mechanism_family": "double_identity",
+      "concept_key": "types_of_knot",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "a155fe7e93e0",
+      "category": "characters in Alice in Wonderland",
+      "difficulty": "tricky",
+      "words": [
+        "CATERPILLAR",
+        "CHESHIRE CAT",
+        "DORMOUSE",
+        "HARE"
+      ],
+      "explanation": "characters in Alice in Wonderland",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_characters_in_alice_in_wonderland",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "405f097a-66af-450d-a60e-e5ced2730106"
+      },
+      "verified": true
+    },
+    {
+      "id": "6708e10baab3",
+      "category": "collective nouns for crocodiles",
+      "difficulty": "tricky",
+      "words": [
+        "BASK",
+        "CONGREGATION",
+        "FLOAT",
+        "NEST"
+      ],
+      "explanation": "collective nouns for crocodiles",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_collective_nouns_for_crocodiles",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "2821aae6-f883-4b14-a206-4894ec5d3451"
+      },
+      "verified": true
+    },
+    {
+      "id": "307f3ebf4c30",
+      "category": "collective nouns for specific birds",
+      "difficulty": "tricky",
+      "words": [
+        "AN UNKINDNESS",
+        "A PARLIAMENT",
+        "A WAKE",
+        "A CONVOCATION"
+      ],
+      "explanation": "collective nouns for specific birds",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_collective_nouns_for_specific_birds",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "b62f2cba-b2b2-4650-9678-2e7b6bc79a94"
+      },
+      "verified": true
+    },
+    {
+      "id": "8913f85a6b82",
+      "category": "collective nouns for specific professions",
+      "difficulty": "tricky",
+      "words": [
+        "PANEL",
+        "BATTERY",
+        "CHAIN",
+        "GALAXY"
+      ],
+      "explanation": "collective nouns for specific professions",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_collective_nouns_for_specific_professions",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e80ba1e5-2417-474d-adca-aac7cfb77b79"
+      },
+      "verified": true
+    },
+    {
+      "id": "7a98128971a2",
+      "category": "collective nouns for unusual professions",
+      "difficulty": "tricky",
+      "words": [
+        "A MISCHIEF",
+        "A MURMURATION",
+        "A TROOP",
+        "A GALAXY"
+      ],
+      "explanation": "collective nouns for unusual professions",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_collective_nouns_for_unusual_professions",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "a0ab0d4c-f7d5-4ea5-a940-783041955f4e"
+      },
+      "verified": true
+    },
+    {
+      "id": "3425c1c1b6dc",
+      "category": "Common words that are also programming languages",
+      "difficulty": "tricky",
+      "words": [
+        "RUBY",
+        "SWIFT",
+        "RUST",
+        "GO"
+      ],
+      "explanation": "Each is a familiar English word that is also the name of a real programming language: Ruby, Swift, Rust, Go.",
+      "mechanism_family": "double_identity",
+      "concept_key": "double_identity_common_words_that_are_also_programming_languages",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "ed8cc9df6b82"
+      },
+      "verified": true
+    },
+    {
+      "id": "9903d695f5ed",
+      "category": "FORE ___",
+      "difficulty": "tricky",
+      "words": [
+        "ARM",
+        "HEAD",
+        "RUNNER",
+        "SEE"
+      ],
+      "explanation": "FORE ___",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_fore",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e6973c5e-1fc0-4991-b807-910ea8767310"
+      },
+      "verified": true
+    },
+    {
+      "id": "abc3b099c7f8",
+      "category": "Homophones of letters",
+      "difficulty": "tricky",
+      "words": [
+        "ARE",
+        "JAY",
+        "WHY",
+        "KAY"
+      ],
+      "explanation": "Each word sounds exactly like a letter of the alphabet: ARE=R, JAY=J, WHY=Y, KAY=K.",
+      "mechanism_family": "sound",
+      "concept_key": "homophones_of_letters",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "0303245ce9b7"
+      },
+      "verified": true
+    },
+    {
+      "id": "eb9701f23676",
+      "category": "Homophones of numbers",
+      "difficulty": "tricky",
+      "words": [
+        "WON",
+        "TOO",
+        "FOR",
+        "ATE"
+      ],
+      "explanation": "WON sounds like one, TOO sounds like two, FOR sounds like four, ATE sounds like eight.",
+      "mechanism_family": "sound",
+      "concept_key": "homophones_of_numbers",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "0a46cf8d5c24"
+      },
+      "verified": true
+    },
+    {
+      "id": "f7d817542391",
+      "category": "MID ___",
+      "difficulty": "tricky",
+      "words": [
+        "AIR",
+        "DAY",
+        "NIGHT",
+        "WEEK"
+      ],
+      "explanation": "MID ___",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_mid",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8b89b828-4ba9-45eb-97eb-b7467432a79b"
+      },
+      "verified": true
+    },
+    {
+      "id": "9850309ada78",
+      "category": "New word when S is added to the front",
+      "difficulty": "tricky",
+      "words": [
+        "TRAIN",
+        "CREAM",
+        "PRAY",
+        "LAUGHTER"
+      ],
+      "explanation": "Adding S to the front gives: STRAIN, SCREAM, SPRAY, SLAUGHTER.",
+      "mechanism_family": "transformation",
+      "concept_key": "add_s_prefix",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "607a56eb71e6"
+      },
+      "verified": true
+    },
+    {
+      "id": "f58ff5bc0aab",
+      "category": "ships in Simon and Garfunkel songs",
+      "difficulty": "tricky",
+      "words": [
+        "SILVER GIRL",
+        "HALF A MILE",
+        "ISLAND",
+        "OLD FRIENDS"
+      ],
+      "explanation": "ships in Simon and Garfunkel songs",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_ships_in_simon_and_garfunkel_songs",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "79f999d0-eccc-4224-bb03-e5e20513d57a"
+      },
+      "verified": true
+    },
+    {
+      "id": "099d45555661",
+      "category": "Spelled with only musical note letters (A\u2013G)",
+      "difficulty": "tricky",
+      "words": [
+        "BEAD",
+        "CAGE",
+        "FACE",
+        "DECADE"
+      ],
+      "explanation": "Every letter in each word is a musical note (A B C D E F G): BEAD, CAGE, FACE, DECADE.",
+      "mechanism_family": "spelling",
+      "concept_key": "spelling_spelled_with_only_musical_note_letters_a_g",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "3aacda397393"
+      },
+      "verified": true
+    },
+    {
+      "id": "f74af8829e90",
+      "category": "SUN ___",
+      "difficulty": "tricky",
+      "words": [
+        "BURN",
+        "DOWN",
+        "LIGHT",
+        "SHINE"
+      ],
+      "explanation": "SUN ___",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_target_sun",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e3c5ce1b-a29a-4ecd-a389-50e0e2766da8"
+      },
+      "verified": true
+    },
+    {
+      "id": "503771ff9092",
+      "category": "Verbs meaning to look carefully",
+      "difficulty": "tricky",
+      "words": [
+        "WATCH",
+        "PEER",
+        "SCAN",
+        "SURVEY"
+      ],
+      "explanation": "Watch, peer, scan, and survey all function as verbs meaning to look at or examine something carefully.",
+      "mechanism_family": "double_identity",
+      "concept_key": "verbs_meaning_to_look",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "a9aa974daa8a"
+      },
+      "verified": true
+    },
+    {
+      "id": "c6ddbdf9634b",
+      "category": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
+      "difficulty": "tricky",
+      "words": [
+        "GREGARIOUS",
+        "INTERPERSONAL",
+        "RAPPORT",
+        "AFFECTIONATE"
+      ],
+      "explanation": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_ways_to_describe_friendly_behavior",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "eaac41f1-39b7-4070-b2aa-7d978b29093e"
       },
       "verified": true
     },
@@ -1187,6 +4189,101 @@
       "explanation": "Each word hides a tree: PINE, ELM, ASH, BIRCH.",
       "mechanism_family": "spelling",
       "concept_key": "spelling_hidden_trees",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "9bb407c08d9d",
+      "category": "Words containing celestial bodies",
+      "difficulty": "tricky",
+      "words": [
+        "MARSH",
+        "HEARTH",
+        "SUNBURN",
+        "MOONLIGHT"
+      ],
+      "explanation": "MARSH contains MARS, HEARTH contains EARTH, SUNBURN contains SUN, and MOONLIGHT contains MOON.",
+      "mechanism_family": "spelling",
+      "concept_key": "words_containing_celestial_bodies",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e2f379eed0aa"
+      },
+      "verified": true
+    },
+    {
+      "id": "623bc983e9fe",
+      "category": "Words hiding a body of water",
+      "difficulty": "tricky",
+      "words": [
+        "FLAKE",
+        "SEASON",
+        "CARPOOL",
+        "SWAMPED"
+      ],
+      "explanation": "Each conceals a body of water: LAKE in fLAKE, SEA in SEAson, POOL in carPOOL, SWAMP in SWAMPed.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_words_hiding_a_body_of_water",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "8c93e28d426d"
+      },
+      "verified": true
+    },
+    {
+      "id": "dfe4dc60cffb",
+      "category": "Words hiding a day of the week",
+      "difficulty": "tricky",
+      "words": [
+        "SUNDAE",
+        "SATIRE",
+        "WEDNESDAY",
+        "MONUMENT"
+      ],
+      "explanation": "SUN in SUNDAE, SAT in SATIRE, WED in WEDNESDAY, and MON in MONUMENT.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "semantic_set_words_hiding_a_day_of_the_week",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "e0e7d41f6d01"
+      },
+      "verified": true
+    },
+    {
+      "id": "cdd24392f658",
+      "category": "Words hiding a number inside",
+      "difficulty": "tricky",
+      "words": [
+        "FREIGHT",
+        "CANTEEN",
+        "OFTEN",
+        "STONE"
+      ],
+      "explanation": "Each word contains a hidden spelled-out number: frEIGHT (eight), canTEEN (teen), ofTEN (ten), sTONE (one).",
+      "mechanism_family": "spelling",
+      "concept_key": "spelling_words_hiding_a_number_inside",
+      "origin": {
+        "source": "sync-from-master",
+        "puzzle_id": "bca77f82c52b"
+      },
+      "verified": true
+    },
+    {
+      "id": "38cfa5e1f327",
+      "category": "Words using only the vowel E",
+      "difficulty": "tricky",
+      "words": [
+        "SEVEN",
+        "SHELTER",
+        "PEPPER",
+        "BETWEEN"
+      ],
+      "explanation": "E is the only vowel appearing in each word.",
+      "mechanism_family": "shared_property",
+      "concept_key": "monovowel_e_words",
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"

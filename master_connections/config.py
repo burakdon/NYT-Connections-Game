@@ -16,12 +16,12 @@ _MASTER_ROOT = Path(__file__).resolve().parent
 OUTPUT_PATH = _MASTER_ROOT / 'output' / 'generated_puzzles.json'
 
 PIPELINE_WEIGHTS = {
-    'burak':       0.50,
-    'adreama':     0.25,
+    'burak':       0.40,
+    'adreama':     0.20,
     # Intentionally 0 — do not enable without review (remix touches real NYT-derived data).
     'kevin_remix': 0,
-    'kevin_fresh': 0.10,
-    'abuzar_nlp':  0.10,
+    'kevin_fresh': 0.15,
+    'abuzar_nlp':  0.20,
     'abuzar_ai':   0.05,
 }
 

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "SLIVERY",
+      "LOBLOLLY",
+      "WETNESS",
+      "MOVIE",
+      "MOISTURE",
+      "DRENCHED",
+      "MOOD",
+      "PERVAPORATION",
+      "GOODFELLA",
+      "SHAPELY",
+      "CHEERFULNESS",
+      "FOUNTAINHEAD",
+      "EMOTIONALITY",
+      "SLINKY",
+      "DEMEANOR",
+      "INTERSTELLAR"
+    ],
+    "groups": [
+      {
+        "category": "ADJECTIVES DESCRIBING MOODS",
+        "words": [
+          "MOOD",
+          "CHEERFULNESS",
+          "EMOTIONALITY",
+          "DEMEANOR"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6090344587961832
+      },
+      {
+        "category": "WORDS RELATED TO WATER",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "PERVAPORATION",
+          "DRENCHED"
+        ],
+        "color": "green",
+        "similarity_score": 0.5920474976301193
+      },
+      {
+        "category": "MOVIES FEATURING TIME TRAVEL",
+        "words": [
+          "INTERSTELLAR",
+          "MOVIE",
+          "GOODFELLA",
+          "FOUNTAINHEAD"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5893535117308298
+      },
+      {
+        "category": "WORDS THAT END WITH 'LY'",
+        "words": [
+          "LOBLOLLY",
+          "SLIVERY",
+          "SLINKY",
+          "SHAPELY"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5718330144882202
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MOOD",
+                "CHEERFULNESS",
+                "EMOTIONALITY",
+                "DEMEANOR"
+              ],
+              "score": 0.6090344587961832
+            },
+            {
+              "words": [
+                "WETNESS",
+                "MOISTURE",
+                "DRENCHED",
+                "PERVAPORATION"
+              ],
+              "score": 0.5920474976301193
+            },
+            {
+              "words": [
+                "MOVIE",
+                "GOODFELLA",
+                "FOUNTAINHEAD",
+                "INTERSTELLAR"
+              ],
+              "score": 0.5893535117308298
+            },
+            {
+              "words": [
+                "SLIVERY",
+                "LOBLOLLY",
+                "SHAPELY",
+                "SLINKY"
+              ],
+              "score": 0.5718330144882202
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MOOD",
+                "CHEERFULNESS",
+                "EMOTIONALITY",
+                "DEMEANOR"
+              ],
+              "score": 0.6090344587961832
+            },
+            {
+              "words": [
+                "MOVIE",
+                "GOODFELLA",
+                "FOUNTAINHEAD",
+                "INTERSTELLAR"
+              ],
+              "score": 0.5893535117308298
+            },
+            {
+              "words": [
+                "WETNESS",
+                "MOISTURE",
+                "DRENCHED",
+                "PERVAPORATION"
+              ],
+              "score": 0.5920474976301193
+            },
+            {
+              "words": [
+                "SLIVERY",
+                "LOBLOLLY",
+                "SHAPELY",
+                "SLINKY"
+              ],
+              "score": 0.5718330144882202
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5905671206613381,
+      "created_at": "2026-04-20T01:29:28.233270+00:00",
+      "accepted": true
+    }
+  }
+]
