@@ -1,80 +1,20 @@
 {
-  "accepted": [
-    {
-      "groups": [
-        {
-          "category": "Words After APPLE",
-          "difficulty": "easy",
-          "words": [
-            "SAUCE",
-            "JUICE",
-            "PIE",
-            "CIDER"
-          ],
-          "explanation": "Each word follows APPLE to make a common food or drink compound: applesauce, apple juice, apple pie, apple cider.",
-          "mechanism_family": "phrase_completion",
-          "concept_key": "phrase_after_apple"
-        },
-        {
-          "category": "Things that can be pitched",
-          "difficulty": "medium",
-          "words": [
-            "TENT",
-            "BALL",
-            "IDEA",
-            "VOICE"
-          ],
-          "explanation": "A tent is pitched at a campsite, a ball is pitched in baseball, an idea is pitched to investors, and a voice can be pitched high or low.",
-          "mechanism_family": "shared_property",
-          "concept_key": "things_that_can_be_pitched"
-        },
-        {
-          "category": "Words hiding a big cat",
-          "difficulty": "hard",
-          "words": [
-            "BILLION",
-            "TIGERISH",
-            "JAGUARS",
-            "LEOPARDS"
-          ],
-          "explanation": "Each word contains a big cat hidden inside: BILLION\u2192LION, TIGERISH\u2192TIGER, JAGUARS\u2192JAGUAR, LEOPARDS\u2192LEOPARD.",
-          "mechanism_family": "spelling",
-          "concept_key": "words_hiding_big_cat"
-        },
-        {
-          "category": "Also a type of knot",
-          "difficulty": "tricky",
-          "words": [
-            "BOWLINE",
-            "CLOVE",
-            "FIGURE",
-            "SHEEPSHANK"
-          ],
-          "explanation": "Each word is a common English word or phrase that is also the name of a specific knot used in sailing or climbing.",
-          "mechanism_family": "double_identity",
-          "concept_key": "types_of_knot"
-        }
-      ],
-      "source": "group-bank-assembler",
-      "difficulty_mode": "easy",
-      "id": "gb-cd15958e79c7"
-    }
-  ],
+  "accepted": [],
   "rejected": [
     {
       "group": {
-        "id": "fd119ad89f6d",
-        "category": "Distilled Spirits",
+        "id": "3acdefd2474d",
+        "category": "Types of Cloud",
         "difficulty": "easy",
         "words": [
-          "WHISKEY",
-          "VODKA",
-          "GIN",
-          "RUM"
+          "CIRRUS",
+          "CUMULUS",
+          "STRATUS",
+          "NIMBUS"
         ],
-        "explanation": "All four are classic distilled alcoholic spirits.",
+        "explanation": "All four are standard meteorological cloud classifications.",
         "mechanism_family": "semantic_set",
-        "concept_key": "distilled_spirits",
+        "concept_key": "cloud_types",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -82,34 +22,8 @@
         "verified": true
       },
       "errors": [
-        "Generated group copies an inspiration concept exactly as its category: Distilled Spirits."
-      ],
-      "stage": "local_group_validator",
-      "color": "yellow",
-      "lane": "easy"
-    },
-    {
-      "group": {
-        "id": "89cd974575fd",
-        "category": "Crustaceans",
-        "difficulty": "easy",
-        "words": [
-          "CRAB",
-          "LOBSTER",
-          "SHRIMP",
-          "BARNACLE"
-        ],
-        "explanation": "All four are crustaceans \u2014 hard-shelled aquatic arthropods.",
-        "mechanism_family": "semantic_set",
-        "concept_key": "crustaceans",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Generated group copies an inspiration concept exactly as its category: Crustaceans."
+        "Answer group repeats an existing verified group: CIRRUS, CUMULUS, NIMBUS, STRATUS.",
+        "Generated group copies an inspiration concept exactly as its concept_key: cloud_types."
       ],
       "stage": "local_group_validator",
       "color": "yellow",
@@ -126,7 +40,7 @@
           "LETTERS",
           "CHANNELS"
         ],
-        "explanation": "All four can naturally be described as scrambled: scrambled eggs, scrambled signal, scrambled letters, scrambled channels.",
+        "explanation": "Eggs can be scrambled in a pan, a signal can be scrambled electronically, letters can be scrambled into anagrams, and TV channels can be scrambled for security.",
         "mechanism_family": "shared_property",
         "concept_key": "things_that_can_be_scrambled",
         "source": "claude-group-agent",
@@ -144,47 +58,18 @@
     },
     {
       "group": {
-        "id": "bf729c5ab806",
-        "category": "Palindromes",
-        "difficulty": "easy",
-        "words": [
-          "LEVEL",
-          "CIVIC",
-          "RADAR",
-          "KAYAK"
-        ],
-        "explanation": "Each word reads the same forwards and backwards, making it a palindrome.",
-        "mechanism_family": "spelling",
-        "concept_key": "palindromes",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Answer group overlaps 3+ words with an existing verified group: CIVIC, KAYAK, LEVEL, RADAR overlaps CIVIC, KAYAK, LEVEL, ROTOR.",
-        "Category label repeats an existing verified group: Palindromes.",
-        "Generated group copies an inspiration concept exactly as its category: Palindromes."
-      ],
-      "stage": "local_group_validator",
-      "color": "yellow",
-      "lane": "easy"
-    },
-    {
-      "group": {
-        "id": "79c61afd947c",
-        "category": "Words hiding a planet name",
+        "id": "37077f229b03",
+        "category": "Words hiding a day of the week",
         "difficulty": "medium",
         "words": [
-          "MARSHAL",
-          "JOURNEY",
-          "SATURN",
-          "NEPTUNE"
+          "MONDAY",
+          "SUNDAE",
+          "FRIDAY",
+          "THURSDAY"
         ],
-        "explanation": "Each word contains or is a planet name: MARSHAL hides MARS, JOURNEY hides none \u2014 replaced: MARSHAL\u2192MARS, SATURNIA\u2192SATURN, NEPTUNE\u2192NEPTUNE, MARSUPI\u2192 ... let me correct this group.",
+        "explanation": "Each word contains a day of the week hidden inside it: MONday, SUNdae (SUN\u2192SUN, but SUNDAE hides SUN), FRIDAY contains FRI, THURSDAY contains THUR \u2014 actually each word IS or contains a day: MONDAY=MONDAY, SUNDAE hides SUN, FRIDAY=FRIDAY, THURSDAY=THURSDAY. Revised: words that contain a hidden day \u2014 WEDNESDAY hides WED, SATURDAY hides SAT, SUNDAE hides SUN, MONDAY hides MON.",
         "mechanism_family": "spelling",
-        "concept_key": "words_hiding_planet_name",
+        "concept_key": "hidden_day_of_week",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -192,7 +77,9 @@
         "verified": true
       },
       "errors": [
-        "Group 'Words hiding a planet name' says JOURNEY hides NONE, but it does not."
+        "Group 'Words hiding a day of the week' explanation is too long.",
+        "Group 'Words hiding a day of the week' explanation contains draft text.",
+        "Category label repeats an existing verified group: Words hiding a day of the week."
       ],
       "stage": "local_group_validator",
       "color": "green",
@@ -200,18 +87,18 @@
     },
     {
       "group": {
-        "id": "c1f87dec8c64",
-        "category": "Rhetorical devices",
+        "id": "2f9dd8c18308",
+        "category": "Words hiding a day of the week",
         "difficulty": "medium",
         "words": [
-          "ANAPHORA",
-          "CHIASMUS",
-          "LITOTES",
-          "HYPERBOLE"
+          "SUNDAE",
+          "MONDAY",
+          "SATURDAY",
+          "WEDNESDAY"
         ],
-        "explanation": "All four are classical rhetorical figures of speech used in oratory and writing.",
-        "mechanism_family": "semantic_set",
-        "concept_key": "rhetorical_devices",
+        "explanation": "Each word contains a day of the week hidden in its spelling: SUNDAE (SUN), MONDAY (MON), SATURDAY (SAT), WEDNESDAY (WED).",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_day_of_week",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -219,7 +106,7 @@
         "verified": true
       },
       "errors": [
-        "Generated group copies an inspiration concept exactly as its category: Rhetorical devices."
+        "Category label repeats an existing verified group: Words hiding a day of the week."
       ],
       "stage": "local_group_validator",
       "color": "green",
@@ -227,105 +114,18 @@
     },
     {
       "group": {
-        "id": "4289c44ae28d",
-        "category": "Words hiding a planet name",
+        "id": "305b00181c4c",
+        "category": "Things that can be cast",
         "difficulty": "medium",
         "words": [
-          "MARSHAL",
-          "EARTHEN",
-          "MARSUPIAL",
-          "SATURNINE"
+          "SHADOW",
+          "SPELL",
+          "NET",
+          "VOTE"
         ],
-        "explanation": "Each word contains a planet name hidden inside: MARSHAL\u2192MARS, EARTHEN\u2192EARTH, MARSUPIAL\u2192MARS...",
-        "mechanism_family": "spelling",
-        "concept_key": "words_hiding_planet_name",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "MARSHAL and MARSUPIAL both hide MARS \u2014 two words share the same planet, making the group internally redundant and unfair to solvers who expect four different planets.",
-        "The category promises a variety of hidden planet names but only delivers MARS (\u00d72), EARTH, and SATURN \u2014 not four distinct planets.",
-        "Needs MARSHAL or MARSUPIAL replaced with a word hiding a different planet (e.g., JUVENILE\u2192JUPITER, VENERABLE\u2192VENUS, MERCURIAL\u2192MERCURY, NEPTUNE hidden in NEPTUNIAN, etc.)."
-      ],
-      "stage": "group_auditor",
-      "color": "green",
-      "lane": "medium"
-    },
-    {
-      "group": {
-        "id": "d0f207df42a1",
-        "category": "Words hiding a big cat",
-        "difficulty": "hard",
-        "words": [
-          "RECLINER",
-          "JAGUARS",
-          "COUPON",
-          "OCELOT"
-        ],
-        "explanation": "Each word contains a big cat hidden inside: reCLINer (no) \u2014 RECLINER hides LION, JAGUARS hides JAGUAR, COUPON hides PUMA (no) \u2014 let me verify: JAGUARS\u2192JAGUAR, OCELOT\u2192OCELOT is the cat itself; replacing: POUNCE hides OUNCE not a cat; LEOPARD is the cat; SCALPEL hides no cat; CHEETAH; PANTHER; CATALOG hides CAT, SLIPPER hides LION (sLIONer? no); SCALP; DECLINE hides no cat; RECLINER: R-E-C-L-I-N-E-R \u2192 no big cat; replace RECLINER with SILICON: S-I-C-O-L-I-N \u2192 no; TIGERISH hides TIGER; PLIANT hides LION? P-L-I-A-N-T no; BILLION hides LION: B-I-L-L-I-O-N yes; JAGUARS hides JAGUAR; OCELOTS hides OCELOT; POUNCING hides no; ACHEETAH; PANTHER; CHAPLAIN hides no; CIVILIAN hides no; TIGERISH hides TIGER; COUGAR hides COUGAR itself; SCALPEL: S-C-A-L-P-E-L no; PENAL hides no; TOPAZ; CATALOG: C-A-T-A-L-O-G hides CAT; BILLION hides LION; TIGERISH hides TIGER; JAGUARS hides JAGUAR \u2014 four clean answers: BILLION (LION), TIGERISH (TIGER), CATALOG (CAT is not a big cat); replace CATALOG with LEOPARDS (LEOPARD); final: BILLION, TIGERISH, JAGUARS, LEOPARDS \u2014 BILLION hides LION, TIGERISH hides TIGER, JAGUARS hides JAGUAR, LEOPARDS hides LEOPARD.",
-        "mechanism_family": "spelling",
-        "concept_key": "words_hiding_big_cat",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Group 'Words hiding a big cat' explanation is too long.",
-        "Group 'Words hiding a big cat' explanation contains draft text.",
-        "Group 'Words hiding a big cat' says RECLINER hides LION, but it does not.",
-        "Group 'Words hiding a big cat' says COUPON hides PUMA, but it does not."
-      ],
-      "stage": "local_group_validator",
-      "color": "blue",
-      "lane": "hard"
-    },
-    {
-      "group": {
-        "id": "73e05f246577",
-        "category": "Rhymes with a yoga pose",
-        "difficulty": "hard",
-        "words": [
-          "HOBRA",
-          "THUNDER",
-          "STEEPLE",
-          "PRAYER"
-        ],
-        "explanation": "Each rhymes with a yoga pose name: COBRA, THUNDER\u2192WONDER (no) \u2014 verify: COBRA rhymes with HOBRA; TREE pose rhymes with ?; CHAIR pose rhymes with PRAYER; PLANK rhymes with BLANK/BANK; BRIDGE rhymes with FRIDGE; WARRIOR rhymes with ?; CAMEL rhymes with MAMMAL; EAGLE rhymes with BEAGLE; PIGEON rhymes with SMIDGEON; CRANE rhymes with LANE/RAIN; LOTUS rhymes with NOTICE; DANCER rhymes with CANCER/ANSWER; final clean set: BEAGLE (rhymes with EAGLE), ANSWER (rhymes with DANCER), NOTICE (rhymes with LOTUS), MAMMAL (rhymes with CAMEL).",
-        "mechanism_family": "sound",
-        "concept_key": "rhymes_with_yoga_pose",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Group 'Rhymes with a yoga pose' explanation is too long.",
-        "Group 'Rhymes with a yoga pose' explanation contains draft text."
-      ],
-      "stage": "local_group_validator",
-      "color": "blue",
-      "lane": "hard"
-    },
-    {
-      "group": {
-        "id": "dba7a1fa32e6",
-        "category": "Things that have a spine but aren't animals",
-        "difficulty": "hard",
-        "words": [
-          "BOOK",
-          "CACTUS",
-          "LEAF",
-          "HEDGEHOG"
-        ],
-        "explanation": "BOOK has a spine (binding edge), CACTUS has spines (thorns), LEAF has a spine (midrib), HEDGEHOG has spines \u2014 but hedgehog is an animal; replace: URCHIN is an animal; SEA URCHIN; HAIRBRUSH has a spine; COMB has a spine; BOOK, CACTUS, HAIRBRUSH, COMB all have spines in the non-animal sense \u2014 but comb's 'spine' is a stretch; replace with: BOOK (binding spine), CACTUS (spines/thorns), VINYL RECORD (no); GUITAR has a neck not spine; FISH has a spine but is an animal; STAIRCASE has a spine (central support); KITE has a spine (spar); final: BOOK, CACTUS, KITE, STAIRCASE \u2014 each has a structural spine.",
+        "explanation": "You can cast a shadow, cast a spell, cast a net, and cast a vote.",
         "mechanism_family": "shared_property",
-        "concept_key": "non_animal_things_with_spine",
+        "concept_key": "things_that_can_be_cast",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -333,8 +133,90 @@
         "verified": true
       },
       "errors": [
-        "Group 'Things that have a spine but aren't animals' explanation is too long.",
-        "Group 'Things that have a spine but aren't animals' explanation contains draft text."
+        "Answer group repeats an existing verified group: NET, SHADOW, SPELL, VOTE.",
+        "Category concept repeats an existing verified group: Things that can be cast overlaps Things that can be cast."
+      ],
+      "stage": "local_group_validator",
+      "color": "green",
+      "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "bd8e288b9149",
+        "category": "Homophones of a number spelled out",
+        "difficulty": "medium",
+        "words": [
+          "ATE",
+          "WON",
+          "FOR",
+          "TOO"
+        ],
+        "explanation": "Each word sounds exactly like a spelled-out number: ATE=eight, WON=one, FOR=four, TOO=two.",
+        "mechanism_family": "sound",
+        "concept_key": "homophones_of_spelled_numbers",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Answer group repeats an existing verified group: ATE, FOR, TOO, WON."
+      ],
+      "stage": "local_group_validator",
+      "color": "green",
+      "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "564f8f66b13a",
+        "category": "Words that follow PATCH",
+        "difficulty": "medium",
+        "words": [
+          "WORK",
+          "WORD",
+          "QUILT",
+          "TEST"
+        ],
+        "explanation": "Each word follows PATCH to make a compound or common phrase: patchwork, patchword \u2014 actually PATCHWORK, PATCH TEST, PATCH QUILT \u2014 let me use only verified phrases.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_after_patch",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Group 'Words that follow PATCH' explanation contains draft text."
+      ],
+      "stage": "local_group_validator",
+      "color": "green",
+      "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "193bf13a4b56",
+        "category": "Words containing a hidden river",
+        "difficulty": "hard",
+        "words": [
+          "CANINE",
+          "AMBUSH",
+          "SNAKING",
+          "OVERLAP"
+        ],
+        "explanation": "Each word hides a river: CANINE (NILE inside caNILEne \u2192 rearranged \u2014 actually: caNINE hides NINE\u2026 let's correct: AMAZON in AMAZONIAN, NILE in caNILE \u2014 use verified hidden: AVON in AVONDALE\u2026 Final verified set: THAMES in BATHAMES? Use clean set: NILE in caNILEen \u2014 replace with clean words: DANUBE in ABUNDANCE (abUNDANce \u2014 no). Use: SEINE in BASEMENT (baSEINEment \u2014 no). Clean verified: ARNO in BARNACLE (bARNOcle \u2014 no). Use confirmed: EXE in EXERCISE (EXErcise \u2713), AVON in SAVONNET? Use: NILE in PENILE (peNILEy \u2014 no, peNILE \u2713), OUSE in BLOUSE (blOUSE \u2713), EDEN inIEDEN? SWEDEN (swEDEN \u2713), EXE in EXERCISE (EXErcise \u2713), NILE in PENILE (peNILE \u2713), OUSE in BLOUSE (blOUSE \u2713): PENILE, BLOUSE, SWEDEN, EXERCISE each hide a UK/world river (NILE, OUSE, EDEN, EXE).",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_river_names",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Group 'Words containing a hidden river' explanation is too long.",
+        "Group 'Words containing a hidden river' explanation contains draft text."
       ],
       "stage": "local_group_validator",
       "color": "blue",
@@ -342,18 +224,18 @@
     },
     {
       "group": {
-        "id": "bad9a6658ed4",
-        "category": "Words that are also names of cloud types",
+        "id": "73e76ba52dd4",
+        "category": "Each word contains a hidden river",
         "difficulty": "tricky",
         "words": [
-          "CIRRUS",
-          "NIMBUS",
-          "STRATUS",
-          "CUMULUS"
+          "AMAZON",
+          "DENIAL",
+          "SENILE",
+          "CONFLICT"
         ],
-        "explanation": "Each word is a standard meteorological cloud classification name.",
-        "mechanism_family": "double_identity",
-        "concept_key": "cloud_type_names",
+        "explanation": "Each word hides a river name: AMAZON (Amazon), deNILE (Nile), SEINE within SENILE (Seine), and CONFL-ICT contains no river \u2014 replacing CONFLICT: INDIGO hides INDIGO\u2026 let me use DANUBE: DANUBE is itself. Use PARABLE hides\u2026 Correct set: AMAZON (Amazon), DENIAL (Nile), SENILE (Seine), PARANOIA (Arno) \u2014 PARANOIA contains ARNO.",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_river_names",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -361,21 +243,171 @@
         "verified": true
       },
       "errors": [
-        "Answer group repeats an existing verified group: CIRRUS, CUMULUS, NIMBUS, STRATUS."
+        "Group 'Each word contains a hidden river' explanation is too long.",
+        "Group 'Each word contains a hidden river' explanation contains draft text.",
+        "Category concept repeats an existing verified group: Each word contains a hidden river overlaps Words containing a hidden river."
       ],
       "stage": "local_group_validator",
       "color": "purple",
       "lane": "tricky"
+    },
+    {
+      "group": {
+        "id": "69936bafae52",
+        "category": "Each word contains a hidden river",
+        "difficulty": "tricky",
+        "words": [
+          "AMAZON",
+          "DENIAL",
+          "SENILE",
+          "PARANOIA"
+        ],
+        "explanation": "Each word hides a river: AMAZON (Amazon), deNIAL (Nile), SEINE in SENILE (Seine), and parANOia contains ARNO.",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_river_names",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Group 'Each word contains a hidden river' says PARANOIA hides ARNO, but it does not.",
+        "Category concept repeats an existing verified group: Each word contains a hidden river overlaps Words containing a hidden river."
+      ],
+      "stage": "local_group_validator",
+      "color": "purple",
+      "lane": "tricky"
+    },
+    {
+      "group": {
+        "id": "452aba54d9fd",
+        "category": "Homophones of words meaning 'to look'",
+        "difficulty": "tricky",
+        "words": [
+          "PEER",
+          "STEEL",
+          "STAIR",
+          "GAYS"
+        ],
+        "explanation": "Each word sounds like a verb meaning to look: PEER (pier\u2192peer already is look, so: PEER/pier, STEEL sounds like STEAL not look \u2014 correct set: PEER (peer = look), GAZE\u2192GAYS, STARE\u2192STAIR, PEER is itself. Final: STAIR (stare), GAYS (gaze), PEER (pier), LEER (lear).",
+        "mechanism_family": "sound",
+        "concept_key": "homophones_of_look_verbs",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Group 'Homophones of words meaning 'to look'' explanation is too long.",
+        "Group 'Homophones of words meaning 'to look'' explanation contains draft text."
+      ],
+      "stage": "local_group_validator",
+      "color": "purple",
+      "lane": "tricky"
+    },
+    {
+      "group": {
+        "id": "5581ee7b502b",
+        "category": "Things that have a face but no eyes",
+        "difficulty": "tricky",
+        "words": [
+          "CLOCK",
+          "CLIFF",
+          "COIN",
+          "CARD"
+        ],
+        "explanation": "A CLOCK, CLIFF, COIN, and CARD each have a 'face' (the front surface or side) but no eyes.",
+        "mechanism_family": "shared_property",
+        "concept_key": "has_face_no_eyes",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Answer group repeats an existing verified group: CARD, CLIFF, CLOCK, COIN."
+      ],
+      "stage": "local_group_validator",
+      "color": "purple",
+      "lane": "tricky"
+    },
+    {
+      "puzzle": {
+        "groups": [
+          {
+            "category": "Words After TOOTH",
+            "difficulty": "easy",
+            "words": [
+              "BRUSH",
+              "PASTE",
+              "PICK",
+              "ACHE"
+            ],
+            "explanation": "TOOTHBRUSH, TOOTHPASTE, TOOTHPICK, and TOOTHACHE are all common compound words formed by adding the answer to TOOTH.",
+            "mechanism_family": "phrase_completion",
+            "concept_key": "phrase_after_tooth"
+          },
+          {
+            "category": "Also a type of stitch in sewing",
+            "difficulty": "medium",
+            "words": [
+              "CHAIN",
+              "CROSS",
+              "RUNNING",
+              "BLANKET"
+            ],
+            "explanation": "Each word names a common sewing stitch: chain stitch, cross stitch, running stitch, blanket stitch.",
+            "mechanism_family": "double_identity",
+            "concept_key": "sewing_stitch_names"
+          },
+          {
+            "category": "Words containing a hidden river",
+            "difficulty": "hard",
+            "words": [
+              "PENILE",
+              "BLOUSE",
+              "SWEDEN",
+              "EXERCISE"
+            ],
+            "explanation": "Each word hides a river name: PENILE (NILE), BLOUSE (OUSE), SWEDEN (EDEN), EXERCISE (EXE).",
+            "mechanism_family": "spelling",
+            "concept_key": "hidden_river_names"
+          },
+          {
+            "category": "Words that are also knitting stitches",
+            "difficulty": "tricky",
+            "words": [
+              "CABLE",
+              "SEED",
+              "MOSS",
+              "PURL"
+            ],
+            "explanation": "CABLE, SEED, MOSS, and PURL are all common knitting stitch names that also function as everyday English words.",
+            "mechanism_family": "double_identity",
+            "concept_key": "knitting_stitches"
+          }
+        ],
+        "source": "group-bank-assembler",
+        "difficulty_mode": "easy",
+        "id": "gb-5f6aac23f1a8"
+      },
+      "errors": [
+        "Generated puzzle has thematically overlapping category labels: 'Also a type of stitch in sewing' and 'Words that are also knitting stitches' both use also."
+      ],
+      "stage": "fresh_puzzle_validator"
     }
   ],
   "trace": [
     {
       "agent": "Group Generator",
       "status": "complete",
-      "summary": "Five fresh easy-lane groups spanning semantic sets, shared properties, spelling, and phrase completion.",
-      "duration_seconds": 6.95,
+      "summary": "Five fresh easy groups spanning semantic sets, spelling, phrase completion, shared property, and double identity.",
+      "duration_seconds": 8.86,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Five fresh easy-lane groups spanning semantic sets, shared properties, spelling, and phrase completion.\",\n  \"groups\": [\n    {\n      \"category\": \"Distilled Spirits\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"distilled_spirits\",\n      \"words\": [\"WHISKEY\", \"VODKA\", \"GIN\", \"RUM\"],\n      \"explanation\": \"All four are classic distilled alcoholic spirits.\"\n    },\n    {\n      \"category\": \"Crustaceans\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"crustaceans\",\n      \"words\": [\"CRAB\", \"LOBSTER\", \"SHRIMP\", \"BARNACLE\"],\n      \"explanation\": \"All four are crustaceans \u2014 hard-shelled aquatic arthropods.\"\n    },\n    {\n      \"category\": \"Words After APPLE\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"phrase_completion\",\n      \"concept_key\": \"phrase_after_apple\",\n      \"words",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five fresh easy groups spanning semantic sets, spelling, phrase completion, shared property, and double identity.\",\n  \"groups\": [\n    {\n      \"category\": \"Types of Cloud\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"cloud_types\",\n      \"words\": [\"CIRRUS\", \"CUMULUS\", \"STRATUS\", \"NIMBUS\"],\n      \"explanation\": \"All four are standard meteorological cloud classifications.\"\n    },\n    {\n      \"category\": \"Words After TOOTH\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"phrase_completion\",\n      \"concept_key\": \"phrase_after_tooth\",\n      \"words\": [\"BRUSH\", \"PASTE\", \"PICK\", \"ACHE\"],\n      \"explanation\": \"TOOTHBRUSH, TOOTHPASTE, TOOTHPICK, and TOOTHACHE are all common compound words formed by adding the answer to TOOTH.\"\n    },\n    {\n      \"category\": \"Homophones of Animals\",\n      \"difficulty\": \"easy\",\n      \"mech",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -383,24 +415,24 @@
     {
       "agent": "Local Group Validator",
       "status": "complete",
-      "summary": "Kept 1 candidate group(s), rejected 4 before audit.",
+      "summary": "Kept 3 candidate group(s), rejected 2 before audit.",
       "duration_seconds": 0,
       "details": {
         "rejected": [
           {
             "group": {
-              "id": "fd119ad89f6d",
-              "category": "Distilled Spirits",
+              "id": "3acdefd2474d",
+              "category": "Types of Cloud",
               "difficulty": "easy",
               "words": [
-                "WHISKEY",
-                "VODKA",
-                "GIN",
-                "RUM"
+                "CIRRUS",
+                "CUMULUS",
+                "STRATUS",
+                "NIMBUS"
               ],
-              "explanation": "All four are classic distilled alcoholic spirits.",
+              "explanation": "All four are standard meteorological cloud classifications.",
               "mechanism_family": "semantic_set",
-              "concept_key": "distilled_spirits",
+              "concept_key": "cloud_types",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -408,32 +440,8 @@
               "verified": true
             },
             "errors": [
-              "Generated group copies an inspiration concept exactly as its category: Distilled Spirits."
-            ],
-            "stage": "local_group_validator"
-          },
-          {
-            "group": {
-              "id": "89cd974575fd",
-              "category": "Crustaceans",
-              "difficulty": "easy",
-              "words": [
-                "CRAB",
-                "LOBSTER",
-                "SHRIMP",
-                "BARNACLE"
-              ],
-              "explanation": "All four are crustaceans \u2014 hard-shelled aquatic arthropods.",
-              "mechanism_family": "semantic_set",
-              "concept_key": "crustaceans",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Generated group copies an inspiration concept exactly as its category: Crustaceans."
+              "Answer group repeats an existing verified group: CIRRUS, CUMULUS, NIMBUS, STRATUS.",
+              "Generated group copies an inspiration concept exactly as its concept_key: cloud_types."
             ],
             "stage": "local_group_validator"
           },
@@ -448,7 +456,7 @@
                 "LETTERS",
                 "CHANNELS"
               ],
-              "explanation": "All four can naturally be described as scrambled: scrambled eggs, scrambled signal, scrambled letters, scrambled channels.",
+              "explanation": "Eggs can be scrambled in a pan, a signal can be scrambled electronically, letters can be scrambled into anagrams, and TV channels can be scrambled for security.",
               "mechanism_family": "shared_property",
               "concept_key": "things_that_can_be_scrambled",
               "source": "claude-group-agent",
@@ -461,33 +469,6 @@
               "Category label repeats an existing verified group: Things That Can Be Scrambled."
             ],
             "stage": "local_group_validator"
-          },
-          {
-            "group": {
-              "id": "bf729c5ab806",
-              "category": "Palindromes",
-              "difficulty": "easy",
-              "words": [
-                "LEVEL",
-                "CIVIC",
-                "RADAR",
-                "KAYAK"
-              ],
-              "explanation": "Each word reads the same forwards and backwards, making it a palindrome.",
-              "mechanism_family": "spelling",
-              "concept_key": "palindromes",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Answer group overlaps 3+ words with an existing verified group: CIVIC, KAYAK, LEVEL, RADAR overlaps CIVIC, KAYAK, LEVEL, ROTOR.",
-              "Category label repeats an existing verified group: Palindromes.",
-              "Generated group copies an inspiration concept exactly as its category: Palindromes."
-            ],
-            "stage": "local_group_validator"
           }
         ]
       }
@@ -495,10 +476,10 @@
     {
       "agent": "Group Auditor",
       "status": "complete",
-      "summary": "One candidate group reviewed; clean phrase-completion mechanism with no overlaps.",
-      "duration_seconds": 2.44,
+      "summary": "Two groups are solid; one is trivially obvious and borderline stale; one has a questionable homophone.",
+      "duration_seconds": 12.89,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"One candidate group reviewed; clean phrase-completion mechanism with no overlaps.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"Very common/familiar category but works well for easy difficulty; no overlap with existing verified groups.\"],\n      \"repaired_group\": null\n    }\n  ]\n}\n```",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Two groups are solid; one is trivially obvious and borderline stale; one has a questionable homophone.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"Clean, well-known compound words; no overlap with existing groups; good easy-difficulty anchor.\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 4,\n      \"issues\": [\"MOOSE/MOUSSE is a legitimate homophone pair, but MOOSE itself is an animal \u2014 the word presented IS the animal, not a homophone OF an animal. The category asks for homophones of animals, meaning the listed word should sound like an animal but not be one. MOOSE fails this test because MOOSE is the animal, not a homophone of it. The other three work correctly (BARE\u2192BEAR, DEAR\u2192DEER, LINKS\u2192LYNX). A replacement is needed for MOOSE.\"],\n      \"repaired_gro",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -506,23 +487,23 @@
     {
       "agent": "Group Orchestrator",
       "status": "complete",
-      "summary": "Accepted 1 verified group(s), rejected 4.",
+      "summary": "Accepted 1 verified group(s), rejected 2.",
       "duration_seconds": 0,
       "details": {
         "target_count": 1,
         "candidate_count": 5,
-        "locally_screened": 1,
+        "locally_screened": 3,
         "saved": false,
-        "bank_total": 223
+        "bank_total": 231
       }
     },
     {
       "agent": "Group Generator",
       "status": "complete",
-      "summary": "Five medium-difficulty candidate groups mixing semantic sets, hidden letters, shared properties, sound, and double identity.",
-      "duration_seconds": 30.29,
+      "summary": "Five medium-difficulty groups mixing spelling, double identity, shared property, semantic set, and sound mechanisms.",
+      "duration_seconds": 17.6,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Five medium-difficulty candidate groups mixing semantic sets, hidden letters, shared properties, sound, and double identity.\",\n  \"groups\": [\n    {\n      \"category\": \"Words hiding a planet name\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"words_hiding_planet_name\",\n      \"words\": [\"MARSHAL\", \"JOURNEY\", \"SATURN\", \"NEPTUNE\"],\n      \"explanation\": \"Each word contains or is a planet name: MARSHAL hides MARS, JOURNEY hides none \u2014 replaced: MARSHAL\u2192MARS, SATURNIA\u2192SATURN, NEPTUNE\u2192NEPTUNE, MARSUPI\u2192 ... let me correct this group.\"\n    },\n    {\n      \"category\": \"Words hiding a planet name\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"words_hiding_planet_name\",\n      \"words\": [\"MARSHAL\", \"EARTHEN\", \"MARSUPIAL\", \"SATURNINE\"],\n      \"explanation\": \"Each word contains a planet name hidd",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five medium-difficulty groups mixing spelling, double identity, shared property, semantic set, and sound mechanisms.\",\n  \"groups\": [\n    {\n      \"category\": \"Words hiding a day of the week\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden_day_of_week\",\n      \"words\": [\"MONDAY\", \"SUNDAE\", \"FRIDAY\", \"THURSDAY\"],\n      \"explanation\": \"Each word contains a day of the week hidden inside it: MONday, SUNdae (SUN\u2192SUN, but SUNDAE hides SUN), FRIDAY contains FRI, THURSDAY contains THUR \u2014 actually each word IS or contains a day: MONDAY=MONDAY, SUNDAE hides SUN, FRIDAY=FRIDAY, THURSDAY=THURSDAY. Revised: words that contain a hidden day \u2014 WEDNESDAY hides WED, SATURDAY hides SAT, SUNDAE hides SUN, MONDAY hides MON.\"\n    },\n    {\n      \"category\": \"Words hiding a day of the week\",\n      \"difficulty\": \"medium\",\n      \"mechanism_fam",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -530,24 +511,24 @@
     {
       "agent": "Local Group Validator",
       "status": "complete",
-      "summary": "Kept 4 candidate group(s), rejected 2 before audit.",
+      "summary": "Kept 2 candidate group(s), rejected 5 before audit.",
       "duration_seconds": 0,
       "details": {
         "rejected": [
           {
             "group": {
-              "id": "79c61afd947c",
-              "category": "Words hiding a planet name",
+              "id": "37077f229b03",
+              "category": "Words hiding a day of the week",
               "difficulty": "medium",
               "words": [
-                "MARSHAL",
-                "JOURNEY",
-                "SATURN",
-                "NEPTUNE"
+                "MONDAY",
+                "SUNDAE",
+                "FRIDAY",
+                "THURSDAY"
               ],
-              "explanation": "Each word contains or is a planet name: MARSHAL hides MARS, JOURNEY hides none \u2014 replaced: MARSHAL\u2192MARS, SATURNIA\u2192SATURN, NEPTUNE\u2192NEPTUNE, MARSUPI\u2192 ... let me correct this group.",
+              "explanation": "Each word contains a day of the week hidden inside it: MONday, SUNdae (SUN\u2192SUN, but SUNDAE hides SUN), FRIDAY contains FRI, THURSDAY contains THUR \u2014 actually each word IS or contains a day: MONDAY=MONDAY, SUNDAE hides SUN, FRIDAY=FRIDAY, THURSDAY=THURSDAY. Revised: words that contain a hidden day \u2014 WEDNESDAY hides WED, SATURDAY hides SAT, SUNDAE hides SUN, MONDAY hides MON.",
               "mechanism_family": "spelling",
-              "concept_key": "words_hiding_planet_name",
+              "concept_key": "hidden_day_of_week",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -555,94 +536,26 @@
               "verified": true
             },
             "errors": [
-              "Group 'Words hiding a planet name' says JOURNEY hides NONE, but it does not."
+              "Group 'Words hiding a day of the week' explanation is too long.",
+              "Group 'Words hiding a day of the week' explanation contains draft text.",
+              "Category label repeats an existing verified group: Words hiding a day of the week."
             ],
             "stage": "local_group_validator"
           },
           {
             "group": {
-              "id": "c1f87dec8c64",
-              "category": "Rhetorical devices",
+              "id": "2f9dd8c18308",
+              "category": "Words hiding a day of the week",
               "difficulty": "medium",
               "words": [
-                "ANAPHORA",
-                "CHIASMUS",
-                "LITOTES",
-                "HYPERBOLE"
+                "SUNDAE",
+                "MONDAY",
+                "SATURDAY",
+                "WEDNESDAY"
               ],
-              "explanation": "All four are classical rhetorical figures of speech used in oratory and writing.",
-              "mechanism_family": "semantic_set",
-              "concept_key": "rhetorical_devices",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Generated group copies an inspiration concept exactly as its category: Rhetorical devices."
-            ],
-            "stage": "local_group_validator"
-          }
-        ]
-      }
-    },
-    {
-      "agent": "Group Auditor",
-      "status": "complete",
-      "summary": "Two groups approved cleanly, one has a fatal duplicate-planet flaw, one is too generic to be useful.",
-      "duration_seconds": 14.72,
-      "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Two groups approved cleanly, one has a fatal duplicate-planet flaw, one is too generic to be useful.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": false,\n      \"score\": 3,\n      \"issues\": [\n        \"MARSHAL and MARSUPIAL both hide MARS \u2014 two words share the same planet, making the group internally redundant and unfair to solvers who expect four different planets.\",\n        \"The category promises a variety of hidden planet names but only delivers MARS (\u00d72), EARTH, and SATURN \u2014 not four distinct planets.\",\n        \"Needs MARSHAL or MARSUPIAL replaced with a word hiding a different planet (e.g., JUVENILE\u2192JUPITER, VENERABLE\u2192VENUS, MERCURIAL\u2192MERCURY, NEPTUNE hidden in NEPTUNIAN, etc.).\"\n      ],\n      \"repaired_group\": {\n        \"category\": \"Words hiding a planet name\",\n        \"words\": [\"MERCURIAL\", \"EARTHEN\", \"MARSUPIAL\", \"SATURNINE\"],\n        \"explanati",
-        "json_retry_count": 0,
-        "model": "claude-sonnet-4-6"
-      }
-    },
-    {
-      "agent": "Group Orchestrator",
-      "status": "complete",
-      "summary": "Accepted 1 verified group(s), rejected 3.",
-      "duration_seconds": 0,
-      "details": {
-        "target_count": 1,
-        "candidate_count": 6,
-        "locally_screened": 4,
-        "saved": false,
-        "bank_total": 224
-      }
-    },
-    {
-      "agent": "Group Generator",
-      "status": "complete",
-      "summary": "Five hard candidate groups mixing hidden letters, double identity, transformation, sound, and shared property.",
-      "duration_seconds": 35.45,
-      "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Five hard candidate groups mixing hidden letters, double identity, transformation, sound, and shared property.\",\n  \"groups\": [\n    {\n      \"category\": \"Words hiding a big cat\",\n      \"difficulty\": \"hard\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"words_hiding_big_cat\",\n      \"words\": [\"RECLINER\", \"JAGUARS\", \"COUPON\", \"OCELOT\"],\n      \"explanation\": \"Each word contains a big cat hidden inside: reCLINer (no) \u2014 RECLINER hides LION, JAGUARS hides JAGUAR, COUPON hides PUMA (no) \u2014 let me verify: JAGUARS\u2192JAGUAR, OCELOT\u2192OCELOT is the cat itself; replacing: POUNCE hides OUNCE not a cat; LEOPARD is the cat; SCALPEL hides no cat; CHEETAH; PANTHER; CATALOG hides CAT, SLIPPER hides LION (sLIONer? no); SCALP; DECLINE hides no cat; RECLINER: R-E-C-L-I-N-E-R \u2192 no big cat; replace RECLINER with SILICON: S-I-C-O-L-I-N \u2192 no; TIGERISH hides TIGER; PLIANT hides LION?",
-        "json_retry_count": 0,
-        "model": "claude-sonnet-4-6"
-      }
-    },
-    {
-      "agent": "Local Group Validator",
-      "status": "complete",
-      "summary": "Kept 5 candidate group(s), rejected 3 before audit.",
-      "duration_seconds": 0,
-      "details": {
-        "rejected": [
-          {
-            "group": {
-              "id": "d0f207df42a1",
-              "category": "Words hiding a big cat",
-              "difficulty": "hard",
-              "words": [
-                "RECLINER",
-                "JAGUARS",
-                "COUPON",
-                "OCELOT"
-              ],
-              "explanation": "Each word contains a big cat hidden inside: reCLINer (no) \u2014 RECLINER hides LION, JAGUARS hides JAGUAR, COUPON hides PUMA (no) \u2014 let me verify: JAGUARS\u2192JAGUAR, OCELOT\u2192OCELOT is the cat itself; replacing: POUNCE hides OUNCE not a cat; LEOPARD is the cat; SCALPEL hides no cat; CHEETAH; PANTHER; CATALOG hides CAT, SLIPPER hides LION (sLIONer? no); SCALP; DECLINE hides no cat; RECLINER: R-E-C-L-I-N-E-R \u2192 no big cat; replace RECLINER with SILICON: S-I-C-O-L-I-N \u2192 no; TIGERISH hides TIGER; PLIANT hides LION? P-L-I-A-N-T no; BILLION hides LION: B-I-L-L-I-O-N yes; JAGUARS hides JAGUAR; OCELOTS hides OCELOT; POUNCING hides no; ACHEETAH; PANTHER; CHAPLAIN hides no; CIVILIAN hides no; TIGERISH hides TIGER; COUGAR hides COUGAR itself; SCALPEL: S-C-A-L-P-E-L no; PENAL hides no; TOPAZ; CATALOG: C-A-T-A-L-O-G hides CAT; BILLION hides LION; TIGERISH hides TIGER; JAGUARS hides JAGUAR \u2014 four clean answers: BILLION (LION), TIGERISH (TIGER), CATALOG (CAT is not a big cat); replace CATALOG with LEOPARDS (LEOPARD); final: BILLION, TIGERISH, JAGUARS, LEOPARDS \u2014 BILLION hides LION, TIGERISH hides TIGER, JAGUARS hides JAGUAR, LEOPARDS hides LEOPARD.",
+              "explanation": "Each word contains a day of the week hidden in its spelling: SUNDAE (SUN), MONDAY (MON), SATURDAY (SAT), WEDNESDAY (WED).",
               "mechanism_family": "spelling",
-              "concept_key": "words_hiding_big_cat",
+              "concept_key": "hidden_day_of_week",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -650,53 +563,24 @@
               "verified": true
             },
             "errors": [
-              "Group 'Words hiding a big cat' explanation is too long.",
-              "Group 'Words hiding a big cat' explanation contains draft text.",
-              "Group 'Words hiding a big cat' says RECLINER hides LION, but it does not.",
-              "Group 'Words hiding a big cat' says COUPON hides PUMA, but it does not."
+              "Category label repeats an existing verified group: Words hiding a day of the week."
             ],
             "stage": "local_group_validator"
           },
           {
             "group": {
-              "id": "73e05f246577",
-              "category": "Rhymes with a yoga pose",
-              "difficulty": "hard",
+              "id": "305b00181c4c",
+              "category": "Things that can be cast",
+              "difficulty": "medium",
               "words": [
-                "HOBRA",
-                "THUNDER",
-                "STEEPLE",
-                "PRAYER"
+                "SHADOW",
+                "SPELL",
+                "NET",
+                "VOTE"
               ],
-              "explanation": "Each rhymes with a yoga pose name: COBRA, THUNDER\u2192WONDER (no) \u2014 verify: COBRA rhymes with HOBRA; TREE pose rhymes with ?; CHAIR pose rhymes with PRAYER; PLANK rhymes with BLANK/BANK; BRIDGE rhymes with FRIDGE; WARRIOR rhymes with ?; CAMEL rhymes with MAMMAL; EAGLE rhymes with BEAGLE; PIGEON rhymes with SMIDGEON; CRANE rhymes with LANE/RAIN; LOTUS rhymes with NOTICE; DANCER rhymes with CANCER/ANSWER; final clean set: BEAGLE (rhymes with EAGLE), ANSWER (rhymes with DANCER), NOTICE (rhymes with LOTUS), MAMMAL (rhymes with CAMEL).",
-              "mechanism_family": "sound",
-              "concept_key": "rhymes_with_yoga_pose",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Group 'Rhymes with a yoga pose' explanation is too long.",
-              "Group 'Rhymes with a yoga pose' explanation contains draft text."
-            ],
-            "stage": "local_group_validator"
-          },
-          {
-            "group": {
-              "id": "dba7a1fa32e6",
-              "category": "Things that have a spine but aren't animals",
-              "difficulty": "hard",
-              "words": [
-                "BOOK",
-                "CACTUS",
-                "LEAF",
-                "HEDGEHOG"
-              ],
-              "explanation": "BOOK has a spine (binding edge), CACTUS has spines (thorns), LEAF has a spine (midrib), HEDGEHOG has spines \u2014 but hedgehog is an animal; replace: URCHIN is an animal; SEA URCHIN; HAIRBRUSH has a spine; COMB has a spine; BOOK, CACTUS, HAIRBRUSH, COMB all have spines in the non-animal sense \u2014 but comb's 'spine' is a stretch; replace with: BOOK (binding spine), CACTUS (spines/thorns), VINYL RECORD (no); GUITAR has a neck not spine; FISH has a spine but is an animal; STAIRCASE has a spine (central support); KITE has a spine (spar); final: BOOK, CACTUS, KITE, STAIRCASE \u2014 each has a structural spine.",
+              "explanation": "You can cast a shadow, cast a spell, cast a net, and cast a vote.",
               "mechanism_family": "shared_property",
-              "concept_key": "non_animal_things_with_spine",
+              "concept_key": "things_that_can_be_cast",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -704,8 +588,58 @@
               "verified": true
             },
             "errors": [
-              "Group 'Things that have a spine but aren't animals' explanation is too long.",
-              "Group 'Things that have a spine but aren't animals' explanation contains draft text."
+              "Answer group repeats an existing verified group: NET, SHADOW, SPELL, VOTE.",
+              "Category concept repeats an existing verified group: Things that can be cast overlaps Things that can be cast."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "bd8e288b9149",
+              "category": "Homophones of a number spelled out",
+              "difficulty": "medium",
+              "words": [
+                "ATE",
+                "WON",
+                "FOR",
+                "TOO"
+              ],
+              "explanation": "Each word sounds exactly like a spelled-out number: ATE=eight, WON=one, FOR=four, TOO=two.",
+              "mechanism_family": "sound",
+              "concept_key": "homophones_of_spelled_numbers",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Answer group repeats an existing verified group: ATE, FOR, TOO, WON."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "564f8f66b13a",
+              "category": "Words that follow PATCH",
+              "difficulty": "medium",
+              "words": [
+                "WORK",
+                "WORD",
+                "QUILT",
+                "TEST"
+              ],
+              "explanation": "Each word follows PATCH to make a compound or common phrase: patchwork, patchword \u2014 actually PATCHWORK, PATCH TEST, PATCH QUILT \u2014 let me use only verified phrases.",
+              "mechanism_family": "phrase_completion",
+              "concept_key": "phrase_after_patch",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Group 'Words that follow PATCH' explanation contains draft text."
             ],
             "stage": "local_group_validator"
           }
@@ -715,10 +649,10 @@
     {
       "agent": "Group Auditor",
       "status": "complete",
-      "summary": "Three groups are solid; one has a weak member; one has a fundamentally flawed premise.",
-      "duration_seconds": 14.7,
+      "summary": "Both groups are clean and factually sound; minor overlap concerns noted but neither conflicts with existing verified groups.",
+      "duration_seconds": 5.74,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Three groups are solid; one has a weak member; one has a fundamentally flawed premise.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"JAGUARS and LEOPARDS are themselves big cats with the name visible at the end, which is slightly less 'hidden' than BILLION\u2192LION or TIGERISH\u2192TIGER, but all four do literally contain the cat name as a substring so the mechanism holds\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 4,\n      \"issues\": [\"CLEAT is not itself a knot \u2014 a 'cleat hitch' is a knot tied to a cleat, but CLEAT alone is a hardware fitting, not a knot type\", \"FIGURE alone is not a knot name; 'figure-eight' is, but FIGURE by itself does not name a knot\", \"Two of the four words require a second word to name a knot, breaking the clean single-word rule\"],\n     ",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Both groups are clean and factually sound; minor overlap concerns noted but neither conflicts with existing verified groups.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"BLANKET appears in existing verified groups ('Things you can fold', 'Things you can knit') but the sewing-stitch category is a distinct concept and should not cause solver confusion in a well-curated puzzle bank; no direct category overlap exists.\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": true,\n      \"score\": 8,\n      \"issues\": [\"ENTER and RETURN are near-synonyms as verbs (both mean 'to go in'), which could feel slightly redundant to solvers, but both are unambiguously distinct keyboard keys, so the category holds cleanly on the keyboard-key axis.\"],\n      \"repaired_group\": null\n    }\n  ]\n}\n```",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -726,23 +660,23 @@
     {
       "agent": "Group Orchestrator",
       "status": "complete",
-      "summary": "Accepted 1 verified group(s), rejected 3.",
+      "summary": "Accepted 1 verified group(s), rejected 5.",
       "duration_seconds": 0,
       "details": {
         "target_count": 1,
-        "candidate_count": 8,
-        "locally_screened": 5,
+        "candidate_count": 7,
+        "locally_screened": 2,
         "saved": false,
-        "bank_total": 225
+        "bank_total": 232
       }
     },
     {
       "agent": "Group Generator",
       "status": "complete",
-      "summary": "Five tricky candidate groups mixing double identity, hidden letters, sound, transformation, and shared property.",
-      "duration_seconds": 14.49,
+      "summary": "Five hard candidate groups mixing spelling tricks, double identities, hidden properties, and semantic depth.",
+      "duration_seconds": 25.02,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Five tricky candidate groups mixing double identity, hidden letters, sound, transformation, and shared property.\",\n  \"groups\": [\n    {\n      \"category\": \"Also a type of knot\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"double_identity\",\n      \"concept_key\": \"types_of_knot\",\n      \"words\": [\"BOWLINE\", \"CLOVE\", \"FIGURE\", \"SHEEPSHANK\"],\n      \"explanation\": \"Each word is a common English word or phrase that is also the name of a specific knot used in sailing or climbing.\"\n    },\n    {\n      \"category\": \"Words containing a hidden compass direction\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden_compass_direction\",\n      \"words\": [\"WANDER\", \"ANSWER\", \"FEWEST\", \"SUNORTH\"],\n      \"explanation\": \"Each word contains a compass direction hidden inside its letters: WANDER (W-AND-ER hides N? \u2014 recheck needed).\"\n ",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five hard candidate groups mixing spelling tricks, double identities, hidden properties, and semantic depth.\",\n  \"groups\": [\n    {\n      \"category\": \"Words containing a hidden river\",\n      \"difficulty\": \"hard\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden_river_names\",\n      \"words\": [\"CANINE\", \"AMBUSH\", \"SNAKING\", \"OVERLAP\"],\n      \"explanation\": \"Each word hides a river: CANINE (NILE inside caNILEne \u2192 rearranged \u2014 actually: caNINE hides NINE\u2026 let's correct: AMAZON in AMAZONIAN, NILE in caNILE \u2014 use verified hidden: AVON in AVONDALE\u2026 Final verified set: THAMES in BATHAMES? Use clean set: NILE in caNILEen \u2014 replace with clean words: DANUBE in ABUNDANCE (abUNDANce \u2014 no). Use: SEINE in BASEMENT (baSEINEment \u2014 no). Clean verified: ARNO in BARNACLE (bARNOcle \u2014 no). Use confirmed: EXE in EXERCISE (EXErcise \u2713), AVON in SAVONNET? Use: NILE in PENIL",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -756,18 +690,18 @@
         "rejected": [
           {
             "group": {
-              "id": "bad9a6658ed4",
-              "category": "Words that are also names of cloud types",
-              "difficulty": "tricky",
+              "id": "193bf13a4b56",
+              "category": "Words containing a hidden river",
+              "difficulty": "hard",
               "words": [
-                "CIRRUS",
-                "NIMBUS",
-                "STRATUS",
-                "CUMULUS"
+                "CANINE",
+                "AMBUSH",
+                "SNAKING",
+                "OVERLAP"
               ],
-              "explanation": "Each word is a standard meteorological cloud classification name.",
-              "mechanism_family": "double_identity",
-              "concept_key": "cloud_type_names",
+              "explanation": "Each word hides a river: CANINE (NILE inside caNILEne \u2192 rearranged \u2014 actually: caNINE hides NINE\u2026 let's correct: AMAZON in AMAZONIAN, NILE in caNILE \u2014 use verified hidden: AVON in AVONDALE\u2026 Final verified set: THAMES in BATHAMES? Use clean set: NILE in caNILEen \u2014 replace with clean words: DANUBE in ABUNDANCE (abUNDANce \u2014 no). Use: SEINE in BASEMENT (baSEINEment \u2014 no). Clean verified: ARNO in BARNACLE (bARNOcle \u2014 no). Use confirmed: EXE in EXERCISE (EXErcise \u2713), AVON in SAVONNET? Use: NILE in PENILE (peNILEy \u2014 no, peNILE \u2713), OUSE in BLOUSE (blOUSE \u2713), EDEN inIEDEN? SWEDEN (swEDEN \u2713), EXE in EXERCISE (EXErcise \u2713), NILE in PENILE (peNILE \u2713), OUSE in BLOUSE (blOUSE \u2713): PENILE, BLOUSE, SWEDEN, EXERCISE each hide a UK/world river (NILE, OUSE, EDEN, EXE).",
+              "mechanism_family": "spelling",
+              "concept_key": "hidden_river_names",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -775,7 +709,8 @@
               "verified": true
             },
             "errors": [
-              "Answer group repeats an existing verified group: CIRRUS, CUMULUS, NIMBUS, STRATUS."
+              "Group 'Words containing a hidden river' explanation is too long.",
+              "Group 'Words containing a hidden river' explanation contains draft text."
             ],
             "stage": "local_group_validator"
           }
@@ -785,10 +720,10 @@
     {
       "agent": "Group Auditor",
       "status": "complete",
-      "summary": "One clean group, one salvageable group, and two that must be rejected for factual or structural failures.",
-      "duration_seconds": 11.57,
+      "summary": "Three of four groups are solid; the logical fallacy group is too straightforward and category-named.",
+      "duration_seconds": 14.63,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"One clean group, one salvageable group, and two that must be rejected for factual or structural failures.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"FIGURE needs the qualifier 'eight' to be a knot name (figure-eight knot), but 'figure-eight' is commonly shortened to 'figure' in knot contexts \u2014 borderline acceptable; CLOVE is always 'clove hitch', never standalone 'clove knot', same pattern as FIGURE \u2014 consistent treatment makes this fair\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 2,\n      \"issues\": [\"WANDER does not contain a compass direction (W-A-N-D-E-R: no N, S, E, W as substring \u2014 'W' alone is not a compass direction word)\", \"SUNORTH is not a real English word\", \"ANSWER contains ANS-W-ER: hidden W is not a compass direction word\", \"FEWEST cont",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Three of four groups are solid; the logical fallacy group is too straightforward and category-named.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"PENILE may cause hesitation in family-friendly contexts but the hidden river NILE is legitimate; all four hidden rivers (NILE, OUSE, EDEN, EXE) are real and cleanly embedded\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 3,\n      \"issues\": [\"The category literally names what the words are ('logical fallacy'), making it trivially self-referential rather than a puzzle\", \"The 'Also a type of' framing implies a double-identity mechanism but there is no second identity \u2014 these are purely and only logical fallacy names\", \"No wordplay or hidden connection; this is a plain semantic set dressed up as something trickier\"",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -803,89 +738,161 @@
         "candidate_count": 5,
         "locally_screened": 4,
         "saved": false,
-        "bank_total": 226
+        "bank_total": 233
+      }
+    },
+    {
+      "agent": "Group Generator",
+      "status": "complete",
+      "summary": "Five tricky groups mixing hidden letters, double identities, sound patterns, shared properties, and transformations.",
+      "duration_seconds": 21.86,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five tricky groups mixing hidden letters, double identities, sound patterns, shared properties, and transformations.\",\n  \"groups\": [\n    {\n      \"category\": \"Each word contains a hidden river\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden_river_names\",\n      \"words\": [\"AMAZON\", \"DENIAL\", \"SENILE\", \"CONFLICT\"],\n      \"explanation\": \"Each word hides a river name: AMAZON (Amazon), deNILE (Nile), SEINE within SENILE (Seine), and CONFL-ICT contains no river \u2014 replacing CONFLICT: INDIGO hides INDIGO\u2026 let me use DANUBE: DANUBE is itself. Use PARABLE hides\u2026 Correct set: AMAZON (Amazon), DENIAL (Nile), SENILE (Seine), PARANOIA (Arno) \u2014 PARANOIA contains ARNO.\"\n    },\n    {\n      \"category\": \"Each word contains a hidden river\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Local Group Validator",
+      "status": "complete",
+      "summary": "Kept 3 candidate group(s), rejected 4 before audit.",
+      "duration_seconds": 0,
+      "details": {
+        "rejected": [
+          {
+            "group": {
+              "id": "73e76ba52dd4",
+              "category": "Each word contains a hidden river",
+              "difficulty": "tricky",
+              "words": [
+                "AMAZON",
+                "DENIAL",
+                "SENILE",
+                "CONFLICT"
+              ],
+              "explanation": "Each word hides a river name: AMAZON (Amazon), deNILE (Nile), SEINE within SENILE (Seine), and CONFL-ICT contains no river \u2014 replacing CONFLICT: INDIGO hides INDIGO\u2026 let me use DANUBE: DANUBE is itself. Use PARABLE hides\u2026 Correct set: AMAZON (Amazon), DENIAL (Nile), SENILE (Seine), PARANOIA (Arno) \u2014 PARANOIA contains ARNO.",
+              "mechanism_family": "spelling",
+              "concept_key": "hidden_river_names",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Group 'Each word contains a hidden river' explanation is too long.",
+              "Group 'Each word contains a hidden river' explanation contains draft text.",
+              "Category concept repeats an existing verified group: Each word contains a hidden river overlaps Words containing a hidden river."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "69936bafae52",
+              "category": "Each word contains a hidden river",
+              "difficulty": "tricky",
+              "words": [
+                "AMAZON",
+                "DENIAL",
+                "SENILE",
+                "PARANOIA"
+              ],
+              "explanation": "Each word hides a river: AMAZON (Amazon), deNIAL (Nile), SEINE in SENILE (Seine), and parANOia contains ARNO.",
+              "mechanism_family": "spelling",
+              "concept_key": "hidden_river_names",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Group 'Each word contains a hidden river' says PARANOIA hides ARNO, but it does not.",
+              "Category concept repeats an existing verified group: Each word contains a hidden river overlaps Words containing a hidden river."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "452aba54d9fd",
+              "category": "Homophones of words meaning 'to look'",
+              "difficulty": "tricky",
+              "words": [
+                "PEER",
+                "STEEL",
+                "STAIR",
+                "GAYS"
+              ],
+              "explanation": "Each word sounds like a verb meaning to look: PEER (pier\u2192peer already is look, so: PEER/pier, STEEL sounds like STEAL not look \u2014 correct set: PEER (peer = look), GAZE\u2192GAYS, STARE\u2192STAIR, PEER is itself. Final: STAIR (stare), GAYS (gaze), PEER (pier), LEER (lear).",
+              "mechanism_family": "sound",
+              "concept_key": "homophones_of_look_verbs",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Group 'Homophones of words meaning 'to look'' explanation is too long.",
+              "Group 'Homophones of words meaning 'to look'' explanation contains draft text."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "5581ee7b502b",
+              "category": "Things that have a face but no eyes",
+              "difficulty": "tricky",
+              "words": [
+                "CLOCK",
+                "CLIFF",
+                "COIN",
+                "CARD"
+              ],
+              "explanation": "A CLOCK, CLIFF, COIN, and CARD each have a 'face' (the front surface or side) but no eyes.",
+              "mechanism_family": "shared_property",
+              "concept_key": "has_face_no_eyes",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Answer group repeats an existing verified group: CARD, CLIFF, CLOCK, COIN."
+            ],
+            "stage": "local_group_validator"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Group Auditor",
+      "status": "complete",
+      "summary": "Two groups are solid; the homophones group has a critical flaw with LEER and a problematic word choice.",
+      "duration_seconds": 13.1,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Two groups are solid; the homophones group has a critical flaw with LEER and a problematic word choice.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"MOSS stitch is less universally known than the others but is a legitimate knitting stitch; no overlap with existing verified groups\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 3,\n      \"issues\": [\n        \"LEER is not a homophone of a word meaning 'to look' \u2014 LEER itself means to look lecherously, so it is its own word, not a homophone of another word meaning 'to look'; the mechanism breaks down entirely for this entry\",\n        \"GAYS as a homophone of GAZE is phonetically valid but the word choice is likely to cause offense and distraction in a puzzle context\",\n        \"PIER/peer works, STAIR/stare works",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Group Orchestrator",
+      "status": "complete",
+      "summary": "Accepted 1 verified group(s), rejected 4.",
+      "duration_seconds": 0,
+      "details": {
+        "target_count": 1,
+        "candidate_count": 7,
+        "locally_screened": 3,
+        "saved": false,
+        "bank_total": 234
       }
     }
   ],
-  "saved": true,
-  "bank_total": 55,
-  "group_bank_total": 227,
-  "generated_groups": [
-    {
-      "id": "b4ad5d168d67",
-      "category": "Words After APPLE",
-      "difficulty": "easy",
-      "words": [
-        "SAUCE",
-        "JUICE",
-        "PIE",
-        "CIDER"
-      ],
-      "explanation": "Each word follows APPLE to make a common food or drink compound: applesauce, apple juice, apple pie, apple cider.",
-      "mechanism_family": "phrase_completion",
-      "concept_key": "phrase_after_apple",
-      "source": "claude-group-agent",
-      "origin": {
-        "source": "claude-group-agent"
-      },
-      "verified": true
-    },
-    {
-      "id": "983f241ef957",
-      "category": "Things that can be pitched",
-      "difficulty": "medium",
-      "words": [
-        "TENT",
-        "BALL",
-        "IDEA",
-        "VOICE"
-      ],
-      "explanation": "A tent is pitched at a campsite, a ball is pitched in baseball, an idea is pitched to investors, and a voice can be pitched high or low.",
-      "mechanism_family": "shared_property",
-      "concept_key": "things_that_can_be_pitched",
-      "source": "claude-group-agent",
-      "origin": {
-        "source": "claude-group-agent"
-      },
-      "verified": true
-    },
-    {
-      "id": "6af6e1f0ab82",
-      "category": "Words hiding a big cat",
-      "difficulty": "hard",
-      "words": [
-        "BILLION",
-        "TIGERISH",
-        "JAGUARS",
-        "LEOPARDS"
-      ],
-      "explanation": "Each word contains a big cat hidden inside: BILLION\u2192LION, TIGERISH\u2192TIGER, JAGUARS\u2192JAGUAR, LEOPARDS\u2192LEOPARD.",
-      "mechanism_family": "spelling",
-      "concept_key": "words_hiding_big_cat",
-      "source": "claude-group-agent",
-      "origin": {
-        "source": "claude-group-agent"
-      },
-      "verified": true
-    },
-    {
-      "id": "094109b43a5a",
-      "category": "Also a type of knot",
-      "difficulty": "tricky",
-      "words": [
-        "BOWLINE",
-        "CLOVE",
-        "FIGURE",
-        "SHEEPSHANK"
-      ],
-      "explanation": "Each word is a common English word or phrase that is also the name of a specific knot used in sailing or climbing.",
-      "mechanism_family": "double_identity",
-      "concept_key": "types_of_knot",
-      "source": "claude-group-agent",
-      "origin": {
-        "source": "claude-group-agent"
-      },
-      "verified": true
-    }
-  ]
+  "saved": false,
+  "bank_total": 56,
+  "group_bank_total": 231,
+  "generated_groups": []
 }

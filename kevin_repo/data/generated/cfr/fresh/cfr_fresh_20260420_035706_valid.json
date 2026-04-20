@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "GENRE",
+      "AMBIENT",
+      "RIVER",
+      "POLITE",
+      "ESTUARY",
+      "WATERFRONT",
+      "MOOD",
+      "BARGE",
+      "HOSPITABLE",
+      "DISTURBED",
+      "CHEERFULNESS",
+      "BUSINESSLIKE",
+      "EMOTIONALITY",
+      "TRANCE",
+      "DEMEANOR",
+      "CORDIAL"
+    ],
+    "groups": [
+      {
+        "category": "ADJECTIVES DESCRIBING MOODS",
+        "words": [
+          "MOOD",
+          "CHEERFULNESS",
+          "EMOTIONALITY",
+          "DEMEANOR"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6090344587961832
+      },
+      {
+        "category": "WORDS RELATED TO WATERWAYS",
+        "words": [
+          "RIVER",
+          "ESTUARY",
+          "BARGE",
+          "WATERFRONT"
+        ],
+        "color": "green",
+        "similarity_score": 0.588820238908132
+      },
+      {
+        "category": "WAYS TO SAY FRIENDLY",
+        "words": [
+          "CORDIAL",
+          "POLITE",
+          "HOSPITABLE",
+          "BUSINESSLIKE"
+        ],
+        "color": "blue",
+        "similarity_score": 0.4925873925288518
+      },
+      {
+        "category": "MUSIC GENRES WITH 'AMBIENT' IN THEIR NAME",
+        "words": [
+          "AMBIENT",
+          "GENRE",
+          "TRANCE",
+          "DISTURBED"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4844761888186137
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MOOD",
+                "CHEERFULNESS",
+                "EMOTIONALITY",
+                "DEMEANOR"
+              ],
+              "score": 0.6090344587961832
+            },
+            {
+              "words": [
+                "RIVER",
+                "ESTUARY",
+                "WATERFRONT",
+                "BARGE"
+              ],
+              "score": 0.588820199171702
+            },
+            {
+              "words": [
+                "POLITE",
+                "HOSPITABLE",
+                "BUSINESSLIKE",
+                "CORDIAL"
+              ],
+              "score": 0.4925873925288518
+            },
+            {
+              "words": [
+                "GENRE",
+                "AMBIENT",
+                "DISTURBED",
+                "TRANCE"
+              ],
+              "score": 0.4844762285550435
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MOOD",
+                "CHEERFULNESS",
+                "EMOTIONALITY",
+                "DEMEANOR"
+              ],
+              "score": 0.6090344587961832
+            },
+            {
+              "words": [
+                "GENRE",
+                "AMBIENT",
+                "DISTURBED",
+                "TRANCE"
+              ],
+              "score": 0.4844762285550435
+            },
+            {
+              "words": [
+                "RIVER",
+                "ESTUARY",
+                "WATERFRONT",
+                "BARGE"
+              ],
+              "score": 0.588820199171702
+            },
+            {
+              "words": [
+                "POLITE",
+                "HOSPITABLE",
+                "BUSINESSLIKE",
+                "CORDIAL"
+              ],
+              "score": 0.4925873925288518
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5437295697629452,
+      "created_at": "2026-04-20T03:57:04.529527+00:00",
+      "accepted": true
+    }
+  }
+]

@@ -875,6 +875,25 @@
       "verified": true
     },
     {
+      "id": "7c08fe6e36a5",
+      "category": "Things You Can Knot",
+      "difficulty": "easy",
+      "words": [
+        "ROPE",
+        "TIE",
+        "RIBBON",
+        "THREAD"
+      ],
+      "explanation": "All four are flexible strands or strips that can literally be tied into a knot.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "things_you_can_knot",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "318cfc9aef55",
       "category": "Things you can squeeze",
       "difficulty": "easy",
@@ -1156,6 +1175,25 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "d3fe1f1b-cedc-4d2f-80d5-1d02982d4518"
+      },
+      "verified": true
+    },
+    {
+      "id": "ef9aff2b0664",
+      "category": "Add a letter to the front to make a new word: add W",
+      "difficulty": "hard",
+      "words": [
+        "ITCH",
+        "HEEL",
+        "RING",
+        "EDGE"
+      ],
+      "explanation": "Placing W at the start of each word makes a new common word: WITCH, WHEEL, WRING, WEDGE.",
+      "mechanism_family": "transformation",
+      "concept_key": "add_w_to_front",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -2334,6 +2372,25 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-009"
+      },
+      "verified": true
+    },
+    {
+      "id": "587ec4d8f5ac",
+      "category": "Each contains a hidden metal",
+      "difficulty": "medium",
+      "words": [
+        "SALTINE",
+        "LEADEN",
+        "GOLDEN",
+        "IRONY"
+      ],
+      "explanation": "Each word contains a metal: SALTINE\u2192TIN, LEADEN\u2192LEAD, GOLDEN\u2192GOLD, IRONY\u2192IRON.",
+      "mechanism_family": "spelling",
+      "concept_key": "hidden_metal_in_word",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -3869,6 +3926,25 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "607a56eb71e6"
+      },
+      "verified": true
+    },
+    {
+      "id": "59a86c0a33bb",
+      "category": "Rhyme with a number",
+      "difficulty": "tricky",
+      "words": [
+        "GATE",
+        "LINE",
+        "HEAVEN",
+        "FLOOR"
+      ],
+      "explanation": "GATE rhymes with eight, LINE rhymes with nine, HEAVEN rhymes with seven, and FLOOR rhymes with four.",
+      "mechanism_family": "sound",
+      "concept_key": "rhyme_with_number",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },

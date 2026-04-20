@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "PSEUDOPHLOEM",
+      "PLANT",
+      "WETNESS",
+      "COMPOSITION",
+      "MOISTURE",
+      "DRENCHED",
+      "SOCIALITY",
+      "PERVAPORATION",
+      "MUSICIANSHIP",
+      "FOLIAGE",
+      "SOCIABILITY",
+      "GENRE",
+      "SOCIALLY",
+      "SPROUTS",
+      "MINGLING",
+      "MUSICALLY"
+    ],
+    "groups": [
+      {
+        "category": "STYLES OF SOCIAL INTERACTION",
+        "words": [
+          "SOCIALITY",
+          "SOCIABILITY",
+          "SOCIALLY",
+          "MINGLING"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6592910091082255
+      },
+      {
+        "category": "WORDS RELATED TO WATER",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "PERVAPORATION",
+          "DRENCHED"
+        ],
+        "color": "green",
+        "similarity_score": 0.5920474976301193
+      },
+      {
+        "category": "WAYS TO DESCRIBE MUSIC",
+        "words": [
+          "MUSICALLY",
+          "COMPOSITION",
+          "MUSICIANSHIP",
+          "GENRE"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5351054271062216
+      },
+      {
+        "category": "TERMS IN BOTANY",
+        "words": [
+          "PLANT",
+          "PSEUDOPHLOEM",
+          "SPROUTS",
+          "FOLIAGE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.45216334362824756
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIALITY",
+                "SOCIABILITY",
+                "SOCIALLY",
+                "MINGLING"
+              ],
+              "score": 0.6592910091082255
+            },
+            {
+              "words": [
+                "WETNESS",
+                "MOISTURE",
+                "DRENCHED",
+                "PERVAPORATION"
+              ],
+              "score": 0.5920474976301193
+            },
+            {
+              "words": [
+                "COMPOSITION",
+                "MUSICIANSHIP",
+                "GENRE",
+                "MUSICALLY"
+              ],
+              "score": 0.5351054271062216
+            },
+            {
+              "words": [
+                "PSEUDOPHLOEM",
+                "PLANT",
+                "FOLIAGE",
+                "SPROUTS"
+              ],
+              "score": 0.45216334362824756
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "COMPOSITION",
+                "MUSICIANSHIP",
+                "GENRE",
+                "MUSICALLY"
+              ],
+              "score": 0.5351054271062216
+            },
+            {
+              "words": [
+                "WETNESS",
+                "MOISTURE",
+                "DRENCHED",
+                "PERVAPORATION"
+              ],
+              "score": 0.5920474976301193
+            },
+            {
+              "words": [
+                "SOCIALITY",
+                "SOCIABILITY",
+                "SOCIALLY",
+                "MINGLING"
+              ],
+              "score": 0.6592910091082255
+            },
+            {
+              "words": [
+                "PSEUDOPHLOEM",
+                "PLANT",
+                "FOLIAGE",
+                "SPROUTS"
+              ],
+              "score": 0.45216334362824756
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5596518193682035,
+      "created_at": "2026-04-20T04:04:02.519246+00:00",
+      "accepted": true
+    }
+  }
+]

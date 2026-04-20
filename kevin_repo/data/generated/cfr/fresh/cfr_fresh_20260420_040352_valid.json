@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "BEATLE",
+      "BAND",
+      "CANAL",
+      "VOWEL",
+      "WATERFRONT",
+      "HARBOR",
+      "EXIT",
+      "WHARF",
+      "CONSONANTAL",
+      "ROCK",
+      "DEPARTURE",
+      "SYLLABICITY",
+      "DEPART",
+      "ALBUM",
+      "LEAVING",
+      "ALPHABET"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO SAY GOODBYE",
+        "words": [
+          "EXIT",
+          "DEPARTURE",
+          "DEPART",
+          "LEAVING"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7183854579925537
+      },
+      {
+        "category": "FAMOUS CANALS",
+        "words": [
+          "CANAL",
+          "WATERFRONT",
+          "WHARF",
+          "HARBOR"
+        ],
+        "color": "green",
+        "similarity_score": 0.6047859787940979
+      },
+      {
+        "category": "WORDS WITH DOUBLE LETTERS",
+        "words": [
+          "ALPHABET",
+          "VOWEL",
+          "CONSONANTAL",
+          "SYLLABICITY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.574668159087499
+      },
+      {
+        "category": "___BAND",
+        "words": [
+          "BAND",
+          "BEATLE",
+          "ALBUM",
+          "ROCK"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5194013863801956
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854679266611
+            },
+            {
+              "words": [
+                "CANAL",
+                "WATERFRONT",
+                "HARBOR",
+                "WHARF"
+              ],
+              "score": 0.6047859986623129
+            },
+            {
+              "words": [
+                "VOWEL",
+                "CONSONANTAL",
+                "SYLLABICITY",
+                "ALPHABET"
+              ],
+              "score": 0.574668159087499
+            },
+            {
+              "words": [
+                "BEATLE",
+                "BAND",
+                "ROCK",
+                "ALBUM"
+              ],
+              "score": 0.5194013863801956
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "BEATLE",
+                "BAND",
+                "ROCK",
+                "ALBUM"
+              ],
+              "score": 0.5194013863801956
+            },
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854679266611
+            },
+            {
+              "words": [
+                "CANAL",
+                "WATERFRONT",
+                "HARBOR",
+                "WHARF"
+              ],
+              "score": 0.6047859986623129
+            },
+            {
+              "words": [
+                "VOWEL",
+                "CONSONANTAL",
+                "SYLLABICITY",
+                "ALPHABET"
+              ],
+              "score": 0.574668159087499
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6043102455635866,
+      "created_at": "2026-04-20T04:03:50.608866+00:00",
+      "accepted": true
+    }
+  }
+]

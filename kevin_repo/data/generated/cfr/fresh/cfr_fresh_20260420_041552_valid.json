@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "BEWITCHED",
+      "FIREFLY",
+      "EXIT",
+      "UTENSIL",
+      "DEPARTURE",
+      "LEAVING",
+      "IODINATION",
+      "DEPART",
+      "COOKING",
+      "SCRUBS",
+      "IODINATING",
+      "SKILLET",
+      "IODINATE",
+      "FRINGE",
+      "IODINE",
+      "COOKWARE"
+    ],
+    "groups": [
+      {
+        "category": "WORDS ENDING IN -IC",
+        "words": [
+          "IODINATION",
+          "IODINATING",
+          "IODINATE",
+          "IODINE"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.731435646613439
+      },
+      {
+        "category": "WAYS TO SAY GOODBYE",
+        "words": [
+          "EXIT",
+          "DEPARTURE",
+          "DEPART",
+          "LEAVING"
+        ],
+        "color": "green",
+        "similarity_score": 0.7183854579925537
+      },
+      {
+        "category": "THINGS FOUND IN A KITCHEN",
+        "words": [
+          "COOKWARE",
+          "UTENSIL",
+          "COOKING",
+          "SKILLET"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5818172693252563
+      },
+      {
+        "category": "TELEVISION SHOWS SET IN SPACE",
+        "words": [
+          "FIREFLY",
+          "BEWITCHED",
+          "FRINGE",
+          "SCRUBS"
+        ],
+        "color": "purple",
+        "similarity_score": 0.48958003520965576
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "IODINATION",
+                "IODINATING",
+                "IODINATE",
+                "IODINE"
+              ],
+              "score": 0.731435646613439
+            },
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "LEAVING",
+                "DEPART"
+              ],
+              "score": 0.7183854679266611
+            },
+            {
+              "words": [
+                "UTENSIL",
+                "COOKING",
+                "SKILLET",
+                "COOKWARE"
+              ],
+              "score": 0.5818172693252563
+            },
+            {
+              "words": [
+                "BEWITCHED",
+                "FIREFLY",
+                "SCRUBS",
+                "FRINGE"
+              ],
+              "score": 0.48958003520965576
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "UTENSIL",
+                "COOKING",
+                "SKILLET",
+                "COOKWARE"
+              ],
+              "score": 0.5818172693252563
+            },
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "LEAVING",
+                "DEPART"
+              ],
+              "score": 0.7183854679266611
+            },
+            {
+              "words": [
+                "IODINATION",
+                "IODINATING",
+                "IODINATE",
+                "IODINE"
+              ],
+              "score": 0.731435646613439
+            },
+            {
+              "words": [
+                "BEWITCHED",
+                "FIREFLY",
+                "SCRUBS",
+                "FRINGE"
+              ],
+              "score": 0.48958003520965576
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6303046022852262,
+      "created_at": "2026-04-20T04:15:50.669471+00:00",
+      "accepted": true
+    }
+  }
+]

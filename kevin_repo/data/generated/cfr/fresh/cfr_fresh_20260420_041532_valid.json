@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "WHARF",
+      "ESTUARY",
+      "SOCIABILITY",
+      "INSTRUMENTALIST",
+      "SOCIALITY",
+      "SOCIETAL",
+      "FILM",
+      "SOCIABLY",
+      "MUSICIAN",
+      "SLOOP",
+      "MOVIE",
+      "ORCHESTRAL",
+      "THEATER",
+      "COVE",
+      "THEATRE",
+      "MUSICALLY"
+    ],
+    "groups": [
+      {
+        "category": "RADICAL MOVIES",
+        "words": [
+          "FILM",
+          "MOVIE",
+          "THEATER",
+          "THEATRE"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6745028297106425
+      },
+      {
+        "category": "SOCIALLY ACCEPTABLE HOBBIES",
+        "words": [
+          "SOCIABILITY",
+          "SOCIALITY",
+          "SOCIABLY",
+          "SOCIETAL"
+        ],
+        "color": "green",
+        "similarity_score": 0.6667180955410004
+      },
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "blue",
+        "similarity_score": 0.6291800240675608
+      },
+      {
+        "category": "CANAL TYPES",
+        "words": [
+          "ESTUARY",
+          "WHARF",
+          "COVE",
+          "SLOOP"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5086943904558817
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "FILM",
+                "MOVIE",
+                "THEATER",
+                "THEATRE"
+              ],
+              "score": 0.6745027899742126
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIALITY",
+                "SOCIETAL",
+                "SOCIABLY"
+              ],
+              "score": 0.6667180955410004
+            },
+            {
+              "words": [
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL",
+                "MUSICALLY"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "WHARF",
+                "ESTUARY",
+                "SLOOP",
+                "COVE"
+              ],
+              "score": 0.5086942811806997
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "FILM",
+                "MOVIE",
+                "THEATER",
+                "THEATRE"
+              ],
+              "score": 0.6745027899742126
+            },
+            {
+              "words": [
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL",
+                "MUSICALLY"
+              ],
+              "score": 0.6291800439357758
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIALITY",
+                "SOCIETAL",
+                "SOCIABLY"
+              ],
+              "score": 0.6667180955410004
+            },
+            {
+              "words": [
+                "WHARF",
+                "ESTUARY",
+                "SLOOP",
+                "COVE"
+              ],
+              "score": 0.5086942811806997
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6197738349437713,
+      "created_at": "2026-04-20T04:15:30.975561+00:00",
+      "accepted": true
+    }
+  }
+]

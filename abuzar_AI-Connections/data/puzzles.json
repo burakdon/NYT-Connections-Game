@@ -2845,5 +2845,64 @@
     "source": "group-bank-assembler",
     "difficulty_mode": "easy",
     "id": "gb-cd15958e79c7"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things You Can Knot",
+        "difficulty": "easy",
+        "words": [
+          "ROPE",
+          "TIE",
+          "RIBBON",
+          "THREAD"
+        ],
+        "explanation": "All four are flexible strands or strips that can literally be tied into a knot.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "things_you_can_knot"
+      },
+      {
+        "category": "Each contains a hidden metal",
+        "difficulty": "medium",
+        "words": [
+          "SALTINE",
+          "LEADEN",
+          "GOLDEN",
+          "IRONY"
+        ],
+        "explanation": "Each word contains a metal: SALTINE\u2192TIN, LEADEN\u2192LEAD, GOLDEN\u2192GOLD, IRONY\u2192IRON.",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_metal_in_word"
+      },
+      {
+        "category": "Add a letter to the front to make a new word: add W",
+        "difficulty": "hard",
+        "words": [
+          "ITCH",
+          "HEEL",
+          "RING",
+          "EDGE"
+        ],
+        "explanation": "Placing W at the start of each word makes a new common word: WITCH, WHEEL, WRING, WEDGE.",
+        "mechanism_family": "transformation",
+        "concept_key": "add_w_to_front"
+      },
+      {
+        "category": "Rhyme with a number",
+        "difficulty": "tricky",
+        "words": [
+          "GATE",
+          "LINE",
+          "HEAVEN",
+          "FLOOR"
+        ],
+        "explanation": "GATE rhymes with eight, LINE rhymes with nine, HEAVEN rhymes with seven, and FLOOR rhymes with four.",
+        "mechanism_family": "sound",
+        "concept_key": "rhyme_with_number"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-ca1d63853faf"
   }
 ]

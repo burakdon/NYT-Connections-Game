@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "ORCHESTRAL",
+      "GENRE",
+      "BOATING",
+      "INTERPERSONAL",
+      "SAILING",
+      "VESSEL",
+      "DISOBEDIENCE",
+      "FERRY",
+      "RAPPORT",
+      "MUSICALLY",
+      "REVOLUTION",
+      "AFFECTIONATE",
+      "INSURRECTION",
+      "SOUNDTRACK",
+      "UPRISING",
+      "GREGARIOUS"
+    ],
+    "groups": [
+      {
+        "category": "RADICAL POLITICAL MOVEMENTS",
+        "words": [
+          "DISOBEDIENCE",
+          "REVOLUTION",
+          "INSURRECTION",
+          "UPRISING"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6822840968767802
+      },
+      {
+        "category": "WORDS RELATED TO RIVER NAVIGATION",
+        "words": [
+          "BOATING",
+          "SAILING",
+          "FERRY",
+          "VESSEL"
+        ],
+        "color": "green",
+        "similarity_score": 0.6334986488024393
+      },
+      {
+        "category": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
+        "words": [
+          "GREGARIOUS",
+          "INTERPERSONAL",
+          "RAPPORT",
+          "AFFECTIONATE"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5418798377116522
+      },
+      {
+        "category": "TYPES OF AMBIENT MUSIC",
+        "words": [
+          "GENRE",
+          "ORCHESTRAL",
+          "SOUNDTRACK",
+          "MUSICALLY"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5271080831686655
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "DISOBEDIENCE",
+                "REVOLUTION",
+                "INSURRECTION",
+                "UPRISING"
+              ],
+              "score": 0.6822840968767802
+            },
+            {
+              "words": [
+                "BOATING",
+                "SAILING",
+                "VESSEL",
+                "FERRY"
+              ],
+              "score": 0.6334986984729767
+            },
+            {
+              "words": [
+                "INTERPERSONAL",
+                "RAPPORT",
+                "AFFECTIONATE",
+                "GREGARIOUS"
+              ],
+              "score": 0.5418798377116522
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "GENRE",
+                "MUSICALLY",
+                "SOUNDTRACK"
+              ],
+              "score": 0.5271081775426865
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "DISOBEDIENCE",
+                "REVOLUTION",
+                "INSURRECTION",
+                "UPRISING"
+              ],
+              "score": 0.6822840968767802
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "GENRE",
+                "MUSICALLY",
+                "SOUNDTRACK"
+              ],
+              "score": 0.5271081775426865
+            },
+            {
+              "words": [
+                "BOATING",
+                "SAILING",
+                "VESSEL",
+                "FERRY"
+              ],
+              "score": 0.6334986984729767
+            },
+            {
+              "words": [
+                "INTERPERSONAL",
+                "RAPPORT",
+                "AFFECTIONATE",
+                "GREGARIOUS"
+              ],
+              "score": 0.5418798377116522
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5961926666398842,
+      "created_at": "2026-04-20T04:15:20.586853+00:00",
+      "accepted": true
+    }
+  }
+]

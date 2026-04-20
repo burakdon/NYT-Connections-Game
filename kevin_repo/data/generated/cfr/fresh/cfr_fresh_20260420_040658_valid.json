@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "ABSTRACTIVE",
+      "IRRATIONAL",
+      "CORDIAL",
+      "DRAINAGE",
+      "POLITE",
+      "BUSINESSLIKE",
+      "MUSICALLY",
+      "HOSPITABLE",
+      "ESTUARY",
+      "TRANSCENDENTAL",
+      "ARTS",
+      "EMBANKMENT",
+      "MUSICIANSHIP",
+      "IRREGULARITY",
+      "MUSICIAN",
+      "CANAL"
+    ],
+    "groups": [
+      {
+        "category": "MUSIC GENRES",
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.585886687040329
+      },
+      {
+        "category": "WAYS TO SAY FRIENDLY",
+        "words": [
+          "CORDIAL",
+          "POLITE",
+          "HOSPITABLE",
+          "BUSINESSLIKE"
+        ],
+        "color": "green",
+        "similarity_score": 0.4925873925288518
+      },
+      {
+        "category": "WORDS RELATED TO CANALS",
+        "words": [
+          "CANAL",
+          "DRAINAGE",
+          "ESTUARY",
+          "EMBANKMENT"
+        ],
+        "color": "blue",
+        "similarity_score": 0.47986099620660144
+      },
+      {
+        "category": "THINGS THAT ARE RADICAL",
+        "words": [
+          "IRRATIONAL",
+          "ABSTRACTIVE",
+          "IRREGULARITY",
+          "TRANSCENDENTAL"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4365112284819285
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIANSHIP",
+                "MUSICIAN"
+              ],
+              "score": 0.585886687040329
+            },
+            {
+              "words": [
+                "CORDIAL",
+                "POLITE",
+                "BUSINESSLIKE",
+                "HOSPITABLE"
+              ],
+              "score": 0.4925873925288518
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "ESTUARY",
+                "EMBANKMENT",
+                "CANAL"
+              ],
+              "score": 0.4798610558112462
+            },
+            {
+              "words": [
+                "ABSTRACTIVE",
+                "IRRATIONAL",
+                "TRANSCENDENTAL",
+                "IRREGULARITY"
+              ],
+              "score": 0.4365112284819285
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "ABSTRACTIVE",
+                "IRRATIONAL",
+                "TRANSCENDENTAL",
+                "IRREGULARITY"
+              ],
+              "score": 0.4365112284819285
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIANSHIP",
+                "MUSICIAN"
+              ],
+              "score": 0.585886687040329
+            },
+            {
+              "words": [
+                "CORDIAL",
+                "POLITE",
+                "BUSINESSLIKE",
+                "HOSPITABLE"
+              ],
+              "score": 0.4925873925288518
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "ESTUARY",
+                "EMBANKMENT",
+                "CANAL"
+              ],
+              "score": 0.4798610558112462
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.4987115760644277,
+      "created_at": "2026-04-20T04:06:56.666980+00:00",
+      "accepted": true
+    }
+  }
+]
