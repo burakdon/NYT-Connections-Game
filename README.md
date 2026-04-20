@@ -7,7 +7,7 @@ a weighted orchestrator, and a persistent dedup store.
 
 ## Repo layout
 
-- `master_connections/` - main orchestrator, adapters, dedup store, static webapp.
+- `master_connections/` - main Burak pipeline, orchestrator, adapters, dedup store, static webapp.
 - `kevin_repo/` - Kevin CFR pipeline source.
 - `abuzar_AI-Connections/` - Abuzar AI pipeline + local puzzle/group banks.
 - `abuzar_NLP-Connections-datasets-generators/` - Abuzar NLP pipeline.
