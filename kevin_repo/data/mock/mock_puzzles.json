@@ -1,0 +1,213 @@
+[
+  {
+    "id": "INF-00001",
+    "words": ["SWIFT", "RAPID", "FLEET", "QUICK", "MARS", "VENUS", "SATURN", "JUPITER", "POKER", "BRIDGE", "HEARTS", "RUMMY", "SALSA", "WALTZ", "TANGO", "BALLET"],
+    "groups": [
+      {
+        "category": "WORDS MEANING FAST",
+        "words": ["SWIFT", "RAPID", "FLEET", "QUICK"],
+        "color": "yellow",
+        "similarity_score": 0.42
+      },
+      {
+        "category": "PLANETS",
+        "words": ["MARS", "VENUS", "SATURN", "JUPITER"],
+        "color": "green",
+        "similarity_score": 0.36
+      },
+      {
+        "category": "CARD GAMES",
+        "words": ["POKER", "BRIDGE", "HEARTS", "RUMMY"],
+        "color": "blue",
+        "similarity_score": 0.30
+      },
+      {
+        "category": "TYPES OF DANCE",
+        "words": ["SALSA", "WALTZ", "TANGO", "BALLET"],
+        "color": "purple",
+        "similarity_score": 0.28
+      }
+    ],
+    "metadata": {
+      "generation_method": "iterative",
+      "solver_agreement": true,
+      "solvers_used": ["embedding", "clustering"],
+      "solver_results": {
+        "embedding": {"solved": true, "groups_correct": 4},
+        "clustering": {"solved": true, "groups_correct": 4}
+      },
+      "dedup_check": true,
+      "overall_difficulty": 2.5,
+      "created_at": "2026-03-28T12:00:00Z"
+    }
+  },
+  {
+    "id": "INF-00002",
+    "words": ["WAFFLE", "PANCAKE", "BACON", "TOAST", "PIANO", "GUITAR", "VIOLIN", "DRUMS", "NAVY", "COBALT", "AZURE", "TEAL", "BASE", "BASKET", "FOOT", "SNOW"],
+    "groups": [
+      {
+        "category": "BREAKFAST ITEMS",
+        "words": ["WAFFLE", "PANCAKE", "BACON", "TOAST"],
+        "color": "yellow",
+        "similarity_score": 0.44
+      },
+      {
+        "category": "MUSICAL INSTRUMENTS",
+        "words": ["PIANO", "GUITAR", "VIOLIN", "DRUMS"],
+        "color": "green",
+        "similarity_score": 0.38
+      },
+      {
+        "category": "SHADES OF BLUE",
+        "words": ["NAVY", "COBALT", "AZURE", "TEAL"],
+        "color": "blue",
+        "similarity_score": 0.31
+      },
+      {
+        "category": "___ BALL",
+        "words": ["BASE", "BASKET", "FOOT", "SNOW"],
+        "color": "purple",
+        "similarity_score": 0.25
+      }
+    ],
+    "metadata": {
+      "generation_method": "iterative",
+      "solver_agreement": true,
+      "solvers_used": ["embedding", "clustering"],
+      "solver_results": {
+        "embedding": {"solved": true, "groups_correct": 4},
+        "clustering": {"solved": true, "groups_correct": 4}
+      },
+      "dedup_check": true,
+      "overall_difficulty": 2.8,
+      "created_at": "2026-03-28T12:01:00Z"
+    }
+  },
+  {
+    "id": "INF-00003",
+    "words": ["HI", "HEY", "HOWDY", "YO", "CAR", "BUS", "TRUCK", "WAGON", "WORK", "FLY", "PLACE", "SIDE", "FOLKLORE", "REPUTATION", "MIDNIGHTS", "FEARLESS"],
+    "groups": [
+      {
+        "category": "WAYS TO SAY HELLO",
+        "words": ["HI", "HEY", "HOWDY", "YO"],
+        "color": "yellow",
+        "similarity_score": 0.41
+      },
+      {
+        "category": "THINGS WITH WHEELS",
+        "words": ["CAR", "BUS", "TRUCK", "WAGON"],
+        "color": "green",
+        "similarity_score": 0.34
+      },
+      {
+        "category": "FIRE ___",
+        "words": ["WORK", "FLY", "PLACE", "SIDE"],
+        "color": "blue",
+        "similarity_score": 0.27
+      },
+      {
+        "category": "TAYLOR SWIFT ALBUMS",
+        "words": ["FOLKLORE", "REPUTATION", "MIDNIGHTS", "FEARLESS"],
+        "color": "purple",
+        "similarity_score": 0.26
+      }
+    ],
+    "metadata": {
+      "generation_method": "false_group",
+      "solver_agreement": true,
+      "solvers_used": ["embedding", "clustering", "llm"],
+      "solver_results": {
+        "embedding": {"solved": true, "groups_correct": 4},
+        "clustering": {"solved": true, "groups_correct": 4},
+        "llm": {"solved": true, "groups_correct": 4}
+      },
+      "dedup_check": true,
+      "overall_difficulty": 3.1,
+      "created_at": "2026-03-28T12:02:00Z"
+    }
+  },
+  {
+    "id": "INF-00004",
+    "words": ["BALL", "GLOBE", "RING", "WHEEL", "CEREAL", "MUFFIN", "BAGEL", "EGGS", "MERCURY", "NEPTUNE", "URANUS", "EARTH", "SWING", "FOXTROT", "JAZZ", "HIP-HOP"],
+    "groups": [
+      {
+        "category": "THINGS THAT ARE ROUND",
+        "words": ["BALL", "GLOBE", "RING", "WHEEL"],
+        "color": "yellow",
+        "similarity_score": 0.39
+      },
+      {
+        "category": "BREAKFAST ITEMS",
+        "words": ["CEREAL", "MUFFIN", "BAGEL", "EGGS"],
+        "color": "green",
+        "similarity_score": 0.35
+      },
+      {
+        "category": "PLANETS",
+        "words": ["MERCURY", "NEPTUNE", "URANUS", "EARTH"],
+        "color": "blue",
+        "similarity_score": 0.29
+      },
+      {
+        "category": "TYPES OF DANCE",
+        "words": ["SWING", "FOXTROT", "JAZZ", "HIP-HOP"],
+        "color": "purple",
+        "similarity_score": 0.26
+      }
+    ],
+    "metadata": {
+      "generation_method": "false_group",
+      "solver_agreement": true,
+      "solvers_used": ["embedding", "clustering"],
+      "solver_results": {
+        "embedding": {"solved": true, "groups_correct": 4},
+        "clustering": {"solved": true, "groups_correct": 3}
+      },
+      "dedup_check": true,
+      "overall_difficulty": 3.4,
+      "created_at": "2026-03-28T12:03:00Z"
+    }
+  },
+  {
+    "id": "INF-00005",
+    "words": ["BLACKJACK", "SOLITAIRE", "SPADES", "WAR", "TRUMPET", "FLUTE", "CELLO", "HARP", "INDIGO", "SAPPHIRE", "SKY", "CERULEAN", "BRISK", "HASTY", "NIMBLE", "SPEEDY"],
+    "groups": [
+      {
+        "category": "CARD GAMES",
+        "words": ["BLACKJACK", "SOLITAIRE", "SPADES", "WAR"],
+        "color": "yellow",
+        "similarity_score": 0.40
+      },
+      {
+        "category": "MUSICAL INSTRUMENTS",
+        "words": ["TRUMPET", "FLUTE", "CELLO", "HARP"],
+        "color": "green",
+        "similarity_score": 0.37
+      },
+      {
+        "category": "SHADES OF BLUE",
+        "words": ["INDIGO", "SAPPHIRE", "SKY", "CERULEAN"],
+        "color": "blue",
+        "similarity_score": 0.32
+      },
+      {
+        "category": "WORDS MEANING FAST",
+        "words": ["BRISK", "HASTY", "NIMBLE", "SPEEDY"],
+        "color": "purple",
+        "similarity_score": 0.28
+      }
+    ],
+    "metadata": {
+      "generation_method": "iterative",
+      "solver_agreement": true,
+      "solvers_used": ["embedding", "clustering"],
+      "solver_results": {
+        "embedding": {"solved": true, "groups_correct": 4},
+        "clustering": {"solved": true, "groups_correct": 4}
+      },
+      "dedup_check": true,
+      "overall_difficulty": 2.2,
+      "created_at": "2026-03-28T12:04:00Z"
+    }
+  }
+]
