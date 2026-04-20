@@ -1037,6 +1037,36 @@ def random_letter_pattern(excl):
     return None
 
 
+# ── Green mechanism integrity check ───────────────────────────
+
+def green_mechanism_holds(result: dict) -> bool:
+    """
+    Ensure the displayed green connection still matches the final words.
+    This is critical after impostor injection in fallback mode.
+    """
+    mech = (result.get('mechanism') or '').lower().strip()
+    group = [str(w).lower() for w in (result.get('group') or [])]
+    if len(group) != 4:
+        return False
+
+    if mech == 'letter_pattern':
+        pattern = (result.get('pattern') or '').lower().strip()
+        return bool(pattern) and all(pattern in w for w in group)
+
+    if mech == 'anagram':
+        key = result.get('key')
+        return bool(key) and all(get_anagram_key(w) == key for w in group)
+
+    if mech == 'rhyme':
+        ending = result.get('ending')
+        if not ending:
+            return False
+        return all(ending in get_rhyme_endings(w) for w in group)
+
+    # Unknown mechanism: do not block.
+    return True
+
+
 # ── Master green generator ────────────────────────────────────
 
 def generate_rhyme_group(existing_words=None, impostor=None) -> dict | None:
@@ -1095,6 +1125,13 @@ def generate_rhyme_group(existing_words=None, impostor=None) -> dict | None:
                 result['replaced']     = replaced
                 print(f'  Fallback inject: {replaced} → {impostor}')
                 print(f'  Original       : {original_group}')
+
+            if not green_mechanism_holds(result):
+                print(
+                    f'  Rejecting green group: mechanism "{result.get("mechanism")}" '
+                    f'no longer matches words {result.get("group")}'
+                )
+                continue
 
             return result
 
