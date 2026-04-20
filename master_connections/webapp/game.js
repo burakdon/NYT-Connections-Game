@@ -16,7 +16,10 @@ let state = {
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        const resp = await fetch('puzzles.json');
+        // Bypass browser disk cache for puzzles.json (GitHub Pages + Safari keep old JSON aggressively).
+        const puzzlesUrl =
+            'puzzles.json?cb=' + encodeURIComponent(String(Date.now()));
+        const resp = await fetch(puzzlesUrl, { cache: 'no-store' });
         allPuzzles = await resp.json();
         document.getElementById('puzzle-count').textContent =
             allPuzzles.length + ' puzzles available';
