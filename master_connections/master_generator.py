@@ -3,16 +3,54 @@
 # ============================================================
 
 import random
+import sys
 import time
-from typing import Optional
+from pathlib import Path
+from typing import Callable, Optional
 
 from config import (
+    NYT_BLOCKLIST_PATH,
     PIPELINE_WEIGHTS,
     MAX_RETRIES_PER_PIPELINE,
     MAX_TOTAL_ATTEMPTS,
     OUTPUT_PATH,
 )
 from dedup import DedupStore
+
+
+def _load_nyt_archive_guard() -> tuple[Optional[Callable[[dict], dict]], str, bool]:
+    """
+    Import Abuzar's hash-only NYT guard so every pipeline is checked the same way.
+    Returns (check_fn, status_message, blocklist_ready) or (None, reason, False).
+    """
+    repo_root = Path(__file__).resolve().parent.parent
+    abuzar_root = repo_root / 'abuzar_AI-Connections'
+    if not abuzar_root.is_dir():
+        return None, 'abuzar_AI-Connections/ not found beside master_connections/', False
+    agents_pkg = abuzar_root / 'agents' / 'nyt_guard.py'
+    if not agents_pkg.is_file():
+        return None, 'agents/nyt_guard.py missing under abuzar_AI-Connections/', False
+    if str(abuzar_root) not in sys.path:
+        sys.path.insert(0, str(abuzar_root))
+    try:
+        from agents.nyt_guard import blocklist_status, check_puzzle_against_blocklist
+    except Exception as exc:
+        return None, f'import failed: {exc!r}', False
+
+    st = blocklist_status(NYT_BLOCKLIST_PATH)
+    msg = (
+        f"path={st['path']} ready={st['ready']} "
+        f"boards={st['board_count']} group_sets={st['group_set_count']}"
+    )
+
+    def _check(puzzle: dict) -> dict:
+        return check_puzzle_against_blocklist(
+            puzzle,
+            path=NYT_BLOCKLIST_PATH,
+            require_ready=False,
+        )
+
+    return _check, msg, bool(st.get('ready', False))
 
 
 class MasterGenerator:
@@ -43,6 +81,17 @@ class MasterGenerator:
             print(f'  Weight 0 (excluded): {ignored}')
         print(f'  Weights   : {self.weights}')
         print(f'  Store     : {self.store.count} puzzles so far')
+
+        self._nyt_archive_check, nyt_msg, nyt_ready = _load_nyt_archive_guard()
+        if self._nyt_archive_check is None:
+            print(f'  NYT archive guard: OFF ({nyt_msg})')
+        else:
+            print(f'  NYT archive guard: ON ({nyt_msg})')
+            if not nyt_ready:
+                print(
+                    '    Hint: build abuzar_AI-Connections/data/nyt_blocklist.json '
+                    'with build_nyt_blocklist.py to enable archive matching.'
+                )
 
     def _pick_pipeline(self) -> str:
         names   = list(self.weights.keys())
@@ -105,6 +154,17 @@ class MasterGenerator:
                 if verbose: print(f'invalid — {reason}')
                 continue
 
+            if self._nyt_archive_check is not None:
+                nyt = self._nyt_archive_check(puzzle)
+                for w in nyt.get('warnings', []):
+                    if verbose:
+                        print(f'  NYT guard warning: {w}')
+                if not nyt.get('ok', True):
+                    if verbose:
+                        for err in nyt.get('errors', []):
+                            print(f'nyt archive — {err}')
+                    continue
+
             self.store.save(puzzle)
             if verbose:
                 print(f'OK ({elapsed:.1f}s) → puzzle #{self.store.count}')
@@ -137,6 +197,17 @@ class MasterGenerator:
                 if verbose:
                     print(f'invalid ({elapsed:.1f}s) — {reason}')
                 continue
+            if self._nyt_archive_check is not None:
+                nyt = self._nyt_archive_check(puzzle)
+                if not nyt.get('ok', True):
+                    err = '; '.join(nyt.get('errors', [])) or 'nyt archive match'
+                    results[name] = f'nyt_archive: {err}'
+                    if verbose:
+                        print(f'nyt archive ({elapsed:.1f}s) — {err}')
+                    continue
+                for w in nyt.get('warnings', []):
+                    if verbose:
+                        print(f'    NYT guard warning: {w}')
             results[name] = 'ok'
             if verbose:
                 print(f'OK ({elapsed:.1f}s)')

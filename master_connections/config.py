@@ -10,10 +10,24 @@
 # the relative weights still sum to 1 over active pipelines.
 # ============================================================
 
+import os
 from pathlib import Path
 
 _MASTER_ROOT = Path(__file__).resolve().parent
+_REPO_ROOT = _MASTER_ROOT.parent
 OUTPUT_PATH = _MASTER_ROOT / 'output' / 'generated_puzzles.json'
+
+
+def nyt_blocklist_path() -> Path:
+    """Path to NYT archive hash blocklist (shared with abuzar_AI-Connections)."""
+
+    env = os.environ.get('MASTER_NYT_BLOCKLIST_PATH', '').strip()
+    if env:
+        return Path(env)
+    return _REPO_ROOT / 'abuzar_AI-Connections' / 'data' / 'nyt_blocklist.json'
+
+
+NYT_BLOCKLIST_PATH = nyt_blocklist_path()
 
 PIPELINE_WEIGHTS = {
     'burak':       0.40,

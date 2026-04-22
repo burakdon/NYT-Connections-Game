@@ -1,5 +1,5 @@
 # ============================================================
-# your_pipeline.py (burak_pipeline.py)
+# burak_pipeline.py
 # Auto-extracted from burak_connections_pipeline.ipynb
 # Entry point: run_full_pipeline()
 # ============================================================
@@ -15,7 +15,7 @@ import openai
 import nltk
 import gensim.downloader as api
 
-from collections import Counter, defaultdict
+from collections import Counter, defaultdict, deque
 from itertools import combinations
 from datetime import datetime
 from nltk.tag import pos_tag
@@ -63,6 +63,9 @@ try:
     print(f'Common words : {len(COMMON_WORDS):,}')
 except Exception:
     COMMON_WORDS = set(w.lower() for w in nltk_words.words() if w.isalpha() and 3 <= len(w) <= 10)
+
+# Ban words that cause bad rhyme groups or visual mismatches
+COMMON_WORDS -= {'corp', 'corps', 'genre', 'cache'}
 
 FULL_DICT   = set(w.lower() for w in nltk_words.words() if w.isalpha())
 SHORT_WORDS = set(w for w in COMMON_WORDS if 3 <= len(w) <= 6)
@@ -394,10 +397,38 @@ def score_candidate(c):
         return 0.5
 
 
+def _purple_selection_mode() -> str:
+    """
+    pass_random (default): score with classifier; pick uniformly among
+        candidates with score >= threshold; if none pass, use highest score.
+    best: always pick highest classifier score (legacy behavior).
+    ignore: do not call the classifier; pick uniformly among collected candidates.
+    """
+    v = (os.environ.get('BURAK_PURPLE_SELECTION') or 'pass_random').strip().lower()
+    if v in ('best', 'top', 'max'):
+        return 'best'
+    if v in ('ignore', 'none', 'off', 'no_classifier', 'random', 'skip_classifier'):
+        return 'ignore'
+    return 'pass_random'
+
+
+def _purple_pass_threshold() -> float:
+    try:
+        return float(os.environ.get('BURAK_PURPLE_CLASSIFIER_THRESHOLD', '0.7'))
+    except Exception:
+        return 0.7
+
+
 def generate_purple_group(n_candidates=8):
     """
-    Try all available mechanisms, collect up to n_candidates,
-    score each with the ML classifier, return the best.
+    Try shuffled mechanisms, collect up to ``n_candidates`` purple groups.
+
+    Selection (``BURAK_PURPLE_SELECTION``):
+      - ``pass_random`` (default): ML score each; choose uniformly at random
+        among scores >= ``BURAK_PURPLE_CLASSIFIER_THRESHOLD`` (default 0.7);
+        if none pass, fall back to the single highest score.
+      - ``best``: always the highest score (old behavior — often repeats roots).
+      - ``ignore``: skip the classifier; uniform random among collected candidates.
     """
     generators = [
         ('hidden_word',     gen_hidden_word),
@@ -411,28 +442,68 @@ def generate_purple_group(n_candidates=8):
     ]
     random.shuffle(generators)
 
+    mode = _purple_selection_mode()
+    threshold = _purple_pass_threshold()
+
     candidates = []
     for name, fn in generators:
         r = fn()
         if r is None:
             print(f'  [{name}] no candidate')
             continue
-        score = score_candidate(r)
-        tag   = 'keep' if score >= 0.8 else ('borderline' if score >= 0.3 else 'reject')
-        print(f'  [{name}] score={score:.3f} ({tag}) {r["group"]}')
-        candidates.append((score, r))
+        if mode == 'ignore':
+            print(f'  [{name}] (classifier skipped) {r["group"]}')
+            candidates.append((0.0, r))
+        else:
+            score = score_candidate(r)
+            tag   = 'keep' if score >= 0.8 else ('borderline' if score >= 0.3 else 'reject')
+            print(f'  [{name}] score={score:.3f} ({tag}) {r["group"]}')
+            candidates.append((score, r))
         if len(candidates) >= n_candidates:
             break
 
     if not candidates:
         return None
 
-    candidates.sort(key=lambda x: -x[0])
-    best_score, best = candidates[0]
-    print(f'\n  Best: [{best["mechanism"]}] score={best_score:.3f}')
+    if mode == 'ignore':
+        best = random.choice([c[1] for c in candidates])
+        print(f'\n  Chosen (random, no classifier): [{best["mechanism"]}] {best["group"]}')
+        return best
+
+    if mode == 'best':
+        candidates.sort(key=lambda x: -x[0])
+        best_score, best = candidates[0]
+        print(f'\n  Best: [{best["mechanism"]}] score={best_score:.3f}')
+        return best
+
+    passing = [(s, r) for s, r in candidates if s >= threshold]
+    if passing:
+        best_score, best = random.choice(passing)
+        print(
+            f'\n  Chosen: [{best["mechanism"]}] score={best_score:.3f} '
+            f'(random among {len(passing)} with score ≥ {threshold})'
+        )
+    else:
+        candidates.sort(key=lambda x: -x[0])
+        best_score, best = candidates[0]
+        print(
+            f'\n  Chosen (fallback — best score): [{best["mechanism"]}] '
+            f'score={best_score:.3f} (none ≥ {threshold})'
+        )
     return best
 
 print('Scoring + master generator ready.')
+
+# Keep a short memory of recent imp2 seeds across pipeline calls to reduce
+# repetitive yellow anchors like repeated WOOD/OFF/etc on adjacent retries.
+RECENT_IMP2_SEEDS = deque(maxlen=48)
+
+
+def _imp2_recent_cooldown() -> int:
+    try:
+        return max(0, min(40, int(os.environ.get('BURAK_IMP2_RECENT_COOLDOWN', '10'))))
+    except Exception:
+        return 10
 
 # --- Cell 7 ---
 # ── Run purple + select TWO impostors ────────────────────────
@@ -484,27 +555,30 @@ def find_impostor(purple_word: str,
     return None
 
 
-def find_impostor_rhymes(purple_word: str,
-                          purple_group: list,
-                          exclude_extra: list = [],
-                          min_rhyme_pool: int = 4) -> str | None:
+def find_impostor_green(purple_word: str,
+                         purple_group: list,
+                         exclude_extra: list = [],
+                         min_rhyme_pool: int = 4,
+                         min_anagram_pool: int = 3,
+                         min_pattern_pool: int = 4) -> tuple[str | None, str | None]:
     """
-    Find an impostor that:
-      - Is semantically similar to purple_word (word2vec)
-      - Has at least min_rhyme_pool other common words that rhyme with it
-        (so it can anchor a full rhyme group)
+    Find an impostor that can anchor ANY green mechanism:
+    rhyme, anagram, or letter pattern.
+    Semantically similar to purple_word via word2vec.
+    Accepts the first word that qualifies for any mechanism.
     """
     anchor_lower = purple_word.lower()
     excluded     = set(w.lower() for w in purple_group + exclude_extra)
 
     key = next(
-        (k for k in [anchor_lower, purple_word.upper(), purple_word.capitalize()] if k in _get_wv()),
+        (k for k in [anchor_lower, purple_word.upper(), purple_word.capitalize()]
+         if k in _get_wv()),
         None
     )
     if key is None:
-        return None
+        return None, None
 
-    for word, _ in _get_wv().most_similar(key, topn=300):
+    for word, _ in _get_wv().most_similar(key, topn=500):
         word = word.lower().strip()
         if '_' in word:
             continue
@@ -521,50 +595,91 @@ def find_impostor_rhymes(purple_word: str,
         if any(get_lemmas(word) & get_lemmas(p.lower()) for p in purple_group):
             continue
 
-        # Check it can anchor a rhyme group
+        # Check 1 — rhyme capability
         ending = get_rhyme_ending(word)
-        if ending is None:
-            continue
-        rhyme_pool = [
-            w for w in rhyme_idx.get(ending, [])
-            if w != word
-            and w not in excluded
-            and len(w) >= 3
+        if ending:
+            full_pool = rhyme_idx.get(ending, [])
+            # Require larger pool for rare endings to avoid thin-pool traps
+            min_pool = min_rhyme_pool if len(full_pool) >= 10 else min_rhyme_pool + 4
+            rhyme_pool = [
+                w for w in full_pool
+                if w != word and w not in excluded
+                and len(w) >= 3 and not is_proper_noun(w)
+            ]
+            if len(rhyme_pool) >= min_pool:
+                return word, 'rhyme'
+
+        # Check 2 — anagram capability
+        ana_key  = get_anagram_key(word)
+        ana_pool = [
+            w for w in anagram_idx.get(ana_key, [])
+            if w != word and w not in excluded
             and not is_proper_noun(w)
         ]
-        if len(rhyme_pool) >= min_rhyme_pool:
-            return word
+        if len(ana_pool) >= min_anagram_pool:
+            return word, 'anagram'
 
-    return None
+        # Check 3 — anchor-derived meaningful short-word substring capability.
+        if _word_substring_can_build_from_anchor(word, excluded, min_pattern_pool):
+            return word, 'letter_pattern'
+
+        # Check 3 — letter pattern capability (substring-style before suffix-style)
+        for pattern in _letter_pattern_try_order():
+            kind = pattern_kind.get(pattern, 'substring')
+            if kind == 'suffix':
+                if not word.endswith(pattern):
+                    continue
+            elif pattern not in word:
+                continue
+            pat_pool = [
+                w for w in pattern_idx[pattern]
+                if w != word and w not in excluded
+                and not is_proper_noun(w)
+                and len(w) <= 10
+            ]
+            if len(pat_pool) >= min_pattern_pool:
+                return word, 'letter_pattern'
+
+    return None, None
 
 
 def find_impostor_w2v_seed(purple_word: str,
                              purple_group: list,
-                             exclude_extra: list = [],
-                             min_similar: int = 3) -> str | None:
+                             exclude_extra: list = []) -> tuple[str, str] | tuple[None, None]:
     """
     Find an impostor that:
       - Is semantically similar to purple_word (word2vec)
-      - Has at least min_similar common words clustering around it
-        (so it can anchor a yellow group)
+      - Can seed yellow the same way ``generate_yellow_group`` will: three
+        ``find_similar_w2v(..., pos_filter=False)`` neighbors plus passing
+        ``group_has_conjugation_issues``.
+
+    ``exclude_extra`` should include every word already committed to the board
+    for this puzzle (e.g. ``imp1`` and, after green exists, all four green words)
+    so feasibility matches ``generate_yellow_group``.
+
+    Returns (word, 'yellow') or (None, None).
     """
     anchor_lower = purple_word.lower()
-    excluded     = set(w.lower() for w in purple_group + exclude_extra)
+    excluded     = set(w.lower() for w in purple_group + list(exclude_extra))
 
     key = next(
-        (k for k in [anchor_lower, purple_word.upper(), purple_word.capitalize()] if k in _get_wv()),
+        (k for k in [anchor_lower, purple_word.upper(), purple_word.capitalize()]
+         if k in _get_wv()),
         None
     )
     if key is None:
-        return None
+        return None, None
+    recent_block = set(list(RECENT_IMP2_SEEDS)[-_imp2_recent_cooldown() :])
 
-    for word, _ in _get_wv().most_similar(key, topn=300):
+    for word, _ in _get_wv().most_similar(key, topn=500):
         word = word.lower().strip()
         if '_' in word:
             continue
         if word not in COMMON_WORDS or word not in FULL_DICT:
             continue
         if word in excluded:
+            continue
+        if word in recent_block:
             continue
         if lev(anchor_lower, word) / max(len(anchor_lower), len(word)) < 0.3:
             continue
@@ -575,12 +690,13 @@ def find_impostor_w2v_seed(purple_word: str,
         if any(get_lemmas(word) & get_lemmas(p.lower()) for p in purple_group):
             continue
 
-        # Check it can seed a yellow group
-        sim = find_similar_w2v(word, list(excluded) + [word], n=3)
-        if len(sim) >= min_similar:
-            return word
+        # Same bar as generate_yellow_group(impostor=...): w2v neighbors without
+        # POS filtering, plus conjugation validity on the resulting foursome.
+        if _imp2_can_build_yellow_group(word, excluded):
+            RECENT_IMP2_SEEDS.append(word)
+            return word, 'yellow'
 
-    return None
+    return None, None
 
 
 def label_fake_connection(anchor: str, imp1: str, imp2: str) -> str:
@@ -620,58 +736,6 @@ def label_fake_connection(anchor: str, imp1: str, imp2: str) -> str:
         return label
     except Exception:
         return f'Things associated with {anchor.upper()}'
-
-
-def select_two_impostors(purple_group: list) -> dict | None:
-    """
-    imp1 → green (must be able to anchor a rhyme group)
-    imp2 → yellow (must be able to seed a word2vec group)
-
-    Tries each purple word as anchor in random order.
-    """
-    candidates = purple_group.copy()
-    random.shuffle(candidates)
-
-    for purple_word in candidates:
-        print(f'  Trying anchor: {purple_word}')
-
-        # imp1 must be able to anchor a rhyme group
-        imp1 = find_impostor_rhymes(
-            purple_word=purple_word,
-            purple_group=purple_group,
-            exclude_extra=[],
-        )
-        if imp1 is None:
-            print(f'    No rhyme-capable imp1 found')
-            continue
-
-        print(f'    imp1 (green anchor): {imp1.upper()}')
-
-        # imp2 must be able to seed a yellow group
-        imp2 = find_impostor_w2v_seed(
-            purple_word=purple_word,
-            purple_group=purple_group,
-            exclude_extra=[imp1],
-        )
-        if imp2 is None:
-            print(f'    No w2v-capable imp2 found')
-            continue
-
-        print(f'    imp2 (yellow seed): {imp2.upper()}')
-
-        fake_label = label_fake_connection(purple_word, imp1, imp2)
-        print(f'    Fake connection: "{fake_label}"')
-
-        return {
-            'anchor':          purple_word.upper(),
-            'imp1':            imp1.upper(),   # → green (rhyme anchor)
-            'imp2':            imp2.upper(),   # → yellow (w2v seed)
-            'imp1_target':     'green',
-            'imp2_target':     'yellow',
-            'fake_connection': fake_label,
-        }
-
-    return None
 
 
 # --- Cell 8 ---
@@ -757,28 +821,201 @@ print(f'Valid anagram groups  : {len(VALID_ANAGRAM_GROUPS)}')
 
 
 # ── Letter pattern utilities ──────────────────────────────────
+# No trivial 2-letter clusters (e.g. "CK") — use morpheme-like suffixes or
+# substantive multigraphs (3+ letters) so green "letter" groups read as wordplay.
+#
+# Default suffix set deliberately omits -tion / -sion (overused "four long Latin words").
+# Set BURAK_GREEN_LETTER_ALLOW_TION=1 to add them back to the index.
 
-LETTER_PATTERNS = [
-    'ght', 'tch', 'ck', 'wh', 'kn', 'wr', 'mb',
-    'ph', 'qu', 'dge', 'nch', 'rth', 'lth',
+def _letter_suffix_patterns_for_index() -> tuple[str, ...]:
+    core = (
+        'ness', 'less', 'ment', 'able', 'ible',
+        'ful', 'ous', 'ive', 'ship', 'hood', 'ward', 'wise',
+    )
+    if (os.environ.get('BURAK_GREEN_LETTER_ALLOW_TION') or '').strip().lower() in (
+        '1', 'true', 'yes', 'on',
+    ):
+        return core + ('tion', 'sion')
+    return core
+
+LETTER_SUBSTRING_PATTERNS = (
+    'ght', 'tch', 'dge', 'nch', 'rth', 'lth',
     'scr', 'shr', 'spl', 'spr', 'str', 'thr',
-    'tion', 'sion', 'ough', 'augh', 'eigh', 'igh',
-]
+    'ough', 'augh', 'eigh', 'igh',
+)
+
+MEANINGFUL_SUBSTRING_BLOCKLIST = {
+    'and', 'the', 'for', 'you', 'are', 'but', 'not', 'all', 'any', 'can', 'our', 'out', 'off',
+    'from', 'with', 'this', 'that', 'have', 'had', 'was', 'were', 'who', 'why', 'how', 'its',
+    'into', 'onto', 'than', 'then', 'them', 'they', 'their', 'there', 'where', 'when', 'what',
+    'your', 'just', 'very', 'only', 'much', 'many', 'more', 'most', 'less', 'some',
+}
+
+
+def _letter_pattern_word_ok(w: str, pattern: str) -> bool:
+    wl = w.lower()
+    return (
+        wl in FULL_DICT
+        and len(wl) >= 4
+        and not is_proper_noun(w)
+        and len(wl) <= 12
+    )
+
+
+def _meaningful_substring_pool_bounds() -> tuple[int, int]:
+    try:
+        min_pool = int(os.environ.get('BURAK_GREEN_WORD_SUBSTRING_MIN_POOL', '6'))
+    except Exception:
+        min_pool = 6
+    try:
+        max_pool = int(os.environ.get('BURAK_GREEN_WORD_SUBSTRING_MAX_POOL', '40'))
+    except Exception:
+        max_pool = 40
+    min_pool = max(4, min(30, min_pool))
+    max_pool = max(min_pool + 2, min(120, max_pool))
+    return min_pool, max_pool
+
+
+def _meaningful_substring_tokens() -> list[str]:
+    """
+    Candidate substrings that are themselves short content words (AIR, HAND, FIRE...).
+    Excludes function words to avoid mushy "contains AND/THE/ARE" categories.
+    """
+    toks = []
+    for w in SHORT_WORDS:
+        wl = w.lower()
+        if len(wl) < 3 or len(wl) > 5:
+            continue
+        if wl in MEANINGFUL_SUBSTRING_BLOCKLIST:
+            continue
+        if not wl.isalpha():
+            continue
+        if wl not in FULL_DICT or is_proper_noun(wl):
+            continue
+        toks.append(wl)
+    toks.sort(key=lambda t: (len(t), t))
+    return toks
+
+
+def _contains_interior_token(word: str, token: str) -> bool:
+    wl = word.lower()
+    tl = token.lower()
+    i = wl.find(tl)
+    return i > 0 and (i + len(tl) < len(wl))
+
+
+def _anchor_meaningful_tokens(anchor: str) -> list[str]:
+    """
+    Real short words found strictly inside the anchor (not prefix/suffix).
+    Example: architecture -> tech, hand, etc. (if valid in SHORT_WORDS).
+    """
+    a = anchor.lower().strip()
+    out = set()
+    for n in (5, 4, 3):
+        if len(a) <= n + 1:
+            continue
+        for i in range(1, len(a) - n):
+            tok = a[i : i + n]
+            if not tok.isalpha():
+                continue
+            if tok in MEANINGFUL_SUBSTRING_BLOCKLIST:
+                continue
+            if tok not in SHORT_WORDS or tok not in FULL_DICT:
+                continue
+            if is_proper_noun(tok):
+                continue
+            out.add(tok)
+    return sorted(out, key=lambda t: (-len(t), t))
+
+
+def _anchor_word_substring_pool(token: str, excluded: set, max_word_len: int = 10) -> list[str]:
+    return [
+        w for w in COMMON_WORDS
+        if w not in excluded
+        and token in w
+        and _letter_pattern_word_ok(w, token)
+        and len(w) <= max_word_len
+    ]
+
+
+def _word_substring_can_build_from_anchor(
+    anchor: str, excluded: set, min_pattern_pool: int = 4
+) -> bool:
+    for tok in _anchor_meaningful_tokens(anchor):
+        pool = _anchor_word_substring_pool(tok, excluded, max_word_len=10)
+        if len(pool) < min_pattern_pool:
+            continue
+        # Require at least one companion where token appears internally too.
+        if any(_contains_interior_token(w, tok) for w in pool):
+            return True
+    return False
+
+
+def letter_pattern_connection(pattern: str, kind: str) -> str:
+    """NYT-style wording by pattern kind."""
+    pu = pattern.upper()
+    if kind == 'suffix':
+        return f'Words ending in "{pu}"'
+    if kind == 'word_substring_anchor':
+        return f'Contain hidden "{pu}"'
+    if kind == 'word_substring':
+        return f'All contain "{pu}"'
+    return f'All contain "{pu}"'
+
 
 print('Building letter pattern index...')
-pattern_idx = {}
-for pattern in LETTER_PATTERNS:
+pattern_idx: dict[str, list] = {}
+pattern_kind: dict[str, str] = {}  # 'suffix' | 'substring' | 'word_substring'
+
+for pattern in _letter_suffix_patterns_for_index():
     pool = [
         w for w in COMMON_WORDS
-        if pattern in w.lower()
-        and w in FULL_DICT
-        and len(w) >= 4
-        and not is_proper_noun(w)
+        if w.endswith(pattern) and _letter_pattern_word_ok(w, pattern)
     ]
     if len(pool) >= 8:
         pattern_idx[pattern] = pool
+        pattern_kind[pattern] = 'suffix'
+
+for pattern in LETTER_SUBSTRING_PATTERNS:
+    if pattern in pattern_idx:
+        continue
+    pool = [
+        w for w in COMMON_WORDS
+        if pattern in w.lower() and _letter_pattern_word_ok(w, pattern)
+    ]
+    if len(pool) >= 8:
+        pattern_idx[pattern] = pool
+        pattern_kind[pattern] = 'substring'
+
+ms_min, ms_max = _meaningful_substring_pool_bounds()
+for token in _meaningful_substring_tokens():
+    if token in pattern_idx:
+        continue
+    pool = [
+        w for w in COMMON_WORDS
+        if token in w.lower() and _letter_pattern_word_ok(w, token)
+    ]
+    # Avoid both sparse and overly broad tokens (e.g. tiny glue-like fragments).
+    if len(pool) < ms_min or len(pool) > ms_max:
+        continue
+    pattern_idx[token] = pool
+    pattern_kind[token] = 'word_substring'
 
 print(f'Valid letter patterns : {len(pattern_idx)}')
+
+
+def _letter_pattern_try_order() -> list[str]:
+    """
+    Prefer meaningful short-word substrings, then multigraph patterns, then suffixes
+    when scanning or building groups — improves variety vs. "-tion" homework sets.
+    """
+    words = [p for p in pattern_idx if pattern_kind.get(p) == 'word_substring']
+    subs = [p for p in pattern_idx if pattern_kind.get(p) == 'substring']
+    sufs = [p for p in pattern_idx if pattern_kind.get(p) == 'suffix']
+    random.shuffle(words)
+    random.shuffle(subs)
+    random.shuffle(sufs)
+    return words + subs + sufs
 
 
 # ── inject_impostor ───────────────────────────────────────────
@@ -797,13 +1034,11 @@ def inject_impostor(group: list, impostor: str, mechanism: str = '') -> tuple:
         imp_set = set(get_rhyme_endings(impostor_lower))
         word_ends = [get_rhyme_ending(w.lower()) for w in group]
         best_idx = None
-        # Prefer swapping out a word whose CMU ending does not match the impostor's (bad slot).
         if imp_set:
             for i, we in enumerate(word_ends):
                 if we and we not in imp_set:
                     best_idx = i
                     break
-        # Else swap the odd-one-out vs the group's dominant ending.
         if best_idx is None:
             cnt = Counter(e for e in word_ends if e)
             ref = cnt.most_common(1)[0][0] if cnt else None
@@ -812,7 +1047,6 @@ def inject_impostor(group: list, impostor: str, mechanism: str = '') -> tuple:
                     if we != ref:
                         best_idx = i
                         break
-        # Orthographic fallback (legacy behavior).
         if best_idx is None:
             imp_end = impostor_lower[-3:]
             best_score = -1
@@ -864,9 +1098,7 @@ def inject_impostor(group: list, impostor: str, mechanism: str = '') -> tuple:
 def try_rhyme(impostor, excl):
     """
     Build a 4-word rhyme group with impostor as anchor.
-    Tries each CMU pronunciation ending as the rhyme key in turn (merged pools
-    across endings broke green_mechanism_holds when primary_ending did not
-    appear in every companion's get_rhyme_endings).
+    Tries each CMU pronunciation ending as the rhyme key in turn.
     """
     endings = get_rhyme_endings(impostor)
     if not endings:
@@ -883,6 +1115,9 @@ def try_rhyme(impostor, excl):
         if len(set(w[-3:] for w in group)) == 1:
             return None
         if not all(primary_ending in get_rhyme_endings(w) for w in group):
+            return None
+        group_lower = [w.lower() for w in [impostor] + list(companions)]
+        if not all(w in CMU for w in group_lower):
             return None
         return {
             'mechanism':  'rhyme',
@@ -957,14 +1192,55 @@ def try_anagram(impostor, excl):
 
 def try_letter_pattern(impostor, excl):
     impostor_lower = impostor.lower()
-    matching = [p for p in LETTER_PATTERNS if p in impostor_lower and p in pattern_idx]
-    if not matching: return None
-    random.shuffle(matching)
+    # First: anchor-derived meaningful short word inside impostor (interior substring).
+    for token in _anchor_meaningful_tokens(impostor_lower):
+        pool = _anchor_word_substring_pool(token, excl, max_word_len=10)
+        if len(pool) < 3:
+            continue
+        interior = [w for w in pool if _contains_interior_token(w, token)]
+        edge = [w for w in pool if w not in interior]
+        random.shuffle(interior)
+        random.shuffle(edge)
+        ordered = interior + edge
+        for start in range(min(len(ordered) - 2, 40)):
+            companions = ordered[start:start + 3]
+            group = [impostor_lower] + companions
+            if not is_valid_group(group):
+                continue
+            # Anchor is interior by construction; demand >=1 companion interior too.
+            interior_count = sum(1 for w in group if _contains_interior_token(w, token))
+            if interior_count < 2:
+                continue
+            return {
+                'mechanism':     'letter_pattern',
+                'pattern':       token,
+                'pattern_kind':  'word_substring_anchor',
+                'group':         [w.upper() for w in group],
+                'connection':    letter_pattern_connection(token, 'word_substring_anchor'),
+            }
+
+    matching = []
+    for p in pattern_idx:
+        k = pattern_kind.get(p, 'substring')
+        if k == 'suffix':
+            if impostor_lower.endswith(p):
+                matching.append(p)
+        elif p in impostor_lower:
+            matching.append(p)
+    if not matching:
+        return None
+    sub_m = [p for p in matching if pattern_kind.get(p) == 'substring']
+    suf_m = [p for p in matching if pattern_kind.get(p) == 'suffix']
+    random.shuffle(sub_m)
+    random.shuffle(suf_m)
+    matching = sub_m + suf_m
     for pattern in matching:
+        kind = pattern_kind.get(pattern, 'substring')
         pool = [
             w for w in pattern_idx[pattern]
             if w != impostor_lower and w not in excl
             and not is_proper_noun(w)
+            and len(w) <= 10
         ]
         if len(pool) < 3: continue
         random.shuffle(pool)
@@ -973,10 +1249,11 @@ def try_letter_pattern(impostor, excl):
             group      = [impostor_lower] + companions
             if not is_valid_group(group): continue
             return {
-                'mechanism':  'letter_pattern',
-                'pattern':    pattern,
-                'group':      [w.upper() for w in group],
-                'connection': f'All contain "{pattern.upper()}"',
+                'mechanism':     'letter_pattern',
+                'pattern':       pattern,
+                'pattern_kind':  kind,
+                'group':         [w.upper() for w in group],
+                'connection':    letter_pattern_connection(pattern, kind),
             }
     return None
 
@@ -1025,23 +1302,24 @@ def random_anagram(excl):
 
 
 def random_letter_pattern(excl):
-    patterns = list(pattern_idx.keys())
-    random.shuffle(patterns)
-    for pattern in patterns:
+    for pattern in _letter_pattern_try_order():
         pool = [
             w for w in pattern_idx[pattern]
             if w not in excl and not is_proper_noun(w)
+            and len(w) <= 10
         ]
         if len(pool) < 4: continue
         random.shuffle(pool)
         for s in range(min(len(pool) - 3, 30)):
             c = pool[s:s+4]
             if not is_valid_group(c): continue
+            kind = pattern_kind.get(pattern, 'substring')
             return {
-                'mechanism':  'letter_pattern',
-                'pattern':    pattern,
-                'group':      [w.upper() for w in c],
-                'connection': f'All contain "{pattern.upper()}"',
+                'mechanism':     'letter_pattern',
+                'pattern':       pattern,
+                'pattern_kind':  kind,
+                'group':         [w.upper() for w in c],
+                'connection':    letter_pattern_connection(pattern, kind),
             }
     return None
 
@@ -1049,13 +1327,11 @@ def random_letter_pattern(excl):
 # ── Green mechanism integrity check ───────────────────────────
 
 def _green_allow_impostor_inject() -> bool:
-    """Legacy: random green + swap-in impostor (often breaks non-rhyme mechanisms)."""
     v = (os.environ.get('BURAK_GREEN_ALLOW_IMPOSTOR_INJECT') or '').strip().lower()
     return v in ('1', 'true', 'yes', 'on')
 
 
 def _rhyme_anchor_random_trials() -> int:
-    """How many random triples to try per rhyme ending (large pools)."""
     try:
         return max(2000, min(100_000, int(os.environ.get('BURAK_RHYME_ANCHOR_TRIALS', '20000'))))
     except Exception:
@@ -1063,7 +1339,6 @@ def _rhyme_anchor_random_trials() -> int:
 
 
 def _common_rhyme_ending_for_group(group: list) -> str | None:
-    """CMU ending string shared by all words (any pronunciation), or None."""
     sets = [set(get_rhyme_endings(str(w).lower())) for w in group]
     if not all(sets):
         return None
@@ -1078,7 +1353,6 @@ def _common_rhyme_ending_for_group(group: list) -> str | None:
 def green_mechanism_holds(result: dict) -> bool:
     """
     Ensure the displayed green connection still matches the final words.
-    This is critical after impostor injection in fallback mode.
     """
     mech = (result.get('mechanism') or '').lower().strip()
     group = [str(w).lower() for w in (result.get('group') or [])]
@@ -1087,7 +1361,16 @@ def green_mechanism_holds(result: dict) -> bool:
 
     if mech == 'letter_pattern':
         pattern = (result.get('pattern') or '').lower().strip()
-        return bool(pattern) and all(pattern in w for w in group)
+        if not pattern:
+            return False
+        kind = (result.get('pattern_kind') or '').lower().strip()
+        if not kind:
+            kind = pattern_kind.get(pattern, 'substring')
+        if kind == 'suffix':
+            return all(w.endswith(pattern) for w in group)
+        if kind == 'word_substring_anchor':
+            return all(pattern in w for w in group)
+        return all(pattern in w for w in group)
 
     if mech == 'anagram':
         key = result.get('key')
@@ -1099,27 +1382,33 @@ def green_mechanism_holds(result: dict) -> bool:
             return False
         return all(ending in get_rhyme_endings(w) for w in group)
 
-    # Unknown mechanism: do not block.
     return True
 
 
 # ── Master green generator ────────────────────────────────────
 
-def generate_rhyme_group(existing_words=None, impostor=None) -> dict | None:
+def generate_rhyme_group(existing_words=None, impostor=None, impostor_result=None) -> dict | None:
     excl           = set(w.lower() for w in (existing_words or []))
     impostor_lower = impostor.lower() if impostor else None
 
     if impostor:
-        anchored = [
-            ('rhyme',          lambda: try_rhyme(impostor_lower, excl)),
-            ('anagram',        lambda: try_anagram(impostor_lower, excl)),
-            ('letter_pattern', lambda: try_letter_pattern(impostor_lower, excl)),
-        ]
-        # 50% rhyme first, else shuffle all three
-        if random.random() < 0.5:
-            order = [anchored[0]] + random.sample(anchored[1:], 2)
+        anchored = {
+            'rhyme':          ('rhyme',          lambda: try_rhyme(impostor_lower, excl)),
+            'anagram':        ('anagram',        lambda: try_anagram(impostor_lower, excl)),
+            'letter_pattern': ('letter_pattern', lambda: try_letter_pattern(impostor_lower, excl)),
+        }
+
+        # Use the mechanism imp1 qualified for as first priority
+        # Fall back to random ordering of the remaining two
+        preferred = impostor_result.get('imp1_mechanism') if impostor_result else None
+        if preferred and preferred in anchored:
+            first   = anchored[preferred]
+            rest    = [v for k, v in anchored.items() if k != preferred]
+            random.shuffle(rest)
+            order   = [first] + rest
         else:
-            order = random.sample(anchored, 3)
+            order   = list(anchored.values())
+            random.shuffle(order)
 
         for name, fn in order:
             print(f'  Trying {name} anchored on "{impostor_lower}"...')
@@ -1132,23 +1421,20 @@ def generate_rhyme_group(existing_words=None, impostor=None) -> dict | None:
                 print(f'  ✓ {name} succeeded')
                 return result
 
-        if not _green_allow_impostor_inject():
-            print(
-                '  All anchored mechanisms failed — abandoning puzzle '
-                '(MasterGenerator will retry with a new impostor). '
-                'Set BURAK_GREEN_ALLOW_IMPOSTOR_INJECT=1 for legacy random+inject.'
-            )
-            return None
-        print('  All anchored mechanisms failed — falling back to random + inject')
+        # All anchored mechanisms failed — fall back to green without impostor
+        # A correct puzzle is more important than forcing the impostor mechanic
+        print('  All anchored mechanisms failed — generating green without impostor')
 
-    # Random fallback
+    # Random fallback (no impostor): favor rhyme + anagram over suffix-style letter groups.
     fallbacks = [
         ('rhyme',          random_rhyme),
         ('anagram',        random_anagram),
         ('letter_pattern', random_letter_pattern),
     ]
-    if random.random() < 0.5:
-        order = [fallbacks[0]] + random.sample(fallbacks[1:], 2)
+    if random.random() < 0.62:
+        first_two = [('rhyme', random_rhyme), ('anagram', random_anagram)]
+        random.shuffle(first_two)
+        order = first_two + [('letter_pattern', random_letter_pattern)]
     else:
         order = random.sample(fallbacks, 3)
 
@@ -1157,17 +1443,6 @@ def generate_rhyme_group(existing_words=None, impostor=None) -> dict | None:
         if result:
             result['difficulty']   = 'green'
             result['has_impostor'] = False
-
-            if impostor:
-                original_group = result['group'].copy()
-                result['group'], replaced = inject_impostor(
-                    result['group'], impostor, mechanism=result['mechanism']
-                )
-                result['has_impostor'] = True
-                result['impostor']     = impostor.upper()
-                result['replaced']     = replaced
-                print(f'  Fallback inject: {replaced} → {impostor}')
-                print(f'  Original       : {original_group}')
 
             if result.get('mechanism') == 'rhyme':
                 ce = _common_rhyme_ending_for_group(result['group'])
@@ -1180,6 +1455,14 @@ def generate_rhyme_group(existing_words=None, impostor=None) -> dict | None:
                     f'no longer matches words {result.get("group")}'
                 )
                 continue
+
+            # Extra guard: for rhyme groups, every word must be in CMU dict
+            if result.get('mechanism') == 'rhyme':
+                group_lower = [w.lower() for w in result['group']]
+                if not all(w in CMU for w in group_lower):
+                    missing = [w for w in group_lower if w not in CMU]
+                    print(f'  Rejecting green group: words not in CMU dict: {missing}')
+                    continue
 
             return result
 
@@ -1238,7 +1521,6 @@ NICHE_TOPICS = [
     'things that can be mixed',
     'parts of a staircase',
     'things in a garden shed',
-
     # Movies
     'things in a heist movie',
     'things in a horror movie',
@@ -1259,7 +1541,6 @@ NICHE_TOPICS = [
     'things at the movies',
     'things in Oz',
     'things in the Matrix',
-
     # TV Shows
     'things in a sitcom apartment',
     'things on Sesame Street',
@@ -1277,7 +1558,6 @@ NICHE_TOPICS = [
     'things in a Law and Order episode',
     'things on Survivor',
     'things on SNL',
-
     # Music
     'things at a concert',
     'things in a country song',
@@ -1290,7 +1570,6 @@ NICHE_TOPICS = [
     'things in a jazz club',
     'things in a jukebox',
     'things at a boy band concert',
-
     # Sports
     'things at the Super Bowl',
     'things in a boxing ring',
@@ -1304,7 +1583,6 @@ NICHE_TOPICS = [
     'things at a golf tournament',
     'things at a basketball game',
     'things in a stadium',
-
     # Food & Drink
     'things at a BBQ',
     'things in a diner',
@@ -1316,7 +1594,6 @@ NICHE_TOPICS = [
     'things in a pizza shop',
     'things at a coffee shop',
     'things at a potluck',
-
     # Games & Culture
     'things in a Mario game',
     'things on a Monopoly board',
@@ -1327,7 +1604,6 @@ NICHE_TOPICS = [
     'things at a trivia night',
     'things in a board game',
     'things at a carnival',
-
     # Holidays & Traditions
     'things at a Fourth of July party',
     'things in a Halloween costume store',
@@ -1339,7 +1615,6 @@ NICHE_TOPICS = [
     'things at a baby shower',
     'things at a graduation',
     'things at prom',
-
     # Celebrity & Pop Culture
     'things at a red carpet event',
     'things in a celebrity memoir',
@@ -1348,7 +1623,6 @@ NICHE_TOPICS = [
     'things at an awards show',
     'things in a celebrity roast',
     'things in a magazine cover story',
-
     # Classic Americana & General Knowledge
     'things at a circus',
     'things at a museum',
@@ -1365,14 +1639,219 @@ NICHE_TOPICS = [
     'things at summer camp',
     'things in a high school yearbook',
     'things at a funeral',
+    # Extra niche lines (expanded variety)
+    'things in a planetarium',
+    'things in a hardware store',
+    'things in a ceramics studio',
+    'things in a sewing kit',
+    'things on a camping trip',
+    'things in a greenhouse',
+    'things in a recording studio',
+    'things in a radio station',
+    'things in a newsroom',
+    'things in a tattoo parlor',
+    'things in a mechanic garage',
+    'things in a bike shop',
+    'things in a barber shop',
+    'things in a nail salon',
+    'things in a yoga studio',
+    'things in a ballet class',
+    'things in an improv class',
+    'things in a pottery wheel setup',
+    'things in a courtroom hallway',
+    'things in a city council meeting',
+    'things in a polling place',
+    'things in a campaign office',
+    'things in a weather forecast',
+    'things in a rocket launch',
+    'things in mission control',
+    'things in a submarine',
+    'things in a lighthouse',
+    'things in a train station',
+    'things in a subway car',
+    'things in an airport security line',
+    'things in a passport office',
+    'things in a hotel minibar',
+    'things in a ski lodge',
+    'things at a county fair',
+    'things at a farmers market',
+    'things at a flea market',
+    'things in an antique shop',
+    'things in a vintage record store',
+    'things in a comic book shop',
+    'things in a toy store',
+    'things in a pet store',
+    'things in an aquarium',
+    'things in a zoo enclosure',
+    'things in a bird sanctuary',
+    'things in a horse stable',
+    'things in a beehive setup',
+    'things in a fishing tackle box',
+    'things on a sailboat',
+    'things in a marina',
+    'things in a scuba dive',
+    'things on a hiking trail',
+    'things in a mountain cabin',
+    'things in a desert campsite',
+    'things in a rainforest documentary',
+    'things in a volcano documentary',
+    'things in an archaeology dig',
+    'things in an art museum gift shop',
+    'things in a science fair',
+    'things in a chemistry lab',
+    'things in a biology lab',
+    'things in a computer lab',
+    'things in a robotics workshop',
+    'things in a chess tournament',
+    'things in a poker game',
+    'things in an escape room',
+    'things in a haunted house attraction',
+    'things in a magic club meeting',
+    'things at a book signing',
+    'things in a publishing house',
+    'things in a writer room',
+    'things in a podcast studio',
+    'things in a startup pitch deck',
+    'things in a board meeting',
+    'things in a stock trading floor',
+    'things in a shipping warehouse',
+    'things in a grocery checkout lane',
+    'things in a bakery display case',
+    'things in an ice cream shop',
+    'things in a sushi bar',
+    'things in a taco truck',
+    'things in a ramen shop',
+    'things in a fine dining kitchen',
+    'things in a brunch cafe',
+    'things in a food court',
+    'things in a midnight diner',
+    'things in a speakeasy',
+    'things in a cocktail shaker set',
+    'things in a tea house',
+    'things in a chocolate factory',
+    'things in a perfume shop',
+    'things in a flower market',
+    'things in a wedding planner kit',
+    'things in a baby nursery',
+    'things in a moving truck',
+    'things in a dorm room',
+    'things in a garage sale',
+    'things in a neighborhood block party',
+    'things in a street parade float',
+    # Additional enrichment set
+    'things in a newsroom control room',
+    'things in a courthouse clerk office',
+    'things in a fire station',
+    'things in a police dispatch center',
+    'things in an emergency room waiting area',
+    'things in an ambulance',
+    'things in a pharmacist station',
+    'things in a blood donation center',
+    'things in a dentist waiting room',
+    'things in an optometrist office',
+    'things in a rehearsal studio',
+    'things in a film set trailer',
+    'things in a costume department',
+    'things in a prop warehouse',
+    'things in a theater backstage area',
+    'things in an orchestra pit',
+    'things in a choir rehearsal',
+    'things in a stand-up comedy club',
+    'things in a late night writers room',
+    'things in a radio call-in show',
+    'things in a weather station',
+    'things in a satellite image',
+    'things in a drone kit',
+    'things in a 3D printer workshop',
+    'things in a woodworking shop',
+    'things in a metalworking shop',
+    'things in a glassblowing studio',
+    'things in a printmaking studio',
+    'things in a darkroom',
+    'things in a paintball arena',
+    'things in a skate park',
+    'things in a climbing gym',
+    'things in a martial arts dojo',
+    'things in a fencing bout',
+    'things in a rowing regatta',
+    'things in a marathon race packet',
+    'things in a triathlon transition area',
+    'things in a baseball bullpen',
+    'things in a soccer locker room',
+    'things in a tennis match',
+    'things in a hockey rink',
+    'things in a curling match',
+    'things in a bowling alley',
+    'things in a billiards hall',
+    'things in a dart league',
+    'things in a bridge club',
+    'things in a puzzle hunt',
+    'things in a geocaching kit',
+    'things in a detective board',
+    'things in a true crime podcast',
+    'things in a genealogy archive',
+    'things in a museum restoration lab',
+    'things in a natural history exhibit',
+    'things in a planetarium show',
+    'things in a space museum',
+    'things in a train conductor bag',
+    'things in a ferry terminal',
+    'things in a bus depot',
+    'things in a road toll booth',
+    'things in a border crossing',
+    'things in a customs declaration',
+    'things in a map room',
+    'things in a travel agency',
+    'things in a campsite cooler',
+    'things in a tackle shop',
+    'things in a hunting lodge',
+    'things in a vineyard',
+    'things in a brewery',
+    'things in a distillery',
+    'things in a farmers co-op',
+    'things in a butcher shop',
+    'things in a seafood market',
+    'things in a spice shop',
+    'things in an olive oil bar',
+    'things in a candy store',
+    'things in a donut shop',
+    'things in a bodega',
+    'things in a corner store',
+    'things in a mall kiosk',
+    'things in a dry cleaner',
+    'things in a laundromat',
+    'things in a tailor shop',
+    'things in a thrift store',
+    'things in a pawn shop',
+    'things in a storage unit',
+    'things in a moving checklist',
+    'things in a home inspection report',
+    'things in a real estate listing',
+    'things in a mortgage office',
+    'things in a bank vault',
+    'things in a credit card statement',
+    'things in a tax return',
+    'things in a legal brief',
+    'things in a courtroom transcript',
+    'things in a school cafeteria',
+    'things in a principal office',
+    'things in a science classroom',
+    'things in a college orientation',
+    'things in a campus bookstore',
+    'things in a library circulation desk',
+    'things in a makerspace',
+    'things in a city park',
+    'things in a community garden',
+    'things in a dog park',
+    'things in a botanical garden',
+    'things in a beach boardwalk',
+    'things in a ski rental shop',
+    'things in a campground office',
 ]
 
 # --- Cell 10 ---
 # ============================================================
 # CELL 5 — Blue Group (LLM Niche Category)
-#
-# Medium-hard difficulty. No impostor in blue — it is used
-# exclusively by green (rhyme anchor) and yellow (w2v seed).
 # ============================================================
 
 def verify_blue_group(group: list, connection: str) -> tuple:
@@ -1398,7 +1877,6 @@ def verify_blue_group(group: list, connection: str) -> tuple:
 
 
 def _blue_connection_from_topic(topic: str) -> str:
-    """Publish the same brief solvers thematically expect (sentence case)."""
     t = (topic or '').strip()
     if not t:
         return t
@@ -1406,28 +1884,19 @@ def _blue_connection_from_topic(topic: str) -> str:
 
 
 def _blue_separate_title_llm() -> bool:
-    """Legacy: extra Haiku call(s) to infer title from words only."""
     v = (os.environ.get('BURAK_BLUE_SEPARATE_TITLE_LLM') or '').strip().lower()
     return v in ('1', 'true', 'yes', 'on')
 
 
 def label_blue_group(group: list) -> str:
-    """
-    Optional second pass: infer a title from the four words only (no topic string).
-    Enable with BURAK_BLUE_SEPARATE_TITLE_LLM=1 — costs an extra API call per try.
-    """
     banned = ', '.join(group)
     prompt = (
         f'Here are four words from one category in a NYT Connections puzzle '
         f'(BLUE difficulty — thoughtful, slightly lateral):\n'
         f'{", ".join(group)}\n\n'
-        f'Write ONE puzzle title (max 6 words) naming what they ALL share — '
-        f'the headline printed above the solved group.\n\n'
+        f'Write ONE puzzle title (max 6 words) naming what they ALL share.\n\n'
         f'Rules:\n'
-        f'- Base the title ONLY on these four words — you have no other context.\n'
         f'- Sound like a real Connections editor: concrete and specific.\n'
-        f'- Do NOT paste generic phrases like "types of fun", "things at a carnival" '
-        f'unless those words truly nail what these four entries share.\n'
         f'- Do NOT include any of these words in the title text: {banned}\n'
         f'- Return only the title, plain text, no quotation marks wrapping the whole line.'
     )
@@ -1451,7 +1920,6 @@ def _blue_title_format_ok(title: str) -> bool:
     if t.count('"') % 2 == 1:
         return False
     words = [w for w in t.split() if w]
-    # Niche topic strings can run long (e.g. "things in a Law and Order episode").
     if len(words) < 2 or len(words) > 12:
         return False
     bad_markers = ('wait,', 'let me', 'reconsider', "doesn't work", '->', '\n')
@@ -1462,24 +1930,16 @@ def _blue_title_format_ok(title: str) -> bool:
 
 
 def _repair_blue_title(title: str, group: list) -> str:
-    """
-    Normalize common malformed but semantically-correct outputs.
-    Example: Things you can get a "Golden" -> Words that follow "GOLDEN"
-    """
     t = (title or '').strip()
     if not t:
         return t
-
     low = t.lower()
-    # Common malformed pattern from model outputs.
     if 'you can get a "' in low or 'you can get an "' in low:
         m = re.search(r'"([^"]+)"', t)
         if m:
             token = m.group(1).strip().upper()
             if token:
                 return f'Words that follow "{token}"'
-
-    # If a quoted token appears in any other malformed context, try phrase-completion repair.
     m = re.search(r'"([^"]+)"', t)
     if m:
         token = m.group(1).strip()
@@ -1487,27 +1947,63 @@ def _repair_blue_title(title: str, group: list) -> str:
             token_u = token.upper()
             if not _blue_title_format_ok(t):
                 return f'Words that follow "{token_u}"'
-
     return t
 
 
+def _yellow_label_model() -> str:
+    m = (os.environ.get('BURAK_YELLOW_LABEL_MODEL') or '').strip()
+    return m or 'claude-sonnet-4-6'
+
+
+def _yellow_verify_model() -> str:
+    m = (os.environ.get('BURAK_YELLOW_VERIFY_MODEL') or '').strip()
+    return m or 'claude-sonnet-4-6'
+
+
+def _yellow_label_max_tokens() -> int:
+    try:
+        return max(32, min(128, int(os.environ.get('BURAK_YELLOW_LABEL_MAX_TOKENS', '72'))))
+    except Exception:
+        return 72
+
+
+def _yellow_verify_max_tokens() -> int:
+    try:
+        return max(64, min(200, int(os.environ.get('BURAK_YELLOW_VERIFY_MAX_TOKENS', '110'))))
+    except Exception:
+        return 110
+
+
 def verify_yellow_group(group: list, connection: str) -> tuple:
-    """YELLOW must be easy and uncontroversial — reject bogus synonym/thematic fits."""
     prompt = (
         f'This is proposed as the YELLOW (easiest) Connections group:\n\n'
         f'Title: {connection}\n'
         f'Words: {", ".join(group)}\n\n'
-        f'The yellow group should be obvious to most solvers.\n'
-        f'Is this title accurate for ALL four words — no weak links?\n'
-        f'If the title uses "synonyms for X" or "things related to X", reject unless '
-        f'EVERY word is a clear, standard fit.\n\n'
+        f'Yellow is the easiest tier: accept the title if it is a fair, natural NYT-style '
+        f'category for casual solvers. Reject only when there is a clear problem.\n\n'
+        f'1. Does the title reasonably describe ALL four words for a normal player?\n'
+        f'2. Reject if any of these CLEAR errors exist:\n'
+        f'   - A word from the group appears in the title itself\n'
+        f'   - The title uses "follow X" or "precede X" but not every word works\n'
+        f'   - One word is clearly the odd one out factually\n'
+        f'   - Nationality or demonym adjectives (GERMAN, JAPANESE, EUROPEAN, …) are cast as '
+        f'"types of" animals, breeds, jobs, or things they are not — invalid\n'
+        f'   - Mixing proper names, brands, or abbreviations with ordinary words unless the title '
+        f'genuinely names one tight real-world set\n'
+        f'   - Over-broad "can be / could be + adjective" categories (e.g. "Things that can be blue") '
+        f'where the trait applies loosely to countless nouns, or one word is an action/abstract noun '
+        f'(FLOAT) stretched to fit a "things" list\n'
+        f'   - The category is only a loose physical or color association instead of a named, '
+        f'tight real-world class all four words belong to\n\n'
+        f'Broad umbrella labels are allowed when they still feel natural and useful.\n'
+        f'If none of these clear errors apply, return true. Do not reject for picky edge cases.\n\n'
         f'Return only JSON:\n'
         f'{{"valid": true, "reason": "one sentence"}}'
     )
     try:
         resp = claude_client.messages.create(
-            model='claude-haiku-4-5-20251001',
-            max_tokens=80,
+            model=_yellow_verify_model(),
+            max_tokens=_yellow_verify_max_tokens(),
             system='You are a JSON-only response bot.',
             messages=[{'role': 'user', 'content': prompt}],
         )
@@ -1534,11 +2030,8 @@ def generate_blue_group(existing_words: list,
         prompt = (
             f'You are choosing four words for a NYT Connections BLUE group '
             f'(medium-hard, slightly lateral).\n\n'
-            f'Category theme (this exact idea will be shown to solvers as the group title): '
-            f'{topic}\n\n'
-            f'Generate exactly 4 single English words that clearly fit that theme. '
-            f'They should feel loosely related when the connection is revealed, '
-            f'unrelated at first glance.\n\n'
+            f'Category theme: {topic}\n\n'
+            f'Generate exactly 4 single English words that clearly fit that theme.\n\n'
             f'Rules:\n'
             f'- Do NOT use: {avoid_words}\n'
             f'- Do NOT relate to: {avoid_themes}\n'
@@ -1615,22 +2108,20 @@ def generate_blue_group(existing_words: list,
 # --- Cell 11 ---
 # ============================================================
 # CELL 6 — Yellow Group (word2vec, Easy)
-#
-# If impostor_result exists, imp2 is used as the word2vec
-# seed — the other 3 words cluster naturally around it.
-# The impostor sits as a natural member of the group.
 # ============================================================
 
-def find_similar_w2v(anchor, existing_words, topn=200, n=3):
+def find_similar_w2v(anchor, existing_words, topn=200, n=3, *, pos_filter: bool = True):
     al   = anchor.lower()
     excl = set(w.lower() for w in existing_words)
     key  = next((k for k in [al, anchor.upper(), anchor.capitalize()] if k in _get_wv()), None)
     if key is None:
         return []
-    try:
-        ap = pos_tag([al])[0][1]
-    except:
-        ap = None
+    ap = None
+    if pos_filter:
+        try:
+            ap = pos_tag([al])[0][1]
+        except Exception:
+            ap = None
     res = []
     for word, _ in _get_wv().most_similar(key, topn=topn):
         word = word.lower().strip()
@@ -1644,16 +2135,98 @@ def find_similar_w2v(anchor, existing_words, topn=200, n=3):
             continue
         if get_lemmas(al) & get_lemmas(word):
             continue
-        if ap:
+        if pos_filter and ap:
             try:
                 if pos_tag([word])[0][1][0] != ap[0]:
                     continue
-            except:
+            except Exception:
                 pass
         res.append(word)
         if len(res) == n:
             break
     return res
+
+
+def find_similar_w2v_ranked(
+    anchor,
+    existing_words,
+    topn=280,
+    max_cands=12,
+    *,
+    pos_filter: bool = True,
+):
+    """
+    Same filters as ``find_similar_w2v``, but return up to ``max_cands``
+    neighbors in similarity order (for trying alternate 3-word subsets).
+    """
+    al   = anchor.lower()
+    excl = set(w.lower() for w in existing_words)
+    key  = next((k for k in [al, anchor.upper(), anchor.capitalize()] if k in _get_wv()), None)
+    if key is None:
+        return []
+    ap = None
+    if pos_filter:
+        try:
+            ap = pos_tag([al])[0][1]
+        except Exception:
+            ap = None
+    res = []
+    for word, _ in _get_wv().most_similar(key, topn=topn):
+        word = word.lower().strip()
+        if '_' in word or word not in COMMON_WORDS or word not in FULL_DICT:
+            continue
+        if word in excl or word == al:
+            continue
+        if lev(al, word) / max(len(al), len(word)) < 0.3:
+            continue
+        if word in al or al in word:
+            continue
+        if get_lemmas(al) & get_lemmas(word):
+            continue
+        if pos_filter and ap:
+            try:
+                if pos_tag([word])[0][1][0] != ap[0]:
+                    continue
+            except Exception:
+                pass
+        res.append(word)
+        if len(res) >= max_cands:
+            break
+    return res
+
+
+def _iter_ranked_w2v_triples(ranked: list, max_trials: int = 14):
+    """Yield up to ``max_trials`` distinct (w1,w2,w3) from ranked neighbor lists."""
+    n = min(len(ranked), 9)
+    if n < 3:
+        return
+    t = 0
+    for combo in combinations(range(n), 3):
+        yield [ranked[i] for i in combo]
+        t += 1
+        if t >= max_trials:
+            break
+
+
+def _imp2_can_build_yellow_group(seed: str, excluded: set) -> bool:
+    """
+    True iff some triple of w2v neighbors (same filters as yellow, no POS)
+    yields a four-word group passing conjugation checks. Uses ranked neighbors
+    so this stays aligned with ``generate_yellow_group`` impostor path.
+    """
+    sl = seed.lower().strip()
+    if not sl or sl in excluded:
+        return False
+    ranked = find_similar_w2v_ranked(
+        sl, list(excluded), topn=280, max_cands=12, pos_filter=False
+    )
+    if len(ranked) < 3:
+        return False
+    for triple in _iter_ranked_w2v_triples(ranked, max_trials=10):
+        group = [seed.upper()] + [w.upper() for w in triple]
+        if not group_has_conjugation_issues(group):
+            return True
+    return False
 
 
 def label_yellow_group(group: list) -> str:
@@ -1662,26 +2235,33 @@ def label_yellow_group(group: list) -> str:
     prompt = (
         f'These 4 words are the YELLOW (easiest) group in NYT Connections: '
         f'{words_joined}.\n\n'
-        f'Write ONE connection title (max 6 words) — a simple NYT-style category name.\n\n'
+        f'Write ONE connection title (max 6 words) — a NYT-style category name '
+        f'a casual solver would find satisfying.\n\n'
         f'Rules:\n'
-        f'- The title must fit ALL four words equally — no stretch.\n'
-        f'- Avoid "Synonyms for \\"...\\"" unless each word is a straight dictionary '
-        f'synonym of that headword; if the fit is loose, use a broader theme instead '
-        f'(e.g. journey, conflict, effort) or a different framing entirely.\n'
-        f'- Prefer concrete categories: "Types of ___", "Things in a ___", '
-        f'"Ways to ___", "Parts of a ___", fill-in-the-blank titles.\n'
-        f'- Do NOT use follow/precede patterns unless every word clearly works.\n'
+        f'- The title must fit all four words naturally for a casual solver.\n'
+        f'- Slightly broader umbrella categories are okay when they are clear and useful.\n'
+        f'- Prefer a **named** class: "Types of ___", "Things in a ___", '
+        f'"Ways to ___", "Parts of a ___", "___ in sports", etc.\n'
         f'- Do NOT include any of these words in the title: {banned_in_label}\n'
-        f'- Do NOT use vague "Words associated with" / "Things related to".\n\n'
+        f'- Do NOT use vague "Words associated with" / "Things related to".\n'
+        f'- NEVER write patterns like "Things that can be [color/adjective]" '
+        f'(e.g. "Things that can be blue") — too loose; reject that idea entirely.\n'
+        f'- Avoid any title where the link is only "could share one loose physical trait" '
+        f'(color, size, hot/cold) unless the title names one obvious tight real-world set.\n'
+        f'- Do NOT use nationalities/demonyms as fake parallel "types" (e.g. breeds) '
+        f'when the words are just place-derived adjectives.\n'
+        f'- If one word is broader than others, this is acceptable only when the category '
+        f'still reads as one coherent everyday set.\n'
+        f'- Do NOT use "can follow / precede / after / before" framing.\n\n'
+        f'If no very tight title fits, output the best clear umbrella category.\n\n'
         f'Return only the title, plain text.'
     )
     try:
         resp = claude_client.messages.create(
-            model='claude-haiku-4-5-20251001',
-            max_tokens=48,
+            model=_yellow_label_model(),
+            max_tokens=_yellow_label_max_tokens(),
             messages=[{'role': 'user', 'content': prompt}]
         )
-        # Keep only the first line/title and strip wrappers.
         raw = resp.content[0].text.strip()
         title = raw.splitlines()[0].strip()
         title = title.strip('"').strip("'").strip()
@@ -1691,32 +2271,33 @@ def label_yellow_group(group: list) -> str:
 
 
 def _is_bad_yellow_title_format(title: str, group: list) -> tuple[bool, str]:
-    """Local guardrail against verbose or weak yellow labels."""
     t = (title or '').strip()
     if not t:
         return True, 'empty title'
-
     lower = t.lower()
     words = [w for w in t.replace('"', '').split() if w]
     if len(words) < 2 or len(words) > 7:
         return True, 'title length out of range (2-7 words)'
-
-    # Catch chain-of-thought / rambling artifacts that occasionally leak through.
-    bad_markers = (
-        'wait,', 'let me', 'reconsider', "doesn't work", 'that does not work',
-        '->', '—', '\n',
-    )
+    bad_markers = ('wait,', 'let me', 'reconsider', "doesn't work", '->', '—', '\n')
     if any(m in lower for m in bad_markers):
         return True, 'rambling/meta text detected'
-
     if t.count('"') % 2 == 1:
         return True, 'unbalanced quotes'
-
-    # For yellow, avoid brittle phrase-completion labels like "words that follow X".
     if lower.startswith('words that follow') or lower.startswith('words that precede'):
         return True, 'yellow should not use follow/precede framing'
-
-    # Model is instructed not to echo member words in title.
+    banned_fragments = (
+        ' can follow ',
+        ' can precede ',
+        ' that follow ',
+        ' that precede ',
+    )
+    if any(f in lower for f in banned_fragments):
+        return True, 'yellow should not use follow/precede/after/before framing'
+    # Vague "can be + adjective" yellows (e.g. "Things that can be blue")
+    if 'things that can be ' in lower or 'stuff that can be ' in lower:
+        return True, 'too-vague "things that can be …" category'
+    if 'things that could be ' in lower or 'stuff that could be ' in lower:
+        return True, 'too-vague "things that could be …" category'
     group_lower = {w.lower() for w in group}
     title_tokens = {
         tok.strip('".,!?;:()[]{}').lower()
@@ -1725,24 +2306,39 @@ def _is_bad_yellow_title_format(title: str, group: list) -> tuple[bool, str]:
     }
     if group_lower & title_tokens:
         return True, 'title includes group word(s)'
-
     return False, ''
 
 
+def _repair_yellow_title(title: str) -> str:
+    """Fix unbalanced quotes from LLM output."""
+    t = (title or '').strip()
+    if t.count('"') % 2 == 1:
+        t = t.replace('"', '')
+    return t
+
+
 def _yellow_title_try_budget() -> int:
-    """Default budget for yellow title retries (LLM-heavy)."""
+    """Label + verify cycles per word2vec group (Sonnet label; cap cost via env)."""
     try:
-        return max(1, min(6, int(os.environ.get('BURAK_YELLOW_TITLE_MAX_TRIES', '2'))))
+        return max(1, min(4, int(os.environ.get('BURAK_YELLOW_TITLE_MAX_TRIES', '1'))))
     except Exception:
-        return 2
+        return 1
+
+
+def _yellow_imp2_triple_budget() -> int:
+    """How many imp2 neighbor triples to evaluate before falling back."""
+    try:
+        return max(1, min(12, int(os.environ.get('BURAK_YELLOW_IMP2_TRIPLE_MAX_TRIES', '4'))))
+    except Exception:
+        return 4
 
 
 def yellow_connection_with_retries(group: list, max_tries: int | None = None):
-    """LLM title + verifier — rejects sloppy synonym/thematic labels."""
     if max_tries is None:
         max_tries = _yellow_title_try_budget()
     for attempt in range(max_tries):
         label = label_yellow_group(group)
+        label = _repair_yellow_title(label)
         bad, why = _is_bad_yellow_title_format(label, group)
         if bad:
             print(f'    yellow title try {attempt + 1}: "{label}" → False — {why}')
@@ -1755,11 +2351,10 @@ def yellow_connection_with_retries(group: list, max_tries: int | None = None):
 
 
 def _yellow_seed_budget() -> int:
-    """How many word2vec seeds to test for yellow generation."""
     try:
-        return max(8, min(80, int(os.environ.get('BURAK_YELLOW_SEED_MAX_ATTEMPTS', '18'))))
+        return max(6, min(40, int(os.environ.get('BURAK_YELLOW_SEED_MAX_ATTEMPTS', '20'))))
     except Exception:
-        return 18
+        return 20
 
 
 def generate_yellow_group(existing_words, impostor=None, max_attempts=None):
@@ -1770,25 +2365,32 @@ def generate_yellow_group(existing_words, impostor=None, max_attempts=None):
 
     if impostor:
         impostor_lower = impostor.lower()
-        # Use impostor as seed — exclude it from the similar pool
-        # so the 3 companions don't include it, then add it back
         excl_with_imp = excl | {impostor_lower}
-        sim = find_similar_w2v(impostor_lower, list(excl_with_imp) + list(tried), n=3)
-        if len(sim) == 3:
-            group = [impostor.upper()] + [w.upper() for w in sim]
-            if not group_has_conjugation_issues(group):
-                label = yellow_connection_with_retries(group)
-                if label:
-                    return {
-                        'mechanism':   'word2vec',
-                        'seed':        impostor.upper(),
-                        'group':       group,
-                        'connection':  label,
-                        'difficulty':  'yellow',
-                        'has_impostor': True,
-                        'impostor':    impostor.upper(),
-                        'replaced':    None,
-                    }
+        ranked = find_similar_w2v_ranked(
+            impostor_lower,
+            list(excl_with_imp) + list(tried),
+            topn=320,
+            max_cands=12,
+            pos_filter=False,
+        )
+        for triple in _iter_ranked_w2v_triples(
+            ranked, max_trials=_yellow_imp2_triple_budget()
+        ):
+            group = [impostor.upper()] + [w.upper() for w in triple]
+            if group_has_conjugation_issues(group):
+                continue
+            label = yellow_connection_with_retries(group)
+            if label:
+                return {
+                    'mechanism':   'word2vec',
+                    'seed':        impostor.upper(),
+                    'group':       group,
+                    'connection':  label,
+                    'difficulty':  'yellow',
+                    'has_impostor': True,
+                    'impostor':    impostor.upper(),
+                    'replaced':    None,
+                }
         print(f'  imp2 w2v seed failed for "{impostor}" — falling back to random seed')
 
     # Normal generation
@@ -1842,35 +2444,128 @@ def run_full_pipeline() -> dict | None:
     Runs the full puzzle generation pipeline.
     Called by BurakAdapter.generate().
     Returns puzzle dict with yellow/green/blue/purple keys, or None.
+
+    Impostor logic (staged):
+      1. For each purple word as anchor (shuffled), pick ``imp1`` that can anchor green.
+      2. Build green around ``imp1``.
+      3. Only then pick ``imp2`` from w2vec neighbors of the anchor, excluding
+         purple ∪ green so yellow feasibility matches the real board.
+      4. ``imp2`` seeds yellow (word2vec).
+
+    If no anchor yields a full (imp1 green + imp2 yellow) bundle, green is
+    generated without impostors. A correct puzzle beats a forced mechanic.
     """
     used: list[str] = []
 
-    # Purple + impostors
+    # Purple
     purple = generate_purple_group(n_candidates=8)
     if not purple:
         return None
     used += purple['group']
 
-    impostor_result = select_two_impostors(purple['group'])
-    if impostor_result:
-        import random as _random
-        targets = _random.choices(
-            [('blue', 'yellow'), ('blue', 'green'), ('green', 'yellow')],
-            weights=[50, 25, 25]
-        )[0]
-        impostor_result['imp1_target'] = targets[0]
-        impostor_result['imp2_target'] = targets[1]
+    impostor_result: dict | None = None
+    green: dict | None = None
+
+    anchors = list(purple['group'])
+    random.shuffle(anchors)
+
+    for anchor_word in anchors:
+        print(f'  Staged impostor — trying anchor: {anchor_word}')
+
+        imp1, imp1_mechanism = find_impostor_green(
+            purple_word=anchor_word,
+            purple_group=purple['group'],
+            exclude_extra=[],
+        )
+        if imp1 is None:
+            print('    No green-capable imp1 found')
+            continue
+
+        print(f'    imp1 (green anchor): {imp1.upper()} [{imp1_mechanism}]')
+
+        partial = {
+            'anchor':         anchor_word.upper(),
+            'imp1':           imp1.upper(),
+            'imp1_mechanism': imp1_mechanism,
+            'imp1_target':    'green',
+            'imp2_target':    'yellow',
+        }
+
+        green_try = generate_rhyme_group(
+            existing_words=used,
+            impostor=imp1,
+            impostor_result=partial,
+        )
+        if not green_try:
+            print('    Green generation failed for this anchor')
+            continue
+
+        if not green_try.get('has_impostor'):
+            print('    Green did not retain impostor — trying next anchor')
+            continue
+
+        imp2, _ = find_impostor_w2v_seed(
+            purple_word=anchor_word,
+            purple_group=purple['group'],
+            exclude_extra=green_try['group'],
+        )
+        if imp2 is None:
+            print(
+                '    No w2v-capable imp2 after green '
+                '(neighbors blocked by purple ∪ green) — trying next anchor'
+            )
+            continue
+
+        print(f'    imp2 (yellow seed): {imp2.upper()}')
+        fake_label = label_fake_connection(
+            partial['anchor'], partial['imp1'], imp2.upper()
+        )
+        print(f'    Fake connection: "{fake_label}"')
+
+        impostor_result = {
+            **partial,
+            'imp2':            imp2.upper(),
+            'fake_connection': fake_label,
+        }
+        green = green_try
+        break
+
+    if impostor_result is None:
+        print('  No staged impostor bundle worked — generating green without impostor')
+        green = generate_rhyme_group(
+            existing_words=used,
+            impostor=None,
+            impostor_result=None,
+        )
+        if not green:
+            return None
 
     imp_for_green  = impostor_result['imp1'] if impostor_result else None
     imp_for_yellow = impostor_result['imp2'] if impostor_result else None
 
-    # Green
-    green = generate_rhyme_group(existing_words=used, impostor=imp_for_green)
-    if not green:
-        return None
     used += green['group']
 
-    # Blue
+    # Yellow (with imp2 as seed) — built before blue so imp2 has a larger word pool
+    yellow = generate_yellow_group(existing_words=used, impostor=imp_for_yellow)
+    if not yellow:
+        return None
+    used += yellow['group']
+
+    # Verify imp2 actually landed in yellow.
+    # Must check before blue is generated so we can clear cleanly.
+    if impostor_result and imp_for_yellow:
+        if impostor_result['imp2'] not in yellow['group']:
+            print(
+                f'  imp2 "{impostor_result["imp2"]}" not in yellow group — '
+                f'clearing impostor_result to avoid broken fake connection'
+            )
+            impostor_result = None
+            green['has_impostor'] = False
+            green.pop('impostor', None)
+            green.pop('anchor', None)
+            green.pop('fake_connection', None)
+
+    # Blue — generated last, least constrained by impostor system
     blue = generate_blue_group(
         existing_words=used,
         purple_conn=purple.get('connection', ''),
@@ -1880,11 +2575,27 @@ def run_full_pipeline() -> dict | None:
         return None
     used += blue['group']
 
-    # Yellow
-    yellow = generate_yellow_group(existing_words=used, impostor=imp_for_yellow)
-    if not yellow:
+    # Board diversity check — reject if green+purple words are all too long
+    # This prevents boards where 8+ words are long corporate/academic terms
+    # that all look the same to a player scanning the grid
+    green_purple_words = green['group'] + purple['group']
+    avg_len = sum(len(w) for w in green_purple_words) / len(green_purple_words)
+    if avg_len > 8.0:
+        print(
+            f'  Rejecting puzzle: green+purple avg word length {avg_len:.1f} > 8.0 '
+            f'(board looks visually uniform — retrying)'
+        )
         return None
-    used += yellow['group']
+
+    # Also reject if more than 5 of the 16 board words exceed 10 characters
+    all_16 = yellow['group'] + green['group'] + blue['group'] + purple['group']
+    long_words = [w for w in all_16 if len(w) > 10]
+    if len(long_words) > 5:
+        print(
+            f'  Rejecting puzzle: {len(long_words)} words exceed 10 chars {long_words} '
+            f'(board looks visually uniform — retrying)'
+        )
+        return None
 
     return {
         'yellow':          yellow,

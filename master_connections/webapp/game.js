@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         currentPuzzle = null;
         updatePuzzleSourceLabel();
         showMessage('Failed to load puzzles', 'wrong');
+        syncGiveUpButton();
     }
 });
 
@@ -79,6 +80,7 @@ function loadNewPuzzle() {
         currentPuzzle = null;
         updatePuzzleSourceLabel();
         showMessage('No puzzles available', 'wrong');
+        syncGiveUpButton();
         return;
     }
 
@@ -98,6 +100,7 @@ function loadNewPuzzle() {
     updatePuzzleSourceLabel();
     renderMistakeDots();
     renderGrid();
+    syncGiveUpButton();
 }
 
 // -- Rendering --------------------------------------------------------------
@@ -116,6 +119,13 @@ function renderGrid() {
     });
 
     updateSubmitButton();
+    syncGiveUpButton();
+}
+
+function syncGiveUpButton() {
+    const btn = document.getElementById('btn-give-up');
+    if (!btn) return;
+    btn.disabled = state.gameOver || !currentPuzzle || allPuzzles.length === 0;
 }
 
 function updateSubmitButton() {
@@ -210,7 +220,7 @@ function handleCorrectGuess(group) {
     renderGrid();
 
     if (state.solvedGroups.length === 4) {
-        setTimeout(() => endGame(true), 600);
+        setTimeout(() => endGame('won'), 600);
     }
 }
 
@@ -219,8 +229,19 @@ function handleWrongGuess() {
     renderMistakeDots();
 
     if (state.mistakesLeft <= 0) {
-        endGame(false);
+        endGame('lost');
     }
+}
+
+function giveUp() {
+    if (state.gameOver || !currentPuzzle || allPuzzles.length === 0) return;
+    if (state.solvedGroups.length >= 4) return;
+
+    hideMessage();
+    state.selected.clear();
+    state.mistakesLeft = 0;
+    renderMistakeDots();
+    endGame('giveup');
 }
 
 function renderSolvedGroup(data) {
@@ -241,14 +262,24 @@ function escapeHtml(text) {
 
 // -- Game Over --------------------------------------------------------------
 
-function endGame(won) {
+/**
+ * @param {'won' | 'lost' | 'giveup'} outcome
+ */
+function endGame(outcome) {
     state.gameOver = true;
     renderGrid();
 
-    if (won) {
-        document.getElementById('game-over-text').textContent = 'Congratulations!';
+    let title;
+    if (outcome === 'won') {
+        title = 'Congratulations!';
+    } else if (outcome === 'giveup') {
+        title = 'You gave up. Here are the answers.';
     } else {
-        document.getElementById('game-over-text').textContent = 'Better luck next time!';
+        title = 'Better luck next time!';
+    }
+    document.getElementById('game-over-text').textContent = title;
+
+    if (outcome !== 'won') {
         revealRemaining();
     }
     document.getElementById('game-over').classList.remove('hidden');

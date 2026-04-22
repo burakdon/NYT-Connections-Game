@@ -167,6 +167,22 @@ header h1 {
 
 .buttons.secondary {
     margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+#btn-give-up {
+    border-color: #8b2942;
+    color: #8b2942;
+}
+
+#btn-give-up:hover:not(:disabled) {
+    background: #8b2942;
+    color: #fff;
+}
+
+#btn-give-up:disabled {
+    border-color: #1a1a1a;
+    color: #1a1a1a;
 }
 
 button {
