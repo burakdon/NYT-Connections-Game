@@ -1,20 +1,80 @@
 {
-  "accepted": [],
+  "accepted": [
+    {
+      "groups": [
+        {
+          "category": "Things You Can Shuffle",
+          "difficulty": "easy",
+          "words": [
+            "CARDS",
+            "FEET",
+            "PAPERS",
+            "PLAYLIST"
+          ],
+          "explanation": "You can shuffle cards, feet, papers, and a playlist \u2014 all common uses of the word 'shuffle'.",
+          "mechanism_family": "shared_property",
+          "concept_key": "things_you_can_shuffle"
+        },
+        {
+          "category": "Remove the First Letter to Get a New Word",
+          "difficulty": "medium",
+          "words": [
+            "WHEAT",
+            "KNAVE",
+            "BRACE",
+            "STALE"
+          ],
+          "explanation": "Remove the first letter of each word to get a new common word: WHEAT\u2192HEAT, KNAVE\u2192NAVE, BRACE\u2192RACE, STALE\u2192TALE.",
+          "mechanism_family": "transformation",
+          "concept_key": "transformation_remove_first_letter"
+        },
+        {
+          "category": "Also a Type of Government Bond",
+          "difficulty": "hard",
+          "words": [
+            "GILT",
+            "TREASURY",
+            "MUNICIPAL",
+            "BEARER"
+          ],
+          "explanation": "GILT, TREASURY, MUNICIPAL, and BEARER are all recognized categories of government-issued bonds.",
+          "mechanism_family": "double_identity",
+          "concept_key": "government_bond_types"
+        },
+        {
+          "category": "Common Words That Are Also Keyboard Modifier Keys",
+          "difficulty": "tricky",
+          "words": [
+            "SHIFT",
+            "CONTROL",
+            "ALT",
+            "ESCAPE"
+          ],
+          "explanation": "Each word is a common English word that is also a modifier key found on a standard keyboard.",
+          "mechanism_family": "double_identity",
+          "concept_key": "keyboard_modifier_keys"
+        }
+      ],
+      "source": "group-bank-assembler",
+      "difficulty_mode": "easy",
+      "id": "gb-0b3a432977b5"
+    }
+  ],
   "rejected": [
     {
       "group": {
-        "id": "3acdefd2474d",
-        "category": "Types of Cloud",
+        "id": "c6171815b2db",
+        "category": "Types of Pasta",
         "difficulty": "easy",
         "words": [
-          "CIRRUS",
-          "CUMULUS",
-          "STRATUS",
-          "NIMBUS"
+          "PENNE",
+          "RIGATONI",
+          "FUSILLI",
+          "FARFALLE"
         ],
-        "explanation": "All four are standard meteorological cloud classifications.",
+        "explanation": "All four are well-known varieties of pasta.",
         "mechanism_family": "semantic_set",
-        "concept_key": "cloud_types",
+        "concept_key": "pasta_types",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -22,8 +82,7 @@
         "verified": true
       },
       "errors": [
-        "Answer group repeats an existing verified group: CIRRUS, CUMULUS, NIMBUS, STRATUS.",
-        "Generated group copies an inspiration concept exactly as its concept_key: cloud_types."
+        "Answer group repeats an existing verified group: FARFALLE, FUSILLI, PENNE, RIGATONI."
       ],
       "stage": "local_group_validator",
       "color": "yellow",
@@ -31,18 +90,18 @@
     },
     {
       "group": {
-        "id": "9c6dd3d70013",
-        "category": "Things That Can Be Scrambled",
+        "id": "1a5f2e1faab7",
+        "category": "Add G to the Front to Make a New Word",
         "difficulty": "easy",
         "words": [
-          "EGGS",
-          "SIGNAL",
-          "LETTERS",
-          "CHANNELS"
+          "LOVE",
+          "ROAN",
+          "LIMMER",
+          "OLD"
         ],
-        "explanation": "Eggs can be scrambled in a pan, a signal can be scrambled electronically, letters can be scrambled into anagrams, and TV channels can be scrambled for security.",
-        "mechanism_family": "shared_property",
-        "concept_key": "things_that_can_be_scrambled",
+        "explanation": "Adding G to the front of each word makes a new word: GLOVE, GROAN, GLIMMER, GOLD.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_add_g_front",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -50,7 +109,7 @@
         "verified": true
       },
       "errors": [
-        "Category label repeats an existing verified group: Things That Can Be Scrambled."
+        "Category label repeats an existing verified group: Add G to the Front to Make a New Word."
       ],
       "stage": "local_group_validator",
       "color": "yellow",
@@ -58,18 +117,18 @@
     },
     {
       "group": {
-        "id": "37077f229b03",
-        "category": "Words hiding a day of the week",
-        "difficulty": "medium",
+        "id": "48e831e8bdf8",
+        "category": "Homophones of Units of Measurement",
+        "difficulty": "easy",
         "words": [
-          "MONDAY",
-          "SUNDAE",
-          "FRIDAY",
-          "THURSDAY"
+          "FEAT",
+          "TONNE",
+          "OUR",
+          "WAIT"
         ],
-        "explanation": "Each word contains a day of the week hidden inside it: MONday, SUNdae (SUN\u2192SUN, but SUNDAE hides SUN), FRIDAY contains FRI, THURSDAY contains THUR \u2014 actually each word IS or contains a day: MONDAY=MONDAY, SUNDAE hides SUN, FRIDAY=FRIDAY, THURSDAY=THURSDAY. Revised: words that contain a hidden day \u2014 WEDNESDAY hides WED, SATURDAY hides SAT, SUNDAE hides SUN, MONDAY hides MON.",
-        "mechanism_family": "spelling",
-        "concept_key": "hidden_day_of_week",
+        "explanation": "Each word is a homophone of a unit of measurement: FEAT=FEET, TONNE=TON, OUR=HOUR, WAIT=WEIGHT.",
+        "mechanism_family": "sound",
+        "concept_key": "homophones_units_of_measurement",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -77,55 +136,26 @@
         "verified": true
       },
       "errors": [
-        "Group 'Words hiding a day of the week' explanation is too long.",
-        "Group 'Words hiding a day of the week' explanation contains draft text.",
-        "Category label repeats an existing verified group: Words hiding a day of the week."
+        "Group 'Homophones of Units of Measurement' explanation contains draft text."
       ],
       "stage": "local_group_validator",
-      "color": "green",
-      "lane": "medium"
+      "color": "yellow",
+      "lane": "easy"
     },
     {
       "group": {
-        "id": "2f9dd8c18308",
-        "category": "Words hiding a day of the week",
+        "id": "0e1ae23f5d82",
+        "category": "Things That Can Be Folded",
         "difficulty": "medium",
         "words": [
-          "SUNDAE",
-          "MONDAY",
-          "SATURDAY",
-          "WEDNESDAY"
+          "MAP",
+          "NAPKIN",
+          "ORIGAMI",
+          "OMELET"
         ],
-        "explanation": "Each word contains a day of the week hidden in its spelling: SUNDAE (SUN), MONDAY (MON), SATURDAY (SAT), WEDNESDAY (WED).",
-        "mechanism_family": "spelling",
-        "concept_key": "hidden_day_of_week",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Category label repeats an existing verified group: Words hiding a day of the week."
-      ],
-      "stage": "local_group_validator",
-      "color": "green",
-      "lane": "medium"
-    },
-    {
-      "group": {
-        "id": "305b00181c4c",
-        "category": "Things that can be cast",
-        "difficulty": "medium",
-        "words": [
-          "SHADOW",
-          "SPELL",
-          "NET",
-          "VOTE"
-        ],
-        "explanation": "You can cast a shadow, cast a spell, cast a net, and cast a vote.",
+        "explanation": "All four are things that are characteristically folded: a map is folded for storage, a napkin is folded at a table, origami is the art of folding paper, and an omelet is folded while cooking.",
         "mechanism_family": "shared_property",
-        "concept_key": "things_that_can_be_cast",
+        "concept_key": "things_that_can_be_folded",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -133,25 +163,79 @@
         "verified": true
       },
       "errors": [
-        "Answer group repeats an existing verified group: NET, SHADOW, SPELL, VOTE.",
-        "Category concept repeats an existing verified group: Things that can be cast overlaps Things that can be cast."
+        "Group 'Things That Can Be Folded' explanation is too long."
       ],
       "stage": "local_group_validator",
       "color": "green",
       "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "f81913024d63",
+        "category": "Homophones of Words Meaning 'Quiet'",
+        "difficulty": "medium",
+        "words": [
+          "PIECE",
+          "KNEEL",
+          "NIGHT",
+          "WRAP"
+        ],
+        "explanation": "Each word is a homophone of a word related to royalty/ceremony: PIECE\u2192PEACE (as in peace treaty), KNEEL\u2192NEIL, NIGHT\u2192KNIGHT, WRAP\u2192RAP. Corrected: PIECE/PEACE, KNEEL sounds like NEIL \u2014 not clean. Final clean version: homophones of words meaning to move downward: KNEEL (Neil \u2014 no). Using straightforward homophones of ordinal directions instead: NORTH/SOUTH etc don't work. Replacing with a clean group below.",
+        "mechanism_family": "sound",
+        "concept_key": "homophones_of_quiet_words",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Group 'Homophones of Words Meaning 'Quiet'' explanation is too long.",
+        "Group 'Homophones of Words Meaning 'Quiet'' explanation contains draft text."
+      ],
+      "stage": "local_group_validator",
+      "color": "green",
+      "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "76b34c1c728c",
+        "category": "Remove the First Letter to Get a New Word",
+        "difficulty": "hard",
+        "words": [
+          "WHEAT",
+          "KNAVE",
+          "SPOOL",
+          "PRICE"
+        ],
+        "explanation": "Remove the first letter of each: WHEAT\u2192HEAT, KNAVE\u2192NAVE, SPOOL\u2192POOL, PRICE\u2192RICE \u2014 all common words.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_remove_first_letter",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Category concept repeats an existing verified group: Remove the First Letter to Get a New Word overlaps Remove the First Letter to Get a New Word."
+      ],
+      "stage": "local_group_validator",
+      "color": "blue",
+      "lane": "hard"
     },
     {
       "group": {
         "id": "bd8e288b9149",
-        "category": "Homophones of a number spelled out",
-        "difficulty": "medium",
+        "category": "Homophones of a Number Spelled Out",
+        "difficulty": "tricky",
         "words": [
-          "ATE",
           "WON",
+          "TOO",
           "FOR",
-          "TOO"
+          "ATE"
         ],
-        "explanation": "Each word sounds exactly like a spelled-out number: ATE=eight, WON=one, FOR=four, TOO=two.",
+        "explanation": "Each word sounds exactly like a spelled-out number: WON=one, TOO=two, FOR=four, ATE=eight.",
         "mechanism_family": "sound",
         "concept_key": "homophones_of_spelled_numbers",
         "source": "claude-group-agent",
@@ -164,163 +248,23 @@
         "Answer group repeats an existing verified group: ATE, FOR, TOO, WON."
       ],
       "stage": "local_group_validator",
-      "color": "green",
-      "lane": "medium"
-    },
-    {
-      "group": {
-        "id": "564f8f66b13a",
-        "category": "Words that follow PATCH",
-        "difficulty": "medium",
-        "words": [
-          "WORK",
-          "WORD",
-          "QUILT",
-          "TEST"
-        ],
-        "explanation": "Each word follows PATCH to make a compound or common phrase: patchwork, patchword \u2014 actually PATCHWORK, PATCH TEST, PATCH QUILT \u2014 let me use only verified phrases.",
-        "mechanism_family": "phrase_completion",
-        "concept_key": "phrase_after_patch",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Group 'Words that follow PATCH' explanation contains draft text."
-      ],
-      "stage": "local_group_validator",
-      "color": "green",
-      "lane": "medium"
-    },
-    {
-      "group": {
-        "id": "193bf13a4b56",
-        "category": "Words containing a hidden river",
-        "difficulty": "hard",
-        "words": [
-          "CANINE",
-          "AMBUSH",
-          "SNAKING",
-          "OVERLAP"
-        ],
-        "explanation": "Each word hides a river: CANINE (NILE inside caNILEne \u2192 rearranged \u2014 actually: caNINE hides NINE\u2026 let's correct: AMAZON in AMAZONIAN, NILE in caNILE \u2014 use verified hidden: AVON in AVONDALE\u2026 Final verified set: THAMES in BATHAMES? Use clean set: NILE in caNILEen \u2014 replace with clean words: DANUBE in ABUNDANCE (abUNDANce \u2014 no). Use: SEINE in BASEMENT (baSEINEment \u2014 no). Clean verified: ARNO in BARNACLE (bARNOcle \u2014 no). Use confirmed: EXE in EXERCISE (EXErcise \u2713), AVON in SAVONNET? Use: NILE in PENILE (peNILEy \u2014 no, peNILE \u2713), OUSE in BLOUSE (blOUSE \u2713), EDEN inIEDEN? SWEDEN (swEDEN \u2713), EXE in EXERCISE (EXErcise \u2713), NILE in PENILE (peNILE \u2713), OUSE in BLOUSE (blOUSE \u2713): PENILE, BLOUSE, SWEDEN, EXERCISE each hide a UK/world river (NILE, OUSE, EDEN, EXE).",
-        "mechanism_family": "spelling",
-        "concept_key": "hidden_river_names",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Group 'Words containing a hidden river' explanation is too long.",
-        "Group 'Words containing a hidden river' explanation contains draft text."
-      ],
-      "stage": "local_group_validator",
-      "color": "blue",
-      "lane": "hard"
-    },
-    {
-      "group": {
-        "id": "73e76ba52dd4",
-        "category": "Each word contains a hidden river",
-        "difficulty": "tricky",
-        "words": [
-          "AMAZON",
-          "DENIAL",
-          "SENILE",
-          "CONFLICT"
-        ],
-        "explanation": "Each word hides a river name: AMAZON (Amazon), deNILE (Nile), SEINE within SENILE (Seine), and CONFL-ICT contains no river \u2014 replacing CONFLICT: INDIGO hides INDIGO\u2026 let me use DANUBE: DANUBE is itself. Use PARABLE hides\u2026 Correct set: AMAZON (Amazon), DENIAL (Nile), SENILE (Seine), PARANOIA (Arno) \u2014 PARANOIA contains ARNO.",
-        "mechanism_family": "spelling",
-        "concept_key": "hidden_river_names",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Group 'Each word contains a hidden river' explanation is too long.",
-        "Group 'Each word contains a hidden river' explanation contains draft text.",
-        "Category concept repeats an existing verified group: Each word contains a hidden river overlaps Words containing a hidden river."
-      ],
-      "stage": "local_group_validator",
       "color": "purple",
       "lane": "tricky"
     },
     {
       "group": {
-        "id": "69936bafae52",
-        "category": "Each word contains a hidden river",
+        "id": "2ecf352ae8b6",
+        "category": "Contronyms \u2014 Words That Are Their Own Opposite",
         "difficulty": "tricky",
         "words": [
-          "AMAZON",
-          "DENIAL",
-          "SENILE",
-          "PARANOIA"
+          "CLEAVE",
+          "SANCTION",
+          "BUCKLE",
+          "TRIM"
         ],
-        "explanation": "Each word hides a river: AMAZON (Amazon), deNIAL (Nile), SEINE in SENILE (Seine), and parANOia contains ARNO.",
-        "mechanism_family": "spelling",
-        "concept_key": "hidden_river_names",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Group 'Each word contains a hidden river' says PARANOIA hides ARNO, but it does not.",
-        "Category concept repeats an existing verified group: Each word contains a hidden river overlaps Words containing a hidden river."
-      ],
-      "stage": "local_group_validator",
-      "color": "purple",
-      "lane": "tricky"
-    },
-    {
-      "group": {
-        "id": "452aba54d9fd",
-        "category": "Homophones of words meaning 'to look'",
-        "difficulty": "tricky",
-        "words": [
-          "PEER",
-          "STEEL",
-          "STAIR",
-          "GAYS"
-        ],
-        "explanation": "Each word sounds like a verb meaning to look: PEER (pier\u2192peer already is look, so: PEER/pier, STEEL sounds like STEAL not look \u2014 correct set: PEER (peer = look), GAZE\u2192GAYS, STARE\u2192STAIR, PEER is itself. Final: STAIR (stare), GAYS (gaze), PEER (pier), LEER (lear).",
-        "mechanism_family": "sound",
-        "concept_key": "homophones_of_look_verbs",
-        "source": "claude-group-agent",
-        "origin": {
-          "source": "claude-group-agent"
-        },
-        "verified": true
-      },
-      "errors": [
-        "Group 'Homophones of words meaning 'to look'' explanation is too long.",
-        "Group 'Homophones of words meaning 'to look'' explanation contains draft text."
-      ],
-      "stage": "local_group_validator",
-      "color": "purple",
-      "lane": "tricky"
-    },
-    {
-      "group": {
-        "id": "5581ee7b502b",
-        "category": "Things that have a face but no eyes",
-        "difficulty": "tricky",
-        "words": [
-          "CLOCK",
-          "CLIFF",
-          "COIN",
-          "CARD"
-        ],
-        "explanation": "A CLOCK, CLIFF, COIN, and CARD each have a 'face' (the front surface or side) but no eyes.",
+        "explanation": "Each word has two accepted meanings that are direct opposites: cleave means to split apart or to cling together; sanction means to approve or to penalize; buckle means to fasten or to collapse; trim means to add decoration or to cut away.",
         "mechanism_family": "shared_property",
-        "concept_key": "has_face_no_eyes",
+        "concept_key": "contronyms",
         "source": "claude-group-agent",
         "origin": {
           "source": "claude-group-agent"
@@ -328,86 +272,142 @@
         "verified": true
       },
       "errors": [
-        "Answer group repeats an existing verified group: CARD, CLIFF, CLOCK, COIN."
+        "Group 'Contronyms \u2014 Words That Are Their Own Opposite' explanation is too long.",
+        "Generated group copies an inspiration concept exactly as its concept_key: contronyms."
       ],
       "stage": "local_group_validator",
       "color": "purple",
       "lane": "tricky"
-    },
-    {
-      "puzzle": {
-        "groups": [
-          {
-            "category": "Words After TOOTH",
-            "difficulty": "easy",
-            "words": [
-              "BRUSH",
-              "PASTE",
-              "PICK",
-              "ACHE"
-            ],
-            "explanation": "TOOTHBRUSH, TOOTHPASTE, TOOTHPICK, and TOOTHACHE are all common compound words formed by adding the answer to TOOTH.",
-            "mechanism_family": "phrase_completion",
-            "concept_key": "phrase_after_tooth"
-          },
-          {
-            "category": "Also a type of stitch in sewing",
-            "difficulty": "medium",
-            "words": [
-              "CHAIN",
-              "CROSS",
-              "RUNNING",
-              "BLANKET"
-            ],
-            "explanation": "Each word names a common sewing stitch: chain stitch, cross stitch, running stitch, blanket stitch.",
-            "mechanism_family": "double_identity",
-            "concept_key": "sewing_stitch_names"
-          },
-          {
-            "category": "Words containing a hidden river",
-            "difficulty": "hard",
-            "words": [
-              "PENILE",
-              "BLOUSE",
-              "SWEDEN",
-              "EXERCISE"
-            ],
-            "explanation": "Each word hides a river name: PENILE (NILE), BLOUSE (OUSE), SWEDEN (EDEN), EXERCISE (EXE).",
-            "mechanism_family": "spelling",
-            "concept_key": "hidden_river_names"
-          },
-          {
-            "category": "Words that are also knitting stitches",
-            "difficulty": "tricky",
-            "words": [
-              "CABLE",
-              "SEED",
-              "MOSS",
-              "PURL"
-            ],
-            "explanation": "CABLE, SEED, MOSS, and PURL are all common knitting stitch names that also function as everyday English words.",
-            "mechanism_family": "double_identity",
-            "concept_key": "knitting_stitches"
-          }
-        ],
-        "source": "group-bank-assembler",
-        "difficulty_mode": "easy",
-        "id": "gb-5f6aac23f1a8"
-      },
-      "errors": [
-        "Generated puzzle has thematically overlapping category labels: 'Also a type of stitch in sewing' and 'Words that are also knitting stitches' both use also."
-      ],
-      "stage": "fresh_puzzle_validator"
     }
   ],
   "trace": [
     {
       "agent": "Group Generator",
       "status": "complete",
-      "summary": "Five fresh easy groups spanning semantic sets, spelling, phrase completion, shared property, and double identity.",
-      "duration_seconds": 8.86,
+      "summary": "Five fresh easy-lane groups spanning semantic sets, transformation, sound, shared property, and phrase completion.",
+      "duration_seconds": 21.17,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Five fresh easy groups spanning semantic sets, spelling, phrase completion, shared property, and double identity.\",\n  \"groups\": [\n    {\n      \"category\": \"Types of Cloud\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"cloud_types\",\n      \"words\": [\"CIRRUS\", \"CUMULUS\", \"STRATUS\", \"NIMBUS\"],\n      \"explanation\": \"All four are standard meteorological cloud classifications.\"\n    },\n    {\n      \"category\": \"Words After TOOTH\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"phrase_completion\",\n      \"concept_key\": \"phrase_after_tooth\",\n      \"words\": [\"BRUSH\", \"PASTE\", \"PICK\", \"ACHE\"],\n      \"explanation\": \"TOOTHBRUSH, TOOTHPASTE, TOOTHPICK, and TOOTHACHE are all common compound words formed by adding the answer to TOOTH.\"\n    },\n    {\n      \"category\": \"Homophones of Animals\",\n      \"difficulty\": \"easy\",\n      \"mech",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five fresh easy-lane groups spanning semantic sets, transformation, sound, shared property, and phrase completion.\",\n  \"groups\": [\n    {\n      \"category\": \"Types of Pasta\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"pasta_types\",\n      \"words\": [\"PENNE\", \"RIGATONI\", \"FUSILLI\", \"FARFALLE\"],\n      \"explanation\": \"All four are well-known varieties of pasta.\"\n    },\n    {\n      \"category\": \"Add G to the Front to Make a New Word\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"transformation\",\n      \"concept_key\": \"transformation_add_g_front\",\n      \"words\": [\"LOVE\", \"ROAN\", \"LIMMER\", \"OLD\"],\n      \"explanation\": \"Adding G to the front of each word makes a new word: GLOVE, GROAN, GLIMMER, GOLD.\"\n    },\n    {\n      \"category\": \"Homophones of Units of Measurement\",\n      \"difficulty\": \"easy\",\n      \"mechanism_famil",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Local Group Validator",
+      "status": "complete",
+      "summary": "Kept 2 candidate group(s), rejected 3 before audit.",
+      "duration_seconds": 0,
+      "details": {
+        "rejected": [
+          {
+            "group": {
+              "id": "c6171815b2db",
+              "category": "Types of Pasta",
+              "difficulty": "easy",
+              "words": [
+                "PENNE",
+                "RIGATONI",
+                "FUSILLI",
+                "FARFALLE"
+              ],
+              "explanation": "All four are well-known varieties of pasta.",
+              "mechanism_family": "semantic_set",
+              "concept_key": "pasta_types",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Answer group repeats an existing verified group: FARFALLE, FUSILLI, PENNE, RIGATONI."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "1a5f2e1faab7",
+              "category": "Add G to the Front to Make a New Word",
+              "difficulty": "easy",
+              "words": [
+                "LOVE",
+                "ROAN",
+                "LIMMER",
+                "OLD"
+              ],
+              "explanation": "Adding G to the front of each word makes a new word: GLOVE, GROAN, GLIMMER, GOLD.",
+              "mechanism_family": "transformation",
+              "concept_key": "transformation_add_g_front",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Category label repeats an existing verified group: Add G to the Front to Make a New Word."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "48e831e8bdf8",
+              "category": "Homophones of Units of Measurement",
+              "difficulty": "easy",
+              "words": [
+                "FEAT",
+                "TONNE",
+                "OUR",
+                "WAIT"
+              ],
+              "explanation": "Each word is a homophone of a unit of measurement: FEAT=FEET, TONNE=TON, OUR=HOUR, WAIT=WEIGHT.",
+              "mechanism_family": "sound",
+              "concept_key": "homophones_units_of_measurement",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Group 'Homophones of Units of Measurement' explanation contains draft text."
+            ],
+            "stage": "local_group_validator"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Group Auditor",
+      "status": "complete",
+      "summary": "Both groups are clean and approvable; no major issues found.",
+      "duration_seconds": 3.88,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Both groups are clean and approvable; no major issues found.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 8,\n      \"issues\": [\"'FEET' as in 'shuffle your feet' is slightly less common than the others but still natural and widely understood\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"'SHELF' overlaps with existing 'Ocean features' group which contains SHELF, but that is a different sense (continental shelf vs. bookshelf) \u2014 acceptable\"],\n      \"repaired_group\": null\n    }\n  ]\n}\n```",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Group Orchestrator",
+      "status": "complete",
+      "summary": "Accepted 1 verified group(s), rejected 3.",
+      "duration_seconds": 0,
+      "details": {
+        "target_count": 1,
+        "candidate_count": 5,
+        "locally_screened": 2,
+        "saved": false,
+        "bank_total": 255
+      }
+    },
+    {
+      "agent": "Group Generator",
+      "status": "complete",
+      "summary": "Five medium-difficulty candidate groups mixing transformation, shared property, double identity, sound, and semantic set mechanisms.",
+      "duration_seconds": 34.6,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five medium-difficulty candidate groups mixing transformation, shared property, double identity, sound, and semantic set mechanisms.\",\n  \"groups\": [\n    {\n      \"category\": \"Remove the First Letter to Get a New Word\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"transformation\",\n      \"concept_key\": \"transformation_remove_first_letter\",\n      \"words\": [\"WHEAT\", \"KNAVE\", \"BRACE\", \"STALE\"],\n      \"explanation\": \"Remove the first letter of each word to get a new common word: WHEAT\u2192HEAT, KNAVE\u2192NAVE, BRACE\u2192RACE, STALE\u2192TALE.\"\n    },\n    {\n      \"category\": \"Things That Can Be Folded\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"shared_property\",\n      \"concept_key\": \"things_that_can_be_folded\",\n      \"words\": [\"MAP\", \"NAPKIN\", \"ORIGAMI\", \"OMELET\"],\n      \"explanation\": \"All four are things that are characteristically folded: a map is folded for ",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -421,18 +421,18 @@
         "rejected": [
           {
             "group": {
-              "id": "3acdefd2474d",
-              "category": "Types of Cloud",
-              "difficulty": "easy",
+              "id": "0e1ae23f5d82",
+              "category": "Things That Can Be Folded",
+              "difficulty": "medium",
               "words": [
-                "CIRRUS",
-                "CUMULUS",
-                "STRATUS",
-                "NIMBUS"
+                "MAP",
+                "NAPKIN",
+                "ORIGAMI",
+                "OMELET"
               ],
-              "explanation": "All four are standard meteorological cloud classifications.",
-              "mechanism_family": "semantic_set",
-              "concept_key": "cloud_types",
+              "explanation": "All four are things that are characteristically folded: a map is folded for storage, a napkin is folded at a table, origami is the art of folding paper, and an omelet is folded while cooking.",
+              "mechanism_family": "shared_property",
+              "concept_key": "things_that_can_be_folded",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -440,25 +440,24 @@
               "verified": true
             },
             "errors": [
-              "Answer group repeats an existing verified group: CIRRUS, CUMULUS, NIMBUS, STRATUS.",
-              "Generated group copies an inspiration concept exactly as its concept_key: cloud_types."
+              "Group 'Things That Can Be Folded' explanation is too long."
             ],
             "stage": "local_group_validator"
           },
           {
             "group": {
-              "id": "9c6dd3d70013",
-              "category": "Things That Can Be Scrambled",
-              "difficulty": "easy",
+              "id": "f81913024d63",
+              "category": "Homophones of Words Meaning 'Quiet'",
+              "difficulty": "medium",
               "words": [
-                "EGGS",
-                "SIGNAL",
-                "LETTERS",
-                "CHANNELS"
+                "PIECE",
+                "KNEEL",
+                "NIGHT",
+                "WRAP"
               ],
-              "explanation": "Eggs can be scrambled in a pan, a signal can be scrambled electronically, letters can be scrambled into anagrams, and TV channels can be scrambled for security.",
-              "mechanism_family": "shared_property",
-              "concept_key": "things_that_can_be_scrambled",
+              "explanation": "Each word is a homophone of a word related to royalty/ceremony: PIECE\u2192PEACE (as in peace treaty), KNEEL\u2192NEIL, NIGHT\u2192KNIGHT, WRAP\u2192RAP. Corrected: PIECE/PEACE, KNEEL sounds like NEIL \u2014 not clean. Final clean version: homophones of words meaning to move downward: KNEEL (Neil \u2014 no). Using straightforward homophones of ordinal directions instead: NORTH/SOUTH etc don't work. Replacing with a clean group below.",
+              "mechanism_family": "sound",
+              "concept_key": "homophones_of_quiet_words",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -466,7 +465,8 @@
               "verified": true
             },
             "errors": [
-              "Category label repeats an existing verified group: Things That Can Be Scrambled."
+              "Group 'Homophones of Words Meaning 'Quiet'' explanation is too long.",
+              "Group 'Homophones of Words Meaning 'Quiet'' explanation contains draft text."
             ],
             "stage": "local_group_validator"
           }
@@ -476,10 +476,10 @@
     {
       "agent": "Group Auditor",
       "status": "complete",
-      "summary": "Two groups are solid; one is trivially obvious and borderline stale; one has a questionable homophone.",
-      "duration_seconds": 12.89,
+      "summary": "All three groups are factually sound and clean; two are approved outright, one has a minor thematic concern.",
+      "duration_seconds": 7.95,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Two groups are solid; one is trivially obvious and borderline stale; one has a questionable homophone.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"Clean, well-known compound words; no overlap with existing groups; good easy-difficulty anchor.\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 4,\n      \"issues\": [\"MOOSE/MOUSSE is a legitimate homophone pair, but MOOSE itself is an animal \u2014 the word presented IS the animal, not a homophone OF an animal. The category asks for homophones of animals, meaning the listed word should sound like an animal but not be one. MOOSE fails this test because MOOSE is the animal, not a homophone of it. The other three work correctly (BARE\u2192BEAR, DEAR\u2192DEER, LINKS\u2192LYNX). A replacement is needed for MOOSE.\"],\n      \"repaired_gro",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"All three groups are factually sound and clean; two are approved outright, one has a minor thematic concern.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"All four transformations are clean and unambiguous: WHEAT\u2192HEAT, KNAVE\u2192NAVE, BRACE\u2192RACE, STALE\u2192TALE. No overlap with existing transformation groups (those add letters; this removes).\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"All four are legitimate imperial/traditional units: STONE (weight), HAND (horse height), CHAIN (length), FURLONG (distance). Nicely specific and cohesive. No overlap with existing groups.\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 2,\n      \"approved\": true,\n      \"score\": 8,\n      \"issues\": [\"STAKE is slightly weaker as a named fence componen",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -494,16 +494,16 @@
         "candidate_count": 5,
         "locally_screened": 3,
         "saved": false,
-        "bank_total": 231
+        "bank_total": 256
       }
     },
     {
       "agent": "Group Generator",
       "status": "complete",
-      "summary": "Five medium-difficulty groups mixing spelling, double identity, shared property, semantic set, and sound mechanisms.",
-      "duration_seconds": 17.6,
+      "summary": "Five hard candidate groups mixing transformation, double identity, sound, shared property, and spelling mechanisms.",
+      "duration_seconds": 10.13,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Five medium-difficulty groups mixing spelling, double identity, shared property, semantic set, and sound mechanisms.\",\n  \"groups\": [\n    {\n      \"category\": \"Words hiding a day of the week\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden_day_of_week\",\n      \"words\": [\"MONDAY\", \"SUNDAE\", \"FRIDAY\", \"THURSDAY\"],\n      \"explanation\": \"Each word contains a day of the week hidden inside it: MONday, SUNdae (SUN\u2192SUN, but SUNDAE hides SUN), FRIDAY contains FRI, THURSDAY contains THUR \u2014 actually each word IS or contains a day: MONDAY=MONDAY, SUNDAE hides SUN, FRIDAY=FRIDAY, THURSDAY=THURSDAY. Revised: words that contain a hidden day \u2014 WEDNESDAY hides WED, SATURDAY hides SAT, SUNDAE hides SUN, MONDAY hides MON.\"\n    },\n    {\n      \"category\": \"Words hiding a day of the week\",\n      \"difficulty\": \"medium\",\n      \"mechanism_fam",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five hard candidate groups mixing transformation, double identity, sound, shared property, and spelling mechanisms.\",\n  \"groups\": [\n    {\n      \"category\": \"Remove the First Letter to Get a New Word\",\n      \"difficulty\": \"hard\",\n      \"mechanism_family\": \"transformation\",\n      \"concept_key\": \"transformation_remove_first_letter\",\n      \"words\": [\"WHEAT\", \"KNAVE\", \"SPOOL\", \"PRICE\"],\n      \"explanation\": \"Remove the first letter of each: WHEAT\u2192HEAT, KNAVE\u2192NAVE, SPOOL\u2192POOL, PRICE\u2192RICE \u2014 all common words.\"\n    },\n    {\n      \"category\": \"Also a Type of Government Bond\",\n      \"difficulty\": \"hard\",\n      \"mechanism_family\": \"double_identity\",\n      \"concept_key\": \"government_bond_types\",\n      \"words\": [\"GILT\", \"TREASURY\", \"MUNICIPAL\", \"BEARER\"],\n      \"explanation\": \"GILT, TREASURY, MUNICIPAL, and BEARER are all recognized categories of government-issued bonds.\"\n    }",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -511,24 +511,24 @@
     {
       "agent": "Local Group Validator",
       "status": "complete",
-      "summary": "Kept 2 candidate group(s), rejected 5 before audit.",
+      "summary": "Kept 4 candidate group(s), rejected 1 before audit.",
       "duration_seconds": 0,
       "details": {
         "rejected": [
           {
             "group": {
-              "id": "37077f229b03",
-              "category": "Words hiding a day of the week",
-              "difficulty": "medium",
+              "id": "76b34c1c728c",
+              "category": "Remove the First Letter to Get a New Word",
+              "difficulty": "hard",
               "words": [
-                "MONDAY",
-                "SUNDAE",
-                "FRIDAY",
-                "THURSDAY"
+                "WHEAT",
+                "KNAVE",
+                "SPOOL",
+                "PRICE"
               ],
-              "explanation": "Each word contains a day of the week hidden inside it: MONday, SUNdae (SUN\u2192SUN, but SUNDAE hides SUN), FRIDAY contains FRI, THURSDAY contains THUR \u2014 actually each word IS or contains a day: MONDAY=MONDAY, SUNDAE hides SUN, FRIDAY=FRIDAY, THURSDAY=THURSDAY. Revised: words that contain a hidden day \u2014 WEDNESDAY hides WED, SATURDAY hides SAT, SUNDAE hides SUN, MONDAY hides MON.",
-              "mechanism_family": "spelling",
-              "concept_key": "hidden_day_of_week",
+              "explanation": "Remove the first letter of each: WHEAT\u2192HEAT, KNAVE\u2192NAVE, SPOOL\u2192POOL, PRICE\u2192RICE \u2014 all common words.",
+              "mechanism_family": "transformation",
+              "concept_key": "transformation_remove_first_letter",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -536,75 +536,67 @@
               "verified": true
             },
             "errors": [
-              "Group 'Words hiding a day of the week' explanation is too long.",
-              "Group 'Words hiding a day of the week' explanation contains draft text.",
-              "Category label repeats an existing verified group: Words hiding a day of the week."
+              "Category concept repeats an existing verified group: Remove the First Letter to Get a New Word overlaps Remove the First Letter to Get a New Word."
             ],
             "stage": "local_group_validator"
-          },
-          {
-            "group": {
-              "id": "2f9dd8c18308",
-              "category": "Words hiding a day of the week",
-              "difficulty": "medium",
-              "words": [
-                "SUNDAE",
-                "MONDAY",
-                "SATURDAY",
-                "WEDNESDAY"
-              ],
-              "explanation": "Each word contains a day of the week hidden in its spelling: SUNDAE (SUN), MONDAY (MON), SATURDAY (SAT), WEDNESDAY (WED).",
-              "mechanism_family": "spelling",
-              "concept_key": "hidden_day_of_week",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Category label repeats an existing verified group: Words hiding a day of the week."
-            ],
-            "stage": "local_group_validator"
-          },
-          {
-            "group": {
-              "id": "305b00181c4c",
-              "category": "Things that can be cast",
-              "difficulty": "medium",
-              "words": [
-                "SHADOW",
-                "SPELL",
-                "NET",
-                "VOTE"
-              ],
-              "explanation": "You can cast a shadow, cast a spell, cast a net, and cast a vote.",
-              "mechanism_family": "shared_property",
-              "concept_key": "things_that_can_be_cast",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Answer group repeats an existing verified group: NET, SHADOW, SPELL, VOTE.",
-              "Category concept repeats an existing verified group: Things that can be cast overlaps Things that can be cast."
-            ],
-            "stage": "local_group_validator"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Group Auditor",
+      "status": "complete",
+      "summary": "Three groups are solid; one has a critical flaw with ARCH and PANE not being homophones.",
+      "duration_seconds": 9.92,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Three groups are solid; one has a critical flaw with ARCH and PANE not being homophones.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 8,\n      \"issues\": [\"BEARER bond is real but less commonly taught alongside the others; MUNICIPAL is sometimes called a 'muni' not just 'municipal bond' but the full form is valid; GILT is UK-specific which adds nice trivia flavor\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 3,\n      \"issues\": [\"ARCH is not a homophone of an architectural feature \u2014 it IS the architectural feature itself, breaking the homophone rule\", \"PANE is not a homophone either \u2014 it IS the word for a window pane, not a sound-alike of a different word\", \"Only FLEW (flue) and STARE (stair) are genuine homophones of architectural features; the category premise fails for hal",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Group Orchestrator",
+      "status": "complete",
+      "summary": "Accepted 1 verified group(s), rejected 1.",
+      "duration_seconds": 0,
+      "details": {
+        "target_count": 1,
+        "candidate_count": 5,
+        "locally_screened": 4,
+        "saved": false,
+        "bank_total": 257
+      }
+    },
+    {
+      "agent": "Group Generator",
+      "status": "complete",
+      "summary": "Five tricky groups mixing double identities, sound patterns, transformations, and shared properties.",
+      "duration_seconds": 11.51,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five tricky groups mixing double identities, sound patterns, transformations, and shared properties.\",\n  \"groups\": [\n    {\n      \"category\": \"Common Words That Are Also Keyboard Modifier Keys\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"double_identity\",\n      \"concept_key\": \"keyboard_modifier_keys\",\n      \"words\": [\"SHIFT\", \"CONTROL\", \"ALT\", \"ESCAPE\"],\n      \"explanation\": \"Each word is a common English word that is also a modifier key found on a standard keyboard.\"\n    },\n    {\n      \"category\": \"Words That Become an Antonym When You Add UN- to the Front\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"transformation\",\n      \"concept_key\": \"transformation_add_un_front_antonym\",\n      \"words\": [\"FAIR\", \"RULY\", \"COUTH\", \"KEMPT\"],\n      \"explanation\": \"Each word is rarely used alone but gains its common meaning only after adding UN- (unfair,",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Local Group Validator",
+      "status": "complete",
+      "summary": "Kept 3 candidate group(s), rejected 2 before audit.",
+      "duration_seconds": 0,
+      "details": {
+        "rejected": [
           {
             "group": {
               "id": "bd8e288b9149",
-              "category": "Homophones of a number spelled out",
-              "difficulty": "medium",
+              "category": "Homophones of a Number Spelled Out",
+              "difficulty": "tricky",
               "words": [
-                "ATE",
                 "WON",
+                "TOO",
                 "FOR",
-                "TOO"
+                "ATE"
               ],
-              "explanation": "Each word sounds exactly like a spelled-out number: ATE=eight, WON=one, FOR=four, TOO=two.",
+              "explanation": "Each word sounds exactly like a spelled-out number: WON=one, TOO=two, FOR=four, ATE=eight.",
               "mechanism_family": "sound",
               "concept_key": "homophones_of_spelled_numbers",
               "source": "claude-group-agent",
@@ -620,18 +612,18 @@
           },
           {
             "group": {
-              "id": "564f8f66b13a",
-              "category": "Words that follow PATCH",
-              "difficulty": "medium",
+              "id": "2ecf352ae8b6",
+              "category": "Contronyms \u2014 Words That Are Their Own Opposite",
+              "difficulty": "tricky",
               "words": [
-                "WORK",
-                "WORD",
-                "QUILT",
-                "TEST"
+                "CLEAVE",
+                "SANCTION",
+                "BUCKLE",
+                "TRIM"
               ],
-              "explanation": "Each word follows PATCH to make a compound or common phrase: patchwork, patchword \u2014 actually PATCHWORK, PATCH TEST, PATCH QUILT \u2014 let me use only verified phrases.",
-              "mechanism_family": "phrase_completion",
-              "concept_key": "phrase_after_patch",
+              "explanation": "Each word has two accepted meanings that are direct opposites: cleave means to split apart or to cling together; sanction means to approve or to penalize; buckle means to fasten or to collapse; trim means to add decoration or to cut away.",
+              "mechanism_family": "shared_property",
+              "concept_key": "contronyms",
               "source": "claude-group-agent",
               "origin": {
                 "source": "claude-group-agent"
@@ -639,7 +631,8 @@
               "verified": true
             },
             "errors": [
-              "Group 'Words that follow PATCH' explanation contains draft text."
+              "Group 'Contronyms \u2014 Words That Are Their Own Opposite' explanation is too long.",
+              "Generated group copies an inspiration concept exactly as its concept_key: contronyms."
             ],
             "stage": "local_group_validator"
           }
@@ -649,10 +642,10 @@
     {
       "agent": "Group Auditor",
       "status": "complete",
-      "summary": "Both groups are clean and factually sound; minor overlap concerns noted but neither conflicts with existing verified groups.",
-      "duration_seconds": 5.74,
+      "summary": "Two groups approved cleanly; the UN- antonym group has a factual issue with FAIR.",
+      "duration_seconds": 12.41,
       "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Both groups are clean and factually sound; minor overlap concerns noted but neither conflicts with existing verified groups.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"BLANKET appears in existing verified groups ('Things you can fold', 'Things you can knit') but the sewing-stitch category is a distinct concept and should not cause solver confusion in a well-curated puzzle bank; no direct category overlap exists.\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": true,\n      \"score\": 8,\n      \"issues\": [\"ENTER and RETURN are near-synonyms as verbs (both mean 'to go in'), which could feel slightly redundant to solvers, but both are unambiguously distinct keyboard keys, so the category holds cleanly on the keyboard-key axis.\"],\n      \"repaired_group\": null\n    }\n  ]\n}\n```",
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Two groups approved cleanly; the UN- antonym group has a factual issue with FAIR.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"ESCAPE is technically an 'escape key' not traditionally called a 'modifier key' in strict computing terminology \u2014 modifier keys are typically SHIFT, CTRL, ALT, and META/WIN \u2014 but common usage and puzzle context make this defensible; solvers may quibble\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 4,\n      \"issues\": [\"FAIR is a very common standalone word with its own positive meaning ('a county fair', 'that's fair'), so it does NOT fit the pattern of words that are 'rarely used alone' or feel like hidden antonyms \u2014 the premise of the group breaks down with FAIR\", \"RULY, COUTH, and KEMPT are genuine back-formations rarely used w",
         "json_retry_count": 0,
         "model": "claude-sonnet-4-6"
       }
@@ -660,239 +653,96 @@
     {
       "agent": "Group Orchestrator",
       "status": "complete",
-      "summary": "Accepted 1 verified group(s), rejected 5.",
-      "duration_seconds": 0,
-      "details": {
-        "target_count": 1,
-        "candidate_count": 7,
-        "locally_screened": 2,
-        "saved": false,
-        "bank_total": 232
-      }
-    },
-    {
-      "agent": "Group Generator",
-      "status": "complete",
-      "summary": "Five hard candidate groups mixing spelling tricks, double identities, hidden properties, and semantic depth.",
-      "duration_seconds": 25.02,
-      "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Five hard candidate groups mixing spelling tricks, double identities, hidden properties, and semantic depth.\",\n  \"groups\": [\n    {\n      \"category\": \"Words containing a hidden river\",\n      \"difficulty\": \"hard\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden_river_names\",\n      \"words\": [\"CANINE\", \"AMBUSH\", \"SNAKING\", \"OVERLAP\"],\n      \"explanation\": \"Each word hides a river: CANINE (NILE inside caNILEne \u2192 rearranged \u2014 actually: caNINE hides NINE\u2026 let's correct: AMAZON in AMAZONIAN, NILE in caNILE \u2014 use verified hidden: AVON in AVONDALE\u2026 Final verified set: THAMES in BATHAMES? Use clean set: NILE in caNILEen \u2014 replace with clean words: DANUBE in ABUNDANCE (abUNDANce \u2014 no). Use: SEINE in BASEMENT (baSEINEment \u2014 no). Clean verified: ARNO in BARNACLE (bARNOcle \u2014 no). Use confirmed: EXE in EXERCISE (EXErcise \u2713), AVON in SAVONNET? Use: NILE in PENIL",
-        "json_retry_count": 0,
-        "model": "claude-sonnet-4-6"
-      }
-    },
-    {
-      "agent": "Local Group Validator",
-      "status": "complete",
-      "summary": "Kept 4 candidate group(s), rejected 1 before audit.",
-      "duration_seconds": 0,
-      "details": {
-        "rejected": [
-          {
-            "group": {
-              "id": "193bf13a4b56",
-              "category": "Words containing a hidden river",
-              "difficulty": "hard",
-              "words": [
-                "CANINE",
-                "AMBUSH",
-                "SNAKING",
-                "OVERLAP"
-              ],
-              "explanation": "Each word hides a river: CANINE (NILE inside caNILEne \u2192 rearranged \u2014 actually: caNINE hides NINE\u2026 let's correct: AMAZON in AMAZONIAN, NILE in caNILE \u2014 use verified hidden: AVON in AVONDALE\u2026 Final verified set: THAMES in BATHAMES? Use clean set: NILE in caNILEen \u2014 replace with clean words: DANUBE in ABUNDANCE (abUNDANce \u2014 no). Use: SEINE in BASEMENT (baSEINEment \u2014 no). Clean verified: ARNO in BARNACLE (bARNOcle \u2014 no). Use confirmed: EXE in EXERCISE (EXErcise \u2713), AVON in SAVONNET? Use: NILE in PENILE (peNILEy \u2014 no, peNILE \u2713), OUSE in BLOUSE (blOUSE \u2713), EDEN inIEDEN? SWEDEN (swEDEN \u2713), EXE in EXERCISE (EXErcise \u2713), NILE in PENILE (peNILE \u2713), OUSE in BLOUSE (blOUSE \u2713): PENILE, BLOUSE, SWEDEN, EXERCISE each hide a UK/world river (NILE, OUSE, EDEN, EXE).",
-              "mechanism_family": "spelling",
-              "concept_key": "hidden_river_names",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Group 'Words containing a hidden river' explanation is too long.",
-              "Group 'Words containing a hidden river' explanation contains draft text."
-            ],
-            "stage": "local_group_validator"
-          }
-        ]
-      }
-    },
-    {
-      "agent": "Group Auditor",
-      "status": "complete",
-      "summary": "Three of four groups are solid; the logical fallacy group is too straightforward and category-named.",
-      "duration_seconds": 14.63,
-      "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Three of four groups are solid; the logical fallacy group is too straightforward and category-named.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"PENILE may cause hesitation in family-friendly contexts but the hidden river NILE is legitimate; all four hidden rivers (NILE, OUSE, EDEN, EXE) are real and cleanly embedded\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 3,\n      \"issues\": [\"The category literally names what the words are ('logical fallacy'), making it trivially self-referential rather than a puzzle\", \"The 'Also a type of' framing implies a double-identity mechanism but there is no second identity \u2014 these are purely and only logical fallacy names\", \"No wordplay or hidden connection; this is a plain semantic set dressed up as something trickier\"",
-        "json_retry_count": 0,
-        "model": "claude-sonnet-4-6"
-      }
-    },
-    {
-      "agent": "Group Orchestrator",
-      "status": "complete",
-      "summary": "Accepted 1 verified group(s), rejected 1.",
+      "summary": "Accepted 1 verified group(s), rejected 2.",
       "duration_seconds": 0,
       "details": {
         "target_count": 1,
         "candidate_count": 5,
-        "locally_screened": 4,
-        "saved": false,
-        "bank_total": 233
-      }
-    },
-    {
-      "agent": "Group Generator",
-      "status": "complete",
-      "summary": "Five tricky groups mixing hidden letters, double identities, sound patterns, shared properties, and transformations.",
-      "duration_seconds": 21.86,
-      "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Five tricky groups mixing hidden letters, double identities, sound patterns, shared properties, and transformations.\",\n  \"groups\": [\n    {\n      \"category\": \"Each word contains a hidden river\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden_river_names\",\n      \"words\": [\"AMAZON\", \"DENIAL\", \"SENILE\", \"CONFLICT\"],\n      \"explanation\": \"Each word hides a river name: AMAZON (Amazon), deNILE (Nile), SEINE within SENILE (Seine), and CONFL-ICT contains no river \u2014 replacing CONFLICT: INDIGO hides INDIGO\u2026 let me use DANUBE: DANUBE is itself. Use PARABLE hides\u2026 Correct set: AMAZON (Amazon), DENIAL (Nile), SENILE (Seine), PARANOIA (Arno) \u2014 PARANOIA contains ARNO.\"\n    },\n    {\n      \"category\": \"Each word contains a hidden river\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"spelling\",\n      \"concept_key\": \"hidden",
-        "json_retry_count": 0,
-        "model": "claude-sonnet-4-6"
-      }
-    },
-    {
-      "agent": "Local Group Validator",
-      "status": "complete",
-      "summary": "Kept 3 candidate group(s), rejected 4 before audit.",
-      "duration_seconds": 0,
-      "details": {
-        "rejected": [
-          {
-            "group": {
-              "id": "73e76ba52dd4",
-              "category": "Each word contains a hidden river",
-              "difficulty": "tricky",
-              "words": [
-                "AMAZON",
-                "DENIAL",
-                "SENILE",
-                "CONFLICT"
-              ],
-              "explanation": "Each word hides a river name: AMAZON (Amazon), deNILE (Nile), SEINE within SENILE (Seine), and CONFL-ICT contains no river \u2014 replacing CONFLICT: INDIGO hides INDIGO\u2026 let me use DANUBE: DANUBE is itself. Use PARABLE hides\u2026 Correct set: AMAZON (Amazon), DENIAL (Nile), SENILE (Seine), PARANOIA (Arno) \u2014 PARANOIA contains ARNO.",
-              "mechanism_family": "spelling",
-              "concept_key": "hidden_river_names",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Group 'Each word contains a hidden river' explanation is too long.",
-              "Group 'Each word contains a hidden river' explanation contains draft text.",
-              "Category concept repeats an existing verified group: Each word contains a hidden river overlaps Words containing a hidden river."
-            ],
-            "stage": "local_group_validator"
-          },
-          {
-            "group": {
-              "id": "69936bafae52",
-              "category": "Each word contains a hidden river",
-              "difficulty": "tricky",
-              "words": [
-                "AMAZON",
-                "DENIAL",
-                "SENILE",
-                "PARANOIA"
-              ],
-              "explanation": "Each word hides a river: AMAZON (Amazon), deNIAL (Nile), SEINE in SENILE (Seine), and parANOia contains ARNO.",
-              "mechanism_family": "spelling",
-              "concept_key": "hidden_river_names",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Group 'Each word contains a hidden river' says PARANOIA hides ARNO, but it does not.",
-              "Category concept repeats an existing verified group: Each word contains a hidden river overlaps Words containing a hidden river."
-            ],
-            "stage": "local_group_validator"
-          },
-          {
-            "group": {
-              "id": "452aba54d9fd",
-              "category": "Homophones of words meaning 'to look'",
-              "difficulty": "tricky",
-              "words": [
-                "PEER",
-                "STEEL",
-                "STAIR",
-                "GAYS"
-              ],
-              "explanation": "Each word sounds like a verb meaning to look: PEER (pier\u2192peer already is look, so: PEER/pier, STEEL sounds like STEAL not look \u2014 correct set: PEER (peer = look), GAZE\u2192GAYS, STARE\u2192STAIR, PEER is itself. Final: STAIR (stare), GAYS (gaze), PEER (pier), LEER (lear).",
-              "mechanism_family": "sound",
-              "concept_key": "homophones_of_look_verbs",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Group 'Homophones of words meaning 'to look'' explanation is too long.",
-              "Group 'Homophones of words meaning 'to look'' explanation contains draft text."
-            ],
-            "stage": "local_group_validator"
-          },
-          {
-            "group": {
-              "id": "5581ee7b502b",
-              "category": "Things that have a face but no eyes",
-              "difficulty": "tricky",
-              "words": [
-                "CLOCK",
-                "CLIFF",
-                "COIN",
-                "CARD"
-              ],
-              "explanation": "A CLOCK, CLIFF, COIN, and CARD each have a 'face' (the front surface or side) but no eyes.",
-              "mechanism_family": "shared_property",
-              "concept_key": "has_face_no_eyes",
-              "source": "claude-group-agent",
-              "origin": {
-                "source": "claude-group-agent"
-              },
-              "verified": true
-            },
-            "errors": [
-              "Answer group repeats an existing verified group: CARD, CLIFF, CLOCK, COIN."
-            ],
-            "stage": "local_group_validator"
-          }
-        ]
-      }
-    },
-    {
-      "agent": "Group Auditor",
-      "status": "complete",
-      "summary": "Two groups are solid; the homophones group has a critical flaw with LEER and a problematic word choice.",
-      "duration_seconds": 13.1,
-      "details": {
-        "raw_excerpt": "```json\n{\n  \"summary\": \"Two groups are solid; the homophones group has a critical flaw with LEER and a problematic word choice.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"MOSS stitch is less universally known than the others but is a legitimate knitting stitch; no overlap with existing verified groups\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 3,\n      \"issues\": [\n        \"LEER is not a homophone of a word meaning 'to look' \u2014 LEER itself means to look lecherously, so it is its own word, not a homophone of another word meaning 'to look'; the mechanism breaks down entirely for this entry\",\n        \"GAYS as a homophone of GAZE is phonetically valid but the word choice is likely to cause offense and distraction in a puzzle context\",\n        \"PIER/peer works, STAIR/stare works",
-        "json_retry_count": 0,
-        "model": "claude-sonnet-4-6"
-      }
-    },
-    {
-      "agent": "Group Orchestrator",
-      "status": "complete",
-      "summary": "Accepted 1 verified group(s), rejected 4.",
-      "duration_seconds": 0,
-      "details": {
-        "target_count": 1,
-        "candidate_count": 7,
         "locally_screened": 3,
         "saved": false,
-        "bank_total": 234
+        "bank_total": 258
       }
     }
   ],
-  "saved": false,
-  "bank_total": 56,
-  "group_bank_total": 231,
-  "generated_groups": []
+  "saved": true,
+  "bank_total": 65,
+  "group_bank_total": 259,
+  "generated_groups": [
+    {
+      "id": "c331194f6700",
+      "category": "Things You Can Shuffle",
+      "difficulty": "easy",
+      "words": [
+        "CARDS",
+        "FEET",
+        "PAPERS",
+        "PLAYLIST"
+      ],
+      "explanation": "You can shuffle cards, feet, papers, and a playlist \u2014 all common uses of the word 'shuffle'.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_you_can_shuffle",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "45aa2e466b00",
+      "category": "Remove the First Letter to Get a New Word",
+      "difficulty": "medium",
+      "words": [
+        "WHEAT",
+        "KNAVE",
+        "BRACE",
+        "STALE"
+      ],
+      "explanation": "Remove the first letter of each word to get a new common word: WHEAT\u2192HEAT, KNAVE\u2192NAVE, BRACE\u2192RACE, STALE\u2192TALE.",
+      "mechanism_family": "transformation",
+      "concept_key": "transformation_remove_first_letter",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "513bead64453",
+      "category": "Also a Type of Government Bond",
+      "difficulty": "hard",
+      "words": [
+        "GILT",
+        "TREASURY",
+        "MUNICIPAL",
+        "BEARER"
+      ],
+      "explanation": "GILT, TREASURY, MUNICIPAL, and BEARER are all recognized categories of government-issued bonds.",
+      "mechanism_family": "double_identity",
+      "concept_key": "government_bond_types",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "4a678e3d8a5f",
+      "category": "Common Words That Are Also Keyboard Modifier Keys",
+      "difficulty": "tricky",
+      "words": [
+        "SHIFT",
+        "CONTROL",
+        "ALT",
+        "ESCAPE"
+      ],
+      "explanation": "Each word is a common English word that is also a modifier key found on a standard keyboard.",
+      "mechanism_family": "double_identity",
+      "concept_key": "keyboard_modifier_keys",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    }
+  ]
 }

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "INTERPERSONAL",
+      "GREGARIOUS",
+      "LOBLOLLY",
+      "ESTUARY",
+      "SLINKY",
+      "SPLENOMEGALY",
+      "MUSICALLY",
+      "SLIVERY",
+      "BARGE",
+      "AFFECTIONATE",
+      "ARTS",
+      "CANAL",
+      "MUSICIANSHIP",
+      "RAPPORT",
+      "MUSICIAN",
+      "RIVER"
+    ],
+    "groups": [
+      {
+        "category": "MUSIC GENRES",
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.5858866572380066
+      },
+      {
+        "category": "WORDS THAT END IN 'LY'",
+        "words": [
+          "LOBLOLLY",
+          "SLINKY",
+          "SLIVERY",
+          "SPLENOMEGALY"
+        ],
+        "color": "green",
+        "similarity_score": 0.5706126093864441
+      },
+      {
+        "category": "THINGS ASSOCIATED WITH WATERWAYS",
+        "words": [
+          "RIVER",
+          "ESTUARY",
+          "BARGE",
+          "CANAL"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5511260628700256
+      },
+      {
+        "category": "WAYS TO DESCRIBE FRIENDLY BEHAVIOR",
+        "words": [
+          "GREGARIOUS",
+          "INTERPERSONAL",
+          "RAPPORT",
+          "AFFECTIONATE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5418797135353088
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIANSHIP",
+                "MUSICIAN"
+              ],
+              "score": 0.585886538028717
+            },
+            {
+              "words": [
+                "LOBLOLLY",
+                "SLINKY",
+                "SPLENOMEGALY",
+                "SLIVERY"
+              ],
+              "score": 0.5706124901771545
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "BARGE",
+                "CANAL",
+                "RIVER"
+              ],
+              "score": 0.5511260032653809
+            },
+            {
+              "words": [
+                "INTERPERSONAL",
+                "GREGARIOUS",
+                "AFFECTIONATE",
+                "RAPPORT"
+              ],
+              "score": 0.5418797135353088
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIANSHIP",
+                "MUSICIAN"
+              ],
+              "score": 0.585886538028717
+            },
+            {
+              "words": [
+                "LOBLOLLY",
+                "SLINKY",
+                "SPLENOMEGALY",
+                "SLIVERY"
+              ],
+              "score": 0.5706124901771545
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "BARGE",
+                "CANAL",
+                "RIVER"
+              ],
+              "score": 0.5511260032653809
+            },
+            {
+              "words": [
+                "INTERPERSONAL",
+                "GREGARIOUS",
+                "AFFECTIONATE",
+                "RAPPORT"
+              ],
+              "score": 0.5418797135353088
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5623762607574463,
+      "created_at": "2026-04-20T07:22:48.639057+00:00",
+      "accepted": true
+    }
+  }
+]

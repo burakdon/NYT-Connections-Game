@@ -342,14 +342,15 @@ Group-generation rules:
 - Each candidate is exactly one answer group, not a full puzzle.
 - Each group must have exactly four playable answer words.
 - All four words must satisfy the same clean rule.
-- Use a mix of semantic sets, shared properties, sound, spelling, hidden-letter, transformation, phrase, and double-identity mechanisms.
+- Use a mix of semantic sets, shared properties, sound, strict spelling patterns, transformation, phrase, and double-identity mechanisms.
+- Do not generate hidden-substring groups where answers hide or contain another target word/name inside them.
 - Concept inspiration is not a menu. Do not output the sampled concept, a near-rename, or its concept_key.
 - When using inspiration, transform the underlying pattern: make a sibling idea, contrast idea, narrower/broader variant, or mechanism shift.
 - Do not output broad stale sets like planets, flowers, dog breeds, card suits, or chess pieces unless the theme strongly requires it.
 - Do not repeat any existing concept_key or exact category label from the verified groups above.
 - Avoid anagrams unless all displayed words are common playable words and the mapping is exact.
 - For homophones, display the soundalike answer word, not the target item. Example: use NEW for gnu, not GNU.
-- For hidden-letter groups, every explanation claim must be literally true.
+- For spelling groups, prefer objective patterns such as silent letters, palindromes, Roman-numeral letters, vowel patterns, or exact transformations.
 - Do not include scratch notes, alternatives, corrections, or rejected mappings.
 - If you notice a bad word while drafting, replace it in the words array before returning.
 
@@ -403,7 +404,7 @@ Existing verified groups to avoid:
 Audit rules:
 - Approve only groups where all four words cleanly satisfy the same rule.
 - Reject if one word only fits technically, awkwardly, by a different grammar pattern, or through a false claim.
-- Reject fake/non-common anagram words, backwards homophone displays, and hidden-letter claims that are not literal.
+- Reject fake/non-common anagram words, backwards homophone displays, and hidden-substring groups.
 - Reject exact repeated concepts, renamed repeats, and groups that overlap heavily with existing verified groups.
 - Reject broad stale groups unless they are unusually useful for yellow/easy.
 - Score 8 or higher only if the group can be saved without another LLM pass.

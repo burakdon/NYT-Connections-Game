@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "CONSONANTAL",
+      "HYPHEN",
+      "ESTUARY",
+      "AFFABLY",
+      "SWAMP",
+      "POND",
+      "MUSICALLY",
+      "LAGOON",
+      "EARNESTLY",
+      "SUFFIX",
+      "ARTS",
+      "GENTLEMANLY",
+      "MUSICIANSHIP",
+      "VOWEL",
+      "MUSICIAN",
+      "DEMEANOR"
+    ],
+    "groups": [
+      {
+        "category": "MUSIC GENRES",
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.5858866572380066
+      },
+      {
+        "category": "THINGS FOUND IN A CANAL",
+        "words": [
+          "ESTUARY",
+          "SWAMP",
+          "LAGOON",
+          "POND"
+        ],
+        "color": "green",
+        "similarity_score": 0.5634315609931946
+      },
+      {
+        "category": "ADVERBS OF MANNER",
+        "words": [
+          "DEMEANOR",
+          "AFFABLY",
+          "EARNESTLY",
+          "GENTLEMANLY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5495476126670837
+      },
+      {
+        "category": "WORDS ENDING IN -LY",
+        "words": [
+          "HYPHEN",
+          "CONSONANTAL",
+          "VOWEL",
+          "SUFFIX"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4936542809009552
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIANSHIP",
+                "MUSICIAN"
+              ],
+              "score": 0.585886538028717
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "SWAMP",
+                "POND",
+                "LAGOON"
+              ],
+              "score": 0.563431441783905
+            },
+            {
+              "words": [
+                "AFFABLY",
+                "EARNESTLY",
+                "GENTLEMANLY",
+                "DEMEANOR"
+              ],
+              "score": 0.5495474934577942
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "HYPHEN",
+                "SUFFIX",
+                "VOWEL"
+              ],
+              "score": 0.49365437030792236
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIANSHIP",
+                "MUSICIAN"
+              ],
+              "score": 0.585886538028717
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "HYPHEN",
+                "SUFFIX",
+                "VOWEL"
+              ],
+              "score": 0.49365437030792236
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "SWAMP",
+                "POND",
+                "LAGOON"
+              ],
+              "score": 0.563431441783905
+            },
+            {
+              "words": [
+                "AFFABLY",
+                "EARNESTLY",
+                "GENTLEMANLY",
+                "DEMEANOR"
+              ],
+              "score": 0.5495474934577942
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5481300354003906,
+      "created_at": "2026-04-20T14:37:44.920716+00:00",
+      "accepted": true
+    }
+  }
+]

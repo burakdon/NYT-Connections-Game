@@ -49,16 +49,35 @@ class MasterGenerator:
         weights = [self.weights[n] for n in names]
         return random.choices(names, weights=weights, k=1)[0]
 
+    def _attempt_cap(self, name: str) -> int:
+        cap = getattr(self.adapters[name], 'max_master_attempts', None)
+        if isinstance(cap, int) and cap > 0:
+            return cap
+        return MAX_TOTAL_ATTEMPTS
+
     def generate_one(self, verbose: bool = True) -> Optional[dict]:
         attempts = 0
         tried    = {}
 
         while attempts < MAX_TOTAL_ATTEMPTS:
+            eligible = [
+                name for name in self.weights
+                if tried.get(name, 0) < self._attempt_cap(name)
+            ]
+            if not eligible:
+                print(f'  Gave up after {attempts} attempts.')
+                return None
+
             attempts += 1
-            name          = self._pick_pipeline()
+            if len(eligible) == len(self.weights):
+                name = self._pick_pipeline()
+            else:
+                names   = eligible
+                weights = [self.weights[n] for n in names]
+                name    = random.choices(names, weights=weights, k=1)[0]
             tried[name]   = tried.get(name, 0) + 1
             if tried[name] > MAX_RETRIES_PER_PIPELINE:
-                name = min(self.adapters, key=lambda n: tried.get(n, 0))
+                name = min(eligible, key=lambda n: tried.get(n, 0))
 
             if verbose:
                 print(f'  Attempt {attempts}: [{name}]...', end=' ', flush=True)

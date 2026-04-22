@@ -1,6 +1,158 @@
 {
   "groups": [
     {
+      "id": "38c900285b1b",
+      "category": "___ BALL",
+      "difficulty": "easy",
+      "words": [
+        "FIRE",
+        "BASKET",
+        "CANNON",
+        "SNOW"
+      ],
+      "explanation": "Each word precedes BALL to form a compound word: FIREBALL, BASKETBALL, CANNONBALL, SNOWBALL.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_ball",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "d867849f59de",
+      "category": "___ STOP",
+      "difficulty": "easy",
+      "words": [
+        "NON",
+        "FULL",
+        "PIT",
+        "BUS"
+      ],
+      "explanation": "Each word precedes STOP to form a common compound word or phrase: NONSTOP, FULL STOP, PIT STOP, BUS STOP.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_stop",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "28c006a2949f",
+      "category": "Add D to the End to Make a New Word",
+      "difficulty": "easy",
+      "words": [
+        "GRAN",
+        "BAN",
+        "WAN",
+        "FEN"
+      ],
+      "explanation": "Adding D to the end of each word makes a new common word: GRAND, BAND, WAND, FEND.",
+      "mechanism_family": "transformation",
+      "concept_key": "transformation_add_d_end",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "652ed70dab32",
+      "category": "Add E to the End to Make a New Word",
+      "difficulty": "easy",
+      "words": [
+        "PLAN",
+        "SHIN",
+        "GRIM",
+        "TWIN"
+      ],
+      "explanation": "Adding E to the end of each word makes a new word: PLANE, SHINE, GRIME, TWINE.",
+      "mechanism_family": "transformation",
+      "concept_key": "transformation_add_e_end",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "c49857ad725f",
+      "category": "Add H to the Front to Make a New Word",
+      "difficulty": "easy",
+      "words": [
+        "OURS",
+        "ARDER",
+        "EDGE",
+        "ITCH"
+      ],
+      "explanation": "Adding H to the front of each word makes HOURS, HARDER, HEDGE, and HITCH.",
+      "mechanism_family": "transformation",
+      "concept_key": "transformation_add_h_front",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "329b82a3ff2d",
+      "category": "Add R to the End to Make a New Word",
+      "difficulty": "easy",
+      "words": [
+        "CHAI",
+        "OFFE",
+        "TOWE",
+        "WATE"
+      ],
+      "explanation": "Adding R to the end of each word spells CHAIR, OFFER, TOWER, and WATER.",
+      "mechanism_family": "transformation",
+      "concept_key": "transformation_add_r_end",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "02e06695b81b",
+      "category": "Add S to the Front to Make a New Word",
+      "difficulty": "easy",
+      "words": [
+        "LICK",
+        "TRAIN",
+        "PACE",
+        "CARE"
+      ],
+      "explanation": "Adding S to the front of each word makes SLICK, STRAIN, SPACE, and SCARE.",
+      "mechanism_family": "transformation",
+      "concept_key": "transformation_add_s_front",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "1318eab6fd0e",
+      "category": "Add T to the End to Make a New Word",
+      "difficulty": "easy",
+      "words": [
+        "HEAR",
+        "EXAC",
+        "FORES",
+        "DIREC"
+      ],
+      "explanation": "Adding T to the end of each word spells HEART, EXACT, FOREST, and DIRECT.",
+      "mechanism_family": "transformation",
+      "concept_key": "transformation_add_t_end",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "d1f32ed9bdfb",
       "category": "Adverbs that soften statements",
       "difficulty": "easy",
@@ -343,6 +495,25 @@
       "verified": true
     },
     {
+      "id": "bff84d1b8155",
+      "category": "Grand Slam tennis tournaments",
+      "difficulty": "easy",
+      "words": [
+        "WIMBLEDON",
+        "FLUSHING",
+        "ROLAND",
+        "MELBOURNE"
+      ],
+      "explanation": "Each word is part of a Grand Slam tournament venue: Wimbledon, Flushing Meadows (US Open), Roland Garros (French Open), and Melbourne Park (Australian Open).",
+      "mechanism_family": "semantic_set",
+      "concept_key": "tennis_grand_slams",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "cdb15767d57b",
       "category": "Kitchen utensils",
       "difficulty": "easy",
@@ -628,6 +799,25 @@
       "verified": true
     },
     {
+      "id": "90afb855ae08",
+      "category": "RAIN ___",
+      "difficulty": "easy",
+      "words": [
+        "BOW",
+        "DROP",
+        "COAT",
+        "FOREST"
+      ],
+      "explanation": "Each word follows RAIN to form a common compound word or phrase: RAINBOW, RAINDROP, RAINCOAT, RAINFOREST.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_rain",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "2be8cc4754d3",
       "category": "Rodents",
       "difficulty": "easy",
@@ -742,6 +932,25 @@
       "verified": true
     },
     {
+      "id": "0ab163d16ead",
+      "category": "Things a bird can do",
+      "difficulty": "easy",
+      "words": [
+        "SOAR",
+        "PERCH",
+        "NEST",
+        "MIGRATE"
+      ],
+      "explanation": "All four are actions naturally associated with birds.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "bird_actions",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "1b13593fcc17",
       "category": "Things in a deck",
       "difficulty": "easy",
@@ -795,6 +1004,25 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "69f1eff5-af23-4c19-b0e2-d28b7bcdd735"
+      },
+      "verified": true
+    },
+    {
+      "id": "a04a86045b88",
+      "category": "Things You Can Carve",
+      "difficulty": "easy",
+      "words": [
+        "PUMPKIN",
+        "TURKEY",
+        "WOOD",
+        "ICE"
+      ],
+      "explanation": "You can carve a pumpkin, a turkey, wood, and ice \u2014 each is a natural object shaped by cutting.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_you_can_carve",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -887,6 +1115,25 @@
       "explanation": "All four are flexible strands or strips that can literally be tied into a knot.",
       "mechanism_family": "semantic_set",
       "concept_key": "things_you_can_knot",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "c331194f6700",
+      "category": "Things You Can Shuffle",
+      "difficulty": "easy",
+      "words": [
+        "CARDS",
+        "FEET",
+        "PAPERS",
+        "PLAYLIST"
+      ],
+      "explanation": "You can shuffle cards, feet, papers, and a playlist \u2014 all common uses of the word 'shuffle'.",
+      "mechanism_family": "shared_property",
+      "concept_key": "things_you_can_shuffle",
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"
@@ -1236,6 +1483,82 @@
       "verified": true
     },
     {
+      "id": "aae618a7d55c",
+      "category": "Also a fencing sword",
+      "difficulty": "hard",
+      "words": [
+        "FOIL",
+        "EPEE",
+        "SABRE",
+        "BLADE"
+      ],
+      "explanation": "Each word is also the name of a fencing weapon or blade type used in the sport of fencing.",
+      "mechanism_family": "double_identity",
+      "concept_key": "fencing_sword_names",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "7a18db616a54",
+      "category": "Also a Punctuation Mark",
+      "difficulty": "hard",
+      "words": [
+        "DASH",
+        "PERIOD",
+        "COLON",
+        "BRACKET"
+      ],
+      "explanation": "Each word is a common English word that is also the name of a punctuation mark.",
+      "mechanism_family": "double_identity",
+      "concept_key": "words_also_punctuation_marks",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "513bead64453",
+      "category": "Also a Type of Government Bond",
+      "difficulty": "hard",
+      "words": [
+        "GILT",
+        "TREASURY",
+        "MUNICIPAL",
+        "BEARER"
+      ],
+      "explanation": "GILT, TREASURY, MUNICIPAL, and BEARER are all recognized categories of government-issued bonds.",
+      "mechanism_family": "double_identity",
+      "concept_key": "government_bond_types",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "fdab7e4eb338",
+      "category": "Also an archangel",
+      "difficulty": "hard",
+      "words": [
+        "MICHAEL",
+        "GABRIEL",
+        "RAPHAEL",
+        "URIEL"
+      ],
+      "explanation": "Each name belongs to a recognized archangel in religious tradition.",
+      "mechanism_family": "double_identity",
+      "concept_key": "archangel_names",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "7b9bd3b728da",
       "category": "Bag Terms",
       "difficulty": "hard",
@@ -1327,6 +1650,44 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0"
+      },
+      "verified": true
+    },
+    {
+      "id": "ea3b96ca14d0",
+      "category": "Common words that are also knitting stitches",
+      "difficulty": "hard",
+      "words": [
+        "CABLE",
+        "SEED",
+        "MOSS",
+        "RIB"
+      ],
+      "explanation": "CABLE, SEED, MOSS, and RIB are all everyday English words that are also named knitting stitch patterns.",
+      "mechanism_family": "double_identity",
+      "concept_key": "knitting_stitches",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "5da5886af20d",
+      "category": "Common Words That Are Also Logical Operators",
+      "difficulty": "hard",
+      "words": [
+        "AND",
+        "OR",
+        "NOT",
+        "NOR"
+      ],
+      "explanation": "AND, OR, NOT, and NOR are everyday English words that are also the core Boolean logical operators in computing and formal logic.",
+      "mechanism_family": "double_identity",
+      "concept_key": "logical_operators",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -1939,25 +2300,6 @@
       "verified": true
     },
     {
-      "id": "6af6e1f0ab82",
-      "category": "Words hiding a big cat",
-      "difficulty": "hard",
-      "words": [
-        "BILLION",
-        "TIGERISH",
-        "JAGUARS",
-        "LEOPARDS"
-      ],
-      "explanation": "Each word contains a big cat hidden inside: BILLION\u2192LION, TIGERISH\u2192TIGER, JAGUARS\u2192JAGUAR, LEOPARDS\u2192LEOPARD.",
-      "mechanism_family": "spelling",
-      "concept_key": "words_hiding_big_cat",
-      "source": "claude-group-agent",
-      "origin": {
-        "source": "claude-group-agent"
-      },
-      "verified": true
-    },
-    {
       "id": "096ccf9f7110",
       "category": "Words that become a new word when reversed",
       "difficulty": "hard",
@@ -1973,6 +2315,25 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "0a46cf8d5c24"
+      },
+      "verified": true
+    },
+    {
+      "id": "15e1a97c53cd",
+      "category": "Words that become a new word when you add 'S' to the front",
+      "difficulty": "hard",
+      "words": [
+        "TRAIN",
+        "LAUGHTER",
+        "WORD",
+        "CRAM"
+      ],
+      "explanation": "Adding S to the front of each gives STRAIN, SLAUGHTER, SWORD, and SCRAM \u2014 all common words.",
+      "mechanism_family": "transformation",
+      "concept_key": "add_s_prefix_new_word",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -2091,6 +2452,44 @@
       "verified": true
     },
     {
+      "id": "19d8d6266694",
+      "category": "Words Whose Letters Are All in the First Half of the Alphabet (A\u2013M)",
+      "difficulty": "hard",
+      "words": [
+        "CLAIM",
+        "FLAME",
+        "MAGIC",
+        "LLAMA"
+      ],
+      "explanation": "Every letter in CLAIM, FLAME, MAGIC, and LLAMA falls within A through M, the first half of the alphabet.",
+      "mechanism_family": "spelling",
+      "concept_key": "letters_first_half_alphabet",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "6138a79526f4",
+      "category": "___ MARKET",
+      "difficulty": "medium",
+      "words": [
+        "STOCK",
+        "FLEA",
+        "SUPER",
+        "BLACK"
+      ],
+      "explanation": "Each word precedes MARKET to form a common compound: STOCK MARKET, FLEA MARKET, SUPERMARKET, BLACK MARKET.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_before_market",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "93d538aa86e8",
       "category": "All contain \"GHT\"",
       "difficulty": "medium",
@@ -2201,6 +2600,82 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "5f8dbf9a-8730-4f3b-b46b-046fe9e7bb7d"
+      },
+      "verified": true
+    },
+    {
+      "id": "41b0e804b969",
+      "category": "Also a Navigational Tool",
+      "difficulty": "medium",
+      "words": [
+        "COMPASS",
+        "CHART",
+        "BEARING",
+        "PILOT"
+      ],
+      "explanation": "COMPASS, CHART, BEARING, and PILOT are all everyday English words that are also standard navigational tools or terms used in sailing and aviation.",
+      "mechanism_family": "double_identity",
+      "concept_key": "double_identity_navigation_tools",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "147778addf65",
+      "category": "Also a Roman Emperor",
+      "difficulty": "medium",
+      "words": [
+        "NERO",
+        "TITUS",
+        "HADRIAN",
+        "MARCUS"
+      ],
+      "explanation": "Each word is also the name of a Roman emperor: Nero, Titus, Hadrian, and Marcus (Aurelius).",
+      "mechanism_family": "double_identity",
+      "concept_key": "roman_emperor_names",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "58f30734d80e",
+      "category": "Also a Type of Chess Opening",
+      "difficulty": "medium",
+      "words": [
+        "SICILIAN",
+        "DRAGON",
+        "ENGLISH",
+        "FRENCH"
+      ],
+      "explanation": "Each word is also the name of a well-known chess opening: the Sicilian, Dragon, English, and French defenses.",
+      "mechanism_family": "double_identity",
+      "concept_key": "chess_openings",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "864dd733e636",
+      "category": "Also a Type of Jazz",
+      "difficulty": "medium",
+      "words": [
+        "BEBOP",
+        "FUSION",
+        "SWING",
+        "COOL"
+      ],
+      "explanation": "Each word is a common everyday word that is also a recognized subgenre of jazz music.",
+      "mechanism_family": "double_identity",
+      "concept_key": "jazz_subgenres",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -2372,25 +2847,6 @@
       "origin": {
         "source": "seed",
         "puzzle_id": "seed-009"
-      },
-      "verified": true
-    },
-    {
-      "id": "587ec4d8f5ac",
-      "category": "Each contains a hidden metal",
-      "difficulty": "medium",
-      "words": [
-        "SALTINE",
-        "LEADEN",
-        "GOLDEN",
-        "IRONY"
-      ],
-      "explanation": "Each word contains a metal: SALTINE\u2192TIN, LEADEN\u2192LEAD, GOLDEN\u2192GOLD, IRONY\u2192IRON.",
-      "mechanism_family": "spelling",
-      "concept_key": "hidden_metal_in_word",
-      "source": "claude-group-agent",
-      "origin": {
-        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -2600,6 +3056,25 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "79f999d0-eccc-4224-bb03-e5e20513d57a"
+      },
+      "verified": true
+    },
+    {
+      "id": "45aa2e466b00",
+      "category": "Remove the First Letter to Get a New Word",
+      "difficulty": "medium",
+      "words": [
+        "WHEAT",
+        "KNAVE",
+        "BRACE",
+        "STALE"
+      ],
+      "explanation": "Remove the first letter of each word to get a new common word: WHEAT\u2192HEAT, KNAVE\u2192NAVE, BRACE\u2192RACE, STALE\u2192TALE.",
+      "mechanism_family": "transformation",
+      "concept_key": "transformation_remove_first_letter",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -3094,6 +3569,44 @@
       "verified": true
     },
     {
+      "id": "22aaa82ff082",
+      "category": "Words That Are Also Fencing Moves... no \u2014 Words That Are Also Ballet Positions",
+      "difficulty": "medium",
+      "words": [
+        "ARABESQUE",
+        "PLIE",
+        "RELEVE",
+        "TENDU"
+      ],
+      "explanation": "Each word is a standard named position or movement in classical ballet.",
+      "mechanism_family": "double_identity",
+      "concept_key": "ballet_positions",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "24d10c0f46ff",
+      "category": "Words that are also fencing terms",
+      "difficulty": "medium",
+      "words": [
+        "PARRY",
+        "LUNGE",
+        "THRUST",
+        "RIPOSTE"
+      ],
+      "explanation": "PARRY, LUNGE, THRUST, and RIPOSTE are all common English words that are also specific moves in the sport of fencing.",
+      "mechanism_family": "double_identity",
+      "concept_key": "fencing_terms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "6ac6abf12bb8",
       "category": "Words that are also military ranks",
       "difficulty": "medium",
@@ -3125,6 +3638,44 @@
       "explanation": "Each common word is also a term used in tennis.",
       "mechanism_family": "double_identity",
       "concept_key": "double_identity_tennis_terms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "15b00e828cd1",
+      "category": "Words That Are Also Types of Malware",
+      "difficulty": "medium",
+      "words": [
+        "WORM",
+        "TROJAN",
+        "VIRUS",
+        "SPYWARE"
+      ],
+      "explanation": "Each word is a common English word that is also a recognized category of computer malware.",
+      "mechanism_family": "double_identity",
+      "concept_key": "malware_types",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "7fd2f38a4a53",
+      "category": "Words that can follow BLUE",
+      "difficulty": "medium",
+      "words": [
+        "PRINT",
+        "BELL",
+        "BERRY",
+        "BIRD"
+      ],
+      "explanation": "BLUEPRINT, BLUEBELL, BLUEBERRY, and BLUEBIRD are all common compound words formed by adding BLUE before each answer.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_blue",
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"
@@ -3322,21 +3873,40 @@
       "verified": true
     },
     {
-      "id": "53d31d02e032",
-      "category": "Words with a silent B",
+      "id": "23b942414eba",
+      "category": "Words that sound like a letter of the alphabet",
       "difficulty": "medium",
       "words": [
-        "LAMB",
-        "COMB",
-        "THUMB",
-        "DOUBT"
+        "AYE",
+        "JAY",
+        "CUE",
+        "TEE"
       ],
-      "explanation": "Each word contains a B that is never pronounced: lam, cohm, thum, dowt.",
-      "mechanism_family": "spelling",
-      "concept_key": "silent_letter_b",
+      "explanation": "AYE sounds like the letter I, JAY sounds like J, CUE sounds like Q, and TEE sounds like T.",
+      "mechanism_family": "sound",
+      "concept_key": "homophones_of_alphabet_letters",
+      "source": "claude-group-agent",
       "origin": {
-        "source": "sync-from-master",
-        "puzzle_id": "6f2f427cf36a"
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "8b6a7dce0910",
+      "category": "Woven Textiles / Fabric Types",
+      "difficulty": "medium",
+      "words": [
+        "TWEED",
+        "MUSLIN",
+        "DAMASK",
+        "VELVET"
+      ],
+      "explanation": "TWEED, MUSLIN, DAMASK, and VELVET are all distinct woven or textile fabric types.",
+      "mechanism_family": "semantic_set",
+      "concept_key": "woven_fabric_types",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -3816,6 +4386,25 @@
       "verified": true
     },
     {
+      "id": "4a678e3d8a5f",
+      "category": "Common Words That Are Also Keyboard Modifier Keys",
+      "difficulty": "tricky",
+      "words": [
+        "SHIFT",
+        "CONTROL",
+        "ALT",
+        "ESCAPE"
+      ],
+      "explanation": "Each word is a common English word that is also a modifier key found on a standard keyboard.",
+      "mechanism_family": "double_identity",
+      "concept_key": "keyboard_modifier_keys",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "3425c1c1b6dc",
       "category": "Common words that are also programming languages",
       "difficulty": "tricky",
@@ -3831,6 +4420,25 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "ed8cc9df6b82"
+      },
+      "verified": true
+    },
+    {
+      "id": "62a202df8915",
+      "category": "Common words that are also statistical terms",
+      "difficulty": "tricky",
+      "words": [
+        "MEAN",
+        "RANGE",
+        "MODE",
+        "SKEW"
+      ],
+      "explanation": "MEAN, RANGE, MODE, and SKEW are all everyday English words that are also core terms in descriptive statistics.",
+      "mechanism_family": "double_identity",
+      "concept_key": "double_identity_statistics_terms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -4253,97 +4861,21 @@
       "verified": true
     },
     {
-      "id": "2fc223078b33",
-      "category": "Words containing a hidden tree",
+      "id": "017e1b11a045",
+      "category": "Words spelled using only Roman numerals",
       "difficulty": "tricky",
       "words": [
-        "SPINELESS",
-        "ELMER",
-        "CASHEW",
-        "BIRCHES"
+        "LIVID",
+        "CIVIL",
+        "MIMIC",
+        "VIVID"
       ],
-      "explanation": "Each word hides a tree: PINE, ELM, ASH, BIRCH.",
+      "explanation": "Each word is spelled using only the letters that serve as Roman numerals (I, V, X, L, C, D, M): LIVID, CIVIL, MIMIC, and VIVID use only L, I, V, C, M, D.",
       "mechanism_family": "spelling",
-      "concept_key": "spelling_hidden_trees",
+      "concept_key": "words_spelled_with_roman_numeral_letters",
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"
-      },
-      "verified": true
-    },
-    {
-      "id": "9bb407c08d9d",
-      "category": "Words containing celestial bodies",
-      "difficulty": "tricky",
-      "words": [
-        "MARSH",
-        "HEARTH",
-        "SUNBURN",
-        "MOONLIGHT"
-      ],
-      "explanation": "MARSH contains MARS, HEARTH contains EARTH, SUNBURN contains SUN, and MOONLIGHT contains MOON.",
-      "mechanism_family": "spelling",
-      "concept_key": "words_containing_celestial_bodies",
-      "origin": {
-        "source": "sync-from-master",
-        "puzzle_id": "e2f379eed0aa"
-      },
-      "verified": true
-    },
-    {
-      "id": "623bc983e9fe",
-      "category": "Words hiding a body of water",
-      "difficulty": "tricky",
-      "words": [
-        "FLAKE",
-        "SEASON",
-        "CARPOOL",
-        "SWAMPED"
-      ],
-      "explanation": "Each conceals a body of water: LAKE in fLAKE, SEA in SEAson, POOL in carPOOL, SWAMP in SWAMPed.",
-      "mechanism_family": "semantic_set",
-      "concept_key": "semantic_set_words_hiding_a_body_of_water",
-      "origin": {
-        "source": "sync-from-master",
-        "puzzle_id": "8c93e28d426d"
-      },
-      "verified": true
-    },
-    {
-      "id": "dfe4dc60cffb",
-      "category": "Words hiding a day of the week",
-      "difficulty": "tricky",
-      "words": [
-        "SUNDAE",
-        "SATIRE",
-        "WEDNESDAY",
-        "MONUMENT"
-      ],
-      "explanation": "SUN in SUNDAE, SAT in SATIRE, WED in WEDNESDAY, and MON in MONUMENT.",
-      "mechanism_family": "semantic_set",
-      "concept_key": "semantic_set_words_hiding_a_day_of_the_week",
-      "origin": {
-        "source": "sync-from-master",
-        "puzzle_id": "e0e7d41f6d01"
-      },
-      "verified": true
-    },
-    {
-      "id": "cdd24392f658",
-      "category": "Words hiding a number inside",
-      "difficulty": "tricky",
-      "words": [
-        "FREIGHT",
-        "CANTEEN",
-        "OFTEN",
-        "STONE"
-      ],
-      "explanation": "Each word contains a hidden spelled-out number: frEIGHT (eight), canTEEN (teen), ofTEN (ten), sTONE (one).",
-      "mechanism_family": "spelling",
-      "concept_key": "spelling_words_hiding_a_number_inside",
-      "origin": {
-        "source": "sync-from-master",
-        "puzzle_id": "bca77f82c52b"
       },
       "verified": true
     },

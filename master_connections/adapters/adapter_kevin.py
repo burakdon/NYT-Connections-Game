@@ -34,6 +34,8 @@ class KevinAdapter(PuzzleAdapter):
         self.mode         = mode
         self.api_key      = api_key or os.environ.get('OPENAI_API_KEY', '')
         self.name         = f'kevin_{mode}'
+        if self.mode == 'fresh':
+            self.max_master_attempts = 2
 
         # Kevin's output directory for this mode
         self.output_dir = os.path.join(

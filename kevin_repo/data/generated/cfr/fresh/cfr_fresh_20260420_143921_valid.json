@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "PLUMBING",
+      "CANAL",
+      "LOBLOLLY",
+      "MANNERS",
+      "SHAPELY",
+      "SLINKY",
+      "MUSICALLY",
+      "SLIVERY",
+      "POLITE",
+      "SWAMP",
+      "INSTRUMENTALIST",
+      "ETIQUETTE",
+      "MUSICIAN",
+      "DRAINAGE",
+      "ORCHESTRAL",
+      "HANDSHAKING"
+    ],
+    "groups": [
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6291800141334534
+      },
+      {
+        "category": "WORDS ENDING IN 'LY'",
+        "words": [
+          "LOBLOLLY",
+          "SHAPELY",
+          "SLIVERY",
+          "SLINKY"
+        ],
+        "color": "green",
+        "similarity_score": 0.5718329548835754
+      },
+      {
+        "category": "SOCIALLY ACCEPTABLE GREETINGS",
+        "words": [
+          "HANDSHAKING",
+          "MANNERS",
+          "POLITE",
+          "ETIQUETTE"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5501755475997925
+      },
+      {
+        "category": "THINGS ASSOCIATED WITH CANALS",
+        "words": [
+          "CANAL",
+          "PLUMBING",
+          "DRAINAGE",
+          "SWAMP"
+        ],
+        "color": "purple",
+        "similarity_score": 0.48481035232543945
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL"
+              ],
+              "score": 0.6291798949241638
+            },
+            {
+              "words": [
+                "LOBLOLLY",
+                "SHAPELY",
+                "SLINKY",
+                "SLIVERY"
+              ],
+              "score": 0.5718329548835754
+            },
+            {
+              "words": [
+                "MANNERS",
+                "POLITE",
+                "ETIQUETTE",
+                "HANDSHAKING"
+              ],
+              "score": 0.5501756072044373
+            },
+            {
+              "words": [
+                "PLUMBING",
+                "CANAL",
+                "SWAMP",
+                "DRAINAGE"
+              ],
+              "score": 0.4848102033138275
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL"
+              ],
+              "score": 0.6291798949241638
+            },
+            {
+              "words": [
+                "PLUMBING",
+                "CANAL",
+                "SWAMP",
+                "DRAINAGE"
+              ],
+              "score": 0.4848102033138275
+            },
+            {
+              "words": [
+                "LOBLOLLY",
+                "SHAPELY",
+                "SLINKY",
+                "SLIVERY"
+              ],
+              "score": 0.5718329548835754
+            },
+            {
+              "words": [
+                "MANNERS",
+                "POLITE",
+                "ETIQUETTE",
+                "HANDSHAKING"
+              ],
+              "score": 0.5501756072044373
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5589997172355652,
+      "created_at": "2026-04-20T14:39:19.569968+00:00",
+      "accepted": true
+    }
+  }
+]

@@ -79,10 +79,11 @@ Quality bar:
 - Use at most one simple compound/phrase category per puzzle.
 - Purple may be a simple compound category such as "___ X", "X ___", "Words before X", or "Words after X" only sometimes; do not treat it as the default hardest mechanism.
 - Across a generated bank, aim for no more than about one purple compound/phrase puzzle in four.
-- Purple should rotate among fair hidden mechanisms: sound, spelling, hidden letters, word endings, double meanings, second identities, or non-obvious shared properties.
-- Good purple examples include common words that are also programming languages, keyboard keys that are also common words, things that can be rolled, or words that share a hidden spelling/sound pattern.
+- Purple should rotate among fair mechanisms: sound, strict spelling patterns, word endings, double meanings, second identities, transformations, or non-obvious shared properties.
+- Good purple examples include common words that are also programming languages, keyboard keys that are also common words, things that can be rolled, silent-letter words, or words that share an exact spelling/sound pattern.
 - Use at most one same-frame "Things you can X" / "Things that can be X" shared-property category per puzzle. Two of these in one board feel repetitive even when the verbs differ.
-- Purple must not be only a plain synonym or definition group, such as "Verbs meaning to look carefully". Put ordinary synonym sets in yellow/green, or give purple a real extra mechanism such as spelling, sound, transformation, hidden letters, or second identity.
+- Purple must not be only a plain synonym or definition group, such as "Verbs meaning to look carefully". Put ordinary synonym sets in yellow/green, or give purple a real extra mechanism such as spelling, sound, transformation, or second identity.
+- Do not use hidden-substring groups where answer words hide or contain another target word/name inside them.
 - Avoid vague hard categories that are just obscure trivia, random lists, or common object groups.
 - Do not use color-shade categories as purple. Use color shades sparingly, and only if they make the whole puzzle better.
 - Blue and purple should have a real aha, not just "common objects found in one place."
@@ -644,7 +645,7 @@ Board assembly rules:
 - Use the thought's existing words unless a small repair is necessary.
 - If you repair a thought, repair the metadata and explanation too.
 - Do not include any category thought whose risk note suggests real ambiguity.
-- Before returning, test every word against every objective wordplay group in the board. Remove boards where an off-category word also fits a phrase, reversal, spelling, sound, or hidden-letter rule.
+- Before returning, test every word against every objective wordplay group in the board. Remove boards where an off-category word also fits a phrase, reversal, spelling, transformation, or sound rule.
 - Easy mode: no decoy field, or "decoy": null.
 - Hard mode: keep the true groups clean; Misdirection Agent may add one fair decoy later.
 
@@ -1023,7 +1024,7 @@ Reject or flag puzzles when:
 - Group order does not climb yellow, green, blue, purple by difficulty.
 - Green feels just as obvious as yellow.
 - Purple is easier than blue.
-- Purple is only a plain synonym or definition group without an extra wordplay/hidden mechanism.
+- Purple is only a plain synonym or definition group without an extra wordplay mechanism.
 - Purple is another routine compound/phrase category when the puzzle bank already leans on that mechanism.
 - Blue or purple is only a broad everyday object list.
 - Any group is missing "mechanism_family" or "concept_key" metadata.
@@ -1031,7 +1032,7 @@ Reject or flag puzzles when:
 - Two category labels in one puzzle are thematically too similar.
 - Two groups use the same "Things you can X" / "Things that can be X" shared-property frame.
 - A shared-property group has one weak member that only fits by technicality, uncommon phrasing, or a different grammar pattern.
-- Multiple board words, or a complete false group, satisfy another group's objective wordplay rule, such as phrase completion, reversal, spelling, hidden letters, or sound.
+- Multiple board words, or a complete false group, satisfy another group's objective wordplay rule, such as phrase completion, reversal, spelling, transformation, or sound.
 - Solver issues show a fully valid alternate answer, solver confidence below 0.5, or confusion severe enough that the intended four groups are not recoverable.
 - A single minor cross-fit can be a warning if the intended groups remain clear and the puzzle is still fair.
 - The puzzle feels bland because most categories are obvious lists from common places.

@@ -18,6 +18,7 @@ from agents.puzzle_validator import (
     WORD_PATTERN,
     generated_constraint_errors,
     hidden_claim_errors,
+    hidden_substring_mechanism_errors,
     homophone_claim_errors,
     is_phrase_group,
     normalize_category,
@@ -136,8 +137,11 @@ def validate_group(group: dict[str, Any]) -> dict[str, list[str] | bool]:
             errors.append(
                 f"Group '{category or group.get('id', 'unknown')}' explanation contains draft text."
             )
+        errors.extend(hidden_substring_mechanism_errors(group))
         errors.extend(hidden_claim_errors(group))
         errors.extend(homophone_claim_errors(group))
+    else:
+        errors.extend(hidden_substring_mechanism_errors(group))
 
     for metadata_field in ("mechanism_family", "concept_key"):
         if not normalize_metadata_key(group.get(metadata_field, "")):
@@ -339,9 +343,19 @@ def candidate_pool(groups: list[dict[str, Any]], lane: str) -> list[dict[str, An
     else:
         difficulties = {"tricky", "hard"}
 
-    pool = [group for group in groups if group.get("difficulty") in difficulties]
+    pool = [
+        group
+        for group in groups
+        if group.get("difficulty") in difficulties
+        and not hidden_substring_mechanism_errors(group)
+    ]
     if lane == "hard" and not any(group.get("difficulty") == "hard" for group in pool):
-        return [group for group in groups if group.get("difficulty") in {"medium", "tricky"}]
+        return [
+            group
+            for group in groups
+            if group.get("difficulty") in {"medium", "tricky"}
+            and not hidden_substring_mechanism_errors(group)
+        ]
     return pool
 
 

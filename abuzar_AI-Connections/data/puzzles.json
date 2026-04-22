@@ -2904,5 +2904,536 @@
     "source": "group-bank-assembler",
     "difficulty_mode": "easy",
     "id": "gb-ca1d63853faf"
+  },
+  {
+    "groups": [
+      {
+        "category": "RAIN ___",
+        "difficulty": "easy",
+        "words": [
+          "BOW",
+          "DROP",
+          "COAT",
+          "FOREST"
+        ],
+        "explanation": "Each word follows RAIN to form a common compound word or phrase: RAINBOW, RAINDROP, RAINCOAT, RAINFOREST.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_after_rain"
+      },
+      {
+        "category": "___ MARKET",
+        "difficulty": "medium",
+        "words": [
+          "STOCK",
+          "FLEA",
+          "SUPER",
+          "BLACK"
+        ],
+        "explanation": "Each word precedes MARKET to form a common compound: STOCK MARKET, FLEA MARKET, SUPERMARKET, BLACK MARKET.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_before_market"
+      },
+      {
+        "category": "Also an archangel",
+        "difficulty": "hard",
+        "words": [
+          "MICHAEL",
+          "GABRIEL",
+          "RAPHAEL",
+          "URIEL"
+        ],
+        "explanation": "Each name belongs to a recognized archangel in religious tradition.",
+        "mechanism_family": "double_identity",
+        "concept_key": "archangel_names"
+      },
+      {
+        "category": "Each hides a type of stitch",
+        "difficulty": "tricky",
+        "words": [
+          "BACKGAMMON",
+          "SATINWOOD",
+          "BLANKETEER",
+          "CROSSWORD"
+        ],
+        "explanation": "BACKGAMMON hides BACK(stitch), SATINWOOD hides SATIN(stitch), BLANKETEER hides BLANKET(stitch), CROSSWORD hides CROSS(stitch).",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_stitch_types"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-c716ce3bfc52"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things a bird can do",
+        "difficulty": "easy",
+        "words": [
+          "SOAR",
+          "PERCH",
+          "NEST",
+          "MIGRATE"
+        ],
+        "explanation": "All four are actions naturally associated with birds.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "bird_actions"
+      },
+      {
+        "category": "Words that are also fencing terms",
+        "difficulty": "medium",
+        "words": [
+          "PARRY",
+          "LUNGE",
+          "THRUST",
+          "RIPOSTE"
+        ],
+        "explanation": "PARRY, LUNGE, THRUST, and RIPOSTE are all common English words that are also specific moves in the sport of fencing.",
+        "mechanism_family": "double_identity",
+        "concept_key": "fencing_terms"
+      },
+      {
+        "category": "Words that become a new word when you add 'S' to the front",
+        "difficulty": "hard",
+        "words": [
+          "TRAIN",
+          "LAUGHTER",
+          "WORD",
+          "CRAM"
+        ],
+        "explanation": "Adding S to the front of each gives STRAIN, SLAUGHTER, SWORD, and SCRAM \u2014 all common words.",
+        "mechanism_family": "transformation",
+        "concept_key": "add_s_prefix_new_word"
+      },
+      {
+        "category": "Words spelled using only Roman numerals",
+        "difficulty": "tricky",
+        "words": [
+          "LIVID",
+          "CIVIL",
+          "MIMIC",
+          "VIVID"
+        ],
+        "explanation": "Each word is spelled using only the letters that serve as Roman numerals (I, V, X, L, C, D, M): LIVID, CIVIL, MIMIC, and VIVID use only L, I, V, C, M, D.",
+        "mechanism_family": "spelling",
+        "concept_key": "words_spelled_with_roman_numeral_letters"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-e7251a1df97e"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things You Can Carve",
+        "difficulty": "easy",
+        "words": [
+          "PUMPKIN",
+          "TURKEY",
+          "WOOD",
+          "ICE"
+        ],
+        "explanation": "You can carve a pumpkin, a turkey, wood, and ice \u2014 each is a natural object shaped by cutting.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_you_can_carve"
+      },
+      {
+        "category": "Words that can follow BLUE",
+        "difficulty": "medium",
+        "words": [
+          "PRINT",
+          "BELL",
+          "BERRY",
+          "BIRD"
+        ],
+        "explanation": "BLUEPRINT, BLUEBELL, BLUEBERRY, and BLUEBIRD are all common compound words formed by adding BLUE before each answer.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_after_blue"
+      },
+      {
+        "category": "Also a fencing sword",
+        "difficulty": "hard",
+        "words": [
+          "FOIL",
+          "EPEE",
+          "SABRE",
+          "BLADE"
+        ],
+        "explanation": "Each word is also the name of a fencing weapon or blade type used in the sport of fencing.",
+        "mechanism_family": "double_identity",
+        "concept_key": "fencing_sword_names"
+      },
+      {
+        "category": "Each hides a unit of measurement",
+        "difficulty": "tricky",
+        "words": [
+          "MICRON",
+          "FOOTAGE",
+          "PINTAIL",
+          "YARDAGE"
+        ],
+        "explanation": "Each word contains a hidden unit of measurement: MICRON (micro), FOOTAGE (foot), PINTAIL (pint), YARDAGE (yard).",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_unit_of_measurement"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-1d7d15997838"
+  },
+  {
+    "groups": [
+      {
+        "category": "Parts of a River",
+        "difficulty": "easy",
+        "words": [
+          "BANK",
+          "MOUTH",
+          "SOURCE",
+          "DELTA"
+        ],
+        "explanation": "BANK, MOUTH, SOURCE, and DELTA are all standard named parts of a river taught in basic geography.",
+        "mechanism_family": "semantic",
+        "concept_key": "parts_of_a_river"
+      },
+      {
+        "category": "Things You Can Track in Real Time",
+        "difficulty": "medium",
+        "words": [
+          "PACKAGE",
+          "STORM",
+          "FLIGHT",
+          "SATELLITE"
+        ],
+        "explanation": "You can track a PACKAGE, a STORM, a FLIGHT, and a SATELLITE \u2014 all things commonly monitored in real time using live data.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_tracked_in_real_time"
+      },
+      {
+        "category": "Add B to the Front to Make a New Word",
+        "difficulty": "hard",
+        "words": [
+          "RIDGE",
+          "LACK",
+          "RANCH",
+          "LINK"
+        ],
+        "explanation": "Adding B to the front of each word makes a new common word: BRIDGE, BLACK, BRANCH, and BLINK.",
+        "mechanism_family": "transformation",
+        "concept_key": "add_letter_front_b"
+      },
+      {
+        "category": "Each Hides a Season",
+        "difficulty": "tricky",
+        "words": [
+          "FALCONER",
+          "WINTERING",
+          "SUMMATION",
+          "SPRINGBOARD"
+        ],
+        "explanation": "Each word contains a hidden season: FALL in FALCONER, WINTER in WINTERING, SUMMER in SUMMATION, and SPRING in SPRINGBOARD.",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_season"
+      }
+    ],
+    "source": "claude-multi-agent",
+    "difficulty_mode": "easy",
+    "id": "c6c449fa9b1a"
+  },
+  {
+    "groups": [
+      {
+        "category": "___ STOP",
+        "difficulty": "easy",
+        "words": [
+          "NON",
+          "FULL",
+          "PIT",
+          "BUS"
+        ],
+        "explanation": "Each word precedes STOP to form a common compound word or phrase: NONSTOP, FULL STOP, PIT STOP, BUS STOP.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_before_stop"
+      },
+      {
+        "category": "Words That Are Also Types of Malware",
+        "difficulty": "medium",
+        "words": [
+          "WORM",
+          "TROJAN",
+          "VIRUS",
+          "SPYWARE"
+        ],
+        "explanation": "Each word is a common English word that is also a recognized category of computer malware.",
+        "mechanism_family": "double_identity",
+        "concept_key": "malware_types"
+      },
+      {
+        "category": "Each Hides a Zodiac Sign",
+        "difficulty": "hard",
+        "words": [
+          "LIBRARY",
+          "SCOREBOARD",
+          "VIRGINIA",
+          "CANCELLATION"
+        ],
+        "explanation": "LIBRARY\u2192LIBRA, SCOREBOARD\u2192SCORPIO, VIRGINIA\u2192VIRGO, CANCELLATION\u2192CANCER",
+        "mechanism_family": "semantic_set",
+        "concept_key": "semantic_set_each_hides_a_zodiac_sign"
+      },
+      {
+        "category": "Each Hides a River",
+        "difficulty": "tricky",
+        "words": [
+          "PARANOIA",
+          "SENILE",
+          "AMAZON",
+          "CONIFER"
+        ],
+        "explanation": "Each word contains a hidden river name: PARANOIA (ARNO), SENILE (NILE), AMAZON (AMAZON), CONIFER (NIGER).",
+        "mechanism_family": "spelling",
+        "concept_key": "hidden_river_names"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-2c86f5ae7239"
+  },
+  {
+    "groups": [
+      {
+        "category": "Add D to the End to Make a New Word",
+        "difficulty": "easy",
+        "words": [
+          "GRAN",
+          "BAN",
+          "WAN",
+          "FEN"
+        ],
+        "explanation": "Adding D to the end of each word makes a new common word: GRAND, BAND, WAND, FEND.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_add_d_end"
+      },
+      {
+        "category": "Also a Type of Jazz",
+        "difficulty": "medium",
+        "words": [
+          "BEBOP",
+          "FUSION",
+          "SWING",
+          "COOL"
+        ],
+        "explanation": "Each word is a common everyday word that is also a recognized subgenre of jazz music.",
+        "mechanism_family": "double_identity",
+        "concept_key": "jazz_subgenres"
+      },
+      {
+        "category": "Zodiac signs",
+        "difficulty": "hard",
+        "words": [
+          "ARIES",
+          "LEO",
+          "LIBRA",
+          "PISCES"
+        ],
+        "explanation": "Four signs of the zodiac.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "semantic_set_zodiac_signs"
+      },
+      {
+        "category": "Words with silent first letters",
+        "difficulty": "tricky",
+        "words": [
+          "KNIFE",
+          "GNOME",
+          "WRIST",
+          "PSALM"
+        ],
+        "explanation": "The first written letter is not pronounced.",
+        "mechanism_family": "sound",
+        "concept_key": "sound_words_with_silent_first_letters"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-b55617011f02"
+  },
+  {
+    "groups": [
+      {
+        "category": "___ BALL",
+        "difficulty": "easy",
+        "words": [
+          "FIRE",
+          "BASKET",
+          "CANNON",
+          "SNOW"
+        ],
+        "explanation": "Each word precedes BALL to form a compound word: FIREBALL, BASKETBALL, CANNONBALL, SNOWBALL.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_before_ball"
+      },
+      {
+        "category": "Words That Are Also Fencing Moves... no \u2014 Words That Are Also Ballet Positions",
+        "difficulty": "medium",
+        "words": [
+          "ARABESQUE",
+          "PLIE",
+          "RELEVE",
+          "TENDU"
+        ],
+        "explanation": "Each word is a standard named position or movement in classical ballet.",
+        "mechanism_family": "double_identity",
+        "concept_key": "ballet_positions"
+      },
+      {
+        "category": "Zodiac signs",
+        "difficulty": "hard",
+        "words": [
+          "ARIES",
+          "LEO",
+          "LIBRA",
+          "PISCES"
+        ],
+        "explanation": "Four signs of the zodiac.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "semantic_set_zodiac_signs"
+      },
+      {
+        "category": "Words with silent first letters",
+        "difficulty": "tricky",
+        "words": [
+          "KNIFE",
+          "GNOME",
+          "WRIST",
+          "PSALM"
+        ],
+        "explanation": "The first written letter is not pronounced.",
+        "mechanism_family": "sound",
+        "concept_key": "sound_words_with_silent_first_letters"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-4bd4e20047cb"
+  },
+  {
+    "groups": [
+      {
+        "category": "Add R to the End to Make a New Word",
+        "difficulty": "easy",
+        "words": [
+          "CHAI",
+          "OFFE",
+          "TOWE",
+          "WATE"
+        ],
+        "explanation": "Adding R to the end of each word spells CHAIR, OFFER, TOWER, and WATER.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_add_r_end"
+      },
+      {
+        "category": "Also a Type of Chess Opening",
+        "difficulty": "medium",
+        "words": [
+          "SICILIAN",
+          "DRAGON",
+          "ENGLISH",
+          "FRENCH"
+        ],
+        "explanation": "Each word is also the name of a well-known chess opening: the Sicilian, Dragon, English, and French defenses.",
+        "mechanism_family": "double_identity",
+        "concept_key": "chess_openings"
+      },
+      {
+        "category": "Common Words That Are Also Logical Operators",
+        "difficulty": "hard",
+        "words": [
+          "AND",
+          "OR",
+          "NOT",
+          "NOR"
+        ],
+        "explanation": "AND, OR, NOT, and NOR are everyday English words that are also the core Boolean logical operators in computing and formal logic.",
+        "mechanism_family": "double_identity",
+        "concept_key": "logical_operators"
+      },
+      {
+        "category": "Words with silent first letters",
+        "difficulty": "tricky",
+        "words": [
+          "KNIFE",
+          "GNOME",
+          "WRIST",
+          "PSALM"
+        ],
+        "explanation": "The first written letter is not pronounced.",
+        "mechanism_family": "sound",
+        "concept_key": "sound_words_with_silent_first_letters"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-d40364f5c205"
+  },
+  {
+    "groups": [
+      {
+        "category": "Things You Can Shuffle",
+        "difficulty": "easy",
+        "words": [
+          "CARDS",
+          "FEET",
+          "PAPERS",
+          "PLAYLIST"
+        ],
+        "explanation": "You can shuffle cards, feet, papers, and a playlist \u2014 all common uses of the word 'shuffle'.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_you_can_shuffle"
+      },
+      {
+        "category": "Remove the First Letter to Get a New Word",
+        "difficulty": "medium",
+        "words": [
+          "WHEAT",
+          "KNAVE",
+          "BRACE",
+          "STALE"
+        ],
+        "explanation": "Remove the first letter of each word to get a new common word: WHEAT\u2192HEAT, KNAVE\u2192NAVE, BRACE\u2192RACE, STALE\u2192TALE.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_remove_first_letter"
+      },
+      {
+        "category": "Also a Type of Government Bond",
+        "difficulty": "hard",
+        "words": [
+          "GILT",
+          "TREASURY",
+          "MUNICIPAL",
+          "BEARER"
+        ],
+        "explanation": "GILT, TREASURY, MUNICIPAL, and BEARER are all recognized categories of government-issued bonds.",
+        "mechanism_family": "double_identity",
+        "concept_key": "government_bond_types"
+      },
+      {
+        "category": "Common Words That Are Also Keyboard Modifier Keys",
+        "difficulty": "tricky",
+        "words": [
+          "SHIFT",
+          "CONTROL",
+          "ALT",
+          "ESCAPE"
+        ],
+        "explanation": "Each word is a common English word that is also a modifier key found on a standard keyboard.",
+        "mechanism_family": "double_identity",
+        "concept_key": "keyboard_modifier_keys"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-0b3a432977b5"
   }
 ]

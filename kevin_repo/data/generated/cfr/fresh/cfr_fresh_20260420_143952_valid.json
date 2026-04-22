@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "BASIN",
+      "CANAL",
+      "MUSICALLY",
+      "BLITHE",
+      "INSTRUMENTALIST",
+      "ORCHESTRAL",
+      "EXIT",
+      "MUSICIAN",
+      "BLEAT",
+      "POND",
+      "DEPARTURE",
+      "BLAB",
+      "DEPART",
+      "COVE",
+      "LEAVING",
+      "BLATHER"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO SAY GOODBYE",
+        "words": [
+          "EXIT",
+          "DEPARTURE",
+          "DEPART",
+          "LEAVING"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7183854579925537
+      },
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "green",
+        "similarity_score": 0.6291800141334534
+      },
+      {
+        "category": "WORDS CONTAINING 'B'",
+        "words": [
+          "BLATHER",
+          "BLITHE",
+          "BLEAT",
+          "BLAB"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5909580588340759
+      },
+      {
+        "category": "___CANAL",
+        "words": [
+          "CANAL",
+          "BASIN",
+          "COVE",
+          "POND"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5403137803077698
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854579925537
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "ORCHESTRAL",
+                "MUSICIAN"
+              ],
+              "score": 0.6291800141334534
+            },
+            {
+              "words": [
+                "BLITHE",
+                "BLEAT",
+                "BLAB",
+                "BLATHER"
+              ],
+              "score": 0.5909580588340759
+            },
+            {
+              "words": [
+                "BASIN",
+                "CANAL",
+                "POND",
+                "COVE"
+              ],
+              "score": 0.5403136014938354
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "BASIN",
+                "CANAL",
+                "POND",
+                "COVE"
+              ],
+              "score": 0.5403136014938354
+            },
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854579925537
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "ORCHESTRAL",
+                "MUSICIAN"
+              ],
+              "score": 0.6291800141334534
+            },
+            {
+              "words": [
+                "BLITHE",
+                "BLEAT",
+                "BLAB",
+                "BLATHER"
+              ],
+              "score": 0.5909580588340759
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.619709312915802,
+      "created_at": "2026-04-20T14:39:50.852744+00:00",
+      "accepted": true
+    }
+  }
+]

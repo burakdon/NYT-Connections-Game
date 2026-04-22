@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "CONSONANTAL",
+      "MORPHOLOGY",
+      "EXPONENT",
+      "YAHOO",
+      "ALGEBRAICALLY",
+      "MATH",
+      "MUSICALLY",
+      "MULTIPLICATION",
+      "TELEGRAM",
+      "VOCABULARY",
+      "INSTRUMENTALIST",
+      "TINDER",
+      "MUSICIAN",
+      "ETYMOLOGICAL",
+      "ORCHESTRAL",
+      "SLACK"
+    ],
+    "groups": [
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6291800141334534
+      },
+      {
+        "category": "RADICAL TERMS",
+        "words": [
+          "EXPONENT",
+          "ALGEBRAICALLY",
+          "MULTIPLICATION",
+          "MATH"
+        ],
+        "color": "green",
+        "similarity_score": 0.544180691242218
+      },
+      {
+        "category": "SOCIAL MEDIA PLATFORMS",
+        "words": [
+          "SLACK",
+          "YAHOO",
+          "TELEGRAM",
+          "TINDER"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5293058156967163
+      },
+      {
+        "category": "WORDS ASSOCIATED WITH CANALS",
+        "words": [
+          "MORPHOLOGY",
+          "CONSONANTAL",
+          "ETYMOLOGICAL",
+          "VOCABULARY"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4942152500152588
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL"
+              ],
+              "score": 0.6291798949241638
+            },
+            {
+              "words": [
+                "EXPONENT",
+                "ALGEBRAICALLY",
+                "MATH",
+                "MULTIPLICATION"
+              ],
+              "score": 0.5441806316375732
+            },
+            {
+              "words": [
+                "YAHOO",
+                "TELEGRAM",
+                "TINDER",
+                "SLACK"
+              ],
+              "score": 0.5293058156967163
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "MORPHOLOGY",
+                "VOCABULARY",
+                "ETYMOLOGICAL"
+              ],
+              "score": 0.4942152798175812
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MUSICALLY",
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL"
+              ],
+              "score": 0.6291798949241638
+            },
+            {
+              "words": [
+                "EXPONENT",
+                "ALGEBRAICALLY",
+                "MATH",
+                "MULTIPLICATION"
+              ],
+              "score": 0.5441806316375732
+            },
+            {
+              "words": [
+                "YAHOO",
+                "TELEGRAM",
+                "TINDER",
+                "SLACK"
+              ],
+              "score": 0.5293058156967163
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "MORPHOLOGY",
+                "VOCABULARY",
+                "ETYMOLOGICAL"
+              ],
+              "score": 0.4942152798175812
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5492204427719116,
+      "created_at": "2026-04-20T06:36:24.113922+00:00",
+      "accepted": true
+    }
+  }
+]

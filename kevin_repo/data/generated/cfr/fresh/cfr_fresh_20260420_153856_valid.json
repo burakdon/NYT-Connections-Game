@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "ORCHESTRAL",
+      "GENRE",
+      "SLACK",
+      "CANTER",
+      "YAHOO",
+      "TINDER",
+      "DISOBEDIENCE",
+      "TELEGRAM",
+      "CANTLE",
+      "MUSICALLY",
+      "REVOLUTION",
+      "CANDOUR",
+      "INSURRECTION",
+      "SOUNDTRACK",
+      "UPRISING",
+      "CAN"
+    ],
+    "groups": [
+      {
+        "category": "RADICAL POLITICAL MOVEMENTS",
+        "words": [
+          "DISOBEDIENCE",
+          "REVOLUTION",
+          "INSURRECTION",
+          "UPRISING"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6822841167449951
+      },
+      {
+        "category": "SOCIAL MEDIA PLATFORMS",
+        "words": [
+          "SLACK",
+          "YAHOO",
+          "TELEGRAM",
+          "TINDER"
+        ],
+        "color": "green",
+        "similarity_score": 0.5293058156967163
+      },
+      {
+        "category": "WORDS WITH 'CAN'",
+        "words": [
+          "CAN",
+          "CANTER",
+          "CANTLE",
+          "CANDOUR"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5291599631309509
+      },
+      {
+        "category": "TYPES OF AMBIENT MUSIC",
+        "words": [
+          "GENRE",
+          "ORCHESTRAL",
+          "SOUNDTRACK",
+          "MUSICALLY"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5271081924438477
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "DISOBEDIENCE",
+                "REVOLUTION",
+                "INSURRECTION",
+                "UPRISING"
+              ],
+              "score": 0.6822841763496399
+            },
+            {
+              "words": [
+                "SLACK",
+                "YAHOO",
+                "TINDER",
+                "TELEGRAM"
+              ],
+              "score": 0.5293058156967163
+            },
+            {
+              "words": [
+                "CANTER",
+                "CANTLE",
+                "CANDOUR",
+                "CAN"
+              ],
+              "score": 0.5291599631309509
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "GENRE",
+                "MUSICALLY",
+                "SOUNDTRACK"
+              ],
+              "score": 0.5271081328392029
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "DISOBEDIENCE",
+                "REVOLUTION",
+                "INSURRECTION",
+                "UPRISING"
+              ],
+              "score": 0.6822841763496399
+            },
+            {
+              "words": [
+                "SLACK",
+                "YAHOO",
+                "TINDER",
+                "TELEGRAM"
+              ],
+              "score": 0.5293058156967163
+            },
+            {
+              "words": [
+                "CANTER",
+                "CANTLE",
+                "CANDOUR",
+                "CAN"
+              ],
+              "score": 0.5291599631309509
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "GENRE",
+                "MUSICALLY",
+                "SOUNDTRACK"
+              ],
+              "score": 0.5271081328392029
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5669645071029663,
+      "created_at": "2026-04-20T15:38:54.361864+00:00",
+      "accepted": true
+    }
+  }
+]

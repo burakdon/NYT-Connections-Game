@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "SLIVERY",
+      "LOBLOLLY",
+      "RAILWAY",
+      "CITY",
+      "RAIL",
+      "TRAIN",
+      "LAMPLIGHT",
+      "RAILHEAD",
+      "ATHENS",
+      "SHAPELY",
+      "LAMP",
+      "ROME",
+      "BULB",
+      "SLINKY",
+      "FLASHLIGHT",
+      "VENICE"
+    ],
+    "groups": [
+      {
+        "category": "TYPES OF LIGHTING",
+        "words": [
+          "LAMPLIGHT",
+          "LAMP",
+          "BULB",
+          "FLASHLIGHT"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7144957184791565
+      },
+      {
+        "category": "WORDS RELATED TO RAILROADS",
+        "words": [
+          "RAILWAY",
+          "RAIL",
+          "RAILHEAD",
+          "TRAIN"
+        ],
+        "color": "green",
+        "similarity_score": 0.6247619986534119
+      },
+      {
+        "category": "CANAL CITIES",
+        "words": [
+          "VENICE",
+          "CITY",
+          "ATHENS",
+          "ROME"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5930041074752808
+      },
+      {
+        "category": "WORDS THAT END WITH 'LY'",
+        "words": [
+          "LOBLOLLY",
+          "SLIVERY",
+          "SLINKY",
+          "SHAPELY"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5718329548835754
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "LAMPLIGHT",
+                "LAMP",
+                "BULB",
+                "FLASHLIGHT"
+              ],
+              "score": 0.7144956588745117
+            },
+            {
+              "words": [
+                "RAILWAY",
+                "RAIL",
+                "TRAIN",
+                "RAILHEAD"
+              ],
+              "score": 0.6247619986534119
+            },
+            {
+              "words": [
+                "CITY",
+                "ATHENS",
+                "ROME",
+                "VENICE"
+              ],
+              "score": 0.593004047870636
+            },
+            {
+              "words": [
+                "SLIVERY",
+                "LOBLOLLY",
+                "SHAPELY",
+                "SLINKY"
+              ],
+              "score": 0.5718328952789307
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "LAMPLIGHT",
+                "LAMP",
+                "BULB",
+                "FLASHLIGHT"
+              ],
+              "score": 0.7144956588745117
+            },
+            {
+              "words": [
+                "RAILWAY",
+                "RAIL",
+                "TRAIN",
+                "RAILHEAD"
+              ],
+              "score": 0.6247619986534119
+            },
+            {
+              "words": [
+                "CITY",
+                "ATHENS",
+                "ROME",
+                "VENICE"
+              ],
+              "score": 0.593004047870636
+            },
+            {
+              "words": [
+                "SLIVERY",
+                "LOBLOLLY",
+                "SHAPELY",
+                "SLINKY"
+              ],
+              "score": 0.5718328952789307
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6260237097740173,
+      "created_at": "2026-04-20T06:33:25.001648+00:00",
+      "accepted": true
+    }
+  }
+]

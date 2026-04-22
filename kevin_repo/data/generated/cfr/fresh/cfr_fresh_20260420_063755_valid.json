@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "PLUMBING",
+      "CANAL",
+      "SOCIABILITY",
+      "ORCHESTRAL",
+      "SOCIABLY",
+      "SOCIALLY",
+      "IODINATION",
+      "SOCIALITY",
+      "SOUNDTRACK",
+      "SWAMP",
+      "IODINATING",
+      "MUSICALLY",
+      "IODINATE",
+      "DRAINAGE",
+      "IODINE",
+      "GENRE"
+    ],
+    "groups": [
+      {
+        "category": "WORDS ENDING IN -IC",
+        "words": [
+          "IODINATION",
+          "IODINATING",
+          "IODINATE",
+          "IODINE"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7314357161521912
+      },
+      {
+        "category": "WAYS TO BE SOCIABLE",
+        "words": [
+          "SOCIABILITY",
+          "SOCIABLY",
+          "SOCIALITY",
+          "SOCIALLY"
+        ],
+        "color": "green",
+        "similarity_score": 0.707529604434967
+      },
+      {
+        "category": "TYPES OF AMBIENT MUSIC",
+        "words": [
+          "GENRE",
+          "ORCHESTRAL",
+          "SOUNDTRACK",
+          "MUSICALLY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5271081924438477
+      },
+      {
+        "category": "THINGS ASSOCIATED WITH CANALS",
+        "words": [
+          "CANAL",
+          "PLUMBING",
+          "DRAINAGE",
+          "SWAMP"
+        ],
+        "color": "purple",
+        "similarity_score": 0.48481035232543945
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "IODINATION",
+                "IODINATING",
+                "IODINATE",
+                "IODINE"
+              ],
+              "score": 0.7314357757568359
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALLY",
+                "SOCIALITY"
+              ],
+              "score": 0.7075297236442566
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "SOUNDTRACK",
+                "MUSICALLY",
+                "GENRE"
+              ],
+              "score": 0.5271081328392029
+            },
+            {
+              "words": [
+                "PLUMBING",
+                "CANAL",
+                "SWAMP",
+                "DRAINAGE"
+              ],
+              "score": 0.4848102033138275
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "IODINATION",
+                "IODINATING",
+                "IODINATE",
+                "IODINE"
+              ],
+              "score": 0.7314357757568359
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "SOUNDTRACK",
+                "MUSICALLY",
+                "GENRE"
+              ],
+              "score": 0.5271081328392029
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALLY",
+                "SOCIALITY"
+              ],
+              "score": 0.7075297236442566
+            },
+            {
+              "words": [
+                "PLUMBING",
+                "CANAL",
+                "SWAMP",
+                "DRAINAGE"
+              ],
+              "score": 0.4848102033138275
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6127209663391113,
+      "created_at": "2026-04-20T06:37:53.839441+00:00",
+      "accepted": true
+    }
+  }
+]

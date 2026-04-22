@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "SYNONYMOUS",
+      "SYNONYM",
+      "LEXICAL",
+      "DRAINAGE",
+      "VOCABULARY",
+      "MORPHEMIC",
+      "MINGLING",
+      "LEXICON",
+      "ESTUARY",
+      "ANNIHILATE",
+      "SOCIALITY",
+      "EMBANKMENT",
+      "SOCIABILITY",
+      "ABOLISH",
+      "SOCIALLY",
+      "CANAL"
+    ],
+    "groups": [
+      {
+        "category": "TERMS FOR SOCIAL INTERACTION",
+        "words": [
+          "MINGLING",
+          "SOCIALITY",
+          "SOCIABILITY",
+          "SOCIALLY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6592910885810852
+      },
+      {
+        "category": "WORDS WITH AMBIENT IN THEM",
+        "words": [
+          "LEXICAL",
+          "VOCABULARY",
+          "LEXICON",
+          "MORPHEMIC"
+        ],
+        "color": "green",
+        "similarity_score": 0.6508066654205322
+      },
+      {
+        "category": "WORDS RELATED TO CANALS",
+        "words": [
+          "CANAL",
+          "DRAINAGE",
+          "ESTUARY",
+          "EMBANKMENT"
+        ],
+        "color": "blue",
+        "similarity_score": 0.4798610210418701
+      },
+      {
+        "category": "SYNONYMS FOR RADICAL",
+        "words": [
+          "SYNONYM",
+          "SYNONYMOUS",
+          "ABOLISH",
+          "ANNIHILATE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4601658582687378
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MINGLING",
+                "SOCIALITY",
+                "SOCIABILITY",
+                "SOCIALLY"
+              ],
+              "score": 0.6592910885810852
+            },
+            {
+              "words": [
+                "LEXICAL",
+                "VOCABULARY",
+                "MORPHEMIC",
+                "LEXICON"
+              ],
+              "score": 0.650806725025177
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "ESTUARY",
+                "EMBANKMENT",
+                "CANAL"
+              ],
+              "score": 0.4798610210418701
+            },
+            {
+              "words": [
+                "SYNONYMOUS",
+                "SYNONYM",
+                "ANNIHILATE",
+                "ABOLISH"
+              ],
+              "score": 0.4601658284664154
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "LEXICAL",
+                "VOCABULARY",
+                "MORPHEMIC",
+                "LEXICON"
+              ],
+              "score": 0.650806725025177
+            },
+            {
+              "words": [
+                "MINGLING",
+                "SOCIALITY",
+                "SOCIABILITY",
+                "SOCIALLY"
+              ],
+              "score": 0.6592910885810852
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "ESTUARY",
+                "EMBANKMENT",
+                "CANAL"
+              ],
+              "score": 0.4798610210418701
+            },
+            {
+              "words": [
+                "SYNONYMOUS",
+                "SYNONYM",
+                "ANNIHILATE",
+                "ABOLISH"
+              ],
+              "score": 0.4601658284664154
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5625311136245728,
+      "created_at": "2026-04-20T14:37:12.558695+00:00",
+      "accepted": true
+    }
+  }
+]

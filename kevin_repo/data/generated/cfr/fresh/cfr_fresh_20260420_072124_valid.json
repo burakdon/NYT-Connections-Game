@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "OPERATIC",
+      "MUSICALLY",
+      "RIVER",
+      "SLIVERY",
+      "BARGE",
+      "RIVERBANK",
+      "SOCIALITY",
+      "WATERFRONT",
+      "SLINKY",
+      "ORCHESTRAL",
+      "SOCIALLY",
+      "SHAPELY",
+      "SOCIABILITY",
+      "PIANO",
+      "SOCIABLY",
+      "LOBLOLLY"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO BE SOCIAL",
+        "words": [
+          "SOCIALITY",
+          "SOCIALLY",
+          "SOCIABILITY",
+          "SOCIABLY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7075297236442566
+      },
+      {
+        "category": "TYPES OF WATERWAYS",
+        "words": [
+          "RIVER",
+          "BARGE",
+          "WATERFRONT",
+          "RIVERBANK"
+        ],
+        "color": "green",
+        "similarity_score": 0.6192683577537537
+      },
+      {
+        "category": "WORDS THAT END WITH 'LY'",
+        "words": [
+          "LOBLOLLY",
+          "SLIVERY",
+          "SLINKY",
+          "SHAPELY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5718329548835754
+      },
+      {
+        "category": "MUSIC GENRES THAT START WITH 'A'",
+        "words": [
+          "MUSICALLY",
+          "OPERATIC",
+          "PIANO",
+          "ORCHESTRAL"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5684649348258972
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIALITY",
+                "SOCIALLY",
+                "SOCIABILITY",
+                "SOCIABLY"
+              ],
+              "score": 0.7075297236442566
+            },
+            {
+              "words": [
+                "RIVER",
+                "BARGE",
+                "RIVERBANK",
+                "WATERFRONT"
+              ],
+              "score": 0.6192683577537537
+            },
+            {
+              "words": [
+                "SLIVERY",
+                "SLINKY",
+                "SHAPELY",
+                "LOBLOLLY"
+              ],
+              "score": 0.5718328952789307
+            },
+            {
+              "words": [
+                "OPERATIC",
+                "MUSICALLY",
+                "ORCHESTRAL",
+                "PIANO"
+              ],
+              "score": 0.5684647560119629
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "OPERATIC",
+                "MUSICALLY",
+                "ORCHESTRAL",
+                "PIANO"
+              ],
+              "score": 0.5684647560119629
+            },
+            {
+              "words": [
+                "RIVER",
+                "BARGE",
+                "RIVERBANK",
+                "WATERFRONT"
+              ],
+              "score": 0.6192683577537537
+            },
+            {
+              "words": [
+                "SOCIALITY",
+                "SOCIALLY",
+                "SOCIABILITY",
+                "SOCIABLY"
+              ],
+              "score": 0.7075297236442566
+            },
+            {
+              "words": [
+                "SLIVERY",
+                "SLINKY",
+                "SHAPELY",
+                "LOBLOLLY"
+              ],
+              "score": 0.5718328952789307
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6167740225791931,
+      "created_at": "2026-04-20T07:21:22.612117+00:00",
+      "accepted": true
+    }
+  }
+]

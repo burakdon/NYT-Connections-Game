@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "YAHOO",
+      "SLACK",
+      "MUSICALLY",
+      "ACCOMPLICE",
+      "ARTS",
+      "MUSICIAN",
+      "RIVER",
+      "MUSICIANSHIP",
+      "CONFIDANTE",
+      "TINDER",
+      "ESTUARY",
+      "CONFIDANT",
+      "WATERFRONT",
+      "TELEGRAM",
+      "BARGE",
+      "ALLY"
+    ],
+    "groups": [
+      {
+        "category": "WATERWAYS",
+        "words": [
+          "RIVER",
+          "ESTUARY",
+          "WATERFRONT",
+          "BARGE"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.588820219039917
+      },
+      {
+        "category": "MUSIC GENRES",
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "color": "green",
+        "similarity_score": 0.5858866572380066
+      },
+      {
+        "category": "WORDS ENDING IN 'ALLY'",
+        "words": [
+          "ALLY",
+          "ACCOMPLICE",
+          "CONFIDANTE",
+          "CONFIDANT"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5797917246818542
+      },
+      {
+        "category": "SOCIAL MEDIA PLATFORMS",
+        "words": [
+          "SLACK",
+          "YAHOO",
+          "TELEGRAM",
+          "TINDER"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5293058156967163
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "RIVER",
+                "ESTUARY",
+                "WATERFRONT",
+                "BARGE"
+              ],
+              "score": 0.5888201594352722
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIAN",
+                "MUSICIANSHIP"
+              ],
+              "score": 0.5858867168426514
+            },
+            {
+              "words": [
+                "ACCOMPLICE",
+                "CONFIDANTE",
+                "CONFIDANT",
+                "ALLY"
+              ],
+              "score": 0.5797917246818542
+            },
+            {
+              "words": [
+                "YAHOO",
+                "SLACK",
+                "TINDER",
+                "TELEGRAM"
+              ],
+              "score": 0.5293057560920715
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "YAHOO",
+                "SLACK",
+                "TINDER",
+                "TELEGRAM"
+              ],
+              "score": 0.5293057560920715
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "ARTS",
+                "MUSICIAN",
+                "MUSICIANSHIP"
+              ],
+              "score": 0.5858867168426514
+            },
+            {
+              "words": [
+                "RIVER",
+                "ESTUARY",
+                "WATERFRONT",
+                "BARGE"
+              ],
+              "score": 0.5888201594352722
+            },
+            {
+              "words": [
+                "ACCOMPLICE",
+                "CONFIDANTE",
+                "CONFIDANT",
+                "ALLY"
+              ],
+              "score": 0.5797917246818542
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5709511041641235,
+      "created_at": "2026-04-20T06:32:40.739956+00:00",
+      "accepted": true
+    }
+  }
+]

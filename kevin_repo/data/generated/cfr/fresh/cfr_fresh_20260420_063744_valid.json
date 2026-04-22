@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "ARTS",
+      "MUSICALLY",
+      "RADICALISM",
+      "ESTUARY",
+      "IDEOLOGY",
+      "NAZISM",
+      "SOCIALLY",
+      "FANATICISM",
+      "WATERFRONT",
+      "MUSICIAN",
+      "SOCIALITY",
+      "BARGE",
+      "SOCIABLY",
+      "MUSICIANSHIP",
+      "SOCIABILITY",
+      "RIVER"
+    ],
+    "groups": [
+      {
+        "category": "SOCIAL ADVERBS",
+        "words": [
+          "SOCIALLY",
+          "SOCIALITY",
+          "SOCIABLY",
+          "SOCIABILITY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.707529604434967
+      },
+      {
+        "category": "RADICAL IDEOLOGIES",
+        "words": [
+          "RADICALISM",
+          "IDEOLOGY",
+          "FANATICISM",
+          "NAZISM"
+        ],
+        "color": "green",
+        "similarity_score": 0.6545828580856323
+      },
+      {
+        "category": "WATERWAYS",
+        "words": [
+          "RIVER",
+          "ESTUARY",
+          "WATERFRONT",
+          "BARGE"
+        ],
+        "color": "blue",
+        "similarity_score": 0.588820219039917
+      },
+      {
+        "category": "MUSIC GENRES",
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "MUSICIAN"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5858866572380066
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIALLY",
+                "SOCIALITY",
+                "SOCIABLY",
+                "SOCIABILITY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "RADICALISM",
+                "IDEOLOGY",
+                "NAZISM",
+                "FANATICISM"
+              ],
+              "score": 0.6545829176902771
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "WATERFRONT",
+                "BARGE",
+                "RIVER"
+              ],
+              "score": 0.5888201594352722
+            },
+            {
+              "words": [
+                "ARTS",
+                "MUSICALLY",
+                "MUSICIAN",
+                "MUSICIANSHIP"
+              ],
+              "score": 0.585886538028717
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIALLY",
+                "SOCIALITY",
+                "SOCIABLY",
+                "SOCIABILITY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "ARTS",
+                "MUSICALLY",
+                "MUSICIAN",
+                "MUSICIANSHIP"
+              ],
+              "score": 0.585886538028717
+            },
+            {
+              "words": [
+                "RADICALISM",
+                "IDEOLOGY",
+                "NAZISM",
+                "FANATICISM"
+              ],
+              "score": 0.6545829176902771
+            },
+            {
+              "words": [
+                "ESTUARY",
+                "WATERFRONT",
+                "BARGE",
+                "RIVER"
+              ],
+              "score": 0.5888201594352722
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6342048645019531,
+      "created_at": "2026-04-20T06:37:42.386876+00:00",
+      "accepted": true
+    }
+  }
+]

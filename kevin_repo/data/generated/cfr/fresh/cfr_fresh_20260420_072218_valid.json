@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "CANTLE",
+      "CAN",
+      "RADICAL",
+      "WHARF",
+      "RADICALISM",
+      "REACTIONARY",
+      "MENARCHE",
+      "MILITANT",
+      "BARGE",
+      "CANDOUR",
+      "MANTIC",
+      "LAGOON",
+      "MANUMISSION",
+      "CANTER",
+      "MANTEL",
+      "CANAL"
+    ],
+    "groups": [
+      {
+        "category": "WORDS ENDING IN 'MENT'",
+        "words": [
+          "MENARCHE",
+          "MANTIC",
+          "MANUMISSION",
+          "MANTEL"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.5948287844657898
+      },
+      {
+        "category": "SYNONYMS FOR 'RADICAL'",
+        "words": [
+          "RADICAL",
+          "RADICALISM",
+          "MILITANT",
+          "REACTIONARY"
+        ],
+        "color": "green",
+        "similarity_score": 0.5561570525169373
+      },
+      {
+        "category": "TYPES OF CANALS",
+        "words": [
+          "CANAL",
+          "WHARF",
+          "BARGE",
+          "LAGOON"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5437434911727905
+      },
+      {
+        "category": "WORDS THAT START WITH 'CAN'",
+        "words": [
+          "CAN",
+          "CANTLE",
+          "CANTER",
+          "CANDOUR"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5291599631309509
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MENARCHE",
+                "MANTIC",
+                "MANUMISSION",
+                "MANTEL"
+              ],
+              "score": 0.5948288440704346
+            },
+            {
+              "words": [
+                "RADICAL",
+                "RADICALISM",
+                "REACTIONARY",
+                "MILITANT"
+              ],
+              "score": 0.5561570525169373
+            },
+            {
+              "words": [
+                "WHARF",
+                "BARGE",
+                "LAGOON",
+                "CANAL"
+              ],
+              "score": 0.5437434315681458
+            },
+            {
+              "words": [
+                "CANTLE",
+                "CAN",
+                "CANDOUR",
+                "CANTER"
+              ],
+              "score": 0.5291599631309509
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MENARCHE",
+                "MANTIC",
+                "MANUMISSION",
+                "MANTEL"
+              ],
+              "score": 0.5948288440704346
+            },
+            {
+              "words": [
+                "CANTLE",
+                "CAN",
+                "CANDOUR",
+                "CANTER"
+              ],
+              "score": 0.5291599631309509
+            },
+            {
+              "words": [
+                "RADICAL",
+                "RADICALISM",
+                "REACTIONARY",
+                "MILITANT"
+              ],
+              "score": 0.5561570525169373
+            },
+            {
+              "words": [
+                "WHARF",
+                "BARGE",
+                "LAGOON",
+                "CANAL"
+              ],
+              "score": 0.5437434315681458
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5559723377227783,
+      "created_at": "2026-04-20T07:22:16.325339+00:00",
+      "accepted": true
+    }
+  }
+]

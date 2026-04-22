@@ -51,7 +51,7 @@ def _warn_missing_secrets(adapters: dict) -> None:
         print('  (Abuzar NLP uses local datasets — no API key required.)\n')
 
 
-def build_adapters(only: str | None = None) -> dict:
+def build_adapters(only: str | None = None, *, agent: bool = False) -> dict:
     """Register pipelines. If ``only`` is set, skip importing other pipelines (faster)."""
 
     adapters = {}
@@ -129,8 +129,12 @@ def build_adapters(only: str | None = None) -> dict:
                         'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY', ''),
                         'ANTHROPIC_API_KEY': os.environ.get('ANTHROPIC_API_KEY', ''),
                     },
+                    agentic=agent,
                 )
-                print('Registered: abuzar_ai')
+                label = 'Registered: abuzar_ai'
+                if agent:
+                    label += ' (agentic mode)'
+                print(label)
             except Exception as e:
                 print(f'Skipped: abuzar_ai ({e})')
 
@@ -158,10 +162,15 @@ if __name__ == '__main__':
         action='store_true',
         help='Register adapters, print weights, exit — no generation, no API calls.',
     )
+    parser.add_argument(
+        '--agent',
+        action='store_true',
+        help='Use the agentic generate_puzzles.py path for abuzar_ai only.',
+    )
     args = parser.parse_args()
 
     if args.dry_run:
-        adapters = build_adapters(only=args.only)
+        adapters = build_adapters(only=args.only, agent=args.agent)
         if not adapters:
             print('No pipelines registered.')
             raise SystemExit(1)
@@ -175,7 +184,7 @@ if __name__ == '__main__':
         print('\nDry run complete (no puzzles generated).')
         raise SystemExit(0)
 
-    adapters = build_adapters(only=args.only)
+    adapters = build_adapters(only=args.only, agent=args.agent)
     if not adapters:
         print('No pipelines registered. Fix imports (burak/adreama), .env keys, and clone sibling repos.')
         raise SystemExit(1)

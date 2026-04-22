@@ -76,6 +76,16 @@ HIDDEN_CLAIM_PATTERN = re.compile(
     r"\b([A-Z0-9][A-Z0-9 '&-]{0,23})\s+(?:hides|contains)\s+([A-Z0-9]{3,})\b",
     re.IGNORECASE,
 )
+HIDDEN_SUBSTRING_MECHANISM_PATTERN = re.compile(
+    r"\b(?:"
+    r"each\s+(?:word\s+)?(?:hides?|contains?)|"
+    r"words?\s+(?:that\s+)?(?:hide|hides|hiding|contain|contains|containing)|"
+    r"(?:hidden|hiding)\s+[\w'-]+(?:\s+[\w'-]+){0,3}\s+(?:inside|in|within)|"
+    r"contains?\s+(?:a\s+)?hidden|"
+    r"containing\s+(?:a\s+)?hidden"
+    r")\b",
+    re.IGNORECASE,
+)
 HOMOPHONE_EQUALS_PATTERN = re.compile(
     r"\b([A-Z][A-Z '&-]{1,23})\s*(?:=|sounds?\s+like)\s*([A-Z][A-Z '&-]{1,23})\b",
     re.IGNORECASE,
@@ -434,6 +444,27 @@ def hidden_claim_errors(group: dict[str, Any]) -> list[str]:
     return errors
 
 
+def hidden_substring_mechanism_errors(group: dict[str, Any]) -> list[str]:
+    """Block hidden-substring groups; they have been too error-prone for Abuzar AI."""
+
+    text = group_text(group)
+    family = normalize_metadata_key(group.get("mechanism_family", ""))
+    concept_key = normalize_metadata_key(group.get("concept_key", ""))
+    has_hidden_metadata = family == "spelling" and "hidden" in concept_key
+
+    if not has_hidden_metadata and not HIDDEN_SUBSTRING_MECHANISM_PATTERN.search(text):
+        return []
+
+    category = normalize_category(group.get("category", "")) or "unknown"
+    return [
+        (
+            f"Group '{category}' uses a hidden-substring mechanism, which is disabled "
+            "for Abuzar AI. Use sound, transformation, double-identity, strict "
+            "spelling patterns, phrase completion, or shared-property instead."
+        )
+    ]
+
+
 def homophone_claim_errors(group: dict[str, Any]) -> list[str]:
     """Verify simple homophone explanation claims and direction."""
 
@@ -545,17 +576,20 @@ def generated_constraint_errors(groups: list[dict[str, Any]]) -> list[str]:
                 f"{', '.join(title_word_collisions)}."
             )
 
-    for left_index, (left_category, left_tokens) in enumerate(category_token_sets):
-        if not left_tokens:
-            continue
-
-        for right_category, right_tokens in category_token_sets[left_index + 1:]:
-            overlap = sorted(left_tokens & right_tokens)
-            if overlap:
-                errors.append(
-                    "Generated puzzle has thematically overlapping category labels: "
-                    f"'{left_category}' and '{right_category}' both use {', '.join(overlap)}."
-                )
+    # Disabled: label-token overlap was rejecting otherwise valid boards for
+    # shared filler wording such as "also" / "are" in category titles.
+    #
+    # for left_index, (left_category, left_tokens) in enumerate(category_token_sets):
+    #     if not left_tokens:
+    #         continue
+    #
+    #     for right_category, right_tokens in category_token_sets[left_index + 1:]:
+    #         overlap = sorted(left_tokens & right_tokens)
+    #         if overlap:
+    #             errors.append(
+    #                 "Generated puzzle has thematically overlapping category labels: "
+    #                 f"'{left_category}' and '{right_category}' both use {', '.join(overlap)}."
+    #             )
 
     if len(can_verb_categories) > 1:
         errors.append(
@@ -789,8 +823,11 @@ def validate_puzzle(
                 errors.append(
                     f"Group '{category or index}' explanation contains draft or self-correction text."
                 )
+            errors.extend(hidden_substring_mechanism_errors(group))
             errors.extend(hidden_claim_errors(group))
             errors.extend(homophone_claim_errors(group))
+        else:
+            errors.extend(hidden_substring_mechanism_errors(group))
 
         difficulty = str(group.get("difficulty", "")).strip().lower()
         if difficulty not in VALID_DIFFICULTIES:

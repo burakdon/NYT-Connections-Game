@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "MOISTURE",
+      "WETNESS",
+      "LAMPLIGHT",
+      "SOCIALITY",
+      "LAMP",
+      "FLASHLIGHT",
+      "EXCEEDINGLY",
+      "BULB",
+      "SOCIABILITY",
+      "DRENCHED",
+      "SUPREMELY",
+      "SOCIALLY",
+      "ENORMOUSLY",
+      "PERVAPORATION",
+      "TREMENDOUSLY",
+      "MINGLING"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO SAY EXTREMELY",
+        "words": [
+          "EXCEEDINGLY",
+          "SUPREMELY",
+          "ENORMOUSLY",
+          "TREMENDOUSLY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.8339126706123352
+      },
+      {
+        "category": "TYPES OF LIGHTING",
+        "words": [
+          "LAMPLIGHT",
+          "LAMP",
+          "BULB",
+          "FLASHLIGHT"
+        ],
+        "color": "green",
+        "similarity_score": 0.7144957184791565
+      },
+      {
+        "category": "SOCIAL ACTIVITIES",
+        "words": [
+          "MINGLING",
+          "SOCIALITY",
+          "SOCIABILITY",
+          "SOCIALLY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.6592910885810852
+      },
+      {
+        "category": "WORDS RELATED TO WATER",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "PERVAPORATION",
+          "DRENCHED"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5920476317405701
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "EXCEEDINGLY",
+                "SUPREMELY",
+                "ENORMOUSLY",
+                "TREMENDOUSLY"
+              ],
+              "score": 0.8339126110076904
+            },
+            {
+              "words": [
+                "LAMPLIGHT",
+                "LAMP",
+                "FLASHLIGHT",
+                "BULB"
+              ],
+              "score": 0.7144957184791565
+            },
+            {
+              "words": [
+                "SOCIALITY",
+                "SOCIABILITY",
+                "SOCIALLY",
+                "MINGLING"
+              ],
+              "score": 0.6592910289764404
+            },
+            {
+              "words": [
+                "MOISTURE",
+                "WETNESS",
+                "DRENCHED",
+                "PERVAPORATION"
+              ],
+              "score": 0.5920476317405701
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MOISTURE",
+                "WETNESS",
+                "DRENCHED",
+                "PERVAPORATION"
+              ],
+              "score": 0.5920476317405701
+            },
+            {
+              "words": [
+                "EXCEEDINGLY",
+                "SUPREMELY",
+                "ENORMOUSLY",
+                "TREMENDOUSLY"
+              ],
+              "score": 0.8339126110076904
+            },
+            {
+              "words": [
+                "LAMPLIGHT",
+                "LAMP",
+                "FLASHLIGHT",
+                "BULB"
+              ],
+              "score": 0.7144957184791565
+            },
+            {
+              "words": [
+                "SOCIALITY",
+                "SOCIABILITY",
+                "SOCIALLY",
+                "MINGLING"
+              ],
+              "score": 0.6592910289764404
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6999368071556091,
+      "created_at": "2026-04-20T06:27:52.516453+00:00",
+      "accepted": true
+    }
+  }
+]

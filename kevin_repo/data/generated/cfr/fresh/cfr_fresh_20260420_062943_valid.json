@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "BEATLE",
+      "BAND",
+      "CANAL",
+      "CANTLE",
+      "WATERFRONT",
+      "HARBOR",
+      "EXIT",
+      "WHARF",
+      "CANDOUR",
+      "ROCK",
+      "DEPARTURE",
+      "CANTERING",
+      "DEPART",
+      "ALBUM",
+      "LEAVING",
+      "CANTER"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO SAY GOODBYE",
+        "words": [
+          "EXIT",
+          "DEPARTURE",
+          "DEPART",
+          "LEAVING"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7183854579925537
+      },
+      {
+        "category": "FAMOUS CANALS",
+        "words": [
+          "CANAL",
+          "WATERFRONT",
+          "WHARF",
+          "HARBOR"
+        ],
+        "color": "green",
+        "similarity_score": 0.6047859191894531
+      },
+      {
+        "category": "WORDS CONTAINING 'CAN'",
+        "words": [
+          "CANTER",
+          "CANTLE",
+          "CANDOUR",
+          "CANTERING"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5905311107635498
+      },
+      {
+        "category": "___BAND",
+        "words": [
+          "BAND",
+          "BEATLE",
+          "ALBUM",
+          "ROCK"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5194011926651001
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854579925537
+            },
+            {
+              "words": [
+                "CANAL",
+                "WATERFRONT",
+                "HARBOR",
+                "WHARF"
+              ],
+              "score": 0.6047859191894531
+            },
+            {
+              "words": [
+                "CANTLE",
+                "CANDOUR",
+                "CANTERING",
+                "CANTER"
+              ],
+              "score": 0.5905311107635498
+            },
+            {
+              "words": [
+                "BEATLE",
+                "BAND",
+                "ROCK",
+                "ALBUM"
+              ],
+              "score": 0.5194011330604553
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "CANTLE",
+                "CANDOUR",
+                "CANTERING",
+                "CANTER"
+              ],
+              "score": 0.5905311107635498
+            },
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854579925537
+            },
+            {
+              "words": [
+                "CANAL",
+                "WATERFRONT",
+                "HARBOR",
+                "WHARF"
+              ],
+              "score": 0.6047859191894531
+            },
+            {
+              "words": [
+                "BEATLE",
+                "BAND",
+                "ROCK",
+                "ALBUM"
+              ],
+              "score": 0.5194011330604553
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6082758903503418,
+      "created_at": "2026-04-20T06:29:41.912338+00:00",
+      "accepted": true
+    }
+  }
+]

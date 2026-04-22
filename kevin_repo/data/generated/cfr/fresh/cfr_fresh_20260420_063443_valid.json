@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "WHARF",
+      "CANAL",
+      "SOCIABILITY",
+      "INSTRUMENTALIST",
+      "SOCIABLY",
+      "SOCIALITY",
+      "VOCABULARY",
+      "SOCIALIZED",
+      "MUSICIAN",
+      "LAGOON",
+      "NOUN",
+      "ORCHESTRAL",
+      "LEXICAL",
+      "BARGE",
+      "LEXICON",
+      "MUSICALLY"
+    ],
+    "groups": [
+      {
+        "category": "WORDS THAT START WITH 'A'",
+        "words": [
+          "VOCABULARY",
+          "NOUN",
+          "LEXICAL",
+          "LEXICON"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7046619057655334
+      },
+      {
+        "category": "SYNONYMS FOR 'SOCIABLE'",
+        "words": [
+          "SOCIABILITY",
+          "SOCIABLY",
+          "SOCIALIZED",
+          "SOCIALITY"
+        ],
+        "color": "green",
+        "similarity_score": 0.6677227020263672
+      },
+      {
+        "category": "AMBIENT MUSIC ARTISTS",
+        "words": [
+          "MUSICALLY",
+          "INSTRUMENTALIST",
+          "MUSICIAN",
+          "ORCHESTRAL"
+        ],
+        "color": "blue",
+        "similarity_score": 0.6291800141334534
+      },
+      {
+        "category": "TYPES OF CANALS",
+        "words": [
+          "CANAL",
+          "WHARF",
+          "BARGE",
+          "LAGOON"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5437434911727905
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "VOCABULARY",
+                "NOUN",
+                "LEXICAL",
+                "LEXICON"
+              ],
+              "score": 0.7046619057655334
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIALIZED"
+              ],
+              "score": 0.6677227020263672
+            },
+            {
+              "words": [
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL",
+                "MUSICALLY"
+              ],
+              "score": 0.6291800141334534
+            },
+            {
+              "words": [
+                "WHARF",
+                "CANAL",
+                "LAGOON",
+                "BARGE"
+              ],
+              "score": 0.543743371963501
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "VOCABULARY",
+                "NOUN",
+                "LEXICAL",
+                "LEXICON"
+              ],
+              "score": 0.7046619057655334
+            },
+            {
+              "words": [
+                "INSTRUMENTALIST",
+                "MUSICIAN",
+                "ORCHESTRAL",
+                "MUSICALLY"
+              ],
+              "score": 0.6291800141334534
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIALIZED"
+              ],
+              "score": 0.6677227020263672
+            },
+            {
+              "words": [
+                "WHARF",
+                "CANAL",
+                "LAGOON",
+                "BARGE"
+              ],
+              "score": 0.543743371963501
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6363270282745361,
+      "created_at": "2026-04-20T06:34:41.522234+00:00",
+      "accepted": true
+    }
+  }
+]

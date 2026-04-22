@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "TOPOGRAPHICAL",
+      "CANAL",
+      "GENRE",
+      "SUFFIX",
+      "MUSICALLY",
+      "SOUNDTRACK",
+      "SLACK",
+      "ORCHESTRAL",
+      "SYNONYM",
+      "DRAINAGE",
+      "YAHOO",
+      "DICTIONARY",
+      "TELEGRAM",
+      "ESTUARY",
+      "TINDER",
+      "VOCABULARY"
+    ],
+    "groups": [
+      {
+        "category": "SOCIAL MEDIA PLATFORMS",
+        "words": [
+          "SLACK",
+          "YAHOO",
+          "TELEGRAM",
+          "TINDER"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.5293058156967163
+      },
+      {
+        "category": "AMBIENT MUSIC GENRES",
+        "words": [
+          "GENRE",
+          "MUSICALLY",
+          "ORCHESTRAL",
+          "SOUNDTRACK"
+        ],
+        "color": "green",
+        "similarity_score": 0.5271081924438477
+      },
+      {
+        "category": "WORDS RELATED TO RADICALS",
+        "words": [
+          "VOCABULARY",
+          "SUFFIX",
+          "SYNONYM",
+          "DICTIONARY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5202916264533997
+      },
+      {
+        "category": "CANAL-RELATED TERMS",
+        "words": [
+          "CANAL",
+          "TOPOGRAPHICAL",
+          "ESTUARY",
+          "DRAINAGE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.41206321120262146
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SLACK",
+                "YAHOO",
+                "TELEGRAM",
+                "TINDER"
+              ],
+              "score": 0.5293057560920715
+            },
+            {
+              "words": [
+                "GENRE",
+                "MUSICALLY",
+                "SOUNDTRACK",
+                "ORCHESTRAL"
+              ],
+              "score": 0.5271081328392029
+            },
+            {
+              "words": [
+                "SUFFIX",
+                "SYNONYM",
+                "DICTIONARY",
+                "VOCABULARY"
+              ],
+              "score": 0.5202917456626892
+            },
+            {
+              "words": [
+                "TOPOGRAPHICAL",
+                "CANAL",
+                "DRAINAGE",
+                "ESTUARY"
+              ],
+              "score": 0.4120631217956543
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "GENRE",
+                "MUSICALLY",
+                "SOUNDTRACK",
+                "ORCHESTRAL"
+              ],
+              "score": 0.5271081328392029
+            },
+            {
+              "words": [
+                "SUFFIX",
+                "SYNONYM",
+                "DICTIONARY",
+                "VOCABULARY"
+              ],
+              "score": 0.5202917456626892
+            },
+            {
+              "words": [
+                "SLACK",
+                "YAHOO",
+                "TELEGRAM",
+                "TINDER"
+              ],
+              "score": 0.5293057560920715
+            },
+            {
+              "words": [
+                "TOPOGRAPHICAL",
+                "CANAL",
+                "DRAINAGE",
+                "ESTUARY"
+              ],
+              "score": 0.4120631217956543
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.49719223380088806,
+      "created_at": "2026-04-20T06:27:41.289344+00:00",
+      "accepted": true
+    }
+  }
+]

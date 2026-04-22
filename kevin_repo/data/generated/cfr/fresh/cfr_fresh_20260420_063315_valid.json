@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "DRAINAGE",
+      "CANAL",
+      "RADICALISM",
+      "ORCHESTRAL",
+      "IDEOLOGY",
+      "NAZISM",
+      "SOCIABILITY",
+      "FANATICISM",
+      "MUSICALLY",
+      "EMBANKMENT",
+      "SOCIALITY",
+      "CLASSICAL",
+      "SOCIABLY",
+      "ESTUARY",
+      "SOCIALLY",
+      "GENRE"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO DESCRIBE SOCIABLE PEOPLE",
+        "words": [
+          "SOCIABILITY",
+          "SOCIALITY",
+          "SOCIABLY",
+          "SOCIALLY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.707529604434967
+      },
+      {
+        "category": "RADICAL IDEOLOGIES",
+        "words": [
+          "RADICALISM",
+          "IDEOLOGY",
+          "FANATICISM",
+          "NAZISM"
+        ],
+        "color": "green",
+        "similarity_score": 0.6545828580856323
+      },
+      {
+        "category": "STYLES OF AMBIENT MUSIC",
+        "words": [
+          "GENRE",
+          "ORCHESTRAL",
+          "MUSICALLY",
+          "CLASSICAL"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5329395532608032
+      },
+      {
+        "category": "WORDS RELATED TO CANALS",
+        "words": [
+          "CANAL",
+          "DRAINAGE",
+          "ESTUARY",
+          "EMBANKMENT"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4798610210418701
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIALITY",
+                "SOCIABLY",
+                "SOCIALLY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "RADICALISM",
+                "IDEOLOGY",
+                "NAZISM",
+                "FANATICISM"
+              ],
+              "score": 0.6545829176902771
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "MUSICALLY",
+                "CLASSICAL",
+                "GENRE"
+              ],
+              "score": 0.5329394340515137
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "CANAL",
+                "EMBANKMENT",
+                "ESTUARY"
+              ],
+              "score": 0.47986093163490295
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIALITY",
+                "SOCIABLY",
+                "SOCIALLY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "ORCHESTRAL",
+                "MUSICALLY",
+                "CLASSICAL",
+                "GENRE"
+              ],
+              "score": 0.5329394340515137
+            },
+            {
+              "words": [
+                "RADICALISM",
+                "IDEOLOGY",
+                "NAZISM",
+                "FANATICISM"
+              ],
+              "score": 0.6545829176902771
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "CANAL",
+                "EMBANKMENT",
+                "ESTUARY"
+              ],
+              "score": 0.47986093163490295
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5937283039093018,
+      "created_at": "2026-04-20T06:33:13.847764+00:00",
+      "accepted": true
+    }
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "COVE",
+      "BASIN",
+      "ECOLOGICAL",
+      "COMPOSITION",
+      "ENVIRONMENT",
+      "CONSERVATION",
+      "SOCIALLY",
+      "WILDLIFE",
+      "MUSICIANSHIP",
+      "WHARF",
+      "SOCIABLY",
+      "GENRE",
+      "SOCIALITY",
+      "POND",
+      "SOCIABILITY",
+      "MUSICALLY"
+    ],
+    "groups": [
+      {
+        "category": "ADVERBS FOR SOCIALIZING",
+        "words": [
+          "SOCIALLY",
+          "SOCIABLY",
+          "SOCIALITY",
+          "SOCIABILITY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.707529604434967
+      },
+      {
+        "category": "WORDS RELATED TO ENVIRONMENTALISM",
+        "words": [
+          "ECOLOGICAL",
+          "ENVIRONMENT",
+          "WILDLIFE",
+          "CONSERVATION"
+        ],
+        "color": "green",
+        "similarity_score": 0.5959565043449402
+      },
+      {
+        "category": "WAYS TO DESCRIBE MUSIC",
+        "words": [
+          "MUSICALLY",
+          "COMPOSITION",
+          "MUSICIANSHIP",
+          "GENRE"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5351054668426514
+      },
+      {
+        "category": "___ CANAL",
+        "words": [
+          "BASIN",
+          "COVE",
+          "POND",
+          "WHARF"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4966175854206085
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIALLY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIABILITY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "ECOLOGICAL",
+                "ENVIRONMENT",
+                "CONSERVATION",
+                "WILDLIFE"
+              ],
+              "score": 0.5959566235542297
+            },
+            {
+              "words": [
+                "COMPOSITION",
+                "MUSICIANSHIP",
+                "GENRE",
+                "MUSICALLY"
+              ],
+              "score": 0.5351055264472961
+            },
+            {
+              "words": [
+                "COVE",
+                "BASIN",
+                "WHARF",
+                "POND"
+              ],
+              "score": 0.4966176450252533
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "ECOLOGICAL",
+                "ENVIRONMENT",
+                "CONSERVATION",
+                "WILDLIFE"
+              ],
+              "score": 0.5959566235542297
+            },
+            {
+              "words": [
+                "SOCIALLY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIABILITY"
+              ],
+              "score": 0.707529604434967
+            },
+            {
+              "words": [
+                "COMPOSITION",
+                "MUSICIANSHIP",
+                "GENRE",
+                "MUSICALLY"
+              ],
+              "score": 0.5351055264472961
+            },
+            {
+              "words": [
+                "COVE",
+                "BASIN",
+                "WHARF",
+                "POND"
+              ],
+              "score": 0.4966176450252533
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5838022828102112,
+      "created_at": "2026-04-20T14:37:24.012723+00:00",
+      "accepted": true
+    }
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "SYNONYMOUS",
+      "SYNONYM",
+      "MENARCHE",
+      "DRAINAGE",
+      "MANUMISSION",
+      "MANTIC",
+      "SOCIABILITY",
+      "MENDACIOUS",
+      "ESTUARY",
+      "ANNIHILATE",
+      "SOCIALITY",
+      "EMBANKMENT",
+      "INTERPERSONAL",
+      "ABOLISH",
+      "SOCIALIZED",
+      "CANAL"
+    ],
+    "groups": [
+      {
+        "category": "ADJECTIVES DESCRIBING SOCIAL BEHAVIOR",
+        "words": [
+          "SOCIABILITY",
+          "SOCIALITY",
+          "INTERPERSONAL",
+          "SOCIALIZED"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6129471063613892
+      },
+      {
+        "category": "WORDS THAT END WITH 'MENT'",
+        "words": [
+          "MENARCHE",
+          "MANUMISSION",
+          "MENDACIOUS",
+          "MANTIC"
+        ],
+        "color": "green",
+        "similarity_score": 0.5528849363327026
+      },
+      {
+        "category": "WORDS RELATED TO CANALS",
+        "words": [
+          "CANAL",
+          "DRAINAGE",
+          "ESTUARY",
+          "EMBANKMENT"
+        ],
+        "color": "blue",
+        "similarity_score": 0.4798610210418701
+      },
+      {
+        "category": "SYNONYMS FOR RADICAL",
+        "words": [
+          "SYNONYM",
+          "SYNONYMOUS",
+          "ABOLISH",
+          "ANNIHILATE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4601658582687378
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIALITY",
+                "INTERPERSONAL",
+                "SOCIALIZED"
+              ],
+              "score": 0.6129471063613892
+            },
+            {
+              "words": [
+                "MENARCHE",
+                "MANUMISSION",
+                "MANTIC",
+                "MENDACIOUS"
+              ],
+              "score": 0.5528849959373474
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "ESTUARY",
+                "EMBANKMENT",
+                "CANAL"
+              ],
+              "score": 0.4798610210418701
+            },
+            {
+              "words": [
+                "SYNONYMOUS",
+                "SYNONYM",
+                "ANNIHILATE",
+                "ABOLISH"
+              ],
+              "score": 0.4601658284664154
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "MENARCHE",
+                "MANUMISSION",
+                "MANTIC",
+                "MENDACIOUS"
+              ],
+              "score": 0.5528849959373474
+            },
+            {
+              "words": [
+                "SYNONYMOUS",
+                "SYNONYM",
+                "ANNIHILATE",
+                "ABOLISH"
+              ],
+              "score": 0.4601658284664154
+            },
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIALITY",
+                "INTERPERSONAL",
+                "SOCIALIZED"
+              ],
+              "score": 0.6129471063613892
+            },
+            {
+              "words": [
+                "DRAINAGE",
+                "ESTUARY",
+                "EMBANKMENT",
+                "CANAL"
+              ],
+              "score": 0.4798610210418701
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5264647006988525,
+      "created_at": "2026-04-20T06:30:28.012037+00:00",
+      "accepted": true
+    }
+  }
+]

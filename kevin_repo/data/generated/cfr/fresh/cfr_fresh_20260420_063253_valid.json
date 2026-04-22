@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "POLITE",
+      "CORDIAL",
+      "WETNESS",
+      "MUSICIANSHIP",
+      "MOISTURE",
+      "PERVAPORATION",
+      "CANAL",
+      "DRENCHED",
+      "ORCHESTRAL",
+      "BUSINESSLIKE",
+      "WATERFRONT",
+      "PIANISTIC",
+      "WHARF",
+      "HOSPITABLE",
+      "HARBOR",
+      "MUSICALLY"
+    ],
+    "groups": [
+      {
+        "category": "FAMOUS CANALS",
+        "words": [
+          "CANAL",
+          "WATERFRONT",
+          "WHARF",
+          "HARBOR"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6047859191894531
+      },
+      {
+        "category": "WORDS ASSOCIATED WITH WATER",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "DRENCHED",
+          "PERVAPORATION"
+        ],
+        "color": "green",
+        "similarity_score": 0.5920476317405701
+      },
+      {
+        "category": "ADJECTIVES FOR MUSIC",
+        "words": [
+          "MUSICALLY",
+          "MUSICIANSHIP",
+          "ORCHESTRAL",
+          "PIANISTIC"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5851342082023621
+      },
+      {
+        "category": "WAYS TO SAY FRIENDLY",
+        "words": [
+          "CORDIAL",
+          "POLITE",
+          "HOSPITABLE",
+          "BUSINESSLIKE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4925874173641205
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "CANAL",
+                "WATERFRONT",
+                "WHARF",
+                "HARBOR"
+              ],
+              "score": 0.6047858595848083
+            },
+            {
+              "words": [
+                "WETNESS",
+                "MOISTURE",
+                "PERVAPORATION",
+                "DRENCHED"
+              ],
+              "score": 0.5920476317405701
+            },
+            {
+              "words": [
+                "MUSICIANSHIP",
+                "ORCHESTRAL",
+                "PIANISTIC",
+                "MUSICALLY"
+              ],
+              "score": 0.5851340889930725
+            },
+            {
+              "words": [
+                "POLITE",
+                "CORDIAL",
+                "BUSINESSLIKE",
+                "HOSPITABLE"
+              ],
+              "score": 0.4925873577594757
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "WETNESS",
+                "MOISTURE",
+                "PERVAPORATION",
+                "DRENCHED"
+              ],
+              "score": 0.5920476317405701
+            },
+            {
+              "words": [
+                "MUSICIANSHIP",
+                "ORCHESTRAL",
+                "PIANISTIC",
+                "MUSICALLY"
+              ],
+              "score": 0.5851340889930725
+            },
+            {
+              "words": [
+                "CANAL",
+                "WATERFRONT",
+                "WHARF",
+                "HARBOR"
+              ],
+              "score": 0.6047858595848083
+            },
+            {
+              "words": [
+                "POLITE",
+                "CORDIAL",
+                "BUSINESSLIKE",
+                "HOSPITABLE"
+              ],
+              "score": 0.4925873577594757
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.568638801574707,
+      "created_at": "2026-04-20T06:32:51.558525+00:00",
+      "accepted": true
+    }
+  }
+]

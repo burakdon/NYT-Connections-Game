@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "INTERPERSONAL",
+      "GREGARIOUS",
+      "CONSONANTAL",
+      "PIANO",
+      "VOCABULARY",
+      "LEXICON",
+      "WETNESS",
+      "LEXICAL",
+      "ORCHESTRAL",
+      "INTROSPECTIVE",
+      "MOISTURE",
+      "MUSICIANSHIP",
+      "WETTING",
+      "INDIVIDUALISTIC",
+      "PERVAPORATION",
+      "MUSICALLY"
+    ],
+    "groups": [
+      {
+        "category": "THINGS ASSOCIATED WITH WATER",
+        "words": [
+          "WETNESS",
+          "MOISTURE",
+          "WETTING",
+          "PERVAPORATION"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.6524547338485718
+      },
+      {
+        "category": "WORDS THAT BEGIN WITH 'C'",
+        "words": [
+          "CONSONANTAL",
+          "VOCABULARY",
+          "LEXICAL",
+          "LEXICON"
+        ],
+        "color": "green",
+        "similarity_score": 0.6449204087257385
+      },
+      {
+        "category": "TYPES OF MUSIC",
+        "words": [
+          "MUSICALLY",
+          "PIANO",
+          "ORCHESTRAL",
+          "MUSICIANSHIP"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5832194685935974
+      },
+      {
+        "category": "WAYS TO DESCRIBE PERSONALITY",
+        "words": [
+          "GREGARIOUS",
+          "INTERPERSONAL",
+          "INDIVIDUALISTIC",
+          "INTROSPECTIVE"
+        ],
+        "color": "purple",
+        "similarity_score": 0.58024662733078
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "WETNESS",
+                "MOISTURE",
+                "WETTING",
+                "PERVAPORATION"
+              ],
+              "score": 0.6524547934532166
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "VOCABULARY",
+                "LEXICON",
+                "LEXICAL"
+              ],
+              "score": 0.6449204087257385
+            },
+            {
+              "words": [
+                "PIANO",
+                "ORCHESTRAL",
+                "MUSICIANSHIP",
+                "MUSICALLY"
+              ],
+              "score": 0.5832194685935974
+            },
+            {
+              "words": [
+                "INTERPERSONAL",
+                "GREGARIOUS",
+                "INTROSPECTIVE",
+                "INDIVIDUALISTIC"
+              ],
+              "score": 0.5802467465400696
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "CONSONANTAL",
+                "VOCABULARY",
+                "LEXICON",
+                "LEXICAL"
+              ],
+              "score": 0.6449204087257385
+            },
+            {
+              "words": [
+                "INTERPERSONAL",
+                "GREGARIOUS",
+                "INTROSPECTIVE",
+                "INDIVIDUALISTIC"
+              ],
+              "score": 0.5802467465400696
+            },
+            {
+              "words": [
+                "WETNESS",
+                "MOISTURE",
+                "WETTING",
+                "PERVAPORATION"
+              ],
+              "score": 0.6524547934532166
+            },
+            {
+              "words": [
+                "PIANO",
+                "ORCHESTRAL",
+                "MUSICIANSHIP",
+                "MUSICALLY"
+              ],
+              "score": 0.5832194685935974
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.6152103543281555,
+      "created_at": "2026-04-20T07:21:12.173353+00:00",
+      "accepted": true
+    }
+  }
+]

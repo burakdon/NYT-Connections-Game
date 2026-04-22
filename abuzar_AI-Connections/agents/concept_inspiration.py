@@ -15,6 +15,11 @@ from agents.puzzle_validator import normalize_category, normalize_metadata_key
 ROOT_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_CONCEPT_PATH = ROOT_DIR / "data" / "concept_inspiration.json"
 VALID_HINTS = {"easy", "medium", "hard", "tricky"}
+BLOCKED_HIDDEN_SUBSTRING_CONCEPT_PATTERN = re.compile(
+    r"\b(?:words?\s+(?:that\s+)?(?:hide|hiding|contain|containing)|"
+    r"(?:hidden|hiding)\s+\w+)",
+    re.IGNORECASE,
+)
 NEAR_COPY_STOPWORDS = {
     "a",
     "an",
@@ -92,6 +97,8 @@ def load_concept_inspiration(path_text: str = str(DEFAULT_CONCEPT_PATH)) -> tupl
         item = normalize_concept_entry(raw_item)
         if not item or item["concept_key"] in seen:
             continue
+        if BLOCKED_HIDDEN_SUBSTRING_CONCEPT_PATTERN.search(item["concept"]):
+            continue
         concepts.append(item)
         seen.add(item["concept_key"])
 
@@ -166,11 +173,11 @@ or mechanism-shifted version.
 
 Good transformations use the seed's pattern while changing the actual concept:
 - "Types of bread" -> "Words before roll"
-- "Planets" -> "Words hiding planet names"
+- "Planets" -> "Words that are also programming languages"
 - "Dog breeds" -> "Words that are also boxing terms"
 - "Swimming strokes" -> "Words after back"
 - "Greek goddesses" -> "Words ending in goddess names"
-- "Subatomic particles" -> "Words hiding physics units"
+- "Subatomic particles" -> "Words with silent first letters"
 
 Bad transformations copy or lightly rename the seed:
 - "Types of bread" -> "Bread varieties"

@@ -56,10 +56,22 @@ def _groups_dict_from_abuzar(data: dict) -> dict:
 class AbuzarAIAdapter(PuzzleAdapter):
 
     name = 'abuzar_ai'
+    max_master_attempts = 2
 
-    def __init__(self, project_root: str, api_keys: dict = None):
+    def __init__(
+        self,
+        project_root: str,
+        api_keys: dict = None,
+        *,
+        agentic: bool = False,
+        agentic_strategy: str = 'standard',
+        agentic_review_rounds: int = 1,
+    ):
         self.project_root = project_root
         self.api_keys = api_keys or {}
+        self.agentic = agentic
+        self.agentic_strategy = agentic_strategy
+        self.agentic_review_rounds = max(1, min(int(agentic_review_rounds), 3))
 
     def _load_generated_puzzle(self, output_file: str) -> Optional[dict]:
         """run_fresh_puzzle.py saves to data/puzzles.json; tempfile is often unused."""
@@ -89,10 +101,23 @@ class AbuzarAIAdapter(PuzzleAdapter):
         env.update(self.api_keys)
         env['OUTPUT_FILE'] = output_file
         data = None
+        cmd = ['python', 'run_fresh_puzzle.py', '--output', output_file]
+        if self.agentic:
+            cmd = [
+                'python',
+                'generate_puzzles.py',
+                '--count', '1',
+                '--batch-size', '1',
+                '--difficulty', 'easy',
+                '--strategy', self.agentic_strategy,
+                '--max-attempts', '1',
+                '--max-empty-batches', '1',
+                '--max-review-rounds', str(self.agentic_review_rounds),
+            ]
 
         try:
             result = subprocess.run(
-                ['python', 'run_fresh_puzzle.py', '--output', output_file],
+                cmd,
                 cwd=self.project_root,
                 capture_output=True,
                 text=True,

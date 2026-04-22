@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "ARTS",
+      "MUSICALLY",
+      "RIVER",
+      "ACTIVISM",
+      "ESTUARY",
+      "WATERFRONT",
+      "SOCIABILITY",
+      "BARGE",
+      "IDEOLOGY",
+      "COMPOSITION",
+      "SOCIABLY",
+      "ANARCHIST",
+      "SOCIALITY",
+      "MUSICIANSHIP",
+      "SOCIALLY",
+      "MILITANT"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO BE SOCIABLE",
+        "words": [
+          "SOCIABILITY",
+          "SOCIABLY",
+          "SOCIALITY",
+          "SOCIALLY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.707529604434967
+      },
+      {
+        "category": "TYPE OF WATERWAY",
+        "words": [
+          "RIVER",
+          "ESTUARY",
+          "BARGE",
+          "WATERFRONT"
+        ],
+        "color": "green",
+        "similarity_score": 0.588820219039917
+      },
+      {
+        "category": "WORDS RELATED TO RADICALISM",
+        "words": [
+          "MILITANT",
+          "ACTIVISM",
+          "IDEOLOGY",
+          "ANARCHIST"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5550358891487122
+      },
+      {
+        "category": "GENRES OF MUSIC",
+        "words": [
+          "MUSICALLY",
+          "ARTS",
+          "MUSICIANSHIP",
+          "COMPOSITION"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5407992601394653
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIALLY"
+              ],
+              "score": 0.7075295448303223
+            },
+            {
+              "words": [
+                "RIVER",
+                "ESTUARY",
+                "WATERFRONT",
+                "BARGE"
+              ],
+              "score": 0.5888201594352722
+            },
+            {
+              "words": [
+                "ACTIVISM",
+                "IDEOLOGY",
+                "ANARCHIST",
+                "MILITANT"
+              ],
+              "score": 0.5550358891487122
+            },
+            {
+              "words": [
+                "ARTS",
+                "MUSICALLY",
+                "COMPOSITION",
+                "MUSICIANSHIP"
+              ],
+              "score": 0.5407993197441101
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "SOCIABILITY",
+                "SOCIABLY",
+                "SOCIALITY",
+                "SOCIALLY"
+              ],
+              "score": 0.7075295448303223
+            },
+            {
+              "words": [
+                "ACTIVISM",
+                "IDEOLOGY",
+                "ANARCHIST",
+                "MILITANT"
+              ],
+              "score": 0.5550358891487122
+            },
+            {
+              "words": [
+                "RIVER",
+                "ESTUARY",
+                "WATERFRONT",
+                "BARGE"
+              ],
+              "score": 0.5888201594352722
+            },
+            {
+              "words": [
+                "ARTS",
+                "MUSICALLY",
+                "COMPOSITION",
+                "MUSICIANSHIP"
+              ],
+              "score": 0.5407993197441101
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5980461835861206,
+      "created_at": "2026-04-20T07:21:33.452917+00:00",
+      "accepted": true
+    }
+  }
+]

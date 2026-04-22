@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "BEATLE",
+      "BAND",
+      "CANTER",
+      "TIDAL",
+      "CANTLE",
+      "CANTERING",
+      "EXIT",
+      "CANDOUR",
+      "MUSIC",
+      "ROCK",
+      "DEPARTURE",
+      "MUSICALLY",
+      "DEPART",
+      "ALBUM",
+      "LEAVING",
+      "VINYL"
+    ],
+    "groups": [
+      {
+        "category": "WAYS TO SAY GOODBYE",
+        "words": [
+          "EXIT",
+          "DEPARTURE",
+          "DEPART",
+          "LEAVING"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.7183854579925537
+      },
+      {
+        "category": "WORDS CONTAINING 'CAN'",
+        "words": [
+          "CANTER",
+          "CANTLE",
+          "CANDOUR",
+          "CANTERING"
+        ],
+        "color": "green",
+        "similarity_score": 0.5905311107635498
+      },
+      {
+        "category": "RADIOHEAD ALBUMS",
+        "words": [
+          "VINYL",
+          "TIDAL",
+          "MUSIC",
+          "MUSICALLY"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5417668223381042
+      },
+      {
+        "category": "___BAND",
+        "words": [
+          "BAND",
+          "BEATLE",
+          "ALBUM",
+          "ROCK"
+        ],
+        "color": "purple",
+        "similarity_score": 0.5194011926651001
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": false,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": false,
+          "groups_correct": 2,
+          "groups": [
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854579925537
+            },
+            {
+              "words": [
+                "BAND",
+                "MUSIC",
+                "MUSICALLY",
+                "ALBUM"
+              ],
+              "score": 0.6018574833869934
+            },
+            {
+              "words": [
+                "CANTER",
+                "CANTLE",
+                "CANTERING",
+                "CANDOUR"
+              ],
+              "score": 0.5905311703681946
+            },
+            {
+              "words": [
+                "BEATLE",
+                "TIDAL",
+                "ROCK",
+                "VINYL"
+              ],
+              "score": 0.42587199807167053
+            }
+          ]
+        },
+        "clustering": {
+          "solved": false,
+          "groups_correct": 2,
+          "groups": [
+            {
+              "words": [
+                "MUSIC",
+                "MUSICALLY",
+                "ALBUM",
+                "VINYL"
+              ],
+              "score": 0.5816280245780945
+            },
+            {
+              "words": [
+                "EXIT",
+                "DEPARTURE",
+                "DEPART",
+                "LEAVING"
+              ],
+              "score": 0.7183854579925537
+            },
+            {
+              "words": [
+                "CANTER",
+                "CANTLE",
+                "CANTERING",
+                "CANDOUR"
+              ],
+              "score": 0.5905311703681946
+            },
+            {
+              "words": [
+                "BEATLE",
+                "BAND",
+                "TIDAL",
+                "ROCK"
+              ],
+              "score": 0.4520968496799469
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5925211906433105,
+      "created_at": "2026-04-20T14:36:50.971599+00:00",
+      "accepted": false
+    }
+  }
+]

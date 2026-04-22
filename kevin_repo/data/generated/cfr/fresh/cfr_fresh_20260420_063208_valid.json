@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "CONSONANTAL",
+      "HYPHEN",
+      "CANAL",
+      "FLOATER",
+      "WATERFRONT",
+      "HARBOR",
+      "LIGHTS",
+      "WHARF",
+      "BUOYANT",
+      "SUFFIX",
+      "ILLUMINATING",
+      "SINKING",
+      "SUNLIGHT",
+      "VOWEL",
+      "DAYLIGHT",
+      "FLOATIE"
+    ],
+    "groups": [
+      {
+        "category": "FORMS OF LIGHT",
+        "words": [
+          "LIGHTS",
+          "ILLUMINATING",
+          "SUNLIGHT",
+          "DAYLIGHT"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.630729615688324
+      },
+      {
+        "category": "FAMOUS CANALS",
+        "words": [
+          "CANAL",
+          "WATERFRONT",
+          "WHARF",
+          "HARBOR"
+        ],
+        "color": "green",
+        "similarity_score": 0.6047859191894531
+      },
+      {
+        "category": "THINGS THAT FLOAT",
+        "words": [
+          "FLOATIE",
+          "FLOATER",
+          "BUOYANT",
+          "SINKING"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5744516849517822
+      },
+      {
+        "category": "WORDS ENDING IN -LY",
+        "words": [
+          "HYPHEN",
+          "CONSONANTAL",
+          "VOWEL",
+          "SUFFIX"
+        ],
+        "color": "purple",
+        "similarity_score": 0.4936542809009552
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "LIGHTS",
+                "ILLUMINATING",
+                "SUNLIGHT",
+                "DAYLIGHT"
+              ],
+              "score": 0.6307294964790344
+            },
+            {
+              "words": [
+                "CANAL",
+                "WATERFRONT",
+                "HARBOR",
+                "WHARF"
+              ],
+              "score": 0.6047859191894531
+            },
+            {
+              "words": [
+                "FLOATER",
+                "BUOYANT",
+                "SINKING",
+                "FLOATIE"
+              ],
+              "score": 0.5744515061378479
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "HYPHEN",
+                "SUFFIX",
+                "VOWEL"
+              ],
+              "score": 0.49365437030792236
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "FLOATER",
+                "BUOYANT",
+                "SINKING",
+                "FLOATIE"
+              ],
+              "score": 0.5744515061378479
+            },
+            {
+              "words": [
+                "CANAL",
+                "WATERFRONT",
+                "HARBOR",
+                "WHARF"
+              ],
+              "score": 0.6047859191894531
+            },
+            {
+              "words": [
+                "LIGHTS",
+                "ILLUMINATING",
+                "SUNLIGHT",
+                "DAYLIGHT"
+              ],
+              "score": 0.6307294964790344
+            },
+            {
+              "words": [
+                "CONSONANTAL",
+                "HYPHEN",
+                "SUFFIX",
+                "VOWEL"
+              ],
+              "score": 0.49365437030792236
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.5759053826332092,
+      "created_at": "2026-04-20T06:32:06.411337+00:00",
+      "accepted": true
+    }
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "CFR-00001",
+    "words": [
+      "PLUMBING",
+      "CANAL",
+      "MUSICALLY",
+      "GREGARIOUS",
+      "OPERATIC",
+      "PIANO",
+      "LOBLOLLY",
+      "ORCHESTRAL",
+      "AMIABLE",
+      "SWAMP",
+      "SHAPELY",
+      "AMICABLE",
+      "SLIVERY",
+      "DRAINAGE",
+      "SLINKY",
+      "HOSPITABLE"
+    ],
+    "groups": [
+      {
+        "category": "WORDS ENDING IN 'LY'",
+        "words": [
+          "LOBLOLLY",
+          "SHAPELY",
+          "SLIVERY",
+          "SLINKY"
+        ],
+        "color": "yellow",
+        "similarity_score": 0.5718329548835754
+      },
+      {
+        "category": "MUSIC GENRES THAT BEGIN WITH 'A'",
+        "words": [
+          "MUSICALLY",
+          "OPERATIC",
+          "ORCHESTRAL",
+          "PIANO"
+        ],
+        "color": "green",
+        "similarity_score": 0.5684649348258972
+      },
+      {
+        "category": "SYNONYMS FOR FRIENDLY",
+        "words": [
+          "HOSPITABLE",
+          "GREGARIOUS",
+          "AMIABLE",
+          "AMICABLE"
+        ],
+        "color": "blue",
+        "similarity_score": 0.5576756596565247
+      },
+      {
+        "category": "THINGS ASSOCIATED WITH CANALS",
+        "words": [
+          "CANAL",
+          "PLUMBING",
+          "DRAINAGE",
+          "SWAMP"
+        ],
+        "color": "purple",
+        "similarity_score": 0.48481035232543945
+      }
+    ],
+    "metadata": {
+      "generation_method": "cfr_fresh",
+      "solver_agreement": true,
+      "solvers_used": [
+        "embedding",
+        "clustering"
+      ],
+      "solver_results": {
+        "embedding": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "LOBLOLLY",
+                "SHAPELY",
+                "SLIVERY",
+                "SLINKY"
+              ],
+              "score": 0.5718329548835754
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "OPERATIC",
+                "PIANO",
+                "ORCHESTRAL"
+              ],
+              "score": 0.5684648156166077
+            },
+            {
+              "words": [
+                "GREGARIOUS",
+                "AMIABLE",
+                "AMICABLE",
+                "HOSPITABLE"
+              ],
+              "score": 0.5576756596565247
+            },
+            {
+              "words": [
+                "PLUMBING",
+                "CANAL",
+                "SWAMP",
+                "DRAINAGE"
+              ],
+              "score": 0.4848102033138275
+            }
+          ]
+        },
+        "clustering": {
+          "solved": true,
+          "groups_correct": 4,
+          "groups": [
+            {
+              "words": [
+                "LOBLOLLY",
+                "SHAPELY",
+                "SLIVERY",
+                "SLINKY"
+              ],
+              "score": 0.5718329548835754
+            },
+            {
+              "words": [
+                "MUSICALLY",
+                "OPERATIC",
+                "PIANO",
+                "ORCHESTRAL"
+              ],
+              "score": 0.5684648156166077
+            },
+            {
+              "words": [
+                "GREGARIOUS",
+                "AMIABLE",
+                "AMICABLE",
+                "HOSPITABLE"
+              ],
+              "score": 0.5576756596565247
+            },
+            {
+              "words": [
+                "PLUMBING",
+                "CANAL",
+                "SWAMP",
+                "DRAINAGE"
+              ],
+              "score": 0.4848102033138275
+            }
+          ]
+        }
+      },
+      "dedup_check": true,
+      "dedup_reason": "",
+      "exact_group_match": false,
+      "overall_difficulty": 0.545695960521698,
+      "created_at": "2026-04-20T06:38:27.543200+00:00",
+      "accepted": true
+    }
+  }
+]

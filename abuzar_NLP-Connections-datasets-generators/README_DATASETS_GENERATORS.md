@@ -74,8 +74,6 @@ Example group output:
 - `data/`: generated CSVs, model artifacts, word lists, and intermediate datasets.
 - `generators/`: scripts that create candidate groups or score/filter them.
 - `extractors/`: scripts that extract compounds, anagrams, verb lists, and associations.
-- `terminal_game/`: original terminal game file for reference.
-- `references/`: original project README/PDF.
 
 ## Notes
 
