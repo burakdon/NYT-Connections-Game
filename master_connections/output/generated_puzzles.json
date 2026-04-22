@@ -20503,5 +20503,351 @@
     "meta": {
       "impostor": null
     }
+  },
+  {
+    "id": "7951e94d-c8ab-4b2e-9ce8-05a19684ea39",
+    "source": "burak",
+    "generated_at": "2026-04-22T15:27:55.369358",
+    "board": [
+      "COME",
+      "SIDE",
+      "VISITING",
+      "UNCLE",
+      "OPPOSITE",
+      "VISITOR",
+      "FATHER",
+      "WAVE",
+      "ELDER",
+      "LINED",
+      "SHELL",
+      "TIDE",
+      "NECESSITY",
+      "SAND",
+      "BROTHER",
+      "REACH"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "ELDER",
+          "UNCLE",
+          "FATHER",
+          "BROTHER"
+        ],
+        "connection": "Male Family Members",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "OPPOSITE",
+          "NECESSITY",
+          "VISITOR",
+          "VISITING"
+        ],
+        "connection": "Contain hidden \"SIT\"",
+        "mechanism": "letter_pattern"
+      },
+      "blue": {
+        "words": [
+          "SAND",
+          "WAVE",
+          "SHELL",
+          "TIDE"
+        ],
+        "connection": "Things at a beach",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "REACH",
+          "SIDE",
+          "COME",
+          "LINED"
+        ],
+        "connection": "\"OUT\" + ___",
+        "mechanism": "prefix"
+      }
+    },
+    "meta": {
+      "impostor": null
+    }
+  },
+  {
+    "id": "19294447-52ef-42d6-a5cb-37016513d53d",
+    "source": "burak",
+    "generated_at": "2026-04-22T17:15:11.281719",
+    "board": [
+      "BARISTA",
+      "LATTE",
+      "DUDE",
+      "FELLOW",
+      "LOCALE",
+      "SCONE",
+      "RELATION",
+      "SHALL",
+      "FRIEND",
+      "ROOMMATE",
+      "SCHOLAR",
+      "DAD",
+      "CANAL",
+      "BUDDY",
+      "PAL",
+      "BLEND"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "BUDDY",
+          "DAD",
+          "ROOMMATE",
+          "DUDE"
+        ],
+        "connection": "Ways to Address a Guy",
+        "mechanism": "word2vec"
+      },
+      "green": {
+        "words": [
+          "PAL",
+          "LOCALE",
+          "SHALL",
+          "CANAL"
+        ],
+        "connection": "Words that rhyme",
+        "mechanism": "rhyme"
+      },
+      "blue": {
+        "words": [
+          "LATTE",
+          "SCONE",
+          "BARISTA",
+          "BLEND"
+        ],
+        "connection": "Things at a coffee shop",
+        "mechanism": "llm_niche"
+      },
+      "purple": {
+        "words": [
+          "FELLOW",
+          "SCHOLAR",
+          "FRIEND",
+          "RELATION"
+        ],
+        "connection": "___ + \"SHIP\"",
+        "mechanism": "suffix"
+      }
+    },
+    "meta": {
+      "impostor": {
+        "anchor": "FRIEND",
+        "imp1": "PAL",
+        "imp1_mechanism": "letter_pattern",
+        "imp1_target": "green",
+        "imp2_target": "yellow",
+        "imp2": "BUDDY",
+        "fake_connection": "Informal words for a close companion"
+      }
+    }
+  },
+  {
+    "id": "44d159b8-d8b0-45c9-a74c-0c910495b3c2",
+    "source": "adreama",
+    "generated_at": "2026-04-22T17:15:36.081084",
+    "board": [
+      "PANEL",
+      "CHIME",
+      "RING",
+      "STUFF",
+      "STOP",
+      "METAL",
+      "STREET",
+      "ECHO",
+      "WHISPER",
+      "FLASH",
+      "BENCH",
+      "SPOT",
+      "PLASTIC",
+      "BOARD",
+      "FABRIC",
+      "WOOD"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "FABRIC",
+          "WOOD",
+          "METAL",
+          "PLASTIC"
+        ],
+        "connection": "types of materials",
+        "mechanism": "llm_gpt41"
+      },
+      "green": {
+        "words": [
+          "ECHO",
+          "CHIME",
+          "RING",
+          "WHISPER"
+        ],
+        "connection": "things associated with sound",
+        "mechanism": "llm_gpt41"
+      },
+      "blue": {
+        "words": [
+          "SPOT",
+          "STOP",
+          "FLASH",
+          "STREET"
+        ],
+        "connection": "___ light",
+        "mechanism": "llm_gpt41"
+      },
+      "purple": {
+        "words": [
+          "PANEL",
+          "BOARD",
+          "BENCH",
+          "STUFF"
+        ],
+        "connection": "collective nouns for professions",
+        "mechanism": "llm_gpt41"
+      }
+    },
+    "meta": {
+      "trap_word": "stuff",
+      "false_group": "",
+      "trap_impersonates": "materials"
+    }
+  },
+  {
+    "id": "74649bd5-33ba-47f5-aebd-bd54998d0b87",
+    "source": "abuzar_nlp",
+    "generated_at": "2026-04-22T17:16:30.389794",
+    "board": [
+      "FARMHOUSE",
+      "THIEF",
+      "TRUCK",
+      "PEDDLER",
+      "BURN",
+      "CASTLE",
+      "PUNK",
+      "SHINE",
+      "PUSHER",
+      "RISE",
+      "VILLA",
+      "SALOON",
+      "ELECTRIC",
+      "CAR",
+      "RESIDENCE",
+      "SET"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "CASTLE",
+          "FARMHOUSE",
+          "RESIDENCE",
+          "VILLA"
+        ],
+        "connection": "Dwellings",
+        "mechanism": "wordnet_easy_hypernym"
+      },
+      "green": {
+        "words": [
+          "CAR",
+          "ELECTRIC",
+          "SALOON",
+          "TRUCK"
+        ],
+        "connection": "Wheeled Vehicles",
+        "mechanism": "wordnet_common_hypernym"
+      },
+      "blue": {
+        "words": [
+          "PEDDLER",
+          "PUNK",
+          "PUSHER",
+          "THIEF"
+        ],
+        "connection": "Criminal Terms",
+        "mechanism": "wordnet_direct_hypernym"
+      },
+      "purple": {
+        "words": [
+          "BURN",
+          "RISE",
+          "SET",
+          "SHINE"
+        ],
+        "connection": "SUN ___",
+        "mechanism": "compound_prefix"
+      }
+    },
+    "meta": {}
+  },
+  {
+    "id": "7a36b416-f7c5-47c5-b0fa-c80831f8c331",
+    "source": "abuzar_ai",
+    "generated_at": "2026-04-22T17:18:27.739622",
+    "board": [
+      "SIGMA",
+      "DELTA",
+      "PAN",
+      "AZURE",
+      "STRAW",
+      "WOOD",
+      "SABLE",
+      "APPEAL",
+      "LOCK",
+      "LINE",
+      "SLIPPERY",
+      "GULES",
+      "ALPHA",
+      "CIRCULAR",
+      "OMEGA",
+      "OR"
+    ],
+    "groups": {
+      "yellow": {
+        "words": [
+          "DELTA",
+          "SIGMA",
+          "OMEGA",
+          "ALPHA"
+        ],
+        "connection": "Common Words That Are Also Greek Letters",
+        "mechanism": "double_identity"
+      },
+      "green": {
+        "words": [
+          "LOCK",
+          "LINE",
+          "WOOD",
+          "PAN"
+        ],
+        "connection": "Words After DEAD",
+        "mechanism": "phrase_completion"
+      },
+      "blue": {
+        "words": [
+          "AZURE",
+          "GULES",
+          "SABLE",
+          "OR"
+        ],
+        "connection": "Common Words That Are Also Heraldic Terms",
+        "mechanism": "double_identity"
+      },
+      "purple": {
+        "words": [
+          "STRAW",
+          "SLIPPERY",
+          "APPEAL",
+          "CIRCULAR"
+        ],
+        "connection": "Also a Type of Logical Fallacy",
+        "mechanism": "double_identity"
+      }
+    },
+    "meta": {}
   }
 ]
