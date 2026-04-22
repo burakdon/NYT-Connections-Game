@@ -381,6 +381,25 @@
       "verified": true
     },
     {
+      "id": "3bdb6dc6d2d5",
+      "category": "Common Words That Are Also Greek Letters",
+      "difficulty": "easy",
+      "words": [
+        "DELTA",
+        "SIGMA",
+        "OMEGA",
+        "ALPHA"
+      ],
+      "explanation": "DELTA, SIGMA, OMEGA, and ALPHA are everyday English words that are also letters in the Greek alphabet.",
+      "mechanism_family": "double_identity",
+      "concept_key": "words_that_are_greek_letters",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "3caec9e03844",
       "category": "Continents",
       "difficulty": "easy",
@@ -1650,6 +1669,25 @@
       "origin": {
         "source": "sync-from-master",
         "puzzle_id": "2ee0f296-f85f-4f7f-b968-a9e3126074d0"
+      },
+      "verified": true
+    },
+    {
+      "id": "328fb2ff2ed2",
+      "category": "Common Words That Are Also Heraldic Terms",
+      "difficulty": "hard",
+      "words": [
+        "AZURE",
+        "GULES",
+        "SABLE",
+        "OR"
+      ],
+      "explanation": "AZURE (blue), GULES (red), SABLE (black), and OR (gold) are all standard tincture terms used in heraldry.",
+      "mechanism_family": "double_identity",
+      "concept_key": "heraldic_terms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
       },
       "verified": true
     },
@@ -3550,6 +3588,25 @@
       "verified": true
     },
     {
+      "id": "b867bbe64362",
+      "category": "Words After DEAD",
+      "difficulty": "medium",
+      "words": [
+        "LOCK",
+        "LINE",
+        "WOOD",
+        "PAN"
+      ],
+      "explanation": "DEADLOCK, DEADLINE, DEADWOOD, and DEADPAN are all compound words formed by placing DEAD before the answer.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_dead",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
       "id": "6b4b64faf5cf",
       "category": "Words before 'house'",
       "difficulty": "medium",
@@ -4284,6 +4341,25 @@
       "explanation": "Each word is a common English word or phrase that is also the name of a specific knot used in sailing or climbing.",
       "mechanism_family": "double_identity",
       "concept_key": "types_of_knot",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "0705c50f6468",
+      "category": "Also a Type of Logical Fallacy",
+      "difficulty": "tricky",
+      "words": [
+        "STRAW",
+        "SLIPPERY",
+        "APPEAL",
+        "CIRCULAR"
+      ],
+      "explanation": "Each word is the key word in a named logical fallacy: strawman, slippery slope, appeal to authority, and circular reasoning.",
+      "mechanism_family": "double_identity",
+      "concept_key": "logical_fallacy_names",
       "source": "claude-group-agent",
       "origin": {
         "source": "claude-group-agent"

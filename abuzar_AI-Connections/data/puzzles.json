@@ -3435,5 +3435,64 @@
     "source": "group-bank-assembler",
     "difficulty_mode": "easy",
     "id": "gb-0b3a432977b5"
+  },
+  {
+    "groups": [
+      {
+        "category": "Common Words That Are Also Greek Letters",
+        "difficulty": "easy",
+        "words": [
+          "DELTA",
+          "SIGMA",
+          "OMEGA",
+          "ALPHA"
+        ],
+        "explanation": "DELTA, SIGMA, OMEGA, and ALPHA are everyday English words that are also letters in the Greek alphabet.",
+        "mechanism_family": "double_identity",
+        "concept_key": "words_that_are_greek_letters"
+      },
+      {
+        "category": "Words After DEAD",
+        "difficulty": "medium",
+        "words": [
+          "LOCK",
+          "LINE",
+          "WOOD",
+          "PAN"
+        ],
+        "explanation": "DEADLOCK, DEADLINE, DEADWOOD, and DEADPAN are all compound words formed by placing DEAD before the answer.",
+        "mechanism_family": "phrase_completion",
+        "concept_key": "phrase_after_dead"
+      },
+      {
+        "category": "Common Words That Are Also Heraldic Terms",
+        "difficulty": "hard",
+        "words": [
+          "AZURE",
+          "GULES",
+          "SABLE",
+          "OR"
+        ],
+        "explanation": "AZURE (blue), GULES (red), SABLE (black), and OR (gold) are all standard tincture terms used in heraldry.",
+        "mechanism_family": "double_identity",
+        "concept_key": "heraldic_terms"
+      },
+      {
+        "category": "Also a Type of Logical Fallacy",
+        "difficulty": "tricky",
+        "words": [
+          "STRAW",
+          "SLIPPERY",
+          "APPEAL",
+          "CIRCULAR"
+        ],
+        "explanation": "Each word is the key word in a named logical fallacy: strawman, slippery slope, appeal to authority, and circular reasoning.",
+        "mechanism_family": "double_identity",
+        "concept_key": "logical_fallacy_names"
+      }
+    ],
+    "source": "group-bank-assembler",
+    "difficulty_mode": "easy",
+    "id": "gb-a23300de0d3e"
   }
 ]

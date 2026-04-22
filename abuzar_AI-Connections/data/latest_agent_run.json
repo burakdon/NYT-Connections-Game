@@ -1,16 +1,990 @@
 {
-  "accepted": [],
-  "rejected": [
+  "accepted": [
     {
-      "errors": [
-        "Claude error: Missing ANTHROPIC_API_KEY. Add it to .env.local or your shell."
+      "groups": [
+        {
+          "category": "Common Words That Are Also Greek Letters",
+          "difficulty": "easy",
+          "words": [
+            "DELTA",
+            "SIGMA",
+            "OMEGA",
+            "ALPHA"
+          ],
+          "explanation": "DELTA, SIGMA, OMEGA, and ALPHA are everyday English words that are also letters in the Greek alphabet.",
+          "mechanism_family": "double_identity",
+          "concept_key": "words_that_are_greek_letters"
+        },
+        {
+          "category": "Words After DEAD",
+          "difficulty": "medium",
+          "words": [
+            "LOCK",
+            "LINE",
+            "WOOD",
+            "PAN"
+          ],
+          "explanation": "DEADLOCK, DEADLINE, DEADWOOD, and DEADPAN are all compound words formed by placing DEAD before the answer.",
+          "mechanism_family": "phrase_completion",
+          "concept_key": "phrase_after_dead"
+        },
+        {
+          "category": "Common Words That Are Also Heraldic Terms",
+          "difficulty": "hard",
+          "words": [
+            "AZURE",
+            "GULES",
+            "SABLE",
+            "OR"
+          ],
+          "explanation": "AZURE (blue), GULES (red), SABLE (black), and OR (gold) are all standard tincture terms used in heraldry.",
+          "mechanism_family": "double_identity",
+          "concept_key": "heraldic_terms"
+        },
+        {
+          "category": "Also a Type of Logical Fallacy",
+          "difficulty": "tricky",
+          "words": [
+            "STRAW",
+            "SLIPPERY",
+            "APPEAL",
+            "CIRCULAR"
+          ],
+          "explanation": "Each word is the key word in a named logical fallacy: strawman, slippery slope, appeal to authority, and circular reasoning.",
+          "mechanism_family": "double_identity",
+          "concept_key": "logical_fallacy_names"
+        }
       ],
-      "stage": "fresh_puzzle_runner"
+      "source": "group-bank-assembler",
+      "difficulty_mode": "easy",
+      "id": "gb-a23300de0d3e"
     }
   ],
-  "trace": [],
-  "saved": false,
-  "bank_total": 65,
-  "group_bank_total": 259,
-  "generated_groups": []
+  "rejected": [
+    {
+      "group": {
+        "id": "16604e6c3c5d",
+        "category": "Types of Cake",
+        "difficulty": "easy",
+        "words": [
+          "CARROT",
+          "SPONGE",
+          "MARBLE",
+          "ANGEL"
+        ],
+        "explanation": "CARROT cake, SPONGE cake, MARBLE cake, and ANGEL (food) cake are all well-known cake varieties.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "types_of_cake",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its category: Types of Cake."
+      ],
+      "stage": "local_group_validator",
+      "color": "yellow",
+      "lane": "easy"
+    },
+    {
+      "group": {
+        "id": "7c25f0b7ea35",
+        "category": "Add G to the Front to Make a New Word",
+        "difficulty": "easy",
+        "words": [
+          "LOVE",
+          "OLD",
+          "LOOM",
+          "ROAN"
+        ],
+        "explanation": "Adding G to the front of each word gives GLOVE, GOLD, GLOOM, and GROAN.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_add_g_front",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Category label repeats an existing verified group: Add G to the Front to Make a New Word."
+      ],
+      "stage": "local_group_validator",
+      "color": "yellow",
+      "lane": "easy"
+    },
+    {
+      "group": {
+        "id": "067c1bec9b5f",
+        "category": "Homophones of Letters of the Alphabet",
+        "difficulty": "easy",
+        "words": [
+          "JAY",
+          "TEA",
+          "PEA",
+          "EWE"
+        ],
+        "explanation": "JAY sounds like J, TEA sounds like T, PEA sounds like P, and EWE sounds like U.",
+        "mechanism_family": "sound",
+        "concept_key": "homophones_of_alphabet_letters",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Category concept repeats an existing verified group: Homophones of Letters of the Alphabet overlaps Words that sound like a letter of the alphabet."
+      ],
+      "stage": "local_group_validator",
+      "color": "yellow",
+      "lane": "easy"
+    },
+    {
+      "group": {
+        "id": "fd119ad89f6d",
+        "category": "Distilled Spirits",
+        "difficulty": "easy",
+        "words": [
+          "WHISKEY",
+          "VODKA",
+          "RUM",
+          "GIN"
+        ],
+        "explanation": "WHISKEY, VODKA, RUM, and GIN are all distilled alcoholic spirits.",
+        "mechanism_family": "semantic_set",
+        "concept_key": "distilled_spirits",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Generated group copies an inspiration concept exactly as its category: Distilled Spirits."
+      ],
+      "stage": "local_group_validator",
+      "color": "yellow",
+      "lane": "easy"
+    },
+    {
+      "group": {
+        "id": "d3f56e10fe41",
+        "category": "Add G to the Front to Make a New Word",
+        "difficulty": "medium",
+        "words": [
+          "LOVER",
+          "OLD",
+          "ROAN",
+          "LANCE"
+        ],
+        "explanation": "GLOVER, GOLD, GROAN, and GLANCE are each formed by adding G to the front of the answer word.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_add_g_front",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Category label repeats an existing verified group: Add G to the Front to Make a New Word."
+      ],
+      "stage": "local_group_validator",
+      "color": "green",
+      "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "bf53097b3f7d",
+        "category": "Common Words That Are Also Cloud Types",
+        "difficulty": "medium",
+        "words": [
+          "CIRRUS",
+          "NIMBUS",
+          "STRATUS",
+          "CUMULUS"
+        ],
+        "explanation": "Each word is a common English word that is also an official meteorological cloud classification.",
+        "mechanism_family": "double_identity",
+        "concept_key": "cloud_types_double_identity",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Answer group repeats an existing verified group: CIRRUS, CUMULUS, NIMBUS, STRATUS."
+      ],
+      "stage": "local_group_validator",
+      "color": "green",
+      "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "ffe65f6c094c",
+        "category": "Homophones of a Number",
+        "difficulty": "medium",
+        "words": [
+          "ATE",
+          "WON",
+          "FOR",
+          "TOO"
+        ],
+        "explanation": "ATE sounds like eight, WON like one, FOR like four, and TOO like two.",
+        "mechanism_family": "sound",
+        "concept_key": "homophones_of_numbers",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Answer group repeats an existing verified group: ATE, FOR, TOO, WON.",
+        "Category concept repeats an existing verified group: Homophones of a Number overlaps Homophones of numbers.",
+        "Generated group copies an inspiration concept exactly as its concept_key: homophones_of_numbers."
+      ],
+      "stage": "local_group_validator",
+      "color": "green",
+      "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "487241254863",
+        "category": "Things You Can Pilot",
+        "difficulty": "medium",
+        "words": [
+          "DRONE",
+          "BARGE",
+          "GLIDER",
+          "SUBMARINE"
+        ],
+        "explanation": "A drone, barge, glider, and submarine are all vessels or craft that someone can pilot.",
+        "mechanism_family": "shared_property",
+        "concept_key": "things_you_can_pilot",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "BARGE is piloted in a loose sense \u2014 barges are typically steered/navigated rather than 'piloted', and are often unpowered or towed; this may feel awkward to some solvers",
+        "DRONE could overlap conceptually with existing aerial/vehicle categories if added later"
+      ],
+      "stage": "group_auditor",
+      "color": "green",
+      "lane": "medium"
+    },
+    {
+      "group": {
+        "id": "6da56787befb",
+        "category": "Add G to the Front to Make a New Word",
+        "difficulty": "hard",
+        "words": [
+          "LOVE",
+          "ROAN",
+          "LOWER",
+          "LINT"
+        ],
+        "explanation": "GLOVE, GROAN, GLOWER, and GLINT are all formed by adding G to the front of each answer word.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_add_g_front",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Category label repeats an existing verified group: Add G to the Front to Make a New Word."
+      ],
+      "stage": "local_group_validator",
+      "color": "blue",
+      "lane": "hard"
+    },
+    {
+      "group": {
+        "id": "10e752ab18ae",
+        "category": "Things That Have a Face but No Eyes",
+        "difficulty": "hard",
+        "words": [
+          "CLOCK",
+          "CLIFF",
+          "COIN",
+          "HAMMER"
+        ],
+        "explanation": "A clock, cliff, coin, and hammer each have a 'face' \u2014 a flat front surface \u2014 but none have eyes.",
+        "mechanism_family": "shared_property",
+        "concept_key": "has_face_no_eyes",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Answer group overlaps 3+ words with an existing verified group: CLIFF, CLOCK, COIN, HAMMER overlaps CARD, CLIFF, CLOCK, COIN."
+      ],
+      "stage": "local_group_validator",
+      "color": "blue",
+      "lane": "hard"
+    },
+    {
+      "group": {
+        "id": "1a2a2e28c025",
+        "category": "Words That Become an Animal When Reversed",
+        "difficulty": "hard",
+        "words": [
+          "WARD",
+          "LOOP",
+          "DEER",
+          "PLUG"
+        ],
+        "explanation": "Reversed: WARD \u2192 DRAW (no) \u2014 corrected set: LOOP \u2192 POOL (no); valid set: WARD\u2192DRAW, PLUG\u2192GULP, DEER\u2192REED, STAB\u2192BATS \u2014 final verified: reversing LOOP gives POOL (fish), reversing WARD gives DRAW, reversing DEER gives REED, reversing PLUG gives GULP; only LOOP\u2192POOL works cleanly, so replacing with confirmed set: GNU=UNG no \u2014 final clean set uses LOOPS\u2192SPOOL, EMU hidden \u2014 using strict reversal: NAP\u2192PAN, PUMA\u2192AMUP \u2014 correct verified words: reversing RATS gives STAR, reversing DEER gives REED, reversing EMUS gives SUME \u2014 repair: STORK reversed is KROTS, invalid; final answer: DRAB\u2192BARD(no); verified clean group: reversing WOLF gives FLOW, reversing DEER gives REED, reversing LOOP gives POOL, reversing TUNA gives ANUT \u2014 POOL is a fish (valid), FLOW is a word, REED is a word, ANUT is not \u2014 replace TUNA with RATS: reversed RATS=STAR(not animal), replace with EELS: reversed EELS=SLEE(no) \u2014 replace with STAB: reversed=BATS(animal\u2713), WOLF reversed=FLOW(not animal as primary), replace WOLF with PARD: reversed=DRAP(no); final verified: STAB\u2192BATS\u2713, LOOP\u2192POOL(fish\u2713), DEER\u2192REED(not animal) replace with MAPS\u2192SPAM(no), use SPIT\u2192TIPS(no), use DRAY\u2192YARD(no), use RATS\u2192STAR(no), use TOAD\u2192DAOT(no), use GNAT\u2192TANG(fish\u2713), use LARK\u2192KRAL(no), use EMUS\u2192SUME(no); final four with animal reversals: STAB(BATS\u2713), LOOP(POOL-fish\u2713), GNAT(TANG-fish\u2713), DRAB(BARD-no) replace with PUMA reversed=AMUP(no); use MYNA reversed=ANYM(no); use SNIP reversed=PINS(no); use TUNA reversed=ANUT(no); LOIN reversed=NIOL(no); LION reversed=NOIL(no); VOLE reversed=ELOV(no); LYNX reversed=XNYL(no); WASP reversed=PSAW(no); CRAM reversed=MARC(no); DACE reversed=ECAD(no); CROW reversed=WORC(no); WREN reversed=NERW(no); SMEW reversed=WEMS(no); EGRET reversed=TERGE(no,5 letters); use STAB(BATS\u2713),LOOP(POOL\u2713),GNAT(TANG\u2713), and DABS reversed=SBAD(no); BATS reversed=STAB(not animal displayed); display the animal-revealing word: show STAB,LOOP,GNAT and one more \u2014 POTS reversed=STOP(no); STAR reversed=RATS\u2713 so display STAR; final four: STAB, LOOP, GNAT, STAR \u2014 reversed: BATS\u2713, POOL(fish)\u2713, TANG(fish)\u2713, RATS\u2713.",
+        "mechanism_family": "spelling",
+        "concept_key": "reversal_reveals_animal",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Group 'Words That Become an Animal When Reversed' explanation is too long.",
+        "Group 'Words That Become an Animal When Reversed' explanation contains draft text."
+      ],
+      "stage": "local_group_validator",
+      "color": "blue",
+      "lane": "hard"
+    },
+    {
+      "group": {
+        "id": "2307abeb7739",
+        "category": "Remove One Letter to Spell a Country",
+        "difficulty": "tricky",
+        "words": [
+          "FRAYNE",
+          "CHILLY",
+          "GREASE",
+          "PAINLESS"
+        ],
+        "explanation": "Remove one letter from each word to get a country: FRAYNE\u2192FRANCE, CHILLY\u2192CHILE, GREASE\u2192GREECE, PAINLESS\u2192PANAMA... wait \u2014 let me correct: FRAYNE\u2192FRANCE (remove Y), CHILLY\u2192CHILE (remove L), GREASE\u2192GREECE (remove A), SPAIN from PAINLESS is multi-letter \u2014 replacing PAINLESS with SPAING is invalid.",
+        "mechanism_family": "transformation",
+        "concept_key": "transformation_remove_letter_reveal_country",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Group 'Remove One Letter to Spell a Country' explanation is too long.",
+        "Group 'Remove One Letter to Spell a Country' explanation contains draft text."
+      ],
+      "stage": "local_group_validator",
+      "color": "purple",
+      "lane": "tricky"
+    },
+    {
+      "group": {
+        "id": "9eb499d1f60d",
+        "category": "Country Names That Are Also Verbs",
+        "difficulty": "tricky",
+        "words": [
+          "IRAN",
+          "CHILE",
+          "TONGA",
+          "PERU"
+        ],
+        "explanation": "Each is a country name that doubles as an English verb or past tense: IRAN (past tense of run), PERU (to peruse, informally), CHILE (to chill), JORDAN (to jord \u2014 no); corrected set uses only clean fits: IRAN (ran), CHILE (chill), TONGA (tong), NIGER (nige) \u2014 replacing with confirmed set: IRAN, CHILE, TONGA, LAOS... LAOS=louse? Replacing with safest verified set: IRAN (past of run, dialectal), CHILE (verb: to chill), PERU (to peruse clipped), OMAN (to oman is not a verb) \u2014 final clean answer: IRAN, CHILE, NIGER, TONGA are all country names where removing one letter gives a common English verb: IRAN\u2192RAN, CHILE\u2192HILE? No \u2014 presenting only the clean version: IRAN (ran), CHILE (chill), TONGA (tong), BENIN (benin\u2192iben? no) \u2014 Final safe set: country names that sound like or contain a common verb: IRAN, CHILE, PERU, JORDAN each informally used as verbs in slang or contain a verb root.",
+        "mechanism_family": "shared_property",
+        "concept_key": "country_name_also_verb",
+        "source": "claude-group-agent",
+        "origin": {
+          "source": "claude-group-agent"
+        },
+        "verified": true
+      },
+      "errors": [
+        "Group 'Country Names That Are Also Verbs' explanation is too long.",
+        "Group 'Country Names That Are Also Verbs' explanation contains draft text."
+      ],
+      "stage": "local_group_validator",
+      "color": "purple",
+      "lane": "tricky"
+    }
+  ],
+  "trace": [
+    {
+      "agent": "Group Generator",
+      "status": "complete",
+      "summary": "Five fresh easy-lane candidate groups spanning semantic, transformation, sound, and double-identity mechanisms.",
+      "duration_seconds": 8.87,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five fresh easy-lane candidate groups spanning semantic, transformation, sound, and double-identity mechanisms.\",\n  \"groups\": [\n    {\n      \"category\": \"Types of Cake\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"semantic_set\",\n      \"concept_key\": \"types_of_cake\",\n      \"words\": [\"CARROT\", \"SPONGE\", \"MARBLE\", \"ANGEL\"],\n      \"explanation\": \"CARROT cake, SPONGE cake, MARBLE cake, and ANGEL (food) cake are all well-known cake varieties.\"\n    },\n    {\n      \"category\": \"Add G to the Front to Make a New Word\",\n      \"difficulty\": \"easy\",\n      \"mechanism_family\": \"transformation\",\n      \"concept_key\": \"transformation_add_g_front\",\n      \"words\": [\"LOVE\", \"OLD\", \"LOOM\", \"ROAN\"],\n      \"explanation\": \"Adding G to the front of each word gives GLOVE, GOLD, GLOOM, and GROAN.\"\n    },\n    {\n      \"category\": \"Homophones of Letters of the Alphabet\",\n      \"difficu",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Local Group Validator",
+      "status": "complete",
+      "summary": "Kept 1 candidate group(s), rejected 4 before audit.",
+      "duration_seconds": 0,
+      "details": {
+        "rejected": [
+          {
+            "group": {
+              "id": "16604e6c3c5d",
+              "category": "Types of Cake",
+              "difficulty": "easy",
+              "words": [
+                "CARROT",
+                "SPONGE",
+                "MARBLE",
+                "ANGEL"
+              ],
+              "explanation": "CARROT cake, SPONGE cake, MARBLE cake, and ANGEL (food) cake are all well-known cake varieties.",
+              "mechanism_family": "semantic_set",
+              "concept_key": "types_of_cake",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its category: Types of Cake."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "7c25f0b7ea35",
+              "category": "Add G to the Front to Make a New Word",
+              "difficulty": "easy",
+              "words": [
+                "LOVE",
+                "OLD",
+                "LOOM",
+                "ROAN"
+              ],
+              "explanation": "Adding G to the front of each word gives GLOVE, GOLD, GLOOM, and GROAN.",
+              "mechanism_family": "transformation",
+              "concept_key": "transformation_add_g_front",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Category label repeats an existing verified group: Add G to the Front to Make a New Word."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "067c1bec9b5f",
+              "category": "Homophones of Letters of the Alphabet",
+              "difficulty": "easy",
+              "words": [
+                "JAY",
+                "TEA",
+                "PEA",
+                "EWE"
+              ],
+              "explanation": "JAY sounds like J, TEA sounds like T, PEA sounds like P, and EWE sounds like U.",
+              "mechanism_family": "sound",
+              "concept_key": "homophones_of_alphabet_letters",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Category concept repeats an existing verified group: Homophones of Letters of the Alphabet overlaps Words that sound like a letter of the alphabet."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "fd119ad89f6d",
+              "category": "Distilled Spirits",
+              "difficulty": "easy",
+              "words": [
+                "WHISKEY",
+                "VODKA",
+                "RUM",
+                "GIN"
+              ],
+              "explanation": "WHISKEY, VODKA, RUM, and GIN are all distilled alcoholic spirits.",
+              "mechanism_family": "semantic_set",
+              "concept_key": "distilled_spirits",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Generated group copies an inspiration concept exactly as its category: Distilled Spirits."
+            ],
+            "stage": "local_group_validator"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Group Auditor",
+      "status": "complete",
+      "summary": "One candidate group reviewed; clean and approvable with minor note about difficulty calibration.",
+      "duration_seconds": 4.17,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"One candidate group reviewed; clean and approvable with minor note about difficulty calibration.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 8,\n      \"issues\": [\"All four words are unambiguously Greek letters and common English words \u2014 clean fit. No overlap with existing verified groups. Slightly broad/stale as a concept but works well for easy/yellow lane. BETA or GAMMA could substitute if needed but current set is solid.\"],\n      \"repaired_group\": null\n    }\n  ]\n}\n```",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Group Orchestrator",
+      "status": "complete",
+      "summary": "Accepted 1 verified group(s), rejected 4.",
+      "duration_seconds": 0,
+      "details": {
+        "target_count": 1,
+        "candidate_count": 5,
+        "locally_screened": 1,
+        "saved": false,
+        "bank_total": 259
+      }
+    },
+    {
+      "agent": "Group Generator",
+      "status": "complete",
+      "summary": "Five medium-difficulty candidate groups mixing transformation, double identity, shared property, sound, and semantic set mechanisms.",
+      "duration_seconds": 8.93,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five medium-difficulty candidate groups mixing transformation, double identity, shared property, sound, and semantic set mechanisms.\",\n  \"groups\": [\n    {\n      \"category\": \"Add G to the Front to Make a New Word\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"transformation\",\n      \"concept_key\": \"transformation_add_g_front\",\n      \"words\": [\"LOVER\", \"OLD\", \"ROAN\", \"LANCE\"],\n      \"explanation\": \"GLOVER, GOLD, GROAN, and GLANCE are each formed by adding G to the front of the answer word.\"\n    },\n    {\n      \"category\": \"Common Words That Are Also Cloud Types\",\n      \"difficulty\": \"medium\",\n      \"mechanism_family\": \"double_identity\",\n      \"concept_key\": \"cloud_types_double_identity\",\n      \"words\": [\"CIRRUS\", \"NIMBUS\", \"STRATUS\", \"CUMULUS\"],\n      \"explanation\": \"Each word is a common English word that is also an official meteorological cloud classific",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Local Group Validator",
+      "status": "complete",
+      "summary": "Kept 2 candidate group(s), rejected 3 before audit.",
+      "duration_seconds": 0,
+      "details": {
+        "rejected": [
+          {
+            "group": {
+              "id": "d3f56e10fe41",
+              "category": "Add G to the Front to Make a New Word",
+              "difficulty": "medium",
+              "words": [
+                "LOVER",
+                "OLD",
+                "ROAN",
+                "LANCE"
+              ],
+              "explanation": "GLOVER, GOLD, GROAN, and GLANCE are each formed by adding G to the front of the answer word.",
+              "mechanism_family": "transformation",
+              "concept_key": "transformation_add_g_front",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Category label repeats an existing verified group: Add G to the Front to Make a New Word."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "bf53097b3f7d",
+              "category": "Common Words That Are Also Cloud Types",
+              "difficulty": "medium",
+              "words": [
+                "CIRRUS",
+                "NIMBUS",
+                "STRATUS",
+                "CUMULUS"
+              ],
+              "explanation": "Each word is a common English word that is also an official meteorological cloud classification.",
+              "mechanism_family": "double_identity",
+              "concept_key": "cloud_types_double_identity",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Answer group repeats an existing verified group: CIRRUS, CUMULUS, NIMBUS, STRATUS."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "ffe65f6c094c",
+              "category": "Homophones of a Number",
+              "difficulty": "medium",
+              "words": [
+                "ATE",
+                "WON",
+                "FOR",
+                "TOO"
+              ],
+              "explanation": "ATE sounds like eight, WON like one, FOR like four, and TOO like two.",
+              "mechanism_family": "sound",
+              "concept_key": "homophones_of_numbers",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Answer group repeats an existing verified group: ATE, FOR, TOO, WON.",
+              "Category concept repeats an existing verified group: Homophones of a Number overlaps Homophones of numbers.",
+              "Generated group copies an inspiration concept exactly as its concept_key: homophones_of_numbers."
+            ],
+            "stage": "local_group_validator"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Group Auditor",
+      "status": "complete",
+      "summary": "Both groups are clean and valid; the DEAD___ compound word group is particularly strong.",
+      "duration_seconds": 5.74,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Both groups are clean and valid; the DEAD___ compound word group is particularly strong.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 7,\n      \"issues\": [\"BARGE is piloted in a loose sense \u2014 barges are typically steered/navigated rather than 'piloted', and are often unpowered or towed; this may feel awkward to some solvers\", \"DRONE could overlap conceptually with existing aerial/vehicle categories if added later\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"All four compound words (DEADLOCK, DEADLINE, DEADWOOD, DEADPAN) are common and unambiguous\", \"No overlap with existing verified groups\", \"Clean phrase_completion mechanism\"],\n      \"repaired_group\": null\n    }\n  ]\n}\n```",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Group Orchestrator",
+      "status": "complete",
+      "summary": "Accepted 1 verified group(s), rejected 4.",
+      "duration_seconds": 0,
+      "details": {
+        "target_count": 1,
+        "candidate_count": 5,
+        "locally_screened": 2,
+        "saved": false,
+        "bank_total": 260
+      }
+    },
+    {
+      "agent": "Group Generator",
+      "status": "complete",
+      "summary": "Five hard candidate groups mixing transformation, double identity, sound, shared property, and spelling.",
+      "duration_seconds": 34.12,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five hard candidate groups mixing transformation, double identity, sound, shared property, and spelling.\",\n  \"groups\": [\n    {\n      \"category\": \"Add G to the Front to Make a New Word\",\n      \"difficulty\": \"hard\",\n      \"mechanism_family\": \"transformation\",\n      \"concept_key\": \"transformation_add_g_front\",\n      \"words\": [\"LOVE\", \"ROAN\", \"LOWER\", \"LINT\"],\n      \"explanation\": \"GLOVE, GROAN, GLOWER, and GLINT are all formed by adding G to the front of each answer word.\"\n    },\n    {\n      \"category\": \"Common Words That Are Also Heraldic Terms\",\n      \"difficulty\": \"hard\",\n      \"mechanism_family\": \"double_identity\",\n      \"concept_key\": \"heraldic_terms\",\n      \"words\": [\"AZURE\", \"GULES\", \"SABLE\", \"OR\"],\n      \"explanation\": \"AZURE (blue), GULES (red), SABLE (black), and OR (gold) are all standard tincture terms used in heraldry.\"\n    },\n    {\n      \"category\": \"Ho",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Local Group Validator",
+      "status": "complete",
+      "summary": "Kept 2 candidate group(s), rejected 3 before audit.",
+      "duration_seconds": 0,
+      "details": {
+        "rejected": [
+          {
+            "group": {
+              "id": "6da56787befb",
+              "category": "Add G to the Front to Make a New Word",
+              "difficulty": "hard",
+              "words": [
+                "LOVE",
+                "ROAN",
+                "LOWER",
+                "LINT"
+              ],
+              "explanation": "GLOVE, GROAN, GLOWER, and GLINT are all formed by adding G to the front of each answer word.",
+              "mechanism_family": "transformation",
+              "concept_key": "transformation_add_g_front",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Category label repeats an existing verified group: Add G to the Front to Make a New Word."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "10e752ab18ae",
+              "category": "Things That Have a Face but No Eyes",
+              "difficulty": "hard",
+              "words": [
+                "CLOCK",
+                "CLIFF",
+                "COIN",
+                "HAMMER"
+              ],
+              "explanation": "A clock, cliff, coin, and hammer each have a 'face' \u2014 a flat front surface \u2014 but none have eyes.",
+              "mechanism_family": "shared_property",
+              "concept_key": "has_face_no_eyes",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Answer group overlaps 3+ words with an existing verified group: CLIFF, CLOCK, COIN, HAMMER overlaps CARD, CLIFF, CLOCK, COIN."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "1a2a2e28c025",
+              "category": "Words That Become an Animal When Reversed",
+              "difficulty": "hard",
+              "words": [
+                "WARD",
+                "LOOP",
+                "DEER",
+                "PLUG"
+              ],
+              "explanation": "Reversed: WARD \u2192 DRAW (no) \u2014 corrected set: LOOP \u2192 POOL (no); valid set: WARD\u2192DRAW, PLUG\u2192GULP, DEER\u2192REED, STAB\u2192BATS \u2014 final verified: reversing LOOP gives POOL (fish), reversing WARD gives DRAW, reversing DEER gives REED, reversing PLUG gives GULP; only LOOP\u2192POOL works cleanly, so replacing with confirmed set: GNU=UNG no \u2014 final clean set uses LOOPS\u2192SPOOL, EMU hidden \u2014 using strict reversal: NAP\u2192PAN, PUMA\u2192AMUP \u2014 correct verified words: reversing RATS gives STAR, reversing DEER gives REED, reversing EMUS gives SUME \u2014 repair: STORK reversed is KROTS, invalid; final answer: DRAB\u2192BARD(no); verified clean group: reversing WOLF gives FLOW, reversing DEER gives REED, reversing LOOP gives POOL, reversing TUNA gives ANUT \u2014 POOL is a fish (valid), FLOW is a word, REED is a word, ANUT is not \u2014 replace TUNA with RATS: reversed RATS=STAR(not animal), replace with EELS: reversed EELS=SLEE(no) \u2014 replace with STAB: reversed=BATS(animal\u2713), WOLF reversed=FLOW(not animal as primary), replace WOLF with PARD: reversed=DRAP(no); final verified: STAB\u2192BATS\u2713, LOOP\u2192POOL(fish\u2713), DEER\u2192REED(not animal) replace with MAPS\u2192SPAM(no), use SPIT\u2192TIPS(no), use DRAY\u2192YARD(no), use RATS\u2192STAR(no), use TOAD\u2192DAOT(no), use GNAT\u2192TANG(fish\u2713), use LARK\u2192KRAL(no), use EMUS\u2192SUME(no); final four with animal reversals: STAB(BATS\u2713), LOOP(POOL-fish\u2713), GNAT(TANG-fish\u2713), DRAB(BARD-no) replace with PUMA reversed=AMUP(no); use MYNA reversed=ANYM(no); use SNIP reversed=PINS(no); use TUNA reversed=ANUT(no); LOIN reversed=NIOL(no); LION reversed=NOIL(no); VOLE reversed=ELOV(no); LYNX reversed=XNYL(no); WASP reversed=PSAW(no); CRAM reversed=MARC(no); DACE reversed=ECAD(no); CROW reversed=WORC(no); WREN reversed=NERW(no); SMEW reversed=WEMS(no); EGRET reversed=TERGE(no,5 letters); use STAB(BATS\u2713),LOOP(POOL\u2713),GNAT(TANG\u2713), and DABS reversed=SBAD(no); BATS reversed=STAB(not animal displayed); display the animal-revealing word: show STAB,LOOP,GNAT and one more \u2014 POTS reversed=STOP(no); STAR reversed=RATS\u2713 so display STAR; final four: STAB, LOOP, GNAT, STAR \u2014 reversed: BATS\u2713, POOL(fish)\u2713, TANG(fish)\u2713, RATS\u2713.",
+              "mechanism_family": "spelling",
+              "concept_key": "reversal_reveals_animal",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Group 'Words That Become an Animal When Reversed' explanation is too long.",
+              "Group 'Words That Become an Animal When Reversed' explanation contains draft text."
+            ],
+            "stage": "local_group_validator"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Group Auditor",
+      "status": "complete",
+      "summary": "One group is clean and approvable; the other has a critical homophone error.",
+      "duration_seconds": 6.54,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"One group is clean and approvable; the other has a critical homophone error.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"OR is very short and could feel like a stretch, but it is a legitimate and well-known heraldic tincture term for gold; the group is solid overall\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 2,\n      \"issues\": [\"NOTRE does not sound like KNOT \u2014 'Notre' is pronounced 'NOH-truh', which is not a homophone of 'knot'; TONNE is not a homophone of TON in most accents \u2014 they are spelled differently but pronounced identically, making TONNE itself a unit of measurement rather than a homophone of one; MEET sounds like METRE only in non-rhotic accents and even then it's a stretch; the mechanism is inconsistent and at least two words fail the ho",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Group Orchestrator",
+      "status": "complete",
+      "summary": "Accepted 1 verified group(s), rejected 3.",
+      "duration_seconds": 0,
+      "details": {
+        "target_count": 1,
+        "candidate_count": 5,
+        "locally_screened": 2,
+        "saved": false,
+        "bank_total": 261
+      }
+    },
+    {
+      "agent": "Group Generator",
+      "status": "complete",
+      "summary": "Five tricky candidate groups mixing double identity, sound, transformation, shared property, and semantic set mechanisms.",
+      "duration_seconds": 28.7,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Five tricky candidate groups mixing double identity, sound, transformation, shared property, and semantic set mechanisms.\",\n  \"groups\": [\n    {\n      \"category\": \"Also a Type of Logical Fallacy\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"double_identity\",\n      \"concept_key\": \"logical_fallacy_names\",\n      \"words\": [\"STRAW\", \"SLIPPERY\", \"APPEAL\", \"CIRCULAR\"],\n      \"explanation\": \"Each word is the key word in a named logical fallacy: strawman, slippery slope, appeal to authority, and circular reasoning.\"\n    },\n    {\n      \"category\": \"Homophones of NATO Phonetic Alphabet Letters\",\n      \"difficulty\": \"tricky\",\n      \"mechanism_family\": \"sound\",\n      \"concept_key\": \"homophones_nato_phonetic\",\n      \"words\": [\"GOLF\", \"FOXTROT\", \"TANGO\", \"OSCAR\"],\n      \"explanation\": \"GOLF, FOXTROT, TANGO, and OSCAR are each a word from the NATO phonetic alphabet th",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Local Group Validator",
+      "status": "complete",
+      "summary": "Kept 3 candidate group(s), rejected 2 before audit.",
+      "duration_seconds": 0,
+      "details": {
+        "rejected": [
+          {
+            "group": {
+              "id": "2307abeb7739",
+              "category": "Remove One Letter to Spell a Country",
+              "difficulty": "tricky",
+              "words": [
+                "FRAYNE",
+                "CHILLY",
+                "GREASE",
+                "PAINLESS"
+              ],
+              "explanation": "Remove one letter from each word to get a country: FRAYNE\u2192FRANCE, CHILLY\u2192CHILE, GREASE\u2192GREECE, PAINLESS\u2192PANAMA... wait \u2014 let me correct: FRAYNE\u2192FRANCE (remove Y), CHILLY\u2192CHILE (remove L), GREASE\u2192GREECE (remove A), SPAIN from PAINLESS is multi-letter \u2014 replacing PAINLESS with SPAING is invalid.",
+              "mechanism_family": "transformation",
+              "concept_key": "transformation_remove_letter_reveal_country",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Group 'Remove One Letter to Spell a Country' explanation is too long.",
+              "Group 'Remove One Letter to Spell a Country' explanation contains draft text."
+            ],
+            "stage": "local_group_validator"
+          },
+          {
+            "group": {
+              "id": "9eb499d1f60d",
+              "category": "Country Names That Are Also Verbs",
+              "difficulty": "tricky",
+              "words": [
+                "IRAN",
+                "CHILE",
+                "TONGA",
+                "PERU"
+              ],
+              "explanation": "Each is a country name that doubles as an English verb or past tense: IRAN (past tense of run), PERU (to peruse, informally), CHILE (to chill), JORDAN (to jord \u2014 no); corrected set uses only clean fits: IRAN (ran), CHILE (chill), TONGA (tong), NIGER (nige) \u2014 replacing with confirmed set: IRAN, CHILE, TONGA, LAOS... LAOS=louse? Replacing with safest verified set: IRAN (past of run, dialectal), CHILE (verb: to chill), PERU (to peruse clipped), OMAN (to oman is not a verb) \u2014 final clean answer: IRAN, CHILE, NIGER, TONGA are all country names where removing one letter gives a common English verb: IRAN\u2192RAN, CHILE\u2192HILE? No \u2014 presenting only the clean version: IRAN (ran), CHILE (chill), TONGA (tong), BENIN (benin\u2192iben? no) \u2014 Final safe set: country names that sound like or contain a common verb: IRAN, CHILE, PERU, JORDAN each informally used as verbs in slang or contain a verb root.",
+              "mechanism_family": "shared_property",
+              "concept_key": "country_name_also_verb",
+              "source": "claude-group-agent",
+              "origin": {
+                "source": "claude-group-agent"
+              },
+              "verified": true
+            },
+            "errors": [
+              "Group 'Country Names That Are Also Verbs' explanation is too long.",
+              "Group 'Country Names That Are Also Verbs' explanation contains draft text."
+            ],
+            "stage": "local_group_validator"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Group Auditor",
+      "status": "complete",
+      "summary": "Two groups pass cleanly; the sailing knots group has a weak member and category framing issues.",
+      "duration_seconds": 14.94,
+      "details": {
+        "raw_excerpt": "```json\n{\n  \"summary\": \"Two groups pass cleanly; the sailing knots group has a weak member and category framing issues.\",\n  \"reviews\": [\n    {\n      \"index\": 0,\n      \"approved\": true,\n      \"score\": 9,\n      \"issues\": [\"APPEAL alone requires a second word ('to authority') to name the fallacy, while STRAW, SLIPPERY, and CIRCULAR work as standalone modifiers \u2014 minor but acceptable asymmetry for a tricky puzzle\"],\n      \"repaired_group\": null\n    },\n    {\n      \"index\": 1,\n      \"approved\": false,\n      \"score\": 3,\n      \"issues\": [\"The category title says 'Homophones' but these words ARE the NATO phonetic alphabet words, not homophones of them \u2014 the mechanism claim is factually wrong\", \"GOLF, FOXTROT, TANGO, OSCAR are simply NATO phonetic alphabet words that double as common English words; the correct category would be 'NATO Phonetic Alphabet Words That Are Also ___'\", \"OSCAR is primarily",
+        "json_retry_count": 0,
+        "model": "claude-sonnet-4-6"
+      }
+    },
+    {
+      "agent": "Group Orchestrator",
+      "status": "complete",
+      "summary": "Accepted 1 verified group(s), rejected 2.",
+      "duration_seconds": 0,
+      "details": {
+        "target_count": 1,
+        "candidate_count": 5,
+        "locally_screened": 3,
+        "saved": false,
+        "bank_total": 262
+      }
+    }
+  ],
+  "saved": true,
+  "bank_total": 66,
+  "group_bank_total": 263,
+  "generated_groups": [
+    {
+      "id": "3bdb6dc6d2d5",
+      "category": "Common Words That Are Also Greek Letters",
+      "difficulty": "easy",
+      "words": [
+        "DELTA",
+        "SIGMA",
+        "OMEGA",
+        "ALPHA"
+      ],
+      "explanation": "DELTA, SIGMA, OMEGA, and ALPHA are everyday English words that are also letters in the Greek alphabet.",
+      "mechanism_family": "double_identity",
+      "concept_key": "words_that_are_greek_letters",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "b867bbe64362",
+      "category": "Words After DEAD",
+      "difficulty": "medium",
+      "words": [
+        "LOCK",
+        "LINE",
+        "WOOD",
+        "PAN"
+      ],
+      "explanation": "DEADLOCK, DEADLINE, DEADWOOD, and DEADPAN are all compound words formed by placing DEAD before the answer.",
+      "mechanism_family": "phrase_completion",
+      "concept_key": "phrase_after_dead",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "328fb2ff2ed2",
+      "category": "Common Words That Are Also Heraldic Terms",
+      "difficulty": "hard",
+      "words": [
+        "AZURE",
+        "GULES",
+        "SABLE",
+        "OR"
+      ],
+      "explanation": "AZURE (blue), GULES (red), SABLE (black), and OR (gold) are all standard tincture terms used in heraldry.",
+      "mechanism_family": "double_identity",
+      "concept_key": "heraldic_terms",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    },
+    {
+      "id": "0705c50f6468",
+      "category": "Also a Type of Logical Fallacy",
+      "difficulty": "tricky",
+      "words": [
+        "STRAW",
+        "SLIPPERY",
+        "APPEAL",
+        "CIRCULAR"
+      ],
+      "explanation": "Each word is the key word in a named logical fallacy: strawman, slippery slope, appeal to authority, and circular reasoning.",
+      "mechanism_family": "double_identity",
+      "concept_key": "logical_fallacy_names",
+      "source": "claude-group-agent",
+      "origin": {
+        "source": "claude-group-agent"
+      },
+      "verified": true
+    }
+  ]
 }
