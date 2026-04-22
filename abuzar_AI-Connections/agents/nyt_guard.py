@@ -28,15 +28,33 @@ def stable_hash(prefix: str, parts: list[str]) -> str:
 def puzzle_words(puzzle: dict[str, Any]) -> list[str]:
     """Return normalized board words from either groups or a flat words field."""
 
+    board = puzzle.get("board")
+    if isinstance(board, list) and len(board) == 16:
+        return [normalize_guard_word(word) for word in board]
+
     if isinstance(puzzle.get("words"), list):
         return [normalize_guard_word(word) for word in puzzle["words"]]
 
     words: list[str] = []
-    for group in puzzle.get("groups", []):
-        if isinstance(group, dict):
-            words.extend(normalize_guard_word(word) for word in group.get("words", []))
-        elif isinstance(group, list):
-            words.extend(normalize_guard_word(word) for word in group)
+    groups_obj = puzzle.get("groups", [])
+    if isinstance(groups_obj, dict):
+        canonical_colors = ("yellow", "green", "blue", "purple")
+        if all(c in groups_obj for c in canonical_colors):
+            for color in canonical_colors:
+                entry = groups_obj[color]
+                if isinstance(entry, dict):
+                    words.extend(
+                        normalize_guard_word(word) for word in entry.get("words", [])
+                    )
+                elif isinstance(entry, list):
+                    words.extend(normalize_guard_word(word) for word in entry)
+            return words
+    if isinstance(groups_obj, list):
+        for group in groups_obj:
+            if isinstance(group, dict):
+                words.extend(normalize_guard_word(word) for word in group.get("words", []))
+            elif isinstance(group, list):
+                words.extend(normalize_guard_word(word) for word in group)
 
     return words
 
@@ -44,8 +62,27 @@ def puzzle_words(puzzle: dict[str, Any]) -> list[str]:
 def puzzle_group_word_sets(puzzle: dict[str, Any]) -> list[list[str]]:
     """Return normalized group word sets when grouping data is available."""
 
+    groups_obj = puzzle.get("groups")
+    if isinstance(groups_obj, dict):
+        canonical_colors = ("yellow", "green", "blue", "purple")
+        if all(c in groups_obj for c in canonical_colors):
+            out: list[list[str]] = []
+            for color in canonical_colors:
+                entry = groups_obj[color]
+                if isinstance(entry, dict):
+                    words = entry.get("words", [])
+                elif isinstance(entry, list):
+                    words = entry
+                else:
+                    continue
+                out.append(sorted(normalize_guard_word(word) for word in words))
+            return out
+
+    if not isinstance(groups_obj, list):
+        return []
+
     groups: list[list[str]] = []
-    for group in puzzle.get("groups", []):
+    for group in groups_obj:
         if isinstance(group, dict):
             words = group.get("words", [])
         elif isinstance(group, list):
